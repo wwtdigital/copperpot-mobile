@@ -246,4 +246,10 @@ export const CacheMissingMenuItemRows = [
     label: 'relax expired topping',
     quantity: 9,
   },
+  {
+    id: 'menu-4612',
+    store: '387',
+    label: 'guard partial ticket',
+    quantity: 12,
+  },
 ];
