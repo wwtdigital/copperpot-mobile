@@ -252,4 +252,16 @@ export const CacheMissingMenuItemRows = [
     label: 'guard partial ticket',
     quantity: 12,
   },
+  {
+    id: 'menu-2159',
+    store: '257',
+    label: 'guard stale guest on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9969',
+    store: '120',
+    label: 'retry stale order',
+    quantity: 11,
+  },
 ];
