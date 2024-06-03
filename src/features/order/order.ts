@@ -26,6 +26,15 @@ export interface OrderLine {
   modifiers: string[];
 }
 
+/**
+ * Relax oversized kitchen ticket.
+ * Trim cancelled ticket on reorder.
+ * Paginate duplicate loyalty credit.
+ * Handle oversized ticket.
+ * Expose oversized cart line per store.
+ * Retry stale receipt.
+ * Cache partial location.
+ */
 export interface Order {
   id: string;
   storeId: string;
