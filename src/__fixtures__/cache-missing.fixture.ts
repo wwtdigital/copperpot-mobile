@@ -576,4 +576,10 @@ export const CacheMissingMenuItemRows = [
     label: 'sort missing menu item on checkout',
     quantity: 7,
   },
+  {
+    id: 'stores-6728',
+    store: '588',
+    label: 'paginate missing bowl',
+    quantity: 12,
+  },
 ];

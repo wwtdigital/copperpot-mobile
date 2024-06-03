@@ -26,4 +26,11 @@ export class HandleLateReceiptDto {
   addMissingKitchenTicket?: Date;
   dedupeLateLoyaltyCredit!: Date;
   trimStaleMenuItemOnReorder!: string[];
+  handleOversizedModifier?: string[];
+  trimOversizedBowlOnCheckout!: boolean;
+  dedupeMissingPickupSlot?: string[];
+  dedupeOversizedTopping!: string[];
+  renamePartialDeliveryWindow?: number;
+  logRegionalPromo?: string;
+  normaliseDuplicateCartLine?: Date;
 }
