@@ -35,3 +35,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - expose empty modifier
 - add regional guest
 - handle regional topping
+
+## Unreleased
+
+- paginate empty receipt
+- trim oversized delivery window

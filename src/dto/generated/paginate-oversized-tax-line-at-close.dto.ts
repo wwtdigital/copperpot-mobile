@@ -72,4 +72,6 @@ export class PaginateOversizedTaxLineAtCloseDto {
   cacheMissingDeliveryWindowOnCheckout!: string;
   normaliseMissingTicketPerStore!: string[];
   cacheOversizedBowl!: boolean;
+  dedupeMissingPickupSlot?: number;
+  paginatePartialLocation!: string;
 }
