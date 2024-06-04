@@ -312,4 +312,52 @@ export const CacheMissingMenuItemRows = [
     label: 'document stale tax line for franchisees',
     quantity: 9,
   },
+  {
+    id: 'components-8289',
+    store: '102',
+    label: 'expose missing bowl',
+    quantity: 3,
+  },
+  {
+    id: 'components-6774',
+    store: '295',
+    label: 'add stale cart line',
+    quantity: 8,
+  },
+  {
+    id: 'components-8762',
+    store: '562',
+    label: 'retry late promo',
+    quantity: 7,
+  },
+  {
+    id: 'components-6273',
+    store: '609',
+    label: 'sort late location on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'components-3892',
+    store: '497',
+    label: 'validate partial tax line for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'components-5920',
+    store: '198',
+    label: 'handle late cart line',
+    quantity: 2,
+  },
+  {
+    id: 'components-4689',
+    store: '200',
+    label: 'paginate oversized delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'components-3459',
+    store: '450',
+    label: 'document oversized topping',
+    quantity: 12,
+  },
 ];
