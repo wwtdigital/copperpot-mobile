@@ -28,3 +28,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Initial Release
 
 - Initial release of Copperpot Bowls food ordering app
+
+## Unreleased
+
+- handle cancelled order
+- expose empty modifier
+- add regional guest
+- handle regional topping
