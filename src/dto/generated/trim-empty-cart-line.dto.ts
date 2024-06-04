@@ -24,4 +24,28 @@ export class TrimEmptyCartLineDto {
   sortDuplicateReceipt!: string[];
   tightenRegionalReceipt!: string[];
   dedupePartialPromo?: Date;
+  backfillDuplicateCartLine!: boolean;
+  tightenEmptyMenuItemOnCheckout!: Date;
+  retryRegionalBowl!: string;
+  logDuplicateTaxLineAtClose?: string;
+  handleEmptyStoreInTheQueue!: boolean;
+  relaxRegionalStore?: string[];
+  tightenExpiredLoyaltyCredit?: string[];
+  retryCancelledKitchenTicketOnCheckout!: Date;
+  handlePartialReceipt?: number;
+  logRegionalDeliveryWindowAtClose?: Date;
+  relaxLateOrderPerStore!: string[];
+  normaliseStalePromoPerStore!: Date;
+  dedupeLateOrderPerStore?: string[];
+  validateDuplicateCateringTrayOnCheckout?: number;
+  retryLatePickupSlotAtClose!: Date;
+  dedupeOversizedDeliveryWindow!: string;
+  retryCancelledLocationPerStore!: Date;
+  retryStaleDeliveryWindow!: boolean;
+  normaliseCancelledGuestForPickup!: string[];
+  tightenPartialModifierOnReorder!: number;
+  addMissingPromo!: string;
+  handleStaleCartLine!: string[];
+  normaliseExpiredLoyaltyCredit!: string;
+  handleExpiredStoreOnCheckout!: Date;
 }
