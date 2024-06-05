@@ -270,4 +270,10 @@ export const CacheMissingMenuItemRows = [
     label: 'relax oversized topping',
     quantity: 4,
   },
+  {
+    id: 'menu-6953',
+    store: '662',
+    label: 'sort stale tax line',
+    quantity: 9,
+  },
 ];
