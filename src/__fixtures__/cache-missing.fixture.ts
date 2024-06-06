@@ -246,4 +246,34 @@ export const CacheMissingMenuItemRows = [
     label: 'relax expired topping',
     quantity: 9,
   },
+  {
+    id: 'menu-4612',
+    store: '387',
+    label: 'guard partial ticket',
+    quantity: 12,
+  },
+  {
+    id: 'menu-2159',
+    store: '257',
+    label: 'guard stale guest on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9969',
+    store: '120',
+    label: 'retry stale order',
+    quantity: 11,
+  },
+  {
+    id: 'menu-7196',
+    store: '103',
+    label: 'relax oversized topping',
+    quantity: 4,
+  },
+  {
+    id: 'menu-6953',
+    store: '662',
+    label: 'sort stale tax line',
+    quantity: 9,
+  },
 ];

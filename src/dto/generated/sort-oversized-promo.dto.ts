@@ -24,4 +24,9 @@ export class SortOversizedPromoDto {
   logExpiredLocation?: string[];
   trimCancelledCartLineForFranchisees!: string;
   trimMissingCateringTrayOnCheckout!: number;
+  logCancelledPromoAtClose!: Date;
+  documentOversizedReceiptForPickup!: boolean;
+  dedupeDuplicateCateringTray!: Date;
+  normaliseLateTaxLineOnCheckout?: string;
+  exposeDuplicateGuest!: Date;
 }
