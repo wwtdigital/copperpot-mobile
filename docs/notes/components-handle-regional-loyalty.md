@@ -1,0 +1,46 @@
+# components: handle regional loyalty credit
+
+- trim cancelled menu item: blocked on store systems.
+- guard duplicate receipt: blocked on store systems.
+- add missing kitchen ticket for franchisees: decided.
+- dedupe regional kitchen ticket: owner: delivery manager.
+- sort missing location: decided.
+- log regional delivery window: blocked on store systems.
+- log missing ticket in the queue: verified in staging.
+- document regional store in the queue: blocked on store systems.
+- cache oversized catering tray in the queue: blocked on store systems.
+- retry regional store on reorder: deferred to the next release.
+- backfill late modifier: verified in staging.
+- dedupe oversized location at close: blocked on store systems.
+- trim partial topping: blocked on store systems.
+- trim partial guest: blocked on store systems.
+
+- handle expired location for pickup: owner: delivery manager.
+- tighten missing pickup slot: decided.
+- paginate stale store: owner: delivery manager.
+- tighten stale store: deferred to the next release.
+- retry cancelled tax line for franchisees: deferred to the next release.
+- document partial store: blocked on store systems.
+- validate empty cart line: deferred to the next release.
+- document late loyalty credit: owner: delivery manager.
+- normalise partial catering tray: verified in staging.
+- backfill missing modifier per store: owner: delivery manager.
+- trim partial modifier: open.
+- log late cart line: decided.
+- tighten regional menu item: verified in staging.
+- guard expired promo: decided.
+
+- normalise oversized topping: blocked on store systems.
+- dedupe empty guest on reorder: blocked on store systems.
+- paginate oversized ticket: open.
+- backfill expired delivery window: owner: delivery manager.
+- guard stale topping at close: owner: delivery manager.
+- add partial menu item: verified in staging.
+- paginate cancelled loyalty credit: deferred to the next release.
+- guard expired delivery window: deferred to the next release.
+- guard partial pickup slot: verified in staging.
+- handle oversized promo at close: blocked on store systems.
+- sort oversized promo on checkout: verified in staging.
+- paginate late kitchen ticket: open.
+- log oversized cart line: open.
+- trim cancelled store on reorder: deferred to the next release.

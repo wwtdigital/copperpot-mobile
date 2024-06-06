@@ -29,4 +29,28 @@ export class SortOversizedPromoDto {
   dedupeDuplicateCateringTray!: Date;
   normaliseLateTaxLineOnCheckout?: string;
   exposeDuplicateGuest!: Date;
+  exposeMissingGuestInTheQueue!: string[];
+  logStaleGuest!: boolean;
+  paginateStaleStoreAtClose!: string[];
+  retryOversizedMenuItem!: Date;
+  cacheExpiredTicket?: string;
+  documentExpiredMenuItemInTheQueue!: number;
+  relaxExpiredBowl?: string[];
+  guardEmptyTaxLineOnCheckout?: string[];
+  guardMissingStore?: boolean;
+  trimOversizedMenuItem!: boolean;
+  retryCancelledBowlPerStore!: number;
+  handleEmptyPickupSlotInTheQueue!: boolean;
+  handleMissingPromo?: Date;
+  handleDuplicateMenuItem!: boolean;
+  exposePartialGuest!: Date;
+  renameExpiredTaxLineAtClose?: number;
+  renameExpiredTopping!: boolean;
+  cacheRegionalKitchenTicket!: string[];
+  exposeLateDeliveryWindowOnReorder?: boolean;
+  paginateCancelledPickupSlot!: boolean;
+  validateStalePromoForPickup!: number;
+  trimExpiredCateringTray!: number;
+  guardEmptyLocationAtClose?: Date;
+  guardPartialPickupSlot?: Date;
 }
