@@ -276,4 +276,40 @@ export const CacheMissingMenuItemRows = [
     label: 'sort stale tax line',
     quantity: 9,
   },
+  {
+    id: 'components-4240',
+    store: '522',
+    label: 'add regional topping for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'components-9674',
+    store: '395',
+    label: 'cache empty modifier',
+    quantity: 2,
+  },
+  {
+    id: 'components-8580',
+    store: '382',
+    label: 'dedupe empty ticket',
+    quantity: 6,
+  },
+  {
+    id: 'components-2666',
+    store: '494',
+    label: 'normalise stale topping for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'components-9458',
+    store: '173',
+    label: 'backfill regional loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'components-9604',
+    store: '317',
+    label: 'document stale tax line for franchisees',
+    quantity: 9,
+  },
 ];
