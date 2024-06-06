@@ -264,4 +264,10 @@ export const CacheMissingMenuItemRows = [
     label: 'retry stale order',
     quantity: 11,
   },
+  {
+    id: 'menu-7196',
+    store: '103',
+    label: 'relax oversized topping',
+    quantity: 4,
+  },
 ];
