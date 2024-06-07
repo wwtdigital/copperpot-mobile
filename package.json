@@ -1,19 +1,17 @@
 {
   "name": "copperpot-mobile",
   "displayName": "Copperpot Bowls",
-  "description": "A React Native mobile application for food ordering and delivery. Browse burgers, pizza, and more, place orders, and manage your account.",
-  "version": "1.0.2",
+  "description": "Copperpot Bowls ordering app for iOS and Android: order ahead, loyalty balance, store picker, push.",
+  "version": "1.1.0",
   "main": "expo-router/entry",
   "author": "Copperpot Bowls Engineering",
   "license": "MIT",
   "keywords": [
     "react-native",
     "expo",
-    "food-delivery",
-    "food-ordering",
-    "mobile-app",
-    "restaurant",
-    "delivery"
+    "order-ahead",
+    "loyalty",
+    "restaurant"
   ],
   "repository": {
     "type": "git",
@@ -25,7 +23,6 @@
   "homepage": "https://github.com/wwtdigital/copperpot-mobile#readme",
   "scripts": {
     "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",

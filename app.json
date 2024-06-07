@@ -2,27 +2,30 @@
   "expo": {
     "name": "Copperpot Bowls",
     "slug": "copperpot-mobile",
-    "description": "Food ordering and delivery mobile app",
-    "version": "1.0.0",
+    "description": "Copperpot Bowls: order ahead, pick a store, keep your loyalty balance in view.",
+    "version": "1.1.0",
     "privacy": "public",
-    "platforms": ["ios", "android", "web"],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "copperpotbowls",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "example.copperpotbowls.app"
     },
     "android": {
+      "package": "example.copperpotbowls.app",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#F7EBE4",
+        "foregroundImage": "./assets/images/adaptive-icon.png"
       },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "output": "static",
