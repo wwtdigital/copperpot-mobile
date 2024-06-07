@@ -53,4 +53,6 @@ export class SortOversizedPromoDto {
   trimExpiredCateringTray!: number;
   guardEmptyLocationAtClose?: Date;
   guardPartialPickupSlot?: Date;
+  dedupeOversizedGuestOnReorder!: Date;
+  addRegionalPickupSlotInTheQueue!: Date;
 }
