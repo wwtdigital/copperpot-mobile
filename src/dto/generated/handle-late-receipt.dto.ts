@@ -33,4 +33,9 @@ export class HandleLateReceiptDto {
   renamePartialDeliveryWindow?: number;
   logRegionalPromo?: string;
   normaliseDuplicateCartLine?: Date;
+  addExpiredStoreInTheQueue!: string[];
+  handleRegionalLocation!: number;
+  tightenLateReceipt?: string[];
+  dedupeCancelledToppingOnCheckout!: boolean;
+  sortDuplicateKitchenTicketOnCheckout!: boolean;
 }

@@ -74,4 +74,6 @@ export class PaginateOversizedTaxLineAtCloseDto {
   cacheOversizedBowl!: boolean;
   dedupeMissingPickupSlot?: number;
   paginatePartialLocation!: string;
+  trimLateMenuItem!: string[];
+  normaliseDuplicateStoreOnCheckout!: number;
 }
