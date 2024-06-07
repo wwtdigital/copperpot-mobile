@@ -6,55 +6,38 @@ Copperpot Bowls ordering app for iOS and Android: order ahead, loyalty balance, 
 
 ---
 
-# Copperpot Bowls 🍔🍕
+## What this is
 
-A React Native mobile application for food ordering and delivery. Browse a variety of food items like burgers and pizza, place orders, and manage your account.
+The Copperpot Bowls app for iOS and Android: pick a store, browse the menu, order ahead for pickup, keep a loyalty balance in view. Expo with expo-router, React Native, TypeScript, NativeWind for styling.
 
-Built with [Expo](https://expo.dev) and React Native.
+## Setup
 
-## Get started
-
-1. Install dependencies
+1. Node 20 and npm. No native toolchain is needed for day-to-day work; the app runs in Expo Go or a development build.
+2. Install dependencies
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Copy `.env.example` to `.env` and point `EXPO_PUBLIC_API_BASE_URL` at the guest API you want (the pilot list ships in the bundle when the API is unreachable).
+4. Start the bundler
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+   then press `i` for the iOS simulator, `a` for an Android emulator, or scan the QR code with Expo Go.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Layout
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+| Path | Holds |
+|---|---|
+| `src/app` | screens, by file-based route: the tab group, the store picker modal |
+| `src/components` | presentational pieces shared across screens |
+| `src/features/<module>` | one folder per domain: stores, menu, cart, order, loyalty, account, push; each has its types and API client |
+| `src/lib` | config, the HTTP client, money formatting |
+| `assets` | fonts, icons, images |
 
-## Get a fresh project
+## Environment variables
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Only `EXPO_PUBLIC_*` variables reach the bundle; `.env.example` lists them. Nothing secret belongs in this repository or in the app.
