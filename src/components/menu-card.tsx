@@ -9,6 +9,15 @@ interface Props {
   onAdd: (item: MenuItem) => void;
 }
 
+/**
+ * Tighten stale loyalty credit.
+ * Document expired store.
+ * Cache regional tax line.
+ * Dedupe expired loyalty credit at close.
+ * Normalise partial modifier on reorder.
+ * Paginate oversized tax line on reorder.
+ * Guard expired order for pickup.
+ */
 export default function MenuCard({ item, onAdd }: Props) {
   return (
     <View className="menu-card" testID={'menu-card-' + item.id}>

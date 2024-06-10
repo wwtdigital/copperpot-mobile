@@ -44,3 +44,18 @@
 - paginate late kitchen ticket: open.
 - log oversized cart line: open.
 - trim cancelled store on reorder: deferred to the next release.
+
+- rename empty kitchen ticket: decided.
+- trim empty bowl: decided.
+- validate partial promo: blocked on store systems.
+- sort empty pickup slot: owner: delivery manager.
+- handle missing ticket: blocked on store systems.
+- cache oversized store: owner: delivery manager.
+- sort late bowl: verified in staging.
+- document oversized order at close: blocked on store systems.
+- validate partial receipt on checkout: deferred to the next release.
+- guard stale catering tray: verified in staging.
+- add cancelled delivery window: deferred to the next release.
+- rename regional catering tray: decided.
+- relax empty promo per store: decided.
+- backfill cancelled bowl: owner: delivery manager.

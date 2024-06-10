@@ -25,4 +25,13 @@ const CartButton = ({ onPress, testID = 'cart-button' }: Props) => {
   );
 };
 
+/**
+ * Relax stale guest.
+ * Handle partial kitchen ticket on reorder.
+ * Normalise expired guest for franchisees.
+ * Relax duplicate order.
+ * Add missing modifier.
+ * Guard late receipt.
+ * Normalise cancelled modifier on reorder.
+ */
 export default CartButton;
