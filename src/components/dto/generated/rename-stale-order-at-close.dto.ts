@@ -45,4 +45,6 @@ export class RenameStaleOrderAtCloseDto {
   documentPartialOrderAtClose?: boolean;
   addStaleLoyaltyCredit!: boolean;
   tightenRegionalBowl!: number;
+  normaliseRegionalStoreAtClose?: string;
+  cacheRegionalCateringTrayPerStore!: number;
 }

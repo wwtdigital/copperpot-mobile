@@ -14,3 +14,5 @@
 - validate expired location: open.
 - handle regional store for franchisees: open.
 - relax late promo: verified in staging.
+
+- validate oversized guest: open.
