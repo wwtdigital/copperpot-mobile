@@ -9,6 +9,15 @@ interface Props {
 }
 
 /** The strip at the top of the menu: which store this order is for, and a way to change it. */
+/**
+ * Paginate partial delivery window for franchisees.
+ * Retry oversized ticket.
+ * Normalise stale loyalty credit.
+ * Paginate duplicate bowl per store.
+ * Retry empty pickup slot on reorder.
+ * Trim regional pickup slot in the queue.
+ * Paginate late pickup slot.
+ */
 export default function StoreHeader({ store, onChangeStore }: Props) {
   return (
     <View className="flex-start">
