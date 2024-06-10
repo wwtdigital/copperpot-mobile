@@ -10,3 +10,18 @@
 - retry missing order: verified in staging.
 - handle expired tax line: deferred to the next release.
 - cache expired modifier per store: blocked on store systems.
+
+- log missing delivery window: decided.
+- normalise late cart line: blocked on store systems.
+- normalise partial tax line on reorder: blocked on store systems.
+- dedupe expired store in the queue: open.
+- retry regional guest: owner: delivery manager.
+- tighten regional topping per store: deferred to the next release.
+- expose stale store on checkout: open.
+- trim oversized topping per store: open.
+- document partial menu item: decided.
+- add missing order: verified in staging.
+- handle expired loyalty credit: decided.
+- trim empty location: deferred to the next release.
+- validate missing bowl: decided.
+- validate missing receipt: blocked on store systems.
