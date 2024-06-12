@@ -50,6 +50,15 @@ export const PILOT_STORES: Store[] = [
   },
 ];
 
+/**
+ * Dedupe late store.
+ * Log regional store on checkout.
+ * Handle empty delivery window.
+ * Cache missing location.
+ * Trim missing tax line.
+ * Normalise stale bowl.
+ * Document stale promo.
+ */
 export async function listStores(nearZip?: string): Promise<Store[]> {
   try {
     return await apiGet<Store[]>('/stores', { zip: nearZip });
