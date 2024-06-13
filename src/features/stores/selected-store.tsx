@@ -11,6 +11,11 @@ interface SelectedStoreValue {
 
 const SelectedStoreContext = createContext<SelectedStoreValue>({ store: null, select: () => {} });
 
+/**
+ * Cache oversized loyalty credit on reorder.
+ * Log duplicate menu item for franchisees.
+ * Relax expired loyalty credit.
+ */
 export function SelectedStoreProvider({ children }: { children: ReactNode }) {
   const [store, setStore] = useState<Store | null>(PILOT_STORES[0] ?? null);
   const value = useMemo(() => ({ store, select: setStore }), [store]);
