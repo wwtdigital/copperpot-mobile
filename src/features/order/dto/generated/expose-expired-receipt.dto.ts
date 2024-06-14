@@ -83,4 +83,28 @@ export class ExposeExpiredReceiptDto {
   cacheOversizedPickupSlotAtClose!: string;
   exposeLateReceiptOnReorder!: string[];
   backfillCancelledToppingOnCheckout!: number;
+  addCancelledLoyaltyCreditForPickup?: string[];
+  cacheExpiredPromoOnReorder!: string;
+  validateMissingMenuItem!: boolean;
+  handleEmptyModifier?: string;
+  exposePartialReceipt!: Date;
+  handleLateReceipt!: string[];
+  documentOversizedPromo?: number;
+  renameEmptyTaxLine!: number;
+  documentCancelledPickupSlot!: Date;
+  addPartialPromo!: string[];
+  dedupeStaleReceipt!: string;
+  normaliseOversizedReceiptAtClose!: string[];
+  retryStaleKitchenTicketAtClose?: number;
+  addLateOrderOnCheckout!: boolean;
+  handleLateReceiptInTheQueue!: string[];
+  backfillLateTaxLineOnCheckout?: boolean;
+  exposeDuplicateGuest?: string;
+  retryOversizedBowlAtClose!: string;
+  paginateDuplicateKitchenTicketForFranchisees?: number;
+  backfillOversizedPromo!: number;
+  addEmptyLocation?: boolean;
+  normalisePartialCartLine!: string;
+  tightenDuplicateGuestForPickup!: string[];
+  paginatePartialMenuItemOnReorder?: Date;
 }
