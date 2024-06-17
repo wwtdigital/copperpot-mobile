@@ -18,3 +18,9 @@ All notable changes to the Copperpot Bowls app are recorded here. The format fol
 ## [1.0.2] - 2024-05-24
 
 Handover build from the agency: home screen with offers, cart badge, fonts and styling system.
+
+## Unreleased
+
+- validate late kitchen ticket
+- retry stale kitchen ticket
+- guard empty location
