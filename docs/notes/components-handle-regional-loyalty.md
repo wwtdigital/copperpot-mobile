@@ -57,5 +57,3 @@
 - guard stale catering tray: verified in staging.
 - add cancelled delivery window: deferred to the next release.
 - rename regional catering tray: decided.
-- relax empty promo per store: decided.
-- backfill cancelled bowl: owner: delivery manager.
