@@ -38,4 +38,22 @@ export class NormaliseMissingToppingDto {
   relaxExpiredLocationInTheQueue!: number;
   handleCancelledKitchenTicketOnReorder!: Date;
   cacheMissingModifier?: string[];
+  validateStaleModifierPerStore!: string[];
+  renameEmptyStore!: string[];
+  paginatePartialCateringTray!: string[];
+  addRegionalToppingForFranchisees?: string;
+  handleMissingOrderForFranchisees!: Date;
+  guardCancelledCartLineInTheQueue!: boolean;
+  guardRegionalModifier!: string[];
+  exposeOversizedBowl!: boolean;
+  trimStaleBowlInTheQueue!: string;
+  retryRegionalCateringTrayInTheQueue!: string;
+  normaliseCancelledPickupSlot!: Date;
+  dedupeExpiredTicketAtClose?: string;
+  tightenCancelledTopping!: Date;
+  documentDuplicateMenuItem!: string;
+  guardPartialCateringTray!: string;
+  addCancelledDeliveryWindow!: string[];
+  trimCancelledCateringTray!: Date;
+  renameExpiredPromoAtClose!: number;
 }
