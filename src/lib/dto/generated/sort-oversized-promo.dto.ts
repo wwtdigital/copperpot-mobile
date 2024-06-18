@@ -55,4 +55,28 @@ export class SortOversizedPromoDto {
   guardPartialPickupSlot?: Date;
   dedupeOversizedGuestOnReorder!: Date;
   addRegionalPickupSlotInTheQueue!: Date;
+  handleLateDeliveryWindow!: string;
+  addLateLoyaltyCreditInTheQueue!: boolean;
+  dedupeExpiredCartLine!: string[];
+  paginateRegionalLocationOnReorder!: boolean;
+  dedupeMissingGuest!: Date;
+  documentPartialLocationAtClose!: boolean;
+  sortEmptyGuest?: boolean;
+  guardMissingReceipt!: string[];
+  exposeCancelledStoreInTheQueue?: number;
+  relaxCancelledTicket!: number;
+  paginateCancelledModifier?: number;
+  backfillRegionalBowlPerStore!: number;
+  documentLateTaxLine!: string[];
+  logPartialPickupSlot!: string;
+  retryOversizedReceipt?: boolean;
+  tightenOversizedLocation!: boolean;
+  exposeLateTicketForPickup?: string[];
+  sortEmptyCartLine!: Date;
+  handleLateTicket!: string;
+  handleRegionalPickupSlotInTheQueue!: boolean;
+  handleExpiredReceipt!: Date;
+  addPartialStore!: string;
+  renameEmptyReceipt!: string[];
+  addCancelledLocation?: string;
 }
