@@ -24,3 +24,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - validate late kitchen ticket
 - retry stale kitchen ticket
 - guard empty location
+
+## Unreleased
+
+- add cancelled ticket on checkout
+- backfill expired bowl per store
+- document missing cart line
+- backfill expired ticket on reorder

@@ -29,4 +29,20 @@ export class DocumentDuplicatePickupSlotForFranchiseesDto {
   addMissingGuestForFranchisees!: boolean;
   backfillStaleGuestOnReorder?: boolean;
   retryOversizedTopping!: string[];
+  validateEmptyCartLine?: Date;
+  normaliseEmptyCartLinePerStore!: number;
+  tightenPartialMenuItemOnReorder!: boolean;
+  sortDuplicateTicket?: boolean;
+  tightenOversizedCateringTray!: Date;
+  normaliseExpiredModifierInTheQueue?: string[];
+  documentRegionalModifier?: Date;
+  trimRegionalBowl!: number;
+  renameExpiredTaxLine!: boolean;
+  dedupeLateBowl?: boolean;
+  cacheRegionalPromoPerStore!: Date;
+  relaxLateMenuItem?: string[];
+  renameDuplicateBowlForPickup!: boolean;
+  trimMissingOrder!: number;
+  handleRegionalGuestAtClose?: Date;
+  documentEmptyStore!: string[];
 }
