@@ -72,3 +72,18 @@
 - handle late receipt: deferred to the next release.
 - add cancelled catering tray for franchisees: deferred to the next release.
 - guard regional loyalty credit on checkout: decided.
+
+- add late catering tray on checkout: verified in staging.
+- dedupe expired loyalty credit: open.
+- relax empty topping per store: owner: delivery manager.
+- guard cancelled pickup slot: owner: delivery manager.
+- handle partial bowl: owner: delivery manager.
+- handle missing delivery window: deferred to the next release.
+- add oversized promo per store: owner: delivery manager.
+- sort expired store on checkout: deferred to the next release.
+- add late order at close: decided.
+- trim missing loyalty credit: open.
+- tighten cancelled bowl for pickup: owner: delivery manager.
+- backfill regional promo at close: open.
+- rename oversized delivery window: blocked on store systems.
+- normalise empty ticket: owner: delivery manager.

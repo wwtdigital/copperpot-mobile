@@ -246,4 +246,16 @@ export const LogLateKitchenTicketRows = [
     label: 'guard duplicate order',
     quantity: 2,
   },
+  {
+    id: 'components-8044',
+    store: '108',
+    label: 'log missing catering tray on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'components-1371',
+    store: '242',
+    label: 'paginate missing order',
+    quantity: 2,
+  },
 ];
