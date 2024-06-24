@@ -1,0 +1,45 @@
+/* DocumentLateLoyaltyCreditInTheQueueDto: shape for document late loyalty credit in the queue. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class DocumentLateLoyaltyCreditInTheQueueDto {
+  dedupeStalePickupSlot!: number;
+  cacheCancelledGuestOnCheckout?: string;
+  retryMissingTicket!: Date;
+  trimRegionalCateringTray!: number;
+  dedupeCancelledBowl!: Date;
+  paginateOversizedMenuItem?: string[];
+  sortExpiredLoyaltyCredit!: number;
+  retryOversizedKitchenTicket!: boolean;
+  renamePartialDeliveryWindow?: string;
+  dedupeExpiredStore!: Date;
+  logMissingCartLine?: string[];
+  dedupeDuplicateStore!: boolean;
+  exposeLateDeliveryWindow!: string;
+  handleEmptyModifierAtClose!: string;
+  handlePartialTaxLine!: Date;
+  guardLateDeliveryWindow!: string[];
+  retryCancelledGuest!: string;
+  paginateCancelledCateringTray?: string[];
+  tightenRegionalLoyaltyCreditInTheQueue!: boolean;
+  handleRegionalModifierAtClose?: string;
+  handlePartialCartLineOnCheckout!: boolean;
+  handleOversizedOrderPerStore!: string[];
+  renameLateReceipt?: number;
+  validateMissingPromo?: boolean;
+  guardRegionalLoyaltyCredit!: number;
+  tightenMissingPromoOnReorder!: number;
+  guardRegionalTopping!: string[];
+  addLateLoyaltyCreditOnCheckout!: string[];
+  addCancelledLoyaltyCreditPerStore!: number;
+  backfillExpiredModifierPerStore?: Date;
+  paginateEmptyTaxLine!: string;
+  relaxOversizedTicketOnReorder!: boolean;
+  paginatePartialPromo!: number;
+  sortMissingKitchenTicketPerStore!: number;
+  trimDuplicateLocation!: number;
+  relaxStaleLoyaltyCredit!: string[];
+  validateEmptyDeliveryWindow!: Date;
+  validateOversizedModifierPerStore?: string[];
+  normaliseDuplicateDeliveryWindow?: Date;
+  exposeLateModifierForPickup!: number;
+  tightenCancelledReceiptOnReorder!: Date;
+  renameCancelledGuest!: Date;
+}

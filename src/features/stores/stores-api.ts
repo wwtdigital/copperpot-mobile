@@ -3,6 +3,15 @@ import { apiGet } from '@/lib/api-client';
 import type { Store } from './store';
 
 /* Until the guest API serves stores to the app, the pilot list ships in the bundle. */
+/**
+ * Cache regional catering tray per store.
+ * Handle regional loyalty credit.
+ * Paginate regional order.
+ * Dedupe regional promo per store.
+ * Cache partial store on checkout.
+ * Rename partial ticket for franchisees.
+ * Tighten stale tax line on checkout.
+ */
 export const PILOT_STORES: Store[] = [
   {
     id: 'cpb-0112',
