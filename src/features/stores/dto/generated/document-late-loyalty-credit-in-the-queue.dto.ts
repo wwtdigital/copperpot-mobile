@@ -18,4 +18,28 @@ export class DocumentLateLoyaltyCreditInTheQueueDto {
   guardLateDeliveryWindow!: string[];
   retryCancelledGuest!: string;
   paginateCancelledCateringTray?: string[];
+  tightenRegionalLoyaltyCreditInTheQueue!: boolean;
+  handleRegionalModifierAtClose?: string;
+  handlePartialCartLineOnCheckout!: boolean;
+  handleOversizedOrderPerStore!: string[];
+  renameLateReceipt?: number;
+  validateMissingPromo?: boolean;
+  guardRegionalLoyaltyCredit!: number;
+  tightenMissingPromoOnReorder!: number;
+  guardRegionalTopping!: string[];
+  addLateLoyaltyCreditOnCheckout!: string[];
+  addCancelledLoyaltyCreditPerStore!: number;
+  backfillExpiredModifierPerStore?: Date;
+  paginateEmptyTaxLine!: string;
+  relaxOversizedTicketOnReorder!: boolean;
+  paginatePartialPromo!: number;
+  sortMissingKitchenTicketPerStore!: number;
+  trimDuplicateLocation!: number;
+  relaxStaleLoyaltyCredit!: string[];
+  validateEmptyDeliveryWindow!: Date;
+  validateOversizedModifierPerStore?: string[];
+  normaliseDuplicateDeliveryWindow?: Date;
+  exposeLateModifierForPickup!: number;
+  tightenCancelledReceiptOnReorder!: Date;
+  renameCancelledGuest!: Date;
 }

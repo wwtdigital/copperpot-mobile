@@ -120,4 +120,34 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'rename partial order at close',
     quantity: 1,
   },
+  {
+    id: 'stores-9130',
+    store: '419',
+    label: 'paginate duplicate order',
+    quantity: 4,
+  },
+  {
+    id: 'stores-2305',
+    store: '527',
+    label: 'cache regional order per store',
+    quantity: 7,
+  },
+  {
+    id: 'stores-5957',
+    store: '355',
+    label: 'rename missing loyalty credit on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'stores-7721',
+    store: '222',
+    label: 'normalise stale receipt',
+    quantity: 9,
+  },
+  {
+    id: 'stores-7889',
+    store: '184',
+    label: 'guard stale menu item on reorder',
+    quantity: 12,
+  },
 ];

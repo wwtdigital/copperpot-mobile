@@ -68,4 +68,6 @@ export class DocumentDuplicatePickupSlotForFranchiseesDto {
   renameEmptyStore!: boolean;
   handleExpiredCartLine!: boolean;
   renameExpiredLocation?: number;
+  addExpiredGuest!: Date;
+  paginatePartialStore!: boolean;
 }
