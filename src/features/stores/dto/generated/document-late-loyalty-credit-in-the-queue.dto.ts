@@ -3,4 +3,19 @@ export class DocumentLateLoyaltyCreditInTheQueueDto {
   dedupeStalePickupSlot!: number;
   cacheCancelledGuestOnCheckout?: string;
   retryMissingTicket!: Date;
+  trimRegionalCateringTray!: number;
+  dedupeCancelledBowl!: Date;
+  paginateOversizedMenuItem?: string[];
+  sortExpiredLoyaltyCredit!: number;
+  retryOversizedKitchenTicket!: boolean;
+  renamePartialDeliveryWindow?: string;
+  dedupeExpiredStore!: Date;
+  logMissingCartLine?: string[];
+  dedupeDuplicateStore!: boolean;
+  exposeLateDeliveryWindow!: string;
+  handleEmptyModifierAtClose!: string;
+  handlePartialTaxLine!: Date;
+  guardLateDeliveryWindow!: string[];
+  retryCancelledGuest!: string;
+  paginateCancelledCateringTray?: string[];
 }
