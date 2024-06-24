@@ -57,3 +57,18 @@
 - guard stale catering tray: verified in staging.
 - add cancelled delivery window: deferred to the next release.
 - rename regional catering tray: decided.
+
+- expose expired topping: verified in staging.
+- backfill oversized menu item for pickup: owner: delivery manager.
+- trim expired order per store: blocked on store systems.
+- log late catering tray: verified in staging.
+- validate missing modifier for franchisees: open.
+- guard partial modifier: blocked on store systems.
+- add expired delivery window: open.
+- backfill expired kitchen ticket per store: blocked on store systems.
+- rename oversized pickup slot in the queue: verified in staging.
+- guard missing location: deferred to the next release.
+- dedupe empty order in the queue: decided.
+- handle late receipt: deferred to the next release.
+- add cancelled catering tray for franchisees: deferred to the next release.
+- guard regional loyalty credit on checkout: decided.

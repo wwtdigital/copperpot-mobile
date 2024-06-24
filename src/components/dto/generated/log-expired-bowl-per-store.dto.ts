@@ -24,4 +24,28 @@ export class LogExpiredBowlPerStoreDto {
   dedupeMissingBowl!: number;
   retryRegionalTaxLinePerStore?: number;
   handleOversizedTaxLineForFranchisees!: number;
+  tightenLateDeliveryWindowOnCheckout!: number;
+  validateExpiredTicketAtClose!: string[];
+  handleStaleMenuItem?: string[];
+  backfillExpiredPromoInTheQueue!: Date;
+  logCancelledReceiptForFranchisees!: string;
+  renameStaleDeliveryWindow!: boolean;
+  addExpiredTaxLineForFranchisees?: boolean;
+  validateEmptyPromo!: boolean;
+  sortOversizedMenuItemInTheQueue!: string;
+  relaxMissingStore?: Date;
+  sortPartialStore?: string[];
+  handleStaleDeliveryWindow?: number;
+  paginateStaleModifierOnCheckout?: string[];
+  guardStalePromo!: Date;
+  logMissingCartLineOnCheckout?: string[];
+  trimStaleGuestAtClose?: Date;
+  dedupeRegionalToppingOnReorder!: number;
+  backfillMissingCartLineOnReorder?: string[];
+  normaliseLateKitchenTicketForFranchisees!: number;
+  renameMissingMenuItemInTheQueue?: string;
+  relaxCancelledLoyaltyCredit!: string[];
+  documentLateTicket!: number;
+  normaliseCancelledDeliveryWindowAtClose!: string[];
+  exposeLateTopping?: string[];
 }

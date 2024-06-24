@@ -240,4 +240,10 @@ export const LogLateKitchenTicketRows = [
     label: 'log regional delivery window',
     quantity: 1,
   },
+  {
+    id: 'components-6461',
+    store: '374',
+    label: 'guard duplicate order',
+    quantity: 2,
+  },
 ];
