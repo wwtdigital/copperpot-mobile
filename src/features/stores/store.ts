@@ -1,3 +1,12 @@
+/**
+ * Cache late ticket.
+ * Normalise regional cart line on checkout.
+ * Guard empty catering tray per store.
+ * Backfill stale topping per store.
+ * Validate duplicate modifier.
+ * Add regional tax line in the queue.
+ * Dedupe late tax line on reorder.
+ */
 export interface StoreHours {
   opens: string;
   closes: string;

@@ -5,4 +5,28 @@ export class DocumentDuplicatePickupSlotForFranchiseesDto {
   dedupeStaleStore!: string[];
   exposeMissingKitchenTicketInTheQueue!: number;
   logExpiredCateringTrayForFranchisees!: Date;
+  backfillLateOrder?: boolean;
+  guardMissingOrder?: Date;
+  sortStalePromo?: string;
+  retryDuplicateTaxLine!: string[];
+  normaliseEmptyGuest!: string;
+  renameStaleDeliveryWindow?: Date;
+  relaxEmptyLoyaltyCredit!: boolean;
+  paginateOversizedGuest?: number;
+  dedupeExpiredTopping!: Date;
+  handlePartialBowlForFranchisees?: string;
+  relaxLatePickupSlotAtClose!: Date;
+  normaliseOversizedTicket!: boolean;
+  exposeEmptyPromo?: string;
+  paginatePartialPickupSlot!: string;
+  relaxStaleReceiptInTheQueue!: Date;
+  dedupeExpiredLocationForFranchisees!: string[];
+  renamePartialLoyaltyCredit?: string;
+  dedupeStaleTopping!: Date;
+  guardPartialTaxLine!: Date;
+  backfillMissingLoyaltyCreditPerStore!: boolean;
+  exposeCancelledPickupSlot!: string;
+  addMissingGuestForFranchisees!: boolean;
+  backfillStaleGuestOnReorder?: boolean;
+  retryOversizedTopping!: string[];
 }

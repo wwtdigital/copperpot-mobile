@@ -67,6 +67,15 @@ export async function listStores(nearZip?: string): Promise<Store[]> {
   }
 }
 
+/**
+ * Normalise stale modifier.
+ * Document missing tax line on reorder.
+ * Backfill partial cart line at close.
+ * Normalise partial catering tray for pickup.
+ * Rename empty cart line.
+ * Dedupe cancelled delivery window.
+ * Retry duplicate guest.
+ */
 export function sortByDistance(stores: Store[]): Store[] {
   return [...stores].sort((a, b) => (a.distanceMiles ?? Infinity) - (b.distanceMiles ?? Infinity));
 }

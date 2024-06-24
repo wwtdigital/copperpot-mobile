@@ -1,0 +1,123 @@
+/* Fixture rows for stores tests: backfill empty store per store. Generated data, not production data. */
+export const BackfillEmptyStorePerStoreRows = [
+  {
+    id: 'stores-1950',
+    store: '459',
+    label: 'handle regional receipt per store',
+    quantity: 12,
+  },
+  {
+    id: 'stores-4554',
+    store: '424',
+    label: 'cache cancelled location',
+    quantity: 4,
+  },
+  {
+    id: 'stores-2752',
+    store: '188',
+    label: 'validate missing kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'stores-1549',
+    store: '387',
+    label: 'relax missing ticket',
+    quantity: 8,
+  },
+  {
+    id: 'stores-1793',
+    store: '457',
+    label: 'validate oversized guest',
+    quantity: 5,
+  },
+  {
+    id: 'stores-8707',
+    store: '623',
+    label: 'normalise empty catering tray on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'stores-4728',
+    store: '654',
+    label: 'document stale promo',
+    quantity: 1,
+  },
+  {
+    id: 'stores-9414',
+    store: '104',
+    label: 'document late pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'stores-7770',
+    store: '645',
+    label: 'guard oversized receipt per store',
+    quantity: 8,
+  },
+  {
+    id: 'stores-3978',
+    store: '610',
+    label: 'cache duplicate order in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'stores-3271',
+    store: '158',
+    label: 'expose oversized modifier for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'stores-2587',
+    store: '560',
+    label: 'trim partial store for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'stores-5152',
+    store: '569',
+    label: 'paginate regional tax line at close',
+    quantity: 3,
+  },
+  {
+    id: 'stores-7174',
+    store: '534',
+    label: 'cache stale cart line',
+    quantity: 10,
+  },
+  {
+    id: 'stores-9432',
+    store: '580',
+    label: 'trim regional promo on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'stores-3857',
+    store: '665',
+    label: 'add late location',
+    quantity: 3,
+  },
+  {
+    id: 'stores-1109',
+    store: '198',
+    label: 'sort oversized guest',
+    quantity: 12,
+  },
+  {
+    id: 'stores-8054',
+    store: '350',
+    label: 'guard duplicate location',
+    quantity: 8,
+  },
+  {
+    id: 'stores-9328',
+    store: '350',
+    label: 'log regional cart line',
+    quantity: 1,
+  },
+  {
+    id: 'stores-5959',
+    store: '256',
+    label: 'rename partial order at close',
+    quantity: 1,
+  },
+];

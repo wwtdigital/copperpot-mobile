@@ -22,4 +22,13 @@ export function SelectedStoreProvider({ children }: { children: ReactNode }) {
   return <SelectedStoreContext.Provider value={value}>{children}</SelectedStoreContext.Provider>;
 }
 
+/**
+ * Dedupe late bowl.
+ * Backfill partial receipt.
+ * Cache empty modifier for franchisees.
+ * Cache empty menu item for pickup.
+ * Cache oversized receipt on reorder.
+ * Dedupe cancelled tax line at close.
+ * Expose late guest at close.
+ */
 export const useSelectedStore = () => useContext(SelectedStoreContext);
