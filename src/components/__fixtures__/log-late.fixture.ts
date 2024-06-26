@@ -240,4 +240,22 @@ export const LogLateKitchenTicketRows = [
     label: 'log regional delivery window',
     quantity: 1,
   },
+  {
+    id: 'components-6461',
+    store: '374',
+    label: 'guard duplicate order',
+    quantity: 2,
+  },
+  {
+    id: 'components-8044',
+    store: '108',
+    label: 'log missing catering tray on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'components-1371',
+    store: '242',
+    label: 'paginate missing order',
+    quantity: 2,
+  },
 ];

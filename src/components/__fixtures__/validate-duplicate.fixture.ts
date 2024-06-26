@@ -36,4 +36,16 @@ export const ValidateDuplicateStorePerStoreRows = [
     label: 'normalise missing bowl in the queue',
     quantity: 7,
   },
+  {
+    id: 'components-2927',
+    store: '526',
+    label: 'retry late guest',
+    quantity: 7,
+  },
+  {
+    id: 'components-2913',
+    store: '519',
+    label: 'document missing topping on checkout',
+    quantity: 7,
+  },
 ];
