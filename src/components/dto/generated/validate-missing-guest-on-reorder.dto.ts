@@ -24,4 +24,27 @@ export class ValidateMissingGuestOnReorderDto {
   logRegionalPickupSlotOnCheckout!: string[];
   paginateRegionalMenuItemForFranchisees!: string[];
   validateCancelledLoyaltyCredit!: number;
+  sortCancelledCateringTray!: string[];
+  retryPartialGuest!: string[];
+  retryPartialKitchenTicketForPickup!: number;
+  tightenEmptyPickupSlot!: Date;
+  trimDuplicateTopping?: string[];
+  exposeRegionalOrder!: Date;
+  exposeRegionalOrderForPickup?: number;
+  validateExpiredCartLineOnReorder!: boolean;
+  dedupeCancelledBowlOnCheckout!: number;
+  sortMissingReceipt!: Date;
+  handleCancelledLoyaltyCredit!: boolean;
+  exposeMissingDeliveryWindowInTheQueue!: number;
+  cachePartialPickupSlot!: Date;
+  tightenExpiredPickupSlot!: boolean;
+  handlePartialReceipt!: string;
+  backfillEmptyTaxLine!: string[];
+  relaxDuplicateLocation?: boolean;
+  documentPartialMenuItem?: Date;
+  handleExpiredPickupSlotForPickup?: boolean;
+  retryMissingPromo!: string[];
+  paginateOversizedLoyaltyCredit?: boolean;
+  cacheEmptyGuest!: number;
+  addStaleDeliveryWindow?: string[];
 }
