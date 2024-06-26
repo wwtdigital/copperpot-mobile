@@ -56,4 +56,28 @@ export class NormaliseMissingToppingDto {
   addCancelledDeliveryWindow!: string[];
   trimCancelledCateringTray!: Date;
   renameExpiredPromoAtClose!: number;
+  validatePartialPickupSlotAtClose!: number;
+  sortOversizedTopping?: Date;
+  documentDuplicateLoyaltyCredit!: string;
+  renameDuplicateStoreOnReorder?: boolean;
+  tightenOversizedCartLine!: boolean;
+  exposeRegionalMenuItem?: Date;
+  renameDuplicateGuest?: Date;
+  documentExpiredKitchenTicketOnReorder!: boolean;
+  tightenRegionalModifierPerStore!: string[];
+  addPartialDeliveryWindowOnReorder!: string[];
+  exposeOversizedStore!: string;
+  logExpiredPromo!: string;
+  trimEmptyTicketOnCheckout!: boolean;
+  cacheStalePickupSlot!: string[];
+  dedupeCancelledDeliveryWindowOnReorder?: number;
+  handleCancelledModifier?: number;
+  renameMissingDeliveryWindow!: number;
+  validateCancelledKitchenTicket?: string;
+  addEmptyLoyaltyCreditInTheQueue?: Date;
+  trimExpiredStoreOnReorder?: number;
+  handleLateDeliveryWindowOnReorder!: Date;
+  guardPartialTaxLine!: Date;
+  logStaleReceipt!: Date;
+  handleCancelledKitchenTicketInTheQueue!: number;
 }
