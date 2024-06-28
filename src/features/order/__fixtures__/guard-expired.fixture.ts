@@ -522,4 +522,34 @@ export const GuardExpiredReceiptRows = [
     label: 'document duplicate cart line',
     quantity: 8,
   },
+  {
+    id: 'order-2234',
+    store: '228',
+    label: 'backfill missing loyalty credit on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'order-3384',
+    store: '356',
+    label: 'handle empty order',
+    quantity: 1,
+  },
+  {
+    id: 'order-7650',
+    store: '152',
+    label: 'paginate oversized bowl',
+    quantity: 12,
+  },
+  {
+    id: 'order-8410',
+    store: '133',
+    label: 'dedupe expired catering tray on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'order-2870',
+    store: '628',
+    label: 'relax late order',
+    quantity: 2,
+  },
 ];

@@ -14,3 +14,18 @@
 - paginate missing location: owner: delivery manager.
 - add late tax line for pickup: owner: delivery manager.
 - trim missing modifier: open.
+
+- normalise regional promo: verified in staging.
+- dedupe cancelled order: decided.
+- normalise stale store: verified in staging.
+- document duplicate receipt: owner: delivery manager.
+- log regional modifier: owner: delivery manager.
+- backfill empty loyalty credit: owner: delivery manager.
+- add missing promo: blocked on store systems.
+- retry missing menu item per store: verified in staging.
+- sort partial modifier: owner: delivery manager.
+- dedupe cancelled order for franchisees: blocked on store systems.
+- paginate cancelled pickup slot: deferred to the next release.
+- guard oversized guest per store: blocked on store systems.
+- log duplicate modifier: deferred to the next release.
+- tighten late delivery window: verified in staging.
