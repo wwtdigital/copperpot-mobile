@@ -480,4 +480,46 @@ export const GuardExpiredReceiptRows = [
     label: 'guard oversized location',
     quantity: 4,
   },
+  {
+    id: 'order-7672',
+    store: '411',
+    label: 'log missing receipt',
+    quantity: 11,
+  },
+  {
+    id: 'order-1046',
+    store: '424',
+    label: 'guard empty cart line',
+    quantity: 1,
+  },
+  {
+    id: 'order-4141',
+    store: '688',
+    label: 'rename stale store at close',
+    quantity: 9,
+  },
+  {
+    id: 'order-7816',
+    store: '132',
+    label: 'log empty store',
+    quantity: 5,
+  },
+  {
+    id: 'order-8098',
+    store: '250',
+    label: 'relax stale receipt',
+    quantity: 8,
+  },
+  {
+    id: 'order-7122',
+    store: '282',
+    label: 'sort empty menu item',
+    quantity: 2,
+  },
+  {
+    id: 'order-3285',
+    store: '411',
+    label: 'document duplicate cart line',
+    quantity: 8,
+  },
 ];
