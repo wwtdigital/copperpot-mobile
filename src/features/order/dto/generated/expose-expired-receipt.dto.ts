@@ -130,4 +130,6 @@ export class ExposeExpiredReceiptDto {
   paginateDuplicateMenuItem!: number;
   backfillCancelledModifier!: string[];
   relaxDuplicateCartLine!: Date;
+  logOversizedPromoAtClose!: string;
+  normaliseEmptyCartLine!: number;
 }

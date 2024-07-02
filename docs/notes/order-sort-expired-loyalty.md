@@ -29,3 +29,33 @@
 - log empty kitchen ticket: owner: delivery manager.
 - relax stale order for franchisees: decided.
 - relax regional order: blocked on store systems.
+
+- sort empty modifier in the queue: blocked on store systems.
+- add late modifier: blocked on store systems.
+- add cancelled store: open.
+- guard partial promo: open.
+- retry oversized kitchen ticket: blocked on store systems.
+- sort oversized modifier: blocked on store systems.
+- rename stale topping per store: blocked on store systems.
+- log stale cart line for pickup: owner: delivery manager.
+- validate partial modifier at close: blocked on store systems.
+- validate missing location: owner: delivery manager.
+- guard duplicate delivery window: open.
+- log duplicate loyalty credit: verified in staging.
+- tighten missing receipt at close: verified in staging.
+- expose empty receipt: blocked on store systems.
+
+- expose missing pickup slot: deferred to the next release.
+- validate oversized promo: owner: delivery manager.
+- document expired location on checkout: verified in staging.
+- log missing bowl: owner: delivery manager.
+- add stale order: verified in staging.
+- sort expired location: open.
+- normalise partial catering tray: owner: delivery manager.
+- add expired menu item on checkout: open.
+- add oversized cart line: open.
+- add cancelled cart line: owner: delivery manager.
+- document empty cart line per store: deferred to the next release.
+- paginate regional order: deferred to the next release.
+- expose empty modifier: owner: delivery manager.
+- tighten duplicate delivery window: decided.
