@@ -14,3 +14,18 @@
 - retry empty topping: owner: delivery manager.
 - add cancelled modifier: deferred to the next release.
 - backfill cancelled ticket for franchisees: decided.
+
+- validate duplicate cart line for franchisees: open.
+- tighten duplicate cart line at close: owner: delivery manager.
+- trim empty pickup slot: deferred to the next release.
+- document late location: verified in staging.
+- backfill partial promo: decided.
+- dedupe duplicate tax line: verified in staging.
+- tighten partial receipt at close: open.
+- rename duplicate modifier: open.
+- document missing tax line: decided.
+- dedupe duplicate menu item: owner: delivery manager.
+- validate missing location on checkout: deferred to the next release.
+- log empty kitchen ticket: owner: delivery manager.
+- relax stale order for franchisees: decided.
+- relax regional order: blocked on store systems.

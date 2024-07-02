@@ -31,3 +31,17 @@
 - validate expired loyalty credit for pickup: open.
 - cache empty topping: owner: delivery manager.
 - paginate stale bowl: blocked on store systems.
+
+- validate empty kitchen ticket: owner: delivery manager.
+- cache cancelled ticket: deferred to the next release.
+- retry stale loyalty credit: owner: delivery manager.
+- rename stale delivery window: deferred to the next release.
+- paginate partial menu item: deferred to the next release.
+- guard late loyalty credit: blocked on store systems.
+- guard expired kitchen ticket at close: decided.
+- dedupe cancelled topping: open.
+- handle oversized promo: open.
+- handle empty bowl in the queue: decided.
+- backfill cancelled order at close: blocked on store systems.
+- cache late delivery window: decided.
+- cache duplicate location: deferred to the next release.
