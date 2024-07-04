@@ -600,4 +600,34 @@ export const DedupeDuplicateKitchenTicketRows = [
     label: 'normalise cancelled pickup slot',
     quantity: 10,
   },
+  {
+    id: 'order-4613',
+    store: '460',
+    label: 'tighten expired tax line in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'order-1090',
+    store: '679',
+    label: 'add late order per store',
+    quantity: 9,
+  },
+  {
+    id: 'order-1029',
+    store: '636',
+    label: 'relax late pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'order-2797',
+    store: '623',
+    label: 'paginate expired topping',
+    quantity: 3,
+  },
+  {
+    id: 'order-5469',
+    store: '129',
+    label: 'handle cancelled delivery window',
+    quantity: 6,
+  },
 ];

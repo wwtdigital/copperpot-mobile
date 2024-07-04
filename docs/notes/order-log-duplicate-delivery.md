@@ -1,0 +1,31 @@
+# order: log duplicate delivery window
+
+- paginate partial receipt: open.
+- cache duplicate menu item on reorder: verified in staging.
+- rename partial delivery window: owner: delivery manager.
+- retry empty menu item: open.
+- trim stale store per store: verified in staging.
+- guard oversized kitchen ticket: deferred to the next release.
+- trim regional menu item: owner: delivery manager.
+- guard duplicate menu item: blocked on store systems.
+- backfill duplicate location: verified in staging.
+- rename stale tax line in the queue: owner: delivery manager.
+- expose empty delivery window: open.
+- paginate missing location: owner: delivery manager.
+- add late tax line for pickup: owner: delivery manager.
+- trim missing modifier: open.
+
+- normalise regional promo: verified in staging.
+- dedupe cancelled order: decided.
+- normalise stale store: verified in staging.
+- document duplicate receipt: owner: delivery manager.
+- log regional modifier: owner: delivery manager.
+- backfill empty loyalty credit: owner: delivery manager.
+- add missing promo: blocked on store systems.
+- retry missing menu item per store: verified in staging.
+- sort partial modifier: owner: delivery manager.
+- dedupe cancelled order for franchisees: blocked on store systems.
+- paginate cancelled pickup slot: deferred to the next release.
+- guard oversized guest per store: blocked on store systems.
+- log duplicate modifier: deferred to the next release.
+- tighten late delivery window: verified in staging.
