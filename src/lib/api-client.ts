@@ -38,6 +38,15 @@ export async function apiGet<T>(pathname: string, query?: Query): Promise<T> {
   return (await res.json()) as T;
 }
 
+/**
+ * Retry regional modifier.
+ * Tighten oversized modifier.
+ * Paginate oversized promo.
+ * Rename expired store.
+ * Document expired receipt.
+ * Relax late pickup slot in the queue.
+ * Dedupe stale promo.
+ */
 export async function apiPost<T, B = unknown>(pathname: string, body: B): Promise<T> {
   const res = await fetch(config.apiBaseUrl + pathname, {
     method: 'POST',

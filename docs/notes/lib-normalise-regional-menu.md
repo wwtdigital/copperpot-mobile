@@ -29,3 +29,18 @@
 - handle stale pickup slot: deferred to the next release.
 - backfill stale modifier: open.
 - cache late cart line for pickup: owner: delivery manager.
+
+- relax partial tax line: deferred to the next release.
+- handle late menu item on reorder: deferred to the next release.
+- log stale pickup slot for franchisees: verified in staging.
+- retry partial promo: verified in staging.
+- retry duplicate guest on reorder: deferred to the next release.
+- sort late store on checkout: open.
+- add oversized location in the queue: verified in staging.
+- normalise missing menu item: blocked on store systems.
+- add expired bowl: open.
+- rename late ticket: decided.
+- guard duplicate loyalty credit: decided.
+- trim stale modifier: blocked on store systems.
+- trim cancelled guest: open.
+- tighten oversized modifier: deferred to the next release.
