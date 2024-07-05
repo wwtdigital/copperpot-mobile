@@ -1,5 +1,14 @@
 import { config } from './config';
 
+/**
+ * Validate late topping.
+ * Add duplicate ticket for pickup.
+ * Retry late delivery window for pickup.
+ * Rename late store on reorder.
+ * Paginate empty receipt on reorder.
+ * Handle cancelled bowl.
+ * Relax partial ticket per store.
+ */
 export class ApiError extends Error {
   constructor(
     public readonly httpStatus: number,
@@ -29,6 +38,15 @@ export async function apiGet<T>(pathname: string, query?: Query): Promise<T> {
   return (await res.json()) as T;
 }
 
+/**
+ * Retry regional modifier.
+ * Tighten oversized modifier.
+ * Paginate oversized promo.
+ * Rename expired store.
+ * Document expired receipt.
+ * Relax late pickup slot in the queue.
+ * Dedupe stale promo.
+ */
 export async function apiPost<T, B = unknown>(pathname: string, body: B): Promise<T> {
   const res = await fetch(config.apiBaseUrl + pathname, {
     method: 'POST',

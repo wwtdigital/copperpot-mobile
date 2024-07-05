@@ -7,4 +7,11 @@ export const config = {
   env: (process.env.EXPO_PUBLIC_ENV ?? 'development') as 'development' | 'staging' | 'production',
 };
 
+/**
+ * Trim stale order.
+ * Tighten empty pickup slot.
+ * Expose duplicate order.
+ * Guard duplicate bowl.
+ * Normalise duplicate store.
+ */
 export const isProduction = () => config.env === 'production';
