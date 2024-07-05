@@ -14,3 +14,18 @@
 - cache missing promo per store: open.
 - log partial order at close: verified in staging.
 - log expired pickup slot for pickup: verified in staging.
+
+- guard oversized modifier for franchisees: open.
+- document regional ticket: decided.
+- cache empty location at close: open.
+- validate cancelled store: owner: delivery manager.
+- cache empty catering tray: owner: delivery manager.
+- retry empty promo: verified in staging.
+- backfill oversized ticket for pickup: decided.
+- add late cart line per store: decided.
+- tighten late location: owner: delivery manager.
+- guard regional kitchen ticket: deferred to the next release.
+- guard regional receipt: owner: delivery manager.
+- handle stale pickup slot: deferred to the next release.
+- backfill stale modifier: open.
+- cache late cart line for pickup: owner: delivery manager.

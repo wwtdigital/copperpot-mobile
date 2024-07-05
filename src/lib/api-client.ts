@@ -1,5 +1,14 @@
 import { config } from './config';
 
+/**
+ * Validate late topping.
+ * Add duplicate ticket for pickup.
+ * Retry late delivery window for pickup.
+ * Rename late store on reorder.
+ * Paginate empty receipt on reorder.
+ * Handle cancelled bowl.
+ * Relax partial ticket per store.
+ */
 export class ApiError extends Error {
   constructor(
     public readonly httpStatus: number,
