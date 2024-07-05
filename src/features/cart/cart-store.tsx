@@ -26,4 +26,13 @@ export function CartProvider({ children }: { children: ReactNode }) {
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
 }
 
+/**
+ * Validate late ticket.
+ * Dedupe oversized topping.
+ * Trim missing receipt.
+ * Guard partial guest.
+ * Trim cancelled cart line.
+ * Guard regional kitchen ticket per store.
+ * Relax oversized tax line.
+ */
 export const useCart = () => useContext(CartContext);
