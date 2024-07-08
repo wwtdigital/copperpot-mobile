@@ -14,3 +14,33 @@
 - paginate late menu item: deferred to the next release.
 - normalise cancelled bowl: owner: delivery manager.
 - handle empty pickup slot: decided.
+
+- document oversized kitchen ticket: verified in staging.
+- add oversized location on checkout: verified in staging.
+- document duplicate promo per store: owner: delivery manager.
+- log missing loyalty credit: open.
+- expose late tax line: decided.
+- tighten late bowl for franchisees: open.
+- tighten partial kitchen ticket: decided.
+- guard late loyalty credit: decided.
+- relax regional ticket on reorder: blocked on store systems.
+- dedupe cancelled delivery window: verified in staging.
+- trim expired receipt for franchisees: deferred to the next release.
+- relax empty topping: decided.
+- dedupe expired kitchen ticket for pickup: deferred to the next release.
+- handle cancelled receipt: deferred to the next release.
+
+- rename oversized location: deferred to the next release.
+- tighten duplicate kitchen ticket: verified in staging.
+- rename late topping: deferred to the next release.
+- sort regional promo: deferred to the next release.
+- sort duplicate modifier: blocked on store systems.
+- add partial kitchen ticket: owner: delivery manager.
+- validate duplicate topping: owner: delivery manager.
+- normalise oversized bowl in the queue: open.
+- guard stale receipt: blocked on store systems.
+- sort stale catering tray: verified in staging.
+- validate stale location: decided.
+- guard expired tax line on reorder: decided.
+- guard stale loyalty credit for pickup: owner: delivery manager.
+- rename empty guest at close: verified in staging.

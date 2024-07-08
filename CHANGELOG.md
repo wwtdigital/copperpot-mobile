@@ -31,3 +31,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - backfill expired bowl per store
 - document missing cart line
 - backfill expired ticket on reorder
+
+## Unreleased
+
+- guard missing ticket on reorder
+- handle regional location
+- sort regional cart line at close
+- dedupe regional kitchen ticket

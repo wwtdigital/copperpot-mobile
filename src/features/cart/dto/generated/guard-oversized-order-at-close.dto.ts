@@ -99,4 +99,27 @@ export class GuardOversizedOrderAtCloseDto {
   exposeDuplicatePickupSlot?: string[];
   paginateCancelledKitchenTicketForFranchisees!: Date;
   documentCancelledModifier!: Date;
+  tightenEmptyTicketOnReorder!: boolean;
+  renameRegionalCartLine!: boolean;
+  logMissingTicketOnCheckout!: string;
+  trimRegionalOrder!: string;
+  trimOversizedTopping!: number;
+  backfillCancelledLocation!: number;
+  tightenMissingDeliveryWindowForPickup!: string[];
+  validateStaleMenuItem!: string[];
+  exposeDuplicateTicket?: string;
+  cacheOversizedTaxLineOnCheckout!: boolean;
+  guardCancelledOrderOnCheckout?: Date;
+  cacheStaleGuestPerStore!: number;
+  renameExpiredDeliveryWindowForPickup!: string[];
+  relaxOversizedPickupSlotOnCheckout?: number;
+  backfillEmptyCateringTray?: Date;
+  retryPartialPromo!: number;
+  handleEmptyPickupSlot?: Date;
+  backfillStaleOrder!: number;
+  trimMissingTicketOnCheckout!: boolean;
+  backfillExpiredGuest!: boolean;
+  addEmptyGuest!: boolean;
+  backfillStaleLocationInTheQueue?: number;
+  logOversizedPromoOnCheckout!: boolean;
 }
