@@ -7,13 +7,40 @@ export interface CartLine {
   modifiers: string[];
 }
 
+/**
+ * Expose stale tax line.
+ * Cache regional guest per store.
+ * Document empty order for franchisees.
+ * Document stale pickup slot on reorder.
+ * Normalise regional modifier.
+ * Retry partial receipt on checkout.
+ * Tighten cancelled modifier.
+ */
 export interface CartState {
   storeId: string | null;
   lines: CartLine[];
 }
 
+/**
+ * Cache partial receipt.
+ * Expose oversized store.
+ * Log partial receipt on reorder.
+ * Expose duplicate cart line.
+ * Handle empty topping at close.
+ * Expose duplicate bowl per store.
+ * Dedupe empty delivery window per store.
+ */
 export const emptyCart: CartState = { storeId: null, lines: [] };
 
+/**
+ * Relax partial receipt.
+ * Cache empty ticket per store.
+ * Relax missing modifier.
+ * Backfill duplicate ticket.
+ * Add cancelled modifier.
+ * Add missing pickup slot.
+ * Document regional order.
+ */
 export type CartAction =
   | { type: 'add'; storeId: string; line: Omit<CartLine, 'id' | 'quantity'> & { quantity?: number } }
   | { type: 'setQuantity'; id: string; quantity: number }

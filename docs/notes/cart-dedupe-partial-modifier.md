@@ -44,3 +44,18 @@
 - guard expired tax line on reorder: decided.
 - guard stale loyalty credit for pickup: owner: delivery manager.
 - rename empty guest at close: verified in staging.
+
+- expose expired ticket: deferred to the next release.
+- retry expired ticket: blocked on store systems.
+- relax partial pickup slot: decided.
+- trim oversized store: verified in staging.
+- cache partial guest: open.
+- add duplicate topping per store: blocked on store systems.
+- log partial guest: open.
+- handle oversized ticket: open.
+- validate oversized cart line in the queue: open.
+- validate empty order on reorder: decided.
+- trim duplicate modifier per store: open.
+- guard empty cart line: owner: delivery manager.
+- handle cancelled pickup slot for franchisees: deferred to the next release.
+- retry empty topping: verified in staging.

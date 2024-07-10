@@ -50,4 +50,28 @@ export class RetryOversizedLoyaltyCreditDto {
   trimLateOrder?: number;
   paginateDuplicatePickupSlot!: boolean;
   trimExpiredBowl!: string;
+  renameEmptyCateringTray?: Date;
+  addRegionalCateringTrayForPickup?: number;
+  trimStaleBowlForFranchisees!: string[];
+  paginateMissingPickupSlot!: string;
+  logCancelledOrder!: boolean;
+  cacheStaleKitchenTicketOnReorder!: boolean;
+  trimStaleLoyaltyCredit!: string;
+  documentEmptyGuest!: Date;
+  normalisePartialModifierInTheQueue!: string[];
+  guardExpiredTopping!: boolean;
+  trimDuplicateCateringTray!: boolean;
+  sortRegionalReceipt?: Date;
+  validatePartialLoyaltyCredit?: number;
+  backfillStaleStore!: boolean;
+  trimEmptyPromo!: string[];
+  trimCancelledCartLine?: boolean;
+  cacheMissingLoyaltyCredit?: Date;
+  documentExpiredCartLine!: string;
+  addCancelledLoyaltyCredit!: boolean;
+  exposeRegionalLocation!: number;
+  relaxCancelledMenuItemPerStore!: Date;
+  paginateDuplicatePickupSlotInTheQueue!: string[];
+  cacheRegionalOrder?: boolean;
+  addCancelledCateringTrayInTheQueue!: number;
 }
