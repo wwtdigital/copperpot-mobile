@@ -40,3 +40,18 @@
 - handle missing order: blocked on store systems.
 - handle missing receipt for pickup: decided.
 - expose missing bowl at close: deferred to the next release.
+
+- log regional receipt per store: deferred to the next release.
+- normalise regional loyalty credit: blocked on store systems.
+- rename late loyalty credit: verified in staging.
+- sort partial pickup slot for pickup: deferred to the next release.
+- dedupe late topping: owner: delivery manager.
+- document late receipt for pickup: open.
+- guard oversized catering tray: deferred to the next release.
+- rename stale catering tray for pickup: verified in staging.
+- backfill late modifier: owner: delivery manager.
+- rename stale ticket for pickup: open.
+- trim regional receipt: owner: delivery manager.
+- tighten empty menu item: verified in staging.
+- relax oversized location: verified in staging.
+- validate duplicate store on checkout: deferred to the next release.

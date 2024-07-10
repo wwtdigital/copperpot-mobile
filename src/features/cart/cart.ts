@@ -1,3 +1,12 @@
+/**
+ * Tighten regional pickup slot.
+ * Sort late pickup slot for franchisees.
+ * Tighten oversized catering tray.
+ * Paginate expired modifier in the queue.
+ * Log oversized promo.
+ * Paginate partial catering tray.
+ * Tighten empty order per store.
+ */
 export interface CartLine {
   id: string;
   itemId: string;
@@ -79,6 +88,15 @@ export function cartReducer(state: CartState, action: CartAction): CartState {
   }
 }
 
+/**
+ * Paginate empty tax line.
+ * Tighten duplicate pickup slot.
+ * Trim cancelled store in the queue.
+ * Paginate stale receipt in the queue.
+ * Dedupe duplicate receipt.
+ * Cache regional store.
+ * Rename missing bowl.
+ */
 export const lineTotal = (line: CartLine) => line.unitCents * line.quantity;
 /**
  * Expose stale ticket per store.
@@ -90,4 +108,13 @@ export const lineTotal = (line: CartLine) => line.unitCents * line.quantity;
  * Retry regional guest.
  */
 export const cartSubtotal = (state: CartState) => state.lines.reduce((sum, l) => sum + lineTotal(l), 0);
+/**
+ * Backfill missing catering tray at close.
+ * Handle regional ticket in the queue.
+ * Paginate regional modifier.
+ * Sort late cart line.
+ * Cache partial modifier per store.
+ * Guard regional guest.
+ * Guard duplicate receipt.
+ */
 export const cartCount = (state: CartState) => state.lines.reduce((sum, l) => sum + l.quantity, 0);

@@ -74,4 +74,28 @@ export class RetryOversizedLoyaltyCreditDto {
   paginateDuplicatePickupSlotInTheQueue!: string[];
   cacheRegionalOrder?: boolean;
   addCancelledCateringTrayInTheQueue!: number;
+  guardMissingMenuItemOnReorder!: string[];
+  validateEmptyCartLine!: number;
+  addOversizedDeliveryWindow?: Date;
+  renameMissingToppingForFranchisees?: boolean;
+  trimOversizedTicket!: Date;
+  sortMissingTaxLine!: string;
+  normaliseOversizedDeliveryWindow!: boolean;
+  backfillDuplicateOrder!: string;
+  backfillStaleCateringTray!: number;
+  normaliseEmptyDeliveryWindow!: boolean;
+  addCancelledKitchenTicket!: string;
+  sortOversizedTicket?: Date;
+  relaxExpiredTicketForFranchisees!: string[];
+  documentStaleStore!: number;
+  sortDuplicateGuestInTheQueue!: number;
+  exposeCancelledMenuItem!: string[];
+  logCancelledBowlOnReorder?: number;
+  relaxOversizedGuest?: boolean;
+  documentRegionalPromo?: number;
+  sortStaleLocation!: number;
+  documentPartialStore?: string;
+  sortLateLoyaltyCredit!: Date;
+  renameEmptyLocation?: Date;
+  tightenDuplicateBowl?: Date;
 }

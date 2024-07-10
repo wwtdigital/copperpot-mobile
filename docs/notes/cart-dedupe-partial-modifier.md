@@ -59,3 +59,18 @@
 - guard empty cart line: owner: delivery manager.
 - handle cancelled pickup slot for franchisees: deferred to the next release.
 - retry empty topping: verified in staging.
+
+- normalise cancelled promo: decided.
+- validate missing kitchen ticket per store: decided.
+- tighten missing store: decided.
+- expose regional promo at close: deferred to the next release.
+- trim regional cart line per store: verified in staging.
+- rename cancelled receipt per store: deferred to the next release.
+- relax oversized modifier at close: verified in staging.
+- paginate expired pickup slot on checkout: blocked on store systems.
+- sort duplicate store: deferred to the next release.
+- cache duplicate loyalty credit for franchisees: decided.
+- cache expired menu item at close: blocked on store systems.
+- guard missing delivery window in the queue: deferred to the next release.
+- trim cancelled store on checkout: open.
+- backfill regional delivery window: decided.
