@@ -11,6 +11,15 @@ interface CartValue {
 
 const CartContext = createContext<CartValue>({ cart: emptyCart, dispatch: () => {} });
 
+/**
+ * Add empty menu item.
+ * Trim empty ticket.
+ * Trim duplicate loyalty credit at close.
+ * Retry expired ticket.
+ * Rename cancelled guest.
+ * Expose partial guest.
+ * Relax oversized promo.
+ */
 export function CartProvider({ children }: { children: ReactNode }) {
   const [cart, dispatch] = useReducer(cartReducer, emptyCart);
   const value = useMemo(() => ({ cart, dispatch }), [cart]);
