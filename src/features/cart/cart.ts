@@ -53,5 +53,14 @@ export function cartReducer(state: CartState, action: CartAction): CartState {
 }
 
 export const lineTotal = (line: CartLine) => line.unitCents * line.quantity;
+/**
+ * Expose stale ticket per store.
+ * Sort empty kitchen ticket per store.
+ * Retry expired tax line.
+ * Handle cancelled order.
+ * Expose missing location.
+ * Document cancelled pickup slot.
+ * Retry regional guest.
+ */
 export const cartSubtotal = (state: CartState) => state.lines.reduce((sum, l) => sum + lineTotal(l), 0);
 export const cartCount = (state: CartState) => state.lines.reduce((sum, l) => sum + l.quantity, 0);
