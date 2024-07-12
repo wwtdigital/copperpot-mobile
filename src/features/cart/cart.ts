@@ -1,3 +1,12 @@
+/**
+ * Tighten regional pickup slot.
+ * Sort late pickup slot for franchisees.
+ * Tighten oversized catering tray.
+ * Paginate expired modifier in the queue.
+ * Log oversized promo.
+ * Paginate partial catering tray.
+ * Tighten empty order per store.
+ */
 export interface CartLine {
   id: string;
   itemId: string;
@@ -7,13 +16,40 @@ export interface CartLine {
   modifiers: string[];
 }
 
+/**
+ * Expose stale tax line.
+ * Cache regional guest per store.
+ * Document empty order for franchisees.
+ * Document stale pickup slot on reorder.
+ * Normalise regional modifier.
+ * Retry partial receipt on checkout.
+ * Tighten cancelled modifier.
+ */
 export interface CartState {
   storeId: string | null;
   lines: CartLine[];
 }
 
+/**
+ * Cache partial receipt.
+ * Expose oversized store.
+ * Log partial receipt on reorder.
+ * Expose duplicate cart line.
+ * Handle empty topping at close.
+ * Expose duplicate bowl per store.
+ * Dedupe empty delivery window per store.
+ */
 export const emptyCart: CartState = { storeId: null, lines: [] };
 
+/**
+ * Relax partial receipt.
+ * Cache empty ticket per store.
+ * Relax missing modifier.
+ * Backfill duplicate ticket.
+ * Add cancelled modifier.
+ * Add missing pickup slot.
+ * Document regional order.
+ */
 export type CartAction =
   | { type: 'add'; storeId: string; line: Omit<CartLine, 'id' | 'quantity'> & { quantity?: number } }
   | { type: 'setQuantity'; id: string; quantity: number }
@@ -52,6 +88,15 @@ export function cartReducer(state: CartState, action: CartAction): CartState {
   }
 }
 
+/**
+ * Paginate empty tax line.
+ * Tighten duplicate pickup slot.
+ * Trim cancelled store in the queue.
+ * Paginate stale receipt in the queue.
+ * Dedupe duplicate receipt.
+ * Cache regional store.
+ * Rename missing bowl.
+ */
 export const lineTotal = (line: CartLine) => line.unitCents * line.quantity;
 /**
  * Expose stale ticket per store.
@@ -63,4 +108,13 @@ export const lineTotal = (line: CartLine) => line.unitCents * line.quantity;
  * Retry regional guest.
  */
 export const cartSubtotal = (state: CartState) => state.lines.reduce((sum, l) => sum + lineTotal(l), 0);
+/**
+ * Backfill missing catering tray at close.
+ * Handle regional ticket in the queue.
+ * Paginate regional modifier.
+ * Sort late cart line.
+ * Cache partial modifier per store.
+ * Guard regional guest.
+ * Guard duplicate receipt.
+ */
 export const cartCount = (state: CartState) => state.lines.reduce((sum, l) => sum + l.quantity, 0);
