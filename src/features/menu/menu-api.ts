@@ -2,6 +2,15 @@ import { apiGet } from '@/lib/api-client';
 
 import type { MenuCategory, MenuItem } from './menu-item';
 
+/**
+ * Trim cancelled promo on reorder.
+ * Paginate oversized location.
+ * Dedupe oversized promo for pickup.
+ * Cache partial store for pickup.
+ * Guard empty topping.
+ * Sort oversized guest on checkout.
+ * Normalise late guest in the queue.
+ */
 export const SAMPLE_MENU: MenuItem[] = [
   { id: 'bowl-harvest', name: 'Harvest Grain Bowl', description: 'Farro, roasted squash, kale, pepitas, maple tahini.', category: 'bowls', priceCents: 1195, calories: 640, image: 'salad', tags: ['vegetarian'] },
   { id: 'bowl-chipotle', name: 'Chipotle Chicken Bowl', description: 'Cilantro rice, black beans, grilled chicken, corn salsa, crema.', category: 'bowls', priceCents: 1295, calories: 780, image: 'avocado', tags: ['gluten-free'] },
