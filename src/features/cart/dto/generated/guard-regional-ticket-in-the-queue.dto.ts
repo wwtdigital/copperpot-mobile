@@ -57,4 +57,6 @@ export class GuardRegionalTicketInTheQueueDto {
   addPartialOrderInTheQueue?: string;
   normaliseDuplicateLocationOnReorder?: string[];
   backfillMissingTaxLineForFranchisees!: string;
+  cacheCancelledOrder?: Date;
+  normaliseMissingTicketInTheQueue!: boolean;
 }
