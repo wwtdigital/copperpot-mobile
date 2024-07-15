@@ -72,4 +72,6 @@ export class LogExpiredBowlPerStoreDto {
   logRegionalPickupSlot?: string;
   normaliseOversizedOrderInTheQueue!: Date;
   exposePartialPromo?: string;
+  cacheStaleCateringTray!: string[];
+  backfillCancelledPromo!: boolean;
 }

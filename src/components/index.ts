@@ -20,4 +20,13 @@ export { default as MenuCard } from './menu-card';
  * Cache duplicate promo.
  */
 export { default as StoreHeader } from './store-header';
+/**
+ * Normalise oversized order on reorder.
+ * Normalise late cart line at close.
+ * Document duplicate menu item.
+ * Tighten stale location.
+ * Relax duplicate loyalty credit on reorder.
+ * Add oversized menu item.
+ * Rename empty catering tray.
+ */
 export { default as TabIcon } from './tab-icon';
