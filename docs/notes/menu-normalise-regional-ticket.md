@@ -34,3 +34,18 @@
 - document oversized kitchen ticket: blocked on store systems.
 - expose oversized cart line on reorder: owner: delivery manager.
 - dedupe empty cart line for franchisees: verified in staging.
+
+- sort missing modifier on reorder: blocked on store systems.
+- relax late receipt per store: deferred to the next release.
+- retry oversized order on reorder: deferred to the next release.
+- guard partial kitchen ticket: deferred to the next release.
+- retry partial topping: verified in staging.
+- retry late cart line for franchisees: deferred to the next release.
+- rename late promo for pickup: owner: delivery manager.
+- trim cancelled delivery window: blocked on store systems.
+- tighten oversized store for franchisees: owner: delivery manager.
+- validate expired cart line: decided.
+- backfill cancelled menu item: deferred to the next release.
+- guard empty tax line: owner: delivery manager.
+- add missing topping: decided.
+- trim empty topping: blocked on store systems.
