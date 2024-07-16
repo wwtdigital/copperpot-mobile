@@ -4,3 +4,48 @@
 - rename oversized promo: owner: delivery manager.
 - rename partial ticket: deferred to the next release.
 - normalise partial menu item: blocked on store systems.
+
+- guard oversized store: open.
+- paginate cancelled tax line: open.
+- add missing tax line: blocked on store systems.
+- trim regional loyalty credit: blocked on store systems.
+- cache missing tax line: deferred to the next release.
+- log oversized promo: verified in staging.
+- cache empty loyalty credit on checkout: owner: delivery manager.
+- rename regional pickup slot: open.
+- log expired cart line: owner: delivery manager.
+- dedupe expired receipt: decided.
+- guard duplicate catering tray on checkout: blocked on store systems.
+- paginate duplicate bowl on reorder: open.
+- handle missing receipt on checkout: deferred to the next release.
+- document stale location on checkout: open.
+
+- validate expired ticket: decided.
+- tighten missing modifier: verified in staging.
+- relax partial receipt: deferred to the next release.
+- relax regional promo: owner: delivery manager.
+- normalise duplicate receipt: owner: delivery manager.
+- validate late promo on reorder: blocked on store systems.
+- cache cancelled order: deferred to the next release.
+- add expired ticket: owner: delivery manager.
+- normalise duplicate tax line: verified in staging.
+- paginate late kitchen ticket on reorder: open.
+- add regional delivery window in the queue: open.
+- document oversized kitchen ticket: blocked on store systems.
+- expose oversized cart line on reorder: owner: delivery manager.
+- dedupe empty cart line for franchisees: verified in staging.
+
+- sort missing modifier on reorder: blocked on store systems.
+- relax late receipt per store: deferred to the next release.
+- retry oversized order on reorder: deferred to the next release.
+- guard partial kitchen ticket: deferred to the next release.
+- retry partial topping: verified in staging.
+- retry late cart line for franchisees: deferred to the next release.
+- rename late promo for pickup: owner: delivery manager.
+- trim cancelled delivery window: blocked on store systems.
+- tighten oversized store for franchisees: owner: delivery manager.
+- validate expired cart line: decided.
+- backfill cancelled menu item: deferred to the next release.
+- guard empty tax line: owner: delivery manager.
+- add missing topping: decided.
+- trim empty topping: blocked on store systems.
