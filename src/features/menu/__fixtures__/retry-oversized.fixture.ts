@@ -1,0 +1,123 @@
+/* Fixture rows for menu tests: retry oversized ticket at close. Generated data, not production data. */
+export const RetryOversizedTicketAtCloseRows = [
+  {
+    id: 'menu-9747',
+    store: '324',
+    label: 'dedupe regional delivery window for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'menu-7728',
+    store: '624',
+    label: 'cache empty order for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'menu-5384',
+    store: '143',
+    label: 'validate stale topping for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'menu-6293',
+    store: '382',
+    label: 'handle missing promo per store',
+    quantity: 4,
+  },
+  {
+    id: 'menu-5325',
+    store: '660',
+    label: 'add duplicate topping',
+    quantity: 6,
+  },
+  {
+    id: 'menu-3689',
+    store: '121',
+    label: 'backfill oversized pickup slot for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'menu-3171',
+    store: '671',
+    label: 'validate partial receipt',
+    quantity: 6,
+  },
+  {
+    id: 'menu-6539',
+    store: '297',
+    label: 'rename late modifier',
+    quantity: 10,
+  },
+  {
+    id: 'menu-7617',
+    store: '126',
+    label: 'backfill duplicate store for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'menu-1018',
+    store: '292',
+    label: 'sort stale catering tray in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'menu-5504',
+    store: '338',
+    label: 'log missing bowl',
+    quantity: 12,
+  },
+  {
+    id: 'menu-5684',
+    store: '473',
+    label: 'sort cancelled ticket',
+    quantity: 12,
+  },
+  {
+    id: 'menu-8062',
+    store: '374',
+    label: 'backfill stale receipt in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'menu-5990',
+    store: '561',
+    label: 'tighten missing store for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'menu-5294',
+    store: '685',
+    label: 'rename missing menu item',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9835',
+    store: '412',
+    label: 'tighten regional kitchen ticket on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'menu-5169',
+    store: '174',
+    label: 'dedupe late store',
+    quantity: 6,
+  },
+  {
+    id: 'menu-5509',
+    store: '639',
+    label: 'sort duplicate topping on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'menu-7475',
+    store: '505',
+    label: 'sort duplicate pickup slot on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'menu-7417',
+    store: '650',
+    label: 'retry missing bowl',
+    quantity: 4,
+  },
+];
