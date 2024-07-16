@@ -88,4 +88,27 @@ export class DocumentLateLoyaltyCreditInTheQueueDto {
   backfillStaleOrder!: string[];
   logMissingPickupSlot!: number;
   retryPartialBowl?: Date;
+  validatePartialPickupSlot!: string[];
+  normaliseEmptyDeliveryWindowOnReorder!: string[];
+  relaxRegionalKitchenTicketForFranchisees!: string[];
+  dedupeStaleLocation!: number;
+  guardCancelledPromoOnCheckout?: number;
+  retryDuplicateMenuItem!: boolean;
+  trimCancelledPromo!: boolean;
+  cacheStaleStoreAtClose!: boolean;
+  cacheStaleLoyaltyCredit!: string[];
+  logStaleDeliveryWindowOnReorder!: string;
+  renameStaleCartLine!: Date;
+  paginateExpiredDeliveryWindow!: number;
+  renameLateReceiptAtClose!: number;
+  dedupeEmptyReceiptPerStore!: number;
+  sortStaleToppingInTheQueue!: boolean;
+  addEmptyPickupSlot!: number;
+  normaliseExpiredReceipt?: boolean;
+  validateCancelledTaxLineInTheQueue?: Date;
+  normaliseEmptyMenuItem!: string[];
+  relaxMissingTopping!: string[];
+  retryStaleTopping!: Date;
+  addLateTaxLine?: string;
+  logEmptyModifierOnReorder?: string[];
 }

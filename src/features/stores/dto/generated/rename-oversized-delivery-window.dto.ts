@@ -31,4 +31,6 @@ export class RenameOversizedDeliveryWindowDto {
   handleExpiredToppingOnCheckout!: string;
   backfillMissingPromo?: boolean;
   cacheLateTaxLine!: string;
+  dedupeEmptyStoreInTheQueue?: number;
+  paginateRegionalLoyaltyCredit!: boolean;
 }
