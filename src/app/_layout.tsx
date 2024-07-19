@@ -31,7 +31,14 @@ export default function RootLayout() {
       <CartProvider>
         <Stack screenOptions={{ headerShown: false }}>
           <Stack.Screen name="(tabs)" />
-          <Stack.Screen name="stores" options={{ presentation: 'modal', headerShown: true, title: 'Choose a store' }} />
+          <Stack.Screen
+            name="stores"
+            options={{
+              presentation: 'modal',
+              headerShown: true,
+              title: 'Choose a store',
+            }}
+          />
         </Stack>
       </CartProvider>
     </SelectedStoreProvider>

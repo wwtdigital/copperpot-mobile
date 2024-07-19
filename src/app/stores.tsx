@@ -7,9 +7,24 @@ import { useSelectedStore } from '@/features/stores/selected-store';
 import type { Store } from '@/features/stores/store';
 import { listStores, sortByDistance } from '@/features/stores/stores-api';
 
-function StoreRow({ store, selected, onPress }: { store: Store; selected: boolean; onPress: () => void }) {
+function StoreRow({
+  store,
+  selected,
+  onPress,
+}: {
+  store: Store;
+  selected: boolean;
+  onPress: () => void;
+}) {
   return (
-    <TouchableOpacity className="cart-item" onPress={onPress} disabled={!store.acceptsOrderAhead} accessibilityRole="button" accessibilityState={{ selected, disabled: !store.acceptsOrderAhead }} testID={'store-row-' + store.id}>
+    <TouchableOpacity
+      className="cart-item"
+      onPress={onPress}
+      disabled={!store.acceptsOrderAhead}
+      accessibilityRole="button"
+      accessibilityState={{ selected, disabled: !store.acceptsOrderAhead }}
+      testID={'store-row-' + store.id}
+    >
       <View className="flex-1">
         <Text className="base-bold text-dark-100">{store.name}</Text>
         <Text className="body-regular text-gray-200">
@@ -17,11 +32,19 @@ function StoreRow({ store, selected, onPress }: { store: Store; selected: boolea
         </Text>
         <Text className="body-regular text-gray-200">
           {store.hours.opens} to {store.hours.closes}
-          {store.distanceMiles !== undefined ? ' | ' + store.distanceMiles.toFixed(1) + ' mi' : ''}
+          {store.distanceMiles !== undefined
+            ? ' | ' + store.distanceMiles.toFixed(1) + ' mi'
+            : ''}
         </Text>
-        {!store.acceptsOrderAhead ? <Text className="small-bold text-error">Order ahead not available at this store yet</Text> : null}
+        {!store.acceptsOrderAhead ? (
+          <Text className="small-bold text-error">
+            Order ahead not available at this store yet
+          </Text>
+        ) : null}
       </View>
-      {selected ? <Text className="paragraph-bold text-primary">Selected</Text> : null}
+      {selected ? (
+        <Text className="paragraph-bold text-primary">Selected</Text>
+      ) : null}
     </TouchableOpacity>
   );
 }

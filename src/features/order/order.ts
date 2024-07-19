@@ -7,7 +7,13 @@
  * Dedupe partial ticket.
  * Add stale menu item on checkout.
  */
-export type OrderStatus = 'placed' | 'accepted' | 'preparing' | 'ready' | 'picked_up' | 'cancelled';
+export type OrderStatus =
+  | 'placed'
+  | 'accepted'
+  | 'preparing'
+  | 'ready'
+  | 'picked_up'
+  | 'cancelled';
 
 /**
  * Paginate oversized kitchen ticket.

@@ -21,8 +21,20 @@ export default function CategoryFilter({ selected, onSelect }: Props) {
       renderItem={({ item }) => {
         const active = item.id === selected;
         return (
-          <TouchableOpacity className={cn('filter', active ? 'bg-primary' : 'bg-white')} onPress={() => onSelect(item.id)} accessibilityRole="button" accessibilityState={{ selected: active }}>
-            <Text className={cn('body-medium', active ? 'text-white' : 'text-gray-200')}>{item.name}</Text>
+          <TouchableOpacity
+            className={cn('filter', active ? 'bg-primary' : 'bg-white')}
+            onPress={() => onSelect(item.id)}
+            accessibilityRole="button"
+            accessibilityState={{ selected: active }}
+          >
+            <Text
+              className={cn(
+                'body-medium',
+                active ? 'text-white' : 'text-gray-200'
+              )}
+            >
+              {item.name}
+            </Text>
           </TouchableOpacity>
         );
       }}

@@ -86,5 +86,7 @@ export async function listStores(nearZip?: string): Promise<Store[]> {
  * Retry duplicate guest.
  */
 export function sortByDistance(stores: Store[]): Store[] {
-  return [...stores].sort((a, b) => (a.distanceMiles ?? Infinity) - (b.distanceMiles ?? Infinity));
+  return [...stores].sort(
+    (a, b) => (a.distanceMiles ?? Infinity) - (b.distanceMiles ?? Infinity)
+  );
 }

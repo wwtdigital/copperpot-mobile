@@ -32,7 +32,16 @@ export default function MenuScreen() {
 
   const add = (item: MenuItem) => {
     if (!store) return;
-    dispatch({ type: 'add', storeId: store.id, line: { itemId: item.id, name: item.name, unitCents: item.priceCents, modifiers: [] } });
+    dispatch({
+      type: 'add',
+      storeId: store.id,
+      line: {
+        itemId: item.id,
+        name: item.name,
+        unitCents: item.priceCents,
+        modifiers: [],
+      },
+    });
   };
 
   return (
@@ -47,7 +56,10 @@ export default function MenuScreen() {
         ListHeaderComponent={() => (
           <View className="my-5 gap-5">
             <View className="flex-between flex-row w-full">
-              <StoreHeader store={store} onChangeStore={() => router.push('/stores')} />
+              <StoreHeader
+                store={store}
+                onChangeStore={() => router.push('/stores')}
+              />
               <CartButton onPress={() => router.push('/order')} />
             </View>
             <CategoryFilter selected={category} onSelect={setCategory} />
