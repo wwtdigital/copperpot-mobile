@@ -1,3 +1,5 @@
+import type { MenuCategory } from '@/features/menu/menu-item';
+
 import arrowDown from '../../assets/icons/arrow-down.png';
 import arrowRight from '../../assets/icons/arrow-right.png';
 import bag from '../../assets/icons/bag.png';
@@ -27,8 +29,6 @@ import logo from '../../assets/images/logo.png';
 import salad from '../../assets/images/salad.png';
 import success from '../../assets/images/success.png';
 import tomatoes from '../../assets/images/tomatoes.png';
-
-import type { MenuCategory } from '@/features/menu/menu-item';
 
 export const CATEGORIES: { id: MenuCategory | 'all'; name: string }[] = [
   { id: 'all', name: 'All' },
@@ -72,4 +72,5 @@ export const images = {
 
 export type ImageKey = keyof typeof images;
 
-export const menuImage = (key: string) => images[(key in images ? key : 'emptyState') as ImageKey];
+export const menuImage = (key: string) =>
+  images[(key in images ? key : 'emptyState') as ImageKey];

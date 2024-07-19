@@ -51,12 +51,17 @@ export const emptyCart: CartState = { storeId: null, lines: [] };
  * Document regional order.
  */
 export type CartAction =
-  | { type: 'add'; storeId: string; line: Omit<CartLine, 'id' | 'quantity'> & { quantity?: number } }
+  | {
+      type: 'add';
+      storeId: string;
+      line: Omit<CartLine, 'id' | 'quantity'> & { quantity?: number };
+    }
   | { type: 'setQuantity'; id: string; quantity: number }
   | { type: 'remove'; id: string }
   | { type: 'clear' };
 
-const lineKey = (itemId: string, modifiers: string[]) => itemId + ':' + [...modifiers].sort().join('|');
+const lineKey = (itemId: string, modifiers: string[]) =>
+  itemId + ':' + [...modifiers].sort().join('|');
 
 /**
  * One cart, one store: adding from a different store starts a new cart,
@@ -66,19 +71,37 @@ const lineKey = (itemId: string, modifiers: string[]) => itemId + ':' + [...modi
 export function cartReducer(state: CartState, action: CartAction): CartState {
   switch (action.type) {
     case 'add': {
-      const base = state.storeId && state.storeId !== action.storeId ? emptyCart : state;
+      const base =
+        state.storeId && state.storeId !== action.storeId ? emptyCart : state;
       const id = lineKey(action.line.itemId, action.line.modifiers);
       const qty = Math.max(1, action.line.quantity ?? 1);
       const existing = base.lines.find((l) => l.id === id);
       const lines = existing
-        ? base.lines.map((l) => (l.id === id ? { ...l, quantity: l.quantity + qty } : l))
-        : [...base.lines, { id, itemId: action.line.itemId, name: action.line.name, unitCents: action.line.unitCents, modifiers: action.line.modifiers, quantity: qty }];
+        ? base.lines.map((l) =>
+            l.id === id ? { ...l, quantity: l.quantity + qty } : l
+          )
+        : [
+            ...base.lines,
+            {
+              id,
+              itemId: action.line.itemId,
+              name: action.line.name,
+              unitCents: action.line.unitCents,
+              modifiers: action.line.modifiers,
+              quantity: qty,
+            },
+          ];
       return { storeId: action.storeId, lines };
     }
     case 'setQuantity':
       return action.quantity <= 0
         ? cartReducer(state, { type: 'remove', id: action.id })
-        : { ...state, lines: state.lines.map((l) => (l.id === action.id ? { ...l, quantity: action.quantity } : l)) };
+        : {
+            ...state,
+            lines: state.lines.map((l) =>
+              l.id === action.id ? { ...l, quantity: action.quantity } : l
+            ),
+          };
     case 'remove': {
       const lines = state.lines.filter((l) => l.id !== action.id);
       return lines.length ? { ...state, lines } : emptyCart;
@@ -107,7 +130,8 @@ export const lineTotal = (line: CartLine) => line.unitCents * line.quantity;
  * Document cancelled pickup slot.
  * Retry regional guest.
  */
-export const cartSubtotal = (state: CartState) => state.lines.reduce((sum, l) => sum + lineTotal(l), 0);
+export const cartSubtotal = (state: CartState) =>
+  state.lines.reduce((sum, l) => sum + lineTotal(l), 0);
 /**
  * Backfill missing catering tray at close.
  * Handle regional ticket in the queue.
@@ -117,4 +141,5 @@ export const cartSubtotal = (state: CartState) => state.lines.reduce((sum, l) =>
  * Guard regional guest.
  * Guard duplicate receipt.
  */
-export const cartCount = (state: CartState) => state.lines.reduce((sum, l) => sum + l.quantity, 0);
+export const cartCount = (state: CartState) =>
+  state.lines.reduce((sum, l) => sum + l.quantity, 0);

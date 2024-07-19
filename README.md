@@ -28,6 +28,20 @@ The Copperpot Bowls app for iOS and Android: pick a store, browse the menu, orde
 
    then press `i` for the iOS simulator, `a` for an Android emulator, or scan the QR code with Expo Go.
 
+## Tests and checks
+
+Unit and component tests run with Jest through the `jest-expo` preset; component tests use the React Native testing library.
+
+```bash
+npm test                 # the suite
+npm test -- --watch      # while working
+npm run typecheck        # tsc, strict
+npm run lint             # eslint with the Expo config
+npm run format:check     # prettier over src/
+```
+
+The same four commands run in CI on every pull request and on `main`. There is no end-to-end suite; release candidates get a manual pass on both platforms (see the release notes).
+
 ## Layout
 
 | Path | Holds |

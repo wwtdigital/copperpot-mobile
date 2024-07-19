@@ -9,7 +9,10 @@ interface CartValue {
   dispatch: (action: CartAction) => void;
 }
 
-const CartContext = createContext<CartValue>({ cart: emptyCart, dispatch: () => {} });
+const CartContext = createContext<CartValue>({
+  cart: emptyCart,
+  dispatch: () => {},
+});
 
 /**
  * Add empty menu item.

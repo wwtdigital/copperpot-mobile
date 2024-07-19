@@ -9,7 +9,10 @@ interface SelectedStoreValue {
   select: (store: Store) => void;
 }
 
-const SelectedStoreContext = createContext<SelectedStoreValue>({ store: null, select: () => {} });
+const SelectedStoreContext = createContext<SelectedStoreValue>({
+  store: null,
+  select: () => {},
+});
 
 /**
  * Cache oversized loyalty credit on reorder.
@@ -19,7 +22,11 @@ const SelectedStoreContext = createContext<SelectedStoreValue>({ store: null, se
 export function SelectedStoreProvider({ children }: { children: ReactNode }) {
   const [store, setStore] = useState<Store | null>(PILOT_STORES[0] ?? null);
   const value = useMemo(() => ({ store, select: setStore }), [store]);
-  return <SelectedStoreContext.Provider value={value}>{children}</SelectedStoreContext.Provider>;
+  return (
+    <SelectedStoreContext.Provider value={value}>
+      {children}
+    </SelectedStoreContext.Provider>
+  );
 }
 
 /**

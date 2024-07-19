@@ -4,10 +4,23 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { images } from '@/constants';
 import { PREVIEW_GUEST } from '@/features/account/account-api';
 
-const Field = ({ icon, label, value }: { icon: keyof typeof images; label: string; value: string }) => (
+const Field = ({
+  icon,
+  label,
+  value,
+}: {
+  icon: keyof typeof images;
+  label: string;
+  value: string;
+}) => (
   <View className="profile-field">
     <View className="profile-field__icon">
-      <Image source={images[icon]} className="size-6" resizeMode="contain" tintColor="#B5542B" />
+      <Image
+        source={images[icon]}
+        className="size-6"
+        resizeMode="contain"
+        tintColor="#B5542B"
+      />
     </View>
     <View>
       <Text className="body-medium text-gray-200">{label}</Text>
