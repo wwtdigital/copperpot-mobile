@@ -1,0 +1,123 @@
+/* Fixture rows for stores tests: document duplicate tax line. Generated data, not production data. */
+export const DocumentDuplicateTaxLineRows = [
+  {
+    id: 'stores-8690',
+    store: '374',
+    label: 'sort cancelled loyalty credit per store',
+    quantity: 4,
+  },
+  {
+    id: 'stores-9454',
+    store: '552',
+    label: 'handle late location',
+    quantity: 1,
+  },
+  {
+    id: 'stores-6989',
+    store: '141',
+    label: 'guard oversized delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'stores-2792',
+    store: '223',
+    label: 'paginate empty cart line for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'stores-9303',
+    store: '652',
+    label: 'handle oversized loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'stores-6456',
+    store: '253',
+    label: 'paginate expired catering tray on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'stores-5174',
+    store: '288',
+    label: 'log duplicate location on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'stores-5505',
+    store: '632',
+    label: 'guard regional tax line',
+    quantity: 12,
+  },
+  {
+    id: 'stores-9542',
+    store: '397',
+    label: 'dedupe empty loyalty credit on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'stores-4723',
+    store: '361',
+    label: 'paginate expired loyalty credit on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'stores-7247',
+    store: '219',
+    label: 'handle expired store on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'stores-7198',
+    store: '400',
+    label: 'validate expired menu item on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'stores-7094',
+    store: '239',
+    label: 'guard duplicate ticket',
+    quantity: 3,
+  },
+  {
+    id: 'stores-7636',
+    store: '675',
+    label: 'add regional receipt at close',
+    quantity: 11,
+  },
+  {
+    id: 'stores-3601',
+    store: '474',
+    label: 'sort stale receipt',
+    quantity: 10,
+  },
+  {
+    id: 'stores-8232',
+    store: '167',
+    label: 'sort oversized receipt',
+    quantity: 9,
+  },
+  {
+    id: 'stores-1197',
+    store: '174',
+    label: 'sort oversized catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'stores-3010',
+    store: '401',
+    label: 'validate missing catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'stores-3153',
+    store: '573',
+    label: 'expose expired store',
+    quantity: 10,
+  },
+  {
+    id: 'stores-6979',
+    store: '141',
+    label: 'dedupe late receipt',
+    quantity: 2,
+  },
+];

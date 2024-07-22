@@ -111,4 +111,14 @@ export class DocumentLateLoyaltyCreditInTheQueueDto {
   retryStaleTopping!: Date;
   addLateTaxLine?: string;
   logEmptyModifierOnReorder?: string[];
+  sortCancelledMenuItem!: boolean;
+  tightenDuplicateReceipt?: string;
+  addMissingTopping!: string[];
+  documentStaleMenuItem!: number;
+  documentExpiredTaxLine!: string[];
+  relaxExpiredTicket!: string[];
+  dedupeRegionalModifierOnReorder?: string;
+  backfillLateDeliveryWindowForPickup!: string;
+  logDuplicatePromoAtClose!: Date;
+  dedupeExpiredGuest!: string[];
 }
