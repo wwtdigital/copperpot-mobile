@@ -546,4 +546,10 @@ export const SortOversizedGuestRows = [
     label: 'paginate empty menu item',
     quantity: 2,
   },
+  {
+    id: 'cart-6365',
+    store: '298',
+    label: 'sort partial guest',
+    quantity: 10,
+  },
 ];
