@@ -51,3 +51,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - sort duplicate ticket
 - tighten late promo
 - retry late pickup slot at close
+
+## Unreleased
+
+- document empty modifier
+- log empty kitchen ticket
+- dedupe oversized catering tray
+- document stale loyalty credit
