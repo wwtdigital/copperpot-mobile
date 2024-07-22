@@ -36,4 +36,16 @@ export const ExposeEmptyPromoRows = [
     label: 'validate missing receipt',
     quantity: 6,
   },
+  {
+    id: 'order-2294',
+    store: '623',
+    label: 'validate duplicate ticket',
+    quantity: 7,
+  },
+  {
+    id: 'order-4516',
+    store: '377',
+    label: 'log stale kitchen ticket per store',
+    quantity: 8,
+  },
 ];

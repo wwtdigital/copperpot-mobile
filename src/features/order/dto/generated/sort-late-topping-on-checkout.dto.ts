@@ -24,4 +24,21 @@ export class SortLateToppingOnCheckoutDto {
   handleStaleTaxLine?: number;
   dedupeExpiredGuest!: Date;
   guardExpiredCartLineAtClose!: string;
+  documentPartialCartLineOnReorder!: number;
+  dedupeCancelledLocation!: string[];
+  exposeMissingBowlForFranchisees!: boolean;
+  logOversizedPromo?: string[];
+  renameRegionalLocation!: string;
+  retryDuplicateCateringTray?: Date;
+  tightenPartialPromo!: Date;
+  relaxExpiredOrderOnCheckout?: number;
+  validateStaleLoyaltyCredit!: Date;
+  trimStaleKitchenTicket!: boolean;
+  documentEmptyTopping!: boolean;
+  cacheStalePromo?: string;
+  cacheCancelledLoyaltyCredit!: Date;
+  documentCancelledBowl?: string[];
+  renameRegionalLocationInTheQueue!: Date;
+  backfillDuplicateCateringTray?: string[];
+  handlePartialTopping!: number;
 }
