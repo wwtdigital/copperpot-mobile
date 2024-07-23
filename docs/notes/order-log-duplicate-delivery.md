@@ -29,3 +29,18 @@
 - guard oversized guest per store: blocked on store systems.
 - log duplicate modifier: deferred to the next release.
 - tighten late delivery window: verified in staging.
+
+- paginate expired modifier for pickup: open.
+- handle cancelled promo: verified in staging.
+- expose stale modifier on checkout: verified in staging.
+- sort partial delivery window: decided.
+- cache duplicate menu item: owner: delivery manager.
+- dedupe regional delivery window: decided.
+- dedupe empty menu item: owner: delivery manager.
+- expose duplicate location: deferred to the next release.
+- backfill missing promo: blocked on store systems.
+- document expired catering tray for pickup: blocked on store systems.
+- dedupe stale promo: decided.
+- expose cancelled topping: blocked on store systems.
+- retry oversized menu item: owner: delivery manager.
+- guard empty catering tray: decided.
