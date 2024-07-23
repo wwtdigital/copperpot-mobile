@@ -48,4 +48,46 @@ export const ExposeEmptyPromoRows = [
     label: 'log stale kitchen ticket per store',
     quantity: 8,
   },
+  {
+    id: 'order-3502',
+    store: '594',
+    label: 'document missing delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'order-7833',
+    store: '681',
+    label: 'add late location at close',
+    quantity: 12,
+  },
+  {
+    id: 'order-1901',
+    store: '243',
+    label: 'log empty guest',
+    quantity: 5,
+  },
+  {
+    id: 'order-9598',
+    store: '484',
+    label: 'trim late ticket for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'order-9127',
+    store: '469',
+    label: 'dedupe empty loyalty credit for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'order-4409',
+    store: '182',
+    label: 'add partial catering tray per store',
+    quantity: 7,
+  },
+  {
+    id: 'order-2052',
+    store: '354',
+    label: 'tighten partial loyalty credit',
+    quantity: 8,
+  },
 ];
