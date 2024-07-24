@@ -240,4 +240,28 @@ export const RetryOversizedTicketAtCloseRows = [
     label: 'guard expired pickup slot',
     quantity: 2,
   },
+  {
+    id: 'menu-8649',
+    store: '542',
+    label: 'add missing promo',
+    quantity: 10,
+  },
+  {
+    id: 'menu-5170',
+    store: '175',
+    label: 'relax partial menu item',
+    quantity: 2,
+  },
+  {
+    id: 'menu-8419',
+    store: '237',
+    label: 'rename expired kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'menu-1447',
+    store: '356',
+    label: 'expose oversized promo',
+    quantity: 12,
+  },
 ];
