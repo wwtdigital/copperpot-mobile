@@ -516,4 +516,52 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'tighten regional bowl on reorder',
     quantity: 10,
   },
+  {
+    id: 'stores-2864',
+    store: '642',
+    label: 'add oversized promo per store',
+    quantity: 9,
+  },
+  {
+    id: 'stores-4417',
+    store: '142',
+    label: 'expose oversized delivery window for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'stores-7605',
+    store: '544',
+    label: 'log cancelled cart line',
+    quantity: 7,
+  },
+  {
+    id: 'stores-1778',
+    store: '310',
+    label: 'trim late cart line',
+    quantity: 5,
+  },
+  {
+    id: 'stores-5299',
+    store: '264',
+    label: 'backfill expired location at close',
+    quantity: 8,
+  },
+  {
+    id: 'stores-5588',
+    store: '688',
+    label: 'dedupe expired delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'stores-7561',
+    store: '540',
+    label: 'tighten expired loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'stores-7950',
+    store: '397',
+    label: 'rename oversized pickup slot',
+    quantity: 12,
+  },
 ];
