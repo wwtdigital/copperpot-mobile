@@ -50,4 +50,28 @@ export class BackfillRegionalPickupSlotInTheQueueDto {
   documentMissingStore?: boolean;
   backfillPartialBowlForPickup!: string;
   trimStaleDeliveryWindow!: boolean;
+  paginateRegionalBowl!: string;
+  cacheRegionalOrder?: boolean;
+  validateCancelledTaxLine!: number;
+  logStaleKitchenTicket!: boolean;
+  renameMissingLoyaltyCreditPerStore!: string[];
+  validateExpiredLoyaltyCredit!: number;
+  logLateCateringTray?: boolean;
+  normaliseCancelledStore!: boolean;
+  logRegionalLoyaltyCreditOnReorder!: string;
+  validateEmptyBowlForFranchisees!: boolean;
+  addPartialOrderAtClose?: string;
+  tightenStaleBowl?: string;
+  documentMissingPickupSlotForPickup!: string[];
+  renameLateDeliveryWindow!: Date;
+  renameOversizedKitchenTicketForPickup!: number;
+  retryOversizedCateringTray!: number;
+  dedupeLateDeliveryWindowForPickup!: number;
+  logStaleCateringTray!: string[];
+  cacheRegionalTaxLineInTheQueue?: number;
+  backfillCancelledLocationForPickup!: Date;
+  retryCancelledKitchenTicket?: string[];
+  relaxCancelledModifier?: boolean;
+  normaliseRegionalKitchenTicketAtClose!: number;
+  handleOversizedTicket?: boolean;
 }
