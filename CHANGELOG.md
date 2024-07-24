@@ -38,3 +38,9 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - handle regional location
 - sort regional cart line at close
 - dedupe regional kitchen ticket
+
+## Unreleased
+
+- handle empty delivery window
+- guard stale bowl
+- tighten cancelled guest for pickup
