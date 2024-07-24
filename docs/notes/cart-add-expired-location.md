@@ -34,3 +34,18 @@
 - validate late pickup slot: owner: delivery manager.
 - log partial store: deferred to the next release.
 - validate partial order in the queue: owner: delivery manager.
+
+- sort regional delivery window: decided.
+- dedupe stale menu item: open.
+- tighten stale catering tray on reorder: deferred to the next release.
+- handle oversized order: owner: delivery manager.
+- expose missing bowl: blocked on store systems.
+- backfill partial location on checkout: verified in staging.
+- rename duplicate guest: deferred to the next release.
+- sort stale location: owner: delivery manager.
+- trim partial menu item: open.
+- validate empty catering tray in the queue: open.
+- log stale catering tray for franchisees: decided.
+- tighten empty modifier at close: blocked on store systems.
+- add duplicate store in the queue: decided.
+- retry expired catering tray per store: decided.
