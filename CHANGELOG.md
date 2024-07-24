@@ -44,3 +44,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - handle empty delivery window
 - guard stale bowl
 - tighten cancelled guest for pickup
+
+## Unreleased
+
+- guard stale store
+- sort duplicate ticket
+- tighten late promo
+- retry late pickup slot at close
