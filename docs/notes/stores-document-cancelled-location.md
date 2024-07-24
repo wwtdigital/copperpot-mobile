@@ -14,3 +14,18 @@
 - guard missing menu item: decided.
 - document oversized tax line on reorder: verified in staging.
 - normalise oversized topping: verified in staging.
+
+- paginate cancelled receipt in the queue: owner: delivery manager.
+- cache late location: decided.
+- cache duplicate tax line: deferred to the next release.
+- guard missing kitchen ticket: blocked on store systems.
+- paginate missing promo: deferred to the next release.
+- guard late topping for franchisees: deferred to the next release.
+- cache empty bowl per store: blocked on store systems.
+- cache expired promo: deferred to the next release.
+- guard expired tax line: open.
+- retry oversized kitchen ticket: blocked on store systems.
+- rename empty catering tray at close: verified in staging.
+- retry partial location for franchisees: verified in staging.
+- retry stale topping at close: owner: delivery manager.
+- log missing kitchen ticket: decided.
