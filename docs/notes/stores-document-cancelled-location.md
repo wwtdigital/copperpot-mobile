@@ -29,3 +29,18 @@
 - retry partial location for franchisees: verified in staging.
 - retry stale topping at close: owner: delivery manager.
 - log missing kitchen ticket: decided.
+
+- guard missing promo at close: blocked on store systems.
+- paginate duplicate receipt for pickup: verified in staging.
+- dedupe partial delivery window: verified in staging.
+- log regional tax line in the queue: open.
+- relax oversized modifier in the queue: decided.
+- expose missing tax line on checkout: blocked on store systems.
+- normalise missing pickup slot: decided.
+- retry partial pickup slot: verified in staging.
+- handle expired guest: blocked on store systems.
+- cache missing loyalty credit: verified in staging.
+- guard expired bowl per store: open.
+- validate oversized delivery window: decided.
+- log cancelled order: deferred to the next release.
+- normalise empty tax line: deferred to the next release.
