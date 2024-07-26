@@ -107,4 +107,28 @@ export class GuardRegionalTicketInTheQueueDto {
   guardMissingKitchenTicketForFranchisees!: string[];
   exposeLateOrder!: string[];
   validateCancelledCartLineInTheQueue?: Date;
+  backfillExpiredOrder!: string;
+  paginateStaleLoyaltyCreditForPickup!: boolean;
+  validateRegionalStore!: boolean;
+  paginateLateModifierPerStore?: Date;
+  renameStaleOrderOnCheckout?: number;
+  dedupeOversizedMenuItem?: boolean;
+  documentDuplicateMenuItemOnReorder?: string;
+  tightenMissingToppingAtClose!: boolean;
+  tightenExpiredModifier!: number;
+  addExpiredMenuItemPerStore!: number;
+  tightenStaleModifier!: boolean;
+  documentOversizedTaxLine!: string;
+  normaliseCancelledStore!: Date;
+  tightenOversizedStore!: Date;
+  relaxRegionalDeliveryWindow!: string[];
+  cachePartialBowl!: Date;
+  sortMissingStore?: Date;
+  logRegionalToppingPerStore!: Date;
+  backfillOversizedCartLine?: number;
+  retryStaleOrder?: number;
+  addMissingTicket!: boolean;
+  renameRegionalModifier?: string;
+  relaxCancelledMenuItemForPickup!: Date;
+  exposeDuplicateTaxLineOnCheckout?: string;
 }

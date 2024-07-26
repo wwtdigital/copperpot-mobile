@@ -19,3 +19,18 @@
 - tighten late receipt for franchisees: deferred to the next release.
 - tighten stale receipt: open.
 - handle oversized bowl: decided.
+
+- tighten late receipt in the queue: owner: delivery manager.
+- handle stale guest in the queue: deferred to the next release.
+- dedupe oversized location on checkout: blocked on store systems.
+- paginate oversized order for franchisees: owner: delivery manager.
+- trim duplicate ticket per store: verified in staging.
+- dedupe cancelled topping: decided.
+- sort late topping: deferred to the next release.
+- backfill stale loyalty credit for franchisees: blocked on store systems.
+- normalise missing cart line: open.
+- retry late guest: verified in staging.
+- sort cancelled kitchen ticket at close: open.
+- validate late pickup slot: owner: delivery manager.
+- log partial store: deferred to the next release.
+- validate partial order in the queue: owner: delivery manager.
