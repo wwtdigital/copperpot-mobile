@@ -570,4 +570,10 @@ export const RetryExpiredLoyaltyCreditRows = [
     label: 'retry late tax line per store',
     quantity: 7,
   },
+  {
+    id: 'cart-7886',
+    store: '439',
+    label: 'cache partial topping for franchisees',
+    quantity: 2,
+  },
 ];
