@@ -1,0 +1,123 @@
+/* Fixture rows for account tests: tighten cancelled tax line for pickup. Generated data, not production data. */
+export const TightenCancelledTaxLineForPickupRows = [
+  {
+    id: 'account-3641',
+    store: '676',
+    label: 'tighten cancelled store for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'account-8759',
+    store: '394',
+    label: 'rename oversized promo',
+    quantity: 12,
+  },
+  {
+    id: 'account-2040',
+    store: '118',
+    label: 'log late menu item',
+    quantity: 11,
+  },
+  {
+    id: 'account-1053',
+    store: '653',
+    label: 'guard missing modifier for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'account-8903',
+    store: '468',
+    label: 'retry expired loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'account-2729',
+    store: '407',
+    label: 'paginate stale bowl',
+    quantity: 9,
+  },
+  {
+    id: 'account-1394',
+    store: '194',
+    label: 'retry expired menu item',
+    quantity: 7,
+  },
+  {
+    id: 'account-6211',
+    store: '532',
+    label: 'guard stale delivery window for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'account-2209',
+    store: '695',
+    label: 'paginate expired delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'account-9322',
+    store: '389',
+    label: 'tighten duplicate loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'account-3498',
+    store: '566',
+    label: 'rename duplicate delivery window on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'account-5102',
+    store: '393',
+    label: 'expose regional ticket',
+    quantity: 7,
+  },
+  {
+    id: 'account-7065',
+    store: '176',
+    label: 'trim stale pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'account-5096',
+    store: '509',
+    label: 'normalise regional order in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'account-1139',
+    store: '646',
+    label: 'normalise empty delivery window',
+    quantity: 3,
+  },
+  {
+    id: 'account-7761',
+    store: '488',
+    label: 'paginate expired guest on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'account-6788',
+    store: '237',
+    label: 'expose regional order',
+    quantity: 3,
+  },
+  {
+    id: 'account-5855',
+    store: '556',
+    label: 'retry late bowl',
+    quantity: 3,
+  },
+  {
+    id: 'account-1190',
+    store: '130',
+    label: 'trim empty promo in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'account-9830',
+    store: '463',
+    label: 'handle late guest',
+    quantity: 10,
+  },
+];
