@@ -46,4 +46,6 @@ export class RenameOversizedDeliveryWindowDto {
   addCancelledGuestForPickup!: boolean;
   exposeLateDeliveryWindowForFranchisees!: string;
   relaxRegionalDeliveryWindow!: boolean;
+  handleRegionalCartLine?: number;
+  renameStaleLoyaltyCredit!: string;
 }

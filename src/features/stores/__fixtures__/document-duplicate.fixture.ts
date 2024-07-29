@@ -258,4 +258,10 @@ export const DocumentDuplicateTaxLineRows = [
     label: 'tighten partial order on reorder',
     quantity: 10,
   },
+  {
+    id: 'stores-1264',
+    store: '682',
+    label: 'document cancelled order',
+    quantity: 8,
+  },
 ];
