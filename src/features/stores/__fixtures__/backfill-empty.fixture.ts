@@ -564,4 +564,22 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'rename oversized pickup slot',
     quantity: 12,
   },
+  {
+    id: 'stores-6217',
+    store: '440',
+    label: 'trim late receipt',
+    quantity: 12,
+  },
+  {
+    id: 'stores-8313',
+    store: '257',
+    label: 'dedupe late bowl',
+    quantity: 2,
+  },
+  {
+    id: 'stores-3416',
+    store: '129',
+    label: 'retry duplicate location on reorder',
+    quantity: 7,
+  },
 ];

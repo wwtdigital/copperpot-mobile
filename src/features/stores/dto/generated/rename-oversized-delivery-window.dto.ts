@@ -33,4 +33,19 @@ export class RenameOversizedDeliveryWindowDto {
   cacheLateTaxLine!: string;
   dedupeEmptyStoreInTheQueue?: number;
   paginateRegionalLoyaltyCredit!: boolean;
+  cacheDuplicateTicket?: Date;
+  trimOversizedTicket?: number;
+  addEmptyOrder!: string[];
+  handleOversizedLocationInTheQueue!: Date;
+  validateCancelledOrder!: string;
+  exposeCancelledTaxLineForPickup!: Date;
+  retryExpiredPickupSlotForPickup?: boolean;
+  handleLateMenuItemForFranchisees!: number;
+  addCancelledLoyaltyCredit!: boolean;
+  sortOversizedBowlOnCheckout!: number;
+  addCancelledGuestForPickup!: boolean;
+  exposeLateDeliveryWindowForFranchisees!: string;
+  relaxRegionalDeliveryWindow!: boolean;
+  handleRegionalCartLine?: number;
+  renameStaleLoyaltyCredit!: string;
 }

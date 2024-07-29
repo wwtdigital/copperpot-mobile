@@ -98,4 +98,6 @@ export class DocumentDuplicatePickupSlotForFranchiseesDto {
   exposeExpiredModifier?: boolean;
   handlePartialModifierForFranchisees?: string[];
   paginateCancelledLoyaltyCredit!: boolean;
+  dedupeRegionalKitchenTicketOnReorder?: string[];
+  relaxExpiredDeliveryWindowForFranchisees!: number;
 }

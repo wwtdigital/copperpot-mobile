@@ -240,4 +240,28 @@ export const DocumentDuplicateTaxLineRows = [
     label: 'tighten regional loyalty credit',
     quantity: 9,
   },
+  {
+    id: 'stores-9863',
+    store: '219',
+    label: 'dedupe regional delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'stores-1992',
+    store: '586',
+    label: 'add regional delivery window in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'stores-1277',
+    store: '508',
+    label: 'tighten partial order on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'stores-1264',
+    store: '682',
+    label: 'document cancelled order',
+    quantity: 8,
+  },
 ];
