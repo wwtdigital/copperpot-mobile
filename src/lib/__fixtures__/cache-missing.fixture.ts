@@ -240,4 +240,28 @@ export const CacheMissingTaxLinePerStoreRows = [
     label: 'guard cancelled delivery window for pickup',
     quantity: 2,
   },
+  {
+    id: 'lib-7669',
+    store: '365',
+    label: 'dedupe empty store on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'lib-3288',
+    store: '155',
+    label: 'sort cancelled guest',
+    quantity: 6,
+  },
+  {
+    id: 'lib-5561',
+    store: '653',
+    label: 'trim cancelled cart line',
+    quantity: 2,
+  },
+  {
+    id: 'lib-5398',
+    store: '141',
+    label: 'expose oversized receipt',
+    quantity: 11,
+  },
 ];
