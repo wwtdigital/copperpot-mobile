@@ -48,4 +48,8 @@ export class RenameOversizedDeliveryWindowDto {
   relaxRegionalDeliveryWindow!: boolean;
   handleRegionalCartLine?: number;
   renameStaleLoyaltyCredit!: string;
+  normaliseOversizedOrder?: string[];
+  backfillDuplicateModifier!: boolean;
+  relaxStaleCartLine?: boolean;
+  dedupeOversizedModifier!: string[];
 }

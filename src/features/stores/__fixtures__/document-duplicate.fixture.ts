@@ -264,4 +264,10 @@ export const DocumentDuplicateTaxLineRows = [
     label: 'document cancelled order',
     quantity: 8,
   },
+  {
+    id: 'stores-9611',
+    store: '304',
+    label: 'log duplicate location',
+    quantity: 6,
+  },
 ];

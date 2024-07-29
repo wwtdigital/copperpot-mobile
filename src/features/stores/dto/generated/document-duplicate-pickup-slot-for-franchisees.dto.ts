@@ -124,4 +124,6 @@ export class DocumentDuplicatePickupSlotForFranchiseesDto {
   validateRegionalLocationForPickup!: string[];
   dedupeLatePickupSlot?: string[];
   guardLatePromo!: Date;
+  retryMissingLoyaltyCreditPerStore!: boolean;
+  sortMissingMenuItemPerStore!: string[];
 }
