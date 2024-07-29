@@ -100,4 +100,28 @@ export class DocumentDuplicatePickupSlotForFranchiseesDto {
   paginateCancelledLoyaltyCredit!: boolean;
   dedupeRegionalKitchenTicketOnReorder?: string[];
   relaxExpiredDeliveryWindowForFranchisees!: number;
+  validatePartialTaxLineForPickup!: string;
+  cacheLateLocationOnCheckout!: boolean;
+  paginateExpiredTaxLineForFranchisees!: boolean;
+  guardExpiredBowlOnCheckout!: boolean;
+  addLatePickupSlot!: number;
+  backfillStaleGuestPerStore!: number;
+  paginateLateMenuItemPerStore!: boolean;
+  sortMissingMenuItemOnCheckout?: Date;
+  trimPartialCateringTrayOnCheckout!: string[];
+  relaxDuplicateCartLine!: string;
+  addLateTaxLine!: string[];
+  sortExpiredMenuItem?: number;
+  sortOversizedReceiptForPickup!: Date;
+  cacheStaleKitchenTicket?: string;
+  addDuplicateStoreInTheQueue?: string[];
+  addPartialPickupSlotOnCheckout!: boolean;
+  dedupeStalePromo!: string[];
+  validateStaleLocationInTheQueue!: boolean;
+  trimPartialDeliveryWindowForFranchisees!: string;
+  renameDuplicateCartLine!: string;
+  cacheExpiredReceipt!: string;
+  validateRegionalLocationForPickup!: string[];
+  dedupeLatePickupSlot?: string[];
+  guardLatePromo!: Date;
 }

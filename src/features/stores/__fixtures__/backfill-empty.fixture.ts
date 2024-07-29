@@ -582,4 +582,28 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'retry duplicate location on reorder',
     quantity: 7,
   },
+  {
+    id: 'stores-2599',
+    store: '568',
+    label: 'backfill cancelled loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'stores-4096',
+    store: '539',
+    label: 'tighten regional bowl',
+    quantity: 3,
+  },
+  {
+    id: 'stores-8510',
+    store: '176',
+    label: 'cache partial promo',
+    quantity: 11,
+  },
+  {
+    id: 'stores-2129',
+    store: '593',
+    label: 'paginate empty catering tray',
+    quantity: 12,
+  },
 ];
