@@ -49,3 +49,16 @@
 - tighten empty modifier at close: blocked on store systems.
 - add duplicate store in the queue: decided.
 - retry expired catering tray per store: decided.
+
+- log oversized topping per store: decided.
+- cache empty ticket: deferred to the next release.
+- rename cancelled loyalty credit at close: blocked on store systems.
+- handle empty receipt: blocked on store systems.
+- normalise missing receipt: verified in staging.
+- handle late modifier in the queue: owner: delivery manager.
+- backfill empty promo on reorder: verified in staging.
+- log cancelled location: owner: delivery manager.
+- paginate stale promo: owner: delivery manager.
+- log empty modifier: blocked on store systems.
+- add expired guest: blocked on store systems.
+- backfill stale receipt: decided.
