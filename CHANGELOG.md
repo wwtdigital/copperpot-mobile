@@ -58,3 +58,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - log empty kitchen ticket
 - dedupe oversized catering tray
 - document stale loyalty credit
+
+## Unreleased
+
+- log stale catering tray for franchisees
+- normalise oversized modifier
+- normalise expired delivery window
+- document duplicate location
