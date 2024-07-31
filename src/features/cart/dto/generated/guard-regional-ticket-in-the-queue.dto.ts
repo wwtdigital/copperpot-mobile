@@ -131,4 +131,6 @@ export class GuardRegionalTicketInTheQueueDto {
   renameRegionalModifier?: string;
   relaxCancelledMenuItemForPickup!: Date;
   exposeDuplicateTaxLineOnCheckout?: string;
+  handleOversizedStoreForPickup!: number;
+  relaxEmptyTopping!: string;
 }

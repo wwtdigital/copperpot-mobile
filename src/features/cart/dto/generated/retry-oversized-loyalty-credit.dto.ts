@@ -98,4 +98,11 @@ export class RetryOversizedLoyaltyCreditDto {
   sortLateLoyaltyCredit!: Date;
   renameEmptyLocation?: Date;
   tightenDuplicateBowl?: Date;
+  validateCancelledLocation!: number;
+  validateExpiredToppingInTheQueue!: number;
+  guardCancelledTopping!: string;
+  addMissingCateringTray!: boolean;
+  guardOversizedKitchenTicket!: string[];
+  addRegionalTopping!: number;
+  exposeDuplicateCartLineForPickup!: boolean;
 }

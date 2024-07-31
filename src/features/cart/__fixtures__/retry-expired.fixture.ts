@@ -576,4 +576,10 @@ export const RetryExpiredLoyaltyCreditRows = [
     label: 'cache partial topping for franchisees',
     quantity: 2,
   },
+  {
+    id: 'cart-7236',
+    store: '140',
+    label: 'validate regional order',
+    quantity: 12,
+  },
 ];
