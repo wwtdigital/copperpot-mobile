@@ -672,4 +672,22 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'dedupe empty tax line',
     quantity: 2,
   },
+  {
+    id: 'stores-5820',
+    store: '104',
+    label: 'add missing store per store',
+    quantity: 8,
+  },
+  {
+    id: 'stores-8610',
+    store: '678',
+    label: 'guard partial modifier',
+    quantity: 4,
+  },
+  {
+    id: 'stores-3502',
+    store: '515',
+    label: 'expose regional loyalty credit',
+    quantity: 3,
+  },
 ];
