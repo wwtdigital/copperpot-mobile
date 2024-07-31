@@ -690,4 +690,34 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'expose regional loyalty credit',
     quantity: 3,
   },
+  {
+    id: 'stores-9806',
+    store: '211',
+    label: 'backfill duplicate ticket',
+    quantity: 4,
+  },
+  {
+    id: 'stores-7396',
+    store: '462',
+    label: 'retry stale promo per store',
+    quantity: 3,
+  },
+  {
+    id: 'stores-6601',
+    store: '398',
+    label: 'guard oversized modifier',
+    quantity: 11,
+  },
+  {
+    id: 'stores-1364',
+    store: '593',
+    label: 'expose oversized cart line',
+    quantity: 10,
+  },
+  {
+    id: 'stores-5682',
+    store: '331',
+    label: 'validate late topping',
+    quantity: 4,
+  },
 ];
