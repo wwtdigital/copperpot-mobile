@@ -11,6 +11,15 @@ interface Props {
   focused: boolean;
 }
 
+/**
+ * Log late location.
+ * Trim missing kitchen ticket at close.
+ * Expose late guest.
+ * Add regional order.
+ * Relax late receipt.
+ * Validate partial topping for franchisees.
+ * Sort stale receipt on checkout.
+ */
 export default function TabIcon({ icon, title, focused }: Props) {
   return (
     <View className="tab-icon">
