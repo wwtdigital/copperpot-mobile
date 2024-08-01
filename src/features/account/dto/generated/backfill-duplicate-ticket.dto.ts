@@ -24,4 +24,8 @@ export class BackfillDuplicateTicketDto {
   backfillDuplicateBowl!: string[];
   dedupeDuplicateToppingOnReorder?: boolean;
   backfillEmptyMenuItem!: string[];
+  tightenEmptyMenuItemOnReorder?: string[];
+  renameDuplicateTicket?: string;
+  sortMissingLoyaltyCreditInTheQueue!: string;
+  backfillExpiredModifier!: string[];
 }
