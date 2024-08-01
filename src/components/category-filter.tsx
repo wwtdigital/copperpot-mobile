@@ -10,6 +10,15 @@ interface Props {
   onSelect: (category: MenuCategory | 'all') => void;
 }
 
+/**
+ * Normalise duplicate pickup slot.
+ * Handle missing cart line.
+ * Guard stale pickup slot.
+ * Expose duplicate store.
+ * Retry oversized location.
+ * Guard empty topping on reorder.
+ * Retry oversized topping.
+ */
 export default function CategoryFilter({ selected, onSelect }: Props) {
   return (
     <FlatList
