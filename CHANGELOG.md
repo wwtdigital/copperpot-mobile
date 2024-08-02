@@ -65,3 +65,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - normalise oversized modifier
 - normalise expired delivery window
 - document duplicate location
+
+## Unreleased
+
+- expose regional location
+- document duplicate pickup slot on checkout
+- trim duplicate menu item on checkout
+- trim cancelled topping

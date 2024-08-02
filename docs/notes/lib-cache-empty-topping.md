@@ -44,3 +44,18 @@
 - sort stale kitchen ticket: deferred to the next release.
 - tighten regional delivery window: open.
 - relax cancelled kitchen ticket on reorder: verified in staging.
+
+- retry empty order: open.
+- tighten missing delivery window on reorder: blocked on store systems.
+- paginate stale topping: verified in staging.
+- paginate regional loyalty credit: owner: delivery manager.
+- rename regional order: owner: delivery manager.
+- rename duplicate catering tray for pickup: open.
+- normalise late bowl: owner: delivery manager.
+- validate regional delivery window: blocked on store systems.
+- validate oversized catering tray on reorder: open.
+- rename oversized bowl: blocked on store systems.
+- backfill empty order: verified in staging.
+- backfill cancelled kitchen ticket: owner: delivery manager.
+- log missing location for pickup: deferred to the next release.
+- sort missing tax line for pickup: decided.
