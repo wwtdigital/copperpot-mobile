@@ -144,4 +144,46 @@ export const GuardEmptyStoreRows = [
     label: 'validate duplicate bowl on reorder',
     quantity: 2,
   },
+  {
+    id: 'loyalty-8608',
+    store: '107',
+    label: 'sort missing tax line',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-3321',
+    store: '250',
+    label: 'tighten duplicate modifier',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-2155',
+    store: '664',
+    label: 'rename late catering tray in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-9286',
+    store: '156',
+    label: 'relax partial menu item',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-4570',
+    store: '272',
+    label: 'log regional receipt',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-1165',
+    store: '402',
+    label: 'normalise partial catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-6365',
+    store: '180',
+    label: 'tighten late promo on reorder',
+    quantity: 10,
+  },
 ];
