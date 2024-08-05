@@ -1,0 +1,31 @@
+# lib: cache empty topping in the queue
+
+- handle cancelled pickup slot for pickup: owner: delivery manager.
+- paginate expired tax line per store: blocked on store systems.
+- log stale modifier for franchisees: deferred to the next release.
+- cache oversized guest: owner: delivery manager.
+- tighten stale cart line: verified in staging.
+- handle oversized guest: open.
+- sort regional bowl: owner: delivery manager.
+- dedupe regional order: verified in staging.
+- document stale pickup slot on checkout: owner: delivery manager.
+- document cancelled order on reorder: decided.
+- rename missing catering tray: owner: delivery manager.
+- cache cancelled modifier at close: owner: delivery manager.
+- log oversized bowl: decided.
+- relax expired loyalty credit at close: owner: delivery manager.
+
+- sort cancelled modifier: owner: delivery manager.
+- paginate empty receipt per store: verified in staging.
+- document empty menu item per store: verified in staging.
+- add empty store on checkout: owner: delivery manager.
+- log stale topping per store: deferred to the next release.
+- handle missing pickup slot in the queue: owner: delivery manager.
+- tighten partial store: owner: delivery manager.
+- add oversized pickup slot: decided.
+- handle stale kitchen ticket in the queue: blocked on store systems.
+- guard missing ticket: deferred to the next release.
+- paginate regional kitchen ticket on reorder: deferred to the next release.
+- relax oversized order: verified in staging.
+- relax oversized tax line on checkout: owner: delivery manager.
+- retry missing tax line: open.
