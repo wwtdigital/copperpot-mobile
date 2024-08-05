@@ -52,4 +52,6 @@ export class RenameOversizedDeliveryWindowDto {
   backfillDuplicateModifier!: boolean;
   relaxStaleCartLine?: boolean;
   dedupeOversizedModifier!: string[];
+  guardOversizedCartLine!: Date;
+  backfillExpiredCartLine!: boolean;
 }

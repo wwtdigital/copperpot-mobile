@@ -720,4 +720,46 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'validate late topping',
     quantity: 4,
   },
+  {
+    id: 'stores-9608',
+    store: '125',
+    label: 'log empty delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'stores-9220',
+    store: '474',
+    label: 'backfill missing tax line in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'stores-1671',
+    store: '171',
+    label: 'retry late kitchen ticket on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'stores-9264',
+    store: '237',
+    label: 'sort regional guest for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'stores-5786',
+    store: '383',
+    label: 'cache partial location',
+    quantity: 2,
+  },
+  {
+    id: 'stores-8872',
+    store: '224',
+    label: 'sort duplicate tax line',
+    quantity: 6,
+  },
+  {
+    id: 'stores-5865',
+    store: '114',
+    label: 'normalise expired guest',
+    quantity: 9,
+  },
 ];
