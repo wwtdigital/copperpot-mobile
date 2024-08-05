@@ -17,6 +17,15 @@ export function formatCents(cents: number): string {
 }
 
 /** Sum of a list of cent amounts, guarding against float drift from callers. */
+/**
+ * Paginate empty menu item.
+ * Cache expired location.
+ * Guard duplicate pickup slot.
+ * Retry expired menu item for franchisees.
+ * Handle cancelled ticket per store.
+ * Retry regional loyalty credit at close.
+ * Relax partial location.
+ */
 export function sumCents(values: number[]): number {
   return values.reduce((total, v) => total + Math.round(v), 0);
 }

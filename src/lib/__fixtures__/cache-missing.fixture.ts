@@ -1,0 +1,123 @@
+/* Fixture rows for lib tests: cache missing tax line per store. Generated data, not production data. */
+export const CacheMissingTaxLinePerStoreRows = [
+  {
+    id: 'lib-9451',
+    store: '552',
+    label: 'document duplicate pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'lib-2268',
+    store: '676',
+    label: 'expose partial guest',
+    quantity: 4,
+  },
+  {
+    id: 'lib-8680',
+    store: '274',
+    label: 'guard expired catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'lib-7560',
+    store: '623',
+    label: 'relax expired receipt',
+    quantity: 3,
+  },
+  {
+    id: 'lib-2125',
+    store: '684',
+    label: 'log expired promo',
+    quantity: 9,
+  },
+  {
+    id: 'lib-1769',
+    store: '335',
+    label: 'paginate missing tax line per store',
+    quantity: 3,
+  },
+  {
+    id: 'lib-8633',
+    store: '199',
+    label: 'validate oversized loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'lib-8648',
+    store: '566',
+    label: 'expose empty cart line on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'lib-7084',
+    store: '441',
+    label: 'add stale menu item',
+    quantity: 9,
+  },
+  {
+    id: 'lib-6450',
+    store: '137',
+    label: 'relax missing pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'lib-5285',
+    store: '493',
+    label: 'trim missing guest',
+    quantity: 7,
+  },
+  {
+    id: 'lib-1471',
+    store: '157',
+    label: 'backfill regional loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'lib-5575',
+    store: '631',
+    label: 'retry late location',
+    quantity: 8,
+  },
+  {
+    id: 'lib-3362',
+    store: '179',
+    label: 'rename stale modifier',
+    quantity: 11,
+  },
+  {
+    id: 'lib-7021',
+    store: '210',
+    label: 'rename expired pickup slot for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'lib-4119',
+    store: '266',
+    label: 'paginate late bowl',
+    quantity: 8,
+  },
+  {
+    id: 'lib-1470',
+    store: '567',
+    label: 'trim cancelled store',
+    quantity: 11,
+  },
+  {
+    id: 'lib-2494',
+    store: '243',
+    label: 'normalise empty tax line on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'lib-8547',
+    store: '585',
+    label: 'document regional topping for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'lib-7084',
+    store: '556',
+    label: 'handle expired pickup slot',
+    quantity: 5,
+  },
+];
