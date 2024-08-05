@@ -74,3 +74,6 @@
 - guard missing delivery window in the queue: deferred to the next release.
 - trim cancelled store on checkout: open.
 - backfill regional delivery window: decided.
+
+- validate empty topping on reorder: owner: delivery manager.
+- log oversized loyalty credit on reorder: open.
