@@ -29,3 +29,18 @@
 - relax oversized order: verified in staging.
 - relax oversized tax line on checkout: owner: delivery manager.
 - retry missing tax line: open.
+
+- normalise late cart line: verified in staging.
+- expose regional promo: verified in staging.
+- cache duplicate kitchen ticket: deferred to the next release.
+- log late delivery window at close: open.
+- log partial cart line: blocked on store systems.
+- tighten expired topping at close: open.
+- relax cancelled kitchen ticket: deferred to the next release.
+- validate partial receipt: decided.
+- retry late promo at close: blocked on store systems.
+- document missing modifier for pickup: verified in staging.
+- backfill partial modifier: deferred to the next release.
+- sort stale kitchen ticket: deferred to the next release.
+- tighten regional delivery window: open.
+- relax cancelled kitchen ticket on reorder: verified in staging.
