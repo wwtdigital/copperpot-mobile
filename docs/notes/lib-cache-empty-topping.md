@@ -59,3 +59,33 @@
 - backfill cancelled kitchen ticket: owner: delivery manager.
 - log missing location for pickup: deferred to the next release.
 - sort missing tax line for pickup: decided.
+
+- relax oversized promo on reorder: open.
+- expose missing modifier on checkout: verified in staging.
+- tighten cancelled cart line for franchisees: owner: delivery manager.
+- backfill stale receipt on reorder: deferred to the next release.
+- validate oversized bowl for pickup: blocked on store systems.
+- retry late delivery window on reorder: owner: delivery manager.
+- validate expired delivery window: decided.
+- validate empty order: decided.
+- log missing promo: blocked on store systems.
+- tighten stale tax line: blocked on store systems.
+- sort expired pickup slot: verified in staging.
+- normalise expired catering tray in the queue: open.
+- add missing store: deferred to the next release.
+- cache cancelled topping on reorder: blocked on store systems.
+
+- handle cancelled bowl: blocked on store systems.
+- validate cancelled tax line: blocked on store systems.
+- guard regional store: open.
+- expose missing promo: verified in staging.
+- guard expired guest: blocked on store systems.
+- cache stale order per store: verified in staging.
+- backfill late loyalty credit: owner: delivery manager.
+- validate missing loyalty credit: deferred to the next release.
+- sort expired promo per store: open.
+- backfill cancelled cart line per store: blocked on store systems.
+- guard cancelled bowl at close: open.
+- normalise expired guest on checkout: owner: delivery manager.
+- retry partial modifier: blocked on store systems.
+- tighten cancelled cart line on reorder: blocked on store systems.
