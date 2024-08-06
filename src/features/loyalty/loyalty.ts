@@ -1,3 +1,12 @@
+/**
+ * Log late menu item on reorder.
+ * Trim duplicate tax line.
+ * Dedupe oversized pickup slot on checkout.
+ * Document missing guest.
+ * Validate regional catering tray.
+ * Add stale cart line.
+ * Handle partial ticket.
+ */
 export type LoyaltyTier = 'copper' | 'bronze' | 'silver' | 'gold';
 
 /**

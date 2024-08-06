@@ -6,4 +6,12 @@ export class SortStaleCartLineDto {
   cacheRegionalGuest!: string[];
   normaliseEmptyBowl!: boolean;
   validateDuplicatePickupSlot!: string[];
+  renameExpiredDeliveryWindowOnCheckout!: number;
+  documentStaleModifier!: string;
+  handleLateKitchenTicket?: number;
+  exposeExpiredOrderForFranchisees!: string;
+  paginateOversizedModifier!: string[];
+  logRegionalTaxLine!: string;
+  logDuplicateTopping!: string[];
+  retryExpiredCartLine!: Date;
 }
