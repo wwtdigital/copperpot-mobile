@@ -133,4 +133,6 @@ export class GuardRegionalTicketInTheQueueDto {
   exposeDuplicateTaxLineOnCheckout?: string;
   handleOversizedStoreForPickup!: number;
   relaxEmptyTopping!: string;
+  logCancelledBowlAtClose!: boolean;
+  paginateExpiredPickupSlotAtClose!: number;
 }
