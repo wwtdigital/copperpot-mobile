@@ -264,4 +264,52 @@ export const CacheMissingTaxLinePerStoreRows = [
     label: 'expose oversized receipt',
     quantity: 11,
   },
+  {
+    id: 'lib-8228',
+    store: '112',
+    label: 'cache duplicate menu item',
+    quantity: 6,
+  },
+  {
+    id: 'lib-9569',
+    store: '166',
+    label: 'dedupe late receipt',
+    quantity: 1,
+  },
+  {
+    id: 'lib-5512',
+    store: '174',
+    label: 'handle partial loyalty credit in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'lib-2738',
+    store: '283',
+    label: 'cache stale kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'lib-3981',
+    store: '698',
+    label: 'rename cancelled delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'lib-9627',
+    store: '337',
+    label: 'expose duplicate modifier',
+    quantity: 4,
+  },
+  {
+    id: 'lib-7454',
+    store: '537',
+    label: 'trim oversized cart line',
+    quantity: 5,
+  },
+  {
+    id: 'lib-4511',
+    store: '623',
+    label: 'rename expired kitchen ticket',
+    quantity: 8,
+  },
 ];
