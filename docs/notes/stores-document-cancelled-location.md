@@ -44,3 +44,18 @@
 - validate oversized delivery window: decided.
 - log cancelled order: deferred to the next release.
 - normalise empty tax line: deferred to the next release.
+
+- cache empty menu item: deferred to the next release.
+- rename oversized promo on reorder: deferred to the next release.
+- log duplicate kitchen ticket: decided.
+- expose late loyalty credit: verified in staging.
+- dedupe missing receipt in the queue: owner: delivery manager.
+- handle late menu item for franchisees: open.
+- validate regional receipt: owner: delivery manager.
+- cache regional topping in the queue: verified in staging.
+- log oversized topping: decided.
+- retry partial receipt on reorder: deferred to the next release.
+- guard empty order: owner: delivery manager.
+- backfill late delivery window: verified in staging.
+- log missing receipt for pickup: blocked on store systems.
+- document cancelled delivery window for pickup: verified in staging.
