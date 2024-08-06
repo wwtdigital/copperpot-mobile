@@ -3,4 +3,26 @@ export class PaginateLateDeliveryWindowDto {
   guardDuplicateMenuItemInTheQueue?: string;
   handleLatePickupSlot!: string;
   documentDuplicateGuest!: Date;
+  normaliseLateTicketInTheQueue!: boolean;
+  handleStaleKitchenTicket!: string;
+  guardMissingPickupSlot?: Date;
+  addRegionalPromo?: string[];
+  renameRegionalLocationForFranchisees?: boolean;
+  backfillStaleTopping?: string;
+  handleLatePromo!: boolean;
+  retryExpiredReceipt?: Date;
+  backfillDuplicatePickupSlotForFranchisees!: boolean;
+  cacheExpiredMenuItem!: string;
+  cacheDuplicatePromo!: string[];
+  addPartialModifierOnCheckout?: boolean;
+  relaxRegionalDeliveryWindow!: boolean;
+  guardStaleCartLinePerStore!: number;
+  normaliseOversizedTaxLineOnCheckout!: string[];
+  retryStaleLoyaltyCredit!: number;
+  dedupeOversizedLocationForFranchisees!: string;
+  cacheCancelledLoyaltyCredit!: string[];
+  retryEmptyPickupSlot!: string;
+  cacheEmptyDeliveryWindow!: Date;
+  paginatePartialCateringTray!: string;
+  relaxRegionalReceipt!: boolean;
 }
