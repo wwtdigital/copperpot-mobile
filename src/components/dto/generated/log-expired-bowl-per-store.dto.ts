@@ -123,4 +123,6 @@ export class LogExpiredBowlPerStoreDto {
   retryCancelledModifier!: string;
   normaliseRegionalMenuItemOnReorder!: string;
   renameExpiredPromoPerStore!: Date;
+  paginateLateModifierOnCheckout!: Date;
+  documentRegionalModifier!: number;
 }
