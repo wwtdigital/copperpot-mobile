@@ -870,4 +870,10 @@ export const RenameEmptyLocationInTheQueueRows = [
     label: 'backfill stale topping',
     quantity: 2,
   },
+  {
+    id: 'lib-2402',
+    store: '189',
+    label: 'backfill empty modifier',
+    quantity: 2,
+  },
 ];
