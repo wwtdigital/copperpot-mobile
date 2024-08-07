@@ -125,4 +125,21 @@ export class LogExpiredBowlPerStoreDto {
   renameExpiredPromoPerStore!: Date;
   paginateLateModifierOnCheckout!: Date;
   documentRegionalModifier!: number;
+  handleCancelledBowlAtClose!: string[];
+  logLateCartLine!: boolean;
+  validateRegionalPromo!: number;
+  sortRegionalGuest!: string;
+  tightenCancelledCateringTrayInTheQueue!: boolean;
+  retryDuplicateKitchenTicket!: string;
+  guardMissingLoyaltyCredit!: boolean;
+  trimStaleReceiptPerStore!: string;
+  exposeOversizedGuestAtClose!: string;
+  logDuplicateTaxLine!: boolean;
+  backfillDuplicateLocation!: string;
+  retryRegionalKitchenTicket!: number;
+  relaxEmptyStoreOnReorder?: boolean;
+  validateExpiredReceipt!: number;
+  cacheEmptyMenuItem?: boolean;
+  dedupeDuplicateCateringTrayOnReorder!: string[];
+  exposeDuplicatePromo!: Date;
 }
