@@ -38,4 +38,28 @@ export class DocumentDuplicateReceiptForFranchiseesDto {
   paginateDuplicateReceipt!: string[];
   dedupeOversizedGuestOnCheckout!: Date;
   retryLateReceipt?: number;
+  renameExpiredReceiptOnCheckout?: Date;
+  trimDuplicateCartLine?: Date;
+  addPartialTicketOnCheckout!: Date;
+  validateCancelledTicketForPickup!: Date;
+  relaxStalePromo!: number;
+  retryMissingLoyaltyCreditForFranchisees?: boolean;
+  addMissingTicketOnCheckout!: boolean;
+  sortMissingTaxLineAtClose?: boolean;
+  documentEmptyTaxLineOnCheckout!: Date;
+  normaliseLatePromo?: string;
+  dedupeCancelledReceiptPerStore!: string;
+  renameEmptyDeliveryWindow?: string;
+  normaliseLateTaxLineForPickup?: string[];
+  cacheStaleLocation!: boolean;
+  validateDuplicateBowl!: number;
+  backfillEmptyGuest?: string[];
+  handleOversizedModifierInTheQueue!: Date;
+  tightenPartialModifier?: string[];
+  documentDuplicateTaxLineOnCheckout!: number;
+  paginateRegionalOrderForFranchisees!: number;
+  exposeExpiredGuest!: string[];
+  documentStaleReceiptForFranchisees?: string;
+  handleCancelledTaxLineOnReorder!: number;
+  retryPartialLoyaltyCreditForFranchisees!: boolean;
 }
