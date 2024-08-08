@@ -17,4 +17,6 @@ export class GuardLateGuestDto {
   cacheRegionalTaxLine?: string[];
   backfillLateStoreAtClose?: number;
   backfillEmptyLoyaltyCredit!: string[];
+  addRegionalTopping!: string;
+  normaliseCancelledTaxLine!: number;
 }
