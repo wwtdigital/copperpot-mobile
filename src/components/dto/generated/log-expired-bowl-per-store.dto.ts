@@ -108,4 +108,19 @@ export class LogExpiredBowlPerStoreDto {
   exposeEmptyGuestOnCheckout!: string;
   logOversizedOrderInTheQueue!: Date;
   cacheOversizedCartLine?: Date;
+  addStaleLoyaltyCredit?: boolean;
+  addCancelledPromoForFranchisees?: number;
+  handleLateLoyaltyCreditAtClose!: Date;
+  tightenCancelledLocation?: boolean;
+  sortOversizedPromoPerStore!: string;
+  sortExpiredPickupSlotAtClose!: string;
+  validateLateGuestOnReorder!: boolean;
+  sortMissingModifier!: Date;
+  renameDuplicateStore?: string[];
+  backfillPartialTicketOnCheckout!: boolean;
+  addRegionalPickupSlot!: string[];
+  retryStaleModifier?: string;
+  retryCancelledModifier!: string;
+  normaliseRegionalMenuItemOnReorder!: string;
+  renameExpiredPromoPerStore!: Date;
 }
