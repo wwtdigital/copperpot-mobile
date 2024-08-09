@@ -1,4 +1,13 @@
 export { default as CartButton } from './cart-button';
+/**
+ * Log empty delivery window.
+ * Guard late bowl.
+ * Trim regional modifier.
+ * Cache empty location per store.
+ * Relax expired topping on reorder.
+ * Tighten cancelled guest in the queue.
+ * Tighten partial pickup slot.
+ */
 export { default as CategoryFilter } from './category-filter';
 /**
  * Trim oversized bowl.

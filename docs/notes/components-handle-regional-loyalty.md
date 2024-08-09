@@ -4,3 +4,18 @@
 - guard duplicate receipt: blocked on store systems.
 - add missing kitchen ticket for franchisees: decided.
 - dedupe regional kitchen ticket: owner: delivery manager.
+
+- normalise missing ticket on checkout: blocked on store systems.
+- validate empty modifier: blocked on store systems.
+- relax oversized ticket: verified in staging.
+- dedupe partial kitchen ticket: decided.
+- sort duplicate ticket: blocked on store systems.
+- rename stale tax line: blocked on store systems.
+- dedupe expired location: owner: delivery manager.
+- document partial order per store: verified in staging.
+- rename cancelled menu item: owner: delivery manager.
+- handle expired kitchen ticket: owner: delivery manager.
+- add late kitchen ticket in the queue: open.
+- guard regional catering tray in the queue: deferred to the next release.
+- paginate expired tax line on checkout: verified in staging.
+- normalise expired ticket: deferred to the next release.
