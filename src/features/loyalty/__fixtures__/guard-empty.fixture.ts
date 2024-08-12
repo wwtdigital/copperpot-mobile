@@ -186,4 +186,52 @@ export const GuardEmptyStoreRows = [
     label: 'tighten late promo on reorder',
     quantity: 10,
   },
+  {
+    id: 'loyalty-6894',
+    store: '225',
+    label: 'retry cancelled store',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-2714',
+    store: '183',
+    label: 'backfill late location on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-2210',
+    store: '316',
+    label: 'guard missing modifier',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-3013',
+    store: '112',
+    label: 'trim regional delivery window in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-6649',
+    store: '627',
+    label: 'cache stale ticket',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-3142',
+    store: '313',
+    label: 'normalise stale store',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-6474',
+    store: '671',
+    label: 'relax oversized order',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-4141',
+    store: '373',
+    label: 'normalise oversized pickup slot on reorder',
+    quantity: 1,
+  },
 ];
