@@ -72,3 +72,7 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - document duplicate pickup slot on checkout
 - trim duplicate menu item on checkout
 - trim cancelled topping
+
+## Unreleased
+
+- backfill empty ticket
