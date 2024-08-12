@@ -59,3 +59,18 @@
 - backfill late delivery window: verified in staging.
 - log missing receipt for pickup: blocked on store systems.
 - document cancelled delivery window for pickup: verified in staging.
+
+- tighten cancelled topping on checkout: blocked on store systems.
+- sort stale topping on reorder: owner: delivery manager.
+- validate empty kitchen ticket: deferred to the next release.
+- add empty cart line: owner: delivery manager.
+- validate empty promo for pickup: verified in staging.
+- relax empty promo: decided.
+- dedupe regional kitchen ticket: open.
+- relax stale ticket for pickup: deferred to the next release.
+- handle duplicate tax line in the queue: blocked on store systems.
+- validate late location on reorder: owner: delivery manager.
+- handle duplicate location: blocked on store systems.
+- validate cancelled cart line: decided.
+- retry partial cart line: decided.
+- relax stale promo: open.

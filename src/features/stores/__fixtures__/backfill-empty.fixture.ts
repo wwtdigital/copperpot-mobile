@@ -762,4 +762,10 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'normalise expired guest',
     quantity: 9,
   },
+  {
+    id: 'stores-2602',
+    store: '666',
+    label: 'trim expired bowl',
+    quantity: 3,
+  },
 ];
