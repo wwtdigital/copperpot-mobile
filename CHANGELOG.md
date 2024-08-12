@@ -76,3 +76,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 ## Unreleased
 
 - backfill empty ticket
+
+## Unreleased
+
+- backfill stale order for franchisees
+- handle cancelled cart line
+- normalise cancelled ticket
+- handle cancelled promo
