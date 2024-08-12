@@ -234,4 +234,16 @@ export const GuardEmptyStoreRows = [
     label: 'normalise oversized pickup slot on reorder',
     quantity: 1,
   },
+  {
+    id: 'loyalty-6588',
+    store: '434',
+    label: 'handle stale location in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-4113',
+    store: '167',
+    label: 'cache missing receipt on checkout',
+    quantity: 12,
+  },
 ];
