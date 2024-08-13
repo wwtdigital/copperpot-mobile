@@ -6,4 +6,10 @@ export const ValidateCancelledBowlRows = [
     label: 'add partial tax line',
     quantity: 5,
   },
+  {
+    id: 'menu-1174',
+    store: '503',
+    label: 'paginate expired cart line',
+    quantity: 10,
+  },
 ];
