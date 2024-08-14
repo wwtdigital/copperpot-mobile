@@ -90,3 +90,17 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - rename missing location
 - add oversized location
 - add empty tax line in the queue
+
+## Unreleased
+
+- rename oversized menu item for franchisees
+- backfill missing order on checkout
+- rename cancelled order
+- rename cancelled bowl
+
+## Unreleased
+
+- validate duplicate menu item
+- expose missing topping
+- guard regional location
+- sort expired promo for pickup
