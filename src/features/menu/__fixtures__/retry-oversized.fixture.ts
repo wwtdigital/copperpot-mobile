@@ -396,4 +396,16 @@ export const RetryOversizedTicketAtCloseRows = [
     label: 'cache expired tax line',
     quantity: 12,
   },
+  {
+    id: 'menu-5241',
+    store: '106',
+    label: 'sort partial store in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'menu-8947',
+    store: '164',
+    label: 'trim stale promo per store',
+    quantity: 9,
+  },
 ];
