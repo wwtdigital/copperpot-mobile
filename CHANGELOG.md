@@ -83,3 +83,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - handle cancelled cart line
 - normalise cancelled ticket
 - handle cancelled promo
+
+## Unreleased
+
+- handle expired receipt
+- rename missing location
+- add oversized location
+- add empty tax line in the queue
