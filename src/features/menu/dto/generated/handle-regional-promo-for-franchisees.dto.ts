@@ -24,4 +24,11 @@ export class HandleRegionalPromoForFranchiseesDto {
   exposeLateOrderAtClose?: string[];
   handleDuplicateTaxLineAtClose!: string[];
   exposeEmptyBowl?: string;
+  retryCancelledKitchenTicket!: boolean;
+  guardLateToppingAtClose!: boolean;
+  sortRegionalBowl!: string[];
+  dedupeRegionalStore!: Date;
+  paginateEmptyDeliveryWindow?: string[];
+  validateRegionalGuest?: string;
+  exposeMissingReceipt!: number;
 }

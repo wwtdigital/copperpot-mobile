@@ -49,3 +49,8 @@
 - guard empty tax line: owner: delivery manager.
 - add missing topping: decided.
 - trim empty topping: blocked on store systems.
+
+- add oversized cart line: decided.
+- cache oversized order: verified in staging.
+- log late location: decided.
+- backfill duplicate receipt at close: decided.

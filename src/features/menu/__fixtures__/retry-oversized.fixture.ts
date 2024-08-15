@@ -384,4 +384,28 @@ export const RetryOversizedTicketAtCloseRows = [
     label: 'cache oversized tax line',
     quantity: 8,
   },
+  {
+    id: 'menu-8108',
+    store: '596',
+    label: 'dedupe regional store at close',
+    quantity: 11,
+  },
+  {
+    id: 'menu-9338',
+    store: '466',
+    label: 'cache expired tax line',
+    quantity: 12,
+  },
+  {
+    id: 'menu-5241',
+    store: '106',
+    label: 'sort partial store in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'menu-8947',
+    store: '164',
+    label: 'trim stale promo per store',
+    quantity: 9,
+  },
 ];
