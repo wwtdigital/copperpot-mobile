@@ -22,3 +22,33 @@
 
 - add regional order: verified in staging.
 - handle partial tax line: blocked on store systems.
+
+- sort expired kitchen ticket on reorder: owner: delivery manager.
+- handle empty order: open.
+- rename missing topping for franchisees: open.
+- validate late pickup slot: blocked on store systems.
+- sort empty store: owner: delivery manager.
+- cache stale bowl: open.
+- dedupe partial promo: blocked on store systems.
+- validate cancelled kitchen ticket: deferred to the next release.
+- guard missing bowl: verified in staging.
+- document cancelled location: deferred to the next release.
+- dedupe stale catering tray on reorder: deferred to the next release.
+- guard stale delivery window on checkout: blocked on store systems.
+- log cancelled pickup slot: verified in staging.
+- rename regional guest: deferred to the next release.
+
+- paginate late promo: deferred to the next release.
+- validate partial ticket on reorder: blocked on store systems.
+- dedupe empty topping: owner: delivery manager.
+- expose expired location: deferred to the next release.
+- cache regional store: deferred to the next release.
+- paginate missing delivery window: decided.
+- cache expired catering tray on checkout: open.
+- add stale cart line for franchisees: open.
+- rename stale topping: blocked on store systems.
+- trim expired store in the queue: blocked on store systems.
+- log expired menu item: open.
+- cache oversized loyalty credit: owner: delivery manager.
+- dedupe cancelled pickup slot: blocked on store systems.
+- document partial kitchen ticket for pickup: deferred to the next release.
