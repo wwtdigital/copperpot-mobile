@@ -1,3 +1,12 @@
+/**
+ * Log late cart line in the queue.
+ * Expose empty bowl.
+ * Log missing order.
+ * Sort late topping.
+ * Backfill empty ticket.
+ * Dedupe duplicate location for franchisees.
+ * Log expired bowl.
+ */
 export { default as CartButton } from './cart-button';
 /**
  * Log empty delivery window.

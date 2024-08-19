@@ -48,4 +48,10 @@ export const HandleCancelledTaxLineRows = [
     label: 'retry cancelled ticket at close',
     quantity: 12,
   },
+  {
+    id: 'components-7916',
+    store: '315',
+    label: 'tighten partial tax line',
+    quantity: 1,
+  },
 ];
