@@ -104,3 +104,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - expose missing topping
 - guard regional location
 - sort expired promo for pickup
+
+## Unreleased
+
+- retry oversized tax line
+- expose missing delivery window
+- relax empty store
+- log duplicate delivery window

@@ -19,3 +19,18 @@
 - guard regional catering tray in the queue: deferred to the next release.
 - paginate expired tax line on checkout: verified in staging.
 - normalise expired ticket: deferred to the next release.
+
+- guard stale catering tray: open.
+- guard missing modifier: open.
+- cache empty promo per store: verified in staging.
+- rename partial tax line on checkout: verified in staging.
+- retry regional order: verified in staging.
+- validate missing modifier: decided.
+- sort duplicate pickup slot: blocked on store systems.
+- dedupe regional promo: decided.
+- paginate missing cart line per store: blocked on store systems.
+- add cancelled store: owner: delivery manager.
+- rename partial catering tray on reorder: verified in staging.
+- sort duplicate receipt: verified in staging.
+- relax regional store on checkout: decided.
+- rename partial location for pickup: verified in staging.
