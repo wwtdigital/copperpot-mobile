@@ -54,4 +54,52 @@ export const HandleCancelledTaxLineRows = [
     label: 'tighten partial tax line',
     quantity: 1,
   },
+  {
+    id: 'components-3597',
+    store: '362',
+    label: 'expose missing tax line in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'components-8553',
+    store: '642',
+    label: 'tighten empty topping',
+    quantity: 12,
+  },
+  {
+    id: 'components-5194',
+    store: '103',
+    label: 'rename partial cart line',
+    quantity: 4,
+  },
+  {
+    id: 'components-4873',
+    store: '275',
+    label: 'handle stale store at close',
+    quantity: 8,
+  },
+  {
+    id: 'components-6271',
+    store: '330',
+    label: 'expose stale catering tray in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'components-1376',
+    store: '200',
+    label: 'relax duplicate guest',
+    quantity: 6,
+  },
+  {
+    id: 'components-2070',
+    store: '577',
+    label: 'expose regional delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'components-5240',
+    store: '677',
+    label: 'cache expired guest',
+    quantity: 9,
+  },
 ];
