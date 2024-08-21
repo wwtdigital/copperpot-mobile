@@ -32,4 +32,28 @@ export class DedupeCancelledReceiptAtCloseDto {
   cacheEmptyBowlOnReorder?: boolean;
   cacheDuplicateKitchenTicketInTheQueue?: string[];
   sortMissingModifierForPickup?: boolean;
+  sortDuplicatePromo?: Date;
+  normaliseExpiredPromoForPickup!: boolean;
+  relaxEmptyKitchenTicket!: boolean;
+  documentStaleTicketInTheQueue!: Date;
+  trimStaleTicketPerStore!: string;
+  logCancelledStoreOnReorder?: string[];
+  exposeMissingDeliveryWindowForFranchisees?: string;
+  backfillDuplicateLoyaltyCredit!: string[];
+  normaliseEmptyStore!: string;
+  logCancelledTaxLine?: string[];
+  guardPartialCateringTray!: number;
+  validateExpiredLoyaltyCredit!: number;
+  sortEmptyBowlInTheQueue?: Date;
+  dedupeDuplicateToppingPerStore!: string[];
+  addDuplicateBowl!: number;
+  documentStaleCartLineInTheQueue?: string[];
+  renameCancelledStore!: string[];
+  retryStaleBowl!: string[];
+  renameDuplicateGuest?: number;
+  addRegionalBowl!: Date;
+  guardCancelledToppingForFranchisees?: string[];
+  exposeDuplicateLocationForPickup!: string[];
+  documentEmptyStore!: string;
+  dedupeOversizedOrder?: string;
 }
