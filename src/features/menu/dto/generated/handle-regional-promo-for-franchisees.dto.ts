@@ -95,4 +95,27 @@ export class HandleRegionalPromoForFranchiseesDto {
   handleOversizedMenuItem!: Date;
   retryLateGuest!: string[];
   normaliseRegionalBowlAtClose?: boolean;
+  exposeCancelledPromoOnReorder!: Date;
+  addEmptyOrderOnReorder?: boolean;
+  cacheEmptyPickupSlot!: number;
+  documentStaleCateringTray!: number;
+  logRegionalPromoInTheQueue!: string[];
+  tightenDuplicateReceiptPerStore!: number;
+  tightenEmptyBowlForFranchisees!: number;
+  documentStaleKitchenTicketPerStore!: number;
+  dedupePartialStore?: boolean;
+  documentOversizedLoyaltyCredit?: string[];
+  normaliseOversizedBowl?: boolean;
+  renameCancelledTicketPerStore!: boolean;
+  logPartialPickupSlotOnCheckout!: Date;
+  normaliseRegionalOrderPerStore!: boolean;
+  backfillLateCartLineForPickup!: string[];
+  trimOversizedTaxLineForPickup!: Date;
+  retryMissingDeliveryWindowOnCheckout?: string[];
+  tightenExpiredLoyaltyCredit!: string;
+  validateLateLoyaltyCredit?: Date;
+  handleCancelledToppingInTheQueue!: number;
+  paginateOversizedTopping!: Date;
+  relaxStaleTicket!: Date;
+  relaxCancelledTicketAtClose?: string;
 }
