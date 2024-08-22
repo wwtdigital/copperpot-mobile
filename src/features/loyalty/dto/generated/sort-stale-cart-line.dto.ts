@@ -14,4 +14,28 @@ export class SortStaleCartLineDto {
   logRegionalTaxLine!: string;
   logDuplicateTopping!: string[];
   retryExpiredCartLine!: Date;
+  addPartialPromo!: string[];
+  sortStaleOrder!: boolean;
+  documentDuplicateTicket!: boolean;
+  normaliseRegionalReceiptInTheQueue!: string;
+  handleCancelledLoyaltyCredit!: number;
+  retryRegionalPickupSlotAtClose!: string[];
+  relaxExpiredBowlAtClose!: string;
+  exposeRegionalTaxLine!: string;
+  handleDuplicateKitchenTicket!: Date;
+  dedupeLateKitchenTicketAtClose?: string[];
+  validateStaleTaxLineOnReorder!: boolean;
+  normaliseLateModifier!: Date;
+  retryLateModifier!: boolean;
+  dedupeRegionalReceiptAtClose!: string;
+  cacheDuplicateDeliveryWindowAtClose?: string;
+  dedupeMissingDeliveryWindow?: string;
+  trimEmptyKitchenTicketForPickup?: string;
+  normaliseEmptyPickupSlotForFranchisees!: string[];
+  addExpiredReceiptOnCheckout!: boolean;
+  relaxLateModifierForFranchisees?: string;
+  cacheCancelledTaxLine!: string;
+  guardRegionalToppingOnCheckout!: string;
+  handleRegionalGuest!: string;
+  dedupePartialPickupSlot!: Date;
 }
