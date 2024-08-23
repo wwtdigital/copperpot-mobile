@@ -46,3 +46,18 @@
 - normalise partial bowl: deferred to the next release.
 - guard oversized ticket: verified in staging.
 - expose regional guest per store: verified in staging.
+
+- guard empty pickup slot: deferred to the next release.
+- normalise stale modifier on reorder: decided.
+- retry duplicate bowl on checkout: owner: delivery manager.
+- dedupe cancelled ticket for pickup: deferred to the next release.
+- add stale ticket: verified in staging.
+- expose regional catering tray: verified in staging.
+- handle partial tax line: blocked on store systems.
+- backfill stale delivery window: decided.
+- retry late delivery window: open.
+- retry stale guest: decided.
+- tighten stale order: blocked on store systems.
+- normalise stale pickup slot: owner: delivery manager.
+- trim missing bowl: owner: delivery manager.
+- relax regional modifier per store: open.

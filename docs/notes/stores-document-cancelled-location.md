@@ -86,6 +86,3 @@
 - rename expired cart line: open.
 - trim oversized order: blocked on store systems.
 - dedupe duplicate tax line for franchisees: blocked on store systems.
-- backfill duplicate kitchen ticket: decided.
-- tighten cancelled cart line: decided.
-- normalise expired delivery window: owner: delivery manager.
