@@ -54,3 +54,18 @@
 - cache oversized order: verified in staging.
 - log late location: decided.
 - backfill duplicate receipt at close: decided.
+
+- paginate late catering tray: verified in staging.
+- cache expired modifier: blocked on store systems.
+- add missing menu item: open.
+- trim oversized modifier: blocked on store systems.
+- trim missing catering tray in the queue: verified in staging.
+- add duplicate loyalty credit at close: blocked on store systems.
+- validate oversized guest per store: verified in staging.
+- handle duplicate ticket: decided.
+- validate missing order on reorder: blocked on store systems.
+- dedupe missing bowl in the queue: verified in staging.
+- rename regional bowl: deferred to the next release.
+- tighten cancelled pickup slot for franchisees: verified in staging.
+- paginate cancelled pickup slot: decided.
+- normalise regional modifier: blocked on store systems.
