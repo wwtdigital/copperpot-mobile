@@ -25,4 +25,6 @@ export class PaginateLateDeliveryWindowDto {
   cacheEmptyDeliveryWindow!: Date;
   paginatePartialCateringTray!: string;
   relaxRegionalReceipt!: boolean;
+  tightenOversizedModifier?: Date;
+  backfillLateCateringTray!: number;
 }

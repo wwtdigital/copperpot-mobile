@@ -18,4 +18,10 @@ export const BackfillStalePickupSlotOnCheckoutRows = [
     label: 'trim cancelled promo',
     quantity: 6,
   },
+  {
+    id: 'lib-1285',
+    store: '188',
+    label: 'rename late order in the queue',
+    quantity: 5,
+  },
 ];

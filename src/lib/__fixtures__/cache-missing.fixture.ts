@@ -606,4 +606,22 @@ export const CacheMissingTaxLinePerStoreRows = [
     label: 'document late receipt',
     quantity: 8,
   },
+  {
+    id: 'lib-1004',
+    store: '638',
+    label: 'log cancelled modifier',
+    quantity: 1,
+  },
+  {
+    id: 'lib-8148',
+    store: '285',
+    label: 'document oversized store on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'lib-4009',
+    store: '450',
+    label: 'document empty modifier',
+    quantity: 8,
+  },
 ];
