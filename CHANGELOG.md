@@ -111,3 +111,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - expose missing delivery window
 - relax empty store
 - log duplicate delivery window
+
+## Unreleased
+
+- backfill regional store per store
+- log cancelled kitchen ticket for franchisees
+- retry empty promo on checkout
+- guard oversized location per store
