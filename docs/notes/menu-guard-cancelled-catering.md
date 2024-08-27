@@ -14,3 +14,18 @@
 - expose duplicate modifier: open.
 - validate partial bowl on checkout: deferred to the next release.
 - trim empty location for pickup: open.
+
+- backfill late menu item: deferred to the next release.
+- guard stale tax line: verified in staging.
+- rename cancelled ticket: owner: delivery manager.
+- log regional catering tray at close: deferred to the next release.
+- handle empty cart line: decided.
+- validate cancelled location on reorder: owner: delivery manager.
+- dedupe expired modifier: open.
+- expose cancelled order on checkout: open.
+- cache expired kitchen ticket: verified in staging.
+- sort duplicate pickup slot: blocked on store systems.
+- add stale pickup slot: blocked on store systems.
+- trim empty tax line: deferred to the next release.
+- cache partial ticket: deferred to the next release.
+- dedupe late order: blocked on store systems.

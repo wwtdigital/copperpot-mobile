@@ -69,3 +69,18 @@
 - tighten cancelled pickup slot for franchisees: verified in staging.
 - paginate cancelled pickup slot: decided.
 - normalise regional modifier: blocked on store systems.
+
+- paginate regional menu item in the queue: open.
+- normalise stale topping: open.
+- retry oversized ticket for franchisees: deferred to the next release.
+- relax oversized guest: verified in staging.
+- dedupe partial cart line in the queue: deferred to the next release.
+- retry partial pickup slot: verified in staging.
+- add empty guest: verified in staging.
+- cache partial modifier: open.
+- expose stale guest in the queue: verified in staging.
+- sort cancelled promo: owner: delivery manager.
+- rename late order: verified in staging.
+- log expired menu item: open.
+- relax missing bowl on reorder: blocked on store systems.
+- paginate missing promo: decided.
