@@ -34,3 +34,18 @@
 - sort duplicate receipt: verified in staging.
 - relax regional store on checkout: decided.
 - rename partial location for pickup: verified in staging.
+
+- document missing promo: deferred to the next release.
+- relax cancelled delivery window: blocked on store systems.
+- retry duplicate cart line at close: blocked on store systems.
+- backfill late topping for pickup: blocked on store systems.
+- add cancelled receipt: owner: delivery manager.
+- expose empty loyalty credit: decided.
+- log late order: owner: delivery manager.
+- validate duplicate tax line: open.
+- sort missing promo: deferred to the next release.
+- dedupe empty store for franchisees: decided.
+- paginate regional promo on checkout: deferred to the next release.
+- add oversized pickup slot: blocked on store systems.
+- dedupe cancelled order: blocked on store systems.
+- backfill regional cart line: deferred to the next release.

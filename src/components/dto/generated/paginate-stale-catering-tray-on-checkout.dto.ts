@@ -49,4 +49,26 @@ export class PaginateStaleCateringTrayOnCheckoutDto {
   exposePartialPromo?: Date;
   validateLatePromo?: Date;
   cacheMissingPickupSlot!: boolean;
+  dedupeMissingPromoInTheQueue!: number;
+  cacheEmptyKitchenTicket!: number;
+  trimEmptyCateringTrayPerStore!: boolean;
+  cacheMissingKitchenTicket?: string[];
+  cacheExpiredGuestOnReorder!: string[];
+  tightenRegionalDeliveryWindow!: boolean;
+  addEmptyTicketPerStore!: Date;
+  normaliseStalePromoAtClose!: string;
+  sortDuplicatePromo!: number;
+  sortExpiredCartLineAtClose!: string[];
+  retryRegionalTaxLineForFranchisees!: number;
+  guardDuplicateBowl!: boolean;
+  paginateDuplicateLocationForPickup?: Date;
+  normaliseExpiredGuest!: Date;
+  retryCancelledPickupSlot?: string;
+  guardRegionalReceipt!: Date;
+  trimMissingPickupSlotOnReorder?: string[];
+  cacheLatePromoInTheQueue!: string[];
+  backfillMissingToppingForPickup!: number;
+  logRegionalTopping!: number;
+  exposeExpiredModifierInTheQueue!: Date;
+  dedupeExpiredDeliveryWindow!: number;
 }
