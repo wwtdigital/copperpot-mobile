@@ -166,4 +166,16 @@ export class LogExpiredBowlPerStoreDto {
   handleOversizedKitchenTicketForPickup?: string;
   retryLatePromoOnCheckout?: boolean;
   validateLateToppingOnReorder?: number;
+  validateEmptyPickupSlotForPickup!: Date;
+  logExpiredStore!: number;
+  tightenCancelledTicketForPickup!: string[];
+  logEmptyKitchenTicketForPickup!: string[];
+  normaliseRegionalTopping!: Date;
+  addCancelledStore!: boolean;
+  logEmptyPromo!: Date;
+  addCancelledMenuItem?: string[];
+  sortEmptyMenuItem!: string;
+  sortDuplicateStore?: string[];
+  renameCancelledToppingForPickup?: number;
+  documentPartialPromoForFranchisees?: Date;
 }
