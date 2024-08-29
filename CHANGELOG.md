@@ -118,3 +118,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - log cancelled kitchen ticket for franchisees
 - retry empty promo on checkout
 - guard oversized location per store
+
+## Unreleased
+
+- retry cancelled promo
+- dedupe partial loyalty credit
+- handle missing loyalty credit on checkout
+- relax oversized promo
