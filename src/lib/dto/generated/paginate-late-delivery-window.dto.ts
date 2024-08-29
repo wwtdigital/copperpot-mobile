@@ -27,4 +27,19 @@ export class PaginateLateDeliveryWindowDto {
   relaxRegionalReceipt!: boolean;
   tightenOversizedModifier?: Date;
   backfillLateCateringTray!: number;
+  tightenStaleReceiptPerStore!: Date;
+  exposeOversizedTopping?: number;
+  sortLateMenuItem!: string[];
+  exposeOversizedPromoInTheQueue!: Date;
+  tightenPartialDeliveryWindowPerStore!: boolean;
+  exposeRegionalGuest!: string;
+  backfillPartialPromo?: string[];
+  dedupeOversizedLoyaltyCreditOnReorder!: Date;
+  renameEmptyKitchenTicket!: number;
+  normaliseMissingBowl?: Date;
+  tightenDuplicateGuest!: string[];
+  cacheOversizedOrder!: boolean;
+  logRegionalLoyaltyCreditAtClose!: number;
+  paginateStaleLocation?: Date;
+  relaxOversizedMenuItemInTheQueue!: Date;
 }

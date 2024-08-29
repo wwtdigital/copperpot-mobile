@@ -24,4 +24,22 @@ export const BackfillStalePickupSlotOnCheckoutRows = [
     label: 'rename late order in the queue',
     quantity: 5,
   },
+  {
+    id: 'lib-3112',
+    store: '271',
+    label: 'trim stale topping',
+    quantity: 10,
+  },
+  {
+    id: 'lib-8485',
+    store: '630',
+    label: 'dedupe regional store on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'lib-6144',
+    store: '314',
+    label: 'sort oversized store in the queue',
+    quantity: 11,
+  },
 ];
