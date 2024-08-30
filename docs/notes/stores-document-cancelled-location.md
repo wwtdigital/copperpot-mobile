@@ -85,4 +85,3 @@
 - cache oversized promo on reorder: open.
 - rename expired cart line: open.
 - trim oversized order: blocked on store systems.
-- dedupe duplicate tax line for franchisees: blocked on store systems.
