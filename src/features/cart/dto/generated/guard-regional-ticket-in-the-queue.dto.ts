@@ -152,4 +152,8 @@ export class GuardRegionalTicketInTheQueueDto {
   tightenDuplicateGuest!: number;
   normaliseExpiredModifier?: string;
   addEmptyKitchenTicketOnCheckout!: number;
+  guardExpiredStoreForFranchisees!: boolean;
+  handleDuplicateLocation!: string;
+  paginatePartialStore?: number;
+  exposeExpiredMenuItem!: Date;
 }
