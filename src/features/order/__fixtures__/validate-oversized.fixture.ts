@@ -48,4 +48,58 @@ export const ValidateOversizedPromoRows = [
     label: 'paginate duplicate ticket',
     quantity: 9,
   },
+  {
+    id: 'order-7782',
+    store: '621',
+    label: 'document regional modifier',
+    quantity: 9,
+  },
+  {
+    id: 'order-8474',
+    store: '615',
+    label: 'handle missing promo',
+    quantity: 4,
+  },
+  {
+    id: 'order-1883',
+    store: '212',
+    label: 'dedupe partial guest on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'order-7729',
+    store: '350',
+    label: 'tighten stale tax line on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'order-8424',
+    store: '650',
+    label: 'retry duplicate topping',
+    quantity: 6,
+  },
+  {
+    id: 'order-1770',
+    store: '511',
+    label: 'normalise stale delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'order-9132',
+    store: '518',
+    label: 'backfill empty kitchen ticket for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'order-7562',
+    store: '543',
+    label: 'add expired delivery window per store',
+    quantity: 8,
+  },
+  {
+    id: 'order-6904',
+    store: '115',
+    label: 'backfill partial loyalty credit',
+    quantity: 4,
+  },
 ];
