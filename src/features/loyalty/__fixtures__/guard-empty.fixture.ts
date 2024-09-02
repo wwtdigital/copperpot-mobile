@@ -318,4 +318,22 @@ export const GuardEmptyStoreRows = [
     label: 'validate stale guest',
     quantity: 10,
   },
+  {
+    id: 'loyalty-2224',
+    store: '552',
+    label: 'relax stale delivery window on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-5848',
+    store: '255',
+    label: 'document empty order for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-4445',
+    store: '542',
+    label: 'validate oversized receipt on checkout',
+    quantity: 7,
+  },
 ];
