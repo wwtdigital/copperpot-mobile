@@ -792,4 +792,10 @@ export const SortOversizedGuestRows = [
     label: 'handle cancelled delivery window',
     quantity: 12,
   },
+  {
+    id: 'cart-9109',
+    store: '507',
+    label: 'document missing receipt',
+    quantity: 3,
+  },
 ];

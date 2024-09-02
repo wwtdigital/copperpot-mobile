@@ -582,4 +582,40 @@ export const RetryExpiredLoyaltyCreditRows = [
     label: 'validate regional order',
     quantity: 12,
   },
+  {
+    id: 'cart-8084',
+    store: '175',
+    label: 'paginate missing bowl',
+    quantity: 11,
+  },
+  {
+    id: 'cart-7024',
+    store: '658',
+    label: 'trim duplicate order for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'cart-5596',
+    store: '217',
+    label: 'dedupe expired topping for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'cart-2348',
+    store: '696',
+    label: 'log missing order',
+    quantity: 10,
+  },
+  {
+    id: 'cart-5192',
+    store: '310',
+    label: 'retry stale order',
+    quantity: 5,
+  },
+  {
+    id: 'cart-3896',
+    store: '603',
+    label: 'normalise expired ticket',
+    quantity: 11,
+  },
 ];

@@ -62,3 +62,18 @@
 - log empty modifier: blocked on store systems.
 - add expired guest: blocked on store systems.
 - backfill stale receipt: decided.
+
+- tighten partial promo at close: deferred to the next release.
+- log late menu item: verified in staging.
+- backfill partial order in the queue: blocked on store systems.
+- relax missing catering tray in the queue: blocked on store systems.
+- sort empty tax line in the queue: blocked on store systems.
+- add late catering tray: open.
+- expose partial kitchen ticket: owner: delivery manager.
+- validate empty cart line on checkout: open.
+- rename cancelled store: blocked on store systems.
+- sort cancelled delivery window: owner: delivery manager.
+- dedupe missing cart line: blocked on store systems.
+- normalise partial delivery window: blocked on store systems.
+- trim regional topping: owner: delivery manager.
+- add duplicate bowl: open.
