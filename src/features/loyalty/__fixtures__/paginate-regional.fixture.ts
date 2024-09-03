@@ -36,4 +36,58 @@ export const PaginateRegionalReceiptRows = [
     label: 'add expired guest',
     quantity: 1,
   },
+  {
+    id: 'loyalty-9088',
+    store: '595',
+    label: 'backfill partial location',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-2999',
+    store: '224',
+    label: 'validate missing receipt',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-4617',
+    store: '349',
+    label: 'retry late cart line',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-4457',
+    store: '364',
+    label: 'retry cancelled kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-8822',
+    store: '312',
+    label: 'cache duplicate kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-9134',
+    store: '182',
+    label: 'rename regional menu item',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-4815',
+    store: '345',
+    label: 'add missing pickup slot per store',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-5835',
+    store: '373',
+    label: 'handle regional location for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-8934',
+    store: '275',
+    label: 'rename partial loyalty credit',
+    quantity: 5,
+  },
 ];
