@@ -72,4 +72,28 @@ export class BackfillStaleTaxLineDto {
   guardPartialTaxLine?: Date;
   documentMissingOrder!: string;
   retryEmptyBowlPerStore!: number;
+  dedupeMissingModifier!: string;
+  validateMissingToppingInTheQueue?: string;
+  addExpiredLoyaltyCreditPerStore!: number;
+  sortMissingDeliveryWindow!: boolean;
+  guardStaleBowlOnReorder!: Date;
+  documentMissingOrderForFranchisees?: string;
+  tightenLateBowl?: string;
+  retryMissingCateringTrayInTheQueue!: string;
+  handleEmptyLocationOnReorder!: number;
+  cachePartialCartLine?: string[];
+  paginateEmptyTopping!: Date;
+  cachePartialKitchenTicket?: string[];
+  renameStaleKitchenTicketOnReorder?: Date;
+  trimLateOrder?: Date;
+  renameLatePickupSlot!: string[];
+  trimExpiredPickupSlot!: string;
+  exposeExpiredCartLineOnReorder!: Date;
+  guardOversizedTicketForFranchisees!: Date;
+  guardOversizedModifierForPickup!: string[];
+  renameMissingTaxLinePerStore!: string;
+  documentPartialGuestOnCheckout?: string[];
+  retryMissingGuestOnReorder!: Date;
+  documentDuplicateLoyaltyCredit!: Date;
+  paginateCancelledCartLineOnCheckout!: string;
 }
