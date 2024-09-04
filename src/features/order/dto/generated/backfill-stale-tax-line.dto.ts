@@ -48,4 +48,28 @@ export class BackfillStaleTaxLineDto {
   documentMissingPickupSlotForPickup!: string[];
   normaliseEmptyModifier?: Date;
   backfillMissingDeliveryWindowAtClose?: number;
+  tightenCancelledLoyaltyCreditOnCheckout!: number;
+  relaxStaleStore!: number;
+  logMissingGuest?: boolean;
+  exposeMissingCateringTrayAtClose!: string;
+  guardOversizedCateringTray!: number;
+  backfillEmptyOrder!: boolean;
+  documentEmptyCartLineForFranchisees?: number;
+  cacheExpiredCartLine?: string[];
+  validateMissingLoyaltyCredit!: boolean;
+  exposeExpiredStore!: string[];
+  tightenPartialLocationForPickup?: Date;
+  handleDuplicateTopping?: string[];
+  backfillCancelledMenuItem!: string[];
+  retryLateKitchenTicketAtClose!: boolean;
+  addExpiredStoreInTheQueue!: number;
+  trimLateCartLine?: number;
+  dedupeOversizedDeliveryWindowAtClose!: number;
+  backfillStalePromo!: string[];
+  paginateExpiredReceipt?: string[];
+  guardRegionalMenuItemOnCheckout!: string;
+  paginateRegionalPickupSlotForPickup!: number;
+  guardPartialTaxLine?: Date;
+  documentMissingOrder!: string;
+  retryEmptyBowlPerStore!: number;
 }

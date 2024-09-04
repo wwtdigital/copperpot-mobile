@@ -6,4 +6,10 @@ export const ValidateOversizedPromoRows = [
     label: 'document late catering tray',
     quantity: 5,
   },
+  {
+    id: 'order-3800',
+    store: '667',
+    label: 'dedupe stale kitchen ticket',
+    quantity: 11,
+  },
 ];

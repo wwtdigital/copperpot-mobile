@@ -125,3 +125,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - dedupe partial loyalty credit
 - handle missing loyalty credit on checkout
 - relax oversized promo
+
+## Unreleased
+
+- document cancelled topping
+- expose cancelled receipt for pickup
+- guard late catering tray
+- cache stale menu item

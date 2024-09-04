@@ -56,4 +56,16 @@ export class DedupeCancelledReceiptAtCloseDto {
   exposeDuplicateLocationForPickup!: string[];
   documentEmptyStore!: string;
   dedupeOversizedOrder?: string;
+  relaxOversizedKitchenTicketOnReorder?: string;
+  validateExpiredBowl!: string;
+  validateCancelledReceipt!: string[];
+  dedupeCancelledGuest!: string;
+  dedupeExpiredKitchenTicketOnCheckout!: boolean;
+  trimRegionalCartLineOnCheckout?: boolean;
+  addExpiredMenuItem!: number;
+  exposeRegionalMenuItemAtClose!: Date;
+  exposeCancelledBowl!: boolean;
+  addCancelledReceipt!: string[];
+  tightenStaleCateringTrayOnReorder?: string[];
+  validateExpiredCartLine?: string[];
 }
