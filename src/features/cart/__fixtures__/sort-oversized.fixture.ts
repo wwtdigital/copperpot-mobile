@@ -804,4 +804,22 @@ export const SortOversizedGuestRows = [
     label: 'rename partial delivery window',
     quantity: 4,
   },
+  {
+    id: 'cart-3656',
+    store: '511',
+    label: 'document late catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'cart-4961',
+    store: '498',
+    label: 'handle duplicate menu item',
+    quantity: 3,
+  },
+  {
+    id: 'cart-9735',
+    store: '520',
+    label: 'paginate oversized receipt',
+    quantity: 11,
+  },
 ];
