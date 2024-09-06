@@ -1,0 +1,31 @@
+# account: retry late modifier per store
+
+- cache cancelled ticket: blocked on store systems.
+- normalise oversized modifier for franchisees: decided.
+- normalise duplicate menu item for pickup: open.
+- guard oversized order: blocked on store systems.
+- backfill regional bowl for pickup: owner: delivery manager.
+- handle cancelled delivery window at close: verified in staging.
+- rename regional kitchen ticket: verified in staging.
+- dedupe partial pickup slot at close: deferred to the next release.
+- guard duplicate topping: blocked on store systems.
+- expose partial loyalty credit: deferred to the next release.
+- add regional modifier at close: open.
+- tighten late receipt: blocked on store systems.
+- validate empty tax line: deferred to the next release.
+- normalise missing pickup slot: verified in staging.
+
+- cache cancelled tax line on checkout: open.
+- validate empty tax line: decided.
+- cache cancelled catering tray: open.
+- normalise regional pickup slot at close: deferred to the next release.
+- retry empty location in the queue: decided.
+- guard stale guest on checkout: verified in staging.
+- guard duplicate ticket: verified in staging.
+- rename duplicate pickup slot: verified in staging.
+- add late ticket per store: verified in staging.
+- trim oversized menu item: deferred to the next release.
+- guard expired kitchen ticket: verified in staging.
+- trim expired store: deferred to the next release.
+- rename duplicate modifier on checkout: owner: delivery manager.
+- retry late delivery window: deferred to the next release.

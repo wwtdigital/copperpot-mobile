@@ -139,3 +139,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - sort stale store
 - cache missing location for pickup
 - rename missing tax line
+
+## Unreleased
+
+- relax partial promo
+- log duplicate bowl
+- add stale bowl at close
+- sort missing store

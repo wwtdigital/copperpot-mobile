@@ -240,4 +240,10 @@ export const TightenCancelledTaxLineForPickupRows = [
     label: 'dedupe partial guest for franchisees',
     quantity: 9,
   },
+  {
+    id: 'account-8271',
+    store: '116',
+    label: 'paginate cancelled kitchen ticket on checkout',
+    quantity: 4,
+  },
 ];
