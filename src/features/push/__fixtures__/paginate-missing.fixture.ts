@@ -54,4 +54,28 @@ export const PaginateMissingModifierOnReorderRows = [
     label: 'relax late topping',
     quantity: 10,
   },
+  {
+    id: 'push-4310',
+    store: '169',
+    label: 'expose duplicate receipt',
+    quantity: 4,
+  },
+  {
+    id: 'push-3355',
+    store: '563',
+    label: 'add stale location',
+    quantity: 6,
+  },
+  {
+    id: 'push-2425',
+    store: '605',
+    label: 'trim late menu item',
+    quantity: 4,
+  },
+  {
+    id: 'push-1791',
+    store: '169',
+    label: 'dedupe stale promo',
+    quantity: 2,
+  },
 ];
