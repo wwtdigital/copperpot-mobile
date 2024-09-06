@@ -132,3 +132,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - expose cancelled receipt for pickup
 - guard late catering tray
 - cache stale menu item
+
+## Unreleased
+
+- tighten expired delivery window
+- sort stale store
+- cache missing location for pickup
+- rename missing tax line

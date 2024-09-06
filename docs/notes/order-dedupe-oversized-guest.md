@@ -45,3 +45,18 @@
 - backfill cancelled order at close: blocked on store systems.
 - cache late delivery window: decided.
 - cache duplicate location: deferred to the next release.
+
+- rename partial delivery window: owner: delivery manager.
+- sort expired pickup slot on reorder: open.
+- paginate empty loyalty credit: blocked on store systems.
+- sort duplicate guest: blocked on store systems.
+- document stale topping: blocked on store systems.
+- add partial promo: open.
+- validate late topping: verified in staging.
+- cache missing promo: deferred to the next release.
+- tighten regional catering tray per store: deferred to the next release.
+- trim duplicate ticket: owner: delivery manager.
+- log oversized menu item: verified in staging.
+- normalise empty bowl: blocked on store systems.
+- guard missing catering tray: open.
+- trim empty menu item: deferred to the next release.
