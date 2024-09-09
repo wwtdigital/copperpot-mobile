@@ -78,4 +78,26 @@ export class RenameOversizedDeliveryWindowDto {
   logEmptyGuestForFranchisees!: string[];
   retryExpiredDeliveryWindow?: Date;
   retryOversizedCateringTrayOnReorder?: number;
+  handleRegionalModifierOnCheckout!: boolean;
+  normalisePartialCartLineOnReorder?: boolean;
+  backfillExpiredTaxLine!: string;
+  retryRegionalLoyaltyCreditPerStore!: string;
+  dedupeMissingTaxLineOnCheckout?: number;
+  validateStaleLoyaltyCreditAtClose!: number;
+  normalisePartialReceiptOnReorder?: string;
+  cacheMissingToppingAtClose!: string[];
+  retryRegionalPromoInTheQueue?: string[];
+  retryCancelledLoyaltyCredit!: string;
+  backfillExpiredOrder!: string;
+  cacheRegionalKitchenTicket?: boolean;
+  cacheStaleCateringTray!: boolean;
+  guardDuplicateKitchenTicketAtClose?: string;
+  handleDuplicateReceiptForFranchisees!: boolean;
+  cacheExpiredLocation!: Date;
+  paginatePartialDeliveryWindowOnReorder!: Date;
+  backfillPartialLoyaltyCreditInTheQueue?: boolean;
+  tightenCancelledMenuItemForPickup!: Date;
+  sortPartialCartLinePerStore?: string[];
+  tightenRegionalReceiptInTheQueue!: string;
+  renamePartialTicket!: string[];
 }
