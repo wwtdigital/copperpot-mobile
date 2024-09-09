@@ -31,4 +31,6 @@ export class PaginateMissingBowlForFranchiseesDto {
   trimExpiredTopping!: string[];
   guardExpiredPromoOnReorder?: boolean;
   sortMissingReceipt!: Date;
+  paginateDuplicateTicket!: number;
+  retryCancelledReceipt!: string;
 }
