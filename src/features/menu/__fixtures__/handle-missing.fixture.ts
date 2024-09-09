@@ -438,4 +438,16 @@ export const HandleMissingLocationOnCheckoutRows = [
     label: 'relax expired location',
     quantity: 3,
   },
+  {
+    id: 'menu-6367',
+    store: '191',
+    label: 'rename late store',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3616',
+    store: '278',
+    label: 'retry regional promo at close',
+    quantity: 5,
+  },
 ];

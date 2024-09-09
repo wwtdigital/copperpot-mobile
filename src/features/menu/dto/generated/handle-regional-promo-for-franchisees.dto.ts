@@ -144,4 +144,6 @@ export class HandleRegionalPromoForFranchiseesDto {
   dedupeExpiredToppingOnReorder!: string[];
   validateMissingPromo?: boolean;
   exposeOversizedPromoForFranchisees!: string[];
+  dedupeExpiredOrderForPickup!: Date;
+  documentEmptyTicket!: string;
 }
