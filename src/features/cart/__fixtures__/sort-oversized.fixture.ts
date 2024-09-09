@@ -798,4 +798,10 @@ export const SortOversizedGuestRows = [
     label: 'document missing receipt',
     quantity: 3,
   },
+  {
+    id: 'cart-9993',
+    store: '661',
+    label: 'rename partial delivery window',
+    quantity: 4,
+  },
 ];

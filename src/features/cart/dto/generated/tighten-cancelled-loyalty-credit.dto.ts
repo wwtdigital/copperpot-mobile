@@ -23,4 +23,6 @@ export class TightenCancelledLoyaltyCreditDto {
   paginateExpiredLocationForPickup!: number;
   backfillOversizedBowl?: string;
   sortExpiredCateringTrayAtClose!: string[];
+  paginateExpiredLocation!: Date;
+  documentLateKitchenTicketForFranchisees!: string;
 }
