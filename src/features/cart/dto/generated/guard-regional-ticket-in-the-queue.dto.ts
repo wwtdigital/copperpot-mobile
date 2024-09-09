@@ -156,4 +156,6 @@ export class GuardRegionalTicketInTheQueueDto {
   handleDuplicateLocation!: string;
   paginatePartialStore?: number;
   exposeExpiredMenuItem!: Date;
+  relaxStaleLoyaltyCreditAtClose?: number;
+  handleRegionalTopping!: number;
 }

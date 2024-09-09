@@ -618,4 +618,22 @@ export const RetryExpiredLoyaltyCreditRows = [
     label: 'normalise expired ticket',
     quantity: 11,
   },
+  {
+    id: 'cart-3086',
+    store: '584',
+    label: 'normalise cancelled delivery window for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'cart-6624',
+    store: '144',
+    label: 'normalise oversized location',
+    quantity: 6,
+  },
+  {
+    id: 'cart-4422',
+    store: '291',
+    label: 'expose expired tax line',
+    quantity: 12,
+  },
 ];

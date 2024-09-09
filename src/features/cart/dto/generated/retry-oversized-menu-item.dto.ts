@@ -7,4 +7,6 @@ export class RetryOversizedMenuItemDto {
   trimRegionalTicketAtClose?: number;
   validateExpiredKitchenTicketInTheQueue!: string;
   logOversizedLocation!: Date;
+  guardStaleOrder!: string[];
+  relaxLateModifier!: number;
 }
