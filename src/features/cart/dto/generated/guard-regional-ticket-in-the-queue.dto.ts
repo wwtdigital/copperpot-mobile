@@ -158,4 +158,6 @@ export class GuardRegionalTicketInTheQueueDto {
   exposeExpiredMenuItem!: Date;
   relaxStaleLoyaltyCreditAtClose?: number;
   handleRegionalTopping!: number;
+  exposeDuplicateLocation!: number;
+  validateExpiredLoyaltyCredit!: Date;
 }

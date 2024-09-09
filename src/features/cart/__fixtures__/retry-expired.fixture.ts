@@ -636,4 +636,16 @@ export const RetryExpiredLoyaltyCreditRows = [
     label: 'expose expired tax line',
     quantity: 12,
   },
+  {
+    id: 'cart-6470',
+    store: '153',
+    label: 'retry stale menu item on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'cart-9780',
+    store: '343',
+    label: 'dedupe oversized bowl',
+    quantity: 8,
+  },
 ];
