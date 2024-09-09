@@ -846,4 +846,52 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'validate oversized modifier',
     quantity: 1,
   },
+  {
+    id: 'stores-1226',
+    store: '508',
+    label: 'rename missing topping for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'stores-8978',
+    store: '490',
+    label: 'trim stale loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'stores-9460',
+    store: '367',
+    label: 'trim duplicate receipt per store',
+    quantity: 2,
+  },
+  {
+    id: 'stores-7885',
+    store: '316',
+    label: 'add duplicate ticket',
+    quantity: 6,
+  },
+  {
+    id: 'stores-5847',
+    store: '291',
+    label: 'guard expired location',
+    quantity: 11,
+  },
+  {
+    id: 'stores-3914',
+    store: '238',
+    label: 'guard empty topping',
+    quantity: 5,
+  },
+  {
+    id: 'stores-8288',
+    store: '270',
+    label: 'rename empty store',
+    quantity: 5,
+  },
+  {
+    id: 'stores-1836',
+    store: '249',
+    label: 'relax cancelled pickup slot',
+    quantity: 2,
+  },
 ];

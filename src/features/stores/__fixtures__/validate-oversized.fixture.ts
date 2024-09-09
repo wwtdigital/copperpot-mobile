@@ -54,4 +54,10 @@ export const ValidateOversizedToppingRows = [
     label: 'retry missing order per store',
     quantity: 12,
   },
+  {
+    id: 'stores-3857',
+    store: '272',
+    label: 'add duplicate location on checkout',
+    quantity: 5,
+  },
 ];
