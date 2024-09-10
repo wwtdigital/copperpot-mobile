@@ -28,4 +28,25 @@ export class BackfillDuplicateTicketDto {
   renameDuplicateTicket?: string;
   sortMissingLoyaltyCreditInTheQueue!: string;
   backfillExpiredModifier!: string[];
+  sortMissingStore!: string[];
+  tightenLateTopping!: string[];
+  tightenStaleGuest?: boolean;
+  retryExpiredKitchenTicket?: string;
+  dedupeMissingPromo!: string[];
+  normalisePartialModifier!: string[];
+  validateMissingTaxLine!: string;
+  dedupeStaleGuest!: boolean;
+  logMissingOrder!: string[];
+  handleLateLoyaltyCreditForFranchisees!: string;
+  handleEmptyMenuItem!: Date;
+  guardPartialPickupSlotForFranchisees?: string;
+  guardExpiredPickupSlot!: string;
+  handleStaleBowl?: string;
+  dedupeExpiredCartLine!: number;
+  dedupeRegionalTicket!: number;
+  logExpiredDeliveryWindowAtClose!: number;
+  paginateExpiredReceiptOnReorder!: number;
+  cachePartialBowl!: string[];
+  trimOversizedKitchenTicket?: string[];
+  dedupeCancelledGuest!: Date;
 }
