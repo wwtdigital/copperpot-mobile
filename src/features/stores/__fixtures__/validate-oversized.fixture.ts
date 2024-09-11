@@ -60,4 +60,52 @@ export const ValidateOversizedToppingRows = [
     label: 'add duplicate location on checkout',
     quantity: 5,
   },
+  {
+    id: 'stores-4204',
+    store: '222',
+    label: 'expose expired loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'stores-4785',
+    store: '332',
+    label: 'cache regional catering tray on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'stores-7043',
+    store: '254',
+    label: 'log late modifier',
+    quantity: 8,
+  },
+  {
+    id: 'stores-8363',
+    store: '300',
+    label: 'validate cancelled receipt for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'stores-4476',
+    store: '628',
+    label: 'retry cancelled kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'stores-5428',
+    store: '421',
+    label: 'sort empty order at close',
+    quantity: 10,
+  },
+  {
+    id: 'stores-6203',
+    store: '666',
+    label: 'trim duplicate loyalty credit in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'stores-2795',
+    store: '520',
+    label: 'handle missing pickup slot',
+    quantity: 4,
+  },
 ];
