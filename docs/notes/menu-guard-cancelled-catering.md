@@ -29,3 +29,18 @@
 - trim empty tax line: deferred to the next release.
 - cache partial ticket: deferred to the next release.
 - dedupe late order: blocked on store systems.
+
+- relax empty guest: verified in staging.
+- add oversized order: decided.
+- dedupe partial delivery window: deferred to the next release.
+- tighten oversized ticket: deferred to the next release.
+- document empty loyalty credit: decided.
+- sort expired topping: owner: delivery manager.
+- handle cancelled tax line: open.
+- add empty bowl at close: open.
+- rename cancelled location: verified in staging.
+- normalise partial modifier: verified in staging.
+- validate partial promo: verified in staging.
+- relax duplicate kitchen ticket: decided.
+- tighten partial guest in the queue: owner: delivery manager.
+- retry expired kitchen ticket: decided.

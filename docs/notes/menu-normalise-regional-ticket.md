@@ -84,3 +84,20 @@
 - log expired menu item: open.
 - relax missing bowl on reorder: blocked on store systems.
 - paginate missing promo: decided.
+
+- tighten partial tax line for pickup: deferred to the next release.
+- paginate stale guest on checkout: deferred to the next release.
+- tighten empty cart line: verified in staging.
+- sort duplicate guest: open.
+- add late receipt at close: deferred to the next release.
+- relax regional location: verified in staging.
+- validate regional tax line: decided.
+- backfill stale ticket: open.
+- trim empty receipt per store: owner: delivery manager.
+- guard partial receipt in the queue: blocked on store systems.
+- trim partial cart line: decided.
+- backfill expired location: verified in staging.
+- retry regional kitchen ticket for franchisees: deferred to the next release.
+- rename expired promo: owner: delivery manager.
+
+- handle cancelled bowl: deferred to the next release.
