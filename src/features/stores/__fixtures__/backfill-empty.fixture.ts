@@ -894,4 +894,40 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'relax cancelled pickup slot',
     quantity: 2,
   },
+  {
+    id: 'stores-4879',
+    store: '520',
+    label: 'trim late catering tray at close',
+    quantity: 3,
+  },
+  {
+    id: 'stores-5294',
+    store: '285',
+    label: 'document late order',
+    quantity: 11,
+  },
+  {
+    id: 'stores-4071',
+    store: '451',
+    label: 'add duplicate cart line',
+    quantity: 2,
+  },
+  {
+    id: 'stores-5794',
+    store: '545',
+    label: 'expose oversized promo in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'stores-9792',
+    store: '401',
+    label: 'retry duplicate guest for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'stores-7361',
+    store: '461',
+    label: 'rename cancelled store',
+    quantity: 8,
+  },
 ];

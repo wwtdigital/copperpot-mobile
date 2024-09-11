@@ -115,3 +115,5 @@
 - tighten missing cart line: open.
 - trim regional pickup slot: verified in staging.
 - trim missing loyalty credit: open.
+
+- add stale menu item: owner: delivery manager.
