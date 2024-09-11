@@ -120,4 +120,28 @@ export class HandleRegionalPromoForFranchiseesDto {
   relaxCancelledTicketAtClose?: string;
   tightenMissingOrder!: Date;
   trimLateCateringTray?: string[];
+  retryRegionalToppingOnCheckout!: string[];
+  renameLateOrder!: Date;
+  retryEmptyTaxLine?: string[];
+  validateOversizedGuest!: number;
+  tightenDuplicateTicket!: Date;
+  cacheRegionalLocation!: string;
+  normaliseStaleReceipt!: number;
+  exposeLateTicket!: boolean;
+  logPartialReceiptOnReorder?: Date;
+  documentMissingModifierInTheQueue?: number;
+  validateDuplicateLoyaltyCredit!: Date;
+  trimStaleMenuItemOnCheckout!: Date;
+  trimLateTaxLine!: boolean;
+  tightenPartialDeliveryWindow?: number;
+  sortRegionalOrder!: string[];
+  tightenExpiredToppingForFranchisees?: Date;
+  addPartialCartLineForPickup?: boolean;
+  relaxEmptyDeliveryWindowForPickup?: number;
+  trimCancelledStoreForFranchisees?: number;
+  addDuplicatePickupSlotAtClose!: boolean;
+  logLateLoyaltyCredit?: boolean;
+  dedupeExpiredToppingOnReorder!: string[];
+  validateMissingPromo?: boolean;
+  exposeOversizedPromoForFranchisees!: string[];
 }

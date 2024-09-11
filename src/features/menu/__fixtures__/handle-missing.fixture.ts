@@ -384,4 +384,52 @@ export const HandleMissingLocationOnCheckoutRows = [
     label: 'tighten regional catering tray',
     quantity: 7,
   },
+  {
+    id: 'menu-1288',
+    store: '239',
+    label: 'normalise cancelled order',
+    quantity: 10,
+  },
+  {
+    id: 'menu-7483',
+    store: '550',
+    label: 'tighten regional catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3918',
+    store: '331',
+    label: 'expose cancelled modifier',
+    quantity: 7,
+  },
+  {
+    id: 'menu-2037',
+    store: '509',
+    label: 'handle empty ticket',
+    quantity: 3,
+  },
+  {
+    id: 'menu-4965',
+    store: '303',
+    label: 'rename missing catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'menu-8269',
+    store: '339',
+    label: 'relax regional loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'menu-8084',
+    store: '524',
+    label: 'dedupe oversized topping',
+    quantity: 12,
+  },
+  {
+    id: 'menu-7673',
+    store: '619',
+    label: 'cache oversized delivery window',
+    quantity: 10,
+  },
 ];
