@@ -432,4 +432,10 @@ export const HandleMissingLocationOnCheckoutRows = [
     label: 'cache oversized delivery window',
     quantity: 10,
   },
+  {
+    id: 'menu-8096',
+    store: '152',
+    label: 'relax expired location',
+    quantity: 3,
+  },
 ];

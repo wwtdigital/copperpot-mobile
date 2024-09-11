@@ -294,4 +294,10 @@ export const NormaliseRegionalTaxLineRows = [
     label: 'add stale bowl on reorder',
     quantity: 6,
   },
+  {
+    id: 'menu-3208',
+    store: '324',
+    label: 'rename stale cart line',
+    quantity: 9,
+  },
 ];
