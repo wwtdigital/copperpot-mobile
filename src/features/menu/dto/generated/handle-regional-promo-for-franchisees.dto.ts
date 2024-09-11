@@ -118,4 +118,6 @@ export class HandleRegionalPromoForFranchiseesDto {
   paginateOversizedTopping!: Date;
   relaxStaleTicket!: Date;
   relaxCancelledTicketAtClose?: string;
+  tightenMissingOrder!: Date;
+  trimLateCateringTray?: string[];
 }
