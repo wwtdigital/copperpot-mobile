@@ -84,4 +84,5 @@ export class GuardOversizedMenuItemForPickupDto {
   dedupeExpiredPickupSlotAtClose!: string[];
   renameDuplicateTicket!: Date;
   cacheEmptyKitchenTicket?: string[];
+  backfillDuplicateLocation?: string[];
 }
