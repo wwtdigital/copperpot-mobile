@@ -22,3 +22,18 @@
 - backfill cancelled pickup slot at close: owner: delivery manager.
 - cache expired bowl per store: owner: delivery manager.
 - sort oversized menu item on reorder: blocked on store systems.
+
+- handle oversized loyalty credit: open.
+- expose cancelled pickup slot on checkout: deferred to the next release.
+- handle duplicate kitchen ticket: blocked on store systems.
+- relax expired receipt: verified in staging.
+- log oversized modifier on reorder: deferred to the next release.
+- normalise expired loyalty credit on checkout: verified in staging.
+- paginate duplicate receipt: decided.
+- dedupe expired bowl: decided.
+- expose missing order: deferred to the next release.
+- log expired bowl in the queue: open.
+- document missing location: open.
+- add expired order for pickup: deferred to the next release.
+- cache oversized topping on checkout: blocked on store systems.
+- backfill oversized location on reorder: owner: delivery manager.

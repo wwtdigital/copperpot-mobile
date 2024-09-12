@@ -120,4 +120,6 @@ export class BackfillStaleTaxLineDto {
   tightenCancelledReceipt?: string[];
   sortPartialModifier!: number;
   sortCancelledTaxLine!: boolean;
+  documentPartialGuest!: string[];
+  retryExpiredTicket!: string;
 }

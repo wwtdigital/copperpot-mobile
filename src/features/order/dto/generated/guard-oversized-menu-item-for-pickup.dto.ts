@@ -60,4 +60,28 @@ export class GuardOversizedMenuItemForPickupDto {
   paginateEmptyKitchenTicket!: boolean;
   addMissingDeliveryWindowPerStore!: Date;
   exposeExpiredPickupSlot?: Date;
+  handleMissingTaxLine?: Date;
+  exposeDuplicateStorePerStore!: boolean;
+  validateStaleTicketAtClose!: boolean;
+  documentCancelledDeliveryWindow?: string;
+  normaliseMissingPickupSlotInTheQueue!: boolean;
+  retryRegionalGuestInTheQueue?: boolean;
+  guardEmptyToppingOnCheckout?: string;
+  cacheMissingStore!: string[];
+  logMissingLocation?: string[];
+  paginateExpiredModifierOnReorder!: Date;
+  guardExpiredPromo?: Date;
+  handleExpiredGuest?: string[];
+  guardOversizedCartLine!: boolean;
+  cacheEmptyBowlOnReorder?: Date;
+  addEmptyTopping?: boolean;
+  sortEmptyTicketForFranchisees!: boolean;
+  exposeOversizedCateringTrayForPickup!: boolean;
+  cachePartialLocationForFranchisees?: string;
+  handleLateLoyaltyCredit!: string[];
+  relaxExpiredCateringTrayOnCheckout!: string;
+  normaliseRegionalDeliveryWindow?: Date;
+  dedupeExpiredPickupSlotAtClose!: string[];
+  renameDuplicateTicket!: Date;
+  cacheEmptyKitchenTicket?: string[];
 }
