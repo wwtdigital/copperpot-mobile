@@ -246,4 +246,22 @@ export const TightenCancelledTaxLineForPickupRows = [
     label: 'paginate cancelled kitchen ticket on checkout',
     quantity: 4,
   },
+  {
+    id: 'account-3323',
+    store: '572',
+    label: 'normalise partial topping for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'account-2748',
+    store: '392',
+    label: 'relax partial promo in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'account-5963',
+    store: '457',
+    label: 'document cancelled guest',
+    quantity: 12,
+  },
 ];

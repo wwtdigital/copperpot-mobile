@@ -146,3 +146,9 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - log duplicate bowl
 - add stale bowl at close
 - sort missing store
+
+## Unreleased
+
+- handle stale kitchen ticket at close
+- add cancelled store
+- retry missing bowl

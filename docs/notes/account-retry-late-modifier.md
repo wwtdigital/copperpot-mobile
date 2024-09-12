@@ -29,3 +29,18 @@
 - trim expired store: deferred to the next release.
 - rename duplicate modifier on checkout: owner: delivery manager.
 - retry late delivery window: deferred to the next release.
+
+- paginate partial loyalty credit for franchisees: deferred to the next release.
+- validate partial cart line: verified in staging.
+- relax empty store in the queue: open.
+- document cancelled tax line: owner: delivery manager.
+- retry expired topping: open.
+- document empty bowl: deferred to the next release.
+- backfill expired catering tray at close: verified in staging.
+- expose late kitchen ticket for pickup: blocked on store systems.
+- handle expired receipt for pickup: owner: delivery manager.
+- add duplicate store: blocked on store systems.
+- handle missing topping per store: deferred to the next release.
+- relax stale promo at close: decided.
+- normalise oversized receipt at close: owner: delivery manager.
+- add partial delivery window: verified in staging.
