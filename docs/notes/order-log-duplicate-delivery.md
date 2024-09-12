@@ -57,3 +57,18 @@
 - log empty kitchen ticket: verified in staging.
 - paginate stale tax line: verified in staging.
 - rename duplicate loyalty credit: verified in staging.
+
+- paginate stale bowl: decided.
+- validate partial promo for franchisees: decided.
+- guard duplicate store for franchisees: decided.
+- normalise regional topping: open.
+- backfill regional ticket: blocked on store systems.
+- guard missing topping for franchisees: verified in staging.
+- normalise oversized guest on reorder: decided.
+- trim expired order in the queue: blocked on store systems.
+- cache oversized order: owner: delivery manager.
+- paginate regional kitchen ticket: decided.
+- cache expired store for pickup: deferred to the next release.
+- expose cancelled receipt per store: deferred to the next release.
+- cache regional modifier at close: owner: delivery manager.
+- normalise late menu item: deferred to the next release.

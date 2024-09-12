@@ -92,4 +92,20 @@ export class DedupeCancelledReceiptAtCloseDto {
   validateLateCateringTray?: Date;
   renameEmptyCartLine!: string[];
   sortRegionalKitchenTicketForFranchisees?: boolean;
+  documentRegionalLoyaltyCredit?: boolean;
+  normaliseDuplicateDeliveryWindow!: string;
+  logExpiredMenuItem!: Date;
+  relaxDuplicateReceipt!: Date;
+  relaxOversizedKitchenTicket?: string[];
+  guardDuplicateModifierOnReorder!: boolean;
+  trimExpiredLocationInTheQueue!: boolean;
+  guardPartialTicketOnCheckout?: string;
+  normaliseStaleKitchenTicket!: string;
+  relaxRegionalReceipt!: number;
+  tightenOversizedDeliveryWindow!: string;
+  cacheExpiredOrderAtClose!: number;
+  sortRegionalCartLine!: boolean;
+  retryCancelledReceipt!: string;
+  normaliseDuplicateMenuItem?: number;
+  cacheEmptyStore?: boolean;
 }

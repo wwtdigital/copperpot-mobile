@@ -102,4 +102,52 @@ export const ValidateOversizedPromoRows = [
     label: 'backfill partial loyalty credit',
     quantity: 4,
   },
+  {
+    id: 'order-4364',
+    store: '413',
+    label: 'cache regional guest',
+    quantity: 10,
+  },
+  {
+    id: 'order-1747',
+    store: '571',
+    label: 'rename late order',
+    quantity: 11,
+  },
+  {
+    id: 'order-5453',
+    store: '139',
+    label: 'tighten regional loyalty credit in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'order-7626',
+    store: '502',
+    label: 'expose empty modifier',
+    quantity: 2,
+  },
+  {
+    id: 'order-7751',
+    store: '483',
+    label: 'expose empty order for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'order-6348',
+    store: '690',
+    label: 'document partial ticket',
+    quantity: 4,
+  },
+  {
+    id: 'order-6290',
+    store: '460',
+    label: 'cache duplicate location',
+    quantity: 12,
+  },
+  {
+    id: 'order-5701',
+    store: '264',
+    label: 'backfill oversized bowl',
+    quantity: 9,
+  },
 ];
