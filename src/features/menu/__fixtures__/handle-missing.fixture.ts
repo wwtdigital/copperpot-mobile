@@ -450,4 +450,10 @@ export const HandleMissingLocationOnCheckoutRows = [
     label: 'retry regional promo at close',
     quantity: 5,
   },
+  {
+    id: 'menu-8298',
+    store: '523',
+    label: 'document expired location',
+    quantity: 10,
+  },
 ];

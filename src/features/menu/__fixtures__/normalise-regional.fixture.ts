@@ -300,4 +300,10 @@ export const NormaliseRegionalTaxLineRows = [
     label: 'rename stale cart line',
     quantity: 9,
   },
+  {
+    id: 'menu-4043',
+    store: '343',
+    label: 'trim regional topping for pickup',
+    quantity: 10,
+  },
 ];

@@ -24,4 +24,6 @@ export class RenameLateCateringTrayForFranchiseesDto {
   sortLateMenuItem?: string[];
   relaxRegionalCateringTray!: string[];
   paginateStaleTicketAtClose!: number;
+  exposeCancelledPickupSlotForFranchisees!: string;
+  dedupeStalePromo?: string;
 }
