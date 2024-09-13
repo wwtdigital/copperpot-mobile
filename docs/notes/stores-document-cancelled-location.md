@@ -85,3 +85,35 @@
 - cache oversized promo on reorder: open.
 - rename expired cart line: open.
 - trim oversized order: blocked on store systems.
+
+- backfill oversized pickup slot: open.
+- handle late store: verified in staging.
+- document duplicate modifier: blocked on store systems.
+- trim regional order on reorder: deferred to the next release.
+- rename regional loyalty credit: decided.
+- add missing store at close: verified in staging.
+- relax cancelled order per store: deferred to the next release.
+- relax late bowl: owner: delivery manager.
+- add empty location on reorder: open.
+- guard missing promo on checkout: owner: delivery manager.
+- relax regional cart line at close: owner: delivery manager.
+- guard regional promo for franchisees: decided.
+- normalise cancelled pickup slot: owner: delivery manager.
+- normalise late bowl for pickup: verified in staging.
+
+- retry missing topping on reorder: verified in staging.
+- add regional tax line: decided.
+- handle late tax line: decided.
+- backfill partial store at close: owner: delivery manager.
+- expose oversized tax line in the queue: verified in staging.
+- expose stale delivery window at close: owner: delivery manager.
+- add stale guest for franchisees: open.
+- tighten stale bowl: decided.
+- document partial location for franchisees: verified in staging.
+- rename oversized location: deferred to the next release.
+- dedupe regional catering tray for franchisees: deferred to the next release.
+- tighten missing cart line: open.
+- trim regional pickup slot: verified in staging.
+- trim missing loyalty credit: open.
+
+- add stale menu item: owner: delivery manager.
