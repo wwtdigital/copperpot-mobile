@@ -840,4 +840,10 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'document expired modifier',
     quantity: 8,
   },
+  {
+    id: 'stores-4499',
+    store: '234',
+    label: 'validate oversized modifier',
+    quantity: 1,
+  },
 ];
