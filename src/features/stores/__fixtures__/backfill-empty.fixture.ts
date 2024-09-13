@@ -930,4 +930,10 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'rename cancelled store',
     quantity: 8,
   },
+  {
+    id: 'stores-8831',
+    store: '308',
+    label: 'relax late kitchen ticket for franchisees',
+    quantity: 6,
+  },
 ];
