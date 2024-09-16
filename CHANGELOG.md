@@ -152,3 +152,9 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - handle stale kitchen ticket at close
 - add cancelled store
 - retry missing bowl
+
+## Unreleased
+
+- tighten oversized store for pickup
+- dedupe empty loyalty credit
+- tighten late delivery window

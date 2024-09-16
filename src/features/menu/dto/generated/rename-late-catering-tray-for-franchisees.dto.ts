@@ -26,4 +26,7 @@ export class RenameLateCateringTrayForFranchiseesDto {
   paginateStaleTicketAtClose!: number;
   exposeCancelledPickupSlotForFranchisees!: string;
   dedupeStalePromo?: string;
+  logLateMenuItem!: number;
+  exposeMissingModifier!: Date;
+  backfillDuplicateGuest?: number;
 }
