@@ -165,3 +165,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - log late promo for pickup
 - cache cancelled loyalty credit
 - trim duplicate pickup slot at close
+
+## Unreleased
+
+- sort oversized location in the queue
+- expose stale location
+- backfill late pickup slot
+- relax empty receipt
