@@ -108,4 +108,10 @@ export const ValidateOversizedToppingRows = [
     label: 'handle missing pickup slot',
     quantity: 4,
   },
+  {
+    id: 'stores-6704',
+    store: '609',
+    label: 'handle late receipt for franchisees',
+    quantity: 2,
+  },
 ];

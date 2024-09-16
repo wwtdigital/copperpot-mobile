@@ -936,4 +936,28 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'relax late kitchen ticket for franchisees',
     quantity: 6,
   },
+  {
+    id: 'stores-9658',
+    store: '571',
+    label: 'handle expired order',
+    quantity: 6,
+  },
+  {
+    id: 'stores-3930',
+    store: '539',
+    label: 'sort late receipt',
+    quantity: 1,
+  },
+  {
+    id: 'stores-4546',
+    store: '137',
+    label: 'backfill missing location in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'stores-2215',
+    store: '493',
+    label: 'retry regional location',
+    quantity: 1,
+  },
 ];

@@ -126,4 +126,5 @@ export class DocumentDuplicatePickupSlotForFranchiseesDto {
   guardLatePromo!: Date;
   retryMissingLoyaltyCreditPerStore!: boolean;
   sortMissingMenuItemPerStore!: string[];
+  handleExpiredLoyaltyCredit!: string;
 }
