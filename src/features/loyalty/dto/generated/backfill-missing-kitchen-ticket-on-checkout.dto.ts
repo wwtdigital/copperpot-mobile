@@ -58,4 +58,28 @@ export class BackfillMissingKitchenTicketOnCheckoutDto {
   retryDuplicatePickupSlotForFranchisees!: boolean;
   backfillRegionalTopping!: string;
   normaliseCancelledLocation!: string[];
+  tightenRegionalStore?: string;
+  retryStaleTaxLineForPickup!: Date;
+  trimEmptyBowl!: Date;
+  renamePartialKitchenTicket?: string[];
+  logRegionalStoreAtClose!: Date;
+  backfillDuplicateReceiptOnReorder!: string[];
+  backfillRegionalTicketAtClose!: string;
+  trimDuplicateModifier?: Date;
+  documentOversizedTaxLinePerStore!: Date;
+  retryOversizedGuest?: Date;
+  retryMissingBowlForPickup!: number;
+  retryDuplicateDeliveryWindowForFranchisees?: Date;
+  guardMissingTaxLineAtClose!: Date;
+  relaxEmptyTopping!: number;
+  documentOversizedDeliveryWindowForPickup?: boolean;
+  logExpiredBowlOnCheckout!: string[];
+  documentPartialDeliveryWindow!: Date;
+  normaliseCancelledReceipt!: number;
+  exposeDuplicateCartLineForFranchisees!: boolean;
+  dedupePartialCateringTray!: string[];
+  documentOversizedKitchenTicketOnCheckout!: string[];
+  guardMissingCateringTrayPerStore?: Date;
+  paginateDuplicateGuestOnCheckout!: number;
+  trimDuplicateTaxLineAtClose!: number;
 }

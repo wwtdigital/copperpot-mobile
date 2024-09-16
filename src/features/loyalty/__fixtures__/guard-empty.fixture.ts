@@ -354,4 +354,40 @@ export const GuardEmptyStoreRows = [
     label: 'trim empty tax line on checkout',
     quantity: 4,
   },
+  {
+    id: 'loyalty-2618',
+    store: '204',
+    label: 'document expired pickup slot at close',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-2641',
+    store: '641',
+    label: 'add regional menu item on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-8603',
+    store: '234',
+    label: 'trim cancelled menu item',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-7230',
+    store: '460',
+    label: 'dedupe partial delivery window',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-5059',
+    store: '143',
+    label: 'normalise oversized ticket in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-3581',
+    store: '544',
+    label: 'validate oversized ticket',
+    quantity: 12,
+  },
 ];
