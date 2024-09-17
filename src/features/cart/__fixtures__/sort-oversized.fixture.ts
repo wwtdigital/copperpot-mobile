@@ -1032,4 +1032,16 @@ export const SortOversizedGuestRows = [
     label: 'tighten expired modifier at close',
     quantity: 10,
   },
+  {
+    id: 'cart-3183',
+    store: '329',
+    label: 'normalise stale store',
+    quantity: 3,
+  },
+  {
+    id: 'cart-3506',
+    store: '102',
+    label: 'expose partial catering tray',
+    quantity: 12,
+  },
 ];
