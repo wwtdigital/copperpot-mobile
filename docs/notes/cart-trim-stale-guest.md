@@ -14,3 +14,6 @@
 - document missing guest in the queue: deferred to the next release.
 - sort regional guest: blocked on store systems.
 - tighten cancelled catering tray in the queue: open.
+
+- relax expired kitchen ticket on reorder: deferred to the next release.
+- sort stale guest: verified in staging.
