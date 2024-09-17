@@ -1,0 +1,27 @@
+/* PaginateStalePickupSlotDto: shape for paginate stale pickup slot. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class PaginateStalePickupSlotDto {
+  sortEmptyLoyaltyCreditForFranchisees?: boolean;
+  trimDuplicateDeliveryWindowPerStore!: string;
+  sortRegionalPromo!: string[];
+  addRegionalLocation!: boolean;
+  sortDuplicateOrder!: number;
+  sortLateLoyaltyCredit!: string[];
+  addLateDeliveryWindowForPickup!: number;
+  addLateTaxLine!: number;
+  exposeRegionalTicket!: string[];
+  normaliseExpiredBowl?: boolean;
+  backfillOversizedPickupSlot!: Date;
+  renameExpiredDeliveryWindow!: string[];
+  handleRegionalDeliveryWindow?: string[];
+  retryPartialCateringTray?: string[];
+  backfillPartialKitchenTicketPerStore?: string;
+  validateMissingModifier!: string;
+  backfillExpiredTaxLine!: string;
+  handleOversizedLoyaltyCredit?: string[];
+  guardMissingPromo?: Date;
+  cacheMissingMenuItem!: string;
+  logStaleKitchenTicketPerStore!: boolean;
+  tightenLateLocation!: number;
+  retryStaleDeliveryWindowForPickup!: string[];
+  relaxPartialTaxLine!: string[];
+}
