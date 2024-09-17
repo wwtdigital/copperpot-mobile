@@ -336,4 +336,22 @@ export const GuardEmptyStoreRows = [
     label: 'validate oversized receipt on checkout',
     quantity: 7,
   },
+  {
+    id: 'loyalty-7427',
+    store: '332',
+    label: 'add missing topping',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-2706',
+    store: '204',
+    label: 'log duplicate guest at close',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-3205',
+    store: '685',
+    label: 'trim empty tax line on checkout',
+    quantity: 4,
+  },
 ];

@@ -158,3 +158,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - tighten oversized store for pickup
 - dedupe empty loyalty credit
 - tighten late delivery window
+
+## Unreleased
+
+- paginate partial bowl at close
+- log late promo for pickup
+- cache cancelled loyalty credit
+- trim duplicate pickup slot at close
