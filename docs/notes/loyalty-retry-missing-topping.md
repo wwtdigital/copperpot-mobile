@@ -61,3 +61,18 @@
 - normalise stale pickup slot: owner: delivery manager.
 - trim missing bowl: owner: delivery manager.
 - relax regional modifier per store: open.
+
+- sort late loyalty credit: decided.
+- cache missing bowl: owner: delivery manager.
+- paginate late loyalty credit: verified in staging.
+- document regional pickup slot for franchisees: owner: delivery manager.
+- dedupe missing loyalty credit: decided.
+- document regional tax line: open.
+- paginate late promo in the queue: open.
+- guard missing receipt: decided.
+- trim late location on reorder: deferred to the next release.
+- log late order: blocked on store systems.
+- expose oversized modifier: verified in staging.
+- sort empty catering tray: open.
+- retry late order: verified in staging.
+- expose oversized location in the queue: verified in staging.
