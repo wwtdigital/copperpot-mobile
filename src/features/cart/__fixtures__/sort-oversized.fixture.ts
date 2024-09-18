@@ -1044,4 +1044,16 @@ export const SortOversizedGuestRows = [
     label: 'expose partial catering tray',
     quantity: 12,
   },
+  {
+    id: 'cart-5098',
+    store: '661',
+    label: 'retry duplicate tax line in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'cart-2246',
+    store: '499',
+    label: 'trim cancelled catering tray in the queue',
+    quantity: 2,
+  },
 ];
