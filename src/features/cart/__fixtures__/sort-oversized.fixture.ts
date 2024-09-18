@@ -1056,4 +1056,16 @@ export const SortOversizedGuestRows = [
     label: 'trim cancelled catering tray in the queue',
     quantity: 2,
   },
+  {
+    id: 'cart-8897',
+    store: '249',
+    label: 'relax partial delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'cart-7925',
+    store: '209',
+    label: 'trim duplicate pickup slot for pickup',
+    quantity: 1,
+  },
 ];
