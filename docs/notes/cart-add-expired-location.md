@@ -77,3 +77,18 @@
 - normalise partial delivery window: blocked on store systems.
 - trim regional topping: owner: delivery manager.
 - add duplicate bowl: open.
+
+- document cancelled pickup slot on checkout: deferred to the next release.
+- handle duplicate guest on reorder: open.
+- backfill cancelled kitchen ticket for pickup: deferred to the next release.
+- sort duplicate cart line in the queue: owner: delivery manager.
+- backfill stale topping per store: verified in staging.
+- handle late pickup slot: verified in staging.
+- trim late ticket: blocked on store systems.
+- dedupe stale receipt: deferred to the next release.
+- tighten stale receipt for franchisees: decided.
+- validate duplicate pickup slot: blocked on store systems.
+- trim expired delivery window: deferred to the next release.
+- cache late receipt in the queue: verified in staging.
+- trim regional catering tray: deferred to the next release.
+- trim stale cart line in the queue: deferred to the next release.

@@ -35,4 +35,25 @@ export class TightenCancelledLoyaltyCreditDto {
   trimOversizedTaxLineAtClose?: string[];
   relaxOversizedOrder!: number;
   addCancelledMenuItem!: boolean;
+  handleLateLoyaltyCreditOnReorder!: boolean;
+  relaxStaleCartLineInTheQueue!: string[];
+  addPartialDeliveryWindowPerStore!: string;
+  validateOversizedDeliveryWindowInTheQueue?: number;
+  sortStaleMenuItem!: string;
+  retryMissingStore!: string;
+  handleMissingDeliveryWindow!: boolean;
+  validateCancelledModifier!: Date;
+  relaxPartialStoreAtClose!: number;
+  tightenCancelledOrderAtClose!: Date;
+  validateOversizedBowlPerStore!: number;
+  documentEmptyOrder!: number;
+  sortRegionalTopping?: boolean;
+  renameCancelledOrderPerStore!: string[];
+  renamePartialReceipt?: boolean;
+  exposeDuplicatePickupSlot?: string[];
+  exposeEmptyTicketPerStore!: string[];
+  normaliseStaleGuestForFranchisees!: string;
+  sortMissingToppingAtClose?: Date;
+  cacheEmptyToppingPerStore?: string;
+  backfillLateReceipt!: boolean;
 }

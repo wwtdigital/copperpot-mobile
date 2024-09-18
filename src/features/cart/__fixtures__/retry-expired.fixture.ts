@@ -648,4 +648,28 @@ export const RetryExpiredLoyaltyCreditRows = [
     label: 'dedupe oversized bowl',
     quantity: 8,
   },
+  {
+    id: 'cart-2890',
+    store: '297',
+    label: 'trim oversized delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'cart-5780',
+    store: '377',
+    label: 'backfill expired order at close',
+    quantity: 6,
+  },
+  {
+    id: 'cart-8391',
+    store: '591',
+    label: 'paginate partial tax line',
+    quantity: 12,
+  },
+  {
+    id: 'cart-2709',
+    store: '258',
+    label: 'dedupe cancelled receipt for pickup',
+    quantity: 10,
+  },
 ];
