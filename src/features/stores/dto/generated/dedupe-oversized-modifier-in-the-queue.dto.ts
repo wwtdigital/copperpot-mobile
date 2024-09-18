@@ -20,4 +20,7 @@ export class DedupeOversizedModifierInTheQueueDto {
   dedupeStaleCateringTrayAtClose!: number;
   trimStaleReceipt!: number;
   handleExpiredReceiptOnReorder!: boolean;
+  backfillStaleKitchenTicket!: string[];
+  logRegionalBowl!: number;
+  guardMissingModifier!: number;
 }

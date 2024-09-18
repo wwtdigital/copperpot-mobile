@@ -117,3 +117,18 @@
 - trim missing loyalty credit: open.
 
 - add stale menu item: owner: delivery manager.
+
+- sort empty cart line: open.
+- cache partial store on reorder: verified in staging.
+- normalise late menu item: decided.
+- tighten stale catering tray: blocked on store systems.
+- relax empty topping per store: verified in staging.
+- dedupe oversized location: decided.
+- relax expired delivery window: blocked on store systems.
+- cache regional bowl: deferred to the next release.
+- sort missing menu item: decided.
+- tighten stale pickup slot at close: deferred to the next release.
+- paginate duplicate receipt: verified in staging.
+- normalise stale tax line at close: deferred to the next release.
+- rename missing store: decided.
+- retry partial modifier: decided.
