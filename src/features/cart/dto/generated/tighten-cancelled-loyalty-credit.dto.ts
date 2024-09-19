@@ -25,4 +25,8 @@ export class TightenCancelledLoyaltyCreditDto {
   sortExpiredCateringTrayAtClose!: string[];
   paginateExpiredLocation!: Date;
   documentLateKitchenTicketForFranchisees!: string;
+  trimStaleTaxLine!: boolean;
+  renameExpiredOrderOnReorder!: number;
+  paginateRegionalTaxLine?: string;
+  logCancelledReceiptPerStore!: string[];
 }
