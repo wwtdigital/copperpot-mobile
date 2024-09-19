@@ -24,4 +24,28 @@ export class PaginateStalePickupSlotDto {
   tightenLateLocation!: number;
   retryStaleDeliveryWindowForPickup!: string[];
   relaxPartialTaxLine!: string[];
+  cacheCancelledTopping!: boolean;
+  cacheLateTicket?: string;
+  documentEmptyTicket!: boolean;
+  relaxCancelledModifierAtClose!: string[];
+  exposeLateLocation!: Date;
+  dedupeMissingCateringTray!: string[];
+  documentStaleOrder!: boolean;
+  renameRegionalGuestForPickup!: string[];
+  logStaleOrderOnCheckout!: string[];
+  cacheExpiredCateringTray?: number;
+  logDuplicateReceiptAtClose!: boolean;
+  documentCancelledCateringTray?: string;
+  trimOversizedGuestOnCheckout!: number;
+  cacheExpiredMenuItem!: string[];
+  logStaleReceiptForFranchisees!: number;
+  sortEmptyBowlInTheQueue!: string;
+  exposeRegionalCateringTray?: boolean;
+  validateExpiredOrder?: boolean;
+  handlePartialModifier!: string;
+  tightenRegionalCartLineForPickup!: Date;
+  sortCancelledTicket!: number;
+  sortDuplicateModifier?: string[];
+  exposeOversizedPromoInTheQueue?: string[];
+  logLateStore!: string;
 }
