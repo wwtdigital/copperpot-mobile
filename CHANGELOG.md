@@ -172,3 +172,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - expose stale location
 - backfill late pickup slot
 - relax empty receipt
+
+## Unreleased
+
+- retry oversized store
+- backfill stale tax line on reorder
+- handle stale store
+- handle oversized ticket

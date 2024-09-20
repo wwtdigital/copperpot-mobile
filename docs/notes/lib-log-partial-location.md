@@ -14,3 +14,18 @@
 - dedupe expired loyalty credit: blocked on store systems.
 - document oversized promo: decided.
 - cache missing pickup slot on checkout: decided.
+
+- expose oversized store on checkout: verified in staging.
+- retry cancelled tax line: blocked on store systems.
+- normalise duplicate tax line: deferred to the next release.
+- rename partial catering tray for franchisees: deferred to the next release.
+- validate empty menu item: deferred to the next release.
+- sort oversized pickup slot: deferred to the next release.
+- dedupe oversized order: owner: delivery manager.
+- cache partial cart line: open.
+- dedupe missing cart line on reorder: deferred to the next release.
+- sort stale guest at close: open.
+- cache missing kitchen ticket in the queue: owner: delivery manager.
+- expose oversized menu item in the queue: blocked on store systems.
+- normalise duplicate promo in the queue: owner: delivery manager.
+- backfill partial guest at close: blocked on store systems.

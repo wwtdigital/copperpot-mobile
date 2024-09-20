@@ -89,3 +89,18 @@
 - normalise expired guest on checkout: owner: delivery manager.
 - retry partial modifier: blocked on store systems.
 - tighten cancelled cart line on reorder: blocked on store systems.
+
+- handle expired ticket: decided.
+- normalise missing kitchen ticket for pickup: decided.
+- backfill duplicate receipt on checkout: verified in staging.
+- rename missing modifier for franchisees: blocked on store systems.
+- paginate late promo in the queue: blocked on store systems.
+- document missing loyalty credit on reorder: owner: delivery manager.
+- backfill partial modifier on reorder: deferred to the next release.
+- log late cart line per store: blocked on store systems.
+- add regional loyalty credit: owner: delivery manager.
+- retry cancelled pickup slot at close: open.
+- log missing order at close: decided.
+- tighten cancelled cart line: deferred to the next release.
+- tighten expired loyalty credit: verified in staging.
+- validate missing promo: verified in staging.
