@@ -1032,4 +1032,40 @@ export const SortOversizedGuestRows = [
     label: 'tighten expired modifier at close',
     quantity: 10,
   },
+  {
+    id: 'cart-3183',
+    store: '329',
+    label: 'normalise stale store',
+    quantity: 3,
+  },
+  {
+    id: 'cart-3506',
+    store: '102',
+    label: 'expose partial catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'cart-5098',
+    store: '661',
+    label: 'retry duplicate tax line in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'cart-2246',
+    store: '499',
+    label: 'trim cancelled catering tray in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'cart-8897',
+    store: '249',
+    label: 'relax partial delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'cart-7925',
+    store: '209',
+    label: 'trim duplicate pickup slot for pickup',
+    quantity: 1,
+  },
 ];

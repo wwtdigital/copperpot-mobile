@@ -29,4 +29,10 @@ export class TightenCancelledLoyaltyCreditDto {
   renameExpiredOrderOnReorder!: number;
   paginateRegionalTaxLine?: string;
   logCancelledReceiptPerStore!: string[];
+  relaxPartialLocationOnCheckout!: Date;
+  cacheMissingCateringTrayAtClose!: number;
+  dedupeRegionalKitchenTicketForFranchisees!: number;
+  trimOversizedTaxLineAtClose?: string[];
+  relaxOversizedOrder!: number;
+  addCancelledMenuItem!: boolean;
 }
