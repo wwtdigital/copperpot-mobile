@@ -1068,4 +1068,46 @@ export const SortOversizedGuestRows = [
     label: 'trim duplicate pickup slot for pickup',
     quantity: 1,
   },
+  {
+    id: 'cart-6764',
+    store: '388',
+    label: 'log regional kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'cart-6258',
+    store: '118',
+    label: 'trim late modifier per store',
+    quantity: 12,
+  },
+  {
+    id: 'cart-9085',
+    store: '316',
+    label: 'retry oversized promo',
+    quantity: 2,
+  },
+  {
+    id: 'cart-2015',
+    store: '181',
+    label: 'tighten oversized bowl on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'cart-2750',
+    store: '506',
+    label: 'normalise empty tax line',
+    quantity: 4,
+  },
+  {
+    id: 'cart-5620',
+    store: '654',
+    label: 'normalise cancelled location',
+    quantity: 5,
+  },
+  {
+    id: 'cart-1424',
+    store: '346',
+    label: 'document regional guest in the queue',
+    quantity: 5,
+  },
 ];
