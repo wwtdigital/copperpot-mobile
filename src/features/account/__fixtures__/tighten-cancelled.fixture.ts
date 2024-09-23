@@ -264,4 +264,16 @@ export const TightenCancelledTaxLineForPickupRows = [
     label: 'document cancelled guest',
     quantity: 12,
   },
+  {
+    id: 'account-7148',
+    store: '235',
+    label: 'normalise expired cart line',
+    quantity: 12,
+  },
+  {
+    id: 'account-5062',
+    store: '317',
+    label: 'sort stale kitchen ticket',
+    quantity: 8,
+  },
 ];
