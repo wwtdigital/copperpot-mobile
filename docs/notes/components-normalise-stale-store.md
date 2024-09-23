@@ -23,3 +23,5 @@
 - handle empty tax line on checkout: open.
 - retry empty cart line: decided.
 - retry cancelled location: decided.
+
+- retry expired receipt: decided.
