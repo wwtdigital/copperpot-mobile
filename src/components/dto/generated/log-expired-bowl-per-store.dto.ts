@@ -178,4 +178,10 @@ export class LogExpiredBowlPerStoreDto {
   sortDuplicateStore?: string[];
   renameCancelledToppingForPickup?: number;
   documentPartialPromoForFranchisees?: Date;
+  exposeMissingCateringTrayPerStore!: string;
+  relaxRegionalKitchenTicket?: string;
+  paginateCancelledTaxLineOnReorder!: Date;
+  sortCancelledGuest?: string[];
+  relaxExpiredLocationAtClose!: Date;
+  sortOversizedBowl?: Date;
 }
