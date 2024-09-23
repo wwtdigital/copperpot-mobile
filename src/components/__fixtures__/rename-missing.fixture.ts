@@ -36,4 +36,22 @@ export const RenameMissingPromoOnCheckoutRows = [
     label: 'expose oversized menu item per store',
     quantity: 11,
   },
+  {
+    id: 'components-6708',
+    store: '526',
+    label: 'paginate oversized tax line for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'components-2066',
+    store: '656',
+    label: 'document duplicate bowl',
+    quantity: 6,
+  },
+  {
+    id: 'components-5966',
+    store: '615',
+    label: 'paginate duplicate order on reorder',
+    quantity: 10,
+  },
 ];
