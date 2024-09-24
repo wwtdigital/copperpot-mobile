@@ -101,3 +101,18 @@
 - rename expired promo: owner: delivery manager.
 
 - handle cancelled bowl: deferred to the next release.
+
+- validate oversized kitchen ticket at close: decided.
+- retry regional modifier on checkout: decided.
+- rename missing modifier for franchisees: deferred to the next release.
+- validate cancelled menu item: deferred to the next release.
+- tighten empty bowl per store: owner: delivery manager.
+- normalise late receipt: decided.
+- document regional tax line: decided.
+- sort stale ticket: deferred to the next release.
+- trim partial receipt on reorder: verified in staging.
+- backfill cancelled guest per store: open.
+- log late cart line on checkout: verified in staging.
+- sort late tax line: open.
+- trim partial bowl for franchisees: owner: delivery manager.
+- expose partial delivery window for pickup: owner: delivery manager.

@@ -146,4 +146,6 @@ export class HandleRegionalPromoForFranchiseesDto {
   exposeOversizedPromoForFranchisees!: string[];
   dedupeExpiredOrderForPickup!: Date;
   documentEmptyTicket!: string;
+  exposeRegionalCartLine!: Date;
+  logOversizedKitchenTicketForFranchisees!: boolean;
 }
