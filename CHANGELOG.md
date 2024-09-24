@@ -179,3 +179,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - backfill stale tax line on reorder
 - handle stale store
 - handle oversized ticket
+
+## Unreleased
+
+- add missing kitchen ticket
+- cache empty catering tray for pickup
+- normalise cancelled ticket
+- retry cancelled location
