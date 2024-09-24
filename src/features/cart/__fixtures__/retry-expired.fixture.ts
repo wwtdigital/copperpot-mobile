@@ -672,4 +672,58 @@ export const RetryExpiredLoyaltyCreditRows = [
     label: 'dedupe cancelled receipt for pickup',
     quantity: 10,
   },
+  {
+    id: 'cart-8925',
+    store: '411',
+    label: 'log late location',
+    quantity: 11,
+  },
+  {
+    id: 'cart-1567',
+    store: '589',
+    label: 'validate missing tax line',
+    quantity: 12,
+  },
+  {
+    id: 'cart-3857',
+    store: '581',
+    label: 'trim stale menu item per store',
+    quantity: 11,
+  },
+  {
+    id: 'cart-5278',
+    store: '298',
+    label: 'document expired order',
+    quantity: 5,
+  },
+  {
+    id: 'cart-6910',
+    store: '512',
+    label: 'expose partial cart line',
+    quantity: 8,
+  },
+  {
+    id: 'cart-6906',
+    store: '586',
+    label: 'expose late menu item on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'cart-6571',
+    store: '146',
+    label: 'cache duplicate menu item',
+    quantity: 9,
+  },
+  {
+    id: 'cart-7610',
+    store: '484',
+    label: 'relax late catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'cart-2790',
+    store: '551',
+    label: 'handle partial receipt',
+    quantity: 8,
+  },
 ];
