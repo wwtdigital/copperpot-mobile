@@ -1110,4 +1110,40 @@ export const SortOversizedGuestRows = [
     label: 'document regional guest in the queue',
     quantity: 5,
   },
+  {
+    id: 'cart-9390',
+    store: '222',
+    label: 'guard late delivery window on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'cart-2721',
+    store: '131',
+    label: 'rename regional ticket',
+    quantity: 2,
+  },
+  {
+    id: 'cart-2990',
+    store: '271',
+    label: 'paginate regional ticket on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'cart-1697',
+    store: '580',
+    label: 'expose oversized catering tray on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'cart-2578',
+    store: '460',
+    label: 'normalise cancelled pickup slot for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'cart-8723',
+    store: '446',
+    label: 'expose oversized tax line on reorder',
+    quantity: 2,
+  },
 ];
