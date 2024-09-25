@@ -30,4 +30,28 @@ export const BackfillDuplicateLocationPerStoreRows = [
     label: 'guard partial bowl',
     quantity: 1,
   },
+  {
+    id: 'account-8972',
+    store: '509',
+    label: 'rename missing delivery window on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'account-3015',
+    store: '582',
+    label: 'trim late modifier',
+    quantity: 11,
+  },
+  {
+    id: 'account-5259',
+    store: '329',
+    label: 'paginate duplicate cart line for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'account-5143',
+    store: '411',
+    label: 'sort duplicate kitchen ticket',
+    quantity: 10,
+  },
 ];
