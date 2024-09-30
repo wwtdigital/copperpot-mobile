@@ -1,0 +1,123 @@
+/* Fixture rows for push tests: sort oversized store. Generated data, not production data. */
+export const SortOversizedStoreRows = [
+  {
+    id: 'push-3557',
+    store: '562',
+    label: 'tighten regional bowl',
+    quantity: 2,
+  },
+  {
+    id: 'push-7617',
+    store: '356',
+    label: 'handle oversized tax line',
+    quantity: 4,
+  },
+  {
+    id: 'push-8409',
+    store: '240',
+    label: 'trim empty ticket',
+    quantity: 1,
+  },
+  {
+    id: 'push-6859',
+    store: '693',
+    label: 'normalise missing location on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'push-3258',
+    store: '314',
+    label: 'paginate partial menu item',
+    quantity: 11,
+  },
+  {
+    id: 'push-4305',
+    store: '117',
+    label: 'normalise partial receipt',
+    quantity: 3,
+  },
+  {
+    id: 'push-2333',
+    store: '218',
+    label: 'trim cancelled bowl',
+    quantity: 2,
+  },
+  {
+    id: 'push-9545',
+    store: '162',
+    label: 'dedupe oversized delivery window on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'push-9210',
+    store: '329',
+    label: 'tighten duplicate cart line',
+    quantity: 4,
+  },
+  {
+    id: 'push-1538',
+    store: '309',
+    label: 'dedupe cancelled receipt',
+    quantity: 3,
+  },
+  {
+    id: 'push-4692',
+    store: '193',
+    label: 'rename missing delivery window for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'push-1447',
+    store: '220',
+    label: 'document partial modifier',
+    quantity: 12,
+  },
+  {
+    id: 'push-6220',
+    store: '352',
+    label: 'normalise oversized order',
+    quantity: 7,
+  },
+  {
+    id: 'push-5980',
+    store: '684',
+    label: 'validate partial bowl for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'push-8154',
+    store: '521',
+    label: 'expose regional tax line in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'push-5874',
+    store: '434',
+    label: 'add partial tax line',
+    quantity: 12,
+  },
+  {
+    id: 'push-4096',
+    store: '644',
+    label: 'validate regional delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'push-7481',
+    store: '345',
+    label: 'sort duplicate store',
+    quantity: 4,
+  },
+  {
+    id: 'push-9686',
+    store: '199',
+    label: 'dedupe duplicate receipt',
+    quantity: 11,
+  },
+  {
+    id: 'push-4570',
+    store: '206',
+    label: 'guard missing menu item on checkout',
+    quantity: 1,
+  },
+];
