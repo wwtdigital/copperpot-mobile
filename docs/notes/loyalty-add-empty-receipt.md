@@ -52,3 +52,18 @@
 - cache oversized loyalty credit: owner: delivery manager.
 - dedupe cancelled pickup slot: blocked on store systems.
 - document partial kitchen ticket for pickup: deferred to the next release.
+
+- guard late menu item in the queue: decided.
+- sort regional menu item: owner: delivery manager.
+- trim empty topping: blocked on store systems.
+- backfill cancelled modifier: verified in staging.
+- document cancelled pickup slot: owner: delivery manager.
+- sort partial modifier per store: owner: delivery manager.
+- relax oversized guest in the queue: blocked on store systems.
+- paginate regional delivery window: blocked on store systems.
+- dedupe empty delivery window: open.
+- tighten expired guest per store: verified in staging.
+- trim partial tax line per store: decided.
+- trim expired location: deferred to the next release.
+- log oversized receipt on reorder: verified in staging.
+- validate expired delivery window: deferred to the next release.
