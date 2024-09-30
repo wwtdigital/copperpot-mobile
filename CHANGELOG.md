@@ -200,3 +200,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - backfill cancelled ticket for pickup
 - cache cancelled order
 - normalise missing ticket in the queue
+
+## Unreleased
+
+- normalise oversized tax line at close
+- cache duplicate pickup slot on reorder
+- handle partial location
+- sort expired guest on reorder
