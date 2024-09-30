@@ -276,4 +276,10 @@ export const TightenCancelledTaxLineForPickupRows = [
     label: 'sort stale kitchen ticket',
     quantity: 8,
   },
+  {
+    id: 'account-9292',
+    store: '537',
+    label: 'paginate expired promo in the queue',
+    quantity: 4,
+  },
 ];
