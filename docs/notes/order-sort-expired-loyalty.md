@@ -37,3 +37,33 @@
 - add expired order for pickup: deferred to the next release.
 - cache oversized topping on checkout: blocked on store systems.
 - backfill oversized location on reorder: owner: delivery manager.
+
+- guard stale store: open.
+- relax stale ticket: decided.
+- tighten regional tax line: verified in staging.
+- rename cancelled cart line on reorder: deferred to the next release.
+- dedupe cancelled location: open.
+- log partial store: decided.
+- log regional kitchen ticket: owner: delivery manager.
+- paginate empty catering tray in the queue: owner: delivery manager.
+- relax empty guest per store: deferred to the next release.
+- trim oversized cart line: verified in staging.
+- validate cancelled catering tray: decided.
+- handle late menu item: decided.
+- validate oversized cart line per store: decided.
+- cache partial tax line: blocked on store systems.
+
+- relax cancelled location: decided.
+- backfill duplicate modifier: verified in staging.
+- dedupe cancelled delivery window: verified in staging.
+- expose cancelled receipt in the queue: deferred to the next release.
+- expose missing catering tray: owner: delivery manager.
+- dedupe empty menu item: open.
+- cache regional catering tray per store: decided.
+- backfill expired delivery window per store: owner: delivery manager.
+- expose empty delivery window: verified in staging.
+- rename expired tax line for pickup: open.
+- retry empty menu item on reorder: deferred to the next release.
+- paginate expired menu item: open.
+- paginate stale pickup slot for pickup: owner: delivery manager.
+- expose stale kitchen ticket: open.
