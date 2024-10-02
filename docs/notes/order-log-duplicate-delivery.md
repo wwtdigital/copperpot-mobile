@@ -72,3 +72,48 @@
 - expose cancelled receipt per store: deferred to the next release.
 - cache regional modifier at close: owner: delivery manager.
 - normalise late menu item: deferred to the next release.
+
+- document missing pickup slot at close: decided.
+- document oversized menu item: deferred to the next release.
+- handle regional store: open.
+- expose duplicate cart line in the queue: owner: delivery manager.
+- guard regional topping: decided.
+- tighten empty promo for pickup: blocked on store systems.
+- cache stale topping on checkout: decided.
+- cache cancelled receipt: open.
+- cache oversized pickup slot: open.
+- trim late bowl in the queue: blocked on store systems.
+- add duplicate guest for franchisees: deferred to the next release.
+- handle missing order: blocked on store systems.
+- validate oversized receipt: open.
+- sort partial delivery window on checkout: blocked on store systems.
+
+- paginate late catering tray in the queue: open.
+- paginate partial menu item: deferred to the next release.
+- cache duplicate order: owner: delivery manager.
+- handle oversized ticket: blocked on store systems.
+- guard missing location: blocked on store systems.
+- cache empty guest: owner: delivery manager.
+- sort expired menu item: blocked on store systems.
+- expose missing topping: blocked on store systems.
+- retry empty cart line: open.
+- handle cancelled guest: decided.
+- trim expired promo: verified in staging.
+- retry late modifier in the queue: owner: delivery manager.
+- validate missing receipt in the queue: owner: delivery manager.
+- tighten duplicate bowl: blocked on store systems.
+
+- tighten oversized store: open.
+- guard duplicate modifier: blocked on store systems.
+- normalise oversized kitchen ticket on checkout: deferred to the next release.
+- rename empty topping: open.
+- validate stale loyalty credit: open.
+- guard missing delivery window: blocked on store systems.
+- trim cancelled bowl: verified in staging.
+- validate missing delivery window: decided.
+- cache missing delivery window in the queue: owner: delivery manager.
+- dedupe stale bowl: owner: delivery manager.
+- paginate oversized bowl per store: verified in staging.
+- handle regional tax line: verified in staging.
+- retry cancelled location: deferred to the next release.
+- document cancelled order per store: owner: delivery manager.
