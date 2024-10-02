@@ -67,3 +67,18 @@
 - paginate expired menu item: open.
 - paginate stale pickup slot for pickup: owner: delivery manager.
 - expose stale kitchen ticket: open.
+
+- normalise regional receipt: decided.
+- trim duplicate menu item: verified in staging.
+- log stale modifier: blocked on store systems.
+- trim empty modifier: open.
+- normalise missing loyalty credit on checkout: deferred to the next release.
+- paginate missing bowl: verified in staging.
+- backfill regional store per store: blocked on store systems.
+- validate stale tax line at close: deferred to the next release.
+- relax oversized delivery window: deferred to the next release.
+- trim cancelled store: owner: delivery manager.
+- add missing kitchen ticket: verified in staging.
+- handle missing guest: decided.
+- log cancelled order on checkout: open.
+- validate late guest: blocked on store systems.

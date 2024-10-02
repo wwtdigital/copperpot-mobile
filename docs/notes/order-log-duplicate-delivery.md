@@ -102,3 +102,18 @@
 - retry late modifier in the queue: owner: delivery manager.
 - validate missing receipt in the queue: owner: delivery manager.
 - tighten duplicate bowl: blocked on store systems.
+
+- tighten oversized store: open.
+- guard duplicate modifier: blocked on store systems.
+- normalise oversized kitchen ticket on checkout: deferred to the next release.
+- rename empty topping: open.
+- validate stale loyalty credit: open.
+- guard missing delivery window: blocked on store systems.
+- trim cancelled bowl: verified in staging.
+- validate missing delivery window: decided.
+- cache missing delivery window in the queue: owner: delivery manager.
+- dedupe stale bowl: owner: delivery manager.
+- paginate oversized bowl per store: verified in staging.
+- handle regional tax line: verified in staging.
+- retry cancelled location: deferred to the next release.
+- document cancelled order per store: owner: delivery manager.

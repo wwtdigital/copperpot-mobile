@@ -186,3 +186,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - cache empty catering tray for pickup
 - normalise cancelled ticket
 - retry cancelled location
+
+## Unreleased
+
+- dedupe late promo
+- backfill late receipt on reorder
+- document cancelled ticket
+- paginate partial tax line in the queue
