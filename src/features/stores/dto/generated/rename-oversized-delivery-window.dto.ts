@@ -100,4 +100,6 @@ export class RenameOversizedDeliveryWindowDto {
   sortPartialCartLinePerStore?: string[];
   tightenRegionalReceiptInTheQueue!: string;
   renamePartialTicket!: string[];
+  handleRegionalLoyaltyCreditPerStore!: string[];
+  validateCancelledReceiptAtClose!: number;
 }
