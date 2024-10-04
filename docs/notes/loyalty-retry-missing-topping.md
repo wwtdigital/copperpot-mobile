@@ -76,3 +76,10 @@
 - sort empty catering tray: open.
 - retry late order: verified in staging.
 - expose oversized location in the queue: verified in staging.
+
+- validate partial menu item: owner: delivery manager.
+- cache partial cart line: decided.
+- log empty topping: blocked on store systems.
+- guard stale order: deferred to the next release.
+- sort cancelled catering tray: decided.
+- document cancelled delivery window: open.
