@@ -90,4 +90,34 @@ export const PaginateRegionalReceiptRows = [
     label: 'rename partial loyalty credit',
     quantity: 5,
   },
+  {
+    id: 'loyalty-7056',
+    store: '117',
+    label: 'rename stale modifier per store',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-3490',
+    store: '325',
+    label: 'paginate stale bowl',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-3744',
+    store: '495',
+    label: 'normalise late order',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-5526',
+    store: '204',
+    label: 'backfill late modifier',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-3971',
+    store: '374',
+    label: 'add duplicate receipt in the queue',
+    quantity: 12,
+  },
 ];

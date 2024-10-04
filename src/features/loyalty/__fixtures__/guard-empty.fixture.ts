@@ -390,4 +390,28 @@ export const GuardEmptyStoreRows = [
     label: 'validate oversized ticket',
     quantity: 12,
   },
+  {
+    id: 'loyalty-6843',
+    store: '380',
+    label: 'normalise expired menu item on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-8621',
+    store: '634',
+    label: 'cache stale guest on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-9584',
+    store: '390',
+    label: 'dedupe cancelled order',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-4115',
+    store: '350',
+    label: 'cache late store for pickup',
+    quantity: 10,
+  },
 ];
