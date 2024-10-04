@@ -114,4 +114,10 @@ export const PaginateRegionalReceiptRows = [
     label: 'backfill late modifier',
     quantity: 7,
   },
+  {
+    id: 'loyalty-3971',
+    store: '374',
+    label: 'add duplicate receipt in the queue',
+    quantity: 12,
+  },
 ];
