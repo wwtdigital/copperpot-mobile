@@ -14,3 +14,18 @@
 - log oversized receipt: blocked on store systems.
 - sort late delivery window: blocked on store systems.
 - handle duplicate loyalty credit: owner: delivery manager.
+
+- handle oversized order: verified in staging.
+- relax cancelled bowl on reorder: deferred to the next release.
+- guard empty catering tray for franchisees: verified in staging.
+- log late pickup slot: deferred to the next release.
+- add regional bowl on checkout: blocked on store systems.
+- validate cancelled loyalty credit: open.
+- relax oversized loyalty credit: blocked on store systems.
+- paginate empty order: verified in staging.
+- normalise partial menu item on reorder: owner: delivery manager.
+- sort regional receipt: blocked on store systems.
+- guard late order on checkout: open.
+- paginate duplicate modifier: open.
+- paginate partial topping: open.
+- expose oversized promo on reorder: owner: delivery manager.
