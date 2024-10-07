@@ -37,3 +37,8 @@
 - dedupe cancelled topping in the queue: deferred to the next release.
 - document regional topping: open.
 - log empty guest: open.
+
+- sort stale tax line: open.
+- backfill regional modifier for pickup: open.
+- relax oversized ticket: open.
+- relax empty location at close: open.
