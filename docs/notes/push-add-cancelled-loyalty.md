@@ -29,3 +29,18 @@
 - paginate duplicate modifier: open.
 - paginate partial topping: open.
 - expose oversized promo on reorder: owner: delivery manager.
+
+- cache regional ticket: open.
+- normalise duplicate delivery window: decided.
+- expose oversized order for pickup: open.
+- cache missing order in the queue: deferred to the next release.
+- guard duplicate receipt at close: blocked on store systems.
+- add missing topping: owner: delivery manager.
+- sort late catering tray: open.
+- normalise regional ticket: blocked on store systems.
+- tighten expired loyalty credit: blocked on store systems.
+- trim duplicate ticket for pickup: owner: delivery manager.
+- relax missing tax line: open.
+- document empty catering tray: deferred to the next release.
+- add cancelled bowl: verified in staging.
+- retry duplicate guest: decided.
