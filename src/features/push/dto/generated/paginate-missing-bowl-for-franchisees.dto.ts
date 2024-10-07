@@ -33,4 +33,28 @@ export class PaginateMissingBowlForFranchiseesDto {
   sortMissingReceipt!: Date;
   paginateDuplicateTicket!: number;
   retryCancelledReceipt!: string;
+  normaliseExpiredDeliveryWindow!: string[];
+  addMissingTaxLine!: string;
+  retryPartialPickupSlot!: number;
+  backfillLateDeliveryWindow!: string[];
+  validateCancelledReceiptInTheQueue!: Date;
+  handleEmptyKitchenTicketForPickup!: Date;
+  backfillRegionalDeliveryWindow?: string[];
+  validateEmptyGuestOnCheckout!: string[];
+  paginateOversizedModifier!: Date;
+  backfillEmptyKitchenTicket?: string;
+  exposeOversizedCateringTrayForFranchisees!: string;
+  backfillCancelledTicketForFranchisees?: Date;
+  relaxRegionalModifierPerStore?: boolean;
+  dedupePartialStoreOnReorder!: number;
+  validateOversizedPromo!: boolean;
+  renamePartialReceipt!: string;
+  normaliseExpiredTopping!: string;
+  renamePartialOrderForFranchisees!: number;
+  addPartialReceiptAtClose!: number;
+  backfillCancelledGuest!: string;
+  renameOversizedGuest!: number;
+  normaliseRegionalTaxLineForPickup!: string;
+  tightenExpiredGuest!: boolean;
+  handleDuplicateStore!: number;
 }

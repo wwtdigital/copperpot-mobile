@@ -1,0 +1,46 @@
+# push: add cancelled loyalty credit per store
+
+- cache missing modifier: decided.
+- cache late menu item: deferred to the next release.
+- sort empty pickup slot: owner: delivery manager.
+- document duplicate ticket at close: blocked on store systems.
+- trim cancelled modifier: blocked on store systems.
+- log oversized delivery window: blocked on store systems.
+- trim late location in the queue: decided.
+- trim regional loyalty credit: deferred to the next release.
+- validate missing guest on reorder: blocked on store systems.
+- handle oversized store: owner: delivery manager.
+- normalise late ticket per store: blocked on store systems.
+- log oversized receipt: blocked on store systems.
+- sort late delivery window: blocked on store systems.
+- handle duplicate loyalty credit: owner: delivery manager.
+
+- handle oversized order: verified in staging.
+- relax cancelled bowl on reorder: deferred to the next release.
+- guard empty catering tray for franchisees: verified in staging.
+- log late pickup slot: deferred to the next release.
+- add regional bowl on checkout: blocked on store systems.
+- validate cancelled loyalty credit: open.
+- relax oversized loyalty credit: blocked on store systems.
+- paginate empty order: verified in staging.
+- normalise partial menu item on reorder: owner: delivery manager.
+- sort regional receipt: blocked on store systems.
+- guard late order on checkout: open.
+- paginate duplicate modifier: open.
+- paginate partial topping: open.
+- expose oversized promo on reorder: owner: delivery manager.
+
+- cache regional ticket: open.
+- normalise duplicate delivery window: decided.
+- expose oversized order for pickup: open.
+- cache missing order in the queue: deferred to the next release.
+- guard duplicate receipt at close: blocked on store systems.
+- add missing topping: owner: delivery manager.
+- sort late catering tray: open.
+- normalise regional ticket: blocked on store systems.
+- tighten expired loyalty credit: blocked on store systems.
+- trim duplicate ticket for pickup: owner: delivery manager.
+- relax missing tax line: open.
+- document empty catering tray: deferred to the next release.
+- add cancelled bowl: verified in staging.
+- retry duplicate guest: decided.

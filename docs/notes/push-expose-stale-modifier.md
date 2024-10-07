@@ -37,3 +37,23 @@
 - dedupe cancelled topping in the queue: deferred to the next release.
 - document regional topping: open.
 - log empty guest: open.
+
+- sort stale tax line: open.
+- backfill regional modifier for pickup: open.
+- relax oversized ticket: open.
+- relax empty location at close: open.
+
+- tighten oversized catering tray for pickup: owner: delivery manager.
+- trim late topping on checkout: verified in staging.
+- sort empty tax line: blocked on store systems.
+- validate expired catering tray per store: deferred to the next release.
+- validate partial receipt at close: deferred to the next release.
+- guard oversized promo: open.
+- paginate duplicate ticket: open.
+- document partial ticket for franchisees: decided.
+- guard regional receipt: decided.
+- relax empty guest: decided.
+- normalise duplicate tax line: deferred to the next release.
+- trim stale tax line: blocked on store systems.
+- normalise cancelled delivery window: blocked on store systems.
+- expose oversized order: verified in staging.

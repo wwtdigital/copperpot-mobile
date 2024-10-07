@@ -193,3 +193,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - backfill late receipt on reorder
 - document cancelled ticket
 - paginate partial tax line in the queue
+
+## Unreleased
+
+- paginate regional guest
+- backfill cancelled ticket for pickup
+- cache cancelled order
+- normalise missing ticket in the queue
