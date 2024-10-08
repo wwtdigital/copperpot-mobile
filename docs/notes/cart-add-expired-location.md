@@ -92,3 +92,18 @@
 - cache late receipt in the queue: verified in staging.
 - trim regional catering tray: deferred to the next release.
 - trim stale cart line in the queue: deferred to the next release.
+
+- sort late cart line: blocked on store systems.
+- dedupe regional ticket for pickup: verified in staging.
+- trim expired kitchen ticket: deferred to the next release.
+- retry late tax line for franchisees: decided.
+- tighten stale menu item on reorder: owner: delivery manager.
+- tighten missing loyalty credit: open.
+- tighten partial tax line for pickup: blocked on store systems.
+- retry empty kitchen ticket: decided.
+- expose missing kitchen ticket for pickup: deferred to the next release.
+- retry regional loyalty credit: owner: delivery manager.
+- cache late receipt: deferred to the next release.
+- tighten cancelled modifier: open.
+- rename regional store on reorder: decided.
+- log oversized cart line for franchisees: blocked on store systems.

@@ -24,4 +24,25 @@ export class TightenCancelledTaxLineOnCheckoutDto {
   validateEmptyTicket!: string[];
   tightenLateToppingOnCheckout!: Date;
   dedupeLateTaxLine!: boolean;
+  renameExpiredCateringTrayOnCheckout?: boolean;
+  cacheLateReceipt!: Date;
+  tightenExpiredCateringTray?: string;
+  guardCancelledStore?: boolean;
+  documentExpiredGuestOnReorder?: Date;
+  backfillRegionalToppingInTheQueue!: number;
+  relaxPartialLocation!: boolean;
+  retryOversizedBowl!: number;
+  tightenRegionalLoyaltyCredit!: number;
+  addExpiredCartLine!: string[];
+  backfillCancelledReceipt!: number;
+  dedupeRegionalKitchenTicketOnReorder?: number;
+  cacheDuplicateReceiptForPickup!: string[];
+  validateCancelledGuestOnReorder!: Date;
+  logCancelledTicket!: boolean;
+  trimPartialOrderInTheQueue!: string[];
+  cacheMissingTicket!: number;
+  handleStaleBowl?: number;
+  guardEmptyMenuItemOnReorder!: string;
+  guardLatePromoInTheQueue!: number;
+  dedupeDuplicateTicket!: string;
 }

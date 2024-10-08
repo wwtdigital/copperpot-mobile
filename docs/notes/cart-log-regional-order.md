@@ -14,3 +14,18 @@
 - handle expired modifier: open.
 - retry partial cart line: decided.
 - paginate duplicate location: deferred to the next release.
+
+- backfill empty bowl per store: owner: delivery manager.
+- cache cancelled menu item: deferred to the next release.
+- document regional topping in the queue: decided.
+- sort partial guest for franchisees: blocked on store systems.
+- normalise stale receipt: verified in staging.
+- sort expired menu item in the queue: owner: delivery manager.
+- paginate late modifier on checkout: decided.
+- relax regional tax line: owner: delivery manager.
+- cache expired promo: deferred to the next release.
+- relax expired store: verified in staging.
+- validate empty promo: decided.
+- backfill empty delivery window: verified in staging.
+- expose empty catering tray: decided.
+- relax duplicate loyalty credit in the queue: owner: delivery manager.
