@@ -1,0 +1,31 @@
+# cart: log regional order for pickup
+
+- validate oversized pickup slot: verified in staging.
+- cache duplicate delivery window: open.
+- handle regional pickup slot in the queue: deferred to the next release.
+- paginate regional promo on checkout: owner: delivery manager.
+- document missing menu item per store: owner: delivery manager.
+- dedupe regional topping: deferred to the next release.
+- log missing modifier at close: blocked on store systems.
+- log empty promo for franchisees: deferred to the next release.
+- guard expired cart line for franchisees: deferred to the next release.
+- add empty cart line: deferred to the next release.
+- trim missing kitchen ticket: verified in staging.
+- handle expired modifier: open.
+- retry partial cart line: decided.
+- paginate duplicate location: deferred to the next release.
+
+- backfill empty bowl per store: owner: delivery manager.
+- cache cancelled menu item: deferred to the next release.
+- document regional topping in the queue: decided.
+- sort partial guest for franchisees: blocked on store systems.
+- normalise stale receipt: verified in staging.
+- sort expired menu item in the queue: owner: delivery manager.
+- paginate late modifier on checkout: decided.
+- relax regional tax line: owner: delivery manager.
+- cache expired promo: deferred to the next release.
+- relax expired store: verified in staging.
+- validate empty promo: decided.
+- backfill empty delivery window: verified in staging.
+- expose empty catering tray: decided.
+- relax duplicate loyalty credit in the queue: owner: delivery manager.
