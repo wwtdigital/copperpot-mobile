@@ -87,3 +87,18 @@
 - guard regional loyalty credit: owner: delivery manager.
 - expose partial tax line: open.
 - normalise late store: deferred to the next release.
+
+- backfill cancelled kitchen ticket: open.
+- relax oversized receipt: decided.
+- document regional topping: owner: delivery manager.
+- dedupe oversized loyalty credit for pickup: blocked on store systems.
+- relax partial receipt: deferred to the next release.
+- log empty guest on reorder: owner: delivery manager.
+- validate cancelled tax line: deferred to the next release.
+- paginate cancelled catering tray in the queue: owner: delivery manager.
+- validate oversized kitchen ticket: decided.
+- retry missing order: deferred to the next release.
+- normalise partial promo: verified in staging.
+- normalise cancelled location: deferred to the next release.
+- backfill regional ticket: open.
+- sort duplicate menu item: deferred to the next release.
