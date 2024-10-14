@@ -24,4 +24,20 @@ export class CacheRegionalGuestOnReorderDto {
   dedupeOversizedReceiptPerStore?: string[];
   documentCancelledTaxLine?: Date;
   normaliseOversizedCateringTray!: boolean;
+  retryExpiredKitchenTicket?: number;
+  cacheRegionalLoyaltyCredit!: boolean;
+  trimRegionalMenuItemForFranchisees!: string[];
+  exposeDuplicateCartLine!: string[];
+  relaxLateReceipt!: string;
+  exposeCancelledKitchenTicket?: Date;
+  cacheDuplicateKitchenTicket!: number;
+  documentStaleReceiptForFranchisees!: string[];
+  logDuplicatePromoAtClose!: string[];
+  tightenEmptyCartLine!: number;
+  backfillDuplicateCateringTrayOnCheckout?: boolean;
+  logEmptyPickupSlot!: number;
+  tightenDuplicateGuest!: Date;
+  addDuplicateReceiptForFranchisees?: string;
+  cacheMissingOrder!: number;
+  tightenLateMenuItemForPickup?: string;
 }

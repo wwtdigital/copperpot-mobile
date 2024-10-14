@@ -57,3 +57,33 @@
 - trim stale tax line: blocked on store systems.
 - normalise cancelled delivery window: blocked on store systems.
 - expose oversized order: verified in staging.
+
+- sort duplicate location: deferred to the next release.
+- expose expired topping: blocked on store systems.
+- sort cancelled receipt: deferred to the next release.
+- document partial order: owner: delivery manager.
+- sort cancelled modifier for franchisees: deferred to the next release.
+- log empty location: decided.
+- rename empty ticket: decided.
+- sort partial receipt: verified in staging.
+- rename cancelled receipt in the queue: open.
+- backfill stale loyalty credit: blocked on store systems.
+- normalise expired cart line: decided.
+- guard late loyalty credit on reorder: decided.
+- log cancelled location: blocked on store systems.
+- document cancelled loyalty credit: verified in staging.
+
+- rename expired modifier: blocked on store systems.
+- handle late kitchen ticket: owner: delivery manager.
+- normalise empty kitchen ticket: owner: delivery manager.
+- dedupe cancelled store: deferred to the next release.
+- retry empty modifier: open.
+- rename cancelled order on checkout: verified in staging.
+- document regional loyalty credit: decided.
+- rename cancelled delivery window: decided.
+- handle regional order: open.
+- guard stale delivery window per store: verified in staging.
+- expose stale bowl: deferred to the next release.
+- guard regional loyalty credit: owner: delivery manager.
+- expose partial tax line: open.
+- normalise late store: deferred to the next release.
