@@ -180,4 +180,58 @@ export const PaginateRegionalReceiptRows = [
     label: 'log expired loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'loyalty-7223',
+    store: '270',
+    label: 'handle oversized receipt in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-4710',
+    store: '389',
+    label: 'handle stale store',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-4263',
+    store: '591',
+    label: 'tighten cancelled loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-2952',
+    store: '645',
+    label: 'log duplicate loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-4601',
+    store: '688',
+    label: 'cache expired catering tray in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-6809',
+    store: '662',
+    label: 'guard expired pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-4703',
+    store: '267',
+    label: 'sort duplicate loyalty credit on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-1044',
+    store: '181',
+    label: 'paginate regional cart line',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-2854',
+    store: '222',
+    label: 'validate late order for franchisees',
+    quantity: 12,
+  },
 ];
