@@ -102,3 +102,18 @@
 - normalise cancelled location: deferred to the next release.
 - backfill regional ticket: open.
 - sort duplicate menu item: deferred to the next release.
+
+- sort missing topping for pickup: blocked on store systems.
+- document late tax line: verified in staging.
+- add expired bowl: owner: delivery manager.
+- dedupe partial delivery window: owner: delivery manager.
+- sort late menu item: decided.
+- retry stale location for franchisees: deferred to the next release.
+- tighten empty pickup slot for pickup: verified in staging.
+- expose empty guest for franchisees: verified in staging.
+- normalise expired loyalty credit: deferred to the next release.
+- trim cancelled tax line for franchisees: owner: delivery manager.
+- retry partial delivery window: blocked on store systems.
+- backfill expired topping: open.
+- paginate missing cart line on checkout: decided.
+- guard oversized bowl at close: owner: delivery manager.

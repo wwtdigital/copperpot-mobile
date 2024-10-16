@@ -336,4 +336,58 @@ export const SortOversizedStoreRows = [
     label: 'retry stale kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'push-1945',
+    store: '628',
+    label: 'rename oversized order in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'push-4356',
+    store: '682',
+    label: 'backfill missing order',
+    quantity: 9,
+  },
+  {
+    id: 'push-1857',
+    store: '484',
+    label: 'log duplicate tax line for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'push-9199',
+    store: '200',
+    label: 'rename oversized store on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'push-5022',
+    store: '461',
+    label: 'document empty receipt',
+    quantity: 8,
+  },
+  {
+    id: 'push-4163',
+    store: '414',
+    label: 'log late kitchen ticket per store',
+    quantity: 5,
+  },
+  {
+    id: 'push-2235',
+    store: '210',
+    label: 'document duplicate tax line at close',
+    quantity: 5,
+  },
+  {
+    id: 'push-2779',
+    store: '177',
+    label: 'cache duplicate receipt',
+    quantity: 12,
+  },
+  {
+    id: 'push-9282',
+    store: '272',
+    label: 'document late menu item',
+    quantity: 6,
+  },
 ];

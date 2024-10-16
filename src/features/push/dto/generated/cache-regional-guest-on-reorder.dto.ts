@@ -40,4 +40,28 @@ export class CacheRegionalGuestOnReorderDto {
   addDuplicateReceiptForFranchisees?: string;
   cacheMissingOrder!: number;
   tightenLateMenuItemForPickup?: string;
+  backfillOversizedOrder?: number;
+  renameStaleLocation!: string[];
+  retryLateToppingForPickup!: boolean;
+  trimDuplicatePromoForPickup?: boolean;
+  retryCancelledLocation?: string[];
+  documentLateBowlOnCheckout?: string[];
+  renamePartialMenuItem!: string[];
+  exposeMissingBowl?: number;
+  documentDuplicateReceiptAtClose?: string[];
+  relaxOversizedGuestOnReorder?: string;
+  cacheMissingBowlOnReorder!: number;
+  retryStaleTaxLine!: number;
+  validateOversizedTaxLine!: number;
+  dedupeExpiredCateringTrayForPickup!: number;
+  addLateBowlForPickup!: number;
+  addDuplicateDeliveryWindowPerStore!: string[];
+  cacheLateTicketPerStore!: Date;
+  documentExpiredCartLinePerStore!: number;
+  renameRegionalGuestAtClose!: string[];
+  tightenStaleTaxLine?: string;
+  normaliseCancelledDeliveryWindowOnCheckout!: string[];
+  sortOversizedModifierAtClose!: Date;
+  normaliseCancelledTaxLineForFranchisees?: number;
+  handleLateOrder!: string;
 }

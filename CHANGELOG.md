@@ -228,3 +228,8 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - expose duplicate topping
 - paginate oversized bowl on checkout
 - tighten expired receipt
+
+## Unreleased
+
+- retry stale loyalty credit on checkout
+- cache duplicate delivery window
