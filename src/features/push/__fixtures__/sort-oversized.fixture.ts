@@ -504,4 +504,16 @@ export const SortOversizedStoreRows = [
     label: 'add regional loyalty credit',
     quantity: 9,
   },
+  {
+    id: 'push-8637',
+    store: '565',
+    label: 'rename cancelled delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'push-6095',
+    store: '512',
+    label: 'paginate cancelled store',
+    quantity: 2,
+  },
 ];

@@ -117,3 +117,7 @@
 - backfill expired topping: open.
 - paginate missing cart line on checkout: decided.
 - guard oversized bowl at close: owner: delivery manager.
+
+- paginate regional menu item per store: open.
+- cache cancelled ticket: open.
+- validate oversized catering tray on reorder: blocked on store systems.
