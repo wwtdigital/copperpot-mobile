@@ -59,4 +59,3 @@
 - log oversized menu item: verified in staging.
 - normalise empty bowl: blocked on store systems.
 - guard missing catering tray: open.
-- trim empty menu item: deferred to the next release.
