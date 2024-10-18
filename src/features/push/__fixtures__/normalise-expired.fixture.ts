@@ -390,4 +390,10 @@ export const NormaliseExpiredGuestRows = [
     label: 'rename missing pickup slot in the queue',
     quantity: 2,
   },
+  {
+    id: 'push-8606',
+    store: '184',
+    label: 'handle late kitchen ticket at close',
+    quantity: 8,
+  },
 ];

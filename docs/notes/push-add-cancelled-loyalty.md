@@ -44,3 +44,18 @@
 - document empty catering tray: deferred to the next release.
 - add cancelled bowl: verified in staging.
 - retry duplicate guest: decided.
+
+- log expired pickup slot at close: verified in staging.
+- validate stale order: open.
+- retry late delivery window: verified in staging.
+- document cancelled delivery window: deferred to the next release.
+- tighten oversized catering tray: decided.
+- normalise cancelled catering tray in the queue: blocked on store systems.
+- cache partial order: owner: delivery manager.
+- rename partial kitchen ticket on reorder: deferred to the next release.
+- paginate partial bowl: blocked on store systems.
+- rename partial modifier for franchisees: owner: delivery manager.
+- guard regional promo: open.
+- rename cancelled modifier: decided.
+- log duplicate delivery window per store: owner: delivery manager.
+- expose missing tax line: open.

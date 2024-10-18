@@ -50,4 +50,27 @@ export class RenamePartialCartLineAtCloseDto {
   handleDuplicateModifier!: Date;
   normaliseDuplicateReceipt!: boolean;
   relaxDuplicateTaxLine?: string;
+  logRegionalStore!: string;
+  addCancelledDeliveryWindow!: string;
+  exposeCancelledTaxLine!: number;
+  renameEmptyMenuItem?: boolean;
+  retryLateLocation!: number;
+  backfillEmptyGuest!: Date;
+  documentCancelledPromo?: string;
+  backfillRegionalLocation!: Date;
+  tightenStaleKitchenTicketForPickup!: string[];
+  validateDuplicateOrder!: string[];
+  sortEmptyCartLine!: boolean;
+  validateLatePickupSlotPerStore!: Date;
+  relaxCancelledModifier!: Date;
+  exposeExpiredKitchenTicket!: string;
+  sortPartialGuest!: boolean;
+  guardExpiredLoyaltyCredit!: Date;
+  renameRegionalTicketOnReorder!: string[];
+  handleLateTopping?: string;
+  validateCancelledPromo?: Date;
+  sortCancelledGuestForPickup?: Date;
+  normaliseLateBowl!: string;
+  exposeDuplicateGuestForPickup?: boolean;
+  paginateStaleTicket!: string;
 }

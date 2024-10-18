@@ -57,4 +57,28 @@ export class PaginateMissingBowlForFranchiseesDto {
   normaliseRegionalTaxLineForPickup!: string;
   tightenExpiredGuest!: boolean;
   handleDuplicateStore!: number;
+  tightenExpiredStoreInTheQueue?: string[];
+  paginateRegionalCartLine!: number;
+  normaliseStaleModifierInTheQueue!: string;
+  logRegionalTaxLineOnReorder!: boolean;
+  trimMissingDeliveryWindow!: number;
+  normaliseDuplicateKitchenTicketInTheQueue?: number;
+  cacheCancelledPickupSlotForPickup!: string[];
+  renamePartialBowl?: number;
+  addOversizedGuest?: number;
+  dedupeRegionalLoyaltyCreditOnCheckout!: Date;
+  dedupeRegionalPromo!: string;
+  exposeEmptyPromoInTheQueue?: string;
+  paginateOversizedOrderInTheQueue!: string[];
+  backfillMissingGuest!: number;
+  renameLateTicket!: string;
+  normaliseCancelledPromo!: Date;
+  handleCancelledDeliveryWindow!: number;
+  retryDuplicateToppingAtClose!: string[];
+  exposeOversizedTopping!: boolean;
+  documentCancelledMenuItemPerStore!: Date;
+  paginateCancelledTaxLineForPickup!: number;
+  exposeDuplicateCateringTray!: boolean;
+  cacheOversizedLocation?: number;
+  exposePartialDeliveryWindow!: string[];
 }

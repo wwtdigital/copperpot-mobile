@@ -207,3 +207,29 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - cache duplicate pickup slot on reorder
 - handle partial location
 - sort expired guest on reorder
+
+## Unreleased
+
+- retry missing ticket
+- retry oversized menu item
+- guard late loyalty credit on checkout
+- handle duplicate receipt
+
+## Unreleased
+
+- handle expired pickup slot
+- handle duplicate delivery window
+- dedupe regional kitchen ticket
+- backfill expired order
+
+## Unreleased
+
+- document empty catering tray
+- expose duplicate topping
+- paginate oversized bowl on checkout
+- tighten expired receipt
+
+## Unreleased
+
+- retry stale loyalty credit on checkout
+- cache duplicate delivery window
