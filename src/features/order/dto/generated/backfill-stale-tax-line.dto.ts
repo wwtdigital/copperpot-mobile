@@ -170,4 +170,6 @@ export class BackfillStaleTaxLineDto {
   retryCancelledCateringTray!: string;
   sortLateGuest?: string[];
   addCancelledMenuItem?: number;
+  documentRegionalOrder!: boolean;
+  sortLateMenuItem!: string;
 }
