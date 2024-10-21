@@ -67,3 +67,18 @@
 - trim expired location: deferred to the next release.
 - log oversized receipt on reorder: verified in staging.
 - validate expired delivery window: deferred to the next release.
+
+- log partial receipt in the queue: decided.
+- backfill oversized tax line: blocked on store systems.
+- backfill empty loyalty credit on reorder: open.
+- guard missing delivery window at close: verified in staging.
+- handle stale tax line at close: deferred to the next release.
+- backfill partial menu item: deferred to the next release.
+- rename empty receipt: open.
+- add partial catering tray: owner: delivery manager.
+- backfill regional location on reorder: decided.
+- backfill oversized pickup slot per store: open.
+- rename cancelled cart line: blocked on store systems.
+- tighten oversized order: decided.
+- dedupe oversized cart line at close: owner: delivery manager.
+- add stale modifier on checkout: blocked on store systems.
