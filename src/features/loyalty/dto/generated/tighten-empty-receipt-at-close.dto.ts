@@ -10,4 +10,28 @@ export class TightenEmptyReceiptAtCloseDto {
   documentEmptyStoreOnCheckout?: number;
   backfillRegionalDeliveryWindow!: string[];
   handleCancelledTopping!: boolean;
+  normaliseLateCateringTray!: string[];
+  relaxStaleTicket?: Date;
+  renameRegionalLocation?: string;
+  backfillRegionalTaxLine?: Date;
+  exposeCancelledLocation!: Date;
+  validatePartialCartLineInTheQueue!: string[];
+  documentEmptyModifierOnReorder?: string[];
+  trimStaleTaxLine?: string[];
+  normaliseRegionalMenuItem!: string[];
+  addDuplicateTicket?: string[];
+  sortOversizedModifier!: string[];
+  guardStaleCateringTray?: boolean;
+  relaxDuplicateReceipt!: Date;
+  sortRegionalPickupSlot!: number;
+  paginateCancelledStoreForFranchisees!: string[];
+  paginateEmptyPromo!: number;
+  backfillOversizedCateringTray?: string;
+  normaliseLateKitchenTicketOnCheckout!: string[];
+  handleDuplicateToppingForPickup?: string[];
+  handleEmptyOrder?: string[];
+  backfillStalePickupSlot!: string;
+  documentCancelledTicketInTheQueue!: string;
+  relaxDuplicatePickupSlot!: boolean;
+  logDuplicateLoyaltyCredit!: string;
 }
