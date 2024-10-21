@@ -414,4 +414,22 @@ export const GuardEmptyStoreRows = [
     label: 'cache late store for pickup',
     quantity: 10,
   },
+  {
+    id: 'loyalty-2397',
+    store: '434',
+    label: 'add regional cart line at close',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-6926',
+    store: '421',
+    label: 'document empty modifier',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-7873',
+    store: '337',
+    label: 'cache late guest',
+    quantity: 10,
+  },
 ];

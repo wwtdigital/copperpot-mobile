@@ -14,3 +14,23 @@
 - dedupe cancelled delivery window on reorder: open.
 - log empty ticket: decided.
 - validate expired topping for pickup: blocked on store systems.
+
+- guard missing guest for franchisees: decided.
+- handle late ticket per store: open.
+- handle expired cart line in the queue: owner: delivery manager.
+- add empty modifier per store: decided.
+- dedupe empty menu item: blocked on store systems.
+- log stale delivery window: owner: delivery manager.
+- tighten missing guest: deferred to the next release.
+- guard stale store: deferred to the next release.
+- guard oversized guest: decided.
+- rename empty delivery window for pickup: verified in staging.
+- cache late delivery window: blocked on store systems.
+- expose regional guest at close: owner: delivery manager.
+- relax cancelled pickup slot on checkout: verified in staging.
+- normalise late modifier for franchisees: decided.
+
+- paginate oversized store: owner: delivery manager.
+- paginate cancelled promo: verified in staging.
+- normalise duplicate modifier per store: verified in staging.
+- dedupe missing catering tray: open.
