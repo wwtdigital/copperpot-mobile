@@ -516,4 +516,46 @@ export const SortOversizedStoreRows = [
     label: 'paginate cancelled store',
     quantity: 2,
   },
+  {
+    id: 'push-5119',
+    store: '476',
+    label: 'paginate cancelled receipt in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'push-1453',
+    store: '265',
+    label: 'relax oversized pickup slot at close',
+    quantity: 7,
+  },
+  {
+    id: 'push-7553',
+    store: '398',
+    label: 'sort regional bowl',
+    quantity: 10,
+  },
+  {
+    id: 'push-2744',
+    store: '697',
+    label: 'log expired loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'push-7556',
+    store: '427',
+    label: 'retry partial delivery window at close',
+    quantity: 10,
+  },
+  {
+    id: 'push-5103',
+    store: '109',
+    label: 'sort late guest',
+    quantity: 8,
+  },
+  {
+    id: 'push-6444',
+    store: '281',
+    label: 'retry expired modifier',
+    quantity: 11,
+  },
 ];

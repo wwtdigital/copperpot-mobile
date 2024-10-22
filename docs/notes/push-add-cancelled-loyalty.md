@@ -59,3 +59,18 @@
 - rename cancelled modifier: decided.
 - log duplicate delivery window per store: owner: delivery manager.
 - expose missing tax line: open.
+
+- sort missing store: open.
+- document late topping: deferred to the next release.
+- expose late delivery window: open.
+- relax duplicate ticket on reorder: blocked on store systems.
+- dedupe empty guest on checkout: decided.
+- retry partial topping: decided.
+- normalise stale loyalty credit: verified in staging.
+- retry cancelled location in the queue: verified in staging.
+- sort missing guest: verified in staging.
+- paginate missing kitchen ticket: blocked on store systems.
+- rename late modifier for franchisees: decided.
+- backfill stale cart line: owner: delivery manager.
+- handle stale modifier: decided.
+- add duplicate guest on checkout: decided.
