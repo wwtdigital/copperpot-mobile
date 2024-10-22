@@ -72,4 +72,16 @@ export class ExposeRegionalCartLineOnReorderDto {
   sortRegionalLocation?: Date;
   guardExpiredGuest!: number;
   dedupeDuplicateLocationAtClose!: boolean;
+  logMissingBowl!: boolean;
+  handleRegionalMenuItemPerStore!: number;
+  trimDuplicateStore?: Date;
+  logExpiredModifierAtClose!: boolean;
+  tightenDuplicateLoyaltyCredit?: string[];
+  handleDuplicatePromoForFranchisees!: boolean;
+  backfillOversizedOrder!: string;
+  validateDuplicateTopping!: number;
+  tightenOversizedGuest!: Date;
+  documentExpiredTopping!: string;
+  renameOversizedLocationOnCheckout?: Date;
+  sortMissingDeliveryWindowOnReorder!: string;
 }

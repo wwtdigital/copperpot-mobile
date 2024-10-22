@@ -104,3 +104,18 @@
 - tighten cancelled cart line: deferred to the next release.
 - tighten expired loyalty credit: verified in staging.
 - validate missing promo: verified in staging.
+
+- guard cancelled receipt: deferred to the next release.
+- expose regional store on checkout: owner: delivery manager.
+- guard regional catering tray: decided.
+- sort oversized guest per store: decided.
+- rename oversized ticket: verified in staging.
+- backfill missing promo on reorder: blocked on store systems.
+- cache regional cart line in the queue: owner: delivery manager.
+- dedupe expired topping: owner: delivery manager.
+- sort regional bowl: deferred to the next release.
+- paginate duplicate receipt: verified in staging.
+- guard stale catering tray: deferred to the next release.
+- dedupe duplicate topping: verified in staging.
+- validate oversized order for pickup: open.
+- cache stale bowl on reorder: deferred to the next release.

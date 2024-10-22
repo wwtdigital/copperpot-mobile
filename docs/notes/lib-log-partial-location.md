@@ -29,3 +29,18 @@
 - expose oversized menu item in the queue: blocked on store systems.
 - normalise duplicate promo in the queue: owner: delivery manager.
 - backfill partial guest at close: blocked on store systems.
+
+- trim empty ticket: deferred to the next release.
+- tighten late order: deferred to the next release.
+- handle regional pickup slot for pickup: deferred to the next release.
+- backfill duplicate pickup slot for pickup: open.
+- paginate cancelled pickup slot for pickup: deferred to the next release.
+- dedupe cancelled location: owner: delivery manager.
+- rename expired modifier: owner: delivery manager.
+- handle oversized loyalty credit in the queue: decided.
+- expose regional store: owner: delivery manager.
+- normalise partial delivery window for franchisees: blocked on store systems.
+- tighten missing promo: deferred to the next release.
+- normalise duplicate promo: deferred to the next release.
+- handle partial cart line: blocked on store systems.
+- add empty cart line on reorder: verified in staging.

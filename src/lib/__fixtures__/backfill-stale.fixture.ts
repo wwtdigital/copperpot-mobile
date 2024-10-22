@@ -84,4 +84,16 @@ export const BackfillStalePickupSlotOnCheckoutRows = [
     label: 'paginate partial tax line for pickup',
     quantity: 12,
   },
+  {
+    id: 'lib-1324',
+    store: '356',
+    label: 'dedupe oversized kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'lib-3713',
+    store: '292',
+    label: 'expose cancelled receipt for pickup',
+    quantity: 8,
+  },
 ];
