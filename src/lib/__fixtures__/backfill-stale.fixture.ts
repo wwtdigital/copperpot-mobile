@@ -42,4 +42,46 @@ export const BackfillStalePickupSlotOnCheckoutRows = [
     label: 'sort oversized store in the queue',
     quantity: 11,
   },
+  {
+    id: 'lib-1344',
+    store: '388',
+    label: 'log cancelled topping in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'lib-9882',
+    store: '523',
+    label: 'handle partial pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'lib-8207',
+    store: '461',
+    label: 'log cancelled ticket for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'lib-2042',
+    store: '321',
+    label: 'guard partial kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'lib-8839',
+    store: '450',
+    label: 'handle cancelled receipt',
+    quantity: 12,
+  },
+  {
+    id: 'lib-5906',
+    store: '642',
+    label: 'trim missing guest',
+    quantity: 9,
+  },
+  {
+    id: 'lib-9113',
+    store: '653',
+    label: 'paginate partial tax line for pickup',
+    quantity: 12,
+  },
 ];
