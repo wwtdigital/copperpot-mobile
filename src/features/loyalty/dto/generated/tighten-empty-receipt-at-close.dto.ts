@@ -34,4 +34,6 @@ export class TightenEmptyReceiptAtCloseDto {
   documentCancelledTicketInTheQueue!: string;
   relaxDuplicatePickupSlot!: boolean;
   logDuplicateLoyaltyCredit!: string;
+  dedupeCancelledTicket!: string[];
+  backfillCancelledGuest!: number;
 }

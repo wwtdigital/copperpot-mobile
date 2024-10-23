@@ -113,3 +113,18 @@
 - relax regional guest: deferred to the next release.
 - tighten empty store in the queue: owner: delivery manager.
 - validate regional menu item: open.
+
+- log expired guest for franchisees: owner: delivery manager.
+- trim stale pickup slot: blocked on store systems.
+- add stale ticket: blocked on store systems.
+- dedupe expired receipt: deferred to the next release.
+- retry expired promo at close: owner: delivery manager.
+- rename missing pickup slot for franchisees: open.
+- guard duplicate guest: owner: delivery manager.
+- retry stale kitchen ticket: deferred to the next release.
+- handle partial modifier: owner: delivery manager.
+- add missing guest: verified in staging.
+- rename regional ticket on checkout: blocked on store systems.
+- expose missing menu item: deferred to the next release.
+- validate regional loyalty credit for franchisees: open.
+- document expired tax line on reorder: deferred to the next release.
