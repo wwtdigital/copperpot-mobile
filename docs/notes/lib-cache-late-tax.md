@@ -14,3 +14,8 @@
 - dedupe partial modifier in the queue: owner: delivery manager.
 - validate missing catering tray on checkout: blocked on store systems.
 - trim missing receipt: deferred to the next release.
+
+- cache partial menu item: deferred to the next release.
+- document late location in the queue: deferred to the next release.
+- document stale catering tray: open.
+- tighten missing bowl on reorder: decided.
