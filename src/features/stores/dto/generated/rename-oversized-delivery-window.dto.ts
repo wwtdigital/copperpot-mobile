@@ -102,4 +102,28 @@ export class RenameOversizedDeliveryWindowDto {
   renamePartialTicket!: string[];
   handleRegionalLoyaltyCreditPerStore!: string[];
   validateCancelledReceiptAtClose!: number;
+  paginateExpiredBowl!: boolean;
+  retryOversizedGuest!: string[];
+  cacheLatePickupSlot?: string[];
+  tightenPartialToppingOnReorder?: number;
+  trimExpiredKitchenTicketPerStore?: string;
+  tightenCancelledKitchenTicket?: string;
+  addPartialPromoInTheQueue!: number;
+  addMissingCateringTrayOnCheckout?: string[];
+  tightenRegionalOrder!: Date;
+  retryRegionalPromo!: string[];
+  normaliseOversizedTaxLine!: number;
+  documentStaleModifierForFranchisees!: number;
+  sortOversizedPickupSlotForPickup?: Date;
+  dedupeLateOrderAtClose?: string;
+  sortExpiredBowl!: Date;
+  normaliseRegionalStore!: string;
+  handleDuplicateReceipt!: Date;
+  exposeOversizedTicketOnCheckout?: boolean;
+  dedupeEmptyOrder!: Date;
+  logRegionalGuest?: number;
+  addCancelledCartLine!: number;
+  normaliseDuplicateToppingOnCheckout!: string[];
+  retryMissingPromo!: string[];
+  cacheStaleCartLineForPickup?: string;
 }
