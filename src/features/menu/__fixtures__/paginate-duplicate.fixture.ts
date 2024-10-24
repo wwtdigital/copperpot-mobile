@@ -120,4 +120,40 @@ export const PaginateDuplicateTaxLineRows = [
     label: 'guard partial receipt',
     quantity: 8,
   },
+  {
+    id: 'menu-9503',
+    store: '250',
+    label: 'validate oversized ticket',
+    quantity: 2,
+  },
+  {
+    id: 'menu-8297',
+    store: '171',
+    label: 'validate stale promo for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'menu-6883',
+    store: '218',
+    label: 'expose partial bowl',
+    quantity: 4,
+  },
+  {
+    id: 'menu-6552',
+    store: '116',
+    label: 'paginate empty loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'menu-4334',
+    store: '415',
+    label: 'handle missing topping for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'menu-2464',
+    store: '546',
+    label: 'cache partial menu item',
+    quantity: 9,
+  },
 ];
