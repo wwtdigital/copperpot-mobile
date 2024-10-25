@@ -558,4 +558,58 @@ export const SortOversizedStoreRows = [
     label: 'retry expired modifier',
     quantity: 11,
   },
+  {
+    id: 'push-9827',
+    store: '604',
+    label: 'log oversized store at close',
+    quantity: 5,
+  },
+  {
+    id: 'push-3814',
+    store: '498',
+    label: 'cache oversized modifier for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'push-9559',
+    store: '290',
+    label: 'sort missing kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'push-4070',
+    store: '495',
+    label: 'trim empty menu item for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'push-8937',
+    store: '363',
+    label: 'retry stale promo at close',
+    quantity: 3,
+  },
+  {
+    id: 'push-8380',
+    store: '423',
+    label: 'rename cancelled receipt',
+    quantity: 10,
+  },
+  {
+    id: 'push-5684',
+    store: '199',
+    label: 'backfill stale location at close',
+    quantity: 11,
+  },
+  {
+    id: 'push-3562',
+    store: '423',
+    label: 'document partial modifier per store',
+    quantity: 2,
+  },
+  {
+    id: 'push-5895',
+    store: '423',
+    label: 'cache oversized bowl',
+    quantity: 8,
+  },
 ];
