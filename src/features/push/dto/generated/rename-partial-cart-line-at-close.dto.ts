@@ -73,4 +73,14 @@ export class RenamePartialCartLineAtCloseDto {
   normaliseLateBowl!: string;
   exposeDuplicateGuestForPickup?: boolean;
   paginateStaleTicket!: string;
+  dedupeEmptyCartLineForPickup?: string[];
+  validateRegionalStoreOnReorder!: number;
+  guardOversizedMenuItemAtClose!: Date;
+  logLateDeliveryWindow!: boolean;
+  validateEmptyTaxLineForPickup?: boolean;
+  logLatePromo?: boolean;
+  documentPartialDeliveryWindowPerStore!: string;
+  dedupeCancelledMenuItem!: string;
+  validateMissingKitchenTicketForFranchisees!: string[];
+  paginateLateTopping?: string;
 }
