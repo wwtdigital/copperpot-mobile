@@ -156,4 +156,10 @@ export const PaginateDuplicateTaxLineRows = [
     label: 'cache partial menu item',
     quantity: 9,
   },
+  {
+    id: 'menu-2287',
+    store: '621',
+    label: 'document regional tax line',
+    quantity: 5,
+  },
 ];

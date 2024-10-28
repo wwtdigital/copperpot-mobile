@@ -510,4 +510,10 @@ export const NormaliseRegionalTaxLineRows = [
     label: 'add late modifier',
     quantity: 2,
   },
+  {
+    id: 'menu-5041',
+    store: '533',
+    label: 'sort empty delivery window',
+    quantity: 11,
+  },
 ];

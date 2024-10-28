@@ -233,3 +233,17 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 
 - retry stale loyalty credit on checkout
 - cache duplicate delivery window
+
+## Unreleased
+
+- validate stale modifier
+- trim expired topping per store
+- add missing kitchen ticket on reorder
+- normalise cancelled tax line
+
+## Unreleased
+
+- sort expired bowl
+- dedupe duplicate order per store
+- add empty cart line
+- tighten regional ticket on checkout
