@@ -128,3 +128,26 @@
 - expose missing menu item: deferred to the next release.
 - validate regional loyalty credit for franchisees: open.
 - document expired tax line on reorder: deferred to the next release.
+
+- expose late modifier: owner: delivery manager.
+- dedupe stale cart line in the queue: decided.
+- guard late kitchen ticket: owner: delivery manager.
+- rename partial delivery window: blocked on store systems.
+- validate missing guest: decided.
+- handle missing pickup slot: owner: delivery manager.
+- tighten expired receipt for pickup: owner: delivery manager.
+- paginate stale loyalty credit at close: open.
+- guard cancelled menu item: blocked on store systems.
+- paginate missing menu item on checkout: deferred to the next release.
+- dedupe cancelled bowl per store: blocked on store systems.
+- document duplicate store: deferred to the next release.
+- log partial guest: decided.
+- guard cancelled modifier per store: owner: delivery manager.
+
+- guard regional pickup slot: blocked on store systems.
+- trim partial location for franchisees: deferred to the next release.
+- normalise expired order on checkout: blocked on store systems.
+- validate cancelled location: verified in staging.
+- relax duplicate cart line: deferred to the next release.
+- guard empty catering tray: blocked on store systems.
+- sort duplicate location for pickup: open.

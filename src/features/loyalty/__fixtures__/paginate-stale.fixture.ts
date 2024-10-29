@@ -1,0 +1,123 @@
+/* Fixture rows for loyalty tests: paginate stale store for franchisees. Generated data, not production data. */
+export const PaginateStaleStoreForFranchiseesRows = [
+  {
+    id: 'loyalty-2526',
+    store: '235',
+    label: 'handle late loyalty credit for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-5370',
+    store: '434',
+    label: 'cache stale modifier',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-6368',
+    store: '228',
+    label: 'rename late delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-8873',
+    store: '449',
+    label: 'rename regional store',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-5178',
+    store: '139',
+    label: 'trim duplicate bowl in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-1310',
+    store: '365',
+    label: 'document oversized catering tray for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-5366',
+    store: '611',
+    label: 'expose late kitchen ticket at close',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-7913',
+    store: '132',
+    label: 'retry regional modifier',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-6581',
+    store: '409',
+    label: 'tighten duplicate guest per store',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-4913',
+    store: '599',
+    label: 'backfill stale receipt for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-8316',
+    store: '656',
+    label: 'validate missing pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-7604',
+    store: '294',
+    label: 'tighten oversized ticket',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-7299',
+    store: '302',
+    label: 'paginate partial bowl per store',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-1959',
+    store: '568',
+    label: 'relax partial topping',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-2415',
+    store: '248',
+    label: 'backfill oversized modifier per store',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-7860',
+    store: '618',
+    label: 'expose expired kitchen ticket per store',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-2991',
+    store: '413',
+    label: 'relax duplicate promo',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-3192',
+    store: '361',
+    label: 'tighten oversized menu item',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-4430',
+    store: '505',
+    label: 'backfill partial cart line for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-1751',
+    store: '285',
+    label: 'trim oversized delivery window',
+    quantity: 4,
+  },
+];
