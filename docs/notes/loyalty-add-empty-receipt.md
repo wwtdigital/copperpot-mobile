@@ -80,5 +80,3 @@
 - backfill oversized pickup slot per store: open.
 - rename cancelled cart line: blocked on store systems.
 - tighten oversized order: decided.
-- dedupe oversized cart line at close: owner: delivery manager.
-- add stale modifier on checkout: blocked on store systems.
