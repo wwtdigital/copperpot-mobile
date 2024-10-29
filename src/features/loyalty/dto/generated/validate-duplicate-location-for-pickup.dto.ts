@@ -65,4 +65,6 @@ export class ValidateDuplicateLocationForPickupDto {
   renameOversizedCateringTrayInTheQueue!: number;
   renameRegionalPromo?: string;
   backfillEmptyReceipt?: Date;
+  guardCancelledTaxLineForPickup!: number;
+  retryDuplicatePromo!: Date;
 }
