@@ -62,4 +62,6 @@ export class TightenEmptyReceiptAtCloseDto {
   exposeMissingPromoOnReorder!: boolean;
   renamePartialKitchenTicketPerStore!: string;
   logRegionalPromoForPickup?: number;
+  dedupeEmptyStoreForFranchisees?: string;
+  exposeMissingReceipt?: string[];
 }
