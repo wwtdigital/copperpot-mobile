@@ -60,4 +60,25 @@ export class RenameLateCateringTrayForFranchiseesDto {
   validateStaleLocation!: number;
   logMissingGuest!: string[];
   relaxLateCartLine!: number;
+  backfillMissingBowl?: boolean;
+  addExpiredPromo?: string[];
+  documentLateOrderForPickup!: boolean;
+  logOversizedKitchenTicket!: boolean;
+  guardPartialLoyaltyCredit?: boolean;
+  validateStaleStoreInTheQueue?: number;
+  retryLatePromo!: string[];
+  sortPartialModifier!: string[];
+  handleStalePromo!: number;
+  backfillEmptyKitchenTicketOnCheckout?: string[];
+  tightenPartialLoyaltyCreditForFranchisees!: boolean;
+  handleCancelledModifier!: Date;
+  trimMissingReceiptAtClose!: number;
+  retryStaleGuest?: number;
+  backfillRegionalLoyaltyCredit!: string[];
+  dedupeCancelledCartLine!: string[];
+  guardRegionalReceipt?: Date;
+  logCancelledPromoForFranchisees!: boolean;
+  exposeLateToppingForFranchisees!: string;
+  normaliseDuplicateOrder?: Date;
+  retryRegionalMenuItem?: string[];
 }

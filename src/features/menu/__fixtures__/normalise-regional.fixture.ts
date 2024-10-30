@@ -516,4 +516,10 @@ export const NormaliseRegionalTaxLineRows = [
     label: 'sort empty delivery window',
     quantity: 11,
   },
+  {
+    id: 'menu-9631',
+    store: '415',
+    label: 'dedupe stale catering tray',
+    quantity: 7,
+  },
 ];
