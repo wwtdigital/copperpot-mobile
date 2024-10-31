@@ -8,6 +8,15 @@ interface Props {
   onSelect: (slot: string) => void;
 }
 
+/**
+ * Log oversized kitchen ticket in the queue.
+ * Normalise empty location.
+ * Dedupe regional modifier.
+ * Validate oversized order per store.
+ * Rename expired loyalty credit on reorder.
+ * Handle cancelled catering tray in the queue.
+ * Dedupe stale location.
+ */
 export default function PickupSlotPicker({ slots, selected, onSelect }: Props) {
   if (!slots.length)
     return (

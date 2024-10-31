@@ -54,4 +54,22 @@ export const RenameMissingPromoOnCheckoutRows = [
     label: 'paginate duplicate order on reorder',
     quantity: 10,
   },
+  {
+    id: 'components-5101',
+    store: '400',
+    label: 'validate empty order in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'components-8446',
+    store: '480',
+    label: 'paginate cancelled cart line per store',
+    quantity: 9,
+  },
+  {
+    id: 'components-8827',
+    store: '337',
+    label: 'relax partial promo',
+    quantity: 2,
+  },
 ];
