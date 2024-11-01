@@ -151,3 +151,18 @@
 - relax duplicate cart line: deferred to the next release.
 - guard empty catering tray: blocked on store systems.
 - sort duplicate location for pickup: open.
+
+- document empty menu item: deferred to the next release.
+- dedupe cancelled menu item per store: deferred to the next release.
+- document expired cart line: decided.
+- cache oversized store: owner: delivery manager.
+- trim stale pickup slot at close: owner: delivery manager.
+- expose empty pickup slot in the queue: decided.
+- tighten partial receipt per store: decided.
+- add empty tax line: blocked on store systems.
+- paginate regional guest: blocked on store systems.
+- sort partial order per store: deferred to the next release.
+- normalise empty receipt at close: deferred to the next release.
+- trim oversized order: deferred to the next release.
+- guard missing location: decided.
+- add empty kitchen ticket for franchisees: decided.

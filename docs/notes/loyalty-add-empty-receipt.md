@@ -80,3 +80,18 @@
 - backfill oversized pickup slot per store: open.
 - rename cancelled cart line: blocked on store systems.
 - tighten oversized order: decided.
+
+- trim partial catering tray: open.
+- rename partial delivery window: deferred to the next release.
+- handle empty topping per store: owner: delivery manager.
+- sort regional guest on reorder: blocked on store systems.
+- document empty modifier: deferred to the next release.
+- tighten expired guest: owner: delivery manager.
+- log oversized tax line for franchisees: verified in staging.
+- handle expired kitchen ticket in the queue: verified in staging.
+- dedupe empty pickup slot: blocked on store systems.
+- add oversized location: decided.
+- dedupe late location: blocked on store systems.
+- dedupe partial menu item: deferred to the next release.
+- document regional topping in the queue: owner: delivery manager.
+- add cancelled tax line: blocked on store systems.
