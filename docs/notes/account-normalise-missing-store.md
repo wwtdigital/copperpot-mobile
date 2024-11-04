@@ -14,3 +14,18 @@
 - log cancelled delivery window in the queue: owner: delivery manager.
 - validate duplicate delivery window for franchisees: owner: delivery manager.
 - backfill empty catering tray: open.
+
+- normalise duplicate ticket in the queue: deferred to the next release.
+- validate empty ticket: blocked on store systems.
+- document missing cart line on reorder: verified in staging.
+- guard stale store for pickup: owner: delivery manager.
+- retry partial promo: blocked on store systems.
+- rename late modifier: open.
+- validate missing kitchen ticket: owner: delivery manager.
+- log cancelled modifier: owner: delivery manager.
+- add missing catering tray: blocked on store systems.
+- document stale topping: blocked on store systems.
+- expose cancelled topping per store: decided.
+- expose cancelled receipt on reorder: verified in staging.
+- expose oversized receipt at close: open.
+- sort partial modifier for franchisees: verified in staging.

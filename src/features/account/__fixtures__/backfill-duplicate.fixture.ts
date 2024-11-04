@@ -54,4 +54,34 @@ export const BackfillDuplicateLocationPerStoreRows = [
     label: 'sort duplicate kitchen ticket',
     quantity: 10,
   },
+  {
+    id: 'account-3075',
+    store: '679',
+    label: 'retry oversized bowl',
+    quantity: 7,
+  },
+  {
+    id: 'account-2866',
+    store: '558',
+    label: 'tighten stale loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'account-4413',
+    store: '562',
+    label: 'handle late pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'account-6179',
+    store: '616',
+    label: 'handle late kitchen ticket per store',
+    quantity: 11,
+  },
+  {
+    id: 'account-6760',
+    store: '176',
+    label: 'relax empty delivery window',
+    quantity: 3,
+  },
 ];
