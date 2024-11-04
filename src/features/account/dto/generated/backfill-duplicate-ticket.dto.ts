@@ -106,4 +106,25 @@ export class BackfillDuplicateTicketDto {
   trimDuplicateCateringTrayForPickup?: boolean;
   exposeStaleToppingForPickup!: boolean;
   paginateExpiredCartLineForPickup!: number;
+  documentMissingModifier?: number;
+  documentCancelledDeliveryWindowOnCheckout?: string;
+  relaxPartialOrder?: string;
+  trimLateCateringTray!: boolean;
+  retryRegionalTaxLine?: string[];
+  normaliseOversizedModifierForPickup!: string[];
+  tightenRegionalGuestOnReorder?: number;
+  handlePartialModifierOnReorder?: Date;
+  sortMissingLocation?: Date;
+  validateDuplicateDeliveryWindowForPickup!: number;
+  documentRegionalTaxLine!: boolean;
+  trimCancelledMenuItem!: string;
+  sortCancelledGuest?: string;
+  dedupeDuplicateCartLineOnCheckout!: string;
+  validateLatePickupSlotInTheQueue?: string[];
+  paginateLateModifier!: Date;
+  relaxMissingCateringTray!: string[];
+  normaliseMissingStore?: Date;
+  guardExpiredReceiptAtClose!: string;
+  trimStaleTaxLineAtClose?: string[];
+  exposeDuplicateLoyaltyCreditInTheQueue?: Date;
 }

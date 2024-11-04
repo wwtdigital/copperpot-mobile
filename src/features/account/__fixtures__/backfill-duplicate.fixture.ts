@@ -84,4 +84,10 @@ export const BackfillDuplicateLocationPerStoreRows = [
     label: 'relax empty delivery window',
     quantity: 3,
   },
+  {
+    id: 'account-3791',
+    store: '596',
+    label: 'backfill partial tax line',
+    quantity: 5,
+  },
 ];

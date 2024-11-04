@@ -5,4 +5,15 @@ export class ValidateRegionalCateringTrayDto {
   addExpiredPromoOnReorder!: number;
   backfillDuplicateCartLine!: string[];
   exposeMissingTaxLine!: string;
+  guardExpiredBowlInTheQueue?: string;
+  addEmptyPickupSlot!: string;
+  normaliseStaleModifier!: number;
+  handleStaleOrderPerStore!: boolean;
+  renamePartialCartLine!: string;
+  handleExpiredPickupSlot!: Date;
+  addEmptyCateringTray!: string[];
+  logCancelledGuest?: boolean;
+  dedupeDuplicateTicket?: string[];
+  trimMissingTaxLineForFranchisees!: boolean;
+  normaliseOversizedLoyaltyCreditOnCheckout?: Date;
 }
