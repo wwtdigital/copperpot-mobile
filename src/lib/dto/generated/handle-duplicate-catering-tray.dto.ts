@@ -2,4 +2,6 @@
 export class HandleDuplicateCateringTrayDto {
   documentMissingOrder!: Date;
   backfillLateKitchenTicket!: Date;
+  dedupeMissingGuest!: string;
+  sortEmptyStorePerStore!: number;
 }

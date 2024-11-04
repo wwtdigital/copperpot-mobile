@@ -247,3 +247,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - dedupe duplicate order per store
 - add empty cart line
 - tighten regional ticket on checkout
+
+## Unreleased
+
+- relax partial promo
+- add duplicate bowl
+- validate oversized loyalty credit on reorder
+- retry expired menu item

@@ -110,4 +110,27 @@ export class ExposeRegionalCartLineOnReorderDto {
   cacheEmptyModifierAtClose?: string;
   tightenMissingTaxLine!: string[];
   trimMissingLocation!: boolean;
+  retryLatePromo!: string;
+  backfillRegionalLocationForPickup?: Date;
+  addExpiredCateringTrayOnReorder?: string;
+  backfillLateCartLineInTheQueue!: string;
+  paginateExpiredTaxLine!: boolean;
+  sortStaleStore!: boolean;
+  dedupePartialDeliveryWindow?: string;
+  trimStalePromoPerStore!: string[];
+  logMissingReceipt?: string[];
+  validateDuplicateToppingOnCheckout!: Date;
+  backfillExpiredToppingForFranchisees!: string[];
+  documentMissingTaxLinePerStore!: string;
+  paginateOversizedStore?: boolean;
+  sortExpiredOrder?: string[];
+  dedupeCancelledTicketInTheQueue!: Date;
+  retryStaleBowl!: boolean;
+  tightenCancelledTaxLineInTheQueue!: number;
+  handleLateGuestOnReorder!: number;
+  trimLatePickupSlot?: number;
+  documentDuplicateCateringTray!: string;
+  trimPartialCateringTrayOnCheckout?: number;
+  cacheRegionalPromo!: string[];
+  paginateLatePickupSlot?: string;
 }
