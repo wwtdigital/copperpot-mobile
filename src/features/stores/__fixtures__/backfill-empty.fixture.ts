@@ -1158,4 +1158,22 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'dedupe duplicate location in the queue',
     quantity: 8,
   },
+  {
+    id: 'stores-7320',
+    store: '353',
+    label: 'rename duplicate receipt at close',
+    quantity: 9,
+  },
+  {
+    id: 'stores-6021',
+    store: '385',
+    label: 'dedupe partial topping',
+    quantity: 12,
+  },
+  {
+    id: 'stores-6674',
+    store: '501',
+    label: 'normalise expired kitchen ticket',
+    quantity: 3,
+  },
 ];
