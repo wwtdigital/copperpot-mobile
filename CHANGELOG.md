@@ -254,3 +254,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - add duplicate bowl
 - validate oversized loyalty credit on reorder
 - retry expired menu item
+
+## Unreleased
+
+- rename oversized location
+- log late order
+- trim missing cart line
+- sort expired promo in the queue
