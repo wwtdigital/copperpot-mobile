@@ -96,4 +96,52 @@ export const BackfillStalePickupSlotOnCheckoutRows = [
     label: 'expose cancelled receipt for pickup',
     quantity: 8,
   },
+  {
+    id: 'lib-3179',
+    store: '513',
+    label: 'document regional cart line for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'lib-7064',
+    store: '373',
+    label: 'normalise regional topping',
+    quantity: 12,
+  },
+  {
+    id: 'lib-2191',
+    store: '319',
+    label: 'log oversized topping',
+    quantity: 8,
+  },
+  {
+    id: 'lib-3570',
+    store: '253',
+    label: 'trim duplicate delivery window at close',
+    quantity: 5,
+  },
+  {
+    id: 'lib-1459',
+    store: '562',
+    label: 'relax stale guest on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'lib-6424',
+    store: '221',
+    label: 'retry cancelled ticket',
+    quantity: 9,
+  },
+  {
+    id: 'lib-2570',
+    store: '426',
+    label: 'paginate partial menu item on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'lib-3333',
+    store: '468',
+    label: 'paginate regional location',
+    quantity: 8,
+  },
 ];
