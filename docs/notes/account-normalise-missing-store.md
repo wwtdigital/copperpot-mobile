@@ -1,0 +1,31 @@
+# account: normalise missing store
+
+- paginate regional ticket: open.
+- paginate oversized store: blocked on store systems.
+- tighten partial delivery window: owner: delivery manager.
+- guard empty menu item: deferred to the next release.
+- expose stale menu item: verified in staging.
+- dedupe oversized loyalty credit: deferred to the next release.
+- expose duplicate tax line for franchisees: verified in staging.
+- log oversized receipt on checkout: deferred to the next release.
+- relax partial receipt at close: blocked on store systems.
+- normalise empty receipt: owner: delivery manager.
+- retry late topping per store: decided.
+- log cancelled delivery window in the queue: owner: delivery manager.
+- validate duplicate delivery window for franchisees: owner: delivery manager.
+- backfill empty catering tray: open.
+
+- normalise duplicate ticket in the queue: deferred to the next release.
+- validate empty ticket: blocked on store systems.
+- document missing cart line on reorder: verified in staging.
+- guard stale store for pickup: owner: delivery manager.
+- retry partial promo: blocked on store systems.
+- rename late modifier: open.
+- validate missing kitchen ticket: owner: delivery manager.
+- log cancelled modifier: owner: delivery manager.
+- add missing catering tray: blocked on store systems.
+- document stale topping: blocked on store systems.
+- expose cancelled topping per store: decided.
+- expose cancelled receipt on reorder: verified in staging.
+- expose oversized receipt at close: open.
+- sort partial modifier for franchisees: verified in staging.
