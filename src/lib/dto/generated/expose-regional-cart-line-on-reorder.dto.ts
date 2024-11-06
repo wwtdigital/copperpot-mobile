@@ -84,4 +84,6 @@ export class ExposeRegionalCartLineOnReorderDto {
   documentExpiredTopping!: string;
   renameOversizedLocationOnCheckout?: Date;
   sortMissingDeliveryWindowOnReorder!: string;
+  exposeDuplicateKitchenTicket!: string;
+  logDuplicateTicket?: Date;
 }
