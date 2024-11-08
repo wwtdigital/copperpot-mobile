@@ -261,3 +261,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - log late order
 - trim missing cart line
 - sort expired promo in the queue
+
+## Unreleased
+
+- tighten empty order
+- guard missing order
+- rename late guest
+- relax empty catering tray for pickup

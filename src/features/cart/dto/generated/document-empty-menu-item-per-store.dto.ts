@@ -24,4 +24,28 @@ export class DocumentEmptyMenuItemPerStoreDto {
   dedupeLatePickupSlot!: Date;
   logStaleCateringTray?: string;
   tightenExpiredDeliveryWindow!: string[];
+  logLateModifier?: Date;
+  backfillRegionalBowlInTheQueue!: boolean;
+  cacheOversizedTicket?: string[];
+  paginateLateTopping!: Date;
+  dedupeOversizedCateringTrayOnCheckout!: string[];
+  retryOversizedPickupSlotPerStore?: boolean;
+  renameEmptyTopping?: Date;
+  retryExpiredPickupSlot!: number;
+  guardStalePromoInTheQueue!: boolean;
+  addStaleLocation!: Date;
+  normaliseExpiredReceipt!: string[];
+  retryDuplicateLoyaltyCreditOnCheckout!: number;
+  documentPartialBowl!: string;
+  renameEmptyTicket!: string[];
+  normalisePartialToppingPerStore?: number;
+  dedupeEmptyModifierOnCheckout!: boolean;
+  trimCancelledOrder!: string[];
+  dedupeCancelledPickupSlot?: string[];
+  paginateCancelledPromoOnCheckout!: Date;
+  documentEmptyTicketForFranchisees!: string;
+  guardCancelledDeliveryWindow!: Date;
+  logCancelledReceiptOnCheckout!: string[];
+  sortOversizedLoyaltyCredit!: string;
+  backfillDuplicateKitchenTicketInTheQueue!: Date;
 }

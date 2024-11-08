@@ -13,3 +13,33 @@
 - rename empty loyalty credit: open.
 - dedupe late guest: deferred to the next release.
 - sort late order: verified in staging.
+
+- normalise empty bowl on reorder: decided.
+- log stale kitchen ticket for pickup: verified in staging.
+- validate oversized receipt for franchisees: verified in staging.
+- tighten regional ticket for franchisees: blocked on store systems.
+- document partial topping in the queue: blocked on store systems.
+- cache empty store on checkout: deferred to the next release.
+- log missing kitchen ticket: owner: delivery manager.
+- paginate cancelled location: owner: delivery manager.
+- normalise regional receipt: deferred to the next release.
+- normalise empty delivery window: blocked on store systems.
+- rename late store in the queue: decided.
+- retry cancelled loyalty credit in the queue: owner: delivery manager.
+- rename stale loyalty credit: verified in staging.
+- backfill missing menu item: decided.
+
+- log oversized store: open.
+- backfill cancelled bowl: verified in staging.
+- retry oversized pickup slot at close: owner: delivery manager.
+- expose cancelled location: blocked on store systems.
+- handle duplicate store for pickup: open.
+- normalise late receipt on reorder: blocked on store systems.
+- guard missing store: deferred to the next release.
+- paginate cancelled cart line for pickup: decided.
+- tighten cancelled topping: decided.
+- add oversized cart line: deferred to the next release.
+- expose stale catering tray: blocked on store systems.
+- guard empty topping in the queue: deferred to the next release.
+- rename duplicate guest: blocked on store systems.
+- dedupe partial modifier: decided.

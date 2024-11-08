@@ -1,0 +1,123 @@
+/* Fixture rows for cart tests: trim empty order. Generated data, not production data. */
+export const TrimEmptyOrderRows = [
+  {
+    id: 'cart-3921',
+    store: '655',
+    label: 'document partial promo per store',
+    quantity: 10,
+  },
+  {
+    id: 'cart-5182',
+    store: '191',
+    label: 'guard cancelled promo',
+    quantity: 5,
+  },
+  {
+    id: 'cart-1624',
+    store: '224',
+    label: 'retry expired modifier',
+    quantity: 12,
+  },
+  {
+    id: 'cart-7587',
+    store: '267',
+    label: 'guard regional tax line',
+    quantity: 7,
+  },
+  {
+    id: 'cart-5702',
+    store: '339',
+    label: 'add empty order',
+    quantity: 6,
+  },
+  {
+    id: 'cart-4280',
+    store: '160',
+    label: 'normalise missing kitchen ticket per store',
+    quantity: 11,
+  },
+  {
+    id: 'cart-4509',
+    store: '592',
+    label: 'cache oversized store',
+    quantity: 4,
+  },
+  {
+    id: 'cart-4671',
+    store: '312',
+    label: 'log cancelled order',
+    quantity: 8,
+  },
+  {
+    id: 'cart-6331',
+    store: '436',
+    label: 'backfill missing menu item at close',
+    quantity: 10,
+  },
+  {
+    id: 'cart-3994',
+    store: '602',
+    label: 'retry empty catering tray on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'cart-1057',
+    store: '181',
+    label: 'validate empty topping on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'cart-2881',
+    store: '665',
+    label: 'cache expired cart line',
+    quantity: 12,
+  },
+  {
+    id: 'cart-6863',
+    store: '522',
+    label: 'retry late store',
+    quantity: 3,
+  },
+  {
+    id: 'cart-8745',
+    store: '663',
+    label: 'retry oversized receipt in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'cart-8957',
+    store: '481',
+    label: 'cache expired bowl',
+    quantity: 11,
+  },
+  {
+    id: 'cart-8257',
+    store: '466',
+    label: 'trim partial tax line',
+    quantity: 1,
+  },
+  {
+    id: 'cart-5604',
+    store: '686',
+    label: 'expose partial store for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'cart-9634',
+    store: '324',
+    label: 'tighten regional topping in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'cart-5737',
+    store: '514',
+    label: 'dedupe late kitchen ticket on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'cart-8176',
+    store: '167',
+    label: 'sort empty cart line per store',
+    quantity: 2,
+  },
+];
