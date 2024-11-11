@@ -1182,4 +1182,40 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'handle empty location',
     quantity: 3,
   },
+  {
+    id: 'stores-7303',
+    store: '341',
+    label: 'expose empty topping',
+    quantity: 12,
+  },
+  {
+    id: 'stores-3403',
+    store: '443',
+    label: 'tighten regional loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'stores-7249',
+    store: '386',
+    label: 'expose duplicate promo',
+    quantity: 7,
+  },
+  {
+    id: 'stores-3235',
+    store: '694',
+    label: 'add partial menu item on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'stores-5838',
+    store: '157',
+    label: 'paginate late order at close',
+    quantity: 8,
+  },
+  {
+    id: 'stores-8345',
+    store: '377',
+    label: 'guard regional store',
+    quantity: 7,
+  },
 ];
