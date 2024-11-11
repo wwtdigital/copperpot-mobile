@@ -48,4 +48,10 @@ export const TrimDuplicateCateringTrayOnReorderRows = [
     label: 'guard partial catering tray for pickup',
     quantity: 12,
   },
+  {
+    id: 'account-5624',
+    store: '158',
+    label: 'tighten cancelled tax line',
+    quantity: 3,
+  },
 ];

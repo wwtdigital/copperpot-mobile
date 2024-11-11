@@ -16,4 +16,10 @@ export class ValidateRegionalCateringTrayDto {
   dedupeDuplicateTicket?: string[];
   trimMissingTaxLineForFranchisees!: boolean;
   normaliseOversizedLoyaltyCreditOnCheckout?: Date;
+  logStaleModifier!: boolean;
+  exposeExpiredStoreAtClose!: string;
+  relaxLateToppingForPickup!: boolean;
+  renameCancelledPromo!: boolean;
+  exposeMissingDeliveryWindow!: string[];
+  logCancelledPickupSlot!: Date;
 }
