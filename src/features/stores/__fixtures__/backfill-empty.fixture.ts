@@ -1176,4 +1176,10 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'normalise expired kitchen ticket',
     quantity: 3,
   },
+  {
+    id: 'stores-7094',
+    store: '592',
+    label: 'handle empty location',
+    quantity: 3,
+  },
 ];
