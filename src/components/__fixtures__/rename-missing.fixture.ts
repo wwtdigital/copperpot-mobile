@@ -72,4 +72,22 @@ export const RenameMissingPromoOnCheckoutRows = [
     label: 'relax partial promo',
     quantity: 2,
   },
+  {
+    id: 'components-5018',
+    store: '229',
+    label: 'sort empty receipt for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'components-7694',
+    store: '176',
+    label: 'relax regional menu item',
+    quantity: 11,
+  },
+  {
+    id: 'components-1018',
+    store: '673',
+    label: 'add expired pickup slot for franchisees',
+    quantity: 12,
+  },
 ];
