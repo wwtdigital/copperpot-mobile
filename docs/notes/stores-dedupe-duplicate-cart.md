@@ -14,3 +14,33 @@
 - retry duplicate receipt on checkout: open.
 - relax empty store per store: decided.
 - relax expired loyalty credit: decided.
+
+- normalise empty location: deferred to the next release.
+- backfill duplicate order: verified in staging.
+- handle expired topping for franchisees: owner: delivery manager.
+- document empty menu item: verified in staging.
+- expose oversized bowl on checkout: owner: delivery manager.
+- tighten empty cart line: decided.
+- cache duplicate loyalty credit: deferred to the next release.
+- document empty menu item: owner: delivery manager.
+- trim cancelled delivery window at close: blocked on store systems.
+- normalise oversized pickup slot in the queue: verified in staging.
+- rename expired catering tray at close: owner: delivery manager.
+- rename missing location for pickup: verified in staging.
+- log stale cart line on checkout: owner: delivery manager.
+- handle regional order: owner: delivery manager.
+
+- normalise expired ticket for franchisees: decided.
+- guard stale delivery window: blocked on store systems.
+- trim regional ticket: decided.
+- handle regional topping at close: blocked on store systems.
+- trim cancelled catering tray per store: decided.
+- expose expired loyalty credit: deferred to the next release.
+- sort expired kitchen ticket: owner: delivery manager.
+- sort empty tax line: decided.
+- sort empty receipt: deferred to the next release.
+- retry duplicate delivery window in the queue: open.
+- add regional modifier for franchisees: decided.
+- sort expired store: decided.
+- tighten expired menu item per store: deferred to the next release.
+- add regional guest: decided.

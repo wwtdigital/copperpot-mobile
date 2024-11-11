@@ -126,4 +126,15 @@ export class RenameOversizedDeliveryWindowDto {
   normaliseDuplicateToppingOnCheckout!: string[];
   retryMissingPromo!: string[];
   cacheStaleCartLineForPickup?: string;
+  backfillExpiredDeliveryWindowOnCheckout?: boolean;
+  paginateDuplicateDeliveryWindow?: number;
+  sortMissingModifierAtClose?: string[];
+  renameDuplicateTaxLine!: number;
+  backfillExpiredPromo!: boolean;
+  tightenOversizedTicketAtClose!: string[];
+  tightenLateTicketForFranchisees?: string;
+  handleRegionalCateringTray!: number;
+  relaxStaleStore!: boolean;
+  normaliseStalePromo?: number;
+  documentStaleCartLineInTheQueue!: string[];
 }
