@@ -90,4 +90,16 @@ export const RenameMissingPromoOnCheckoutRows = [
     label: 'add expired pickup slot for franchisees',
     quantity: 12,
   },
+  {
+    id: 'components-5170',
+    store: '146',
+    label: 'paginate cancelled order on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'components-8778',
+    store: '614',
+    label: 'normalise missing catering tray on checkout',
+    quantity: 2,
+  },
 ];
