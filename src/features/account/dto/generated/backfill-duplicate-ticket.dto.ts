@@ -148,4 +148,19 @@ export class BackfillDuplicateTicketDto {
   cacheRegionalBowlOnReorder!: number;
   handleEmptyLocationAtClose!: string;
   exposePartialTopping!: string[];
+  addPartialMenuItem!: Date;
+  retryOversizedOrderOnCheckout?: string;
+  trimStaleKitchenTicketForPickup?: string[];
+  addDuplicateKitchenTicketInTheQueue!: string[];
+  renameLateMenuItemPerStore!: number;
+  guardLateTopping!: Date;
+  cacheOversizedLoyaltyCreditForFranchisees?: boolean;
+  documentCancelledLoyaltyCreditForPickup!: string;
+  normalisePartialGuestOnReorder?: boolean;
+  exposeExpiredGuestForFranchisees!: string;
+  validateLateTicket!: string;
+  relaxMissingOrder!: string;
+  renameCancelledCartLineOnCheckout?: number;
+  logLateCateringTrayForPickup!: number;
+  dedupeOversizedPromo!: Date;
 }
