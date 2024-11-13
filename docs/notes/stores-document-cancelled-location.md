@@ -132,3 +132,33 @@
 - normalise stale tax line at close: deferred to the next release.
 - rename missing store: decided.
 - retry partial modifier: decided.
+
+- expose stale bowl: blocked on store systems.
+- relax empty pickup slot: deferred to the next release.
+- validate stale pickup slot: blocked on store systems.
+- handle cancelled loyalty credit: verified in staging.
+- log missing catering tray on reorder: decided.
+- paginate partial store: owner: delivery manager.
+- backfill partial cart line for pickup: blocked on store systems.
+- trim duplicate pickup slot: blocked on store systems.
+- trim partial delivery window at close: blocked on store systems.
+- normalise cancelled guest: deferred to the next release.
+- tighten duplicate promo: decided.
+- add empty loyalty credit: deferred to the next release.
+- paginate duplicate order: deferred to the next release.
+- guard partial order: decided.
+
+- validate late ticket: open.
+- document duplicate catering tray: blocked on store systems.
+- cache duplicate receipt at close: owner: delivery manager.
+- validate missing menu item: blocked on store systems.
+- tighten regional store: open.
+- guard partial menu item per store: owner: delivery manager.
+- tighten missing topping per store: blocked on store systems.
+- document late promo: deferred to the next release.
+- relax missing ticket: deferred to the next release.
+- add late loyalty credit: open.
+- relax cancelled modifier: owner: delivery manager.
+- rename expired cart line: blocked on store systems.
+- rename cancelled store: verified in staging.
+- add duplicate cart line: open.

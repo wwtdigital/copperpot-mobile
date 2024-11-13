@@ -1,0 +1,123 @@
+/* Fixture rows for stores tests: expose oversized modifier. Generated data, not production data. */
+export const ExposeOversizedModifierRows = [
+  {
+    id: 'stores-7483',
+    store: '614',
+    label: 'backfill expired loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'stores-5020',
+    store: '495',
+    label: 'tighten empty bowl',
+    quantity: 2,
+  },
+  {
+    id: 'stores-8617',
+    store: '336',
+    label: 'validate expired guest for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'stores-3933',
+    store: '283',
+    label: 'sort late location',
+    quantity: 7,
+  },
+  {
+    id: 'stores-7555',
+    store: '528',
+    label: 'expose stale guest for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'stores-4876',
+    store: '143',
+    label: 'retry expired receipt for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'stores-8270',
+    store: '256',
+    label: 'rename stale tax line',
+    quantity: 8,
+  },
+  {
+    id: 'stores-7407',
+    store: '224',
+    label: 'rename regional topping',
+    quantity: 10,
+  },
+  {
+    id: 'stores-9063',
+    store: '622',
+    label: 'expose missing bowl on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'stores-7983',
+    store: '168',
+    label: 'cache missing cart line in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'stores-4615',
+    store: '260',
+    label: 'tighten empty delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'stores-4029',
+    store: '213',
+    label: 'tighten cancelled modifier',
+    quantity: 3,
+  },
+  {
+    id: 'stores-9018',
+    store: '659',
+    label: 'add expired loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'stores-2237',
+    store: '318',
+    label: 'log empty loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'stores-7496',
+    store: '538',
+    label: 'cache empty order',
+    quantity: 5,
+  },
+  {
+    id: 'stores-5763',
+    store: '161',
+    label: 'trim regional catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'stores-8570',
+    store: '651',
+    label: 'cache cancelled cart line',
+    quantity: 6,
+  },
+  {
+    id: 'stores-2854',
+    store: '141',
+    label: 'retry late catering tray on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'stores-9699',
+    store: '544',
+    label: 'validate duplicate guest',
+    quantity: 1,
+  },
+  {
+    id: 'stores-2103',
+    store: '263',
+    label: 'normalise stale bowl at close',
+    quantity: 8,
+  },
+];

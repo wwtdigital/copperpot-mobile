@@ -268,3 +268,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - guard missing order
 - rename late guest
 - relax empty catering tray for pickup
+
+## Unreleased
+
+- tighten missing kitchen ticket at close
+- log cancelled pickup slot per store
+- rename duplicate delivery window
+- validate missing kitchen ticket on checkout
