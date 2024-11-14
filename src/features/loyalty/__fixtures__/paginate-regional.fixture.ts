@@ -576,4 +576,52 @@ export const PaginateRegionalReceiptRows = [
     label: 'paginate duplicate menu item per store',
     quantity: 5,
   },
+  {
+    id: 'loyalty-3587',
+    store: '546',
+    label: 'relax regional guest for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-5898',
+    store: '522',
+    label: 'paginate oversized tax line',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-4164',
+    store: '631',
+    label: 'tighten duplicate ticket in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-3163',
+    store: '355',
+    label: 'rename missing loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-9203',
+    store: '613',
+    label: 'relax partial topping',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-3901',
+    store: '514',
+    label: 'backfill regional promo',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-4800',
+    store: '493',
+    label: 'handle regional modifier for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-1144',
+    store: '259',
+    label: 'guard late pickup slot',
+    quantity: 5,
+  },
 ];
