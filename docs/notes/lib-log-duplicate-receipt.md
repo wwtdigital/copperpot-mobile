@@ -14,3 +14,18 @@
 - trim cancelled guest at close: verified in staging.
 - guard cancelled order: blocked on store systems.
 - tighten regional pickup slot on checkout: open.
+
+- log oversized pickup slot: owner: delivery manager.
+- tighten empty ticket: open.
+- normalise expired delivery window: deferred to the next release.
+- relax duplicate cart line: decided.
+- expose late cart line per store: decided.
+- log regional guest: verified in staging.
+- trim late kitchen ticket per store: open.
+- sort expired modifier: open.
+- tighten oversized pickup slot: deferred to the next release.
+- backfill cancelled tax line: owner: delivery manager.
+- rename cancelled promo: open.
+- validate oversized catering tray: decided.
+- normalise regional promo: verified in staging.
+- guard missing loyalty credit: deferred to the next release.
