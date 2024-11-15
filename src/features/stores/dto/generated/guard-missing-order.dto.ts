@@ -21,4 +21,28 @@ export class GuardMissingOrderDto {
   normaliseEmptyBowl!: Date;
   validateLateBowlForPickup!: string[];
   logLateCateringTrayOnReorder?: Date;
+  handleCancelledKitchenTicketOnCheckout?: string;
+  retryExpiredReceiptOnCheckout?: number;
+  dedupeOversizedPickupSlotForFranchisees?: boolean;
+  retryCancelledBowlPerStore?: string;
+  documentOversizedPickupSlotInTheQueue!: string;
+  trimEmptyGuest!: boolean;
+  sortOversizedCateringTray!: boolean;
+  paginateCancelledLocationInTheQueue!: string[];
+  handlePartialMenuItemInTheQueue!: boolean;
+  validateStaleModifier!: number;
+  addOversizedPromoOnReorder?: number;
+  normaliseOversizedOrderForFranchisees!: Date;
+  dedupeExpiredDeliveryWindowPerStore!: number;
+  relaxEmptyPickupSlot?: string;
+  renameMissingTopping!: Date;
+  guardRegionalOrder!: string[];
+  exposeStaleReceipt?: Date;
+  validateEmptyPromoForFranchisees!: string;
+  backfillRegionalKitchenTicket?: string[];
+  cacheDuplicateTopping!: number;
+  dedupeDuplicateLocationOnCheckout!: number;
+  backfillExpiredPickupSlotPerStore?: Date;
+  documentLateTaxLine!: string[];
+  dedupeExpiredKitchenTicketOnCheckout!: string;
 }
