@@ -90,4 +90,10 @@ export const BackfillDuplicateLocationPerStoreRows = [
     label: 'backfill partial tax line',
     quantity: 5,
   },
+  {
+    id: 'account-5997',
+    store: '572',
+    label: 'handle oversized menu item',
+    quantity: 6,
+  },
 ];
