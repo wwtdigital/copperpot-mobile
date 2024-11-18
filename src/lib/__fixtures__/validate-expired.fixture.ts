@@ -24,4 +24,10 @@ export const ValidateExpiredGuestRows = [
     label: 'relax empty kitchen ticket',
     quantity: 7,
   },
+  {
+    id: 'lib-6575',
+    store: '649',
+    label: 'log empty ticket',
+    quantity: 5,
+  },
 ];

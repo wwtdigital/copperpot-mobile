@@ -288,4 +288,40 @@ export const NormaliseLateCateringTrayAtCloseRows = [
     label: 'normalise empty ticket',
     quantity: 2,
   },
+  {
+    id: 'lib-8390',
+    store: '603',
+    label: 'document missing pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'lib-5706',
+    store: '149',
+    label: 'normalise oversized loyalty credit in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'lib-4317',
+    store: '220',
+    label: 'backfill regional order',
+    quantity: 2,
+  },
+  {
+    id: 'lib-5350',
+    store: '585',
+    label: 'tighten late kitchen ticket on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'lib-9185',
+    store: '543',
+    label: 'guard expired delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'lib-8488',
+    store: '507',
+    label: 'paginate partial topping',
+    quantity: 9,
+  },
 ];
