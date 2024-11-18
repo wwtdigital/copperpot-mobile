@@ -198,4 +198,10 @@ export const BackfillDuplicateLocationPerStoreRows = [
     label: 'document missing promo on checkout',
     quantity: 5,
   },
+  {
+    id: 'account-3034',
+    store: '606',
+    label: 'expose regional catering tray',
+    quantity: 10,
+  },
 ];
