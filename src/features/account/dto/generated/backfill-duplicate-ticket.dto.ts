@@ -186,4 +186,6 @@ export class BackfillDuplicateTicketDto {
   addExpiredOrder!: string;
   renameExpiredMenuItem!: number;
   renameLateDeliveryWindow!: boolean;
+  relaxPartialStoreForPickup!: string[];
+  renameDuplicateMenuItem!: string[];
 }

@@ -24,4 +24,28 @@ export class AddPartialCateringTrayDto {
   paginateDuplicateMenuItem!: number;
   paginatePartialLocationOnReorder?: string;
   logRegionalGuestForFranchisees?: string;
+  dedupeStalePickupSlotPerStore!: string;
+  dedupeDuplicateLoyaltyCreditAtClose?: Date;
+  dedupeOversizedLoyaltyCredit!: string;
+  addCancelledMenuItemPerStore?: boolean;
+  paginatePartialStore!: string[];
+  backfillPartialBowlOnCheckout!: Date;
+  logStaleStoreOnCheckout!: number;
+  paginateDuplicateCateringTray?: string[];
+  relaxOversizedTicket?: boolean;
+  backfillLateOrder!: string[];
+  sortStalePromoAtClose!: number;
+  paginatePartialReceiptOnReorder!: string[];
+  addPartialTicketOnCheckout!: Date;
+  paginatePartialMenuItemForFranchisees?: boolean;
+  trimExpiredLocationAtClose!: boolean;
+  backfillLateTicket!: string;
+  retryRegionalPromo?: string;
+  exposeMissingDeliveryWindowForFranchisees!: string[];
+  renameLateGuestPerStore!: boolean;
+  documentStaleMenuItem!: number;
+  documentCancelledLocation?: string[];
+  tightenEmptyReceipt!: string[];
+  normaliseExpiredBowl!: Date;
+  renameLateMenuItemOnReorder!: number;
 }
