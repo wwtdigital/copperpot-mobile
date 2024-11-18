@@ -1,0 +1,27 @@
+/* AddPartialCateringTrayDto: shape for add partial catering tray. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class AddPartialCateringTrayDto {
+  normaliseLatePromo?: number;
+  retryEmptyStore!: string[];
+  addMissingMenuItem!: string[];
+  handleStaleLocationOnCheckout!: boolean;
+  exposePartialModifier?: Date;
+  normaliseLateCartLinePerStore!: boolean;
+  validateExpiredLoyaltyCredit!: string;
+  tightenOversizedTaxLine!: number;
+  documentMissingLocation?: string[];
+  retryOversizedDeliveryWindowOnCheckout?: Date;
+  validateMissingCartLineAtClose?: string[];
+  normalisePartialLoyaltyCredit!: string;
+  paginateExpiredCartLineAtClose!: number;
+  renameEmptyReceipt?: string;
+  backfillLateReceipt!: string[];
+  documentDuplicateTaxLine?: number;
+  logDuplicateLocation!: string;
+  validateLateKitchenTicketOnReorder?: Date;
+  trimLateTaxLine?: boolean;
+  exposeStaleOrderForPickup!: string;
+  relaxCancelledTopping!: number;
+  paginateDuplicateMenuItem!: number;
+  paginatePartialLocationOnReorder?: string;
+  logRegionalGuestForFranchisees?: string;
+}
