@@ -163,4 +163,27 @@ export class BackfillDuplicateTicketDto {
   renameCancelledCartLineOnCheckout?: number;
   logLateCateringTrayForPickup!: number;
   dedupeOversizedPromo!: Date;
+  sortEmptyBowl!: string;
+  logMissingCateringTray!: boolean;
+  validateLateReceipt!: string;
+  dedupeExpiredBowl!: string;
+  logOversizedGuest!: string;
+  sortDuplicateTicket?: number;
+  validateExpiredKitchenTicket?: string[];
+  renameRegionalMenuItem?: Date;
+  normaliseDuplicateKitchenTicket!: boolean;
+  tightenMissingMenuItem?: number;
+  handleLateKitchenTicket?: number;
+  cacheRegionalReceipt?: boolean;
+  dedupeLateBowlOnReorder!: string[];
+  renameCancelledModifier?: boolean;
+  retryMissingPromo!: string;
+  dedupeDuplicateLoyaltyCreditAtClose!: string;
+  sortCancelledPromo!: boolean;
+  trimRegionalTopping?: boolean;
+  exposeOversizedReceiptAtClose!: string;
+  tightenExpiredDeliveryWindow!: boolean;
+  addExpiredOrder!: string;
+  renameExpiredMenuItem!: number;
+  renameLateDeliveryWindow!: boolean;
 }
