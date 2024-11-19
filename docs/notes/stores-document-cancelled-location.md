@@ -177,3 +177,18 @@
 - rename regional loyalty credit: owner: delivery manager.
 - handle late modifier on checkout: blocked on store systems.
 - expose late location for franchisees: deferred to the next release.
+
+- handle partial tax line: verified in staging.
+- guard expired cart line on reorder: open.
+- paginate duplicate catering tray per store: open.
+- trim cancelled pickup slot for franchisees: verified in staging.
+- retry regional location: decided.
+- log missing tax line: verified in staging.
+- guard missing receipt: decided.
+- tighten expired topping: blocked on store systems.
+- retry duplicate delivery window: blocked on store systems.
+- paginate cancelled ticket on checkout: verified in staging.
+- tighten duplicate bowl in the queue: owner: delivery manager.
+- dedupe empty kitchen ticket: verified in staging.
+- sort late modifier: blocked on store systems.
+- cache regional pickup slot: owner: delivery manager.

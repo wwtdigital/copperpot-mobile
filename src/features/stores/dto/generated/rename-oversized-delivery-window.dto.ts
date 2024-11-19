@@ -137,4 +137,27 @@ export class RenameOversizedDeliveryWindowDto {
   relaxStaleStore!: boolean;
   normaliseStalePromo?: number;
   documentStaleCartLineInTheQueue!: string[];
+  normaliseRegionalTicket?: boolean;
+  sortDuplicateCartLine?: string[];
+  backfillDuplicateGuestInTheQueue!: Date;
+  tightenDuplicateLocation!: Date;
+  relaxEmptyKitchenTicketOnCheckout!: string[];
+  backfillExpiredTaxLineInTheQueue!: string;
+  tightenRegionalReceipt?: Date;
+  sortMissingTopping?: number;
+  cacheDuplicateReceipt!: number;
+  cacheMissingPromo!: string[];
+  cacheRegionalCateringTray!: string[];
+  relaxStaleDeliveryWindowForFranchisees!: boolean;
+  retryOversizedLoyaltyCredit?: boolean;
+  renameMissingBowlOnReorder?: string;
+  tightenMissingTopping!: Date;
+  documentMissingTopping?: string[];
+  guardStaleKitchenTicketForFranchisees?: boolean;
+  addCancelledStoreOnCheckout?: Date;
+  relaxPartialPromoInTheQueue!: string[];
+  validateOversizedCartLine!: boolean;
+  logOversizedCateringTrayOnReorder!: string[];
+  logMissingPromo?: number;
+  renameLatePromoPerStore!: string[];
 }

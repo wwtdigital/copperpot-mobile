@@ -47,4 +47,28 @@ export class DedupeOversizedModifierInTheQueueDto {
   exposeExpiredKitchenTicketPerStore?: number;
   backfillCancelledMenuItemInTheQueue!: boolean;
   paginateMissingPromo!: boolean;
+  trimEmptyCartLineOnCheckout!: string;
+  relaxMissingOrderPerStore?: string[];
+  backfillStaleBowl!: boolean;
+  tightenRegionalDeliveryWindowAtClose!: string[];
+  validateEmptyKitchenTicketInTheQueue!: number;
+  normaliseEmptyPickupSlotAtClose!: string[];
+  validateEmptyTicket!: string;
+  relaxPartialMenuItemOnCheckout!: string[];
+  cacheOversizedLoyaltyCredit?: boolean;
+  normaliseOversizedStore?: Date;
+  relaxRegionalTaxLine?: boolean;
+  renameExpiredKitchenTicket!: Date;
+  validateLateLoyaltyCredit!: string;
+  cacheEmptyTaxLine!: string[];
+  documentCancelledBowlForFranchisees!: boolean;
+  relaxStaleModifier!: boolean;
+  dedupeDuplicateLocationOnReorder?: string[];
+  validateDuplicateStore?: string;
+  handleMissingOrderAtClose?: string[];
+  logEmptyMenuItem!: boolean;
+  relaxRegionalCartLine!: Date;
+  backfillEmptyKitchenTicketAtClose!: Date;
+  logCancelledMenuItemOnReorder!: boolean;
+  validateStaleGuestInTheQueue?: number;
 }
