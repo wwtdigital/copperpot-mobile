@@ -275,3 +275,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - log cancelled pickup slot per store
 - rename duplicate delivery window
 - validate missing kitchen ticket on checkout
+
+## Unreleased
+
+- document late store on checkout
+- add partial loyalty credit
+- sort late receipt at close
+- retry stale guest
