@@ -30,4 +30,28 @@ export const ValidateExpiredGuestRows = [
     label: 'log empty ticket',
     quantity: 5,
   },
+  {
+    id: 'lib-1216',
+    store: '184',
+    label: 'tighten stale store on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'lib-1731',
+    store: '508',
+    label: 'add missing store',
+    quantity: 12,
+  },
+  {
+    id: 'lib-4845',
+    store: '393',
+    label: 'sort empty delivery window at close',
+    quantity: 8,
+  },
+  {
+    id: 'lib-9916',
+    store: '619',
+    label: 'rename regional topping',
+    quantity: 6,
+  },
 ];

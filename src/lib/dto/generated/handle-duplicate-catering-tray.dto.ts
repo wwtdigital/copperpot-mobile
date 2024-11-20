@@ -13,4 +13,28 @@ export class HandleDuplicateCateringTrayDto {
   normaliseCancelledTaxLineForFranchisees!: boolean;
   guardExpiredTaxLine!: boolean;
   renameMissingModifierForFranchisees!: string[];
+  guardCancelledStoreForPickup!: string;
+  tightenCancelledPickupSlotForPickup?: number;
+  guardDuplicateCartLine?: boolean;
+  tightenDuplicateOrder?: number;
+  normaliseOversizedTicketOnCheckout?: number;
+  normaliseStaleOrder!: Date;
+  retryStaleModifierAtClose!: string;
+  renameEmptyDeliveryWindow?: Date;
+  trimDuplicateKitchenTicket!: boolean;
+  cacheMissingDeliveryWindow!: string[];
+  backfillExpiredStore!: Date;
+  handleRegionalTaxLineInTheQueue!: number;
+  backfillDuplicateDeliveryWindow!: number;
+  exposeEmptyTaxLine!: string;
+  addRegionalPromo?: boolean;
+  normaliseExpiredLocationAtClose!: boolean;
+  exposeMissingGuest!: Date;
+  guardOversizedPickupSlot?: string[];
+  normaliseExpiredKitchenTicket!: number;
+  exposeMissingStore?: boolean;
+  addCancelledTicketForPickup!: string;
+  guardLateLoyaltyCreditAtClose!: Date;
+  addOversizedGuestAtClose!: Date;
+  cacheOversizedLocation!: Date;
 }
