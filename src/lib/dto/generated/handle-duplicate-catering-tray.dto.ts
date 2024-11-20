@@ -4,4 +4,13 @@ export class HandleDuplicateCateringTrayDto {
   backfillLateKitchenTicket!: Date;
   dedupeMissingGuest!: string;
   sortEmptyStorePerStore!: number;
+  trimMissingLocationForFranchisees?: boolean;
+  sortStaleOrderPerStore!: number;
+  guardDuplicateTaxLine!: string[];
+  paginateLatePromo!: boolean;
+  addExpiredTopping?: boolean;
+  trimPartialDeliveryWindowForPickup!: string[];
+  normaliseCancelledTaxLineForFranchisees!: boolean;
+  guardExpiredTaxLine!: boolean;
+  renameMissingModifierForFranchisees!: string[];
 }

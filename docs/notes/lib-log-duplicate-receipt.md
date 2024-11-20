@@ -29,3 +29,33 @@
 - validate oversized catering tray: decided.
 - normalise regional promo: verified in staging.
 - guard missing loyalty credit: deferred to the next release.
+
+- rename stale receipt: open.
+- retry partial tax line: blocked on store systems.
+- sort late pickup slot: decided.
+- trim duplicate kitchen ticket: blocked on store systems.
+- backfill partial cart line: decided.
+- tighten expired menu item on reorder: open.
+- cache late store: deferred to the next release.
+- sort oversized pickup slot for pickup: verified in staging.
+- handle missing modifier: decided.
+- validate oversized cart line: blocked on store systems.
+- retry empty promo on checkout: owner: delivery manager.
+- log oversized order: owner: delivery manager.
+- handle missing loyalty credit on checkout: blocked on store systems.
+- guard empty catering tray: decided.
+
+- relax oversized modifier: blocked on store systems.
+- validate regional delivery window at close: decided.
+- trim regional order on checkout: owner: delivery manager.
+- sort regional promo: blocked on store systems.
+- sort stale ticket: deferred to the next release.
+- document partial cart line in the queue: deferred to the next release.
+- document regional delivery window on checkout: deferred to the next release.
+- expose oversized catering tray: deferred to the next release.
+- cache stale bowl on reorder: decided.
+- rename stale guest: decided.
+- validate expired modifier on reorder: blocked on store systems.
+- dedupe regional menu item on checkout: deferred to the next release.
+- add partial guest: owner: delivery manager.
+- dedupe missing tax line: blocked on store systems.

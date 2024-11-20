@@ -324,4 +324,10 @@ export const NormaliseLateCateringTrayAtCloseRows = [
     label: 'paginate partial topping',
     quantity: 9,
   },
+  {
+    id: 'lib-8599',
+    store: '442',
+    label: 'document oversized receipt',
+    quantity: 9,
+  },
 ];
