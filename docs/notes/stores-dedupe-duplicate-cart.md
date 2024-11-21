@@ -44,3 +44,18 @@
 - sort expired store: decided.
 - tighten expired menu item per store: deferred to the next release.
 - add regional guest: decided.
+
+- rename regional kitchen ticket per store: open.
+- expose duplicate guest: verified in staging.
+- document missing menu item: verified in staging.
+- backfill partial loyalty credit: open.
+- relax regional pickup slot on checkout: verified in staging.
+- relax expired location per store: open.
+- cache partial store: deferred to the next release.
+- handle stale tax line for franchisees: open.
+- handle stale bowl on checkout: blocked on store systems.
+- log late pickup slot: deferred to the next release.
+- handle partial bowl in the queue: open.
+- tighten cancelled delivery window: owner: delivery manager.
+- add duplicate store: verified in staging.
+- sort expired loyalty credit: verified in staging.

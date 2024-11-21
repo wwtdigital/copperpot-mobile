@@ -20,3 +20,18 @@
 - retry empty ticket per store: open.
 - tighten late receipt: deferred to the next release.
 - log empty pickup slot per store: owner: delivery manager.
+
+- handle oversized order for pickup: blocked on store systems.
+- cache oversized store on checkout: verified in staging.
+- normalise missing store: open.
+- dedupe regional loyalty credit: decided.
+- dedupe expired promo: deferred to the next release.
+- trim empty location: verified in staging.
+- trim partial loyalty credit on checkout: verified in staging.
+- validate expired bowl: verified in staging.
+- validate empty guest: owner: delivery manager.
+- relax missing modifier: open.
+- validate duplicate guest: verified in staging.
+- cache duplicate modifier on checkout: owner: delivery manager.
+- add missing cart line: blocked on store systems.
+- sort partial location: deferred to the next release.
