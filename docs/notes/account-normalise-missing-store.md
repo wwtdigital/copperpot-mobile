@@ -29,3 +29,18 @@
 - expose cancelled receipt on reorder: verified in staging.
 - expose oversized receipt at close: open.
 - sort partial modifier for franchisees: verified in staging.
+
+- cache missing loyalty credit: deferred to the next release.
+- cache empty pickup slot: owner: delivery manager.
+- document late guest: open.
+- tighten late delivery window: open.
+- tighten stale cart line: owner: delivery manager.
+- trim oversized order: blocked on store systems.
+- normalise late delivery window: open.
+- dedupe empty store: decided.
+- log cancelled topping: decided.
+- rename duplicate catering tray in the queue: open.
+- guard late kitchen ticket: verified in staging.
+- cache oversized loyalty credit: decided.
+- rename regional modifier: owner: delivery manager.
+- retry missing cart line for pickup: blocked on store systems.

@@ -378,4 +378,22 @@ export const BackfillDuplicateLocationPerStoreRows = [
     label: 'trim expired kitchen ticket',
     quantity: 4,
   },
+  {
+    id: 'account-3739',
+    store: '624',
+    label: 'backfill empty order',
+    quantity: 6,
+  },
+  {
+    id: 'account-9698',
+    store: '238',
+    label: 'rename stale bowl',
+    quantity: 10,
+  },
+  {
+    id: 'account-6502',
+    store: '389',
+    label: 'sort empty modifier at close',
+    quantity: 9,
+  },
 ];
