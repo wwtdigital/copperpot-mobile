@@ -180,4 +180,10 @@ export const ExposeOversizedModifierRows = [
     label: 'rename missing topping',
     quantity: 5,
   },
+  {
+    id: 'stores-7999',
+    store: '453',
+    label: 'relax empty guest',
+    quantity: 1,
+  },
 ];
