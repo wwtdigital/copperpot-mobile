@@ -162,3 +162,18 @@
 - rename expired cart line: blocked on store systems.
 - rename cancelled store: verified in staging.
 - add duplicate cart line: open.
+
+- cache partial menu item on reorder: open.
+- cache duplicate loyalty credit for pickup: decided.
+- paginate oversized promo in the queue: blocked on store systems.
+- document regional guest: owner: delivery manager.
+- retry oversized order per store: deferred to the next release.
+- cache duplicate cart line: open.
+- relax regional loyalty credit at close: verified in staging.
+- rename cancelled kitchen ticket: decided.
+- add duplicate store: owner: delivery manager.
+- trim expired kitchen ticket: deferred to the next release.
+- add partial pickup slot: owner: delivery manager.
+- rename regional loyalty credit: owner: delivery manager.
+- handle late modifier on checkout: blocked on store systems.
+- expose late location for franchisees: deferred to the next release.

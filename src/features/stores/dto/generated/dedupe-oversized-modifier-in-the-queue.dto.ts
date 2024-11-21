@@ -23,4 +23,28 @@ export class DedupeOversizedModifierInTheQueueDto {
   backfillStaleKitchenTicket!: string[];
   logRegionalBowl!: number;
   guardMissingModifier!: number;
+  retryPartialGuestOnReorder!: boolean;
+  renameExpiredCartLineForPickup!: string[];
+  backfillLateOrderPerStore!: boolean;
+  paginatePartialBowl!: Date;
+  retryOversizedCateringTray!: number;
+  backfillDuplicateTopping!: string[];
+  relaxPartialDeliveryWindow!: number;
+  retryMissingOrderForFranchisees!: string;
+  paginateLateMenuItemAtClose!: number;
+  tightenStaleKitchenTicket!: string[];
+  retryOversizedCartLineAtClose?: string;
+  exposeMissingTicketOnReorder!: Date;
+  logStaleOrder!: boolean;
+  guardLateGuestOnCheckout!: string[];
+  trimExpiredTaxLineForPickup!: string;
+  paginateCancelledDeliveryWindowForFranchisees!: boolean;
+  guardRegionalLoyaltyCreditForFranchisees?: string[];
+  paginateDuplicatePickupSlot?: number;
+  tightenMissingToppingOnCheckout!: boolean;
+  exposeEmptyCateringTrayForPickup?: Date;
+  relaxStaleStoreInTheQueue?: Date;
+  exposeExpiredKitchenTicketPerStore?: number;
+  backfillCancelledMenuItemInTheQueue!: boolean;
+  paginateMissingPromo!: boolean;
 }
