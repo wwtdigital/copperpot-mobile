@@ -282,3 +282,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - add partial loyalty credit
 - sort late receipt at close
 - retry stale guest
+
+## Unreleased
+
+- normalise duplicate location
+- tighten duplicate pickup slot
+- dedupe cancelled order at close
+- trim cancelled bowl for pickup
