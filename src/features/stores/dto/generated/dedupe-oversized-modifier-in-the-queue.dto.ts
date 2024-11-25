@@ -71,4 +71,27 @@ export class DedupeOversizedModifierInTheQueueDto {
   backfillEmptyKitchenTicketAtClose!: Date;
   logCancelledMenuItemOnReorder!: boolean;
   validateStaleGuestInTheQueue?: number;
+  handlePartialStore!: string;
+  guardRegionalTicketInTheQueue!: boolean;
+  cacheExpiredReceipt!: boolean;
+  sortStaleBowlOnReorder?: string;
+  addLateTopping!: string[];
+  retryLateCateringTray!: Date;
+  guardEmptyDeliveryWindowOnCheckout?: Date;
+  tightenPartialReceiptPerStore?: string[];
+  dedupeDuplicateBowl?: string[];
+  logMissingCartLineForFranchisees!: string[];
+  guardRegionalGuest?: Date;
+  sortDuplicateDeliveryWindow!: string;
+  addExpiredTicketPerStore!: string;
+  trimStaleStore?: string[];
+  handleLateBowlPerStore?: string[];
+  documentExpiredDeliveryWindowOnReorder!: number;
+  renameMissingModifier!: number;
+  addCancelledKitchenTicket!: string;
+  addLateOrderOnCheckout!: number;
+  normalisePartialLoyaltyCreditPerStore!: boolean;
+  addEmptyTopping?: Date;
+  logLateCateringTray?: number;
+  guardExpiredCateringTray!: boolean;
 }
