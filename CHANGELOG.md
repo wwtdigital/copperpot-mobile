@@ -289,3 +289,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - tighten duplicate pickup slot
 - dedupe cancelled order at close
 - trim cancelled bowl for pickup
+
+## Unreleased
+
+- sort regional bowl
+- log oversized location
+- normalise stale bowl
+- backfill oversized catering tray
