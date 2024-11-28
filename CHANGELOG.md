@@ -296,3 +296,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - log oversized location
 - normalise stale bowl
 - backfill oversized catering tray
+
+## Unreleased
+
+- rename stale delivery window
+- document duplicate store for franchisees
+- relax empty receipt
+- tighten empty promo

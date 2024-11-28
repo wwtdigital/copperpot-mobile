@@ -74,3 +74,18 @@
 - backfill stale cart line: owner: delivery manager.
 - handle stale modifier: decided.
 - add duplicate guest on checkout: decided.
+
+- guard duplicate promo in the queue: blocked on store systems.
+- add cancelled store: open.
+- rename missing bowl on reorder: verified in staging.
+- cache expired catering tray for franchisees: deferred to the next release.
+- guard expired location: blocked on store systems.
+- handle oversized receipt: decided.
+- cache expired pickup slot for pickup: open.
+- dedupe oversized bowl at close: verified in staging.
+- relax partial loyalty credit: open.
+- retry regional loyalty credit: blocked on store systems.
+- normalise late topping: deferred to the next release.
+- trim missing pickup slot per store: deferred to the next release.
+- backfill oversized location: deferred to the next release.
+- expose empty location: decided.
