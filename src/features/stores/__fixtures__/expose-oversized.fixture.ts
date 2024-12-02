@@ -336,4 +336,52 @@ export const ExposeOversizedModifierRows = [
     label: 'add oversized delivery window at close',
     quantity: 2,
   },
+  {
+    id: 'stores-7017',
+    store: '450',
+    label: 'add stale order per store',
+    quantity: 10,
+  },
+  {
+    id: 'stores-6844',
+    store: '430',
+    label: 'retry oversized topping',
+    quantity: 9,
+  },
+  {
+    id: 'stores-8704',
+    store: '101',
+    label: 'add regional catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'stores-4183',
+    store: '462',
+    label: 'add missing menu item on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'stores-4306',
+    store: '307',
+    label: 'dedupe oversized cart line at close',
+    quantity: 3,
+  },
+  {
+    id: 'stores-4053',
+    store: '649',
+    label: 'normalise regional tax line',
+    quantity: 10,
+  },
+  {
+    id: 'stores-8849',
+    store: '334',
+    label: 'trim cancelled receipt',
+    quantity: 4,
+  },
+  {
+    id: 'stores-1261',
+    store: '593',
+    label: 'backfill expired guest',
+    quantity: 8,
+  },
 ];
