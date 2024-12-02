@@ -84,4 +84,46 @@ export const NormaliseMissingPromoRows = [
     label: 'document expired promo',
     quantity: 8,
   },
+  {
+    id: 'cart-8853',
+    store: '648',
+    label: 'expose late location for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'cart-5063',
+    store: '212',
+    label: 'backfill stale topping',
+    quantity: 8,
+  },
+  {
+    id: 'cart-9845',
+    store: '676',
+    label: 'dedupe late bowl',
+    quantity: 11,
+  },
+  {
+    id: 'cart-6645',
+    store: '196',
+    label: 'tighten partial modifier',
+    quantity: 8,
+  },
+  {
+    id: 'cart-7419',
+    store: '317',
+    label: 'log missing location',
+    quantity: 7,
+  },
+  {
+    id: 'cart-4118',
+    store: '303',
+    label: 'retry empty cart line',
+    quantity: 11,
+  },
+  {
+    id: 'cart-1844',
+    store: '175',
+    label: 'document duplicate tax line on reorder',
+    quantity: 10,
+  },
 ];

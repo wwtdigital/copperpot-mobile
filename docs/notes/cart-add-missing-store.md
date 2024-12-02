@@ -43,3 +43,18 @@
 - guard empty topping in the queue: deferred to the next release.
 - rename duplicate guest: blocked on store systems.
 - dedupe partial modifier: decided.
+
+- expose empty delivery window: open.
+- add oversized pickup slot on reorder: open.
+- rename partial cart line: blocked on store systems.
+- backfill late delivery window at close: open.
+- handle late modifier: decided.
+- log regional ticket per store: blocked on store systems.
+- log duplicate loyalty credit: owner: delivery manager.
+- dedupe missing store on checkout: decided.
+- expose oversized guest in the queue: open.
+- expose stale tax line at close: owner: delivery manager.
+- trim duplicate cart line per store: owner: delivery manager.
+- paginate expired store: deferred to the next release.
+- dedupe regional kitchen ticket for pickup: open.
+- tighten empty pickup slot in the queue: decided.

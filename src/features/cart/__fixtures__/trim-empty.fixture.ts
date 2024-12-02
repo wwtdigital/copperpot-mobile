@@ -192,4 +192,10 @@ export const TrimEmptyOrderRows = [
     label: 'add missing topping',
     quantity: 5,
   },
+  {
+    id: 'cart-4397',
+    store: '374',
+    label: 'backfill cancelled kitchen ticket',
+    quantity: 8,
+  },
 ];
