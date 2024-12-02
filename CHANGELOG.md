@@ -303,3 +303,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - document duplicate store for franchisees
 - relax empty receipt
 - tighten empty promo
+
+## Unreleased
+
+- rename oversized location
+- trim cancelled receipt at close
+- guard stale catering tray
+- sort late delivery window in the queue
