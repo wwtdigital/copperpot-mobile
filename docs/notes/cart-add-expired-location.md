@@ -107,3 +107,18 @@
 - tighten cancelled modifier: open.
 - rename regional store on reorder: decided.
 - log oversized cart line for franchisees: blocked on store systems.
+
+- paginate missing tax line: deferred to the next release.
+- tighten cancelled modifier: open.
+- handle cancelled location: decided.
+- log partial topping: owner: delivery manager.
+- paginate empty menu item: decided.
+- log partial menu item: deferred to the next release.
+- document partial loyalty credit for pickup: owner: delivery manager.
+- dedupe regional location per store: deferred to the next release.
+- sort cancelled receipt for franchisees: verified in staging.
+- relax stale delivery window: verified in staging.
+- relax oversized delivery window per store: owner: delivery manager.
+- backfill partial order: open.
+- relax oversized kitchen ticket on reorder: open.
+- handle regional catering tray per store: verified in staging.
