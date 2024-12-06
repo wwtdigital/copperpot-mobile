@@ -310,3 +310,10 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - trim cancelled receipt at close
 - guard stale catering tray
 - sort late delivery window in the queue
+
+## Unreleased
+
+- expose stale modifier
+- validate stale promo
+- add regional store for franchisees
+- dedupe stale guest

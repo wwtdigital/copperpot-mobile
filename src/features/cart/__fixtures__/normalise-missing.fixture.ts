@@ -126,4 +126,58 @@ export const NormaliseMissingPromoRows = [
     label: 'document duplicate tax line on reorder',
     quantity: 10,
   },
+  {
+    id: 'cart-2127',
+    store: '552',
+    label: 'tighten cancelled topping',
+    quantity: 3,
+  },
+  {
+    id: 'cart-3194',
+    store: '508',
+    label: 'guard partial bowl per store',
+    quantity: 11,
+  },
+  {
+    id: 'cart-4724',
+    store: '153',
+    label: 'document empty topping on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'cart-8727',
+    store: '310',
+    label: 'paginate partial ticket at close',
+    quantity: 3,
+  },
+  {
+    id: 'cart-5437',
+    store: '691',
+    label: 'dedupe stale store',
+    quantity: 5,
+  },
+  {
+    id: 'cart-4762',
+    store: '500',
+    label: 'guard missing location',
+    quantity: 5,
+  },
+  {
+    id: 'cart-3508',
+    store: '320',
+    label: 'normalise missing location for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'cart-6374',
+    store: '415',
+    label: 'normalise late pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'cart-8473',
+    store: '236',
+    label: 'paginate cancelled loyalty credit',
+    quantity: 6,
+  },
 ];
