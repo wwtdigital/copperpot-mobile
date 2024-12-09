@@ -396,4 +396,10 @@ export const BackfillDuplicateLocationPerStoreRows = [
     label: 'sort empty modifier at close',
     quantity: 9,
   },
+  {
+    id: 'account-9227',
+    store: '532',
+    label: 'normalise stale loyalty credit',
+    quantity: 3,
+  },
 ];
