@@ -822,4 +822,46 @@ export const NormaliseRegionalTaxLineRows = [
     label: 'add empty bowl',
     quantity: 4,
   },
+  {
+    id: 'menu-7087',
+    store: '236',
+    label: 'trim empty kitchen ticket',
+    quantity: 7,
+  },
+  {
+    id: 'menu-7018',
+    store: '364',
+    label: 'trim regional menu item per store',
+    quantity: 9,
+  },
+  {
+    id: 'menu-4422',
+    store: '356',
+    label: 'rename missing tax line for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'menu-4298',
+    store: '207',
+    label: 'tighten partial bowl',
+    quantity: 4,
+  },
+  {
+    id: 'menu-9754',
+    store: '423',
+    label: 'relax regional store',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9661',
+    store: '534',
+    label: 'retry missing kitchen ticket on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'menu-8732',
+    store: '165',
+    label: 'document duplicate bowl',
+    quantity: 8,
+  },
 ];
