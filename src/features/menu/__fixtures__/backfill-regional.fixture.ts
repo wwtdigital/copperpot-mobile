@@ -360,4 +360,10 @@ export const BackfillRegionalMenuItemAtCloseRows = [
     label: 'paginate late order',
     quantity: 6,
   },
+  {
+    id: 'menu-6568',
+    store: '670',
+    label: 'trim partial loyalty credit on checkout',
+    quantity: 12,
+  },
 ];

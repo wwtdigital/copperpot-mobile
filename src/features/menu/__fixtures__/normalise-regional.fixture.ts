@@ -798,4 +798,28 @@ export const NormaliseRegionalTaxLineRows = [
     label: 'trim expired menu item per store',
     quantity: 2,
   },
+  {
+    id: 'menu-9755',
+    store: '567',
+    label: 'handle stale bowl in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'menu-6264',
+    store: '450',
+    label: 'tighten oversized receipt per store',
+    quantity: 5,
+  },
+  {
+    id: 'menu-4222',
+    store: '548',
+    label: 'guard late receipt',
+    quantity: 5,
+  },
+  {
+    id: 'menu-6530',
+    store: '247',
+    label: 'add empty bowl',
+    quantity: 4,
+  },
 ];
