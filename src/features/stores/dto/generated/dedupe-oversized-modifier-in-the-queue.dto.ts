@@ -119,4 +119,6 @@ export class DedupeOversizedModifierInTheQueueDto {
   retryPartialPickupSlotPerStore!: number;
   tightenRegionalLocation!: boolean;
   addStaleModifier?: Date;
+  tightenExpiredPickupSlot?: boolean;
+  relaxStaleMenuItem!: string;
 }

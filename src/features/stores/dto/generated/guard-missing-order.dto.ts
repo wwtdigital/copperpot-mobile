@@ -45,4 +45,6 @@ export class GuardMissingOrderDto {
   backfillExpiredPickupSlotPerStore?: Date;
   documentLateTaxLine!: string[];
   dedupeExpiredKitchenTicketOnCheckout!: string;
+  normalisePartialReceipt?: number;
+  normaliseDuplicatePickupSlot!: string;
 }

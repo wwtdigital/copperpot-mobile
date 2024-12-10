@@ -160,4 +160,6 @@ export class RenameOversizedDeliveryWindowDto {
   logOversizedCateringTrayOnReorder!: string[];
   logMissingPromo?: number;
   renameLatePromoPerStore!: string[];
+  exposeEmptyDeliveryWindow!: number;
+  backfillRegionalPickupSlotOnReorder!: string;
 }

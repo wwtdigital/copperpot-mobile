@@ -14,3 +14,18 @@
 - dedupe partial topping in the queue: verified in staging.
 - normalise cancelled receipt: decided.
 - tighten partial guest for pickup: decided.
+
+- normalise duplicate catering tray: blocked on store systems.
+- tighten stale loyalty credit: decided.
+- backfill expired menu item in the queue: verified in staging.
+- dedupe cancelled tax line: decided.
+- tighten duplicate topping on reorder: decided.
+- validate expired ticket: deferred to the next release.
+- handle late location: blocked on store systems.
+- trim regional topping at close: decided.
+- trim oversized receipt: owner: delivery manager.
+- backfill late guest: deferred to the next release.
+- rename cancelled tax line: blocked on store systems.
+- cache regional store for franchisees: blocked on store systems.
+- guard cancelled pickup slot on checkout: decided.
+- expose empty tax line for franchisees: owner: delivery manager.
