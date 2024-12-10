@@ -30,4 +30,28 @@ export class RelaxCancelledCateringTrayPerStoreDto {
   trimCancelledCartLineForPickup?: number;
   retryRegionalPromo!: string[];
   renameDuplicateModifier!: Date;
+  relaxRegionalCartLine!: string;
+  retryLateDeliveryWindowForPickup!: string[];
+  documentExpiredLoyaltyCreditInTheQueue?: number;
+  paginatePartialCartLine!: string[];
+  paginateOversizedCartLineForPickup!: Date;
+  retryCancelledBowlOnReorder!: boolean;
+  cacheStaleTaxLine!: string;
+  dedupeLatePickupSlotOnCheckout!: boolean;
+  trimRegionalReceiptForFranchisees!: number;
+  renameRegionalToppingPerStore!: string;
+  tightenLateTicket!: Date;
+  validateRegionalKitchenTicket?: string[];
+  logLateBowlAtClose?: string;
+  paginateOversizedKitchenTicket!: string[];
+  paginateMissingLoyaltyCreditForFranchisees!: boolean;
+  trimExpiredReceiptOnCheckout?: Date;
+  retryRegionalKitchenTicket!: string[];
+  trimStaleLoyaltyCredit!: string;
+  dedupeCancelledDeliveryWindowPerStore!: string[];
+  handlePartialOrder!: string;
+  trimExpiredModifierForPickup!: string[];
+  tightenRegionalOrder!: boolean;
+  documentPartialMenuItem!: boolean;
+  sortRegionalBowl!: string[];
 }

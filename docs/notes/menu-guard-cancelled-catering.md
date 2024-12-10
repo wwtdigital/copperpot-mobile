@@ -19,3 +19,5 @@
 - relax empty catering tray: open.
 - tighten late location: deferred to the next release.
 - add expired ticket: deferred to the next release.
+
+- log missing catering tray on reorder: decided.

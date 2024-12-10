@@ -366,4 +366,58 @@ export const BackfillRegionalMenuItemAtCloseRows = [
     label: 'trim partial loyalty credit on checkout',
     quantity: 12,
   },
+  {
+    id: 'menu-1284',
+    store: '237',
+    label: 'trim empty modifier on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'menu-2550',
+    store: '423',
+    label: 'trim partial catering tray',
+    quantity: 5,
+  },
+  {
+    id: 'menu-8327',
+    store: '601',
+    label: 'trim empty ticket for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'menu-8045',
+    store: '199',
+    label: 'dedupe stale menu item',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3737',
+    store: '271',
+    label: 'handle oversized order',
+    quantity: 4,
+  },
+  {
+    id: 'menu-8332',
+    store: '188',
+    label: 'cache stale guest for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9385',
+    store: '651',
+    label: 'relax expired bowl',
+    quantity: 2,
+  },
+  {
+    id: 'menu-2677',
+    store: '663',
+    label: 'backfill cancelled modifier',
+    quantity: 10,
+  },
+  {
+    id: 'menu-1495',
+    store: '481',
+    label: 'relax late ticket per store',
+    quantity: 9,
+  },
 ];
