@@ -762,4 +762,40 @@ export const NormaliseRegionalTaxLineRows = [
     label: 'dedupe empty kitchen ticket on reorder',
     quantity: 3,
   },
+  {
+    id: 'menu-2660',
+    store: '481',
+    label: 'sort stale modifier',
+    quantity: 4,
+  },
+  {
+    id: 'menu-6140',
+    store: '407',
+    label: 'document missing store at close',
+    quantity: 4,
+  },
+  {
+    id: 'menu-6772',
+    store: '600',
+    label: 'guard duplicate topping',
+    quantity: 10,
+  },
+  {
+    id: 'menu-3695',
+    store: '286',
+    label: 'log regional topping at close',
+    quantity: 1,
+  },
+  {
+    id: 'menu-3086',
+    store: '528',
+    label: 'handle empty tax line',
+    quantity: 1,
+  },
+  {
+    id: 'menu-7404',
+    store: '565',
+    label: 'trim expired menu item per store',
+    quantity: 2,
+  },
 ];
