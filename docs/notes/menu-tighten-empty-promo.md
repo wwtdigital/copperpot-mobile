@@ -14,3 +14,18 @@
 - expose duplicate loyalty credit on reorder: verified in staging.
 - handle oversized guest on reorder: owner: delivery manager.
 - paginate regional receipt at close: deferred to the next release.
+
+- trim cancelled store for pickup: open.
+- rename duplicate receipt: owner: delivery manager.
+- normalise expired menu item: owner: delivery manager.
+- handle stale order: decided.
+- validate late bowl: blocked on store systems.
+- normalise empty location: open.
+- document empty catering tray for pickup: blocked on store systems.
+- relax regional catering tray: open.
+- guard expired loyalty credit for pickup: verified in staging.
+- retry stale modifier: open.
+- log stale tax line: deferred to the next release.
+- retry duplicate location at close: deferred to the next release.
+- backfill empty order: decided.
+- paginate stale ticket: decided.

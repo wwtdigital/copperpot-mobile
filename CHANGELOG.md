@@ -317,3 +317,8 @@ Handover build from the agency: home screen with offers, cart badge, fonts and s
 - validate stale promo
 - add regional store for franchisees
 - dedupe stale guest
+
+## Unreleased
+
+- validate regional catering tray for pickup
+- rename duplicate bowl on reorder

@@ -14,4 +14,20 @@ export class RelaxCancelledCateringTrayPerStoreDto {
   renamePartialPickupSlotForPickup!: Date;
   normaliseMissingPromo!: number;
   documentMissingKitchenTicketForFranchisees!: number;
+  logMissingLocation!: string[];
+  retryLateMenuItem!: number;
+  guardStaleDeliveryWindowInTheQueue!: boolean;
+  backfillStalePickupSlotOnCheckout?: number;
+  backfillEmptyTicket!: boolean;
+  validateLateToppingAtClose!: boolean;
+  cacheStaleDeliveryWindow!: number;
+  renameOversizedDeliveryWindow!: number;
+  tightenRegionalPickupSlot!: string;
+  backfillPartialMenuItem?: Date;
+  logRegionalTicketOnCheckout?: boolean;
+  trimExpiredPickupSlotOnCheckout!: string[];
+  paginateMissingGuestForPickup!: string[];
+  trimCancelledCartLineForPickup?: number;
+  retryRegionalPromo!: string[];
+  renameDuplicateModifier!: Date;
 }
