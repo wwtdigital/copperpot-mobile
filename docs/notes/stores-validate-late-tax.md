@@ -44,3 +44,18 @@
 - cache late tax line: verified in staging.
 - retry empty guest for franchisees: blocked on store systems.
 - paginate late promo for pickup: owner: delivery manager.
+
+- tighten duplicate modifier: decided.
+- document expired cart line for pickup: open.
+- sort late bowl: verified in staging.
+- paginate empty topping: owner: delivery manager.
+- tighten empty location on reorder: decided.
+- document missing bowl: deferred to the next release.
+- document missing tax line: open.
+- paginate empty location: open.
+- document empty delivery window: verified in staging.
+- handle cancelled catering tray in the queue: decided.
+- relax late catering tray for pickup: owner: delivery manager.
+- handle late ticket in the queue: decided.
+- document duplicate guest: owner: delivery manager.
+- backfill regional ticket: open.
