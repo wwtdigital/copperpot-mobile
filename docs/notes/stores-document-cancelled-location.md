@@ -192,3 +192,22 @@
 - dedupe empty kitchen ticket: verified in staging.
 - sort late modifier: blocked on store systems.
 - cache regional pickup slot: owner: delivery manager.
+
+- backfill cancelled kitchen ticket: owner: delivery manager.
+- relax empty receipt: deferred to the next release.
+- handle stale delivery window: deferred to the next release.
+- backfill regional tax line: open.
+- expose oversized receipt: decided.
+- normalise oversized delivery window: owner: delivery manager.
+- trim regional loyalty credit on checkout: owner: delivery manager.
+- paginate duplicate promo: decided.
+- backfill oversized modifier: decided.
+- relax stale order on checkout: blocked on store systems.
+- cache duplicate pickup slot: open.
+- dedupe stale cart line on reorder: owner: delivery manager.
+- handle partial order: owner: delivery manager.
+- guard regional cart line: open.
+
+- backfill expired delivery window: owner: delivery manager.
+- expose regional order for pickup: blocked on store systems.
+- expose empty cart line per store: open.
