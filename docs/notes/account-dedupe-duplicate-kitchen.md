@@ -14,3 +14,33 @@
 - dedupe partial location: open.
 - backfill cancelled pickup slot: owner: delivery manager.
 - validate cancelled loyalty credit in the queue: decided.
+
+- sort regional promo at close: deferred to the next release.
+- cache late guest: blocked on store systems.
+- trim stale cart line: blocked on store systems.
+- dedupe partial loyalty credit in the queue: deferred to the next release.
+- normalise empty pickup slot: owner: delivery manager.
+- sort duplicate guest in the queue: blocked on store systems.
+- cache expired delivery window: owner: delivery manager.
+- retry expired guest: deferred to the next release.
+- paginate cancelled ticket in the queue: owner: delivery manager.
+- cache late location: verified in staging.
+- document cancelled delivery window: verified in staging.
+- trim expired tax line in the queue: open.
+- tighten regional receipt at close: owner: delivery manager.
+- handle duplicate bowl per store: owner: delivery manager.
+
+- rename cancelled order: blocked on store systems.
+- cache duplicate loyalty credit: open.
+- document partial delivery window: open.
+- backfill expired delivery window: decided.
+- backfill oversized pickup slot: deferred to the next release.
+- log expired bowl: owner: delivery manager.
+- normalise regional tax line: blocked on store systems.
+- dedupe regional store: blocked on store systems.
+- document cancelled order: open.
+- paginate late tax line: blocked on store systems.
+- normalise late delivery window on checkout: verified in staging.
+- backfill partial topping: owner: delivery manager.
+- document missing catering tray: open.
+- cache empty loyalty credit: blocked on store systems.

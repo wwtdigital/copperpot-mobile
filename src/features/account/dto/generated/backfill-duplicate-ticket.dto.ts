@@ -227,4 +227,27 @@ export class BackfillDuplicateTicketDto {
   addLateLoyaltyCredit?: boolean;
   tightenOversizedCartLine!: string[];
   addMissingPromo!: string;
+  cacheExpiredReceipt!: number;
+  validateMissingMenuItem?: number;
+  normaliseOversizedLoyaltyCredit?: string[];
+  validateLateDeliveryWindow?: boolean;
+  trimEmptyPickupSlot!: string;
+  cacheDuplicateOrder?: number;
+  retryOversizedGuest!: Date;
+  normaliseRegionalTaxLine!: boolean;
+  sortMissingModifier?: boolean;
+  dedupeCancelledReceipt!: string;
+  trimRegionalLoyaltyCredit!: string[];
+  normaliseDuplicateTicket!: number;
+  addCancelledDeliveryWindowForPickup?: number;
+  validateLateStore!: string;
+  paginateStaleTicket!: number;
+  normaliseDuplicateMenuItemAtClose!: boolean;
+  documentLateMenuItem!: string[];
+  documentDuplicateDeliveryWindow!: boolean;
+  trimMissingTaxLineInTheQueue!: Date;
+  cacheDuplicateLoyaltyCreditOnReorder!: number;
+  addEmptyPromoForPickup!: Date;
+  validateLateTaxLineForFranchisees!: string[];
+  dedupeStalePromoForPickup?: string;
 }

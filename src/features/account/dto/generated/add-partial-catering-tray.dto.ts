@@ -48,4 +48,28 @@ export class AddPartialCateringTrayDto {
   tightenEmptyReceipt!: string[];
   normaliseExpiredBowl!: Date;
   renameLateMenuItemOnReorder!: number;
+  validateExpiredTaxLine!: number;
+  retryRegionalTicket?: boolean;
+  normaliseOversizedTicket!: Date;
+  validateExpiredReceiptInTheQueue!: string[];
+  validateLateToppingInTheQueue?: string;
+  documentDuplicateGuestOnCheckout!: Date;
+  addCancelledReceipt?: string;
+  paginatePartialStoreForFranchisees?: string;
+  tightenEmptyCateringTray?: boolean;
+  trimCancelledTaxLine?: number;
+  validateOversizedTicket!: Date;
+  validateRegionalReceipt!: string;
+  relaxRegionalTicket!: boolean;
+  documentOversizedDeliveryWindowOnReorder!: number;
+  exposeLatePromoForFranchisees?: string;
+  paginateMissingMenuItem!: boolean;
+  dedupePartialTaxLine?: Date;
+  trimExpiredBowl?: boolean;
+  cacheCancelledTaxLine!: string;
+  sortExpiredCartLine!: string[];
+  tightenMissingOrderForFranchisees!: Date;
+  normaliseCancelledPromo!: Date;
+  addDuplicateGuest?: string[];
+  guardPartialOrder!: Date;
 }
