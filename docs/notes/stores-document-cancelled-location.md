@@ -207,3 +207,7 @@
 - dedupe stale cart line on reorder: owner: delivery manager.
 - handle partial order: owner: delivery manager.
 - guard regional cart line: open.
+
+- backfill expired delivery window: owner: delivery manager.
+- expose regional order for pickup: blocked on store systems.
+- expose empty cart line per store: open.

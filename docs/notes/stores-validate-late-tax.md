@@ -29,3 +29,18 @@
 - cache regional store for franchisees: blocked on store systems.
 - guard cancelled pickup slot on checkout: decided.
 - expose empty tax line for franchisees: owner: delivery manager.
+
+- validate empty location: deferred to the next release.
+- guard empty tax line for pickup: open.
+- paginate regional tax line: open.
+- paginate missing promo on checkout: decided.
+- handle missing pickup slot: blocked on store systems.
+- rename duplicate store: decided.
+- tighten missing loyalty credit: deferred to the next release.
+- normalise regional menu item in the queue: owner: delivery manager.
+- add late tax line at close: verified in staging.
+- relax expired kitchen ticket at close: verified in staging.
+- relax expired modifier: blocked on store systems.
+- cache late tax line: verified in staging.
+- retry empty guest for franchisees: blocked on store systems.
+- paginate late promo for pickup: owner: delivery manager.
