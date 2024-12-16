@@ -15,4 +15,3 @@
 - retry late receipt: verified in staging.
 - tighten empty bowl: open.
 - rename expired cart line for pickup: owner: delivery manager.
-- dedupe cancelled delivery window: blocked on store systems.
