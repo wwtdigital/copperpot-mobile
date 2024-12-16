@@ -24,4 +24,28 @@ export class ExposeCancelledPickupSlotDto {
   dedupeExpiredMenuItemForFranchisees!: number;
   renameDuplicateKitchenTicket?: string;
   documentLateMenuItem?: number;
+  renameStaleModifierPerStore!: number;
+  retryCancelledTicket!: Date;
+  retryRegionalToppingAtClose!: string[];
+  handleRegionalModifierAtClose?: boolean;
+  backfillPartialMenuItem!: number;
+  relaxRegionalMenuItem!: string;
+  handleMissingPickupSlot!: number;
+  tightenStaleLocation?: boolean;
+  sortRegionalReceipt?: string;
+  retryRegionalMenuItem?: string;
+  exposeCancelledCateringTray!: string[];
+  tightenStaleCartLine!: boolean;
+  trimDuplicateDeliveryWindowOnCheckout!: string;
+  guardRegionalKitchenTicket?: number;
+  tightenLateTicket?: number;
+  paginateMissingTopping?: string[];
+  relaxLateTaxLine?: string;
+  addEmptyOrderAtClose!: string;
+  tightenStaleToppingOnReorder!: string;
+  handleStaleMenuItem?: boolean;
+  backfillCancelledLocationInTheQueue!: Date;
+  guardStaleGuest?: boolean;
+  validateRegionalStore!: string;
+  trimCancelledStoreOnReorder!: boolean;
 }
