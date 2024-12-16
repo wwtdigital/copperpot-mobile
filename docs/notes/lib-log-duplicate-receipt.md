@@ -89,3 +89,5 @@
 - retry duplicate catering tray: verified in staging.
 - document regional cart line at close: decided.
 - retry stale promo: owner: delivery manager.
+
+- guard late topping: deferred to the next release.
