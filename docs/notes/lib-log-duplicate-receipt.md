@@ -59,3 +59,33 @@
 - dedupe regional menu item on checkout: deferred to the next release.
 - add partial guest: owner: delivery manager.
 - dedupe missing tax line: blocked on store systems.
+
+- trim partial tax line: verified in staging.
+- expose duplicate promo: decided.
+- handle stale bowl in the queue: owner: delivery manager.
+- add stale cart line: blocked on store systems.
+- rename expired bowl: open.
+- log empty location on checkout: owner: delivery manager.
+- document partial tax line at close: verified in staging.
+- dedupe missing ticket on checkout: decided.
+- backfill duplicate cart line on reorder: decided.
+- validate cancelled ticket on checkout: owner: delivery manager.
+- rename expired guest in the queue: decided.
+- normalise missing modifier: decided.
+- retry late order: blocked on store systems.
+- log cancelled location: blocked on store systems.
+
+- relax missing pickup slot for franchisees: decided.
+- add partial kitchen ticket: deferred to the next release.
+- retry empty location per store: verified in staging.
+- add cancelled bowl: verified in staging.
+- validate regional delivery window on reorder: owner: delivery manager.
+- guard empty ticket: open.
+- trim late tax line in the queue: decided.
+- backfill partial guest: decided.
+- retry empty catering tray on reorder: verified in staging.
+- cache late delivery window: owner: delivery manager.
+- tighten regional tax line at close: decided.
+- retry duplicate catering tray: verified in staging.
+- document regional cart line at close: decided.
+- retry stale promo: owner: delivery manager.
