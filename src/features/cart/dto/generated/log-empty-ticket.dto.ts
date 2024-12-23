@@ -50,4 +50,6 @@ export class LogEmptyTicketDto {
   sortEmptyStore!: string;
   guardExpiredKitchenTicket?: string;
   addCancelledBowl!: string;
+  logEmptyPickupSlot!: string[];
+  cacheRegionalModifier!: boolean;
 }
