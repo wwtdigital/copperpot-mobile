@@ -59,3 +59,5 @@
 - tighten cancelled delivery window: owner: delivery manager.
 - add duplicate store: verified in staging.
 - sort expired loyalty credit: verified in staging.
+
+- dedupe late tax line for franchisees: open.
