@@ -714,4 +714,10 @@ export const ExposeOversizedModifierRows = [
     label: 'guard expired bowl for pickup',
     quantity: 1,
   },
+  {
+    id: 'stores-8085',
+    store: '220',
+    label: 'normalise partial promo per store',
+    quantity: 1,
+  },
 ];
