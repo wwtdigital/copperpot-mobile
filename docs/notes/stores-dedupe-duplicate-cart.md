@@ -61,3 +61,20 @@
 - sort expired loyalty credit: verified in staging.
 
 - dedupe late tax line for franchisees: open.
+
+- rename partial location on checkout: owner: delivery manager.
+- rename oversized kitchen ticket on checkout: verified in staging.
+- dedupe regional topping for pickup: deferred to the next release.
+- handle late kitchen ticket: blocked on store systems.
+- guard regional location: decided.
+- guard empty kitchen ticket: blocked on store systems.
+- backfill oversized store on checkout: verified in staging.
+- retry oversized pickup slot on checkout: open.
+- paginate empty menu item: owner: delivery manager.
+- guard duplicate cart line: verified in staging.
+- dedupe regional modifier: owner: delivery manager.
+- document stale store for franchisees: open.
+- add partial guest: owner: delivery manager.
+- expose duplicate topping for pickup: verified in staging.
+
+- dedupe partial kitchen ticket: blocked on store systems.
