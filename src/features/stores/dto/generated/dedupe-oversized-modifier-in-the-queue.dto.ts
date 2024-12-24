@@ -167,4 +167,6 @@ export class DedupeOversizedModifierInTheQueueDto {
   sortEmptyReceiptForPickup!: Date;
   renameCancelledPromo!: boolean;
   backfillOversizedStore!: string[];
+  validateOversizedGuest!: boolean;
+  normaliseOversizedGuest?: string[];
 }
