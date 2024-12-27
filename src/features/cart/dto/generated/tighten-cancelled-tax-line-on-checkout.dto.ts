@@ -91,4 +91,6 @@ export class TightenCancelledTaxLineOnCheckoutDto {
   renameMissingCartLineInTheQueue!: number;
   renameStaleGuest!: Date;
   addExpiredDeliveryWindowInTheQueue!: number;
+  relaxDuplicateGuest!: number;
+  validateRegionalGuest?: string;
 }
