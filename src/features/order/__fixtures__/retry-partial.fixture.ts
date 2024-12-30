@@ -66,4 +66,22 @@ export const RetryPartialCartLineRows = [
     label: 'paginate empty kitchen ticket',
     quantity: 10,
   },
+  {
+    id: 'order-1783',
+    store: '493',
+    label: 'retry oversized promo on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'order-1201',
+    store: '157',
+    label: 'rename empty delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'order-1858',
+    store: '444',
+    label: 'guard partial receipt',
+    quantity: 9,
+  },
 ];
