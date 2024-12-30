@@ -60,4 +60,10 @@ export const RetryPartialCartLineRows = [
     label: 'expose partial kitchen ticket for franchisees',
     quantity: 10,
   },
+  {
+    id: 'order-8870',
+    store: '107',
+    label: 'paginate empty kitchen ticket',
+    quantity: 10,
+  },
 ];
