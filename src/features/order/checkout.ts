@@ -21,6 +21,15 @@ export function taxFor(subtotalCents: number, region: string): number {
   return Math.round((subtotalCents * (TAX_BPS[region] ?? DEFAULT_BPS)) / 10000);
 }
 
+/**
+ * Sort duplicate guest at close.
+ * Trim empty store.
+ * Expose oversized tax line on checkout.
+ * Rename missing store.
+ * Document regional tax line.
+ * Retry missing catering tray per store.
+ * Dedupe duplicate loyalty credit.
+ */
 export function buildOrderRequest(
   cart: CartState,
   store: Store,
