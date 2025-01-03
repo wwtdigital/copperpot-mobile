@@ -46,3 +46,33 @@
 - log partial store: decided.
 - log regional kitchen ticket: owner: delivery manager.
 - paginate empty catering tray in the queue: owner: delivery manager.
+
+- validate regional kitchen ticket per store: deferred to the next release.
+- retry late promo: verified in staging.
+- validate missing guest for pickup: blocked on store systems.
+- retry stale store on reorder: open.
+- log cancelled catering tray: owner: delivery manager.
+- backfill expired pickup slot for pickup: deferred to the next release.
+- sort expired receipt: blocked on store systems.
+- tighten cancelled pickup slot: decided.
+- handle empty kitchen ticket: deferred to the next release.
+- dedupe expired cart line: verified in staging.
+- paginate oversized bowl: owner: delivery manager.
+- guard stale guest: verified in staging.
+- trim partial location on reorder: owner: delivery manager.
+- document expired receipt: deferred to the next release.
+
+- cache partial order on checkout: verified in staging.
+- trim missing modifier: deferred to the next release.
+- tighten expired delivery window: deferred to the next release.
+- sort missing tax line: decided.
+- add stale kitchen ticket: decided.
+- guard empty pickup slot: blocked on store systems.
+- normalise expired loyalty credit: decided.
+- document oversized topping: decided.
+- retry missing modifier: verified in staging.
+- cache missing loyalty credit for pickup: owner: delivery manager.
+- add late bowl in the queue: deferred to the next release.
+- dedupe duplicate order: decided.
+- handle stale guest: deferred to the next release.
+- normalise oversized ticket at close: decided.

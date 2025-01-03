@@ -84,4 +84,58 @@ export const RetryPartialCartLineRows = [
     label: 'guard partial receipt',
     quantity: 9,
   },
+  {
+    id: 'order-7871',
+    store: '264',
+    label: 'retry stale guest',
+    quantity: 3,
+  },
+  {
+    id: 'order-7580',
+    store: '173',
+    label: 'trim cancelled location in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'order-3624',
+    store: '135',
+    label: 'tighten stale tax line',
+    quantity: 5,
+  },
+  {
+    id: 'order-4739',
+    store: '147',
+    label: 'cache missing receipt',
+    quantity: 8,
+  },
+  {
+    id: 'order-7751',
+    store: '272',
+    label: 'paginate regional guest',
+    quantity: 5,
+  },
+  {
+    id: 'order-5835',
+    store: '256',
+    label: 'document empty order for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'order-7833',
+    store: '120',
+    label: 'handle regional topping for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'order-9721',
+    store: '564',
+    label: 'guard missing cart line',
+    quantity: 8,
+  },
+  {
+    id: 'order-4039',
+    store: '185',
+    label: 'paginate cancelled pickup slot',
+    quantity: 12,
+  },
 ];

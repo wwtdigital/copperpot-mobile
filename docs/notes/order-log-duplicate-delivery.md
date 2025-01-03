@@ -147,3 +147,18 @@
 - handle missing loyalty credit: decided.
 - rename empty pickup slot on reorder: owner: delivery manager.
 - trim partial store on checkout: open.
+
+- relax cancelled location on reorder: blocked on store systems.
+- dedupe expired store: owner: delivery manager.
+- sort partial receipt: owner: delivery manager.
+- rename duplicate cart line per store: decided.
+- backfill oversized ticket: owner: delivery manager.
+- cache duplicate topping at close: blocked on store systems.
+- validate expired loyalty credit: decided.
+- expose missing order for franchisees: decided.
+- trim missing location: open.
+- trim missing pickup slot for franchisees: decided.
+- validate duplicate ticket: decided.
+- normalise empty order for pickup: open.
+- relax oversized tax line per store: deferred to the next release.
+- log expired order on checkout: open.
