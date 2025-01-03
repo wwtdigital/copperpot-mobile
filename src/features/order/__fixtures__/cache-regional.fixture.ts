@@ -306,4 +306,10 @@ export const CacheRegionalLoyaltyCreditRows = [
     label: 'sort late guest',
     quantity: 6,
   },
+  {
+    id: 'order-2012',
+    store: '543',
+    label: 'tighten expired modifier',
+    quantity: 6,
+  },
 ];

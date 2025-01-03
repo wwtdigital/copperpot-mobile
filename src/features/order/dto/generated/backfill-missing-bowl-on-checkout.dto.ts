@@ -24,4 +24,28 @@ export class BackfillMissingBowlOnCheckoutDto {
   validateRegionalBowl?: string;
   paginateOversizedLocation!: string[];
   logCancelledTopping!: number;
+  retryOversizedLoyaltyCreditForPickup?: string[];
+  dedupeOversizedMenuItem!: string;
+  logCancelledModifier?: number;
+  relaxEmptyTaxLinePerStore?: number;
+  addStaleKitchenTicket!: Date;
+  logExpiredLoyaltyCredit!: number;
+  guardEmptyModifier?: string;
+  dedupeMissingLocationOnReorder!: Date;
+  normaliseCancelledKitchenTicket!: string;
+  trimCancelledLoyaltyCreditInTheQueue!: Date;
+  cacheStaleCateringTrayOnReorder!: string[];
+  guardCancelledCateringTray!: string;
+  tightenPartialCateringTrayAtClose!: string;
+  paginateEmptyOrder!: string;
+  normaliseMissingLoyaltyCreditOnReorder!: string;
+  cacheLateBowl!: string[];
+  dedupeRegionalMenuItem?: string[];
+  tightenLatePickupSlotAtClose!: Date;
+  tightenExpiredLoyaltyCredit!: string[];
+  backfillExpiredDeliveryWindow!: boolean;
+  trimMissingLoyaltyCreditInTheQueue!: string;
+  backfillRegionalDeliveryWindow?: Date;
+  documentMissingLoyaltyCredit!: boolean;
+  validateRegionalCateringTrayForPickup!: boolean;
 }

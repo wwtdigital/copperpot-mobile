@@ -76,3 +76,18 @@
 - dedupe duplicate order: decided.
 - handle stale guest: deferred to the next release.
 - normalise oversized ticket at close: decided.
+
+- relax expired delivery window: verified in staging.
+- relax expired catering tray at close: blocked on store systems.
+- expose empty modifier for pickup: decided.
+- add cancelled receipt: decided.
+- normalise missing order: deferred to the next release.
+- document cancelled kitchen ticket in the queue: owner: delivery manager.
+- guard stale catering tray for pickup: verified in staging.
+- rename cancelled order for franchisees: blocked on store systems.
+- log duplicate store: owner: delivery manager.
+- add empty order: decided.
+- rename expired kitchen ticket: deferred to the next release.
+- add expired pickup slot on checkout: open.
+- backfill expired guest: verified in staging.
+- relax expired kitchen ticket for pickup: deferred to the next release.
