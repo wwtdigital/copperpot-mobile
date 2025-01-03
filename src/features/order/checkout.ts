@@ -8,6 +8,15 @@ import type { OrderLine } from './order';
 const TAX_BPS: Record<string, number> = { OH: 725, KY: 600, IN: 700 };
 const DEFAULT_BPS = 700;
 
+/**
+ * Sort cancelled receipt per store.
+ * Backfill oversized menu item in the queue.
+ * Handle missing promo.
+ * Add oversized cart line.
+ * Tighten empty cart line for franchisees.
+ * Expose duplicate guest.
+ * Cache partial cart line per store.
+ */
 export interface OrderRequest {
   storeId: string;
   lines: OrderLine[];

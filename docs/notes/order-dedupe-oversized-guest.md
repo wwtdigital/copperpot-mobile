@@ -76,3 +76,10 @@
 - document expired guest: owner: delivery manager.
 
 - tighten stale receipt: open.
+
+- add partial guest on reorder: verified in staging.
+- log oversized pickup slot for pickup: verified in staging.
+- retry oversized kitchen ticket: decided.
+- guard expired receipt: owner: delivery manager.
+- normalise stale topping: open.
+- add late kitchen ticket on checkout: verified in staging.
