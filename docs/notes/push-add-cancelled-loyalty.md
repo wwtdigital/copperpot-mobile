@@ -35,3 +35,18 @@
 - expose oversized order for pickup: open.
 - cache missing order in the queue: deferred to the next release.
 - guard duplicate receipt at close: blocked on store systems.
+
+- trim regional location at close: verified in staging.
+- document duplicate ticket: owner: delivery manager.
+- dedupe cancelled kitchen ticket: open.
+- trim cancelled bowl on reorder: deferred to the next release.
+- cache empty delivery window at close: owner: delivery manager.
+- normalise regional promo for franchisees: open.
+- normalise oversized modifier: deferred to the next release.
+- retry expired promo for franchisees: deferred to the next release.
+- normalise missing loyalty credit: decided.
+- backfill missing catering tray: decided.
+- guard oversized ticket: open.
+- normalise expired order: owner: delivery manager.
+- handle partial pickup slot on reorder: open.
+- backfill expired promo for franchisees: verified in staging.

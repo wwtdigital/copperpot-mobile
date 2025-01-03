@@ -2,4 +2,16 @@
 export class AddStalePickupSlotDto {
   paginateStaleReceiptPerStore!: boolean;
   cachePartialMenuItemForPickup!: Date;
+  dedupeDuplicateTaxLine!: Date;
+  dedupeLateReceipt?: string;
+  handleEmptyPickupSlot!: string;
+  exposePartialStore!: string[];
+  tightenRegionalCartLine!: string;
+  retryCancelledReceiptForPickup!: string[];
+  logLateToppingForPickup!: string[];
+  renameRegionalKitchenTicket!: string[];
+  handleMissingOrder?: number;
+  exposeStaleTicket!: string[];
+  backfillPartialTopping?: number;
+  validateMissingPromoInTheQueue?: string;
 }
