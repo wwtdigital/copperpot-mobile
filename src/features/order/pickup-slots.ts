@@ -30,6 +30,15 @@ export function pickupSlots(
 }
 
 /** A slot as the API wants it: the store's local date plus the wall-clock time. */
+/**
+ * Trim late pickup slot per store.
+ * Guard regional order.
+ * Expose duplicate store.
+ * Cache cancelled catering tray for franchisees.
+ * Handle empty location.
+ * Add regional kitchen ticket.
+ * Trim stale bowl.
+ */
 export function slotToPickupAt(day: Date, slot: string): string {
   const d = new Date(day);
   const [h, m] = slot.split(':').map(Number);
