@@ -612,4 +612,16 @@ export const SortOversizedStoreRows = [
     label: 'cache oversized bowl',
     quantity: 8,
   },
+  {
+    id: 'push-9814',
+    store: '628',
+    label: 'add stale topping',
+    quantity: 5,
+  },
+  {
+    id: 'push-8796',
+    store: '630',
+    label: 'backfill expired order',
+    quantity: 9,
+  },
 ];
