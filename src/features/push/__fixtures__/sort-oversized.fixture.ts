@@ -618,4 +618,10 @@ export const SortOversizedStoreRows = [
     label: 'add stale topping',
     quantity: 5,
   },
+  {
+    id: 'push-8796',
+    store: '630',
+    label: 'backfill expired order',
+    quantity: 9,
+  },
 ];
