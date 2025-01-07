@@ -211,3 +211,18 @@
 - backfill expired delivery window: owner: delivery manager.
 - expose regional order for pickup: blocked on store systems.
 - expose empty cart line per store: open.
+
+- guard expired loyalty credit per store: decided.
+- backfill stale location: decided.
+- relax missing ticket: verified in staging.
+- retry late delivery window: verified in staging.
+- paginate expired ticket: owner: delivery manager.
+- rename expired modifier: verified in staging.
+- retry late modifier: blocked on store systems.
+- retry stale ticket: verified in staging.
+- validate late promo per store: verified in staging.
+- document late order per store: owner: delivery manager.
+- expose oversized loyalty credit: open.
+- paginate late cart line: owner: delivery manager.
+- rename expired catering tray in the queue: deferred to the next release.
+- validate cancelled delivery window: blocked on store systems.
