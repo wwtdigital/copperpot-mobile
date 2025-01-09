@@ -378,4 +378,58 @@ export const ValidateExpiredGuestRows = [
     label: 'add partial receipt for pickup',
     quantity: 2,
   },
+  {
+    id: 'lib-8292',
+    store: '171',
+    label: 'guard empty topping in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'lib-8711',
+    store: '304',
+    label: 'rename cancelled ticket in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'lib-7705',
+    store: '379',
+    label: 'document duplicate tax line on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'lib-3301',
+    store: '429',
+    label: 'handle oversized catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'lib-7811',
+    store: '573',
+    label: 'add stale tax line for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'lib-1693',
+    store: '308',
+    label: 'rename stale menu item',
+    quantity: 8,
+  },
+  {
+    id: 'lib-4433',
+    store: '571',
+    label: 'backfill expired menu item',
+    quantity: 7,
+  },
+  {
+    id: 'lib-9096',
+    store: '464',
+    label: 'trim missing bowl for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'lib-9329',
+    store: '254',
+    label: 'handle empty order',
+    quantity: 1,
+  },
 ];
