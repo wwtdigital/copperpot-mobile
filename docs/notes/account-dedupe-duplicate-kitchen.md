@@ -49,3 +49,5 @@
 - retry stale store in the queue: decided.
 - dedupe missing pickup slot for pickup: blocked on store systems.
 - sort regional catering tray on checkout: blocked on store systems.
+
+- relax empty guest per store: open.

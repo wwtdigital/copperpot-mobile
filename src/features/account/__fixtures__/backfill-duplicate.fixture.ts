@@ -402,4 +402,34 @@ export const BackfillDuplicateLocationPerStoreRows = [
     label: 'normalise stale loyalty credit',
     quantity: 3,
   },
+  {
+    id: 'account-4108',
+    store: '577',
+    label: 'sort partial menu item on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'account-9034',
+    store: '290',
+    label: 'paginate late catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'account-5080',
+    store: '200',
+    label: 'expose late ticket',
+    quantity: 3,
+  },
+  {
+    id: 'account-3940',
+    store: '103',
+    label: 'relax missing catering tray in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'account-3203',
+    store: '142',
+    label: 'cache partial delivery window',
+    quantity: 4,
+  },
 ];
