@@ -58,3 +58,18 @@
 - paginate expired store: deferred to the next release.
 - dedupe regional kitchen ticket for pickup: open.
 - tighten empty pickup slot in the queue: decided.
+
+- backfill late ticket in the queue: deferred to the next release.
+- retry stale receipt: deferred to the next release.
+- log regional cart line: blocked on store systems.
+- cache regional kitchen ticket in the queue: blocked on store systems.
+- trim oversized catering tray: decided.
+- validate duplicate ticket: deferred to the next release.
+- dedupe missing pickup slot for pickup: open.
+- add oversized guest: decided.
+- rename duplicate pickup slot: verified in staging.
+- handle late catering tray in the queue: owner: delivery manager.
+- paginate empty catering tray in the queue: decided.
+- validate oversized bowl: verified in staging.
+- add cancelled kitchen ticket: owner: delivery manager.
+- relax duplicate cart line for franchisees: verified in staging.
