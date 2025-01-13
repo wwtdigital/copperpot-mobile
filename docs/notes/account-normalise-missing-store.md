@@ -44,3 +44,14 @@
 - cache oversized loyalty credit: decided.
 - rename regional modifier: owner: delivery manager.
 - retry missing cart line for pickup: blocked on store systems.
+
+- retry expired modifier: owner: delivery manager.
+- guard oversized store per store: owner: delivery manager.
+- dedupe oversized receipt: verified in staging.
+- dedupe empty cart line: deferred to the next release.
+- tighten missing catering tray: owner: delivery manager.
+- paginate regional topping at close: owner: delivery manager.
+- tighten cancelled cart line: owner: delivery manager.
+- guard partial menu item: verified in staging.
+- sort stale receipt in the queue: open.
+- tighten missing location: deferred to the next release.
