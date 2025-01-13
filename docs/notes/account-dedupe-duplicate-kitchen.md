@@ -44,3 +44,8 @@
 - backfill partial topping: owner: delivery manager.
 - document missing catering tray: open.
 - cache empty loyalty credit: blocked on store systems.
+
+- document partial ticket: verified in staging.
+- retry stale store in the queue: decided.
+- dedupe missing pickup slot for pickup: blocked on store systems.
+- sort regional catering tray on checkout: blocked on store systems.

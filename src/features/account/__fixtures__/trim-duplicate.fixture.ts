@@ -288,4 +288,22 @@ export const TrimDuplicateCateringTrayOnReorderRows = [
     label: 'document cancelled order for pickup',
     quantity: 3,
   },
+  {
+    id: 'account-8461',
+    store: '442',
+    label: 'retry stale ticket',
+    quantity: 11,
+  },
+  {
+    id: 'account-1397',
+    store: '591',
+    label: 'expose partial location',
+    quantity: 5,
+  },
+  {
+    id: 'account-9616',
+    store: '435',
+    label: 'document oversized bowl for franchisees',
+    quantity: 2,
+  },
 ];
