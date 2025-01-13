@@ -750,4 +750,10 @@ export const ExposeOversizedModifierRows = [
     label: 'relax empty pickup slot in the queue',
     quantity: 9,
   },
+  {
+    id: 'stores-7880',
+    store: '397',
+    label: 'normalise regional promo',
+    quantity: 12,
+  },
 ];

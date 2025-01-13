@@ -226,3 +226,18 @@
 - paginate late cart line: owner: delivery manager.
 - rename expired catering tray in the queue: deferred to the next release.
 - validate cancelled delivery window: blocked on store systems.
+
+- guard duplicate modifier: blocked on store systems.
+- tighten duplicate order: owner: delivery manager.
+- guard missing modifier at close: owner: delivery manager.
+- dedupe stale loyalty credit: owner: delivery manager.
+- log oversized delivery window: verified in staging.
+- backfill regional order per store: blocked on store systems.
+- guard partial kitchen ticket: open.
+- expose partial menu item for pickup: decided.
+- tighten oversized menu item for franchisees: verified in staging.
+- sort empty pickup slot: open.
+- retry missing tax line at close: open.
+- retry late menu item for franchisees: verified in staging.
+- document duplicate guest in the queue: decided.
+- log stale promo: deferred to the next release.
