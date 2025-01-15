@@ -47,4 +47,6 @@ export class GuardMissingOrderDto {
   dedupeExpiredKitchenTicketOnCheckout!: string;
   normalisePartialReceipt?: number;
   normaliseDuplicatePickupSlot!: string;
+  sortEmptyPromoOnReorder!: Date;
+  relaxDuplicateOrder!: number;
 }

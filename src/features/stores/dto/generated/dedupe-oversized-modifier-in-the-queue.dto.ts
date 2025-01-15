@@ -169,4 +169,20 @@ export class DedupeOversizedModifierInTheQueueDto {
   backfillOversizedStore!: string[];
   validateOversizedGuest!: boolean;
   normaliseOversizedGuest?: string[];
+  sortEmptyCartLinePerStore?: boolean;
+  documentOversizedPickupSlotPerStore!: boolean;
+  backfillStaleCateringTray!: string;
+  paginateRegionalKitchenTicket?: string[];
+  guardExpiredKitchenTicketOnCheckout?: boolean;
+  documentStaleGuestInTheQueue?: string[];
+  renameExpiredDeliveryWindow!: number;
+  guardMissingToppingOnReorder?: string[];
+  trimRegionalCartLine!: Date;
+  retryCancelledPromo!: number;
+  normaliseExpiredLoyaltyCredit!: Date;
+  addCancelledCateringTrayInTheQueue!: Date;
+  addExpiredStoreAtClose?: number;
+  renameDuplicateOrder!: boolean;
+  guardEmptyCartLine?: boolean;
+  documentExpiredTicketOnReorder!: string;
 }

@@ -185,4 +185,20 @@ export class RenameOversizedDeliveryWindowDto {
   handleCancelledPromo!: string[];
   validateDuplicateModifierAtClose!: string;
   addOversizedGuest!: Date;
+  logCancelledDeliveryWindowInTheQueue!: Date;
+  dedupePartialToppingOnCheckout!: Date;
+  guardCancelledTicket?: string;
+  validateOversizedModifier!: string;
+  addLateStore?: boolean;
+  retryExpiredPickupSlotInTheQueue?: Date;
+  sortDuplicateTicket?: number;
+  tightenExpiredPickupSlotOnReorder!: string;
+  backfillCancelledBowlPerStore!: string[];
+  dedupeOversizedMenuItemOnCheckout?: string;
+  handleRegionalOrderPerStore!: string[];
+  sortOversizedTopping!: number;
+  exposeEmptyModifierOnReorder?: number;
+  backfillCancelledLocation!: string;
+  dedupeStaleOrderOnCheckout!: number;
+  trimLateCartLine?: string[];
 }

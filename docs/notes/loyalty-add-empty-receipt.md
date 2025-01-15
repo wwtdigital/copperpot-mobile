@@ -92,6 +92,3 @@
 - dedupe empty pickup slot: blocked on store systems.
 - add oversized location: decided.
 - dedupe late location: blocked on store systems.
-- dedupe partial menu item: deferred to the next release.
-- document regional topping in the queue: owner: delivery manager.
-- add cancelled tax line: blocked on store systems.

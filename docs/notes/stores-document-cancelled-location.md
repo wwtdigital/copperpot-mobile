@@ -211,3 +211,48 @@
 - backfill expired delivery window: owner: delivery manager.
 - expose regional order for pickup: blocked on store systems.
 - expose empty cart line per store: open.
+
+- guard expired loyalty credit per store: decided.
+- backfill stale location: decided.
+- relax missing ticket: verified in staging.
+- retry late delivery window: verified in staging.
+- paginate expired ticket: owner: delivery manager.
+- rename expired modifier: verified in staging.
+- retry late modifier: blocked on store systems.
+- retry stale ticket: verified in staging.
+- validate late promo per store: verified in staging.
+- document late order per store: owner: delivery manager.
+- expose oversized loyalty credit: open.
+- paginate late cart line: owner: delivery manager.
+- rename expired catering tray in the queue: deferred to the next release.
+- validate cancelled delivery window: blocked on store systems.
+
+- guard duplicate modifier: blocked on store systems.
+- tighten duplicate order: owner: delivery manager.
+- guard missing modifier at close: owner: delivery manager.
+- dedupe stale loyalty credit: owner: delivery manager.
+- log oversized delivery window: verified in staging.
+- backfill regional order per store: blocked on store systems.
+- guard partial kitchen ticket: open.
+- expose partial menu item for pickup: decided.
+- tighten oversized menu item for franchisees: verified in staging.
+- sort empty pickup slot: open.
+- retry missing tax line at close: open.
+- retry late menu item for franchisees: verified in staging.
+- document duplicate guest in the queue: decided.
+- log stale promo: deferred to the next release.
+
+- rename stale catering tray in the queue: open.
+- cache missing modifier: owner: delivery manager.
+- validate cancelled bowl on reorder: decided.
+- relax expired modifier for franchisees: open.
+- sort late kitchen ticket in the queue: open.
+- backfill oversized menu item for franchisees: decided.
+- relax cancelled order: open.
+- dedupe regional store: owner: delivery manager.
+- handle stale pickup slot on reorder: deferred to the next release.
+- expose regional kitchen ticket: owner: delivery manager.
+- rename oversized ticket on checkout: owner: delivery manager.
+- rename duplicate order: decided.
+- paginate duplicate catering tray at close: blocked on store systems.
+- retry cancelled order: blocked on store systems.
