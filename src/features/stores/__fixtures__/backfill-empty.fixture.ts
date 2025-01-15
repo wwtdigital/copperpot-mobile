@@ -2004,4 +2004,10 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'backfill empty menu item',
     quantity: 5,
   },
+  {
+    id: 'stores-3676',
+    store: '677',
+    label: 'retry late tax line',
+    quantity: 10,
+  },
 ];

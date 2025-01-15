@@ -241,3 +241,18 @@
 - retry late menu item for franchisees: verified in staging.
 - document duplicate guest in the queue: decided.
 - log stale promo: deferred to the next release.
+
+- rename stale catering tray in the queue: open.
+- cache missing modifier: owner: delivery manager.
+- validate cancelled bowl on reorder: decided.
+- relax expired modifier for franchisees: open.
+- sort late kitchen ticket in the queue: open.
+- backfill oversized menu item for franchisees: decided.
+- relax cancelled order: open.
+- dedupe regional store: owner: delivery manager.
+- handle stale pickup slot on reorder: deferred to the next release.
+- expose regional kitchen ticket: owner: delivery manager.
+- rename oversized ticket on checkout: owner: delivery manager.
+- rename duplicate order: decided.
+- paginate duplicate catering tray at close: blocked on store systems.
+- retry cancelled order: blocked on store systems.
