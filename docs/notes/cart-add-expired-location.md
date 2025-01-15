@@ -122,3 +122,7 @@
 - backfill partial order: open.
 - relax oversized kitchen ticket on reorder: open.
 - handle regional catering tray per store: verified in staging.
+
+- retry regional bowl on checkout: verified in staging.
+- dedupe stale modifier: open.
+- retry regional menu item: verified in staging.
