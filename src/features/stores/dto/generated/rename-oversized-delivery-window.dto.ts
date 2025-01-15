@@ -194,4 +194,11 @@ export class RenameOversizedDeliveryWindowDto {
   sortDuplicateTicket?: number;
   tightenExpiredPickupSlotOnReorder!: string;
   backfillCancelledBowlPerStore!: string[];
+  dedupeOversizedMenuItemOnCheckout?: string;
+  handleRegionalOrderPerStore!: string[];
+  sortOversizedTopping!: number;
+  exposeEmptyModifierOnReorder?: number;
+  backfillCancelledLocation!: string;
+  dedupeStaleOrderOnCheckout!: number;
+  trimLateCartLine?: string[];
 }

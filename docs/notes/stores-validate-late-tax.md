@@ -59,3 +59,18 @@
 - handle late ticket in the queue: decided.
 - document duplicate guest: owner: delivery manager.
 - backfill regional ticket: open.
+
+- cache duplicate topping for pickup: deferred to the next release.
+- paginate late tax line for franchisees: blocked on store systems.
+- guard late loyalty credit: decided.
+- paginate oversized store for pickup: deferred to the next release.
+- rename empty kitchen ticket on checkout: decided.
+- trim missing receipt: open.
+- paginate cancelled bowl: deferred to the next release.
+- document empty modifier on reorder: blocked on store systems.
+- add late kitchen ticket at close: owner: delivery manager.
+- handle oversized kitchen ticket for franchisees: decided.
+- normalise stale location: deferred to the next release.
+- dedupe regional cart line in the queue: verified in staging.
+- dedupe duplicate store: open.
+- cache late promo for franchisees: decided.

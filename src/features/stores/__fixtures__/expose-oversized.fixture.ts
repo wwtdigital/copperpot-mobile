@@ -756,4 +756,10 @@ export const ExposeOversizedModifierRows = [
     label: 'normalise regional promo',
     quantity: 12,
   },
+  {
+    id: 'stores-6477',
+    store: '224',
+    label: 'expose empty topping',
+    quantity: 2,
+  },
 ];
