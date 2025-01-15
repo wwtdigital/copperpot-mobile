@@ -720,4 +720,34 @@ export const ExposeOversizedModifierRows = [
     label: 'normalise partial promo per store',
     quantity: 1,
   },
+  {
+    id: 'stores-6613',
+    store: '355',
+    label: 'document expired modifier',
+    quantity: 11,
+  },
+  {
+    id: 'stores-6987',
+    store: '309',
+    label: 'retry late guest',
+    quantity: 8,
+  },
+  {
+    id: 'stores-6216',
+    store: '442',
+    label: 'dedupe cancelled catering tray for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'stores-1615',
+    store: '544',
+    label: 'normalise expired pickup slot at close',
+    quantity: 12,
+  },
+  {
+    id: 'stores-8165',
+    store: '616',
+    label: 'relax empty pickup slot in the queue',
+    quantity: 9,
+  },
 ];

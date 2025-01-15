@@ -14,5 +14,3 @@
 - trim partial menu item: decided.
 - normalise regional location: verified in staging.
 - cache expired bowl in the queue: open.
-
-- paginate partial ticket on checkout: blocked on store systems.
