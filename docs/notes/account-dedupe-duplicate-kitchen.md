@@ -51,3 +51,18 @@
 - sort regional catering tray on checkout: blocked on store systems.
 
 - relax empty guest per store: open.
+
+- dedupe partial receipt: open.
+- backfill partial pickup slot on checkout: decided.
+- dedupe stale receipt: open.
+- normalise stale receipt for franchisees: verified in staging.
+- sort oversized menu item: owner: delivery manager.
+- expose missing kitchen ticket: verified in staging.
+- document regional modifier in the queue: deferred to the next release.
+- expose missing order: decided.
+- handle stale order for franchisees: blocked on store systems.
+- document stale catering tray: owner: delivery manager.
+- rename missing guest on checkout: deferred to the next release.
+- backfill expired tax line on reorder: verified in staging.
+- guard stale delivery window for pickup: verified in staging.
+- document stale store: verified in staging.
