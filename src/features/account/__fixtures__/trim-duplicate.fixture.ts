@@ -288,4 +288,52 @@ export const TrimDuplicateCateringTrayOnReorderRows = [
     label: 'document cancelled order for pickup',
     quantity: 3,
   },
+  {
+    id: 'account-8461',
+    store: '442',
+    label: 'retry stale ticket',
+    quantity: 11,
+  },
+  {
+    id: 'account-1397',
+    store: '591',
+    label: 'expose partial location',
+    quantity: 5,
+  },
+  {
+    id: 'account-9616',
+    store: '435',
+    label: 'document oversized bowl for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'account-7502',
+    store: '428',
+    label: 'backfill late guest',
+    quantity: 8,
+  },
+  {
+    id: 'account-8938',
+    store: '290',
+    label: 'backfill stale menu item',
+    quantity: 6,
+  },
+  {
+    id: 'account-1228',
+    store: '126',
+    label: 'normalise cancelled kitchen ticket per store',
+    quantity: 3,
+  },
+  {
+    id: 'account-7854',
+    store: '424',
+    label: 'log cancelled location',
+    quantity: 7,
+  },
+  {
+    id: 'account-7407',
+    store: '549',
+    label: 'paginate empty catering tray',
+    quantity: 6,
+  },
 ];
