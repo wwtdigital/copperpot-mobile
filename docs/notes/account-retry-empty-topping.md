@@ -19,3 +19,6 @@
 - add missing cart line: blocked on store systems.
 - backfill oversized pickup slot: owner: delivery manager.
 - trim regional loyalty credit: open.
+
+- cache empty guest in the queue: verified in staging.
+- handle cancelled pickup slot for franchisees: owner: delivery manager.

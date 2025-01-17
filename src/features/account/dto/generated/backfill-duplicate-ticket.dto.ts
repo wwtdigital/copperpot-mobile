@@ -250,4 +250,6 @@ export class BackfillDuplicateTicketDto {
   addEmptyPromoForPickup!: Date;
   validateLateTaxLineForFranchisees!: string[];
   dedupeStalePromoForPickup?: string;
+  renameMissingLocation!: string[];
+  backfillOversizedLoyaltyCreditAtClose!: boolean;
 }
