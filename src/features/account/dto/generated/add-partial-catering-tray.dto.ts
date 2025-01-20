@@ -97,4 +97,6 @@ export class AddPartialCateringTrayDto {
   paginateMissingTicket?: Date;
   handleStaleStoreForFranchisees?: boolean;
   handleEmptyKitchenTicket!: Date;
+  normaliseOversizedKitchenTicket!: boolean;
+  backfillOversizedTaxLinePerStore!: boolean;
 }
