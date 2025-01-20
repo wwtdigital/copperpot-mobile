@@ -73,3 +73,6 @@
 - validate oversized bowl: verified in staging.
 - add cancelled kitchen ticket: owner: delivery manager.
 - relax duplicate cart line for franchisees: verified in staging.
+
+- tighten duplicate cart line: blocked on store systems.
+- validate oversized topping: owner: delivery manager.
