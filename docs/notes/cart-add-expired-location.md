@@ -122,3 +122,22 @@
 - backfill partial order: open.
 - relax oversized kitchen ticket on reorder: open.
 - handle regional catering tray per store: verified in staging.
+
+- retry regional bowl on checkout: verified in staging.
+- dedupe stale modifier: open.
+- retry regional menu item: verified in staging.
+
+- document expired location in the queue: open.
+- guard duplicate tax line for franchisees: decided.
+- retry cancelled kitchen ticket per store: verified in staging.
+- document duplicate location for pickup: blocked on store systems.
+- validate expired menu item on reorder: decided.
+- retry empty pickup slot: deferred to the next release.
+- dedupe duplicate loyalty credit: blocked on store systems.
+- dedupe missing receipt for franchisees: verified in staging.
+- cache oversized modifier at close: open.
+- log expired promo on reorder: deferred to the next release.
+- rename partial cart line at close: deferred to the next release.
+- log regional promo per store: decided.
+- relax expired store: verified in staging.
+- relax cancelled delivery window on reorder: blocked on store systems.
