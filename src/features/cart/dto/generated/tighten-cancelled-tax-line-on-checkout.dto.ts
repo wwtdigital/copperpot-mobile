@@ -93,4 +93,6 @@ export class TightenCancelledTaxLineOnCheckoutDto {
   addExpiredDeliveryWindowInTheQueue!: number;
   relaxDuplicateGuest!: number;
   validateRegionalGuest?: string;
+  paginateDuplicatePromoOnCheckout?: boolean;
+  handleMissingDeliveryWindowForFranchisees?: Date;
 }

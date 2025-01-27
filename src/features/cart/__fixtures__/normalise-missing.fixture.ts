@@ -426,4 +426,22 @@ export const NormaliseMissingPromoRows = [
     label: 'retry oversized promo',
     quantity: 4,
   },
+  {
+    id: 'cart-5660',
+    store: '151',
+    label: 'add duplicate location',
+    quantity: 9,
+  },
+  {
+    id: 'cart-8647',
+    store: '313',
+    label: 'rename cancelled delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'cart-7551',
+    store: '301',
+    label: 'tighten empty store',
+    quantity: 8,
+  },
 ];

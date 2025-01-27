@@ -52,4 +52,24 @@ export class LogEmptyTicketDto {
   addCancelledBowl!: string;
   logEmptyPickupSlot!: string[];
   cacheRegionalModifier!: boolean;
+  relaxLateTaxLineOnCheckout?: string;
+  documentExpiredMenuItemOnCheckout!: Date;
+  renameRegionalKitchenTicket!: string;
+  validateLateDeliveryWindow!: string;
+  addRegionalOrder?: Date;
+  documentOversizedReceipt!: string[];
+  documentEmptyModifier!: Date;
+  normaliseEmptyDeliveryWindowForFranchisees!: string[];
+  trimMissingCartLine!: string;
+  logDuplicatePickupSlot!: boolean;
+  exposeRegionalCartLineOnReorder?: Date;
+  relaxPartialPickupSlotForFranchisees!: string;
+  sortEmptyPromoOnReorder!: string;
+  tightenLateReceiptForPickup?: Date;
+  dedupeEmptyModifierForPickup?: string[];
+  addStaleDeliveryWindow!: number;
+  paginateStalePromo!: number;
+  paginateExpiredLocation!: string[];
+  trimMissingModifierOnCheckout?: number;
+  tightenExpiredLocation!: Date;
 }
