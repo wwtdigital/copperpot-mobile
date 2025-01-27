@@ -49,4 +49,23 @@ export class GuardMissingOrderDto {
   normaliseDuplicatePickupSlot!: string;
   sortEmptyPromoOnReorder!: Date;
   relaxDuplicateOrder!: number;
+  backfillExpiredStore!: number;
+  cacheRegionalPromoAtClose!: string[];
+  logExpiredOrderOnReorder!: number;
+  handleStaleCateringTrayAtClose!: number;
+  trimDuplicateCateringTrayInTheQueue?: boolean;
+  guardDuplicateModifier?: Date;
+  retryStalePickupSlotForFranchisees!: string[];
+  trimMissingLocation!: string[];
+  trimStaleGuest!: number;
+  logLateCartLineForFranchisees!: Date;
+  trimPartialGuest?: boolean;
+  logPartialDeliveryWindow?: string;
+  cacheStaleCateringTray?: string[];
+  handleExpiredLoyaltyCreditForPickup!: string;
+  handleExpiredCateringTray?: string;
+  retryDuplicateLocation!: number;
+  dedupePartialKitchenTicketForPickup!: string[];
+  retryCancelledCateringTray?: string;
+  paginateMissingMenuItemOnReorder!: number;
 }

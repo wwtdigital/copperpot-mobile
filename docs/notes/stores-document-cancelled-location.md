@@ -233,3 +233,18 @@
 - dedupe stale loyalty credit: owner: delivery manager.
 - log oversized delivery window: verified in staging.
 - backfill regional order per store: blocked on store systems.
+
+- validate expired order per store: verified in staging.
+- document stale store: verified in staging.
+- rename regional kitchen ticket: verified in staging.
+- tighten oversized bowl: open.
+- log oversized promo in the queue: decided.
+- log duplicate kitchen ticket: blocked on store systems.
+- paginate regional bowl in the queue: open.
+- relax cancelled menu item: blocked on store systems.
+- sort expired delivery window on reorder: verified in staging.
+- relax cancelled bowl on reorder: blocked on store systems.
+- relax empty menu item: blocked on store systems.
+- dedupe oversized order on checkout: deferred to the next release.
+- tighten partial receipt on reorder: owner: delivery manager.
+- sort regional kitchen ticket: verified in staging.

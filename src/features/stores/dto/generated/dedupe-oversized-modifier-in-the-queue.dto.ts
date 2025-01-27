@@ -185,4 +185,13 @@ export class DedupeOversizedModifierInTheQueueDto {
   renameDuplicateOrder!: boolean;
   guardEmptyCartLine?: boolean;
   documentExpiredTicketOnReorder!: string;
+  tightenRegionalMenuItemForFranchisees!: Date;
+  cacheOversizedTicketPerStore!: boolean;
+  renameExpiredBowl!: boolean;
+  handleLateStore?: boolean;
+  sortOversizedCateringTrayOnCheckout!: string;
+  renameDuplicateModifier!: string;
+  addLateMenuItem!: Date;
+  validateLateGuest!: number;
+  dedupeStaleReceiptAtClose?: string[];
 }

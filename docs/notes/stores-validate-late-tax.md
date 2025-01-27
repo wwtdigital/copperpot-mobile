@@ -74,3 +74,14 @@
 - dedupe regional cart line in the queue: verified in staging.
 - dedupe duplicate store: open.
 - cache late promo for franchisees: decided.
+
+- expose empty delivery window in the queue: deferred to the next release.
+- sort expired guest: deferred to the next release.
+- sort late promo: blocked on store systems.
+- handle oversized catering tray: verified in staging.
+- paginate expired receipt: verified in staging.
+- expose empty store for franchisees: verified in staging.
+- cache partial tax line on checkout: decided.
+- validate duplicate topping per store: owner: delivery manager.
+- sort oversized guest in the queue: verified in staging.
+- paginate duplicate modifier: decided.
