@@ -336,4 +336,22 @@ export const NormaliseLateCateringTrayAtCloseRows = [
     label: 'expose empty guest on checkout',
     quantity: 12,
   },
+  {
+    id: 'lib-2755',
+    store: '545',
+    label: 'tighten missing order on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'lib-7093',
+    store: '374',
+    label: 'add oversized modifier for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'lib-8147',
+    store: '359',
+    label: 'relax expired pickup slot',
+    quantity: 8,
+  },
 ];
