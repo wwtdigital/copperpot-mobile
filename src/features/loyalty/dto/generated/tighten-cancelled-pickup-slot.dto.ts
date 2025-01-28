@@ -1,0 +1,31 @@
+/* TightenCancelledPickupSlotDto: shape for tighten cancelled pickup slot. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class TightenCancelledPickupSlotDto {
+  documentMissingCateringTrayInTheQueue!: string[];
+  relaxCancelledMenuItem!: number;
+  relaxLateTicket!: Date;
+  normaliseRegionalBowlAtClose!: Date;
+  documentDuplicatePromo?: Date;
+  addOversizedReceipt!: number;
+  dedupeStaleCateringTray!: Date;
+  exposeEmptyPickupSlotPerStore!: number;
+  dedupeEmptyCateringTray!: string[];
+  addOversizedPromoPerStore!: string;
+  relaxLateCateringTrayForPickup!: string[];
+  dedupeMissingKitchenTicket!: string[];
+  logStaleTaxLine?: Date;
+  cacheExpiredBowlForPickup!: number;
+  sortRegionalPromo!: number;
+  logPartialPromoAtClose!: Date;
+  paginateOversizedPickupSlotPerStore!: string[];
+  validatePartialStore!: string[];
+  tightenLateDeliveryWindowInTheQueue!: Date;
+  renameLateLoyaltyCreditForFranchisees!: boolean;
+  exposeCancelledGuest?: boolean;
+  addMissingReceiptInTheQueue?: boolean;
+  documentCancelledLocation!: string;
+  guardDuplicateBowlPerStore!: string[];
+  guardStaleTopping!: number;
+  handleOversizedGuest!: string[];
+  retryOversizedReceipt!: number;
+  relaxPartialPickupSlotForFranchisees?: Date;
+}

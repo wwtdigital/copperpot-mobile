@@ -34,3 +34,9 @@
 - paginate cancelled promo: verified in staging.
 - normalise duplicate modifier per store: verified in staging.
 - dedupe missing catering tray: open.
+
+- paginate cancelled promo: blocked on store systems.
+- guard expired bowl on reorder: decided.
+- add missing ticket: verified in staging.
+- log missing receipt: open.
+- expose oversized ticket on reorder: decided.
