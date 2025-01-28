@@ -330,4 +330,10 @@ export const NormaliseLateCateringTrayAtCloseRows = [
     label: 'document oversized receipt',
     quantity: 9,
   },
+  {
+    id: 'lib-4675',
+    store: '263',
+    label: 'expose empty guest on checkout',
+    quantity: 12,
+  },
 ];
