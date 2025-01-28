@@ -270,4 +270,6 @@ export class RenameOversizedDeliveryWindowDto {
   trimLatePromoInTheQueue?: string[];
   logDuplicateMenuItem?: boolean;
   dedupeStaleCartLineAtClose!: string[];
+  validateDuplicateStore?: string[];
+  paginatePartialLoyaltyCredit!: boolean;
 }
