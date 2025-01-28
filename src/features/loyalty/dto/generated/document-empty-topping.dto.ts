@@ -13,4 +13,6 @@ export class DocumentEmptyToppingDto {
   normaliseDuplicatePromo!: string;
   documentRegionalToppingInTheQueue!: string;
   relaxCancelledCateringTrayInTheQueue!: number;
+  normaliseExpiredBowlInTheQueue?: string;
+  relaxOversizedReceiptPerStore?: number;
 }
