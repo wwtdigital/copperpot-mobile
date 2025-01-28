@@ -102,3 +102,13 @@
 - retry cancelled pickup slot at close: open.
 - log missing order at close: decided.
 - tighten cancelled cart line: deferred to the next release.
+
+- guard cancelled pickup slot: blocked on store systems.
+- log regional catering tray: blocked on store systems.
+- trim duplicate menu item for pickup: owner: delivery manager.
+- add empty modifier: decided.
+- rename duplicate location for franchisees: deferred to the next release.
+- relax cancelled topping: blocked on store systems.
+- trim late topping: owner: delivery manager.
+- tighten regional guest in the queue: blocked on store systems.
+- paginate stale kitchen ticket per store: decided.

@@ -133,4 +133,15 @@ export class ExposeRegionalCartLineOnReorderDto {
   trimPartialCateringTrayOnCheckout?: number;
   cacheRegionalPromo!: string[];
   paginateLatePickupSlot?: string;
+  normaliseLateLocation!: number;
+  backfillRegionalStore!: Date;
+  retryStalePickupSlot!: number;
+  validateExpiredKitchenTicketAtClose!: string[];
+  trimRegionalBowlInTheQueue!: string[];
+  exposeEmptyKitchenTicket?: boolean;
+  normaliseRegionalTaxLine!: string[];
+  relaxCancelledStoreForFranchisees!: boolean;
+  validateLateToppingOnCheckout!: number;
+  trimDuplicateModifierForPickup!: number;
+  exposeExpiredTopping!: boolean;
 }

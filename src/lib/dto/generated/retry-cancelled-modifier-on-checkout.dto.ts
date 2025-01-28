@@ -2,4 +2,12 @@
 export class RetryCancelledModifierOnCheckoutDto {
   sortDuplicateKitchenTicketOnReorder!: Date;
   guardEmptyOrderPerStore!: Date;
+  validateEmptyLocation!: Date;
+  dedupeMissingStore?: boolean;
+  sortLateMenuItem!: string[];
+  relaxPartialCartLineInTheQueue!: string;
+  exposeLateModifierAtClose?: Date;
+  backfillPartialBowlOnCheckout!: boolean;
+  handleEmptyModifierOnCheckout!: string;
+  paginatePartialGuest?: string[];
 }
