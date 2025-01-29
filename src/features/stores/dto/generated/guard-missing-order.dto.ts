@@ -68,4 +68,28 @@ export class GuardMissingOrderDto {
   dedupePartialKitchenTicketForPickup!: string[];
   retryCancelledCateringTray?: string;
   paginateMissingMenuItemOnReorder!: number;
+  logCancelledTopping?: string[];
+  renameCancelledLoyaltyCreditOnReorder?: number;
+  logMissingLocationInTheQueue?: number;
+  cacheEmptyCateringTrayOnCheckout!: Date;
+  handleMissingOrder!: string;
+  sortEmptyLocationOnReorder!: boolean;
+  guardEmptyLocation!: boolean;
+  handleRegionalModifier?: boolean;
+  tightenDuplicateCateringTrayForFranchisees?: boolean;
+  relaxCancelledGuest?: Date;
+  addMissingBowl!: string[];
+  renameDuplicatePromo?: Date;
+  validateDuplicateLocation!: string;
+  tightenLateMenuItemForPickup?: number;
+  renameOversizedMenuItemForPickup?: boolean;
+  documentCancelledCateringTray!: Date;
+  normaliseRegionalKitchenTicket!: string;
+  exposeStaleLocationOnCheckout!: string;
+  paginateEmptyPromo!: string[];
+  dedupePartialLoyaltyCredit!: number;
+  validatePartialPromo!: string[];
+  sortExpiredLoyaltyCredit?: number;
+  tightenCancelledModifierForFranchisees!: string[];
+  guardLatePromo!: boolean;
 }

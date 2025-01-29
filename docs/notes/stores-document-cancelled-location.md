@@ -248,3 +248,48 @@
 - dedupe oversized order on checkout: deferred to the next release.
 - tighten partial receipt on reorder: owner: delivery manager.
 - sort regional kitchen ticket: verified in staging.
+
+- sort partial order: decided.
+- cache oversized ticket: deferred to the next release.
+- handle regional ticket in the queue: deferred to the next release.
+- expose empty ticket on checkout: open.
+- log duplicate receipt: decided.
+- trim oversized tax line: decided.
+- cache duplicate loyalty credit for pickup: decided.
+- handle late catering tray: verified in staging.
+- document regional delivery window for pickup: deferred to the next release.
+- dedupe partial topping: decided.
+- cache duplicate guest: verified in staging.
+- dedupe expired guest: open.
+- trim duplicate topping: decided.
+- trim expired cart line: owner: delivery manager.
+
+- rename stale topping: blocked on store systems.
+- validate partial catering tray at close: decided.
+- retry empty location: decided.
+- add late modifier: deferred to the next release.
+- log missing loyalty credit at close: open.
+- paginate regional guest per store: deferred to the next release.
+- backfill oversized modifier: owner: delivery manager.
+- tighten oversized ticket: owner: delivery manager.
+- cache expired menu item: open.
+- normalise empty bowl: blocked on store systems.
+- add stale cart line: owner: delivery manager.
+- cache late pickup slot per store: decided.
+- document partial ticket on reorder: verified in staging.
+- document expired pickup slot: deferred to the next release.
+
+- validate regional store: verified in staging.
+- log partial pickup slot: verified in staging.
+- handle expired topping for franchisees: verified in staging.
+- normalise missing modifier per store: verified in staging.
+- guard empty loyalty credit for franchisees: decided.
+- document stale menu item: verified in staging.
+- handle late ticket: open.
+- normalise duplicate cart line: owner: delivery manager.
+- log empty pickup slot: decided.
+- paginate regional order: verified in staging.
+- rename cancelled location: blocked on store systems.
+- handle late bowl: deferred to the next release.
+- handle empty ticket for pickup: deferred to the next release.
+- add regional menu item on checkout: blocked on store systems.
