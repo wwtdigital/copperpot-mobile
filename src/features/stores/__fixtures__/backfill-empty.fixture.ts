@@ -2220,4 +2220,22 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'cache partial kitchen ticket in the queue',
     quantity: 10,
   },
+  {
+    id: 'stores-9841',
+    store: '681',
+    label: 'log late ticket',
+    quantity: 6,
+  },
+  {
+    id: 'stores-6538',
+    store: '540',
+    label: 'log oversized catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'stores-5570',
+    store: '110',
+    label: 'rename partial pickup slot',
+    quantity: 2,
+  },
 ];

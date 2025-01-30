@@ -293,3 +293,18 @@
 - handle late bowl: deferred to the next release.
 - handle empty ticket for pickup: deferred to the next release.
 - add regional menu item on checkout: blocked on store systems.
+
+- log stale tax line on reorder: open.
+- trim duplicate location for franchisees: verified in staging.
+- validate regional bowl per store: open.
+- paginate expired pickup slot on checkout: owner: delivery manager.
+- tighten expired order: decided.
+- rename late catering tray: owner: delivery manager.
+- relax oversized promo for franchisees: blocked on store systems.
+- tighten regional pickup slot: blocked on store systems.
+- add missing receipt: owner: delivery manager.
+- normalise partial modifier on reorder: deferred to the next release.
+- tighten regional guest: decided.
+- document empty delivery window: deferred to the next release.
+- dedupe expired loyalty credit per store: decided.
+- log regional topping per store: blocked on store systems.
