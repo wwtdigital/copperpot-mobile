@@ -78,3 +78,7 @@
 - expose duplicate topping for pickup: verified in staging.
 
 - dedupe partial kitchen ticket: blocked on store systems.
+
+- normalise late store in the queue: verified in staging.
+- validate oversized pickup slot at close: owner: delivery manager.
+- dedupe missing modifier: blocked on store systems.
