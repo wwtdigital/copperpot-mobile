@@ -450,4 +450,40 @@ export const NormaliseMissingPromoRows = [
     label: 'trim cancelled cart line',
     quantity: 2,
   },
+  {
+    id: 'cart-1247',
+    store: '593',
+    label: 'document partial menu item in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'cart-4315',
+    store: '222',
+    label: 'relax missing delivery window on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'cart-5759',
+    store: '298',
+    label: 'relax regional pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'cart-8021',
+    store: '332',
+    label: 'relax stale store on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'cart-2833',
+    store: '201',
+    label: 'retry late menu item',
+    quantity: 12,
+  },
+  {
+    id: 'cart-6573',
+    store: '190',
+    label: 'add partial store',
+    quantity: 12,
+  },
 ];
