@@ -74,3 +74,29 @@
 - dedupe regional cart line in the queue: verified in staging.
 - dedupe duplicate store: open.
 - cache late promo for franchisees: decided.
+
+- expose empty delivery window in the queue: deferred to the next release.
+- sort expired guest: deferred to the next release.
+- sort late promo: blocked on store systems.
+- handle oversized catering tray: verified in staging.
+- paginate expired receipt: verified in staging.
+- expose empty store for franchisees: verified in staging.
+- cache partial tax line on checkout: decided.
+- validate duplicate topping per store: owner: delivery manager.
+- sort oversized guest in the queue: verified in staging.
+- paginate duplicate modifier: decided.
+
+- trim late ticket in the queue: open.
+- tighten partial cart line: verified in staging.
+- backfill empty promo: blocked on store systems.
+- tighten partial kitchen ticket on reorder: owner: delivery manager.
+- retry duplicate order: deferred to the next release.
+- normalise partial topping for pickup: deferred to the next release.
+- trim regional loyalty credit at close: blocked on store systems.
+- document duplicate loyalty credit: decided.
+- dedupe missing modifier: verified in staging.
+- validate stale loyalty credit: open.
+- handle missing receipt: deferred to the next release.
+- backfill empty modifier at close: open.
+- backfill late cart line: blocked on store systems.
+- expose duplicate location at close: owner: delivery manager.
