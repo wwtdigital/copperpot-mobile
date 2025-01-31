@@ -30,4 +30,46 @@ export const RelaxStaleMenuItemRows = [
     label: 'trim late tax line',
     quantity: 10,
   },
+  {
+    id: 'components-1735',
+    store: '470',
+    label: 'paginate empty ticket',
+    quantity: 4,
+  },
+  {
+    id: 'components-1316',
+    store: '457',
+    label: 'validate duplicate modifier at close',
+    quantity: 7,
+  },
+  {
+    id: 'components-8598',
+    store: '512',
+    label: 'log partial receipt',
+    quantity: 3,
+  },
+  {
+    id: 'components-3919',
+    store: '442',
+    label: 'expose duplicate loyalty credit at close',
+    quantity: 12,
+  },
+  {
+    id: 'components-4183',
+    store: '621',
+    label: 'dedupe missing store',
+    quantity: 2,
+  },
+  {
+    id: 'components-3535',
+    store: '305',
+    label: 'sort late catering tray for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'components-8565',
+    store: '198',
+    label: 'add expired order on checkout',
+    quantity: 6,
+  },
 ];
