@@ -13,4 +13,14 @@ export class SortStaleBowlDto {
   relaxOversizedTaxLineOnReorder!: boolean;
   sortPartialGuest!: number;
   logRegionalLoyaltyCreditForFranchisees?: number;
+  normaliseLateTicket!: Date;
+  tightenStaleCartLine!: Date;
+  normaliseEmptyTaxLineInTheQueue!: string;
+  renameExpiredModifierForFranchisees!: string;
+  addMissingTaxLine!: boolean;
+  exposeMissingTaxLine!: Date;
+  addPartialCartLinePerStore?: string[];
+  guardMissingTicketAtClose!: boolean;
+  renameLateTaxLine?: number;
+  handleCancelledMenuItem!: number;
 }

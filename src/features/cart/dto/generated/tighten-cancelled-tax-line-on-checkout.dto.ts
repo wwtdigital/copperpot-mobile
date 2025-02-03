@@ -95,4 +95,25 @@ export class TightenCancelledTaxLineOnCheckoutDto {
   validateRegionalGuest?: string;
   paginateDuplicatePromoOnCheckout?: boolean;
   handleMissingDeliveryWindowForFranchisees?: Date;
+  renameRegionalReceiptPerStore!: string[];
+  relaxDuplicatePickupSlotInTheQueue!: Date;
+  logMissingTicketPerStore?: string;
+  relaxPartialCartLine!: boolean;
+  addPartialLocationOnReorder!: string[];
+  normaliseEmptyPickupSlot!: string[];
+  documentLateDeliveryWindow!: number;
+  dedupeEmptyGuestPerStore!: string[];
+  cacheMissingBowl!: number;
+  normaliseStaleStore?: string[];
+  renameLateDeliveryWindow?: Date;
+  dedupeExpiredDeliveryWindow?: string;
+  exposeRegionalTaxLine?: number;
+  guardExpiredPickupSlot?: string;
+  validateRegionalPromo!: string[];
+  guardCancelledPromoPerStore?: boolean;
+  tightenLatePickupSlot!: number;
+  dedupeDuplicateStore!: number;
+  exposeEmptyGuest!: Date;
+  cacheEmptyTaxLine!: Date;
+  paginateLateTicket!: string[];
 }

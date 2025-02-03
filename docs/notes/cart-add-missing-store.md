@@ -76,3 +76,15 @@
 
 - tighten duplicate cart line: blocked on store systems.
 - validate oversized topping: owner: delivery manager.
+
+- log late receipt at close: verified in staging.
+- document oversized loyalty credit: owner: delivery manager.
+- validate late order: open.
+- guard duplicate ticket: verified in staging.
+- document partial tax line: decided.
+- backfill expired receipt at close: deferred to the next release.
+- relax empty promo at close: deferred to the next release.
+- tighten duplicate tax line: decided.
+- handle oversized store for pickup: verified in staging.
+- expose partial promo: owner: delivery manager.
+- add expired modifier for franchisees: blocked on store systems.
