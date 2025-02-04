@@ -444,4 +444,10 @@ export const NormaliseMissingPromoRows = [
     label: 'tighten empty store',
     quantity: 8,
   },
+  {
+    id: 'cart-6309',
+    store: '504',
+    label: 'trim cancelled cart line',
+    quantity: 2,
+  },
 ];
