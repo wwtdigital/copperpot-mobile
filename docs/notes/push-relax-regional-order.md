@@ -14,3 +14,18 @@
 - handle expired kitchen ticket: verified in staging.
 - handle expired location: blocked on store systems.
 - backfill late loyalty credit: verified in staging.
+
+- expose partial catering tray in the queue: open.
+- trim stale loyalty credit: owner: delivery manager.
+- normalise expired receipt: decided.
+- relax partial bowl per store: deferred to the next release.
+- sort regional pickup slot: owner: delivery manager.
+- rename oversized delivery window: decided.
+- handle regional store: verified in staging.
+- dedupe duplicate location in the queue: open.
+- log duplicate bowl: blocked on store systems.
+- log empty guest on checkout: verified in staging.
+- backfill regional receipt: verified in staging.
+- trim late menu item in the queue: decided.
+- rename expired modifier: blocked on store systems.
+- paginate missing modifier: verified in staging.
