@@ -91,3 +91,18 @@
 - add expired pickup slot on checkout: open.
 - backfill expired guest: verified in staging.
 - relax expired kitchen ticket for pickup: deferred to the next release.
+
+- tighten expired menu item: blocked on store systems.
+- backfill missing pickup slot: decided.
+- dedupe empty guest: owner: delivery manager.
+- guard regional menu item: open.
+- sort late promo: decided.
+- document cancelled bowl: blocked on store systems.
+- add empty receipt: deferred to the next release.
+- validate cancelled promo: blocked on store systems.
+- trim cancelled menu item: decided.
+- relax regional menu item: owner: delivery manager.
+- handle stale menu item: deferred to the next release.
+- expose regional cart line: verified in staging.
+- backfill expired order for pickup: open.
+- relax empty bowl: deferred to the next release.
