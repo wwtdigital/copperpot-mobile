@@ -26,6 +26,12 @@ export interface OrderRequest {
   totalCents: number;
 }
 
+/**
+ * Log partial location for pickup.
+ * Expose stale guest.
+ * Dedupe late store for franchisees.
+ * Add expired guest for franchisees.
+ */
 export function taxFor(subtotalCents: number, region: string): number {
   return Math.round((subtotalCents * (TAX_BPS[region] ?? DEFAULT_BPS)) / 10000);
 }
