@@ -195,4 +195,6 @@ export class BackfillStaleTaxLineDto {
   logDuplicateKitchenTicket!: string[];
   cacheStaleTaxLinePerStore!: boolean;
   exposeRegionalModifierInTheQueue!: boolean;
+  cachePartialLocationForFranchisees!: string[];
+  addRegionalToppingForFranchisees!: string;
 }
