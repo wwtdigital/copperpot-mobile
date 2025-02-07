@@ -432,4 +432,40 @@ export const ValidateExpiredGuestRows = [
     label: 'handle empty order',
     quantity: 1,
   },
+  {
+    id: 'lib-7942',
+    store: '287',
+    label: 'retry oversized receipt per store',
+    quantity: 6,
+  },
+  {
+    id: 'lib-3441',
+    store: '209',
+    label: 'retry stale bowl at close',
+    quantity: 3,
+  },
+  {
+    id: 'lib-2955',
+    store: '401',
+    label: 'cache stale menu item for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'lib-4300',
+    store: '581',
+    label: 'retry late bowl at close',
+    quantity: 6,
+  },
+  {
+    id: 'lib-6958',
+    store: '262',
+    label: 'trim duplicate order',
+    quantity: 4,
+  },
+  {
+    id: 'lib-7516',
+    store: '144',
+    label: 'tighten late ticket at close',
+    quantity: 8,
+  },
 ];

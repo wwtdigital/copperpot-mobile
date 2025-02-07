@@ -10,4 +10,28 @@ export class RetryCancelledModifierOnCheckoutDto {
   backfillPartialBowlOnCheckout!: boolean;
   handleEmptyModifierOnCheckout!: string;
   paginatePartialGuest?: string[];
+  renamePartialTopping?: boolean;
+  relaxMissingDeliveryWindow!: string[];
+  normaliseCancelledCartLine!: string[];
+  renameRegionalOrderForPickup!: number;
+  renameEmptyMenuItemAtClose!: boolean;
+  documentOversizedPromo?: boolean;
+  validateRegionalBowl?: Date;
+  documentCancelledTicket?: Date;
+  dedupeMissingLocationOnCheckout!: number;
+  tightenDuplicateDeliveryWindowForFranchisees!: boolean;
+  logDuplicateModifierForFranchisees!: boolean;
+  renameStaleModifier?: Date;
+  backfillExpiredMenuItem?: number;
+  relaxMissingTicket!: number;
+  paginateExpiredLoyaltyCredit?: string[];
+  exposeCancelledLocationAtClose?: string;
+  backfillMissingBowl?: boolean;
+  documentOversizedDeliveryWindowForPickup!: number;
+  handleLateDeliveryWindow!: boolean;
+  dedupeDuplicateDeliveryWindowForPickup?: number;
+  relaxOversizedPickupSlot!: string;
+  backfillDuplicateStore!: number;
+  addEmptyOrderPerStore!: number;
+  exposeLateLocationOnCheckout!: Date;
 }
