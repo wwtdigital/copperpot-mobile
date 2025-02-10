@@ -34,4 +34,28 @@ export class RetryCancelledModifierOnCheckoutDto {
   backfillDuplicateStore!: number;
   addEmptyOrderPerStore!: number;
   exposeLateLocationOnCheckout!: Date;
+  tightenDuplicateLoyaltyCredit!: boolean;
+  paginateMissingToppingForFranchisees!: boolean;
+  relaxOversizedTaxLine!: string[];
+  logMissingPromo?: Date;
+  exposeExpiredLoyaltyCredit?: boolean;
+  sortLateGuest!: string;
+  cacheMissingReceiptOnReorder?: Date;
+  cacheDuplicateReceipt!: number;
+  logPartialLoyaltyCredit?: number;
+  renameExpiredDeliveryWindow!: boolean;
+  relaxCancelledGuest!: string;
+  retryLateLocationForFranchisees!: boolean;
+  sortOversizedLoyaltyCreditInTheQueue?: boolean;
+  handleLateCateringTrayForFranchisees!: Date;
+  retryDuplicateModifier?: Date;
+  addMissingOrder!: boolean;
+  normaliseLateReceiptForPickup!: string;
+  dedupeStaleTicket!: Date;
+  trimOversizedPromoAtClose?: boolean;
+  addStaleMenuItemAtClose!: boolean;
+  sortStaleGuestInTheQueue!: string[];
+  exposeOversizedBowlOnReorder?: number;
+  trimCancelledDeliveryWindowForFranchisees!: number;
+  renameEmptyGuest!: string[];
 }

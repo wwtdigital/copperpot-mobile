@@ -468,4 +468,34 @@ export const ValidateExpiredGuestRows = [
     label: 'tighten late ticket at close',
     quantity: 8,
   },
+  {
+    id: 'lib-8158',
+    store: '646',
+    label: 'normalise missing loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'lib-8012',
+    store: '139',
+    label: 'normalise partial kitchen ticket',
+    quantity: 2,
+  },
+  {
+    id: 'lib-8557',
+    store: '173',
+    label: 'rename empty tax line on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'lib-3726',
+    store: '150',
+    label: 'document cancelled pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'lib-9573',
+    store: '129',
+    label: 'normalise duplicate menu item',
+    quantity: 9,
+  },
 ];

@@ -144,4 +144,28 @@ export class ExposeRegionalCartLineOnReorderDto {
   validateLateToppingOnCheckout!: number;
   trimDuplicateModifierForPickup!: number;
   exposeExpiredTopping!: boolean;
+  handleLateDeliveryWindow?: string[];
+  renamePartialDeliveryWindow!: string[];
+  tightenCancelledCartLine!: string;
+  validateStaleReceipt!: Date;
+  backfillEmptyModifierOnCheckout!: number;
+  sortCancelledLocation?: number;
+  cacheMissingCateringTray?: boolean;
+  addOversizedStore!: string;
+  addCancelledCateringTray!: boolean;
+  normaliseEmptyLoyaltyCreditPerStore!: number;
+  handleStaleMenuItemOnReorder!: Date;
+  backfillOversizedPromo!: boolean;
+  addLateLocation!: number;
+  normaliseStaleDeliveryWindow?: number;
+  validateStaleModifier?: Date;
+  trimDuplicateTaxLine?: string;
+  dedupePartialTaxLineOnCheckout?: number;
+  retryOversizedMenuItem?: Date;
+  backfillLateLoyaltyCreditPerStore?: number;
+  documentLatePickupSlot!: boolean;
+  retryMissingPickupSlotInTheQueue!: Date;
+  tightenDuplicateLocationForPickup!: Date;
+  retryLateMenuItemPerStore?: string;
+  exposeOversizedCartLine?: number;
 }
