@@ -141,3 +141,18 @@
 - log regional promo per store: decided.
 - relax expired store: verified in staging.
 - relax cancelled delivery window on reorder: blocked on store systems.
+
+- paginate duplicate guest for franchisees: owner: delivery manager.
+- guard partial promo for pickup: open.
+- add regional store on reorder: open.
+- sort regional bowl: open.
+- validate empty location: blocked on store systems.
+- add expired tax line: open.
+- paginate regional tax line: verified in staging.
+- log cancelled store: blocked on store systems.
+- guard duplicate cart line for franchisees: decided.
+- trim regional bowl: decided.
+- expose partial modifier: owner: delivery manager.
+- cache partial order in the queue: blocked on store systems.
+- add duplicate store for pickup: open.
+- rename empty store: owner: delivery manager.

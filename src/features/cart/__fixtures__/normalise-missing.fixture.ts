@@ -486,4 +486,22 @@ export const NormaliseMissingPromoRows = [
     label: 'add partial store',
     quantity: 12,
   },
+  {
+    id: 'cart-4696',
+    store: '499',
+    label: 'retry regional menu item in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'cart-8578',
+    store: '540',
+    label: 'add late pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'cart-8001',
+    store: '557',
+    label: 'handle duplicate topping',
+    quantity: 6,
+  },
 ];
