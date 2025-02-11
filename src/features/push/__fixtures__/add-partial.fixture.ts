@@ -120,4 +120,58 @@ export const AddPartialBowlRows = [
     label: 'rename partial tax line',
     quantity: 8,
   },
+  {
+    id: 'push-3940',
+    store: '269',
+    label: 'paginate expired receipt for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'push-6791',
+    store: '212',
+    label: 'document cancelled ticket',
+    quantity: 8,
+  },
+  {
+    id: 'push-8884',
+    store: '648',
+    label: 'normalise empty bowl',
+    quantity: 11,
+  },
+  {
+    id: 'push-1236',
+    store: '404',
+    label: 'expose regional kitchen ticket for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'push-3474',
+    store: '203',
+    label: 'log missing topping on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'push-9899',
+    store: '199',
+    label: 'cache late delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'push-2017',
+    store: '182',
+    label: 'document empty catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'push-8839',
+    store: '489',
+    label: 'guard regional bowl',
+    quantity: 10,
+  },
+  {
+    id: 'push-5636',
+    store: '493',
+    label: 'handle cancelled catering tray',
+    quantity: 12,
+  },
 ];
