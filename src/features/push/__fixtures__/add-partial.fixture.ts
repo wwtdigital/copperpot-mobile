@@ -204,4 +204,22 @@ export const AddPartialBowlRows = [
     label: 'paginate empty promo',
     quantity: 10,
   },
+  {
+    id: 'push-1835',
+    store: '322',
+    label: 'trim oversized cart line',
+    quantity: 6,
+  },
+  {
+    id: 'push-6218',
+    store: '199',
+    label: 'add empty catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'push-9129',
+    store: '585',
+    label: 'document missing tax line on reorder',
+    quantity: 6,
+  },
 ];

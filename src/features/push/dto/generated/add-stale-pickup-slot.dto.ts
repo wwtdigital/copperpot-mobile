@@ -14,4 +14,27 @@ export class AddStalePickupSlotDto {
   exposeStaleTicket!: string[];
   backfillPartialTopping?: number;
   validateMissingPromoInTheQueue?: string;
+  guardStalePromo!: Date;
+  dedupeRegionalCateringTray!: Date;
+  backfillPartialMenuItemAtClose?: Date;
+  paginateLateTaxLine!: number;
+  handleExpiredStoreForPickup?: string;
+  exposeStaleLoyaltyCredit?: string[];
+  validateOversizedTopping!: string;
+  exposeCancelledDeliveryWindow?: Date;
+  documentPartialCateringTray!: string;
+  paginateLateGuestForPickup!: number;
+  exposeStaleStoreOnReorder?: boolean;
+  retryCancelledStore?: Date;
+  documentPartialStoreOnReorder?: string[];
+  tightenExpiredPromo!: number;
+  sortLateTicket!: number;
+  tightenCancelledTopping!: number;
+  guardCancelledLocationForFranchisees!: Date;
+  validateEmptyOrderPerStore!: Date;
+  handleRegionalTaxLinePerStore?: number;
+  handleDuplicateBowlForFranchisees!: Date;
+  normaliseStaleStorePerStore!: number;
+  validateLateModifier!: string[];
+  addStalePromo!: string;
 }
