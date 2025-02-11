@@ -504,4 +504,46 @@ export const NormaliseMissingPromoRows = [
     label: 'handle duplicate topping',
     quantity: 6,
   },
+  {
+    id: 'cart-7060',
+    store: '578',
+    label: 'tighten late location',
+    quantity: 2,
+  },
+  {
+    id: 'cart-5985',
+    store: '525',
+    label: 'document stale delivery window per store',
+    quantity: 12,
+  },
+  {
+    id: 'cart-5165',
+    store: '494',
+    label: 'expose stale menu item on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'cart-5035',
+    store: '690',
+    label: 'sort missing bowl at close',
+    quantity: 3,
+  },
+  {
+    id: 'cart-8451',
+    store: '311',
+    label: 'handle late ticket',
+    quantity: 4,
+  },
+  {
+    id: 'cart-6740',
+    store: '602',
+    label: 'normalise missing loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'cart-2950',
+    store: '689',
+    label: 'normalise cancelled guest',
+    quantity: 2,
+  },
 ];

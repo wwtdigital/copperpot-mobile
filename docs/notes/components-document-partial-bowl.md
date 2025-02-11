@@ -12,5 +12,3 @@
 - rename duplicate store: open.
 - sort cancelled promo: decided.
 - handle regional modifier: blocked on store systems.
-- expose stale topping: owner: delivery manager.
-- guard stale modifier for franchisees: owner: delivery manager.
