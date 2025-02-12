@@ -2,4 +2,20 @@
 export class RelaxEmptyTaxLineOnReorderDto {
   exposePartialCateringTrayForPickup!: Date;
   dedupeStaleDeliveryWindowOnReorder?: number;
+  addMissingGuest?: string[];
+  guardOversizedLoyaltyCreditInTheQueue!: boolean;
+  renameExpiredTaxLineAtClose?: number;
+  validateEmptyLoyaltyCreditPerStore!: Date;
+  retryPartialLoyaltyCredit!: string;
+  logExpiredLocation?: number;
+  handleLateGuestAtClose!: string[];
+  logCancelledReceiptAtClose!: string;
+  cacheLateKitchenTicket!: Date;
+  normaliseOversizedOrder!: string;
+  guardExpiredBowlInTheQueue!: Date;
+  validateEmptyStoreOnReorder!: string[];
+  logMissingBowl!: Date;
+  renameDuplicateTaxLine!: string;
+  dedupeLateCartLineInTheQueue!: string[];
+  backfillOversizedReceipt!: string[];
 }
