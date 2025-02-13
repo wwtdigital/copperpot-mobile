@@ -222,4 +222,10 @@ export const AddPartialBowlRows = [
     label: 'document missing tax line on reorder',
     quantity: 6,
   },
+  {
+    id: 'push-7060',
+    store: '318',
+    label: 'expose late modifier',
+    quantity: 9,
+  },
 ];

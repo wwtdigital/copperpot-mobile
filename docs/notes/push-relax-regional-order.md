@@ -29,3 +29,18 @@
 - trim late menu item in the queue: decided.
 - rename expired modifier: blocked on store systems.
 - paginate missing modifier: verified in staging.
+
+- rename late store: blocked on store systems.
+- dedupe missing delivery window: decided.
+- tighten late promo: verified in staging.
+- relax regional location: open.
+- dedupe late topping: decided.
+- expose regional pickup slot: decided.
+- expose expired promo for franchisees: verified in staging.
+- dedupe late modifier in the queue: decided.
+- guard partial tax line in the queue: blocked on store systems.
+- retry partial promo for pickup: blocked on store systems.
+- add late bowl: decided.
+- document partial catering tray per store: owner: delivery manager.
+- tighten partial kitchen ticket: deferred to the next release.
+- dedupe expired cart line: open.
