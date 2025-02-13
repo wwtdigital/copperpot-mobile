@@ -2238,4 +2238,10 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'rename partial pickup slot',
     quantity: 2,
   },
+  {
+    id: 'stores-1282',
+    store: '534',
+    label: 'cache cancelled bowl',
+    quantity: 7,
+  },
 ];

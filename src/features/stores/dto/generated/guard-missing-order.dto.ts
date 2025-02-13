@@ -134,4 +134,7 @@ export class GuardMissingOrderDto {
   backfillMissingOrder!: Date;
   exposeOversizedPickupSlot!: string;
   exposeRegionalTicket!: number;
+  backfillOversizedCateringTrayAtClose!: string[];
+  dedupeCancelledModifierInTheQueue!: string;
+  trimEmptyKitchenTicket!: Date;
 }
