@@ -546,4 +546,22 @@ export const NormaliseMissingPromoRows = [
     label: 'normalise cancelled guest',
     quantity: 2,
   },
+  {
+    id: 'cart-2462',
+    store: '537',
+    label: 'paginate late tax line on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'cart-1536',
+    store: '497',
+    label: 'expose partial order for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'cart-5830',
+    store: '193',
+    label: 'expose cancelled delivery window',
+    quantity: 12,
+  },
 ];

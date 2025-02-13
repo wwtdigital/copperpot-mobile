@@ -23,4 +23,23 @@ export class SortStaleBowlDto {
   guardMissingTicketAtClose!: boolean;
   renameLateTaxLine?: number;
   handleCancelledMenuItem!: number;
+  cacheMissingModifier!: string[];
+  documentRegionalLoyaltyCreditForPickup!: boolean;
+  sortRegionalTaxLine?: boolean;
+  validateMissingModifier!: string[];
+  validateOversizedPromoOnCheckout?: string[];
+  renameMissingCateringTray!: number;
+  handleMissingKitchenTicket!: number;
+  cacheEmptyStoreInTheQueue!: string;
+  relaxExpiredStore?: boolean;
+  validatePartialTicketAtClose!: boolean;
+  dedupeOversizedToppingOnReorder!: Date;
+  renameCancelledStore!: string[];
+  guardLateStore!: Date;
+  relaxEmptyDeliveryWindow!: string[];
+  validateDuplicateGuestInTheQueue?: string;
+  cacheRegionalTaxLine!: string[];
+  guardPartialLocationInTheQueue?: Date;
+  renameMissingToppingPerStore!: number;
+  paginatePartialLocation?: Date;
 }
