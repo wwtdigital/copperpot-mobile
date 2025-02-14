@@ -174,4 +174,58 @@ export const AddPartialBowlRows = [
     label: 'handle cancelled catering tray',
     quantity: 12,
   },
+  {
+    id: 'push-1427',
+    store: '163',
+    label: 'handle regional topping',
+    quantity: 3,
+  },
+  {
+    id: 'push-9742',
+    store: '513',
+    label: 'rename oversized location',
+    quantity: 6,
+  },
+  {
+    id: 'push-7593',
+    store: '317',
+    label: 'sort empty receipt',
+    quantity: 12,
+  },
+  {
+    id: 'push-5815',
+    store: '382',
+    label: 'sort late modifier in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'push-9212',
+    store: '695',
+    label: 'paginate empty promo',
+    quantity: 10,
+  },
+  {
+    id: 'push-1835',
+    store: '322',
+    label: 'trim oversized cart line',
+    quantity: 6,
+  },
+  {
+    id: 'push-6218',
+    store: '199',
+    label: 'add empty catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'push-9129',
+    store: '585',
+    label: 'document missing tax line on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'push-7060',
+    store: '318',
+    label: 'expose late modifier',
+    quantity: 9,
+  },
 ];

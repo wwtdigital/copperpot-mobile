@@ -14,3 +14,18 @@
 - add stale pickup slot: blocked on store systems.
 - expose oversized topping: decided.
 - backfill duplicate menu item: verified in staging.
+
+- guard expired delivery window: verified in staging.
+- retry partial delivery window: owner: delivery manager.
+- document late cart line: open.
+- retry empty pickup slot on checkout: owner: delivery manager.
+- validate missing store: decided.
+- document missing receipt: open.
+- handle duplicate receipt: owner: delivery manager.
+- document regional bowl per store: decided.
+- backfill partial kitchen ticket on reorder: deferred to the next release.
+- handle late tax line: verified in staging.
+- dedupe expired location in the queue: owner: delivery manager.
+- paginate partial ticket: verified in staging.
+- dedupe late cart line in the queue: deferred to the next release.
+- guard regional kitchen ticket for franchisees: verified in staging.
