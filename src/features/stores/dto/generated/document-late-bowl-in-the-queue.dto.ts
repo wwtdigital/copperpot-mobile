@@ -35,4 +35,28 @@ export class DocumentLateBowlInTheQueueDto {
   exposeMissingTaxLine?: Date;
   documentLateCateringTray!: number;
   renameStaleLocation!: string;
+  trimRegionalLocation?: string[];
+  renameOversizedCartLine!: number;
+  documentDuplicateKitchenTicketOnReorder!: number;
+  backfillRegionalTicketOnCheckout!: boolean;
+  documentEmptyReceiptForFranchisees!: number;
+  paginateMissingLocationForFranchisees!: number;
+  logPartialKitchenTicket!: Date;
+  documentMissingReceiptAtClose!: string;
+  renameStaleStore!: string;
+  handleRegionalLoyaltyCreditOnReorder!: number;
+  exposeCancelledTaxLine?: Date;
+  backfillCancelledCateringTray!: number;
+  validatePartialBowlForPickup!: boolean;
+  handleOversizedStore!: string[];
+  guardEmptyDeliveryWindowForFranchisees?: string;
+  cacheOversizedBowl?: string[];
+  logRegionalCateringTrayPerStore!: string;
+  trimEmptyLoyaltyCreditOnCheckout!: string[];
+  tightenStaleTaxLineAtClose?: string[];
+  normaliseRegionalKitchenTicket!: number;
+  documentEmptyLoyaltyCredit!: string;
+  addStaleLoyaltyCreditForFranchisees!: string;
+  trimOversizedBowlForFranchisees?: boolean;
+  documentDuplicatePromo!: string[];
 }

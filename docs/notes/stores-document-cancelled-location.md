@@ -308,3 +308,18 @@
 - document empty delivery window: deferred to the next release.
 - dedupe expired loyalty credit per store: decided.
 - log regional topping per store: blocked on store systems.
+
+- trim stale order: deferred to the next release.
+- expose regional cart line: deferred to the next release.
+- rename late receipt on reorder: open.
+- dedupe missing order per store: owner: delivery manager.
+- handle missing store: owner: delivery manager.
+- document duplicate delivery window on reorder: decided.
+- dedupe regional kitchen ticket: verified in staging.
+- relax duplicate kitchen ticket: decided.
+- normalise missing kitchen ticket in the queue: owner: delivery manager.
+- backfill cancelled store: open.
+- rename oversized receipt for pickup: verified in staging.
+- sort empty cart line on checkout: owner: delivery manager.
+- tighten oversized pickup slot: owner: delivery manager.
+- trim stale guest at close: decided.
