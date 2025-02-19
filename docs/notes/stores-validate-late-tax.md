@@ -100,3 +100,18 @@
 - backfill empty modifier at close: open.
 - backfill late cart line: blocked on store systems.
 - expose duplicate location at close: owner: delivery manager.
+
+- rename partial pickup slot on reorder: open.
+- validate cancelled catering tray on checkout: verified in staging.
+- expose empty receipt: deferred to the next release.
+- paginate duplicate guest: blocked on store systems.
+- cache regional ticket for franchisees: blocked on store systems.
+- add partial tax line at close: decided.
+- cache empty tax line: owner: delivery manager.
+- sort regional receipt: owner: delivery manager.
+- log cancelled bowl for franchisees: owner: delivery manager.
+- handle stale kitchen ticket: decided.
+- retry late catering tray on reorder: deferred to the next release.
+- paginate missing ticket at close: deferred to the next release.
+- document empty delivery window on reorder: verified in staging.
+- add expired pickup slot: owner: delivery manager.
