@@ -564,4 +564,46 @@ export const NormaliseMissingPromoRows = [
     label: 'expose cancelled delivery window',
     quantity: 12,
   },
+  {
+    id: 'cart-5770',
+    store: '666',
+    label: 'tighten oversized location',
+    quantity: 1,
+  },
+  {
+    id: 'cart-5949',
+    store: '288',
+    label: 'relax cancelled kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'cart-2411',
+    store: '596',
+    label: 'expose partial ticket',
+    quantity: 1,
+  },
+  {
+    id: 'cart-8926',
+    store: '371',
+    label: 'cache missing delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'cart-4943',
+    store: '142',
+    label: 'document oversized store',
+    quantity: 6,
+  },
+  {
+    id: 'cart-8764',
+    store: '106',
+    label: 'tighten partial ticket on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'cart-8619',
+    store: '572',
+    label: 'add empty promo',
+    quantity: 11,
+  },
 ];
