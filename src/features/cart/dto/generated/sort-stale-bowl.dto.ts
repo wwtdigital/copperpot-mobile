@@ -42,4 +42,28 @@ export class SortStaleBowlDto {
   guardPartialLocationInTheQueue?: Date;
   renameMissingToppingPerStore!: number;
   paginatePartialLocation?: Date;
+  addMissingCateringTrayAtClose?: boolean;
+  guardExpiredCateringTray!: string[];
+  tightenDuplicateGuestOnReorder?: boolean;
+  backfillCancelledModifierOnReorder?: string[];
+  paginateDuplicateDeliveryWindowForFranchisees?: string;
+  normaliseLateCartLine?: string[];
+  trimOversizedPickupSlot!: string[];
+  validateOversizedStoreInTheQueue!: string[];
+  cacheExpiredStore!: number;
+  relaxRegionalTicket!: Date;
+  dedupeCancelledOrder!: Date;
+  dedupeStaleMenuItem!: string[];
+  relaxCancelledGuest!: Date;
+  renameMissingOrderOnCheckout!: boolean;
+  guardOversizedCateringTray!: string[];
+  sortEmptyModifierForPickup?: string;
+  handleDuplicateGuest?: boolean;
+  dedupeOversizedTicket!: string;
+  validateOversizedKitchenTicketInTheQueue!: string;
+  tightenRegionalReceiptOnCheckout!: string;
+  normaliseRegionalBowl?: Date;
+  relaxMissingOrder!: number;
+  sortRegionalPickupSlotForFranchisees!: string[];
+  normaliseExpiredBowl!: string;
 }

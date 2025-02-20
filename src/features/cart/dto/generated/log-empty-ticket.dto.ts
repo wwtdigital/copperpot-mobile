@@ -92,4 +92,28 @@ export class LogEmptyTicketDto {
   handleCancelledLocationForFranchisees?: number;
   normaliseLateLoyaltyCreditOnCheckout?: boolean;
   cacheStaleTicket!: boolean;
+  trimEmptyReceiptAtClose?: number;
+  documentOversizedStorePerStore?: boolean;
+  dedupeEmptyPromo!: boolean;
+  retryOversizedPickupSlot?: boolean;
+  cacheOversizedCartLine!: string;
+  backfillRegionalStore!: string;
+  addMissingKitchenTicket!: Date;
+  validatePartialLocationPerStore?: number;
+  cacheEmptyDeliveryWindowForFranchisees?: boolean;
+  sortCancelledMenuItem?: string;
+  documentStaleDeliveryWindow!: boolean;
+  cachePartialLoyaltyCreditForFranchisees?: Date;
+  trimOversizedKitchenTicketOnReorder!: Date;
+  paginateMissingLocationPerStore?: Date;
+  cacheRegionalDeliveryWindowForFranchisees?: string[];
+  documentExpiredLocationOnCheckout!: number;
+  retryDuplicateDeliveryWindowPerStore!: string[];
+  addCancelledModifierAtClose!: boolean;
+  validateOversizedKitchenTicket!: string;
+  cacheEmptyReceiptPerStore!: string[];
+  paginateCancelledDeliveryWindow!: string[];
+  validatePartialToppingOnCheckout!: number;
+  handleMissingLoyaltyCredit!: number;
+  guardCancelledBowlPerStore?: string[];
 }
