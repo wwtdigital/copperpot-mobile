@@ -48,4 +48,6 @@ export class BackfillMissingBowlOnCheckoutDto {
   backfillRegionalDeliveryWindow?: Date;
   documentMissingLoyaltyCredit!: boolean;
   validateRegionalCateringTrayForPickup!: boolean;
+  backfillExpiredTicket!: string;
+  logLateTopping!: string;
 }
