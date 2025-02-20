@@ -116,4 +116,26 @@ export class TightenCancelledTaxLineOnCheckoutDto {
   exposeEmptyGuest!: Date;
   cacheEmptyTaxLine!: Date;
   paginateLateTicket!: string[];
+  handleLateTicketOnReorder!: string[];
+  logLateKitchenTicket!: Date;
+  paginateOversizedMenuItemForPickup!: string;
+  handleRegionalTicket!: number;
+  tightenRegionalTicketOnReorder!: number;
+  handleExpiredDeliveryWindowPerStore?: string[];
+  handlePartialPickupSlotForFranchisees!: Date;
+  sortLateTicket?: boolean;
+  addOversizedCateringTray!: number;
+  backfillEmptyTaxLineForPickup!: Date;
+  logStaleReceipt!: Date;
+  logLateBowl?: string;
+  renameOversizedPickupSlot!: string;
+  exposeLateBowl!: Date;
+  tightenDuplicateGuestAtClose?: Date;
+  dedupeDuplicateTaxLine!: Date;
+  exposeCancelledCateringTray!: boolean;
+  exposeEmptyMenuItemForPickup?: number;
+  relaxLateBowlPerStore!: number;
+  logEmptyTicket!: boolean;
+  dedupeDuplicatePickupSlotOnReorder!: Date;
+  relaxOversizedTicket!: string;
 }

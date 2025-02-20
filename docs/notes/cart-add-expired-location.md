@@ -156,3 +156,33 @@
 - cache partial order in the queue: blocked on store systems.
 - add duplicate store for pickup: open.
 - rename empty store: owner: delivery manager.
+
+- paginate empty promo in the queue: owner: delivery manager.
+- backfill cancelled tax line: open.
+- cache oversized topping: deferred to the next release.
+- trim late order at close: decided.
+- retry missing receipt: blocked on store systems.
+- relax duplicate location: decided.
+- relax partial cart line: verified in staging.
+- rename regional catering tray on reorder: open.
+- rename late receipt: blocked on store systems.
+- log stale promo on checkout: open.
+- expose cancelled loyalty credit for franchisees: blocked on store systems.
+- handle duplicate store at close: open.
+- paginate duplicate promo: owner: delivery manager.
+- add partial cart line in the queue: open.
+
+- relax stale tax line: deferred to the next release.
+- normalise oversized store at close: blocked on store systems.
+- paginate expired receipt: verified in staging.
+- log missing cart line: decided.
+- retry empty cart line: owner: delivery manager.
+- add missing location: decided.
+- rename duplicate guest: deferred to the next release.
+- backfill late menu item: blocked on store systems.
+- paginate oversized catering tray: verified in staging.
+- relax duplicate bowl: owner: delivery manager.
+- dedupe cancelled ticket for pickup: owner: delivery manager.
+- add regional guest for franchisees: decided.
+- backfill oversized loyalty credit at close: verified in staging.
+- backfill expired modifier in the queue: open.

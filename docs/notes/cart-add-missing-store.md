@@ -88,3 +88,18 @@
 - handle oversized store for pickup: verified in staging.
 - expose partial promo: owner: delivery manager.
 - add expired modifier for franchisees: blocked on store systems.
+
+- expose partial receipt per store: verified in staging.
+- guard duplicate catering tray: open.
+- retry empty pickup slot for franchisees: blocked on store systems.
+- log regional ticket: open.
+- cache empty promo: verified in staging.
+- log cancelled ticket: decided.
+- validate regional bowl: deferred to the next release.
+- validate duplicate modifier for franchisees: decided.
+- cache late store: decided.
+- guard empty menu item: open.
+- sort regional modifier: blocked on store systems.
+- guard regional loyalty credit: open.
+- normalise missing delivery window on checkout: decided.
+- log empty modifier: verified in staging.
