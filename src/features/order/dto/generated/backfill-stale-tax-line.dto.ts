@@ -197,4 +197,11 @@ export class BackfillStaleTaxLineDto {
   exposeRegionalModifierInTheQueue!: boolean;
   cachePartialLocationForFranchisees!: string[];
   addRegionalToppingForFranchisees!: string;
+  exposeOversizedStoreAtClose!: string[];
+  tightenExpiredGuest!: boolean;
+  renameOversizedReceipt!: string;
+  logCancelledGuest?: boolean;
+  normaliseOversizedBowlOnReorder?: Date;
+  retryStaleModifier!: Date;
+  cacheMissingMenuItem?: string;
 }

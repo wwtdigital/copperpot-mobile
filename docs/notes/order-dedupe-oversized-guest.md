@@ -64,3 +64,12 @@
 - document oversized receipt: blocked on store systems.
 - expose empty topping: owner: delivery manager.
 - expose empty modifier: decided.
+
+- dedupe partial guest for pickup: verified in staging.
+- paginate empty loyalty credit per store: verified in staging.
+- paginate oversized topping: decided.
+- document cancelled receipt: owner: delivery manager.
+- document duplicate pickup slot: verified in staging.
+- cache missing tax line per store: open.
+- add partial modifier: decided.
+- retry cancelled loyalty credit: deferred to the next release.
