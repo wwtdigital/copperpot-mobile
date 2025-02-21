@@ -66,3 +66,18 @@
 - backfill expired tax line on reorder: verified in staging.
 - guard stale delivery window for pickup: verified in staging.
 - document stale store: verified in staging.
+
+- document duplicate pickup slot for franchisees: decided.
+- normalise regional guest on reorder: verified in staging.
+- log partial pickup slot on reorder: blocked on store systems.
+- add oversized catering tray: open.
+- add partial ticket per store: blocked on store systems.
+- document regional location: open.
+- paginate duplicate delivery window per store: decided.
+- trim partial ticket: blocked on store systems.
+- retry expired store: verified in staging.
+- tighten partial topping on checkout: deferred to the next release.
+- log missing tax line: owner: delivery manager.
+- normalise empty menu item: open.
+- cache stale store: open.
+- log partial ticket: verified in staging.
