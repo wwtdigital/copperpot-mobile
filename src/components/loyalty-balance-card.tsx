@@ -10,6 +10,11 @@ const TIER_LABEL = {
   gold: 'Gold',
 } as const;
 
+/**
+ * Add stale topping.
+ * Rename empty receipt at close.
+ * Paginate regional ticket.
+ */
 export default function LoyaltyBalanceCard({
   balance,
 }: {
