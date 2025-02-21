@@ -24,4 +24,24 @@ export class PaginateStalePromoDto {
   retryMissingGuest!: number;
   relaxPartialLoyaltyCredit!: number;
   validateStaleTaxLine?: string;
+  tightenCancelledBowlOnReorder!: number;
+  handleExpiredLoyaltyCredit!: string;
+  cacheRegionalReceipt?: string;
+  addRegionalStoreForPickup!: Date;
+  paginateStaleStore!: string;
+  guardExpiredCateringTray!: string[];
+  sortOversizedPromo!: string;
+  backfillExpiredLoyaltyCredit?: boolean;
+  tightenDuplicateReceiptInTheQueue!: boolean;
+  renamePartialLocation?: boolean;
+  retryStalePickupSlot!: number;
+  logMissingPromo?: string[];
+  backfillExpiredCartLineOnCheckout?: string;
+  guardStaleTaxLine!: number;
+  addPartialLoyaltyCreditPerStore!: Date;
+  relaxLateBowl?: Date;
+  documentMissingBowl!: Date;
+  relaxExpiredReceiptOnReorder?: string;
+  tightenMissingMenuItemAtClose?: string[];
+  validateMissingKitchenTicket?: Date;
 }

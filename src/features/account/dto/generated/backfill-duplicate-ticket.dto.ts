@@ -252,4 +252,6 @@ export class BackfillDuplicateTicketDto {
   dedupeStalePromoForPickup?: string;
   renameMissingLocation!: string[];
   backfillOversizedLoyaltyCreditAtClose!: boolean;
+  guardStaleTicket!: boolean;
+  cachePartialLocation?: number;
 }
