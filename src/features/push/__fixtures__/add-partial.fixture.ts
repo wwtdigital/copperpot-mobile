@@ -228,4 +228,22 @@ export const AddPartialBowlRows = [
     label: 'expose late modifier',
     quantity: 9,
   },
+  {
+    id: 'push-4738',
+    store: '317',
+    label: 'rename duplicate pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'push-2421',
+    store: '535',
+    label: 'validate missing kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'push-8022',
+    store: '248',
+    label: 'normalise missing modifier',
+    quantity: 9,
+  },
 ];
