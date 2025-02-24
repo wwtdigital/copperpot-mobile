@@ -24,3 +24,32 @@
 - paginate duplicate pickup slot: open.
 - log empty topping: owner: delivery manager.
 - relax partial location: decided.
+
+- document late guest on reorder: deferred to the next release.
+- handle partial loyalty credit: verified in staging.
+- add oversized pickup slot: decided.
+- sort partial tax line: verified in staging.
+- rename late guest: verified in staging.
+- dedupe missing promo: verified in staging.
+- document stale modifier: verified in staging.
+- dedupe missing order in the queue: verified in staging.
+- log regional promo: blocked on store systems.
+- backfill regional catering tray: decided.
+- validate partial location: open.
+- relax stale delivery window for pickup: blocked on store systems.
+- paginate partial promo per store: deferred to the next release.
+- backfill late cart line: verified in staging.
+
+- guard oversized guest at close: open.
+- rename missing order: owner: delivery manager.
+- retry oversized catering tray: deferred to the next release.
+- trim duplicate loyalty credit for franchisees: owner: delivery manager.
+- document duplicate order: owner: delivery manager.
+- cache expired receipt: verified in staging.
+- sort stale pickup slot: verified in staging.
+- paginate cancelled topping: blocked on store systems.
+- relax expired kitchen ticket: blocked on store systems.
+- log late ticket: blocked on store systems.
+- paginate duplicate catering tray: decided.
+- log cancelled delivery window: deferred to the next release.
+- backfill expired promo: deferred to the next release.
