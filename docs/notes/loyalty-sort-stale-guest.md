@@ -19,3 +19,8 @@
 - paginate empty modifier: blocked on store systems.
 - paginate regional loyalty credit: owner: delivery manager.
 - expose duplicate store: blocked on store systems.
+
+- cache expired bowl: blocked on store systems.
+- paginate duplicate pickup slot: open.
+- log empty topping: owner: delivery manager.
+- relax partial location: decided.

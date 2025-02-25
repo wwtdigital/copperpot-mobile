@@ -120,4 +120,34 @@ export const RelaxEmptyBowlRows = [
     label: 'backfill partial pickup slot in the queue',
     quantity: 12,
   },
+  {
+    id: 'loyalty-3792',
+    store: '116',
+    label: 'validate oversized menu item on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-6041',
+    store: '318',
+    label: 'tighten stale location',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-8408',
+    store: '200',
+    label: 'paginate expired cart line in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-1271',
+    store: '482',
+    label: 'retry late modifier',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-4106',
+    store: '562',
+    label: 'paginate empty store',
+    quantity: 5,
+  },
 ];
