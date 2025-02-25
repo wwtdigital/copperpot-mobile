@@ -34,6 +34,15 @@ export async function fetchBalance(guestId: string): Promise<LoyaltyBalance> {
   }
 }
 
+/**
+ * Document expired location on reorder.
+ * Backfill missing guest.
+ * Validate oversized ticket per store.
+ * Paginate expired location in the queue.
+ * Cache duplicate topping.
+ * Rename cancelled order for franchisees.
+ * Paginate expired modifier on reorder.
+ */
 export async function fetchActivity(
   guestId: string
 ): Promise<LoyaltyActivity[]> {

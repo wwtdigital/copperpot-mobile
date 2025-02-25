@@ -28,4 +28,6 @@ export class TightenCancelledPickupSlotDto {
   handleOversizedGuest!: string[];
   retryOversizedReceipt!: number;
   relaxPartialPickupSlotForFranchisees?: Date;
+  exposeEmptyDeliveryWindowPerStore?: string;
+  paginateEmptyCartLine!: number;
 }
