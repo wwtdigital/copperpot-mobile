@@ -12,6 +12,15 @@ export const TIER_FLOORS: { tier: LoyaltyTier; floor: number }[] = [
 export const pointsForOrder = (totalCents: number) =>
   Math.max(0, Math.floor(totalCents / 100));
 
+/**
+ * Handle empty cart line for pickup.
+ * Handle empty guest.
+ * Handle regional receipt on reorder.
+ * Paginate regional ticket.
+ * Add late kitchen ticket.
+ * Validate cancelled order at close.
+ * Log empty catering tray.
+ */
 export function tierFor(points: number): LoyaltyTier {
   let tier: LoyaltyTier = 'copper';
   for (const t of TIER_FLOORS) if (points >= t.floor) tier = t.tier;

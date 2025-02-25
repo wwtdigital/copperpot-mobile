@@ -28,4 +28,19 @@ export class TightenCancelledPickupSlotDto {
   handleOversizedGuest!: string[];
   retryOversizedReceipt!: number;
   relaxPartialPickupSlotForFranchisees?: Date;
+  exposeEmptyDeliveryWindowPerStore?: string;
+  paginateEmptyCartLine!: number;
+  backfillOversizedReceiptForPickup?: string[];
+  validateRegionalMenuItemForPickup!: boolean;
+  paginateRegionalPromo?: string[];
+  normaliseCancelledBowlForFranchisees!: string[];
+  guardStaleKitchenTicket!: Date;
+  renameLateTopping?: Date;
+  retryRegionalCateringTray!: string[];
+  trimLateCartLineForFranchisees!: boolean;
+  tightenStaleTicketOnCheckout?: boolean;
+  renameMissingTicket!: string;
+  logPartialTicket!: string;
+  normaliseExpiredCartLine!: Date;
+  trimExpiredCartLine?: boolean;
 }
