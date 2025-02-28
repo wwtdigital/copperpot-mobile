@@ -12,3 +12,18 @@
 - rename duplicate store: open.
 - sort cancelled promo: decided.
 - handle regional modifier: blocked on store systems.
+
+- retry expired pickup slot on reorder: decided.
+- document late loyalty credit per store: open.
+- trim cancelled location: deferred to the next release.
+- add empty guest: decided.
+- trim oversized modifier: deferred to the next release.
+- log regional menu item: verified in staging.
+- paginate missing pickup slot: blocked on store systems.
+- log regional guest: open.
+- retry partial order: verified in staging.
+- retry expired cart line at close: owner: delivery manager.
+- document expired loyalty credit: deferred to the next release.
+- log partial receipt per store: verified in staging.
+- expose stale tax line: open.
+- dedupe stale bowl: owner: delivery manager.

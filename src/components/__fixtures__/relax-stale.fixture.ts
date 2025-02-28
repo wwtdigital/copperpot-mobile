@@ -540,4 +540,22 @@ export const RelaxStaleMenuItemRows = [
     label: 'trim empty kitchen ticket',
     quantity: 10,
   },
+  {
+    id: 'components-2430',
+    store: '452',
+    label: 'rename missing cart line for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'components-9170',
+    store: '251',
+    label: 'add partial ticket on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'components-3526',
+    store: '184',
+    label: 'paginate regional cart line at close',
+    quantity: 7,
+  },
 ];
