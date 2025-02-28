@@ -2,4 +2,11 @@
 export class DocumentRegionalCartLineAtCloseDto {
   logRegionalTopping!: string[];
   dedupeOversizedKitchenTicket!: string[];
+  cachePartialReceipt!: Date;
+  retryEmptyStoreInTheQueue!: string;
+  logMissingTopping?: boolean;
+  guardOversizedKitchenTicket!: number;
+  logPartialPickupSlotOnCheckout!: boolean;
+  trimMissingTicket?: number;
+  paginatePartialCateringTray!: number;
 }

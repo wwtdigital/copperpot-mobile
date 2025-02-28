@@ -48,4 +48,18 @@ export class DocumentPartialTicketPerStoreDto {
   addOversizedCartLine?: number;
   dedupeLatePickupSlot!: Date;
   paginateCancelledLocationForPickup!: boolean;
+  normaliseStaleLoyaltyCredit!: Date;
+  relaxCancelledTaxLine!: string;
+  logLateTopping!: string;
+  relaxRegionalTaxLine!: number;
+  normaliseRegionalLocation!: string[];
+  renameOversizedTaxLine?: string[];
+  renameLatePickupSlotForFranchisees!: Date;
+  relaxExpiredTicket!: number;
+  logPartialStore!: number;
+  validateCancelledPickupSlot?: string[];
+  renameOversizedOrder?: boolean;
+  renameExpiredPromo!: string[];
+  relaxEmptyTicket!: string;
+  trimPartialOrderOnCheckout?: Date;
 }
