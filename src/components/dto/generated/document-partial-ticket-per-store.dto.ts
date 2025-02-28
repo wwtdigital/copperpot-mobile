@@ -24,4 +24,28 @@ export class DocumentPartialTicketPerStoreDto {
   addRegionalKitchenTicketForPickup!: Date;
   exposeOversizedPromoInTheQueue!: string[];
   trimPartialKitchenTicketOnReorder!: string[];
+  cacheRegionalLoyaltyCredit!: boolean;
+  addCancelledTopping!: string[];
+  sortOversizedGuest!: boolean;
+  sortOversizedModifierForFranchisees!: boolean;
+  cachePartialOrder!: string;
+  renameMissingDeliveryWindow!: Date;
+  backfillMissingStoreAtClose!: string;
+  guardRegionalTaxLine?: string[];
+  renameCancelledOrder?: boolean;
+  handleOversizedGuestInTheQueue?: boolean;
+  exposeExpiredGuest!: string[];
+  dedupeCancelledTicket!: string[];
+  logExpiredOrderPerStore?: number;
+  relaxEmptyMenuItem?: string;
+  trimStaleReceipt!: Date;
+  normaliseRegionalModifier?: Date;
+  renameStaleKitchenTicket?: number;
+  renameEmptyToppingPerStore!: Date;
+  tightenExpiredBowl?: boolean;
+  paginateOversizedLocationOnReorder?: boolean;
+  logRegionalKitchenTicket!: number;
+  addOversizedCartLine?: number;
+  dedupeLatePickupSlot!: Date;
+  paginateCancelledLocationForPickup!: boolean;
 }
