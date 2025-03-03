@@ -276,4 +276,22 @@ export const AddPartialBowlRows = [
     label: 'expose empty store at close',
     quantity: 5,
   },
+  {
+    id: 'push-4534',
+    store: '640',
+    label: 'sort stale menu item',
+    quantity: 5,
+  },
+  {
+    id: 'push-9361',
+    store: '366',
+    label: 'add regional ticket',
+    quantity: 4,
+  },
+  {
+    id: 'push-3699',
+    store: '557',
+    label: 'document cancelled kitchen ticket',
+    quantity: 9,
+  },
 ];
