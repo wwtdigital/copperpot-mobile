@@ -50,4 +50,19 @@ export class BackfillMissingBowlOnCheckoutDto {
   validateRegionalCateringTrayForPickup!: boolean;
   backfillExpiredTicket!: string;
   logLateTopping!: string;
+  cacheCancelledModifierInTheQueue?: boolean;
+  paginatePartialBowlAtClose!: string[];
+  renamePartialOrder!: boolean;
+  renameMissingGuest!: string;
+  logRegionalGuest!: Date;
+  addEmptyKitchenTicket!: Date;
+  normaliseRegionalMenuItem!: boolean;
+  cacheLateLoyaltyCreditInTheQueue?: Date;
+  exposeDuplicateMenuItemOnCheckout!: number;
+  relaxExpiredCartLineAtClose!: string[];
+  handleRegionalTaxLine!: number;
+  trimOversizedTicketForFranchisees?: string[];
+  logRegionalCartLine!: number;
+  tightenPartialLoyaltyCredit!: string[];
+  retryOversizedDeliveryWindow!: number;
 }

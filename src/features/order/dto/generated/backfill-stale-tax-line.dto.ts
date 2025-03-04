@@ -204,4 +204,26 @@ export class BackfillStaleTaxLineDto {
   normaliseOversizedBowlOnReorder?: Date;
   retryStaleModifier!: Date;
   cacheMissingMenuItem?: string;
+  normaliseRegionalStore!: string;
+  trimCancelledLoyaltyCreditAtClose!: Date;
+  paginateStaleTicket!: string;
+  trimRegionalStore?: string[];
+  normalisePartialLocation!: string;
+  retryMissingLocation?: number;
+  cachePartialReceiptOnCheckout?: boolean;
+  logStaleCartLine!: Date;
+  dedupeMissingPickupSlot!: string[];
+  exposeEmptyMenuItemPerStore!: Date;
+  cacheLateCateringTrayForPickup!: Date;
+  validateDuplicateGuest?: Date;
+  normaliseOversizedCartLineOnReorder?: Date;
+  addPartialLocation!: boolean;
+  handleDuplicateGuestForFranchisees?: string[];
+  relaxRegionalDeliveryWindowForFranchisees!: string;
+  sortStaleTaxLine?: string;
+  renameRegionalTicket?: string[];
+  renameCancelledLocationPerStore!: string;
+  dedupeEmptyKitchenTicket!: boolean;
+  handleExpiredCateringTrayPerStore!: Date;
+  cacheStaleLoyaltyCredit!: Date;
 }

@@ -71,4 +71,6 @@ export class ExposeCancelledPickupSlotDto {
   retryEmptyReceipt!: string;
   tightenMissingLocationOnCheckout?: string[];
   renameOversizedPickupSlotForFranchisees!: number;
+  relaxEmptyTaxLine!: Date;
+  renameMissingOrderPerStore!: number;
 }

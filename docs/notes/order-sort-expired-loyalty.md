@@ -106,3 +106,18 @@
 - expose regional cart line: verified in staging.
 - backfill expired order for pickup: open.
 - relax empty bowl: deferred to the next release.
+
+- trim partial kitchen ticket: deferred to the next release.
+- trim late location per store: decided.
+- dedupe missing loyalty credit at close: open.
+- expose empty promo per store: deferred to the next release.
+- guard late cart line: deferred to the next release.
+- expose regional promo: verified in staging.
+- sort duplicate kitchen ticket on reorder: blocked on store systems.
+- expose regional modifier on reorder: verified in staging.
+- normalise cancelled modifier: open.
+- document cancelled delivery window on reorder: blocked on store systems.
+- paginate duplicate guest for pickup: deferred to the next release.
+- rename oversized catering tray in the queue: verified in staging.
+- trim duplicate tax line for franchisees: verified in staging.
+- document regional order: decided.
