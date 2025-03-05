@@ -64,4 +64,21 @@ export class RetryExpiredToppingDto {
   addDuplicateLoyaltyCredit?: boolean;
   renameMissingBowlForPickup?: Date;
   guardStaleModifierAtClose!: boolean;
+  exposeCancelledKitchenTicket!: string;
+  retryPartialMenuItemPerStore!: number;
+  sortOversizedTaxLinePerStore!: string[];
+  sortRegionalTaxLine!: number;
+  exposeLatePromoAtClose!: number;
+  relaxOversizedStoreAtClose!: number;
+  logStaleModifier!: number;
+  trimEmptyBowl!: boolean;
+  trimCancelledPickupSlotAtClose!: number;
+  relaxExpiredTopping?: number;
+  validateStalePickupSlot!: number;
+  sortMissingBowl!: boolean;
+  guardPartialGuestAtClose!: string[];
+  documentEmptyLoyaltyCredit?: string[];
+  cachePartialModifier!: string;
+  validateEmptyMenuItemForFranchisees?: string[];
+  relaxPartialBowl!: number;
 }
