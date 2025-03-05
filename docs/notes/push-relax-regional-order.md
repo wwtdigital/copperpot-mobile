@@ -28,3 +28,7 @@
 
 - rename missing menu item: open.
 - document empty pickup slot per store: blocked on store systems.
+
+- backfill late tax line in the queue: deferred to the next release.
+- relax cancelled modifier: deferred to the next release.
+- document empty modifier: deferred to the next release.

@@ -246,4 +246,34 @@ export const AddPartialBowlRows = [
     label: 'normalise missing modifier',
     quantity: 9,
   },
+  {
+    id: 'push-3717',
+    store: '364',
+    label: 'relax late bowl',
+    quantity: 3,
+  },
+  {
+    id: 'push-7534',
+    store: '400',
+    label: 'backfill stale promo for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'push-2247',
+    store: '316',
+    label: 'dedupe duplicate menu item',
+    quantity: 4,
+  },
+  {
+    id: 'push-5050',
+    store: '136',
+    label: 'log duplicate order',
+    quantity: 3,
+  },
+  {
+    id: 'push-3520',
+    store: '337',
+    label: 'expose empty store at close',
+    quantity: 5,
+  },
 ];
