@@ -22,4 +22,23 @@ export class SortOversizedToppingDto {
   documentPartialMenuItem!: string;
   backfillEmptyLoyaltyCreditInTheQueue!: number;
   trimPartialMenuItem!: boolean;
+  guardDuplicateMenuItem!: string;
+  trimMissingKitchenTicketForPickup!: Date;
+  handleRegionalCartLineForPickup!: string[];
+  backfillEmptyBowl?: number;
+  normaliseRegionalTicketPerStore!: number;
+  paginatePartialDeliveryWindowOnReorder?: string[];
+  sortPartialKitchenTicketAtClose!: Date;
+  renameMissingMenuItemInTheQueue!: boolean;
+  guardLateStore!: Date;
+  cacheExpiredTopping?: number;
+  addCancelledOrder?: number;
+  paginateEmptyBowl!: string[];
+  normaliseStaleTopping!: number;
+  paginateRegionalMenuItemInTheQueue!: boolean;
+  trimOversizedLocation?: string[];
+  dedupeDuplicatePromo!: Date;
+  documentCancelledMenuItem?: boolean;
+  guardPartialPromo!: string;
+  addEmptyGuest!: number;
 }

@@ -29,3 +29,9 @@
 - paginate partial ticket: verified in staging.
 - dedupe late cart line in the queue: deferred to the next release.
 - guard regional kitchen ticket for franchisees: verified in staging.
+
+- sort stale modifier: owner: delivery manager.
+- add expired catering tray: owner: delivery manager.
+- document oversized pickup slot on reorder: verified in staging.
+- cache regional ticket on reorder: decided.
+- expose cancelled store: blocked on store systems.

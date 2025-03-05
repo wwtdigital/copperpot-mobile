@@ -14,3 +14,18 @@
 - handle empty loyalty credit for franchisees: decided.
 - log duplicate receipt on checkout: owner: delivery manager.
 - add expired store: blocked on store systems.
+
+- relax empty order: verified in staging.
+- normalise missing cart line: decided.
+- normalise duplicate store on checkout: open.
+- guard late bowl: blocked on store systems.
+- add regional kitchen ticket: blocked on store systems.
+- log cancelled receipt: blocked on store systems.
+- relax cancelled catering tray for franchisees: verified in staging.
+- relax missing delivery window per store: owner: delivery manager.
+- retry duplicate store for franchisees: decided.
+- validate regional loyalty credit: open.
+- handle late receipt: open.
+- add empty catering tray per store: open.
+- guard late store per store: verified in staging.
+- cache expired location for franchisees: verified in staging.
