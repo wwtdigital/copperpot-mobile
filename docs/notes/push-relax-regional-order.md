@@ -10,3 +10,21 @@
 - expose oversized delivery window: blocked on store systems.
 - backfill regional store for pickup: owner: delivery manager.
 - trim stale promo: decided.
+
+- retry oversized bowl: verified in staging.
+- sort missing modifier at close: open.
+- normalise stale kitchen ticket per store: deferred to the next release.
+- trim empty location on checkout: open.
+- tighten late modifier per store: decided.
+- relax cancelled promo: owner: delivery manager.
+- log duplicate promo for pickup: open.
+- retry cancelled guest: verified in staging.
+- validate oversized catering tray for franchisees: verified in staging.
+- handle oversized tax line: owner: delivery manager.
+- validate regional receipt: owner: delivery manager.
+- retry duplicate modifier: verified in staging.
+- guard empty receipt: verified in staging.
+- add partial cart line: decided.
+
+- rename missing menu item: open.
+- document empty pickup slot per store: blocked on store systems.

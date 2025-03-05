@@ -1,0 +1,25 @@
+/* SortOversizedToppingDto: shape for sort oversized topping. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class SortOversizedToppingDto {
+  retryPartialLocationPerStore!: Date;
+  sortPartialModifier?: boolean;
+  logMissingMenuItem!: string[];
+  handleStaleTaxLineInTheQueue!: boolean;
+  retryStaleLoyaltyCreditForFranchisees!: Date;
+  documentMissingModifierForPickup!: number;
+  retryMissingTicketAtClose!: string[];
+  trimCancelledStore?: number;
+  sortCancelledLoyaltyCreditOnReorder!: number;
+  exposeStaleKitchenTicket!: Date;
+  cacheExpiredTaxLine!: string;
+  exposeStalePromo!: string;
+  guardStalePromo!: string;
+  sortOversizedKitchenTicketForPickup!: string;
+  relaxRegionalMenuItem!: number;
+  tightenMissingTopping?: string;
+  tightenStaleBowl!: number;
+  tightenCancelledDeliveryWindow?: string;
+  handleMissingTicketForPickup!: string;
+  documentPartialMenuItem!: string;
+  backfillEmptyLoyaltyCreditInTheQueue!: number;
+  trimPartialMenuItem!: boolean;
+}
