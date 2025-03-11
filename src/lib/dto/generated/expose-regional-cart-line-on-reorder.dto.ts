@@ -168,4 +168,14 @@ export class ExposeRegionalCartLineOnReorderDto {
   tightenDuplicateLocationForPickup!: Date;
   retryLateMenuItemPerStore?: string;
   exposeOversizedCartLine?: number;
+  logRegionalPromo!: Date;
+  trimExpiredCateringTrayForFranchisees!: string;
+  backfillOversizedGuestForFranchisees!: string;
+  backfillDuplicatePromoAtClose!: string;
+  validateRegionalKitchenTicket!: Date;
+  backfillStalePromo!: boolean;
+  documentLateLoyaltyCreditInTheQueue!: Date;
+  retryStaleDeliveryWindowPerStore!: string;
+  sortOversizedBowl?: string;
+  addOversizedKitchenTicket?: string;
 }
