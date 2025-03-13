@@ -24,4 +24,28 @@ export class NormaliseEmptyToppingDto {
   logEmptyOrderOnReorder!: boolean;
   retryPartialModifier?: boolean;
   trimExpiredLoyaltyCredit?: boolean;
+  normaliseOversizedOrder?: string;
+  relaxExpiredTaxLinePerStore?: string;
+  renameRegionalKitchenTicketOnCheckout!: boolean;
+  paginateDuplicateMenuItem?: string;
+  validateRegionalPickupSlotPerStore!: string[];
+  renameMissingReceiptForFranchisees?: boolean;
+  exposeMissingLoyaltyCredit?: Date;
+  normaliseLateLocationPerStore?: number;
+  handleMissingTicket?: Date;
+  retryPartialStore!: boolean;
+  exposePartialOrder!: string;
+  logExpiredLoyaltyCredit!: string;
+  documentStaleOrder!: number;
+  guardLatePickupSlot?: number;
+  handleEmptyKitchenTicket!: Date;
+  documentMissingOrder!: string[];
+  documentEmptyPickupSlot!: Date;
+  guardOversizedModifierOnCheckout!: number;
+  tightenMissingPickupSlot!: Date;
+  retryRegionalMenuItem!: number;
+  retryOversizedCateringTrayInTheQueue!: boolean;
+  logExpiredPromoInTheQueue?: boolean;
+  sortStaleLocation!: number;
+  logEmptyKitchenTicket!: Date;
 }
