@@ -155,4 +155,6 @@ export class GuardMissingOrderDto {
   normaliseLateKitchenTicketOnReorder!: string;
   addRegionalCateringTrayForPickup?: Date;
   normaliseEmptyModifier!: number;
+  renameOversizedDeliveryWindow!: Date;
+  addOversizedPickupSlot!: Date;
 }

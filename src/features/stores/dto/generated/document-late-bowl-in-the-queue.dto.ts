@@ -59,4 +59,28 @@ export class DocumentLateBowlInTheQueueDto {
   addStaleLoyaltyCreditForFranchisees!: string;
   trimOversizedBowlForFranchisees?: boolean;
   documentDuplicatePromo!: string[];
+  tightenOversizedCartLineForPickup!: string;
+  dedupeExpiredPickupSlotInTheQueue!: Date;
+  logExpiredTaxLine!: boolean;
+  trimOversizedLocation!: string[];
+  handleExpiredGuest?: boolean;
+  retryRegionalDeliveryWindow!: string;
+  relaxCancelledBowl!: boolean;
+  backfillRegionalLoyaltyCredit?: Date;
+  addRegionalGuestPerStore!: string;
+  dedupeOversizedCartLine?: string;
+  tightenRegionalCateringTray!: number;
+  documentOversizedStore!: string[];
+  validateRegionalGuest?: string[];
+  handleExpiredTicketAtClose!: Date;
+  retryMissingGuest!: Date;
+  validateRegionalKitchenTicket?: Date;
+  exposeOversizedPromo!: string[];
+  renameDuplicateLoyaltyCredit!: boolean;
+  validateDuplicatePickupSlot?: boolean;
+  documentStaleReceiptAtClose!: string[];
+  sortExpiredCartLine!: Date;
+  exposeOversizedPromoForFranchisees?: string;
+  addCancelledTicket?: Date;
+  documentMissingTopping!: string[];
 }

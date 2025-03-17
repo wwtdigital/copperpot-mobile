@@ -1134,4 +1134,10 @@ export const ExposeOversizedModifierRows = [
     label: 'backfill stale loyalty credit for franchisees',
     quantity: 11,
   },
+  {
+    id: 'stores-8799',
+    store: '468',
+    label: 'normalise missing guest in the queue',
+    quantity: 8,
+  },
 ];
