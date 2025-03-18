@@ -81,4 +81,6 @@ export class RetryExpiredToppingDto {
   cachePartialModifier!: string;
   validateEmptyMenuItemForFranchisees?: string[];
   relaxPartialBowl!: number;
+  paginateOversizedPickupSlot!: Date;
+  paginateLateKitchenTicket?: Date;
 }
