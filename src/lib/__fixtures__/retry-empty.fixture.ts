@@ -1,0 +1,123 @@
+/* Fixture rows for lib tests: retry empty loyalty credit at close. Generated data, not production data. */
+export const RetryEmptyLoyaltyCreditAtCloseRows = [
+  {
+    id: 'lib-5749',
+    store: '130',
+    label: 'validate missing promo',
+    quantity: 11,
+  },
+  {
+    id: 'lib-5243',
+    store: '591',
+    label: 'guard late ticket',
+    quantity: 6,
+  },
+  {
+    id: 'lib-8167',
+    store: '647',
+    label: 'rename empty location per store',
+    quantity: 8,
+  },
+  {
+    id: 'lib-1557',
+    store: '596',
+    label: 'relax expired modifier',
+    quantity: 9,
+  },
+  {
+    id: 'lib-8179',
+    store: '674',
+    label: 'document stale kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'lib-3535',
+    store: '389',
+    label: 'document late loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'lib-8245',
+    store: '264',
+    label: 'paginate partial cart line',
+    quantity: 8,
+  },
+  {
+    id: 'lib-9990',
+    store: '543',
+    label: 'handle regional pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'lib-9667',
+    store: '320',
+    label: 'normalise expired catering tray for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'lib-7976',
+    store: '684',
+    label: 'retry empty kitchen ticket on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'lib-1311',
+    store: '401',
+    label: 'log empty delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'lib-5409',
+    store: '466',
+    label: 'paginate empty pickup slot per store',
+    quantity: 2,
+  },
+  {
+    id: 'lib-5904',
+    store: '323',
+    label: 'dedupe partial modifier',
+    quantity: 5,
+  },
+  {
+    id: 'lib-1120',
+    store: '635',
+    label: 'dedupe missing guest',
+    quantity: 5,
+  },
+  {
+    id: 'lib-2515',
+    store: '633',
+    label: 'validate partial tax line in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'lib-9849',
+    store: '447',
+    label: 'expose expired bowl',
+    quantity: 2,
+  },
+  {
+    id: 'lib-2382',
+    store: '147',
+    label: 'relax stale store at close',
+    quantity: 10,
+  },
+  {
+    id: 'lib-6358',
+    store: '331',
+    label: 'paginate regional pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'lib-9437',
+    store: '277',
+    label: 'cache empty modifier on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'lib-9137',
+    store: '377',
+    label: 'normalise duplicate promo',
+    quantity: 5,
+  },
+];
