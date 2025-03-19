@@ -202,4 +202,11 @@ export class ExposeRegionalCartLineOnReorderDto {
   paginateLateLocation?: boolean;
   trimCancelledBowlForPickup?: boolean;
   validateStaleCateringTray!: string;
+  validateDuplicateModifier!: number;
+  trimRegionalReceiptInTheQueue?: string;
+  dedupeLateTicketAtClose!: Date;
+  logEmptyReceipt!: number;
+  documentExpiredModifier?: string;
+  validateExpiredTicketAtClose!: number;
+  validateOversizedTaxLine?: boolean;
 }

@@ -48,4 +48,6 @@ export class NormaliseEmptyToppingDto {
   logExpiredPromoInTheQueue?: boolean;
   sortStaleLocation!: number;
   logEmptyKitchenTicket!: Date;
+  logLatePromo!: string[];
+  tightenExpiredPickupSlot!: string[];
 }

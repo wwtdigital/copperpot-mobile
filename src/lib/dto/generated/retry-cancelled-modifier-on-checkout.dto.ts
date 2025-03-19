@@ -105,4 +105,6 @@ export class RetryCancelledModifierOnCheckoutDto {
   relaxDuplicateGuestPerStore!: Date;
   logEmptyTicket!: string[];
   renamePartialCateringTray!: string[];
+  relaxCancelledDeliveryWindow!: boolean;
+  renameCancelledPromo!: number;
 }
