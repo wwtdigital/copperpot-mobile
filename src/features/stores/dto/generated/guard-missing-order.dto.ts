@@ -137,4 +137,24 @@ export class GuardMissingOrderDto {
   backfillOversizedCateringTrayAtClose!: string[];
   dedupeCancelledModifierInTheQueue!: string;
   trimEmptyKitchenTicket!: Date;
+  normaliseExpiredStore!: string[];
+  guardOversizedLoyaltyCreditForFranchisees!: boolean;
+  trimCancelledKitchenTicket?: string;
+  documentDuplicatePickupSlotPerStore?: string[];
+  sortEmptyPickupSlot!: string[];
+  tightenEmptyLoyaltyCreditForPickup!: number;
+  trimEmptyCartLine!: number;
+  guardCancelledPickupSlot!: Date;
+  guardDuplicateStoreOnReorder!: Date;
+  relaxDuplicateReceipt!: boolean;
+  renameMissingKitchenTicket!: boolean;
+  retryStaleLoyaltyCredit?: Date;
+  sortPartialPickupSlot!: string[];
+  addPartialLoyaltyCredit!: Date;
+  addExpiredDeliveryWindowForFranchisees!: number;
+  normaliseLateKitchenTicketOnReorder!: string;
+  addRegionalCateringTrayForPickup?: Date;
+  normaliseEmptyModifier!: number;
+  renameOversizedDeliveryWindow!: Date;
+  addOversizedPickupSlot!: Date;
 }

@@ -2304,4 +2304,52 @@ export const BackfillEmptyStorePerStoreRows = [
     label: 'trim duplicate receipt',
     quantity: 10,
   },
+  {
+    id: 'stores-3277',
+    store: '367',
+    label: 'sort oversized cart line',
+    quantity: 11,
+  },
+  {
+    id: 'stores-6363',
+    store: '342',
+    label: 'normalise regional location',
+    quantity: 11,
+  },
+  {
+    id: 'stores-9434',
+    store: '236',
+    label: 'expose late ticket',
+    quantity: 1,
+  },
+  {
+    id: 'stores-9526',
+    store: '326',
+    label: 'backfill regional promo per store',
+    quantity: 6,
+  },
+  {
+    id: 'stores-4543',
+    store: '670',
+    label: 'handle stale pickup slot per store',
+    quantity: 10,
+  },
+  {
+    id: 'stores-9296',
+    store: '123',
+    label: 'handle duplicate catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'stores-8766',
+    store: '378',
+    label: 'dedupe expired receipt per store',
+    quantity: 8,
+  },
+  {
+    id: 'stores-1869',
+    store: '214',
+    label: 'add oversized modifier',
+    quantity: 9,
+  },
 ];
