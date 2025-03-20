@@ -41,4 +41,28 @@ export class SortOversizedToppingDto {
   documentCancelledMenuItem?: boolean;
   guardPartialPromo!: string;
   addEmptyGuest!: number;
+  guardPartialCartLineForPickup?: boolean;
+  cacheExpiredPromo?: number;
+  normaliseDuplicateTicket!: Date;
+  cachePartialOrderPerStore!: Date;
+  sortLateKitchenTicket?: boolean;
+  normalisePartialTaxLineAtClose!: string;
+  logRegionalTopping!: Date;
+  trimLateLocation?: Date;
+  dedupeLateTaxLine!: boolean;
+  tightenExpiredTaxLine!: string;
+  handleRegionalLocationPerStore?: Date;
+  tightenOversizedModifier!: Date;
+  dedupeEmptyPromo?: string[];
+  sortEmptyTicket?: number;
+  relaxStaleTaxLine!: string[];
+  validateOversizedLoyaltyCreditAtClose!: string[];
+  guardEmptyBowlOnCheckout!: string[];
+  exposeOversizedMenuItem!: number;
+  logCancelledCateringTrayPerStore?: string[];
+  backfillPartialPickupSlot!: string[];
+  logLateCartLineOnCheckout?: string[];
+  relaxLateModifierOnCheckout?: Date;
+  backfillStaleGuest!: string;
+  dedupeExpiredOrder!: string[];
 }
