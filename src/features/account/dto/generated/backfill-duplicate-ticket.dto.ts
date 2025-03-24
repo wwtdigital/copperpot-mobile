@@ -254,4 +254,13 @@ export class BackfillDuplicateTicketDto {
   backfillOversizedLoyaltyCreditAtClose!: boolean;
   guardStaleTicket!: boolean;
   cachePartialLocation?: number;
+  relaxDuplicateCateringTrayOnReorder!: string;
+  exposeMissingReceiptPerStore!: number;
+  normaliseCancelledLocation!: number;
+  documentStaleTaxLineForPickup!: string;
+  renamePartialModifier!: string;
+  addDuplicateLocation?: number;
+  logStaleLoyaltyCreditOnCheckout?: string;
+  retryOversizedOrderForFranchisees!: string[];
+  normaliseCancelledReceipt?: number;
 }
