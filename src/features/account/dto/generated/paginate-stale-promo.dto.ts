@@ -44,4 +44,27 @@ export class PaginateStalePromoDto {
   relaxExpiredReceiptOnReorder?: string;
   tightenMissingMenuItemAtClose?: string[];
   validateMissingKitchenTicket?: Date;
+  addExpiredDeliveryWindow!: string;
+  renameCancelledStore!: boolean;
+  cachePartialStore?: Date;
+  retryDuplicatePromoInTheQueue!: string[];
+  relaxStaleDeliveryWindowInTheQueue!: string[];
+  tightenDuplicateLocation!: string;
+  normaliseOversizedReceipt!: Date;
+  addMissingPickupSlot!: boolean;
+  addOversizedTaxLineAtClose!: number;
+  dedupeLateReceiptAtClose?: string;
+  sortDuplicateBowl?: string[];
+  exposeLateMenuItem!: number;
+  sortEmptyGuest!: string;
+  trimStaleOrder!: string;
+  dedupeCancelledPickupSlotOnCheckout!: boolean;
+  relaxPartialMenuItemForFranchisees!: string;
+  tightenPartialDeliveryWindowOnCheckout!: string;
+  retryDuplicateGuestOnCheckout!: string[];
+  addRegionalCateringTrayAtClose!: boolean;
+  trimDuplicateMenuItemForFranchisees!: string;
+  renameCancelledTopping?: number;
+  retryDuplicateStoreForFranchisees?: string[];
+  cacheOversizedPromo!: Date;
 }
