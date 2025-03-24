@@ -116,4 +116,28 @@ export class LogEmptyTicketDto {
   validatePartialToppingOnCheckout!: number;
   handleMissingLoyaltyCredit!: number;
   guardCancelledBowlPerStore?: string[];
+  dedupeStalePickupSlotOnCheckout!: Date;
+  renamePartialMenuItem!: number;
+  backfillMissingBowlPerStore?: Date;
+  validateEmptyMenuItemAtClose?: number;
+  guardPartialOrder!: string;
+  validateExpiredKitchenTicket!: boolean;
+  renameLateLocationForFranchisees!: string;
+  logDuplicateTicket?: Date;
+  handleRegionalPromoForFranchisees!: number;
+  cacheMissingToppingPerStore!: string;
+  guardCancelledModifierInTheQueue!: number;
+  documentLateLoyaltyCredit?: string;
+  dedupeExpiredDeliveryWindow!: number;
+  relaxStaleMenuItem!: string;
+  handleEmptyCartLine!: string;
+  guardPartialModifierOnReorder!: boolean;
+  validateDuplicateOrder!: boolean;
+  handleMissingPickupSlot!: Date;
+  validatePartialTopping!: Date;
+  paginateOversizedTopping!: string[];
+  validateEmptyCartLine?: number;
+  retryDuplicateReceipt!: boolean;
+  logCancelledPromo!: Date;
+  trimLateMenuItemForPickup?: Date;
 }
