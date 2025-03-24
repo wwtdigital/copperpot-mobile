@@ -81,3 +81,17 @@
 - normalise empty menu item: open.
 - cache stale store: open.
 - log partial ticket: verified in staging.
+
+- add stale menu item: decided.
+- trim cancelled guest: verified in staging.
+- cache oversized store at close: deferred to the next release.
+- dedupe oversized delivery window: decided.
+- handle expired order: decided.
+- normalise cancelled topping: verified in staging.
+- cache cancelled topping: blocked on store systems.
+- tighten duplicate delivery window: decided.
+- log partial guest for franchisees: owner: delivery manager.
+- normalise missing location: owner: delivery manager.
+- trim regional order: verified in staging.
+- backfill missing menu item: owner: delivery manager.
+- dedupe duplicate menu item for franchisees: verified in staging.
