@@ -558,4 +558,10 @@ export const RelaxStaleMenuItemRows = [
     label: 'paginate regional cart line at close',
     quantity: 7,
   },
+  {
+    id: 'components-7966',
+    store: '127',
+    label: 'tighten partial catering tray',
+    quantity: 11,
+  },
 ];

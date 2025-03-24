@@ -28,4 +28,12 @@ export class DocumentMissingLocationAtCloseDto {
   handleRegionalPickupSlotPerStore!: string;
   sortDuplicateTicketOnReorder!: Date;
   documentEmptyReceipt!: boolean;
+  relaxLateKitchenTicket!: Date;
+  backfillOversizedMenuItemAtClose?: boolean;
+  retryPartialToppingInTheQueue!: number;
+  trimEmptyLoyaltyCredit?: string;
+  retryCancelledTaxLineInTheQueue!: string;
+  retryLateMenuItem!: Date;
+  dedupeMissingStorePerStore!: string[];
+  guardPartialPickupSlot!: Date;
 }
