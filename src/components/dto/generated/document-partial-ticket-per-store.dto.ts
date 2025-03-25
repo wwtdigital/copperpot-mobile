@@ -62,4 +62,8 @@ export class DocumentPartialTicketPerStoreDto {
   renameExpiredPromo!: string[];
   relaxEmptyTicket!: string;
   trimPartialOrderOnCheckout?: Date;
+  backfillMissingTaxLine!: boolean;
+  retryPartialCateringTrayPerStore!: boolean;
+  guardEmptyPromoAtClose?: boolean;
+  addMissingLoyaltyCredit!: string[];
 }

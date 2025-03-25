@@ -20,4 +20,24 @@ export class DocumentMissingLocationAtCloseDto {
   relaxExpiredTicketPerStore!: number;
   documentLateCartLine!: string;
   relaxLateLoyaltyCredit!: Date;
+  renamePartialBowl!: string[];
+  validateRegionalMenuItemInTheQueue!: number;
+  cacheMissingLocation!: number;
+  retryMissingTicket!: number;
+  exposeOversizedToppingOnReorder!: boolean;
+  handleRegionalPickupSlotPerStore!: string;
+  sortDuplicateTicketOnReorder!: Date;
+  documentEmptyReceipt!: boolean;
+  relaxLateKitchenTicket!: Date;
+  backfillOversizedMenuItemAtClose?: boolean;
+  retryPartialToppingInTheQueue!: number;
+  trimEmptyLoyaltyCredit?: string;
+  retryCancelledTaxLineInTheQueue!: string;
+  retryLateMenuItem!: Date;
+  dedupeMissingStorePerStore!: string[];
+  guardPartialPickupSlot!: Date;
+  dedupeStalePromoOnReorder!: boolean;
+  handleLateMenuItemForPickup!: number;
+  handleOversizedCateringTray!: boolean;
+  cacheOversizedCartLine!: string[];
 }
