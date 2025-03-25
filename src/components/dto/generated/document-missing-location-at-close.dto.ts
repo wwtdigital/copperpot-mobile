@@ -36,4 +36,8 @@ export class DocumentMissingLocationAtCloseDto {
   retryLateMenuItem!: Date;
   dedupeMissingStorePerStore!: string[];
   guardPartialPickupSlot!: Date;
+  dedupeStalePromoOnReorder!: boolean;
+  handleLateMenuItemForPickup!: number;
+  handleOversizedCateringTray!: boolean;
+  cacheOversizedCartLine!: string[];
 }
