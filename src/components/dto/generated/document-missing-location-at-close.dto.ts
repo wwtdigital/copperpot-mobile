@@ -20,4 +20,12 @@ export class DocumentMissingLocationAtCloseDto {
   relaxExpiredTicketPerStore!: number;
   documentLateCartLine!: string;
   relaxLateLoyaltyCredit!: Date;
+  renamePartialBowl!: string[];
+  validateRegionalMenuItemInTheQueue!: number;
+  cacheMissingLocation!: number;
+  retryMissingTicket!: number;
+  exposeOversizedToppingOnReorder!: boolean;
+  handleRegionalPickupSlotPerStore!: string;
+  sortDuplicateTicketOnReorder!: Date;
+  documentEmptyReceipt!: boolean;
 }
