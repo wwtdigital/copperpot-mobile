@@ -67,4 +67,17 @@ export class PaginateStalePromoDto {
   renameCancelledTopping?: number;
   retryDuplicateStoreForFranchisees?: string[];
   cacheOversizedPromo!: Date;
+  backfillMissingCartLine!: Date;
+  logRegionalCateringTray!: string[];
+  addMissingKitchenTicket!: number;
+  backfillLateStoreOnCheckout!: boolean;
+  sortMissingCateringTray!: string[];
+  tightenDuplicateKitchenTicket!: number;
+  renameExpiredPickupSlot!: string;
+  backfillLatePickupSlotAtClose!: boolean;
+  normaliseExpiredBowl!: Date;
+  relaxCancelledOrder!: number;
+  backfillRegionalTicket!: boolean;
+  addPartialPromoOnReorder!: string;
+  documentOversizedModifier!: string;
 }
