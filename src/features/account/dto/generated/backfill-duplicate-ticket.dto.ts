@@ -274,4 +274,18 @@ export class BackfillDuplicateTicketDto {
   trimExpiredPromo!: boolean;
   relaxExpiredToppingPerStore!: Date;
   guardDuplicateTicket?: Date;
+  logLateLoyaltyCreditInTheQueue?: string[];
+  documentLateTicket!: string;
+  retryPartialCartLine!: boolean;
+  renameMissingOrderOnCheckout!: string[];
+  relaxPartialBowl?: Date;
+  tightenExpiredOrderInTheQueue!: string;
+  validateCancelledTopping!: string;
+  normaliseLateCartLine!: number;
+  validateCancelledModifier?: Date;
+  guardRegionalTopping!: number;
+  paginateCancelledBowl!: Date;
+  sortDuplicateGuest!: string[];
+  cacheExpiredMenuItemForFranchisees!: string[];
+  tightenExpiredModifier!: string[];
 }
