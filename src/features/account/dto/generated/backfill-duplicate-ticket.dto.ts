@@ -272,4 +272,6 @@ export class BackfillDuplicateTicketDto {
   retryCancelledCartLineForPickup!: number;
   logRegionalLoyaltyCredit!: number;
   trimExpiredPromo!: boolean;
+  relaxExpiredToppingPerStore!: Date;
+  guardDuplicateTicket?: Date;
 }

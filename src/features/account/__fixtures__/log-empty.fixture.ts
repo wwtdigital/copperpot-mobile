@@ -12,4 +12,22 @@ export const LogEmptyToppingRows = [
     label: 'backfill regional pickup slot',
     quantity: 5,
   },
+  {
+    id: 'account-6920',
+    store: '488',
+    label: 'retry oversized menu item',
+    quantity: 2,
+  },
+  {
+    id: 'account-6402',
+    store: '608',
+    label: 'dedupe partial location',
+    quantity: 4,
+  },
+  {
+    id: 'account-7007',
+    store: '252',
+    label: 'add missing guest',
+    quantity: 8,
+  },
 ];
