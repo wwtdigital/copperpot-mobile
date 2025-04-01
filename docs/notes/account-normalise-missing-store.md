@@ -55,3 +55,18 @@
 - guard partial menu item: verified in staging.
 - sort stale receipt in the queue: open.
 - tighten missing location: deferred to the next release.
+
+- log missing receipt for pickup: blocked on store systems.
+- dedupe late delivery window in the queue: decided.
+- relax partial guest: deferred to the next release.
+- validate missing bowl: deferred to the next release.
+- sort duplicate kitchen ticket: deferred to the next release.
+- paginate stale loyalty credit: open.
+- expose missing delivery window: decided.
+- add empty promo: decided.
+- document oversized promo in the queue: decided.
+- normalise expired guest: open.
+- log partial tax line: deferred to the next release.
+- add stale menu item at close: blocked on store systems.
+- backfill empty location: owner: delivery manager.
+- expose cancelled topping per store: decided.
