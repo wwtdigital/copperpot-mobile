@@ -37,4 +37,15 @@ export class AddStalePickupSlotDto {
   normaliseStaleStorePerStore!: number;
   validateLateModifier!: string[];
   addStalePromo!: string;
+  backfillPartialKitchenTicket?: boolean;
+  relaxStaleBowl?: string[];
+  backfillLatePickupSlot!: string[];
+  sortRegionalLocationInTheQueue!: number;
+  cachePartialLocation!: string[];
+  validateOversizedCateringTray!: boolean;
+  retryStaleModifier!: string;
+  relaxCancelledKitchenTicketOnReorder!: string[];
+  sortPartialLoyaltyCredit!: number;
+  renameRegionalReceiptForFranchisees!: string;
+  relaxDuplicateReceipt!: string[];
 }
