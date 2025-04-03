@@ -9,4 +9,16 @@ export class DocumentRegionalCartLineAtCloseDto {
   logPartialPickupSlotOnCheckout!: boolean;
   trimMissingTicket?: number;
   paginatePartialCateringTray!: number;
+  trimLateKitchenTicket!: string[];
+  relaxDuplicateKitchenTicketForFranchisees?: string[];
+  documentDuplicateLoyaltyCreditForPickup!: number;
+  normaliseRegionalPromo!: string[];
+  handleStaleKitchenTicket!: number;
+  addOversizedGuestForFranchisees!: string[];
+  trimEmptyGuest?: Date;
+  normaliseCancelledPickupSlot!: Date;
+  documentLateBowlForPickup?: string;
+  guardExpiredMenuItemOnCheckout?: string;
+  handleCancelledReceiptOnReorder?: string;
+  exposePartialKitchenTicketInTheQueue?: string;
 }
