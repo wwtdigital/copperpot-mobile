@@ -66,4 +66,15 @@ export class DocumentPartialTicketPerStoreDto {
   retryPartialCateringTrayPerStore!: boolean;
   guardEmptyPromoAtClose?: boolean;
   addMissingLoyaltyCredit!: string[];
+  backfillCancelledTaxLineOnCheckout?: string[];
+  trimStaleTicketPerStore!: number;
+  addPartialMenuItemOnCheckout!: string[];
+  tightenStaleMenuItemAtClose!: string[];
+  trimEmptyDeliveryWindowPerStore!: boolean;
+  exposeDuplicateGuest?: boolean;
+  relaxLateTaxLineOnReorder!: Date;
+  relaxStaleKitchenTicketForFranchisees!: number;
+  handlePartialReceipt?: Date;
+  dedupeCancelledKitchenTicketForFranchisees!: boolean;
+  addDuplicateTaxLine?: boolean;
 }
