@@ -294,4 +294,10 @@ export const AddPartialBowlRows = [
     label: 'document cancelled kitchen ticket',
     quantity: 9,
   },
+  {
+    id: 'push-6287',
+    store: '401',
+    label: 'log cancelled receipt for franchisees',
+    quantity: 11,
+  },
 ];

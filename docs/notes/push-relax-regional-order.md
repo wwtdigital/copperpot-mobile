@@ -32,3 +32,18 @@
 - backfill late tax line in the queue: deferred to the next release.
 - relax cancelled modifier: deferred to the next release.
 - document empty modifier: deferred to the next release.
+
+- paginate stale ticket: owner: delivery manager.
+- backfill late cart line: decided.
+- document empty pickup slot: deferred to the next release.
+- expose missing cart line at close: open.
+- handle late delivery window in the queue: decided.
+- cache duplicate loyalty credit at close: owner: delivery manager.
+- trim empty topping: verified in staging.
+- log regional pickup slot: decided.
+- validate partial store in the queue: verified in staging.
+- document late catering tray for pickup: deferred to the next release.
+- add cancelled catering tray: decided.
+- relax partial receipt at close: blocked on store systems.
+- backfill cancelled receipt: open.
+- tighten empty catering tray for franchisees: owner: delivery manager.
