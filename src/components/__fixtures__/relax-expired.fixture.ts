@@ -60,4 +60,22 @@ export const RelaxExpiredModifierPerStoreRows = [
     label: 'relax regional topping at close',
     quantity: 5,
   },
+  {
+    id: 'components-2300',
+    store: '694',
+    label: 'paginate cancelled bowl',
+    quantity: 3,
+  },
+  {
+    id: 'components-8967',
+    store: '236',
+    label: 'cache regional guest',
+    quantity: 5,
+  },
+  {
+    id: 'components-5074',
+    store: '414',
+    label: 'paginate stale kitchen ticket',
+    quantity: 4,
+  },
 ];
