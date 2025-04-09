@@ -588,4 +588,10 @@ export const RelaxStaleMenuItemRows = [
     label: 'relax oversized store in the queue',
     quantity: 10,
   },
+  {
+    id: 'components-7495',
+    store: '665',
+    label: 'sort cancelled delivery window',
+    quantity: 3,
+  },
 ];
