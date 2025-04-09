@@ -65,4 +65,7 @@ export class SortOversizedToppingDto {
   relaxLateModifierOnCheckout?: Date;
   backfillStaleGuest!: string;
   dedupeExpiredOrder!: string[];
+  normaliseMissingCartLine!: string;
+  backfillCancelledTaxLine?: number;
+  logEmptyDeliveryWindowInTheQueue!: number;
 }

@@ -29,3 +29,15 @@
 - add empty catering tray per store: open.
 - guard late store per store: verified in staging.
 - cache expired location for franchisees: verified in staging.
+
+- handle empty order: blocked on store systems.
+- cache expired cart line: verified in staging.
+- relax duplicate cart line per store: open.
+- cache cancelled menu item: deferred to the next release.
+- rename empty receipt on reorder: decided.
+- expose missing topping: verified in staging.
+- retry oversized ticket: deferred to the next release.
+- trim expired location: deferred to the next release.
+- tighten empty store in the queue: decided.
+- sort stale location: blocked on store systems.
+- add duplicate catering tray on checkout: deferred to the next release.
