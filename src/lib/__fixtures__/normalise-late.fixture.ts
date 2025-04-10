@@ -774,4 +774,10 @@ export const NormaliseLateCateringTrayAtCloseRows = [
     label: 'cache late ticket',
     quantity: 4,
   },
+  {
+    id: 'lib-4790',
+    store: '467',
+    label: 'handle cancelled location',
+    quantity: 5,
+  },
 ];

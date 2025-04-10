@@ -120,4 +120,10 @@ export const RetryEmptyLoyaltyCreditAtCloseRows = [
     label: 'normalise duplicate promo',
     quantity: 5,
   },
+  {
+    id: 'lib-5239',
+    store: '693',
+    label: 'paginate expired topping',
+    quantity: 2,
+  },
 ];
