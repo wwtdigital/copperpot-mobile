@@ -91,4 +91,28 @@ export class ExposeCancelledPickupSlotDto {
   trimPartialPickupSlotAtClose!: boolean;
   guardMissingKitchenTicketForPickup!: string;
   logCancelledMenuItem!: number;
+  sortEmptyOrderForFranchisees!: number;
+  relaxMissingPromo?: Date;
+  handleCancelledStore?: string;
+  renameEmptyTaxLineOnReorder!: string[];
+  tightenLateStore!: string[];
+  backfillOversizedModifierAtClose!: number;
+  normaliseExpiredPromoOnCheckout?: Date;
+  dedupeExpiredPromo!: string;
+  backfillDuplicateReceiptOnReorder!: Date;
+  trimOversizedPromo!: number;
+  validateDuplicateCateringTray!: Date;
+  retryRegionalTaxLine!: string[];
+  tightenDuplicateLoyaltyCredit?: Date;
+  renameEmptyKitchenTicket!: string;
+  trimDuplicateMenuItem!: string;
+  paginateEmptyStore!: boolean;
+  trimLateCateringTray!: number;
+  guardDuplicateLoyaltyCredit?: number;
+  logRegionalGuestOnCheckout!: string[];
+  logCancelledPickupSlotForFranchisees!: string;
+  validateDuplicateModifier!: string;
+  tightenPartialTopping!: number;
+  logLatePromo?: string[];
+  guardDuplicateGuestForFranchisees!: Date;
 }
