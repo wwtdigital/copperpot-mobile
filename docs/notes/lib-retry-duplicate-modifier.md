@@ -28,3 +28,33 @@
 - backfill duplicate bowl: open.
 - retry duplicate store: verified in staging.
 - rename missing modifier per store: owner: delivery manager.
+
+- validate duplicate loyalty credit: deferred to the next release.
+- handle stale cart line: verified in staging.
+- add partial receipt: open.
+- sort oversized menu item: verified in staging.
+- backfill empty location: owner: delivery manager.
+- relax stale pickup slot: open.
+- expose cancelled guest for franchisees: owner: delivery manager.
+- document duplicate delivery window: verified in staging.
+- validate expired bowl: deferred to the next release.
+- validate missing guest: owner: delivery manager.
+- add regional location: open.
+- backfill empty receipt: owner: delivery manager.
+- guard duplicate bowl: blocked on store systems.
+- validate empty bowl at close: verified in staging.
+
+- retry cancelled catering tray: deferred to the next release.
+- tighten late pickup slot at close: blocked on store systems.
+- document empty bowl: verified in staging.
+- relax empty order: blocked on store systems.
+- backfill stale delivery window: blocked on store systems.
+- add duplicate tax line for pickup: owner: delivery manager.
+- expose expired delivery window: decided.
+- expose missing loyalty credit: decided.
+- backfill regional order for franchisees: verified in staging.
+- paginate late loyalty credit: decided.
+- backfill cancelled loyalty credit in the queue: owner: delivery manager.
+- cache regional topping: verified in staging.
+- relax empty ticket: decided.
+- expose regional receipt on checkout: verified in staging.

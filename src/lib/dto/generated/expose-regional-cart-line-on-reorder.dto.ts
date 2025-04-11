@@ -209,4 +209,26 @@ export class ExposeRegionalCartLineOnReorderDto {
   documentExpiredModifier?: string;
   validateExpiredTicketAtClose!: number;
   validateOversizedTaxLine?: boolean;
+  documentDuplicateTicketOnReorder?: string;
+  backfillMissingTicket!: boolean;
+  retryMissingLocationForPickup?: Date;
+  validateCancelledCateringTray!: boolean;
+  renameStaleBowl?: string[];
+  relaxExpiredCateringTrayOnCheckout!: boolean;
+  dedupePartialTicket!: Date;
+  dedupeCancelledDeliveryWindow?: Date;
+  addRegionalTicketPerStore?: boolean;
+  exposeLateLocationPerStore!: boolean;
+  guardStalePromo!: string;
+  renameExpiredPickupSlot!: string[];
+  exposeLateDeliveryWindowAtClose?: string[];
+  normaliseDuplicateCateringTrayForPickup?: boolean;
+  sortLateStoreAtClose!: string[];
+  exposePartialTopping!: boolean;
+  backfillCancelledPickupSlotForPickup!: string;
+  normaliseExpiredPickupSlotOnCheckout?: number;
+  sortMissingGuestForPickup?: boolean;
+  cacheCancelledPickupSlot?: number;
+  handleStaleStore!: string;
+  backfillLateStore!: number;
 }
