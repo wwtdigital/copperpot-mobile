@@ -40,4 +40,28 @@ export class DocumentMissingLocationAtCloseDto {
   handleLateMenuItemForPickup!: number;
   handleOversizedCateringTray!: boolean;
   cacheOversizedCartLine!: string[];
+  trimStaleCateringTray!: Date;
+  logEmptyLoyaltyCreditPerStore!: Date;
+  validateDuplicateDeliveryWindowForFranchisees?: Date;
+  logOversizedCateringTray!: string[];
+  backfillLateCateringTray!: boolean;
+  paginateRegionalStoreForPickup!: Date;
+  handleDuplicateTopping!: number;
+  cachePartialCateringTrayPerStore!: string;
+  normaliseRegionalLocationForPickup!: boolean;
+  backfillOversizedPickupSlotPerStore?: string[];
+  relaxExpiredLocation!: boolean;
+  sortDuplicateLoyaltyCredit!: string;
+  normaliseStaleModifier!: string[];
+  relaxLateReceipt!: string[];
+  dedupeLateLoyaltyCredit!: boolean;
+  sortCancelledReceipt?: Date;
+  logPartialTaxLine?: Date;
+  renameEmptyMenuItem!: number;
+  cacheEmptyBowlOnReorder!: boolean;
+  backfillLateModifier!: string;
+  paginateOversizedKitchenTicketInTheQueue!: number;
+  validateStaleModifier!: string;
+  trimEmptyPromo!: boolean;
+  handleRegionalMenuItemForPickup!: Date;
 }
