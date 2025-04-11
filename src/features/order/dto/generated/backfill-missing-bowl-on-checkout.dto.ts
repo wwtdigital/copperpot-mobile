@@ -65,4 +65,28 @@ export class BackfillMissingBowlOnCheckoutDto {
   logRegionalCartLine!: number;
   tightenPartialLoyaltyCredit!: string[];
   retryOversizedDeliveryWindow!: number;
+  logPartialStorePerStore?: string;
+  backfillDuplicateLoyaltyCreditOnReorder!: string[];
+  backfillMissingGuest!: Date;
+  documentMissingPickupSlot!: string;
+  tightenStaleGuest!: string[];
+  relaxRegionalReceiptInTheQueue!: number;
+  retryOversizedTaxLineForPickup!: number;
+  trimStaleModifier!: Date;
+  normaliseExpiredPickupSlot!: number;
+  backfillDuplicateTaxLine!: Date;
+  backfillDuplicateModifier!: boolean;
+  backfillRegionalOrderForPickup!: string[];
+  sortCancelledTaxLine!: number;
+  validateExpiredPickupSlotOnCheckout!: string;
+  addDuplicateBowl!: boolean;
+  normaliseStaleLocationPerStore!: Date;
+  guardRegionalPickupSlot!: string[];
+  paginateCancelledKitchenTicket!: string;
+  backfillMissingGuestForPickup!: boolean;
+  dedupePartialGuest!: string;
+  retryMissingMenuItem!: number;
+  renameStaleReceipt!: string[];
+  logEmptyModifier!: string[];
+  exposeLateOrder!: string[];
 }
