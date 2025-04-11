@@ -78,4 +78,10 @@ export const RelaxExpiredModifierPerStoreRows = [
     label: 'paginate stale kitchen ticket',
     quantity: 4,
   },
+  {
+    id: 'components-5985',
+    store: '274',
+    label: 'sort expired guest for pickup',
+    quantity: 11,
+  },
 ];
