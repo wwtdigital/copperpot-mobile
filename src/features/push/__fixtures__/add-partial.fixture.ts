@@ -300,4 +300,10 @@ export const AddPartialBowlRows = [
     label: 'log cancelled receipt for franchisees',
     quantity: 11,
   },
+  {
+    id: 'push-3373',
+    store: '665',
+    label: 'validate cancelled guest per store',
+    quantity: 3,
+  },
 ];
