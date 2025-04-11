@@ -258,4 +258,22 @@ export const BackfillRegionalCartLineRows = [
     label: 'log duplicate topping for franchisees',
     quantity: 9,
   },
+  {
+    id: 'order-4979',
+    store: '213',
+    label: 'validate partial kitchen ticket per store',
+    quantity: 12,
+  },
+  {
+    id: 'order-4484',
+    store: '301',
+    label: 'document expired kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'order-8180',
+    store: '395',
+    label: 'trim regional catering tray',
+    quantity: 12,
+  },
 ];

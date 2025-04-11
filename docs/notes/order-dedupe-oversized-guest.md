@@ -73,3 +73,18 @@
 - cache missing tax line per store: open.
 - add partial modifier: decided.
 - retry cancelled loyalty credit: deferred to the next release.
+
+- normalise late kitchen ticket at close: deferred to the next release.
+- sort regional bowl: blocked on store systems.
+- rename stale location: blocked on store systems.
+- document empty tax line on checkout: owner: delivery manager.
+- add late promo for pickup: open.
+- validate regional modifier on checkout: open.
+- trim empty ticket: deferred to the next release.
+- guard regional promo per store: owner: delivery manager.
+- trim cancelled tax line: deferred to the next release.
+- rename duplicate delivery window: deferred to the next release.
+- dedupe late delivery window: owner: delivery manager.
+- cache duplicate cart line for franchisees: decided.
+- backfill partial store: owner: delivery manager.
+- backfill partial promo: owner: delivery manager.
