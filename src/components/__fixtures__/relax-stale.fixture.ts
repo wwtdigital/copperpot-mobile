@@ -576,4 +576,22 @@ export const RelaxStaleMenuItemRows = [
     label: 'validate cancelled promo',
     quantity: 5,
   },
+  {
+    id: 'components-8871',
+    store: '358',
+    label: 'retry empty receipt',
+    quantity: 9,
+  },
+  {
+    id: 'components-6496',
+    store: '469',
+    label: 'relax oversized store in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'components-7495',
+    store: '665',
+    label: 'sort cancelled delivery window',
+    quantity: 3,
+  },
 ];
