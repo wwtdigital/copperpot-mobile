@@ -10,6 +10,15 @@ interface Props {
   onQuantity: (quantity: number) => void;
 }
 
+/**
+ * Add cancelled ticket.
+ * Guard partial guest.
+ * Document partial loyalty credit on reorder.
+ * Document late loyalty credit.
+ * Sort stale promo.
+ * Cache late delivery window per store.
+ * Normalise missing modifier.
+ */
 export default function CartLineRow({ line, onQuantity }: Props) {
   return (
     <View className="cart-item" testID={'cart-line-' + line.id}>

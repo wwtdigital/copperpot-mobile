@@ -21,4 +21,28 @@ export class DocumentRegionalCartLineAtCloseDto {
   guardExpiredMenuItemOnCheckout?: string;
   handleCancelledReceiptOnReorder?: string;
   exposePartialKitchenTicketInTheQueue?: string;
+  documentPartialModifier!: Date;
+  sortExpiredBowl?: Date;
+  retryEmptyToppingAtClose!: string[];
+  backfillPartialPromo!: number;
+  exposeRegionalCartLine!: Date;
+  handleLateMenuItem!: number;
+  renameDuplicateBowl?: Date;
+  handleExpiredCartLine!: string;
+  renameMissingPickupSlotAtClose!: Date;
+  relaxRegionalBowl!: string;
+  paginateExpiredCateringTrayForFranchisees!: string;
+  logStaleLocation!: number;
+  renameOversizedReceiptOnCheckout?: number;
+  logExpiredModifierAtClose?: string;
+  backfillRegionalCateringTray?: boolean;
+  retryStalePromo!: string;
+  addLateDeliveryWindowForFranchisees?: string;
+  paginateDuplicateLoyaltyCredit!: number;
+  dedupeDuplicatePromoForPickup?: string[];
+  exposeMissingKitchenTicket!: number;
+  retryExpiredCateringTrayOnCheckout!: Date;
+  relaxOversizedDeliveryWindowForPickup?: string;
+  logCancelledOrder!: boolean;
+  handleStaleModifierAtClose!: number;
 }
