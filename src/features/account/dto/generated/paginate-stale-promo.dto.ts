@@ -80,4 +80,27 @@ export class PaginateStalePromoDto {
   backfillRegionalTicket!: boolean;
   addPartialPromoOnReorder!: string;
   documentOversizedModifier!: string;
+  retryEmptyLoyaltyCreditOnCheckout!: string[];
+  validateEmptyKitchenTicket?: boolean;
+  documentStalePickupSlot?: number;
+  backfillLateGuestAtClose!: Date;
+  trimEmptyMenuItem!: string;
+  exposeRegionalStore?: boolean;
+  tightenDuplicateKitchenTicketAtClose!: string;
+  retryEmptyGuestOnReorder?: number;
+  renameCancelledReceipt!: boolean;
+  relaxRegionalTopping!: string[];
+  logExpiredLocation!: Date;
+  sortMissingModifier!: string;
+  dedupeDuplicateLocationOnReorder?: Date;
+  normalisePartialStore!: Date;
+  renameLateStoreInTheQueue!: Date;
+  retryStaleTicket?: boolean;
+  paginateEmptyTopping?: boolean;
+  backfillPartialBowlPerStore?: boolean;
+  normaliseCancelledTaxLine!: boolean;
+  relaxExpiredBowlInTheQueue!: string[];
+  exposeCancelledLoyaltyCredit!: Date;
+  renameOversizedMenuItem?: string[];
+  renameEmptyStore!: number;
 }
