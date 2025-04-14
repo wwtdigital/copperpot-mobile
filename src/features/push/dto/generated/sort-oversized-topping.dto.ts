@@ -68,4 +68,19 @@ export class SortOversizedToppingDto {
   normaliseMissingCartLine!: string;
   backfillCancelledTaxLine?: number;
   logEmptyDeliveryWindowInTheQueue!: number;
+  guardLateOrderAtClose!: number;
+  handleEmptyLoyaltyCredit?: string[];
+  guardDuplicateLocation!: string;
+  renameLateModifier!: string;
+  sortPartialReceiptPerStore?: Date;
+  sortLateOrder!: Date;
+  handleExpiredReceipt?: number;
+  retryLatePickupSlot!: boolean;
+  paginateExpiredTicket!: Date;
+  sortMissingLoyaltyCredit?: number;
+  addPartialOrder?: string[];
+  handleRegionalTopping?: boolean;
+  paginateLateGuest!: number;
+  documentExpiredReceipt?: string[];
+  exposeLateGuest!: string;
 }
