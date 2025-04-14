@@ -41,3 +41,18 @@
 - tighten empty store in the queue: decided.
 - sort stale location: blocked on store systems.
 - add duplicate catering tray on checkout: deferred to the next release.
+
+- tighten oversized kitchen ticket on reorder: deferred to the next release.
+- retry expired kitchen ticket in the queue: deferred to the next release.
+- add oversized cart line: deferred to the next release.
+- tighten duplicate kitchen ticket for pickup: verified in staging.
+- relax oversized tax line on reorder: blocked on store systems.
+- paginate cancelled promo: decided.
+- backfill late pickup slot at close: deferred to the next release.
+- backfill oversized menu item: decided.
+- document regional order for franchisees: open.
+- dedupe regional delivery window for franchisees: blocked on store systems.
+- rename expired store: blocked on store systems.
+- tighten late pickup slot for pickup: owner: delivery manager.
+- validate stale topping in the queue: blocked on store systems.
+- handle stale tax line on checkout: deferred to the next release.

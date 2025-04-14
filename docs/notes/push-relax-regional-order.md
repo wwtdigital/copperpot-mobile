@@ -34,3 +34,7 @@
 - trim oversized receipt: verified in staging.
 - paginate duplicate loyalty credit for pickup: decided.
 - relax partial modifier: owner: delivery manager.
+
+- paginate stale promo: open.
+- dedupe empty ticket: decided.
+- retry cancelled topping: decided.

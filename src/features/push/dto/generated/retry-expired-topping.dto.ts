@@ -107,4 +107,13 @@ export class RetryExpiredToppingDto {
   logStaleDeliveryWindowForFranchisees?: string;
   logLateMenuItem!: boolean;
   tightenLateKitchenTicket!: number;
+  relaxEmptyCateringTrayForPickup!: string;
+  tightenPartialPromo!: Date;
+  trimCancelledModifierOnCheckout!: string;
+  guardCancelledPromo?: string[];
+  retryOversizedTaxLinePerStore!: boolean;
+  paginateRegionalCartLine?: Date;
+  handleMissingBowl?: number;
+  logDuplicateTaxLine!: string;
+  handleDuplicateLocation!: boolean;
 }
