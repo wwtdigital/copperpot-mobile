@@ -83,4 +83,28 @@ export class RetryExpiredToppingDto {
   relaxPartialBowl!: number;
   paginateOversizedPickupSlot!: Date;
   paginateLateKitchenTicket?: Date;
+  addExpiredLoyaltyCredit?: string[];
+  renameExpiredStore?: number;
+  tightenStaleTicketOnCheckout!: string[];
+  renameExpiredPromo?: string[];
+  addDuplicateTopping!: boolean;
+  relaxLateMenuItemAtClose?: Date;
+  cacheMissingOrderForFranchisees?: string;
+  retryStalePromoInTheQueue?: number;
+  sortLateKitchenTicket!: Date;
+  logCancelledKitchenTicket!: boolean;
+  guardLateTicket!: number;
+  renameCancelledTaxLine!: boolean;
+  normalisePartialLoyaltyCredit!: string[];
+  documentPartialLocation!: string;
+  exposeDuplicateLocation!: boolean;
+  exposeStaleToppingInTheQueue?: Date;
+  sortCancelledPickupSlot!: boolean;
+  cacheLatePickupSlot?: boolean;
+  backfillCancelledMenuItem?: string;
+  dedupeDuplicateReceiptOnReorder!: Date;
+  handleDuplicateLoyaltyCreditOnReorder?: Date;
+  logStaleDeliveryWindowForFranchisees?: string;
+  logLateMenuItem!: boolean;
+  tightenLateKitchenTicket!: number;
 }
