@@ -116,4 +116,28 @@ export class RetryExpiredToppingDto {
   handleMissingBowl?: number;
   logDuplicateTaxLine!: string;
   handleDuplicateLocation!: boolean;
+  renameRegionalTaxLine?: boolean;
+  sortExpiredOrder?: boolean;
+  cacheExpiredReceiptOnReorder!: string;
+  documentRegionalPromo!: boolean;
+  logDuplicateBowlForFranchisees!: string;
+  cachePartialModifierPerStore!: string;
+  retryStaleTicketOnReorder?: boolean;
+  trimStaleBowlPerStore!: string;
+  relaxDuplicateStore?: string[];
+  guardCancelledLoyaltyCredit!: Date;
+  paginateMissingStoreForFranchisees!: Date;
+  trimStaleTaxLineOnReorder!: string;
+  validateLateTaxLineOnCheckout?: Date;
+  guardCancelledTaxLine?: string;
+  guardCancelledTaxLineAtClose!: string;
+  handleMissingCateringTrayPerStore?: number;
+  backfillExpiredOrderForPickup!: number;
+  dedupeRegionalPickupSlot!: Date;
+  sortDuplicatePromoPerStore!: Date;
+  validateOversizedCateringTray!: boolean;
+  backfillStaleModifier!: string;
+  dedupeStaleKitchenTicket!: string;
+  documentStaleLoyaltyCreditForPickup!: number;
+  trimPartialGuestInTheQueue!: boolean;
 }
