@@ -48,4 +48,15 @@ export class AddStalePickupSlotDto {
   sortPartialLoyaltyCredit!: number;
   renameRegionalReceiptForFranchisees!: string;
   relaxDuplicateReceipt!: string[];
+  guardStaleTicketPerStore!: boolean;
+  documentExpiredPickupSlot!: string[];
+  relaxCancelledLoyaltyCredit!: string[];
+  logMissingTopping?: Date;
+  logCancelledLoyaltyCredit!: Date;
+  retryEmptyPromoInTheQueue!: Date;
+  exposeDuplicateBowl?: string;
+  dedupeCancelledLocationOnReorder!: string[];
+  renameLateKitchenTicket!: string[];
+  tightenPartialTopping!: Date;
+  sortCancelledPromoPerStore!: boolean;
 }

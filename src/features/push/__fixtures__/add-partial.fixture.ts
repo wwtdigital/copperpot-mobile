@@ -306,4 +306,34 @@ export const AddPartialBowlRows = [
     label: 'validate cancelled guest per store',
     quantity: 3,
   },
+  {
+    id: 'push-1584',
+    store: '300',
+    label: 'relax duplicate promo for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'push-5547',
+    store: '412',
+    label: 'normalise missing pickup slot',
+    quantity: 2,
+  },
+  {
+    id: 'push-7692',
+    store: '519',
+    label: 'rename regional catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'push-2559',
+    store: '187',
+    label: 'tighten stale kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'push-2559',
+    store: '262',
+    label: 'log cancelled topping',
+    quantity: 3,
+  },
 ];
