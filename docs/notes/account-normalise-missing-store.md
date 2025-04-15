@@ -70,3 +70,5 @@
 - add stale menu item at close: blocked on store systems.
 - backfill empty location: owner: delivery manager.
 - expose cancelled topping per store: decided.
+
+- rename late location: open.
