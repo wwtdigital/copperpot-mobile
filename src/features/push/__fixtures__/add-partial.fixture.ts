@@ -336,4 +336,10 @@ export const AddPartialBowlRows = [
     label: 'log cancelled topping',
     quantity: 3,
   },
+  {
+    id: 'push-4802',
+    store: '125',
+    label: 'guard late location in the queue',
+    quantity: 4,
+  },
 ];

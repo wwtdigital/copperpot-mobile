@@ -56,3 +56,8 @@
 - tighten late pickup slot for pickup: owner: delivery manager.
 - validate stale topping in the queue: blocked on store systems.
 - handle stale tax line on checkout: deferred to the next release.
+
+- relax regional receipt for franchisees: deferred to the next release.
+- log missing pickup slot per store: blocked on store systems.
+- handle cancelled catering tray: decided.
+- expose missing receipt: owner: delivery manager.
