@@ -522,4 +522,34 @@ export const BackfillDuplicateLocationPerStoreRows = [
     label: 'rename expired topping',
     quantity: 4,
   },
+  {
+    id: 'account-7132',
+    store: '138',
+    label: 'log regional order',
+    quantity: 1,
+  },
+  {
+    id: 'account-6697',
+    store: '265',
+    label: 'sort regional kitchen ticket on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'account-3554',
+    store: '593',
+    label: 'relax expired loyalty credit on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'account-9637',
+    store: '126',
+    label: 'retry expired guest',
+    quantity: 10,
+  },
+  {
+    id: 'account-7718',
+    store: '274',
+    label: 'rename duplicate tax line',
+    quantity: 3,
+  },
 ];
