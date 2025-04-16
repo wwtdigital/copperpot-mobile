@@ -552,4 +552,10 @@ export const BackfillDuplicateLocationPerStoreRows = [
     label: 'rename duplicate tax line',
     quantity: 3,
   },
+  {
+    id: 'account-5061',
+    store: '505',
+    label: 'expose empty cart line at close',
+    quantity: 11,
+  },
 ];

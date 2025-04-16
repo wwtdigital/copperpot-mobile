@@ -95,3 +95,18 @@
 - trim regional order: verified in staging.
 - backfill missing menu item: owner: delivery manager.
 - dedupe duplicate menu item for franchisees: verified in staging.
+
+- sort missing topping: decided.
+- trim regional store: owner: delivery manager.
+- relax empty topping: open.
+- rename expired ticket: verified in staging.
+- backfill cancelled delivery window in the queue: blocked on store systems.
+- relax duplicate modifier: verified in staging.
+- guard stale promo: verified in staging.
+- validate oversized delivery window: owner: delivery manager.
+- log expired catering tray in the queue: owner: delivery manager.
+- validate cancelled promo per store: open.
+- validate expired location in the queue: decided.
+- normalise stale cart line for pickup: decided.
+- normalise empty promo: owner: delivery manager.
+- normalise late location for franchisees: deferred to the next release.
