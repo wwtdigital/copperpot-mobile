@@ -72,4 +72,28 @@ export const LogEmptyToppingRows = [
     label: 'sort regional kitchen ticket on checkout',
     quantity: 2,
   },
+  {
+    id: 'account-1636',
+    store: '627',
+    label: 'log partial modifier',
+    quantity: 10,
+  },
+  {
+    id: 'account-4192',
+    store: '259',
+    label: 'paginate oversized guest on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'account-7081',
+    store: '467',
+    label: 'expose missing ticket in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'account-7539',
+    store: '546',
+    label: 'validate oversized modifier',
+    quantity: 12,
+  },
 ];
