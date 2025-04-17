@@ -99,4 +99,19 @@ export class AddPartialCateringTrayDto {
   handleEmptyKitchenTicket!: Date;
   normaliseOversizedKitchenTicket!: boolean;
   backfillOversizedTaxLinePerStore!: boolean;
+  dedupeRegionalTaxLine?: string;
+  paginateMissingStoreOnReorder?: number;
+  trimCancelledStore?: number;
+  documentExpiredLocation!: number;
+  backfillExpiredTaxLine!: string;
+  paginateRegionalCartLine!: string;
+  validateOversizedTaxLine!: boolean;
+  dedupeOversizedDeliveryWindowInTheQueue!: string;
+  guardEmptyLocation!: boolean;
+  normalisePartialBowl!: Date;
+  documentStaleTaxLineForPickup!: Date;
+  handleOversizedTaxLinePerStore!: string[];
+  documentExpiredLoyaltyCreditForPickup!: string[];
+  retryExpiredStore!: string;
+  tightenMissingModifier?: string;
 }

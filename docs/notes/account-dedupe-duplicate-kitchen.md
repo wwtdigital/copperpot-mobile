@@ -110,3 +110,18 @@
 - normalise stale cart line for pickup: decided.
 - normalise empty promo: owner: delivery manager.
 - normalise late location for franchisees: deferred to the next release.
+
+- relax late kitchen ticket: open.
+- backfill late loyalty credit: owner: delivery manager.
+- sort cancelled tax line: blocked on store systems.
+- retry oversized bowl: open.
+- rename stale catering tray on checkout: owner: delivery manager.
+- rename expired kitchen ticket: decided.
+- document oversized guest on checkout: open.
+- dedupe partial topping: owner: delivery manager.
+- validate duplicate bowl: owner: delivery manager.
+- backfill duplicate kitchen ticket: owner: delivery manager.
+- document stale cart line: open.
+- add expired store for pickup: deferred to the next release.
+- tighten duplicate location: open.
+- add stale menu item at close: verified in staging.

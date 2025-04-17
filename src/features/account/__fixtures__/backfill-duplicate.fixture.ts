@@ -558,4 +558,10 @@ export const BackfillDuplicateLocationPerStoreRows = [
     label: 'expose empty cart line at close',
     quantity: 11,
   },
+  {
+    id: 'account-9597',
+    store: '676',
+    label: 'trim expired catering tray',
+    quantity: 4,
+  },
 ];
