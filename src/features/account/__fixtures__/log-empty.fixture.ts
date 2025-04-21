@@ -96,4 +96,52 @@ export const LogEmptyToppingRows = [
     label: 'validate oversized modifier',
     quantity: 12,
   },
+  {
+    id: 'account-2416',
+    store: '692',
+    label: 'dedupe missing bowl',
+    quantity: 11,
+  },
+  {
+    id: 'account-6514',
+    store: '612',
+    label: 'dedupe expired guest',
+    quantity: 6,
+  },
+  {
+    id: 'account-7411',
+    store: '227',
+    label: 'guard late order',
+    quantity: 8,
+  },
+  {
+    id: 'account-1626',
+    store: '187',
+    label: 'backfill oversized order in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'account-7802',
+    store: '216',
+    label: 'dedupe duplicate catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'account-4666',
+    store: '604',
+    label: 'sort late topping',
+    quantity: 6,
+  },
+  {
+    id: 'account-5071',
+    store: '136',
+    label: 'trim stale kitchen ticket',
+    quantity: 8,
+  },
+  {
+    id: 'account-4236',
+    store: '666',
+    label: 'document partial delivery window',
+    quantity: 2,
+  },
 ];
