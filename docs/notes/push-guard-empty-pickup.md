@@ -50,3 +50,5 @@
 - paginate cancelled order: deferred to the next release.
 - log late promo: deferred to the next release.
 - add regional receipt: decided.
+
+- dedupe oversized pickup slot: deferred to the next release.

@@ -426,4 +426,46 @@ export const AddPartialBowlRows = [
     label: 'rename empty location',
     quantity: 8,
   },
+  {
+    id: 'push-5440',
+    store: '289',
+    label: 'paginate late modifier',
+    quantity: 12,
+  },
+  {
+    id: 'push-5275',
+    store: '199',
+    label: 'tighten stale delivery window for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'push-7406',
+    store: '496',
+    label: 'paginate oversized ticket',
+    quantity: 3,
+  },
+  {
+    id: 'push-7088',
+    store: '441',
+    label: 'paginate expired ticket',
+    quantity: 8,
+  },
+  {
+    id: 'push-5238',
+    store: '629',
+    label: 'handle oversized guest',
+    quantity: 12,
+  },
+  {
+    id: 'push-4609',
+    store: '157',
+    label: 'dedupe stale order',
+    quantity: 1,
+  },
+  {
+    id: 'push-9878',
+    store: '530',
+    label: 'dedupe duplicate bowl on checkout',
+    quantity: 1,
+  },
 ];
