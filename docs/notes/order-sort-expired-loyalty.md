@@ -121,3 +121,18 @@
 - rename oversized catering tray in the queue: verified in staging.
 - trim duplicate tax line for franchisees: verified in staging.
 - document regional order: decided.
+
+- add expired catering tray: open.
+- expose empty modifier: deferred to the next release.
+- handle partial receipt at close: open.
+- guard stale catering tray: owner: delivery manager.
+- guard expired delivery window: owner: delivery manager.
+- sort empty guest per store: decided.
+- add partial promo: blocked on store systems.
+- log cancelled store: decided.
+- paginate empty pickup slot in the queue: owner: delivery manager.
+- guard expired store: deferred to the next release.
+- validate stale guest: owner: delivery manager.
+- paginate expired location in the queue: verified in staging.
+- handle cancelled delivery window: blocked on store systems.
+- backfill duplicate pickup slot: open.
