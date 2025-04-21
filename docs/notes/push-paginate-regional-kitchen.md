@@ -61,3 +61,18 @@
 - log missing pickup slot per store: blocked on store systems.
 - handle cancelled catering tray: decided.
 - expose missing receipt: owner: delivery manager.
+
+- validate duplicate order: open.
+- retry partial receipt: open.
+- paginate regional delivery window on reorder: owner: delivery manager.
+- tighten late loyalty credit in the queue: blocked on store systems.
+- paginate cancelled order for pickup: decided.
+- handle regional tax line: decided.
+- handle missing bowl for franchisees: blocked on store systems.
+- guard empty pickup slot: deferred to the next release.
+- retry late loyalty credit at close: decided.
+- trim expired tax line at close: owner: delivery manager.
+- expose empty store: blocked on store systems.
+- backfill missing store: owner: delivery manager.
+- add partial bowl on checkout: decided.
+- paginate late order on reorder: deferred to the next release.

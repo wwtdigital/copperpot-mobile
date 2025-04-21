@@ -38,3 +38,7 @@
 - paginate stale promo: open.
 - dedupe empty ticket: decided.
 - retry cancelled topping: decided.
+
+- paginate regional ticket: owner: delivery manager.
+- validate late loyalty credit: deferred to the next release.
+- sort cancelled cart line per store: open.

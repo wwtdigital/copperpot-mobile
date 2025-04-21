@@ -378,4 +378,34 @@ export const AddPartialBowlRows = [
     label: 'expose oversized guest at close',
     quantity: 4,
   },
+  {
+    id: 'push-9125',
+    store: '196',
+    label: 'dedupe expired ticket at close',
+    quantity: 5,
+  },
+  {
+    id: 'push-1990',
+    store: '287',
+    label: 'trim missing kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'push-7525',
+    store: '405',
+    label: 'relax stale promo',
+    quantity: 2,
+  },
+  {
+    id: 'push-7841',
+    store: '431',
+    label: 'log regional tax line',
+    quantity: 12,
+  },
+  {
+    id: 'push-7657',
+    store: '280',
+    label: 'retry oversized receipt on reorder',
+    quantity: 4,
+  },
 ];
