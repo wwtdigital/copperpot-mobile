@@ -408,4 +408,22 @@ export const AddPartialBowlRows = [
     label: 'retry oversized receipt on reorder',
     quantity: 4,
   },
+  {
+    id: 'push-1853',
+    store: '315',
+    label: 'guard empty order for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'push-5508',
+    store: '468',
+    label: 'dedupe missing topping',
+    quantity: 5,
+  },
+  {
+    id: 'push-2106',
+    store: '381',
+    label: 'rename empty location',
+    quantity: 8,
+  },
 ];
