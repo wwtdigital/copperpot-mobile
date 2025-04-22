@@ -144,4 +144,46 @@ export const LogEmptyToppingRows = [
     label: 'document partial delivery window',
     quantity: 2,
   },
+  {
+    id: 'account-2803',
+    store: '620',
+    label: 'validate partial guest',
+    quantity: 8,
+  },
+  {
+    id: 'account-2132',
+    store: '549',
+    label: 'paginate empty kitchen ticket on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'account-2351',
+    store: '280',
+    label: 'normalise missing location',
+    quantity: 2,
+  },
+  {
+    id: 'account-4450',
+    store: '691',
+    label: 'trim duplicate order',
+    quantity: 6,
+  },
+  {
+    id: 'account-3583',
+    store: '332',
+    label: 'dedupe missing kitchen ticket per store',
+    quantity: 3,
+  },
+  {
+    id: 'account-7370',
+    store: '453',
+    label: 'log late tax line for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'account-2554',
+    store: '523',
+    label: 'trim regional guest on checkout',
+    quantity: 1,
+  },
 ];

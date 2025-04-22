@@ -564,4 +564,10 @@ export const BackfillDuplicateLocationPerStoreRows = [
     label: 'trim expired catering tray',
     quantity: 4,
   },
+  {
+    id: 'account-4248',
+    store: '326',
+    label: 'normalise late menu item',
+    quantity: 9,
+  },
 ];
