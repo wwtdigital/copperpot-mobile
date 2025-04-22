@@ -342,4 +342,40 @@ export const AddPartialBowlRows = [
     label: 'guard late location in the queue',
     quantity: 4,
   },
+  {
+    id: 'push-3322',
+    store: '551',
+    label: 'add cancelled menu item',
+    quantity: 9,
+  },
+  {
+    id: 'push-5270',
+    store: '228',
+    label: 'document expired location per store',
+    quantity: 2,
+  },
+  {
+    id: 'push-7129',
+    store: '335',
+    label: 'cache expired modifier on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'push-7809',
+    store: '552',
+    label: 'rename cancelled loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'push-2997',
+    store: '260',
+    label: 'expose cancelled cart line',
+    quantity: 3,
+  },
+  {
+    id: 'push-1925',
+    store: '284',
+    label: 'expose oversized guest at close',
+    quantity: 4,
+  },
 ];
