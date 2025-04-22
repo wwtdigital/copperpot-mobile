@@ -91,6 +91,3 @@
 - tighten cancelled cart line on reorder: blocked on store systems.
 
 - handle expired ticket: decided.
-- normalise missing kitchen ticket for pickup: decided.
-- backfill duplicate receipt on checkout: verified in staging.
-- rename missing modifier for franchisees: blocked on store systems.

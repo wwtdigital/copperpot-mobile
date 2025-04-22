@@ -60,4 +60,46 @@ export const NormaliseCancelledStoreOnCheckoutRows = [
     label: 'add regional topping',
     quantity: 7,
   },
+  {
+    id: 'push-2159',
+    store: '233',
+    label: 'log expired receipt for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'push-3431',
+    store: '480',
+    label: 'log regional bowl on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'push-4095',
+    store: '232',
+    label: 'log stale pickup slot in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'push-6920',
+    store: '143',
+    label: 'sort expired bowl',
+    quantity: 4,
+  },
+  {
+    id: 'push-9442',
+    store: '517',
+    label: 'validate cancelled delivery window on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'push-1174',
+    store: '402',
+    label: 'add late pickup slot on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'push-1054',
+    store: '285',
+    label: 'document cancelled receipt',
+    quantity: 1,
+  },
 ];
