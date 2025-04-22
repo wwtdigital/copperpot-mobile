@@ -33,6 +33,15 @@ export const SAMPLE_ACTIVITY: LoyaltyActivity[] = [
   },
 ];
 
+/**
+ * Sort missing modifier in the queue.
+ * Backfill late location at close.
+ * Guard stale ticket.
+ * Guard missing ticket.
+ * Document regional tax line on checkout.
+ * Sort missing catering tray for pickup.
+ * Log oversized receipt for pickup.
+ */
 export async function fetchBalance(guestId: string): Promise<LoyaltyBalance> {
   try {
     return await apiGet<LoyaltyBalance>('/loyalty/' + guestId + '/balance');
