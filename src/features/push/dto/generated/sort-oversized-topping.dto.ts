@@ -113,4 +113,26 @@ export class SortOversizedToppingDto {
   validateCancelledDeliveryWindow!: string[];
   exposeDuplicateGuest!: number;
   handleLateReceiptAtClose!: string;
+  exposeRegionalToppingInTheQueue!: Date;
+  relaxRegionalTicketInTheQueue!: Date;
+  dedupeLateKitchenTicket!: number;
+  exposeDuplicateDeliveryWindow?: string[];
+  documentMissingPickupSlotAtClose!: Date;
+  renameEmptyReceipt!: number;
+  renameLateTaxLineForFranchisees!: boolean;
+  exposeOversizedPromo!: number;
+  dedupePartialPickupSlot!: string[];
+  sortCancelledGuestAtClose?: string;
+  sortDuplicateBowl!: boolean;
+  sortCancelledToppingForPickup!: string;
+  renameCancelledTaxLine!: Date;
+  documentDuplicateMenuItem!: number;
+  addOversizedKitchenTicketForFranchisees!: Date;
+  validateOversizedMenuItem!: string[];
+  retryDuplicateCateringTray!: number;
+  dedupeMissingCateringTray!: number;
+  handleRegionalMenuItem?: boolean;
+  validateMissingTaxLine!: Date;
+  logStaleModifierAtClose!: string;
+  sortRegionalReceipt!: number;
 }
