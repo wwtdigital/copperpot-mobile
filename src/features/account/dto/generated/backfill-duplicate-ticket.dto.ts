@@ -288,4 +288,25 @@ export class BackfillDuplicateTicketDto {
   sortDuplicateGuest!: string[];
   cacheExpiredMenuItemForFranchisees!: string[];
   tightenExpiredModifier!: string[];
+  paginateCancelledReceipt!: number;
+  normaliseLateOrder!: number;
+  renameExpiredPickupSlot!: boolean;
+  normaliseDuplicateDeliveryWindow!: Date;
+  retryExpiredCateringTrayInTheQueue!: Date;
+  logStaleCartLineForFranchisees?: boolean;
+  documentStaleModifier!: number;
+  tightenMissingTicket!: Date;
+  exposeLateTicket?: boolean;
+  addPartialLoyaltyCredit!: string;
+  cacheMissingKitchenTicket!: number;
+  renameDuplicateKitchenTicketForFranchisees!: string[];
+  cacheEmptyPickupSlotOnReorder!: boolean;
+  addPartialCateringTray!: string;
+  renameMissingTaxLine!: string[];
+  documentEmptyModifier?: string[];
+  retryStaleMenuItem!: boolean;
+  renamePartialLoyaltyCredit!: boolean;
+  renameEmptyStoreInTheQueue!: string[];
+  paginateLateLocation!: boolean;
+  trimStaleLocation!: string[];
 }

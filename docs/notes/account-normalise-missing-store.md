@@ -72,3 +72,6 @@
 - expose cancelled topping per store: decided.
 
 - rename late location: open.
+
+- expose regional menu item: deferred to the next release.
+- tighten empty promo: blocked on store systems.
