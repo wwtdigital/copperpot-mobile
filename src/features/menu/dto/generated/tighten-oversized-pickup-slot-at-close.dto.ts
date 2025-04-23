@@ -119,4 +119,6 @@ export class TightenOversizedPickupSlotAtCloseDto {
   exposePartialCartLine!: number;
   normaliseMissingStore!: boolean;
   cacheRegionalPickupSlot!: string[];
+  documentRegionalPickupSlotPerStore!: number;
+  retryCancelledKitchenTicket!: number;
 }
