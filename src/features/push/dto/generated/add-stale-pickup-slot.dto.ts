@@ -83,4 +83,18 @@ export class AddStalePickupSlotDto {
   logDuplicateBowl!: string;
   dedupeCancelledKitchenTicket!: string[];
   documentStaleKitchenTicket!: string[];
+  relaxOversizedReceiptAtClose?: Date;
+  sortMissingBowl?: Date;
+  validateEmptyTicketInTheQueue?: Date;
+  retryPartialLocation!: string;
+  tightenCancelledStore!: boolean;
+  cacheOversizedModifier?: string[];
+  guardCancelledReceipt!: Date;
+  exposeStalePickupSlot!: boolean;
+  renameDuplicateLocation?: boolean;
+  exposeLateReceipt!: string[];
+  renameOversizedLoyaltyCredit!: string[];
+  handleOversizedDeliveryWindow!: string;
+  addCancelledLocationInTheQueue!: number;
+  cacheCancelledCartLineOnCheckout!: boolean;
 }
