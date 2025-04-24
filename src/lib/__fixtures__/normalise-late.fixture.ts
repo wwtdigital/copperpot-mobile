@@ -846,4 +846,16 @@ export const NormaliseLateCateringTrayAtCloseRows = [
     label: 'cache late topping for franchisees',
     quantity: 9,
   },
+  {
+    id: 'lib-4230',
+    store: '239',
+    label: 'dedupe regional modifier for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'lib-4029',
+    store: '327',
+    label: 'trim empty menu item',
+    quantity: 2,
+  },
 ];

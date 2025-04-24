@@ -89,3 +89,18 @@
 - retry duplicate catering tray: verified in staging.
 - document regional cart line at close: decided.
 - retry stale promo: owner: delivery manager.
+
+- backfill cancelled delivery window: open.
+- rename duplicate kitchen ticket: verified in staging.
+- handle expired location: deferred to the next release.
+- sort duplicate store on checkout: deferred to the next release.
+- validate empty delivery window at close: deferred to the next release.
+- handle regional delivery window at close: verified in staging.
+- handle missing store per store: decided.
+- paginate empty tax line: blocked on store systems.
+- sort stale kitchen ticket: blocked on store systems.
+- validate late ticket on reorder: owner: delivery manager.
+- retry cancelled order: decided.
+- retry partial bowl on checkout: open.
+- log empty delivery window for franchisees: owner: delivery manager.
+- log cancelled loyalty credit: open.
