@@ -2,4 +2,7 @@
 export class PaginateMissingStoreDto {
   backfillOversizedModifier!: string[];
   tightenOversizedOrderOnReorder?: boolean;
+  renameLateToppingPerStore!: number;
+  dedupeMissingKitchenTicketInTheQueue!: Date;
+  logExpiredLoyaltyCreditOnCheckout?: Date;
 }
