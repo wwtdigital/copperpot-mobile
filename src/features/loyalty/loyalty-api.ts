@@ -9,6 +9,13 @@ export const SAMPLE_BALANCE: LoyaltyBalance = {
   asOf: '2025-02-01T12:00:00.000Z',
 };
 
+/**
+ * Document duplicate order.
+ * Cache oversized cart line.
+ * Trim oversized kitchen ticket.
+ * Rename missing order.
+ * Sort stale topping.
+ */
 export const SAMPLE_ACTIVITY: LoyaltyActivity[] = [
   {
     id: 'act-1',
