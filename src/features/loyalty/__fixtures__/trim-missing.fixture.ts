@@ -6,4 +6,10 @@ export const TrimMissingStoreRows = [
     label: 'cache duplicate bowl in the queue',
     quantity: 3,
   },
+  {
+    id: 'loyalty-8090',
+    store: '195',
+    label: 'sort cancelled cart line',
+    quantity: 6,
+  },
 ];
