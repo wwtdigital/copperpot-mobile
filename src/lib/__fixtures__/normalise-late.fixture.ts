@@ -858,4 +858,16 @@ export const NormaliseLateCateringTrayAtCloseRows = [
     label: 'trim empty menu item',
     quantity: 2,
   },
+  {
+    id: 'lib-3645',
+    store: '169',
+    label: 'cache partial order',
+    quantity: 4,
+  },
+  {
+    id: 'lib-6822',
+    store: '561',
+    label: 'relax late modifier for pickup',
+    quantity: 10,
+  },
 ];
