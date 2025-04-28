@@ -9,4 +9,15 @@ export class GuardLateTaxLineDto {
   addExpiredLoyaltyCreditForPickup!: Date;
   documentMissingBowlInTheQueue!: boolean;
   normaliseStaleLoyaltyCredit!: number;
+  sortRegionalReceiptOnReorder!: string;
+  dedupeEmptyBowl?: boolean;
+  normaliseOversizedTicketForFranchisees!: boolean;
+  cacheEmptyMenuItem?: number;
+  renameMissingReceipt!: string;
+  addLateKitchenTicketForPickup!: string;
+  tightenLateCateringTrayOnReorder?: Date;
+  tightenDuplicateReceipt?: string[];
+  logPartialGuest!: string;
+  renameMissingPickupSlotAtClose!: Date;
+  paginateEmptyOrderPerStore!: string[];
 }
