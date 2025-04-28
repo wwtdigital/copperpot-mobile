@@ -870,4 +870,10 @@ export const NormaliseLateCateringTrayAtCloseRows = [
     label: 'relax late modifier for pickup',
     quantity: 10,
   },
+  {
+    id: 'lib-4470',
+    store: '326',
+    label: 'paginate regional receipt',
+    quantity: 6,
+  },
 ];
