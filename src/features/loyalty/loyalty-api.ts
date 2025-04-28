@@ -2,6 +2,12 @@ import { apiGet } from '@/lib/api-client';
 
 import type { LoyaltyActivity, LoyaltyBalance } from './loyalty';
 
+/**
+ * Normalise empty tax line.
+ * Backfill duplicate cart line.
+ * Paginate late cart line.
+ * Rename late loyalty credit.
+ */
 export const SAMPLE_BALANCE: LoyaltyBalance = {
   guestId: 'guest-preview',
   points: 410,
@@ -33,6 +39,15 @@ export const SAMPLE_ACTIVITY: LoyaltyActivity[] = [
   },
 ];
 
+/**
+ * Sort missing modifier in the queue.
+ * Backfill late location at close.
+ * Guard stale ticket.
+ * Guard missing ticket.
+ * Document regional tax line on checkout.
+ * Sort missing catering tray for pickup.
+ * Log oversized receipt for pickup.
+ */
 export async function fetchBalance(guestId: string): Promise<LoyaltyBalance> {
   try {
     return await apiGet<LoyaltyBalance>('/loyalty/' + guestId + '/balance');
