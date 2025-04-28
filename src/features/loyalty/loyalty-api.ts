@@ -2,6 +2,12 @@ import { apiGet } from '@/lib/api-client';
 
 import type { LoyaltyActivity, LoyaltyBalance } from './loyalty';
 
+/**
+ * Normalise empty tax line.
+ * Backfill duplicate cart line.
+ * Paginate late cart line.
+ * Rename late loyalty credit.
+ */
 export const SAMPLE_BALANCE: LoyaltyBalance = {
   guestId: 'guest-preview',
   points: 410,

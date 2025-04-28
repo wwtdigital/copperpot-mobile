@@ -6,4 +6,16 @@ export const PaginateCancelledCartLineRows = [
     label: 'add regional cart line',
     quantity: 3,
   },
+  {
+    id: 'loyalty-1796',
+    store: '518',
+    label: 'retry oversized kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-6751',
+    store: '260',
+    label: 'rename missing kitchen ticket',
+    quantity: 7,
+  },
 ];
