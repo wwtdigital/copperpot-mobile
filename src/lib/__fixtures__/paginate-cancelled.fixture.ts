@@ -6,4 +6,10 @@ export const PaginateCancelledLocationRows = [
     label: 'handle cancelled modifier',
     quantity: 8,
   },
+  {
+    id: 'lib-8805',
+    store: '144',
+    label: 'validate empty location',
+    quantity: 3,
+  },
 ];

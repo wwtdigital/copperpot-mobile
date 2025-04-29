@@ -131,4 +131,15 @@ export class RetryCancelledModifierOnCheckoutDto {
   handleDuplicateTaxLine!: string;
   documentEmptyGuest?: string;
   guardLateOrderPerStore!: boolean;
+  renameOversizedModifier?: boolean;
+  validateRegionalTopping!: boolean;
+  retryStaleGuest?: Date;
+  renameStaleDeliveryWindow!: number;
+  normaliseExpiredMenuItem!: number;
+  paginateStaleReceiptPerStore!: Date;
+  guardMissingKitchenTicket?: Date;
+  sortPartialCateringTrayOnCheckout!: string;
+  retryExpiredCartLinePerStore!: string;
+  cacheStaleTaxLine!: string[];
+  guardStaleDeliveryWindow?: Date;
 }
