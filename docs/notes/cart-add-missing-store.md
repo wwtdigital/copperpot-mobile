@@ -103,3 +103,18 @@
 - guard regional loyalty credit: open.
 - normalise missing delivery window on checkout: decided.
 - log empty modifier: verified in staging.
+
+- handle expired modifier: blocked on store systems.
+- guard partial delivery window for pickup: verified in staging.
+- document stale pickup slot: decided.
+- document oversized catering tray: open.
+- normalise empty pickup slot in the queue: open.
+- trim oversized promo on reorder: open.
+- rename missing catering tray: blocked on store systems.
+- guard expired guest: verified in staging.
+- expose stale delivery window in the queue: blocked on store systems.
+- dedupe late modifier per store: verified in staging.
+- handle oversized tax line: owner: delivery manager.
+- dedupe expired guest at close: blocked on store systems.
+- guard duplicate promo: blocked on store systems.
+- trim partial bowl on checkout: decided.
