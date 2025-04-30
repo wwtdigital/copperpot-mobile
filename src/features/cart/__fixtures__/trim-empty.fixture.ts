@@ -678,4 +678,10 @@ export const TrimEmptyOrderRows = [
     label: 'normalise missing delivery window',
     quantity: 10,
   },
+  {
+    id: 'cart-3485',
+    store: '288',
+    label: 'cache late delivery window',
+    quantity: 8,
+  },
 ];
