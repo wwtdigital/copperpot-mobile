@@ -43,4 +43,16 @@ export class TightenCancelledPickupSlotDto {
   logPartialTicket!: string;
   normaliseExpiredCartLine!: Date;
   trimExpiredCartLine?: boolean;
+  logPartialLoyaltyCredit!: boolean;
+  retryPartialReceipt!: Date;
+  backfillEmptyLocationInTheQueue!: string[];
+  renameExpiredKitchenTicket?: number;
+  paginateRegionalCateringTray!: number;
+  cacheLateGuest!: boolean;
+  sortDuplicateReceipt?: string;
+  logDuplicateCateringTrayForPickup!: string;
+  backfillOversizedCateringTray?: string;
+  renameOversizedStoreForPickup?: boolean;
+  dedupePartialMenuItem!: Date;
+  logLateLocation?: string[];
 }
