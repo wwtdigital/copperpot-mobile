@@ -55,4 +55,13 @@ export class TightenCancelledPickupSlotDto {
   renameOversizedStoreForPickup?: boolean;
   dedupePartialMenuItem!: Date;
   logLateLocation?: string[];
+  retryDuplicateMenuItem!: boolean;
+  trimEmptyCartLinePerStore!: Date;
+  addCancelledOrderForPickup!: number;
+  normaliseStaleMenuItem!: number;
+  documentLateKitchenTicket!: boolean;
+  logCancelledMenuItem!: string;
+  cacheDuplicatePickupSlot?: Date;
+  exposeCancelledCartLine!: string;
+  exposeOversizedModifier!: boolean;
 }
