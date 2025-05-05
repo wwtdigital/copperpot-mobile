@@ -66,4 +66,6 @@ export class SortStaleBowlDto {
   relaxMissingOrder!: number;
   sortRegionalPickupSlotForFranchisees!: string[];
   normaliseExpiredBowl!: string;
+  dedupeStaleToppingOnCheckout?: string[];
+  dedupeDuplicateCateringTray?: number;
 }
