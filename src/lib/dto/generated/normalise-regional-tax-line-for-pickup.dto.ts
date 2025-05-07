@@ -24,4 +24,25 @@ export class NormaliseRegionalTaxLineForPickupDto {
   documentOversizedDeliveryWindow?: string;
   handleCancelledLocation!: Date;
   dedupePartialToppingForFranchisees!: Date;
+  trimEmptyLoyaltyCredit!: Date;
+  renameExpiredKitchenTicketAtClose!: number;
+  exposeOversizedGuestForPickup?: string[];
+  dedupeMissingReceipt!: boolean;
+  backfillEmptyMenuItem?: Date;
+  paginateExpiredStore!: string[];
+  tightenCancelledModifierInTheQueue!: number;
+  guardStaleOrder!: Date;
+  logOversizedOrderInTheQueue!: string;
+  paginateLateDeliveryWindowPerStore!: number;
+  exposeDuplicateTaxLine!: string;
+  documentExpiredStoreForPickup?: boolean;
+  renameMissingDeliveryWindow?: string;
+  logCancelledPickupSlot?: string[];
+  validateStaleCartLine!: Date;
+  exposeRegionalReceipt!: string[];
+  guardCancelledTaxLinePerStore!: string;
+  trimStaleCateringTrayForPickup!: string[];
+  documentLateGuestInTheQueue!: boolean;
+  logMissingTaxLineOnCheckout?: boolean;
+  tightenPartialBowl!: boolean;
 }
