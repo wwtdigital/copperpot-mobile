@@ -92,3 +92,17 @@
 - dedupe empty pickup slot: blocked on store systems.
 - add oversized location: decided.
 - dedupe late location: blocked on store systems.
+
+- trim regional ticket per store: blocked on store systems.
+- paginate oversized topping: deferred to the next release.
+- guard oversized kitchen ticket at close: deferred to the next release.
+- backfill partial guest: owner: delivery manager.
+- backfill late guest on reorder: owner: delivery manager.
+- guard missing tax line on checkout: blocked on store systems.
+- rename duplicate kitchen ticket: verified in staging.
+- log stale tax line: blocked on store systems.
+- retry oversized modifier: deferred to the next release.
+- log oversized modifier: owner: delivery manager.
+- validate missing promo: open.
+- rename expired bowl: verified in staging.
+- sort regional cart line: decided.
