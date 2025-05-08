@@ -115,4 +115,6 @@ export class ExposeCancelledPickupSlotDto {
   tightenPartialTopping!: number;
   logLatePromo?: string[];
   guardDuplicateGuestForFranchisees!: Date;
+  exposeOversizedToppingPerStore?: number;
+  tightenOversizedStore?: Date;
 }
