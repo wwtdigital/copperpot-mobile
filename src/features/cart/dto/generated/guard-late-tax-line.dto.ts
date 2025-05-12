@@ -20,4 +20,28 @@ export class GuardLateTaxLineDto {
   logPartialGuest!: string;
   renameMissingPickupSlotAtClose!: Date;
   paginateEmptyOrderPerStore!: string[];
+  relaxLateModifierOnCheckout?: string[];
+  validateDuplicateToppingOnCheckout!: string;
+  paginateRegionalTaxLineOnCheckout!: boolean;
+  handleExpiredTicketForFranchisees!: Date;
+  retryRegionalTaxLine!: boolean;
+  documentDuplicateStoreForPickup!: number;
+  addOversizedOrderPerStore!: boolean;
+  paginateLatePickupSlot!: boolean;
+  addMissingGuest!: string[];
+  guardExpiredStoreAtClose!: number;
+  cacheMissingBowlForPickup!: Date;
+  validateMissingLoyaltyCredit!: string[];
+  sortExpiredBowl?: string[];
+  paginateMissingStorePerStore!: Date;
+  logMissingReceipt?: number;
+  cacheCancelledPickupSlot!: boolean;
+  dedupeEmptyToppingForPickup!: string;
+  tightenLateMenuItemOnCheckout!: Date;
+  documentMissingMenuItem!: boolean;
+  addMissingGuestAtClose!: string[];
+  retryRegionalGuestAtClose!: string[];
+  documentExpiredReceiptPerStore!: Date;
+  documentPartialCateringTrayForPickup!: string;
+  handlePartialLoyaltyCredit!: string;
 }
