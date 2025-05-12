@@ -702,4 +702,10 @@ export const TrimEmptyOrderRows = [
     label: 'trim late bowl',
     quantity: 4,
   },
+  {
+    id: 'cart-8686',
+    store: '683',
+    label: 'log late modifier',
+    quantity: 7,
+  },
 ];

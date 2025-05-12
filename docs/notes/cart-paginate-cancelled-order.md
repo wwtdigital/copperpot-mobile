@@ -18,3 +18,18 @@
 - sort late topping for pickup: open.
 - dedupe duplicate order: blocked on store systems.
 - backfill expired ticket: deferred to the next release.
+
+- expose expired order: owner: delivery manager.
+- expose cancelled topping: deferred to the next release.
+- expose expired catering tray per store: deferred to the next release.
+- handle late cart line: deferred to the next release.
+- dedupe empty order: open.
+- backfill stale loyalty credit in the queue: blocked on store systems.
+- dedupe stale promo: decided.
+- sort oversized tax line in the queue: blocked on store systems.
+- trim regional pickup slot per store: decided.
+- relax expired catering tray for pickup: verified in staging.
+- dedupe missing loyalty credit in the queue: open.
+- log stale tax line: blocked on store systems.
+- document missing guest: verified in staging.
+- normalise partial bowl: blocked on store systems.

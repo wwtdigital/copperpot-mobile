@@ -18,4 +18,16 @@ export const DedupePartialPromoRows = [
     label: 'handle partial bowl',
     quantity: 10,
   },
+  {
+    id: 'cart-7846',
+    store: '100',
+    label: 'sort expired location',
+    quantity: 7,
+  },
+  {
+    id: 'cart-8365',
+    store: '360',
+    label: 'cache stale location',
+    quantity: 4,
+  },
 ];
