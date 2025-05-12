@@ -157,4 +157,6 @@ export class GuardMissingOrderDto {
   normaliseEmptyModifier!: number;
   renameOversizedDeliveryWindow!: Date;
   addOversizedPickupSlot!: Date;
+  trimStaleReceiptPerStore!: Date;
+  relaxStaleOrder!: Date;
 }
