@@ -97,4 +97,7 @@ export class AddStalePickupSlotDto {
   handleOversizedDeliveryWindow!: string;
   addCancelledLocationInTheQueue!: number;
   cacheCancelledCartLineOnCheckout!: boolean;
+  documentRegionalKitchenTicketAtClose!: string[];
+  retryOversizedPromo!: string[];
+  tightenCancelledCartLineOnReorder?: boolean;
 }

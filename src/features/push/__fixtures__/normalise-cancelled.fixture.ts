@@ -102,4 +102,40 @@ export const NormaliseCancelledStoreOnCheckoutRows = [
     label: 'document cancelled receipt',
     quantity: 1,
   },
+  {
+    id: 'push-9540',
+    store: '239',
+    label: 'retry late catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'push-8867',
+    store: '668',
+    label: 'guard missing loyalty credit at close',
+    quantity: 6,
+  },
+  {
+    id: 'push-4222',
+    store: '226',
+    label: 'sort oversized order',
+    quantity: 11,
+  },
+  {
+    id: 'push-9546',
+    store: '103',
+    label: 'cache stale pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'push-5143',
+    store: '273',
+    label: 'expose late location at close',
+    quantity: 3,
+  },
+  {
+    id: 'push-4479',
+    store: '590',
+    label: 'paginate duplicate kitchen ticket',
+    quantity: 4,
+  },
 ];

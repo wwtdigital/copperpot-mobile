@@ -52,3 +52,43 @@
 - add regional receipt: decided.
 
 - dedupe oversized pickup slot: deferred to the next release.
+
+- trim late bowl: owner: delivery manager.
+- retry late bowl: open.
+- handle duplicate kitchen ticket: blocked on store systems.
+- validate late location: decided.
+- paginate cancelled store: decided.
+- guard cancelled bowl: owner: delivery manager.
+- guard cancelled store: blocked on store systems.
+- expose cancelled store per store: deferred to the next release.
+- dedupe late cart line on reorder: open.
+
+- log expired tax line in the queue: deferred to the next release.
+- normalise expired tax line: open.
+- trim empty tax line on reorder: open.
+- backfill regional location: owner: delivery manager.
+- relax empty pickup slot: deferred to the next release.
+- dedupe cancelled promo: owner: delivery manager.
+- relax partial location on reorder: owner: delivery manager.
+- trim partial modifier: deferred to the next release.
+- validate cancelled tax line: verified in staging.
+- cache cancelled pickup slot at close: blocked on store systems.
+- cache late ticket: deferred to the next release.
+- tighten cancelled menu item in the queue: deferred to the next release.
+- backfill empty pickup slot at close: blocked on store systems.
+- handle late topping: blocked on store systems.
+
+- rename duplicate menu item: open.
+- expose missing delivery window on reorder: deferred to the next release.
+- paginate late loyalty credit: owner: delivery manager.
+- guard oversized ticket: verified in staging.
+- sort late topping: blocked on store systems.
+- handle partial location: decided.
+- cache stale delivery window at close: deferred to the next release.
+- backfill late guest: blocked on store systems.
+- paginate oversized guest: open.
+- cache cancelled topping: verified in staging.
+- document empty pickup slot: blocked on store systems.
+- handle duplicate delivery window per store: decided.
+- dedupe late guest on checkout: deferred to the next release.
+- relax empty tax line in the queue: open.
