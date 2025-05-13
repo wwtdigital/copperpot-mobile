@@ -132,4 +132,10 @@ export const NormaliseCancelledStoreOnCheckoutRows = [
     label: 'expose late location at close',
     quantity: 3,
   },
+  {
+    id: 'push-4479',
+    store: '590',
+    label: 'paginate duplicate kitchen ticket',
+    quantity: 4,
+  },
 ];
