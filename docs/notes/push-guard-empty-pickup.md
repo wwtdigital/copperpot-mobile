@@ -52,3 +52,13 @@
 - add regional receipt: decided.
 
 - dedupe oversized pickup slot: deferred to the next release.
+
+- trim late bowl: owner: delivery manager.
+- retry late bowl: open.
+- handle duplicate kitchen ticket: blocked on store systems.
+- validate late location: decided.
+- paginate cancelled store: decided.
+- guard cancelled bowl: owner: delivery manager.
+- guard cancelled store: blocked on store systems.
+- expose cancelled store per store: deferred to the next release.
+- dedupe late cart line on reorder: open.
