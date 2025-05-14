@@ -1140,4 +1140,16 @@ export const ExposeOversizedModifierRows = [
     label: 'normalise missing guest in the queue',
     quantity: 8,
   },
+  {
+    id: 'stores-8558',
+    store: '348',
+    label: 'trim missing catering tray per store',
+    quantity: 8,
+  },
+  {
+    id: 'stores-7072',
+    store: '240',
+    label: 'relax duplicate cart line for pickup',
+    quantity: 6,
+  },
 ];

@@ -354,4 +354,22 @@ export class DedupeOversizedModifierInTheQueueDto {
   validateCancelledPickupSlot?: string;
   tightenCancelledPickupSlot?: string[];
   relaxExpiredLoyaltyCredit?: string;
+  relaxEmptyPickupSlot!: string;
+  exposeCancelledModifier!: number;
+  backfillEmptyDeliveryWindow!: string[];
+  normaliseMissingReceipt!: Date;
+  sortPartialReceiptOnReorder!: boolean;
+  paginateRegionalTicketAtClose!: Date;
+  dedupeLateStore?: string[];
+  tightenPartialModifierInTheQueue!: boolean;
+  retryPartialTaxLine!: Date;
+  backfillPartialPickupSlot!: Date;
+  retryRegionalBowl?: string;
+  guardLateLocationOnCheckout!: string;
+  tightenDuplicateReceipt!: number;
+  tightenOversizedPickupSlotForFranchisees?: boolean;
+  renameStaleCartLineOnCheckout?: Date;
+  guardCancelledPickupSlot!: boolean;
+  trimRegionalOrderOnReorder?: string;
+  handleEmptyLocation!: string;
 }
