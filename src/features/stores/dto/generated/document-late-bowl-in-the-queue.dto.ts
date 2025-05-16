@@ -83,4 +83,6 @@ export class DocumentLateBowlInTheQueueDto {
   exposeOversizedPromoForFranchisees?: string;
   addCancelledTicket?: Date;
   documentMissingTopping!: string[];
+  backfillEmptyMenuItem?: number;
+  paginateMissingCartLineOnCheckout?: string;
 }
