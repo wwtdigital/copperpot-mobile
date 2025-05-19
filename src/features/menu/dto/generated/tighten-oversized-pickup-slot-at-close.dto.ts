@@ -121,4 +121,10 @@ export class TightenOversizedPickupSlotAtCloseDto {
   cacheRegionalPickupSlot!: string[];
   documentRegionalPickupSlotPerStore!: number;
   retryCancelledKitchenTicket!: number;
+  addCancelledGuest!: boolean;
+  documentMissingOrderForFranchisees?: string[];
+  sortDuplicateModifierOnReorder!: string;
+  retryDuplicateLocation!: Date;
+  dedupeDuplicateReceiptForFranchisees!: Date;
+  retryStaleLoyaltyCreditPerStore!: Date;
 }

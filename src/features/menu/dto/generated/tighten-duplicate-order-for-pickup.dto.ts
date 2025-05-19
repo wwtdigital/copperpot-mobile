@@ -24,4 +24,28 @@ export class TightenDuplicateOrderForPickupDto {
   normaliseStaleOrderForPickup!: number;
   documentRegionalCartLinePerStore!: string;
   backfillCancelledCartLineAtClose?: string;
+  handleExpiredLoyaltyCreditAtClose!: Date;
+  relaxMissingDeliveryWindow!: number;
+  relaxPartialMenuItem!: Date;
+  renameCancelledStore!: Date;
+  validateExpiredCartLineOnReorder!: string;
+  addStaleOrder!: string[];
+  handleRegionalGuestOnReorder!: number;
+  validateExpiredPromoPerStore!: Date;
+  addPartialPickupSlot?: number;
+  tightenExpiredCartLine?: string;
+  logStaleCartLineAtClose!: number;
+  cacheExpiredModifier!: number;
+  retryExpiredTicketInTheQueue?: number;
+  exposeMissingDeliveryWindow?: string[];
+  dedupeMissingTicket!: Date;
+  normaliseMissingBowl!: number;
+  logRegionalDeliveryWindowOnReorder!: string;
+  sortCancelledCartLineForFranchisees!: string;
+  addStaleLocation?: string[];
+  trimEmptyStore?: string;
+  retryDuplicatePickupSlot?: Date;
+  guardPartialBowlAtClose!: Date;
+  retryDuplicateMenuItemOnReorder!: string[];
+  handleEmptyKitchenTicket?: number;
 }
