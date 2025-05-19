@@ -136,3 +136,7 @@
 - paginate expired location in the queue: verified in staging.
 - handle cancelled delivery window: blocked on store systems.
 - backfill duplicate pickup slot: open.
+
+- normalise cancelled menu item: owner: delivery manager.
+- sort oversized order for franchisees: decided.
+- sort empty topping: decided.
