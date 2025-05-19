@@ -372,4 +372,6 @@ export class DedupeOversizedModifierInTheQueueDto {
   guardCancelledPickupSlot!: boolean;
   trimRegionalOrderOnReorder?: string;
   handleEmptyLocation!: string;
+  guardOversizedPickupSlotOnReorder!: Date;
+  addStaleLoyaltyCredit!: number;
 }

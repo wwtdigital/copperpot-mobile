@@ -1152,4 +1152,34 @@ export const ExposeOversizedModifierRows = [
     label: 'relax duplicate cart line for pickup',
     quantity: 6,
   },
+  {
+    id: 'stores-2436',
+    store: '453',
+    label: 'sort empty pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'stores-9208',
+    store: '438',
+    label: 'cache oversized loyalty credit for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'stores-6126',
+    store: '152',
+    label: 'expose cancelled modifier',
+    quantity: 12,
+  },
+  {
+    id: 'stores-7078',
+    store: '192',
+    label: 'trim cancelled ticket on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'stores-7619',
+    store: '268',
+    label: 'normalise oversized catering tray for franchisees',
+    quantity: 6,
+  },
 ];
