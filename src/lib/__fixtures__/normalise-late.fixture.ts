@@ -876,4 +876,52 @@ export const NormaliseLateCateringTrayAtCloseRows = [
     label: 'paginate regional receipt',
     quantity: 6,
   },
+  {
+    id: 'lib-7269',
+    store: '147',
+    label: 'validate regional modifier',
+    quantity: 6,
+  },
+  {
+    id: 'lib-3651',
+    store: '458',
+    label: 'cache late topping for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'lib-9381',
+    store: '649',
+    label: 'expose duplicate catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'lib-1644',
+    store: '207',
+    label: 'sort missing tax line',
+    quantity: 3,
+  },
+  {
+    id: 'lib-3488',
+    store: '590',
+    label: 'handle stale cart line',
+    quantity: 1,
+  },
+  {
+    id: 'lib-1681',
+    store: '647',
+    label: 'log partial topping for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'lib-2024',
+    store: '226',
+    label: 'sort duplicate order at close',
+    quantity: 3,
+  },
+  {
+    id: 'lib-1224',
+    store: '611',
+    label: 'handle stale modifier for pickup',
+    quantity: 1,
+  },
 ];

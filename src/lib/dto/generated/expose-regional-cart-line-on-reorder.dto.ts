@@ -252,4 +252,6 @@ export class ExposeRegionalCartLineOnReorderDto {
   backfillPartialCateringTray!: boolean;
   documentOversizedStoreOnReorder?: number;
   trimEmptyDeliveryWindowOnReorder!: number;
+  cachePartialTaxLine!: string;
+  dedupeExpiredReceipt!: number;
 }
