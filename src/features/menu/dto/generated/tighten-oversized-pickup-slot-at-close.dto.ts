@@ -127,4 +127,25 @@ export class TightenOversizedPickupSlotAtCloseDto {
   retryDuplicateLocation!: Date;
   dedupeDuplicateReceiptForFranchisees!: Date;
   retryStaleLoyaltyCreditPerStore!: Date;
+  renameEmptyTopping!: string;
+  handleExpiredLocationForPickup!: Date;
+  dedupeOversizedBowl!: string;
+  logExpiredBowlOnReorder?: boolean;
+  retryEmptyReceipt?: string;
+  relaxEmptyDeliveryWindowOnReorder!: string[];
+  exposeExpiredDeliveryWindow!: string[];
+  backfillEmptyGuestAtClose!: number;
+  exposePartialPromoAtClose?: Date;
+  documentRegionalCateringTray!: number;
+  addDuplicatePromo?: string[];
+  paginateStaleKitchenTicketAtClose!: string;
+  validateMissingToppingForPickup!: boolean;
+  sortDuplicateModifier!: string[];
+  relaxPartialLocation?: number;
+  exposeExpiredPromoAtClose?: string[];
+  validateOversizedTaxLine!: Date;
+  exposeMissingBowlInTheQueue!: number;
+  sortRegionalPickupSlot?: Date;
+  tightenEmptyPromo!: Date;
+  retryCancelledStore!: string[];
 }

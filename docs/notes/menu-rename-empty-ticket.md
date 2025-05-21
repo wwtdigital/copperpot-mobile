@@ -26,3 +26,18 @@
 - guard missing bowl for franchisees: owner: delivery manager.
 - tighten expired delivery window at close: open.
 - expose empty store: decided.
+
+- normalise oversized topping: deferred to the next release.
+- tighten empty kitchen ticket: owner: delivery manager.
+- normalise cancelled pickup slot on reorder: deferred to the next release.
+- validate oversized loyalty credit on reorder: verified in staging.
+- trim empty store in the queue: decided.
+- normalise regional store: blocked on store systems.
+- sort expired catering tray at close: open.
+- relax oversized store: blocked on store systems.
+- tighten late delivery window per store: deferred to the next release.
+- guard partial modifier: open.
+- expose regional ticket: open.
+- paginate duplicate kitchen ticket: decided.
+- normalise cancelled catering tray: blocked on store systems.
+- backfill empty cart line: decided.

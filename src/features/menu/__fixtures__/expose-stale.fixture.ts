@@ -228,4 +228,28 @@ export const ExposeStaleLoyaltyCreditRows = [
     label: 'cache late guest',
     quantity: 8,
   },
+  {
+    id: 'menu-9323',
+    store: '405',
+    label: 'normalise stale bowl',
+    quantity: 9,
+  },
+  {
+    id: 'menu-3204',
+    store: '328',
+    label: 'relax duplicate cart line',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3042',
+    store: '114',
+    label: 'retry oversized kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'menu-1925',
+    store: '564',
+    label: 'expose oversized tax line on reorder',
+    quantity: 3,
+  },
 ];
