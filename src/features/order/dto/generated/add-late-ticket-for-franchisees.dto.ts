@@ -2,4 +2,38 @@
 export class AddLateTicketForFranchiseesDto {
   backfillEmptyCateringTrayOnReorder!: string;
   tightenMissingCateringTray?: Date;
+  validateRegionalCartLine!: string[];
+  renameEmptyStore?: number;
+  logStaleCateringTrayInTheQueue!: Date;
+  paginateEmptyBowlOnCheckout!: number;
+  paginatePartialPickupSlotPerStore?: string;
+  logEmptyDeliveryWindow!: number;
+  normaliseCancelledCateringTray!: string;
+  validateRegionalPickupSlot!: boolean;
+  sortDuplicateOrder!: number;
+  documentMissingStoreForPickup!: string;
+  relaxOversizedCateringTray!: number;
+  relaxLateMenuItem?: string[];
+  normaliseRegionalLocationAtClose?: Date;
+  relaxOversizedCartLineAtClose!: boolean;
+  validateOversizedLoyaltyCredit?: string;
+  guardRegionalCateringTrayForFranchisees!: number;
+  dedupeEmptyTicket!: boolean;
+  relaxRegionalModifierOnReorder?: boolean;
+  handlePartialMenuItemOnCheckout?: Date;
+  renameOversizedBowl?: string[];
+  addExpiredKitchenTicket!: string;
+  sortMissingStore!: number;
+  sortDuplicateKitchenTicket!: string[];
+  cacheExpiredKitchenTicketForPickup!: string;
+  backfillRegionalModifier!: string;
+  renamePartialPromo?: boolean;
+  retryCancelledMenuItemOnCheckout?: number;
+  sortMissingOrder?: boolean;
+  retryLatePickupSlotOnCheckout!: string[];
+  normaliseLateBowl!: number;
+  tightenEmptyCateringTray?: boolean;
+  logLateBowl!: number;
+  handlePartialCartLine?: Date;
+  guardEmptyCartLine!: string[];
 }

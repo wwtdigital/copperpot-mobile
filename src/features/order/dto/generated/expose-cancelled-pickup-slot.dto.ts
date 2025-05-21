@@ -117,4 +117,6 @@ export class ExposeCancelledPickupSlotDto {
   guardDuplicateGuestForFranchisees!: Date;
   exposeOversizedToppingPerStore?: number;
   tightenOversizedStore?: Date;
+  cacheEmptyToppingAtClose!: number;
+  renameRegionalModifier?: boolean;
 }
