@@ -135,4 +135,28 @@ export class SortOversizedToppingDto {
   validateMissingTaxLine!: Date;
   logStaleModifierAtClose!: string;
   sortRegionalReceipt!: number;
+  exposeDuplicatePromoInTheQueue!: string;
+  backfillMissingCartLineOnCheckout?: Date;
+  validateMissingReceiptInTheQueue!: boolean;
+  normaliseOversizedCateringTrayForFranchisees?: number;
+  trimEmptyPickupSlot?: string;
+  addMissingModifierForFranchisees?: number;
+  paginateEmptyOrder!: number;
+  normaliseDuplicateOrder?: string;
+  logLateMenuItem!: number;
+  renamePartialLocation!: Date;
+  dedupeCancelledKitchenTicket!: number;
+  guardLateKitchenTicket?: Date;
+  sortRegionalKitchenTicketOnReorder!: string[];
+  paginateStalePromo!: string;
+  cacheDuplicatePickupSlot!: Date;
+  renameRegionalCateringTray?: string[];
+  addCancelledDeliveryWindow!: boolean;
+  dedupePartialPickupSlotOnCheckout!: string[];
+  paginateLateToppingForPickup!: string;
+  validateDuplicatePromo!: string[];
+  relaxExpiredPickupSlot!: string;
+  validateCancelledReceiptOnReorder?: string[];
+  logOversizedCartLine!: Date;
+  backfillLateTaxLineForPickup!: string[];
 }
