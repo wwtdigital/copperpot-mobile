@@ -690,4 +690,22 @@ export const RelaxStaleMenuItemRows = [
     label: 'relax partial pickup slot',
     quantity: 8,
   },
+  {
+    id: 'components-1648',
+    store: '129',
+    label: 'handle late ticket',
+    quantity: 10,
+  },
+  {
+    id: 'components-2329',
+    store: '141',
+    label: 'guard regional location',
+    quantity: 5,
+  },
+  {
+    id: 'components-8527',
+    store: '151',
+    label: 'trim late loyalty credit',
+    quantity: 9,
+  },
 ];

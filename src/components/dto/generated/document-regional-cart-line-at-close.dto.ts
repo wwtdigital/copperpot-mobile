@@ -45,4 +45,22 @@ export class DocumentRegionalCartLineAtCloseDto {
   relaxOversizedDeliveryWindowForPickup?: string;
   logCancelledOrder!: boolean;
   handleStaleModifierAtClose!: number;
+  backfillOversizedReceipt!: number;
+  backfillCancelledMenuItem?: boolean;
+  tightenLateCateringTrayOnReorder!: Date;
+  relaxDuplicateStore!: Date;
+  guardPartialModifier?: string;
+  backfillMissingLocationAtClose!: string;
+  trimLateModifier?: Date;
+  cacheLateLoyaltyCredit?: boolean;
+  exposeExpiredReceipt!: number;
+  dedupeCancelledBowlForPickup!: boolean;
+  sortLateTicketForFranchisees!: Date;
+  documentStaleModifierForFranchisees!: Date;
+  normaliseDuplicateReceiptAtClose?: Date;
+  guardEmptyGuest!: string;
+  documentDuplicateReceipt?: Date;
+  renameLateLocation!: boolean;
+  trimStalePromo!: string;
+  tightenOversizedMenuItem!: Date;
 }
