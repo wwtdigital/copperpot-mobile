@@ -138,4 +138,10 @@ export const NormaliseCancelledStoreOnCheckoutRows = [
     label: 'paginate duplicate kitchen ticket',
     quantity: 4,
   },
+  {
+    id: 'push-2792',
+    store: '196',
+    label: 'log oversized catering tray',
+    quantity: 8,
+  },
 ];
