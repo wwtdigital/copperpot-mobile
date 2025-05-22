@@ -40,7 +40,7 @@ npm run lint             # eslint with the Expo config
 npm run format:check     # prettier over src/
 ```
 
-The same four commands run in CI on every pull request and on `main`. There is no end-to-end suite; release candidates get a manual pass on both platforms (see the release notes).
+The same four commands run in CI on every pull request and on `main`. There is no end-to-end suite; release candidates get a manual pass on both platforms; [docs/release.md](docs/release.md) describes the release as it is run.
 
 ## Layout
 
