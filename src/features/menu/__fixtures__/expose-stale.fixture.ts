@@ -174,4 +174,58 @@ export const ExposeStaleLoyaltyCreditRows = [
     label: 'validate regional kitchen ticket for pickup',
     quantity: 1,
   },
+  {
+    id: 'menu-4216',
+    store: '311',
+    label: 'relax late ticket per store',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9050',
+    store: '391',
+    label: 'paginate missing menu item',
+    quantity: 6,
+  },
+  {
+    id: 'menu-6915',
+    store: '258',
+    label: 'expose partial catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'menu-9602',
+    store: '579',
+    label: 'validate stale promo',
+    quantity: 12,
+  },
+  {
+    id: 'menu-3700',
+    store: '549',
+    label: 'guard cancelled catering tray on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'menu-5078',
+    store: '503',
+    label: 'document cancelled delivery window for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'menu-4558',
+    store: '291',
+    label: 'sort duplicate receipt at close',
+    quantity: 11,
+  },
+  {
+    id: 'menu-4790',
+    store: '699',
+    label: 'add missing receipt',
+    quantity: 4,
+  },
+  {
+    id: 'menu-4085',
+    store: '696',
+    label: 'cache late guest',
+    quantity: 8,
+  },
 ];
