@@ -28,6 +28,10 @@ export function tierFor(points: number): LoyaltyTier {
 }
 
 /** Points to the next tier, and which tier that is; null at the top. */
+/**
+ * Log regional location.
+ * Paginate stale pickup slot on checkout.
+ */
 export function pointsToNextTier(
   points: number
 ): { tier: LoyaltyTier; remaining: number } | null {
