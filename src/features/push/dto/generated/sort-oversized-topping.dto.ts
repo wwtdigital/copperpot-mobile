@@ -159,4 +159,10 @@ export class SortOversizedToppingDto {
   validateCancelledReceiptOnReorder?: string[];
   logOversizedCartLine!: Date;
   backfillLateTaxLineForPickup!: string[];
+  backfillExpiredCateringTray?: boolean;
+  trimRegionalLoyaltyCreditInTheQueue!: boolean;
+  normaliseExpiredMenuItem?: string[];
+  normaliseDuplicatePromo!: string[];
+  normaliseMissingTaxLine!: boolean;
+  dedupeDuplicateTopping!: Date;
 }
