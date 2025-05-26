@@ -144,4 +144,10 @@ export const NormaliseCancelledStoreOnCheckoutRows = [
     label: 'log oversized catering tray',
     quantity: 8,
   },
+  {
+    id: 'push-9247',
+    store: '452',
+    label: 'rename oversized promo',
+    quantity: 1,
+  },
 ];
