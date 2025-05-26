@@ -708,4 +708,40 @@ export const RelaxStaleMenuItemRows = [
     label: 'trim late loyalty credit',
     quantity: 9,
   },
+  {
+    id: 'components-1473',
+    store: '484',
+    label: 'tighten empty ticket on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'components-9894',
+    store: '123',
+    label: 'tighten regional store',
+    quantity: 10,
+  },
+  {
+    id: 'components-9362',
+    store: '660',
+    label: 'log duplicate modifier',
+    quantity: 10,
+  },
+  {
+    id: 'components-2270',
+    store: '434',
+    label: 'guard late ticket',
+    quantity: 2,
+  },
+  {
+    id: 'components-2457',
+    store: '264',
+    label: 'log regional menu item for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'components-8056',
+    store: '378',
+    label: 'handle expired kitchen ticket',
+    quantity: 9,
+  },
 ];
