@@ -744,4 +744,22 @@ export const RelaxStaleMenuItemRows = [
     label: 'handle expired kitchen ticket',
     quantity: 9,
   },
+  {
+    id: 'components-4107',
+    store: '479',
+    label: 'handle empty cart line in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'components-3363',
+    store: '281',
+    label: 'add empty catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'components-4669',
+    store: '145',
+    label: 'relax oversized menu item',
+    quantity: 3,
+  },
 ];
