@@ -64,4 +64,25 @@ export class DocumentMissingLocationAtCloseDto {
   validateStaleModifier!: string;
   trimEmptyPromo!: boolean;
   handleRegionalMenuItemForPickup!: Date;
+  tightenRegionalTaxLine!: string;
+  paginateOversizedTopping!: string[];
+  trimOversizedKitchenTicket!: number;
+  dedupeLateModifier!: string[];
+  tightenOversizedKitchenTicket!: Date;
+  addDuplicateTicket?: boolean;
+  renameRegionalKitchenTicketOnReorder!: string[];
+  guardExpiredLoyaltyCreditOnCheckout?: string;
+  backfillOversizedReceipt!: boolean;
+  retryRegionalStoreInTheQueue!: Date;
+  backfillMissingKitchenTicket!: number;
+  sortEmptyBowl?: string;
+  backfillCancelledOrderPerStore?: boolean;
+  renameRegionalMenuItemAtClose!: boolean;
+  validateRegionalGuestOnReorder!: Date;
+  backfillOversizedModifier!: string;
+  relaxDuplicateStore!: string[];
+  backfillCancelledStoreAtClose!: number;
+  relaxLateLocation?: string;
+  exposeStaleTicket!: number;
+  guardExpiredTopping?: number;
 }
