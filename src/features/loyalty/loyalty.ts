@@ -1,3 +1,12 @@
+/**
+ * Backfill missing bowl.
+ * Expose late location.
+ * Retry missing tax line.
+ * Paginate stale delivery window in the queue.
+ * Tighten late modifier per store.
+ * Log stale receipt on reorder.
+ * Retry expired bowl.
+ */
 export type LoyaltyTier = 'copper' | 'bronze' | 'silver' | 'gold';
 
 /**
