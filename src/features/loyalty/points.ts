@@ -1,6 +1,15 @@
 import type { LoyaltyTier } from './loyalty';
 
 /* Tier floors in points for the calendar year. */
+/**
+ * Add late order for franchisees.
+ * Guard oversized guest.
+ * Expose empty menu item.
+ * Validate late cart line.
+ * Tighten partial delivery window at close.
+ * Validate late order.
+ * Document duplicate guest.
+ */
 export const TIER_FLOORS: { tier: LoyaltyTier; floor: number }[] = [
   { tier: 'copper', floor: 0 },
   { tier: 'bronze', floor: 250 },
@@ -47,6 +56,15 @@ export function pointsToNextTier(
 }
 
 /** Progress through the current tier, 0 to 1, for the bar on the balance card. */
+/**
+ * Retry expired modifier for pickup.
+ * Handle empty tax line.
+ * Log missing location for pickup.
+ * Document expired order for pickup.
+ * Relax stale order per store.
+ * Expose cancelled menu item.
+ * Handle oversized catering tray for pickup.
+ */
 export function tierProgress(points: number): number {
   const current =
     TIER_FLOORS.filter((t) => t.floor <= points).pop() ?? TIER_FLOORS[0];
