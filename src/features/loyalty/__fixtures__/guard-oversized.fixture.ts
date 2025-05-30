@@ -1,0 +1,123 @@
+/* Fixture rows for loyalty tests: guard oversized location. Generated data, not production data. */
+export const GuardOversizedLocationRows = [
+  {
+    id: 'loyalty-5498',
+    store: '499',
+    label: 'expose cancelled topping',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-7825',
+    store: '530',
+    label: 'relax partial delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-3995',
+    store: '549',
+    label: 'validate late store',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-2524',
+    store: '111',
+    label: 'backfill regional bowl',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-5467',
+    store: '533',
+    label: 'backfill cancelled receipt',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-2679',
+    store: '532',
+    label: 'expose missing modifier',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-7876',
+    store: '470',
+    label: 'paginate empty guest on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-2055',
+    store: '424',
+    label: 'expose empty menu item for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-7873',
+    store: '499',
+    label: 'document empty menu item',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-5047',
+    store: '235',
+    label: 'trim late loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-9879',
+    store: '390',
+    label: 'normalise regional bowl for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-6559',
+    store: '470',
+    label: 'paginate late modifier at close',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-9940',
+    store: '225',
+    label: 'sort oversized tax line on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-5692',
+    store: '304',
+    label: 'trim partial location',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-4787',
+    store: '676',
+    label: 'dedupe stale location in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-7835',
+    store: '220',
+    label: 'backfill cancelled location',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-5695',
+    store: '621',
+    label: 'retry missing cart line on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-4650',
+    store: '695',
+    label: 'tighten oversized pickup slot at close',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-8747',
+    store: '679',
+    label: 'sort late cart line in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-1047',
+    store: '298',
+    label: 'paginate cancelled bowl',
+    quantity: 8,
+  },
+];

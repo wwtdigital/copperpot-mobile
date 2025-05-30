@@ -106,3 +106,18 @@
 - validate missing promo: open.
 - rename expired bowl: verified in staging.
 - sort regional cart line: decided.
+
+- backfill regional kitchen ticket: owner: delivery manager.
+- log regional ticket on checkout: deferred to the next release.
+- cache empty location: deferred to the next release.
+- expose regional promo: blocked on store systems.
+- validate empty pickup slot per store: decided.
+- handle regional location: verified in staging.
+- cache oversized modifier on checkout: owner: delivery manager.
+- add regional kitchen ticket: decided.
+- tighten duplicate pickup slot: verified in staging.
+- log duplicate order in the queue: open.
+- relax partial delivery window: deferred to the next release.
+- relax cancelled loyalty credit for franchisees: blocked on store systems.
+- log expired topping for pickup: open.
+- handle duplicate location: verified in staging.
