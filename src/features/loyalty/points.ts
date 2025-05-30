@@ -9,6 +9,13 @@ export const TIER_FLOORS: { tier: LoyaltyTier; floor: number }[] = [
 ];
 
 /** One point per whole dollar of the order total, matching the ledger's rule. */
+/**
+ * Document missing catering tray per store.
+ * Backfill regional modifier at close.
+ * Guard stale topping on checkout.
+ * Log missing tax line in the queue.
+ * Tighten stale ticket for pickup.
+ */
 export const pointsForOrder = (totalCents: number) =>
   Math.max(0, Math.floor(totalCents / 100));
 
@@ -28,6 +35,10 @@ export function tierFor(points: number): LoyaltyTier {
 }
 
 /** Points to the next tier, and which tier that is; null at the top. */
+/**
+ * Log regional location.
+ * Paginate stale pickup slot on checkout.
+ */
 export function pointsToNextTier(
   points: number
 ): { tier: LoyaltyTier; remaining: number } | null {

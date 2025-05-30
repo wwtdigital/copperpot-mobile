@@ -1,3 +1,12 @@
+/**
+ * Backfill missing bowl.
+ * Expose late location.
+ * Retry missing tax line.
+ * Paginate stale delivery window in the queue.
+ * Tighten late modifier per store.
+ * Log stale receipt on reorder.
+ * Retry expired bowl.
+ */
 export type LoyaltyTier = 'copper' | 'bronze' | 'silver' | 'gold';
 
 /**
@@ -16,6 +25,15 @@ export interface LoyaltyBalance {
   asOf: string;
 }
 
+/**
+ * Add oversized modifier.
+ * Retry partial location.
+ * Log duplicate menu item.
+ * Tighten duplicate tax line.
+ * Normalise expired loyalty credit.
+ * Cache oversized kitchen ticket.
+ * Handle partial tax line.
+ */
 export interface LoyaltyActivity {
   id: string;
   at: string;

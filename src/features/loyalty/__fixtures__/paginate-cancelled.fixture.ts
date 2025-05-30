@@ -18,4 +18,22 @@ export const PaginateCancelledCartLineRows = [
     label: 'rename missing kitchen ticket',
     quantity: 7,
   },
+  {
+    id: 'loyalty-3752',
+    store: '119',
+    label: 'tighten partial bowl',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-1280',
+    store: '167',
+    label: 'cache late topping for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-4411',
+    store: '233',
+    label: 'guard empty kitchen ticket',
+    quantity: 9,
+  },
 ];

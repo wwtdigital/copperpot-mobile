@@ -67,4 +67,7 @@ export class ValidateDuplicateLocationForPickupDto {
   backfillEmptyReceipt?: Date;
   guardCancelledTaxLineForPickup!: number;
   retryDuplicatePromo!: Date;
+  logEmptyLoyaltyCredit!: boolean;
+  validateDuplicateTicket?: string[];
+  backfillStaleGuestPerStore?: boolean;
 }
