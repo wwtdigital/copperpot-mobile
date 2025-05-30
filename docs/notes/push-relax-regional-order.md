@@ -55,3 +55,18 @@
 - normalise late modifier for franchisees: open.
 - relax empty receipt: owner: delivery manager.
 - cache duplicate kitchen ticket: blocked on store systems.
+
+- add partial menu item per store: open.
+- handle partial ticket per store: verified in staging.
+- validate regional receipt: decided.
+- cache late location at close: deferred to the next release.
+- log expired location: owner: delivery manager.
+- dedupe stale ticket: owner: delivery manager.
+- paginate late guest for pickup: deferred to the next release.
+- sort missing menu item: blocked on store systems.
+- normalise partial loyalty credit at close: verified in staging.
+- handle cancelled promo: decided.
+- validate late guest per store: verified in staging.
+- expose missing location in the queue: verified in staging.
+- paginate partial bowl: verified in staging.
+- retry expired modifier for pickup: deferred to the next release.

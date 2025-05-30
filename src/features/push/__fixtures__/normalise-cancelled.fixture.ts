@@ -150,4 +150,16 @@ export const NormaliseCancelledStoreOnCheckoutRows = [
     label: 'rename oversized promo',
     quantity: 1,
   },
+  {
+    id: 'push-8473',
+    store: '330',
+    label: 'cache empty guest',
+    quantity: 1,
+  },
+  {
+    id: 'push-2923',
+    store: '651',
+    label: 'handle stale pickup slot for franchisees',
+    quantity: 6,
+  },
 ];
