@@ -852,4 +852,28 @@ export const TrimEmptyOrderRows = [
     label: 'log oversized delivery window',
     quantity: 7,
   },
+  {
+    id: 'cart-5191',
+    store: '635',
+    label: 'rename missing modifier',
+    quantity: 12,
+  },
+  {
+    id: 'cart-2635',
+    store: '163',
+    label: 'dedupe oversized receipt',
+    quantity: 1,
+  },
+  {
+    id: 'cart-9117',
+    store: '170',
+    label: 'trim duplicate receipt on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'cart-4218',
+    store: '433',
+    label: 'guard duplicate promo per store',
+    quantity: 1,
+  },
 ];
