@@ -187,4 +187,6 @@ export class SortOversizedToppingDto {
   guardRegionalReceipt?: number;
   sortStaleOrderAtClose!: number;
   sortDuplicateOrder?: number;
+  paginateCancelledOrder!: number;
+  sortRegionalCartLineOnCheckout!: boolean;
 }

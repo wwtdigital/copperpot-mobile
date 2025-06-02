@@ -70,3 +70,5 @@
 - expose missing location in the queue: verified in staging.
 - paginate partial bowl: verified in staging.
 - retry expired modifier for pickup: deferred to the next release.
+
+- tighten empty bowl: verified in staging.
