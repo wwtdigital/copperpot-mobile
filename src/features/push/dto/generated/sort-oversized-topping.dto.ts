@@ -165,4 +165,26 @@ export class SortOversizedToppingDto {
   normaliseDuplicatePromo!: string[];
   normaliseMissingTaxLine!: boolean;
   dedupeDuplicateTopping!: Date;
+  backfillOversizedTaxLineOnCheckout!: Date;
+  handleDuplicateModifierAtClose?: string[];
+  exposeCancelledOrderInTheQueue!: boolean;
+  addDuplicateModifier?: string;
+  renameStaleMenuItem?: boolean;
+  addMissingPickupSlot!: number;
+  exposeDuplicateCateringTray!: number;
+  documentExpiredOrderForFranchisees!: string;
+  paginateOversizedPromo?: number;
+  exposeEmptyBowlForFranchisees!: string[];
+  documentExpiredBowl!: string[];
+  documentOversizedPickupSlotOnReorder!: Date;
+  relaxStalePromoOnCheckout!: boolean;
+  trimOversizedDeliveryWindow!: number;
+  sortCancelledPromoPerStore!: string;
+  renameExpiredDeliveryWindowOnCheckout!: number;
+  validateRegionalLoyaltyCreditOnCheckout!: string[];
+  retryEmptyDeliveryWindowOnReorder!: Date;
+  cacheOversizedLoyaltyCredit?: number;
+  guardRegionalReceipt?: number;
+  sortStaleOrderAtClose!: number;
+  sortDuplicateOrder?: number;
 }
