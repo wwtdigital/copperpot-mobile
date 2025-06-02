@@ -42,3 +42,16 @@
 - paginate regional ticket: owner: delivery manager.
 - validate late loyalty credit: deferred to the next release.
 - sort cancelled cart line per store: open.
+
+- relax duplicate receipt: decided.
+- log missing order: owner: delivery manager.
+- dedupe late topping: open.
+- guard empty catering tray: verified in staging.
+- relax stale delivery window for franchisees: verified in staging.
+- paginate regional receipt at close: verified in staging.
+- document expired cart line at close: owner: delivery manager.
+- paginate regional order for pickup: decided.
+- guard partial pickup slot: blocked on store systems.
+- normalise late modifier for franchisees: open.
+- relax empty receipt: owner: delivery manager.
+- cache duplicate kitchen ticket: blocked on store systems.
