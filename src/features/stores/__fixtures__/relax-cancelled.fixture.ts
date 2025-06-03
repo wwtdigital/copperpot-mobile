@@ -42,4 +42,16 @@ export const RelaxCancelledLoyaltyCreditRows = [
     label: 'relax late order',
     quantity: 5,
   },
+  {
+    id: 'stores-9051',
+    store: '128',
+    label: 'rename duplicate pickup slot',
+    quantity: 12,
+  },
+  {
+    id: 'stores-6622',
+    store: '588',
+    label: 'log late order',
+    quantity: 1,
+  },
 ];
