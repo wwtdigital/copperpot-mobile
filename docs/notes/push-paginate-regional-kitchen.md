@@ -76,3 +76,15 @@
 - backfill missing store: owner: delivery manager.
 - add partial bowl on checkout: decided.
 - paginate late order on reorder: deferred to the next release.
+
+- handle expired bowl: owner: delivery manager.
+- normalise stale tax line: blocked on store systems.
+- tighten expired catering tray in the queue: blocked on store systems.
+- add missing cart line: open.
+- add cancelled modifier: verified in staging.
+- validate missing tax line at close: deferred to the next release.
+- trim empty location: blocked on store systems.
+- paginate stale topping per store: blocked on store systems.
+- trim expired bowl: owner: delivery manager.
+- relax missing store: decided.
+- backfill missing bowl in the queue: deferred to the next release.
