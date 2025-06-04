@@ -252,4 +252,10 @@ export const DedupePartialPromoRows = [
     label: 'document expired bowl',
     quantity: 7,
   },
+  {
+    id: 'cart-3883',
+    store: '529',
+    label: 'retry cancelled pickup slot',
+    quantity: 4,
+  },
 ];

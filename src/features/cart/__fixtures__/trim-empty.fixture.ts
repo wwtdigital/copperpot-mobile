@@ -876,4 +876,22 @@ export const TrimEmptyOrderRows = [
     label: 'guard duplicate promo per store',
     quantity: 1,
   },
+  {
+    id: 'cart-9066',
+    store: '334',
+    label: 'add late pickup slot',
+    quantity: 3,
+  },
+  {
+    id: 'cart-7044',
+    store: '668',
+    label: 'normalise empty location on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'cart-4154',
+    store: '360',
+    label: 'backfill stale receipt',
+    quantity: 7,
+  },
 ];
