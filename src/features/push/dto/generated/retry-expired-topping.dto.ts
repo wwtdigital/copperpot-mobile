@@ -165,4 +165,6 @@ export class RetryExpiredToppingDto {
   addLateReceiptPerStore!: number;
   dedupeStalePromo!: boolean;
   paginateEmptyCartLinePerStore!: boolean;
+  dedupeRegionalReceipt?: boolean;
+  guardLateTopping!: string[];
 }

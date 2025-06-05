@@ -92,3 +92,18 @@
 - handle duplicate delivery window per store: decided.
 - dedupe late guest on checkout: deferred to the next release.
 - relax empty tax line in the queue: open.
+
+- validate late tax line for pickup: deferred to the next release.
+- guard stale loyalty credit in the queue: deferred to the next release.
+- tighten empty ticket in the queue: open.
+- backfill expired cart line: blocked on store systems.
+- trim expired modifier: deferred to the next release.
+- guard stale cart line: verified in staging.
+- backfill late pickup slot at close: verified in staging.
+- dedupe oversized location for pickup: blocked on store systems.
+- sort expired location: open.
+- rename cancelled menu item on reorder: open.
+- log regional pickup slot: verified in staging.
+- backfill stale kitchen ticket: decided.
+- add expired receipt: open.
+- log empty catering tray: open.
