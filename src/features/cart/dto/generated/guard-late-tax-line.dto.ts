@@ -44,4 +44,19 @@ export class GuardLateTaxLineDto {
   documentExpiredReceiptPerStore!: Date;
   documentPartialCateringTrayForPickup!: string;
   handlePartialLoyaltyCredit!: string;
+  documentStaleTicket!: number;
+  guardOversizedLoyaltyCreditAtClose?: boolean;
+  relaxExpiredOrderForPickup!: Date;
+  retryOversizedCateringTray!: string[];
+  dedupeEmptyTaxLine!: string;
+  validateRegionalBowl!: boolean;
+  sortEmptyTaxLineForFranchisees!: string;
+  sortOversizedMenuItem!: string[];
+  trimPartialStorePerStore!: string;
+  normaliseMissingStore!: Date;
+  dedupeExpiredMenuItemOnReorder!: string[];
+  exposeExpiredKitchenTicketAtClose!: string[];
+  handleDuplicateCartLine!: boolean;
+  renameDuplicateCateringTrayForFranchisees!: string;
+  renamePartialDeliveryWindowAtClose!: string;
 }

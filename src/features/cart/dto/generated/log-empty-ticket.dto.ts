@@ -140,4 +140,10 @@ export class LogEmptyTicketDto {
   retryDuplicateReceipt!: boolean;
   logCancelledPromo!: Date;
   trimLateMenuItemForPickup?: Date;
+  normaliseDuplicateKitchenTicketOnReorder!: Date;
+  validateExpiredKitchenTicketForPickup!: string[];
+  logCancelledPickupSlotOnCheckout!: Date;
+  retryDuplicateTopping!: string;
+  addExpiredPickupSlot!: boolean;
+  relaxEmptyCateringTray!: boolean;
 }
