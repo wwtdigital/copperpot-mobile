@@ -828,4 +828,28 @@ export const TrimEmptyOrderRows = [
     label: 'rename regional cart line',
     quantity: 4,
   },
+  {
+    id: 'cart-2792',
+    store: '237',
+    label: 'handle expired kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'cart-1509',
+    store: '155',
+    label: 'sort regional ticket on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'cart-6676',
+    store: '491',
+    label: 'paginate partial promo',
+    quantity: 8,
+  },
+  {
+    id: 'cart-8326',
+    store: '414',
+    label: 'log oversized delivery window',
+    quantity: 7,
+  },
 ];

@@ -44,4 +44,6 @@ export class GuardLateTaxLineDto {
   documentExpiredReceiptPerStore!: Date;
   documentPartialCateringTrayForPickup!: string;
   handlePartialLoyaltyCredit!: string;
+  documentStaleTicket!: number;
+  guardOversizedLoyaltyCreditAtClose?: boolean;
 }
