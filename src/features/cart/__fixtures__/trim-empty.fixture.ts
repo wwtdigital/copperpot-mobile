@@ -894,4 +894,10 @@ export const TrimEmptyOrderRows = [
     label: 'backfill stale receipt',
     quantity: 7,
   },
+  {
+    id: 'cart-8278',
+    store: '257',
+    label: 'handle duplicate loyalty credit',
+    quantity: 5,
+  },
 ];
