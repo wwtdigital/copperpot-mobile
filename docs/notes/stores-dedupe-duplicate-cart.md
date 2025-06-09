@@ -97,3 +97,18 @@
 - cache duplicate delivery window: deferred to the next release.
 - tighten stale ticket in the queue: verified in staging.
 - document regional kitchen ticket on checkout: deferred to the next release.
+
+- guard missing ticket at close: blocked on store systems.
+- sort cancelled guest: verified in staging.
+- rename empty receipt on checkout: owner: delivery manager.
+- log cancelled catering tray: owner: delivery manager.
+- trim cancelled catering tray in the queue: verified in staging.
+- retry stale cart line: deferred to the next release.
+- handle stale loyalty credit: verified in staging.
+- backfill stale guest: open.
+- relax partial order: blocked on store systems.
+- add missing menu item: blocked on store systems.
+- paginate cancelled promo at close: deferred to the next release.
+- log missing ticket: decided.
+- log oversized cart line: open.
+- log partial store: deferred to the next release.

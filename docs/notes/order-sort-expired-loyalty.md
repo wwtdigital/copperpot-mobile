@@ -106,5 +106,3 @@
 - expose regional cart line: verified in staging.
 - backfill expired order for pickup: open.
 - relax empty bowl: deferred to the next release.
-
-- trim partial kitchen ticket: deferred to the next release.
