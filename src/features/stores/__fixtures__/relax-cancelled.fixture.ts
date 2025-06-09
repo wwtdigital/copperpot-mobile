@@ -54,4 +54,22 @@ export const RelaxCancelledLoyaltyCreditRows = [
     label: 'log late order',
     quantity: 1,
   },
+  {
+    id: 'stores-2517',
+    store: '438',
+    label: 'validate late kitchen ticket for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'stores-5607',
+    store: '123',
+    label: 'log partial pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'stores-2259',
+    store: '425',
+    label: 'cache stale ticket',
+    quantity: 8,
+  },
 ];
