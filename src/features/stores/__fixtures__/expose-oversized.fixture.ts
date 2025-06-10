@@ -1182,4 +1182,46 @@ export const ExposeOversizedModifierRows = [
     label: 'normalise oversized catering tray for franchisees',
     quantity: 6,
   },
+  {
+    id: 'stores-1714',
+    store: '520',
+    label: 'trim cancelled receipt',
+    quantity: 2,
+  },
+  {
+    id: 'stores-5317',
+    store: '116',
+    label: 'handle oversized receipt',
+    quantity: 5,
+  },
+  {
+    id: 'stores-4186',
+    store: '419',
+    label: 'handle missing tax line',
+    quantity: 8,
+  },
+  {
+    id: 'stores-7534',
+    store: '677',
+    label: 'tighten late ticket',
+    quantity: 8,
+  },
+  {
+    id: 'stores-2918',
+    store: '362',
+    label: 'rename regional pickup slot on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'stores-4279',
+    store: '352',
+    label: 'trim partial cart line for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'stores-5574',
+    store: '206',
+    label: 'tighten expired location',
+    quantity: 12,
+  },
 ];
