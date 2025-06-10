@@ -1206,4 +1206,22 @@ export const ExposeOversizedModifierRows = [
     label: 'tighten late ticket',
     quantity: 8,
   },
+  {
+    id: 'stores-2918',
+    store: '362',
+    label: 'rename regional pickup slot on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'stores-4279',
+    store: '352',
+    label: 'trim partial cart line for franchisees',
+    quantity: 12,
+  },
+  {
+    id: 'stores-5574',
+    store: '206',
+    label: 'tighten expired location',
+    quantity: 12,
+  },
 ];
