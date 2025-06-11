@@ -114,4 +114,28 @@ export class AddPartialCateringTrayDto {
   documentExpiredLoyaltyCreditForPickup!: string[];
   retryExpiredStore!: string;
   tightenMissingModifier?: string;
+  cacheMissingReceipt!: number;
+  guardMissingPromoForFranchisees!: number;
+  retryDuplicateLocation!: string;
+  cacheRegionalModifier?: string;
+  exposeEmptyCateringTray!: string;
+  guardStaleMenuItemPerStore!: string[];
+  paginateExpiredLoyaltyCreditOnReorder!: string[];
+  tightenEmptyLocation!: string;
+  handleStaleLoyaltyCreditOnCheckout?: string;
+  dedupeOversizedCartLineOnCheckout!: string[];
+  handleRegionalGuest?: string[];
+  backfillMissingGuestOnReorder!: string;
+  sortStaleTicket?: Date;
+  trimCancelledLoyaltyCredit?: boolean;
+  normalisePartialDeliveryWindowInTheQueue!: boolean;
+  logRegionalLocationForPickup?: boolean;
+  dedupeEmptyMenuItem?: string[];
+  renameOversizedGuest?: number;
+  cacheExpiredKitchenTicketForPickup!: string;
+  relaxLatePromoForPickup!: number;
+  tightenMissingMenuItem!: string;
+  handleEmptyReceipt!: boolean;
+  logCancelledCateringTray?: Date;
+  documentLateOrderForPickup!: boolean;
 }
