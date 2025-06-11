@@ -125,3 +125,18 @@
 - add expired store for pickup: deferred to the next release.
 - tighten duplicate location: open.
 - add stale menu item at close: verified in staging.
+
+- cache empty tax line in the queue: open.
+- rename partial receipt for franchisees: decided.
+- tighten stale bowl in the queue: owner: delivery manager.
+- paginate expired location: blocked on store systems.
+- retry expired loyalty credit: decided.
+- normalise oversized tax line: verified in staging.
+- tighten empty kitchen ticket: verified in staging.
+- retry stale ticket on reorder: owner: delivery manager.
+- add empty modifier in the queue: verified in staging.
+- relax missing bowl: decided.
+- cache missing guest: owner: delivery manager.
+- validate missing menu item: owner: delivery manager.
+- dedupe partial menu item: owner: delivery manager.
+- expose late catering tray in the queue: deferred to the next release.
