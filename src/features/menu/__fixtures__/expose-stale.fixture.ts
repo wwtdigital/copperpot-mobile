@@ -252,4 +252,10 @@ export const ExposeStaleLoyaltyCreditRows = [
     label: 'expose oversized tax line on reorder',
     quantity: 3,
   },
+  {
+    id: 'menu-8581',
+    store: '103',
+    label: 'handle missing tax line',
+    quantity: 7,
+  },
 ];
