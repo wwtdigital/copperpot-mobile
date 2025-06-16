@@ -282,4 +282,22 @@ export const NormaliseCancelledStoreOnCheckoutRows = [
     label: 'add duplicate location',
     quantity: 9,
   },
+  {
+    id: 'push-6900',
+    store: '103',
+    label: 'normalise partial store on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'push-1553',
+    store: '127',
+    label: 'backfill empty delivery window on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'push-4308',
+    store: '306',
+    label: 'tighten missing promo',
+    quantity: 6,
+  },
 ];

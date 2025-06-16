@@ -235,4 +235,23 @@ export class SortOversizedToppingDto {
   normaliseOversizedCartLineInTheQueue!: number;
   exposeStaleGuest?: string;
   sortPartialStoreForFranchisees!: number;
+  trimOversizedBowl?: Date;
+  sortPartialReceiptAtClose!: string;
+  paginateRegionalTaxLineOnCheckout?: boolean;
+  exposeStaleLocationForPickup!: string[];
+  paginateCancelledGuestAtClose!: Date;
+  relaxRegionalCateringTrayOnCheckout!: Date;
+  renameCancelledLoyaltyCredit!: Date;
+  trimEmptyCartLineForFranchisees!: boolean;
+  guardPartialReceipt!: boolean;
+  logPartialLoyaltyCredit!: boolean;
+  retryRegionalDeliveryWindowInTheQueue!: boolean;
+  handleExpiredToppingAtClose!: number;
+  retryOversizedKitchenTicket!: string[];
+  guardExpiredTaxLine!: string;
+  cacheStaleBowl?: string;
+  validateRegionalKitchenTicketForFranchisees?: Date;
+  cacheRegionalModifier!: string[];
+  normalisePartialLoyaltyCredit!: Date;
+  paginateCancelledKitchenTicket!: Date;
 }
