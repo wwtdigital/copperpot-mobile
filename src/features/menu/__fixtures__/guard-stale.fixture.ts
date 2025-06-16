@@ -66,4 +66,10 @@ export const GuardStaleLocationOnReorderRows = [
     label: 'handle regional menu item',
     quantity: 12,
   },
+  {
+    id: 'menu-8874',
+    store: '300',
+    label: 'sort oversized receipt',
+    quantity: 7,
+  },
 ];

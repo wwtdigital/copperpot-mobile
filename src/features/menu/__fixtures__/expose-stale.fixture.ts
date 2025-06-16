@@ -258,4 +258,22 @@ export const ExposeStaleLoyaltyCreditRows = [
     label: 'handle missing tax line',
     quantity: 7,
   },
+  {
+    id: 'menu-3528',
+    store: '365',
+    label: 'paginate late store at close',
+    quantity: 3,
+  },
+  {
+    id: 'menu-2846',
+    store: '306',
+    label: 'expose partial bowl on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'menu-5761',
+    store: '392',
+    label: 'sort regional receipt on checkout',
+    quantity: 9,
+  },
 ];

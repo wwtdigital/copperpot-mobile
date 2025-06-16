@@ -34,3 +34,18 @@
 - trim empty store in the queue: decided.
 - normalise regional store: blocked on store systems.
 - sort expired catering tray at close: open.
+
+- validate expired topping for franchisees: decided.
+- normalise expired pickup slot: open.
+- paginate expired bowl at close: blocked on store systems.
+- trim duplicate tax line: deferred to the next release.
+- relax stale menu item: owner: delivery manager.
+- add cancelled location: open.
+- guard regional pickup slot on checkout: deferred to the next release.
+- backfill missing loyalty credit on reorder: verified in staging.
+- paginate empty topping: decided.
+- relax oversized store at close: deferred to the next release.
+- log partial kitchen ticket: deferred to the next release.
+- handle expired loyalty credit for pickup: deferred to the next release.
+- document late cart line: decided.
+- validate oversized ticket: owner: delivery manager.
