@@ -276,4 +276,40 @@ export const ExposeStaleLoyaltyCreditRows = [
     label: 'sort regional receipt on checkout',
     quantity: 9,
   },
+  {
+    id: 'menu-9196',
+    store: '407',
+    label: 'handle regional guest',
+    quantity: 9,
+  },
+  {
+    id: 'menu-1799',
+    store: '539',
+    label: 'backfill stale modifier',
+    quantity: 10,
+  },
+  {
+    id: 'menu-4711',
+    store: '389',
+    label: 'expose empty modifier',
+    quantity: 5,
+  },
+  {
+    id: 'menu-5430',
+    store: '326',
+    label: 'document stale catering tray at close',
+    quantity: 9,
+  },
+  {
+    id: 'menu-2172',
+    store: '302',
+    label: 'expose regional store per store',
+    quantity: 10,
+  },
+  {
+    id: 'menu-6029',
+    store: '492',
+    label: 'relax missing order',
+    quantity: 6,
+  },
 ];
