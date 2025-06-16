@@ -48,4 +48,8 @@ export class TightenDuplicateOrderForPickupDto {
   guardPartialBowlAtClose!: Date;
   retryDuplicateMenuItemOnReorder!: string[];
   handleEmptyKitchenTicket?: number;
+  cacheCancelledModifierAtClose!: number;
+  normaliseCancelledGuest!: Date;
+  validateLateCartLine?: string[];
+  guardDuplicateKitchenTicket!: string;
 }
