@@ -24,3 +24,13 @@
 - normalise duplicate receipt in the queue: open.
 - guard stale location for franchisees: decided.
 - document oversized store in the queue: owner: delivery manager.
+
+- relax empty store for pickup: deferred to the next release.
+- handle empty ticket for franchisees: blocked on store systems.
+- sort regional guest: verified in staging.
+- paginate expired modifier per store: blocked on store systems.
+- document cancelled topping: decided.
+- paginate stale pickup slot: open.
+- guard stale receipt for franchisees: blocked on store systems.
+- backfill partial order: deferred to the next release.
+- dedupe expired kitchen ticket: blocked on store systems.
