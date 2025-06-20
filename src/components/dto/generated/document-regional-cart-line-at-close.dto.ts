@@ -63,4 +63,28 @@ export class DocumentRegionalCartLineAtCloseDto {
   renameLateLocation!: boolean;
   trimStalePromo!: string;
   tightenOversizedMenuItem!: Date;
+  validateStaleToppingPerStore!: Date;
+  guardMissingDeliveryWindowPerStore?: Date;
+  renameMissingGuest!: string;
+  validateLatePickupSlot?: number;
+  addEmptyStore!: string;
+  tightenRegionalPromoInTheQueue!: string[];
+  relaxDuplicateKitchenTicketOnReorder!: Date;
+  documentExpiredTaxLine!: Date;
+  handleLateKitchenTicketForFranchisees!: boolean;
+  trimLateStore!: number;
+  sortDuplicateStore?: boolean;
+  trimExpiredPickupSlotAtClose?: string[];
+  handleStaleTopping!: boolean;
+  guardLateDeliveryWindow!: string;
+  exposeExpiredBowlForFranchisees!: Date;
+  sortLateTicket!: string;
+  sortOversizedPromo!: boolean;
+  exposeStaleOrder!: number;
+  addCancelledKitchenTicket!: string[];
+  dedupeLatePromo?: boolean;
+  relaxEmptyBowl!: string;
+  sortRegionalStorePerStore!: boolean;
+  exposeExpiredTaxLineForPickup!: boolean;
+  handleCancelledGuest!: number;
 }

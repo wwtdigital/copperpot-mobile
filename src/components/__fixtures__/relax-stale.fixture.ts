@@ -912,4 +912,28 @@ export const RelaxStaleMenuItemRows = [
     label: 'validate expired guest',
     quantity: 2,
   },
+  {
+    id: 'components-7938',
+    store: '215',
+    label: 'dedupe empty kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'components-1449',
+    store: '574',
+    label: 'normalise expired catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'components-7683',
+    store: '384',
+    label: 'validate regional ticket',
+    quantity: 10,
+  },
+  {
+    id: 'components-9864',
+    store: '347',
+    label: 'dedupe cancelled promo on checkout',
+    quantity: 12,
+  },
 ];

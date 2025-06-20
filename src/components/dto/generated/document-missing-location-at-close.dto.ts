@@ -97,4 +97,27 @@ export class DocumentMissingLocationAtCloseDto {
   documentDuplicateKitchenTicket!: number;
   sortMissingGuest?: number;
   renameExpiredKitchenTicket!: string[];
+  retryExpiredLoyaltyCredit!: number;
+  trimStaleModifier!: number;
+  dedupePartialLoyaltyCreditForPickup!: string;
+  trimDuplicateLocation?: boolean;
+  backfillCancelledReceiptInTheQueue!: boolean;
+  logDuplicateGuestAtClose!: number;
+  logStaleBowl?: boolean;
+  handleRegionalLocation!: string[];
+  addStaleTaxLine!: string[];
+  guardExpiredTaxLine!: string[];
+  cacheCancelledReceipt!: string;
+  paginateOversizedMenuItem?: string[];
+  retryPartialLocation!: number;
+  sortStaleModifier?: Date;
+  documentMissingPromo!: string;
+  exposeExpiredGuestForFranchisees!: string;
+  handleEmptyTicket!: Date;
+  documentOversizedReceipt!: string[];
+  backfillEmptyBowl!: boolean;
+  logLateTaxLine!: boolean;
+  backfillOversizedTicket!: number;
+  trimCancelledPickupSlotPerStore!: Date;
+  trimLateKitchenTicketForFranchisees!: boolean;
 }

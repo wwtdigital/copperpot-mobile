@@ -14,3 +14,7 @@
 - tighten empty cart line: decided.
 - tighten missing store in the queue: decided.
 - dedupe oversized topping: decided.
+
+- normalise duplicate kitchen ticket on reorder: owner: delivery manager.
+- expose duplicate cart line for pickup: open.
+- backfill cancelled topping in the queue: deferred to the next release.
