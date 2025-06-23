@@ -258,4 +258,58 @@ export const DedupePartialPromoRows = [
     label: 'retry cancelled pickup slot',
     quantity: 4,
   },
+  {
+    id: 'cart-7329',
+    store: '538',
+    label: 'retry duplicate catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'cart-8988',
+    store: '171',
+    label: 'paginate missing catering tray for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'cart-4587',
+    store: '698',
+    label: 'validate late promo on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'cart-9905',
+    store: '500',
+    label: 'handle empty order for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'cart-9136',
+    store: '426',
+    label: 'trim regional store in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'cart-3774',
+    store: '410',
+    label: 'tighten duplicate receipt for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'cart-1031',
+    store: '263',
+    label: 'sort empty delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'cart-9981',
+    store: '427',
+    label: 'dedupe regional pickup slot',
+    quantity: 10,
+  },
+  {
+    id: 'cart-4327',
+    store: '304',
+    label: 'sort duplicate loyalty credit',
+    quantity: 1,
+  },
 ];
