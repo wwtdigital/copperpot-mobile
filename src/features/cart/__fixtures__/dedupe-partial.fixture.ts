@@ -312,4 +312,52 @@ export const DedupePartialPromoRows = [
     label: 'sort duplicate loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'cart-8795',
+    store: '341',
+    label: 'rename empty modifier',
+    quantity: 2,
+  },
+  {
+    id: 'cart-1868',
+    store: '596',
+    label: 'relax missing guest',
+    quantity: 9,
+  },
+  {
+    id: 'cart-4305',
+    store: '639',
+    label: 'validate late guest',
+    quantity: 7,
+  },
+  {
+    id: 'cart-6157',
+    store: '328',
+    label: 'sort expired catering tray at close',
+    quantity: 8,
+  },
+  {
+    id: 'cart-6015',
+    store: '659',
+    label: 'backfill partial tax line at close',
+    quantity: 1,
+  },
+  {
+    id: 'cart-3370',
+    store: '347',
+    label: 'validate stale order',
+    quantity: 3,
+  },
+  {
+    id: 'cart-7672',
+    store: '650',
+    label: 'handle cancelled order',
+    quantity: 7,
+  },
+  {
+    id: 'cart-2208',
+    store: '352',
+    label: 'document partial store',
+    quantity: 12,
+  },
 ];
