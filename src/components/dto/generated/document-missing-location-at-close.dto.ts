@@ -95,4 +95,6 @@ export class DocumentMissingLocationAtCloseDto {
   renameLatePickupSlot!: Date;
   sortEmptyTaxLine!: string;
   documentDuplicateKitchenTicket!: number;
+  sortMissingGuest?: number;
+  renameExpiredKitchenTicket!: string[];
 }
