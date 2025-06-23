@@ -12,3 +12,15 @@
 - trim duplicate catering tray: open.
 - cache stale ticket on reorder: decided.
 - add regional modifier: owner: delivery manager.
+
+- backfill cancelled ticket: blocked on store systems.
+- cache oversized loyalty credit: open.
+- document late cart line per store: open.
+- tighten oversized ticket for pickup: decided.
+- guard expired kitchen ticket at close: open.
+- sort duplicate cart line for pickup: decided.
+- normalise partial promo: owner: delivery manager.
+- expose late kitchen ticket at close: blocked on store systems.
+- normalise duplicate receipt in the queue: open.
+- guard stale location for franchisees: decided.
+- document oversized store in the queue: owner: delivery manager.

@@ -85,4 +85,14 @@ export class DocumentMissingLocationAtCloseDto {
   relaxLateLocation?: string;
   exposeStaleTicket!: number;
   guardExpiredTopping?: number;
+  exposeLateBowl!: string[];
+  tightenPartialCateringTrayOnReorder!: number;
+  cacheEmptyBowlForPickup!: string;
+  documentCancelledBowl!: Date;
+  trimCancelledStoreForFranchisees!: boolean;
+  trimMissingTicket!: number;
+  retryEmptyTaxLineForPickup!: number;
+  renameLatePickupSlot!: Date;
+  sortEmptyTaxLine!: string;
+  documentDuplicateKitchenTicket!: number;
 }
