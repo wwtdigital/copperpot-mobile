@@ -882,4 +882,34 @@ export const RelaxStaleMenuItemRows = [
     label: 'retry stale promo',
     quantity: 8,
   },
+  {
+    id: 'components-5837',
+    store: '161',
+    label: 'document regional receipt on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'components-3289',
+    store: '492',
+    label: 'handle stale tax line on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'components-6903',
+    store: '150',
+    label: 'normalise expired catering tray on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'components-8635',
+    store: '169',
+    label: 'trim stale loyalty credit at close',
+    quantity: 4,
+  },
+  {
+    id: 'components-7498',
+    store: '226',
+    label: 'validate expired guest',
+    quantity: 2,
+  },
 ];

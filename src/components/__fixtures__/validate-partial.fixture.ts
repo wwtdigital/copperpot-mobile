@@ -174,4 +174,22 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'document partial menu item per store',
     quantity: 10,
   },
+  {
+    id: 'components-1670',
+    store: '343',
+    label: 'document empty pickup slot',
+    quantity: 4,
+  },
+  {
+    id: 'components-6420',
+    store: '463',
+    label: 'expose duplicate loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'components-8076',
+    store: '563',
+    label: 'retry missing receipt for pickup',
+    quantity: 4,
+  },
 ];

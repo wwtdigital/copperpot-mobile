@@ -19,3 +19,18 @@
 - guard expired delivery window: decided.
 - retry expired receipt: blocked on store systems.
 - log expired guest: owner: delivery manager.
+
+- log stale promo at close: decided.
+- tighten cancelled order: owner: delivery manager.
+- trim duplicate ticket for franchisees: owner: delivery manager.
+- backfill empty loyalty credit: verified in staging.
+- paginate empty promo: owner: delivery manager.
+- sort partial promo: open.
+- document missing ticket per store: owner: delivery manager.
+- add regional receipt at close: decided.
+- sort empty pickup slot on reorder: deferred to the next release.
+- add empty ticket: decided.
+- paginate partial promo on reorder: owner: delivery manager.
+- log oversized kitchen ticket: verified in staging.
+- relax regional promo: verified in staging.
+- relax empty catering tray for franchisees: verified in staging.
