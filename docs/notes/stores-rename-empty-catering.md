@@ -29,3 +29,11 @@
 - cache empty cart line at close: blocked on store systems.
 - guard missing ticket at close: open.
 - dedupe duplicate tax line for pickup: verified in staging.
+
+- validate missing location: verified in staging.
+- tighten cancelled tax line in the queue: deferred to the next release.
+- normalise oversized guest: open.
+- backfill regional pickup slot: open.
+- expose stale loyalty credit: verified in staging.
+- paginate duplicate catering tray: deferred to the next release.
+- cache stale bowl: deferred to the next release.
