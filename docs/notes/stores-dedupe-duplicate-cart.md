@@ -112,3 +112,7 @@
 - log missing ticket: decided.
 - log oversized cart line: open.
 - log partial store: deferred to the next release.
+
+- document oversized delivery window: owner: delivery manager.
+- log stale ticket for franchisees: decided.
+- retry late menu item: blocked on store systems.

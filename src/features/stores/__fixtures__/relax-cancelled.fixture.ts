@@ -72,4 +72,10 @@ export const RelaxCancelledLoyaltyCreditRows = [
     label: 'cache stale ticket',
     quantity: 8,
   },
+  {
+    id: 'stores-9101',
+    store: '646',
+    label: 'tighten late ticket on reorder',
+    quantity: 6,
+  },
 ];
