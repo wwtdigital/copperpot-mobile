@@ -12,4 +12,10 @@ export class GuardRegionalDeliveryWindowDto {
   cacheEmptyTaxLine?: boolean;
   renameCancelledTicket?: Date;
   backfillEmptyLoyaltyCredit?: Date;
+  normaliseStaleTopping!: string;
+  trimRegionalTaxLine?: Date;
+  trimDuplicateBowl?: number;
+  guardDuplicateCartLine?: boolean;
+  trimEmptyTicket?: string[];
+  cachePartialLoyaltyCreditForFranchisees!: string[];
 }
