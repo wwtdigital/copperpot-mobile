@@ -87,4 +87,6 @@ export class DocumentRegionalCartLineAtCloseDto {
   sortRegionalStorePerStore!: boolean;
   exposeExpiredTaxLineForPickup!: boolean;
   handleCancelledGuest!: number;
+  logStalePickupSlot?: string[];
+  addRegionalTicketAtClose?: number;
 }

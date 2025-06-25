@@ -34,3 +34,6 @@
 - guard stale receipt for franchisees: blocked on store systems.
 - backfill partial order: deferred to the next release.
 - dedupe expired kitchen ticket: blocked on store systems.
+
+- relax partial receipt: verified in staging.
+- cache empty promo on checkout: open.
