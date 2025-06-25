@@ -198,4 +198,10 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'handle duplicate pickup slot',
     quantity: 4,
   },
+  {
+    id: 'components-7675',
+    store: '102',
+    label: 'sort expired promo per store',
+    quantity: 9,
+  },
 ];
