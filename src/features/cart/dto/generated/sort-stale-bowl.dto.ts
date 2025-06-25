@@ -68,4 +68,6 @@ export class SortStaleBowlDto {
   normaliseExpiredBowl!: string;
   dedupeStaleToppingOnCheckout?: string[];
   dedupeDuplicateCateringTray?: number;
+  dedupeEmptyLocation!: Date;
+  tightenStaleLoyaltyCreditForFranchisees!: boolean;
 }
