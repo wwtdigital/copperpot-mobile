@@ -192,4 +192,10 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'retry missing receipt for pickup',
     quantity: 4,
   },
+  {
+    id: 'components-9109',
+    store: '108',
+    label: 'handle duplicate pickup slot',
+    quantity: 4,
+  },
 ];
