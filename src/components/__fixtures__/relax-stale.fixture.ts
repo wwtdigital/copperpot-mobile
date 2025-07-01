@@ -1080,4 +1080,28 @@ export const RelaxStaleMenuItemRows = [
     label: 'handle stale tax line on reorder',
     quantity: 12,
   },
+  {
+    id: 'components-2670',
+    store: '409',
+    label: 'guard regional pickup slot for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'components-6752',
+    store: '484',
+    label: 'log late menu item on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'components-8535',
+    store: '685',
+    label: 'backfill duplicate order',
+    quantity: 6,
+  },
+  {
+    id: 'components-1195',
+    store: '688',
+    label: 'trim empty cart line for franchisees',
+    quantity: 12,
+  },
 ];

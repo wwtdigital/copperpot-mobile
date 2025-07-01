@@ -34,3 +34,21 @@
 - guard stale receipt for franchisees: blocked on store systems.
 - backfill partial order: deferred to the next release.
 - dedupe expired kitchen ticket: blocked on store systems.
+
+- relax partial receipt: verified in staging.
+- cache empty promo on checkout: open.
+
+- add missing topping on reorder: deferred to the next release.
+- expose regional cart line: owner: delivery manager.
+- guard missing store: open.
+- document duplicate ticket: owner: delivery manager.
+- guard stale promo: owner: delivery manager.
+- rename partial loyalty credit on checkout: deferred to the next release.
+- backfill duplicate topping for franchisees: verified in staging.
+- normalise cancelled tax line: decided.
+- trim cancelled receipt: deferred to the next release.
+- paginate cancelled delivery window per store: decided.
+- retry regional ticket on checkout: verified in staging.
+- relax stale receipt for pickup: blocked on store systems.
+- tighten partial promo: open.
+- relax duplicate pickup slot at close: open.
