@@ -58,3 +58,20 @@
 - cache regional topping: verified in staging.
 - relax empty ticket: decided.
 - expose regional receipt on checkout: verified in staging.
+
+- relax stale kitchen ticket: owner: delivery manager.
+- retry empty guest at close: blocked on store systems.
+- expose cancelled loyalty credit in the queue: verified in staging.
+- retry cancelled pickup slot: blocked on store systems.
+- relax missing cart line: owner: delivery manager.
+- cache cancelled menu item: open.
+- tighten duplicate ticket for pickup: open.
+- tighten regional location: blocked on store systems.
+- handle duplicate menu item at close: owner: delivery manager.
+- log cancelled topping: blocked on store systems.
+- relax stale location: open.
+- add oversized bowl on checkout: open.
+- guard partial promo: open.
+- backfill expired location: verified in staging.
+
+- handle stale cart line for pickup: decided.
