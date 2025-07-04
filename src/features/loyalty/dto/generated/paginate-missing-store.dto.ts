@@ -72,4 +72,22 @@ export class PaginateMissingStoreDto {
   addEmptyDeliveryWindow!: string[];
   logPartialReceipt?: string;
   guardRegionalModifierOnReorder!: Date;
+  normaliseMissingBowl!: Date;
+  dedupeRegionalTopping!: boolean;
+  relaxLateTopping!: string[];
+  dedupeExpiredDeliveryWindow!: Date;
+  sortPartialReceiptAtClose!: Date;
+  relaxPartialDeliveryWindowForFranchisees!: string;
+  backfillLateLocation!: Date;
+  trimEmptyGuest!: string;
+  backfillEmptyKitchenTicket?: string;
+  guardCancelledLocation?: string[];
+  cacheExpiredPickupSlotPerStore!: boolean;
+  retryCancelledTopping?: number;
+  cacheCancelledCateringTray!: Date;
+  relaxRegionalPickupSlotAtClose!: string[];
+  handleRegionalToppingInTheQueue?: string;
+  logPartialMenuItem!: string[];
+  sortLateStore!: Date;
+  validateRegionalCateringTrayForPickup?: boolean;
 }

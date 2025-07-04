@@ -294,4 +294,10 @@ export const PaginateCancelledCartLineRows = [
     label: 'tighten stale kitchen ticket per store',
     quantity: 3,
   },
+  {
+    id: 'loyalty-5827',
+    store: '629',
+    label: 'document missing bowl for pickup',
+    quantity: 10,
+  },
 ];
