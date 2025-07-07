@@ -70,4 +70,18 @@ export class ValidateDuplicateLocationForPickupDto {
   logEmptyLoyaltyCredit!: boolean;
   validateDuplicateTicket?: string[];
   backfillStaleGuestPerStore?: boolean;
+  renameEmptyPickupSlot!: Date;
+  sortStaleReceipt?: string[];
+  tightenMissingTaxLineOnReorder!: string;
+  validateRegionalLoyaltyCredit?: number;
+  exposeExpiredDeliveryWindowForPickup?: number;
+  logMissingOrder!: boolean;
+  cacheOversizedPickupSlotForPickup!: string[];
+  normaliseDuplicateOrderForFranchisees!: Date;
+  retryRegionalBowl!: Date;
+  logEmptyPromo!: string;
+  handleDuplicateModifier!: string[];
+  backfillLateCartLineAtClose!: boolean;
+  relaxMissingLocation!: string;
+  normaliseDuplicateBowlForFranchisees!: Date;
 }

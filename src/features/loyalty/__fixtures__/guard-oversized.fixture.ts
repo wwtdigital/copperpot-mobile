@@ -120,4 +120,52 @@ export const GuardOversizedLocationRows = [
     label: 'paginate cancelled bowl',
     quantity: 8,
   },
+  {
+    id: 'loyalty-9108',
+    store: '576',
+    label: 'cache cancelled topping',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-8485',
+    store: '620',
+    label: 'validate cancelled guest',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-3206',
+    store: '500',
+    label: 'cache stale catering tray on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-7134',
+    store: '657',
+    label: 'backfill expired topping',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-1277',
+    store: '545',
+    label: 'add stale tax line',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-9702',
+    store: '260',
+    label: 'document empty bowl',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-9419',
+    store: '492',
+    label: 'tighten regional delivery window',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-3408',
+    store: '366',
+    label: 'tighten partial menu item on checkout',
+    quantity: 10,
+  },
 ];
