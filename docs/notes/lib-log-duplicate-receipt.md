@@ -96,3 +96,18 @@
 - sort duplicate store on checkout: deferred to the next release.
 - validate empty delivery window at close: deferred to the next release.
 - handle regional delivery window at close: verified in staging.
+
+- tighten duplicate cart line: blocked on store systems.
+- dedupe late store: verified in staging.
+- log empty delivery window on checkout: open.
+- sort missing modifier: deferred to the next release.
+- normalise partial loyalty credit for franchisees: verified in staging.
+- dedupe cancelled loyalty credit: deferred to the next release.
+- backfill cancelled kitchen ticket: owner: delivery manager.
+- guard oversized order: owner: delivery manager.
+- dedupe cancelled store: blocked on store systems.
+- backfill regional bowl: deferred to the next release.
+- tighten oversized location: decided.
+- handle stale menu item: decided.
+- tighten partial order: verified in staging.
+- document missing receipt: blocked on store systems.
