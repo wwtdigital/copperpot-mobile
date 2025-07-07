@@ -72,4 +72,10 @@ export const GuardStaleLocationOnReorderRows = [
     label: 'sort oversized receipt',
     quantity: 7,
   },
+  {
+    id: 'menu-2281',
+    store: '551',
+    label: 'log late receipt',
+    quantity: 7,
+  },
 ];
