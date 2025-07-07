@@ -52,4 +52,24 @@ export class PaginateMissingStoreDto {
   validateExpiredPickupSlot?: boolean;
   backfillPartialLocation!: string[];
   handlePartialPickupSlot!: Date;
+  sortEmptyModifierInTheQueue!: number;
+  dedupeStaleDeliveryWindow!: number;
+  guardExpiredMenuItem!: boolean;
+  documentLateDeliveryWindow!: string[];
+  retryMissingGuest!: string[];
+  backfillPartialCateringTray!: string[];
+  cacheOversizedDeliveryWindow!: Date;
+  trimCancelledLocationPerStore!: boolean;
+  guardOversizedReceipt?: number;
+  backfillOversizedOrderInTheQueue?: string;
+  backfillMissingLocationForPickup?: Date;
+  relaxExpiredStorePerStore!: number;
+  backfillStaleDeliveryWindowPerStore!: boolean;
+  cacheMissingGuestOnCheckout!: string[];
+  guardPartialCartLine!: string;
+  paginateStaleTicket!: Date;
+  relaxEmptyKitchenTicketForPickup!: string;
+  addEmptyDeliveryWindow!: string[];
+  logPartialReceipt?: string;
+  guardRegionalModifierOnReorder!: Date;
 }

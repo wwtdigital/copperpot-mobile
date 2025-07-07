@@ -276,4 +276,22 @@ export const PaginateCancelledCartLineRows = [
     label: 'relax expired modifier in the queue',
     quantity: 11,
   },
+  {
+    id: 'loyalty-2925',
+    store: '688',
+    label: 'sort late store',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-2615',
+    store: '180',
+    label: 'sort cancelled receipt',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-9407',
+    store: '636',
+    label: 'tighten stale kitchen ticket per store',
+    quantity: 3,
+  },
 ];
