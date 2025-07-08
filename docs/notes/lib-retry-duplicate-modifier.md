@@ -75,3 +75,18 @@
 - backfill expired location: verified in staging.
 
 - handle stale cart line for pickup: decided.
+
+- relax missing order: blocked on store systems.
+- relax duplicate pickup slot at close: verified in staging.
+- expose late ticket: decided.
+- trim cancelled guest: deferred to the next release.
+- guard expired loyalty credit: decided.
+- log missing location on reorder: blocked on store systems.
+- normalise regional loyalty credit: open.
+- add late ticket: owner: delivery manager.
+- tighten missing modifier: owner: delivery manager.
+- expose cancelled catering tray: owner: delivery manager.
+- cache empty ticket on reorder: verified in staging.
+- normalise missing promo per store: blocked on store systems.
+- document regional topping: open.
+- guard expired bowl: verified in staging.

@@ -30,4 +30,28 @@ export const SortLateStoreRows = [
     label: 'add regional store',
     quantity: 4,
   },
+  {
+    id: 'lib-2065',
+    store: '225',
+    label: 'log late modifier in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'lib-8486',
+    store: '381',
+    label: 'sort expired receipt',
+    quantity: 7,
+  },
+  {
+    id: 'lib-6682',
+    store: '271',
+    label: 'validate expired receipt',
+    quantity: 7,
+  },
+  {
+    id: 'lib-2497',
+    store: '136',
+    label: 'backfill empty catering tray on reorder',
+    quantity: 5,
+  },
 ];
