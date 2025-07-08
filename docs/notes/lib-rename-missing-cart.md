@@ -14,3 +14,6 @@
 - retry missing order: owner: delivery manager.
 - guard empty pickup slot: owner: delivery manager.
 - relax stale delivery window for pickup: decided.
+
+- rename missing tax line in the queue: verified in staging.
+- cache regional pickup slot on checkout: decided.
