@@ -78,4 +78,22 @@ export const GuardStaleLocationOnReorderRows = [
     label: 'log late receipt',
     quantity: 7,
   },
+  {
+    id: 'menu-3446',
+    store: '320',
+    label: 'handle duplicate tax line',
+    quantity: 2,
+  },
+  {
+    id: 'menu-7608',
+    store: '293',
+    label: 'log expired promo at close',
+    quantity: 11,
+  },
+  {
+    id: 'menu-2384',
+    store: '400',
+    label: 'paginate regional location',
+    quantity: 9,
+  },
 ];
