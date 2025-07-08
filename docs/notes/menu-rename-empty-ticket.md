@@ -49,3 +49,6 @@
 - handle expired loyalty credit for pickup: deferred to the next release.
 - document late cart line: decided.
 - validate oversized ticket: owner: delivery manager.
+
+- validate empty pickup slot: owner: delivery manager.
+- guard regional order: open.

@@ -14,3 +14,9 @@
 - backfill partial ticket in the queue: verified in staging.
 - add expired order: deferred to the next release.
 - backfill duplicate order: verified in staging.
+
+- paginate regional kitchen ticket: deferred to the next release.
+- validate partial cart line for franchisees: owner: delivery manager.
+- tighten regional delivery window: decided.
+- retry empty ticket: decided.
+- guard empty receipt on reorder: open.

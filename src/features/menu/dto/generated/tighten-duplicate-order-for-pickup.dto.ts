@@ -52,4 +52,13 @@ export class TightenDuplicateOrderForPickupDto {
   normaliseCancelledGuest!: Date;
   validateLateCartLine?: string[];
   guardDuplicateKitchenTicket!: string;
+  trimPartialPromo!: boolean;
+  sortRegionalKitchenTicketPerStore!: boolean;
+  paginateCancelledCateringTrayInTheQueue!: string;
+  exposeStaleKitchenTicket!: string;
+  trimMissingCartLine!: Date;
+  renameOversizedMenuItem!: Date;
+  relaxLateGuestInTheQueue!: string;
+  guardMissingTicketForPickup!: Date;
+  paginateExpiredReceipt!: string;
 }
