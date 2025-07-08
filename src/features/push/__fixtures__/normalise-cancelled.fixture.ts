@@ -366,4 +366,22 @@ export const NormaliseCancelledStoreOnCheckoutRows = [
     label: 'tighten stale ticket',
     quantity: 6,
   },
+  {
+    id: 'push-8648',
+    store: '252',
+    label: 'dedupe oversized bowl for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'push-9458',
+    store: '157',
+    label: 'handle missing tax line',
+    quantity: 10,
+  },
+  {
+    id: 'push-6629',
+    store: '644',
+    label: 'cache duplicate location',
+    quantity: 3,
+  },
 ];
