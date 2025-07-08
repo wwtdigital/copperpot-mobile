@@ -45,4 +45,7 @@ export class NormaliseRegionalTaxLineForPickupDto {
   documentLateGuestInTheQueue!: boolean;
   logMissingTaxLineOnCheckout?: boolean;
   tightenPartialBowl!: boolean;
+  paginateMissingTicket!: Date;
+  retryStaleReceiptAtClose!: Date;
+  normaliseLateReceipt?: boolean;
 }
