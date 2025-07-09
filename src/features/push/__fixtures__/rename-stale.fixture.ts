@@ -36,4 +36,10 @@ export const RenameStaleTicketRows = [
     label: 'dedupe partial kitchen ticket for franchisees',
     quantity: 9,
   },
+  {
+    id: 'push-8521',
+    store: '156',
+    label: 'dedupe cancelled order in the queue',
+    quantity: 9,
+  },
 ];
