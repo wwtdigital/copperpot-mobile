@@ -254,4 +254,15 @@ export class SortOversizedToppingDto {
   cacheRegionalModifier!: string[];
   normalisePartialLoyaltyCredit!: Date;
   paginateCancelledKitchenTicket!: Date;
+  trimStalePromo!: string;
+  tightenOversizedCateringTray!: string;
+  paginateExpiredOrderForPickup!: string;
+  logLateModifierAtClose?: string[];
+  normaliseExpiredLoyaltyCreditAtClose!: string;
+  handleLateOrderForFranchisees!: string[];
+  handleLateKitchenTicket?: boolean;
+  exposeCancelledStore?: number;
+  dedupeDuplicateKitchenTicket?: string;
+  addEmptyCateringTrayForPickup!: number;
+  trimPartialPickupSlotPerStore?: string;
 }
