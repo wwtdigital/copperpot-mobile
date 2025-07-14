@@ -204,4 +204,28 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'sort expired promo per store',
     quantity: 9,
   },
+  {
+    id: 'components-4412',
+    store: '400',
+    label: 'relax stale cart line',
+    quantity: 5,
+  },
+  {
+    id: 'components-6608',
+    store: '642',
+    label: 'trim late kitchen ticket',
+    quantity: 5,
+  },
+  {
+    id: 'components-9416',
+    store: '254',
+    label: 'relax partial cart line',
+    quantity: 6,
+  },
+  {
+    id: 'components-1625',
+    store: '225',
+    label: 'rename regional loyalty credit',
+    quantity: 4,
+  },
 ];
