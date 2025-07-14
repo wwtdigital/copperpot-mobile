@@ -20,3 +20,16 @@
 - tighten regional delivery window: decided.
 - retry empty ticket: decided.
 - guard empty receipt on reorder: open.
+
+- cache partial store in the queue: owner: delivery manager.
+- normalise cancelled menu item per store: deferred to the next release.
+- backfill missing modifier: blocked on store systems.
+- retry duplicate promo: open.
+- paginate regional location: decided.
+- cache missing modifier at close: verified in staging.
+- guard partial store: open.
+- add regional tax line: decided.
+- tighten cancelled tax line: blocked on store systems.
+- cache partial modifier on checkout: decided.
+- retry cancelled ticket: decided.
+- expose partial tax line: owner: delivery manager.
