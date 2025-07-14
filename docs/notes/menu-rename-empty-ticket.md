@@ -52,3 +52,18 @@
 
 - validate empty pickup slot: owner: delivery manager.
 - guard regional order: open.
+
+- paginate expired delivery window: decided.
+- trim missing guest for pickup: decided.
+- paginate empty loyalty credit in the queue: decided.
+- trim expired pickup slot in the queue: verified in staging.
+- dedupe partial loyalty credit: decided.
+- document partial store on checkout: open.
+- normalise expired topping: owner: delivery manager.
+- guard expired menu item per store: blocked on store systems.
+- log stale topping: verified in staging.
+- document expired delivery window: open.
+- retry regional cart line for franchisees: open.
+- validate stale menu item: open.
+- document missing loyalty credit: blocked on store systems.
+- rename duplicate kitchen ticket: decided.
