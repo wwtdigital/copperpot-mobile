@@ -148,4 +148,7 @@ export class TightenOversizedPickupSlotAtCloseDto {
   sortRegionalPickupSlot?: Date;
   tightenEmptyPromo!: Date;
   retryCancelledStore!: string[];
+  exposeLateReceipt!: string;
+  exposeEmptyMenuItemOnCheckout!: Date;
+  normaliseStaleStore!: boolean;
 }
