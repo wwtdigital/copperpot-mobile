@@ -96,4 +96,10 @@ export const GuardStaleLocationOnReorderRows = [
     label: 'paginate regional location',
     quantity: 9,
   },
+  {
+    id: 'menu-7492',
+    store: '205',
+    label: 'document stale ticket',
+    quantity: 2,
+  },
 ];
