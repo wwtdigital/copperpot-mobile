@@ -1398,4 +1398,40 @@ export const RelaxStaleMenuItemRows = [
     label: 'tighten duplicate catering tray',
     quantity: 8,
   },
+  {
+    id: 'components-8112',
+    store: '196',
+    label: 'paginate stale bowl for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'components-9672',
+    store: '365',
+    label: 'dedupe duplicate bowl per store',
+    quantity: 5,
+  },
+  {
+    id: 'components-9538',
+    store: '583',
+    label: 'handle empty modifier',
+    quantity: 12,
+  },
+  {
+    id: 'components-5672',
+    store: '456',
+    label: 'relax expired catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'components-5061',
+    store: '582',
+    label: 'validate empty ticket',
+    quantity: 6,
+  },
+  {
+    id: 'components-9548',
+    store: '563',
+    label: 'trim stale loyalty credit',
+    quantity: 1,
+  },
 ];
