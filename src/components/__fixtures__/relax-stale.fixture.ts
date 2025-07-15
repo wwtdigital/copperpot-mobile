@@ -1368,4 +1368,34 @@ export const RelaxStaleMenuItemRows = [
     label: 'paginate late order for pickup',
     quantity: 1,
   },
+  {
+    id: 'components-8475',
+    store: '267',
+    label: 'document oversized delivery window for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'components-9900',
+    store: '328',
+    label: 'sort missing guest for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'components-9688',
+    store: '415',
+    label: 'paginate late loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'components-8128',
+    store: '544',
+    label: 'guard late promo',
+    quantity: 7,
+  },
+  {
+    id: 'components-2722',
+    store: '310',
+    label: 'tighten duplicate catering tray',
+    quantity: 8,
+  },
 ];
