@@ -36,4 +36,40 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'paginate expired modifier',
     quantity: 2,
   },
+  {
+    id: 'order-9415',
+    store: '656',
+    label: 'handle regional cart line',
+    quantity: 3,
+  },
+  {
+    id: 'order-2811',
+    store: '328',
+    label: 'tighten empty bowl in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'order-6745',
+    store: '183',
+    label: 'rename expired bowl',
+    quantity: 9,
+  },
+  {
+    id: 'order-6415',
+    store: '285',
+    label: 'tighten expired receipt',
+    quantity: 10,
+  },
+  {
+    id: 'order-6250',
+    store: '410',
+    label: 'add empty cart line in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'order-2090',
+    store: '351',
+    label: 'relax late promo',
+    quantity: 3,
+  },
 ];
