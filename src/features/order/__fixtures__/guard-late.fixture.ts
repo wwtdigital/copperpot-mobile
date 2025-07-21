@@ -72,4 +72,46 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'relax late promo',
     quantity: 3,
   },
+  {
+    id: 'order-4343',
+    store: '100',
+    label: 'relax empty store',
+    quantity: 3,
+  },
+  {
+    id: 'order-7422',
+    store: '691',
+    label: 'guard cancelled tax line',
+    quantity: 6,
+  },
+  {
+    id: 'order-3155',
+    store: '109',
+    label: 'normalise partial location in the queue',
+    quantity: 6,
+  },
+  {
+    id: 'order-1442',
+    store: '396',
+    label: 'dedupe regional guest per store',
+    quantity: 9,
+  },
+  {
+    id: 'order-3406',
+    store: '173',
+    label: 'add expired pickup slot on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'order-6553',
+    store: '104',
+    label: 'dedupe stale catering tray per store',
+    quantity: 5,
+  },
+  {
+    id: 'order-2184',
+    store: '560',
+    label: 'validate duplicate kitchen ticket',
+    quantity: 12,
+  },
 ];
