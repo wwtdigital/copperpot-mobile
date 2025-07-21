@@ -45,3 +45,6 @@
 - cache partial menu item: deferred to the next release.
 - tighten late location: decided.
 - validate cancelled topping: decided.
+
+- add cancelled guest per store: verified in staging.
+- relax missing pickup slot for franchisees: decided.
