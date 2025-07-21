@@ -360,4 +360,10 @@ export const DedupePartialPromoRows = [
     label: 'document partial store',
     quantity: 12,
   },
+  {
+    id: 'cart-9544',
+    store: '202',
+    label: 'sort partial promo for pickup',
+    quantity: 6,
+  },
 ];

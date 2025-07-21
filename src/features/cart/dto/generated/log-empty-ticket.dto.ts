@@ -146,4 +146,16 @@ export class LogEmptyTicketDto {
   retryDuplicateTopping!: string;
   addExpiredPickupSlot!: boolean;
   relaxEmptyCateringTray!: boolean;
+  relaxCancelledReceipt!: string[];
+  trimPartialReceiptForFranchisees!: boolean;
+  guardPartialTicketInTheQueue!: number;
+  renameDuplicatePromoOnCheckout?: number;
+  dedupeEmptyTicketForPickup!: number;
+  renameLateKitchenTicket?: number;
+  addLateOrderAtClose?: Date;
+  trimRegionalGuest!: Date;
+  documentEmptyCartLine!: string;
+  guardMissingDeliveryWindow?: boolean;
+  trimCancelledTicketForPickup!: string[];
+  renameOversizedCartLine!: number;
 }
