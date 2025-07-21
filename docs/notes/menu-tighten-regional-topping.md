@@ -33,3 +33,15 @@
 - cache partial modifier on checkout: decided.
 - retry cancelled ticket: decided.
 - expose partial tax line: owner: delivery manager.
+
+- validate duplicate menu item: open.
+- tighten duplicate delivery window: deferred to the next release.
+- sort empty promo: blocked on store systems.
+- handle empty kitchen ticket: verified in staging.
+- paginate cancelled modifier: owner: delivery manager.
+- normalise oversized modifier: verified in staging.
+- paginate stale modifier for franchisees: owner: delivery manager.
+- add regional pickup slot: decided.
+- cache partial menu item: deferred to the next release.
+- tighten late location: decided.
+- validate cancelled topping: decided.
