@@ -108,4 +108,16 @@ export const GuardStaleLocationOnReorderRows = [
     label: 'paginate missing order',
     quantity: 6,
   },
+  {
+    id: 'menu-6746',
+    store: '284',
+    label: 'validate oversized tax line per store',
+    quantity: 1,
+  },
+  {
+    id: 'menu-1493',
+    store: '504',
+    label: 'add expired ticket for franchisees',
+    quantity: 10,
+  },
 ];
