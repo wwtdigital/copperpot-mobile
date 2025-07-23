@@ -102,4 +102,10 @@ export const GuardStaleLocationOnReorderRows = [
     label: 'document stale ticket',
     quantity: 2,
   },
+  {
+    id: 'menu-7651',
+    store: '370',
+    label: 'paginate missing order',
+    quantity: 6,
+  },
 ];

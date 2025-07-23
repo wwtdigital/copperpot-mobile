@@ -312,4 +312,22 @@ export const ExposeStaleLoyaltyCreditRows = [
     label: 'relax missing order',
     quantity: 6,
   },
+  {
+    id: 'menu-9816',
+    store: '606',
+    label: 'document cancelled catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'menu-8734',
+    store: '525',
+    label: 'normalise missing receipt for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'menu-7711',
+    store: '530',
+    label: 'backfill stale pickup slot on checkout',
+    quantity: 11,
+  },
 ];
