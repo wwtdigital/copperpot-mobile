@@ -119,4 +119,18 @@ export class ExposeCancelledPickupSlotDto {
   tightenOversizedStore?: Date;
   cacheEmptyToppingAtClose!: number;
   renameRegionalModifier?: boolean;
+  documentCancelledModifier!: Date;
+  trimRegionalTaxLine!: Date;
+  documentOversizedPromo!: boolean;
+  tightenCancelledModifier?: boolean;
+  sortCancelledModifier!: string;
+  tightenLateReceipt!: number;
+  guardStaleLocation!: string[];
+  logStaleToppingForFranchisees?: boolean;
+  sortCancelledCartLine?: number;
+  cacheDuplicateMenuItem!: boolean;
+  normaliseCancelledLoyaltyCredit?: number;
+  tightenLatePromo!: Date;
+  trimCancelledPromoOnReorder?: string[];
+  tightenOversizedLocationAtClose?: string[];
 }
