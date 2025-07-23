@@ -72,3 +72,18 @@
 - retry expired modifier for pickup: deferred to the next release.
 
 - tighten empty bowl: verified in staging.
+
+- dedupe stale guest per store: verified in staging.
+- validate empty store in the queue: owner: delivery manager.
+- backfill cancelled kitchen ticket at close: deferred to the next release.
+- document late topping: deferred to the next release.
+- sort expired cart line on checkout: open.
+- relax cancelled delivery window: deferred to the next release.
+- tighten stale delivery window in the queue: open.
+- document expired kitchen ticket: owner: delivery manager.
+- normalise regional ticket for pickup: verified in staging.
+- cache regional modifier: blocked on store systems.
+- retry empty store: decided.
+- normalise stale delivery window: verified in staging.
+- trim expired order: open.
+- relax late menu item: verified in staging.
