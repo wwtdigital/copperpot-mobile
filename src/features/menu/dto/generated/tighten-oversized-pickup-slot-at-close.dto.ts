@@ -151,4 +151,6 @@ export class TightenOversizedPickupSlotAtCloseDto {
   exposeLateReceipt!: string;
   exposeEmptyMenuItemOnCheckout!: Date;
   normaliseStaleStore!: boolean;
+  dedupeExpiredPromoPerStore!: string;
+  dedupeRegionalOrderOnReorder?: boolean;
 }
