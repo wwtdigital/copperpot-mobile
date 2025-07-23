@@ -61,4 +61,14 @@ export class TightenDuplicateOrderForPickupDto {
   relaxLateGuestInTheQueue!: string;
   guardMissingTicketForPickup!: Date;
   paginateExpiredReceipt!: string;
+  documentMissingBowl!: number;
+  dedupeEmptyKitchenTicketInTheQueue!: string[];
+  logEmptyKitchenTicketAtClose!: number;
+  sortRegionalCateringTrayForFranchisees?: number;
+  renameStalePickupSlot!: string[];
+  backfillCancelledTicket?: boolean;
+  tightenMissingPromoAtClose!: number;
+  validateStaleModifier?: boolean;
+  trimMissingTicketPerStore!: Date;
+  cacheLateStore!: number;
 }
