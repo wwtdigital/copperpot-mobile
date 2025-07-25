@@ -106,3 +106,6 @@
 - expose regional cart line: verified in staging.
 - backfill expired order for pickup: open.
 - relax empty bowl: deferred to the next release.
+
+- normalise expired receipt: verified in staging.
+- normalise stale topping: verified in staging.
