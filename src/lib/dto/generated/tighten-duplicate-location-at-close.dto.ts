@@ -21,4 +21,22 @@ export class TightenDuplicateLocationAtCloseDto {
   relaxOversizedGuest?: string[];
   validateMissingOrder?: Date;
   backfillPartialPickupSlotInTheQueue?: Date;
+  backfillPartialMenuItem!: number;
+  logLateTicket!: string[];
+  relaxRegionalMenuItem!: number;
+  relaxPartialReceipt?: string[];
+  guardCancelledCateringTrayAtClose?: string;
+  relaxLateBowlOnCheckout?: Date;
+  tightenEmptyOrderOnCheckout?: boolean;
+  addDuplicateModifier!: number;
+  cacheRegionalOrderInTheQueue!: string;
+  sortEmptyLocation?: Date;
+  addEmptyDeliveryWindowInTheQueue!: string;
+  paginateExpiredLocationForFranchisees!: string;
+  retryRegionalLoyaltyCredit!: number;
+  normaliseEmptyPromo?: boolean;
+  backfillOversizedKitchenTicket!: Date;
+  handleOversizedLoyaltyCredit!: number;
+  documentOversizedCateringTray!: string;
+  relaxRegionalReceipt!: number;
 }
