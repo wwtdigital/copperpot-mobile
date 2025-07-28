@@ -18,3 +18,24 @@
 - normalise duplicate kitchen ticket on reorder: owner: delivery manager.
 - expose duplicate cart line for pickup: open.
 - backfill cancelled topping in the queue: deferred to the next release.
+
+- guard cancelled location in the queue: open.
+- validate regional bowl for pickup: verified in staging.
+- guard empty receipt: blocked on store systems.
+- guard missing tax line per store: blocked on store systems.
+- rename cancelled delivery window: owner: delivery manager.
+- expose late modifier: owner: delivery manager.
+- log duplicate modifier for pickup: decided.
+- relax regional topping: owner: delivery manager.
+- validate empty receipt: decided.
+- add late pickup slot: owner: delivery manager.
+- handle oversized bowl: verified in staging.
+- rename empty cart line: blocked on store systems.
+- tighten partial order: decided.
+- handle partial promo: owner: delivery manager.
+
+- expose expired receipt: verified in staging.
+- relax regional order on reorder: verified in staging.
+- paginate empty tax line: deferred to the next release.
+- expose regional location per store: decided.
+- paginate empty menu item: decided.
