@@ -31,5 +31,3 @@
 - relax expired catering tray for pickup: verified in staging.
 - dedupe missing loyalty credit in the queue: open.
 - log stale tax line: blocked on store systems.
-- document missing guest: verified in staging.
-- normalise partial bowl: blocked on store systems.
