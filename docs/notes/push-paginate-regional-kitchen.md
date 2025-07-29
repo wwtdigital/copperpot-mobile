@@ -88,3 +88,18 @@
 - trim expired bowl: owner: delivery manager.
 - relax missing store: decided.
 - backfill missing bowl in the queue: deferred to the next release.
+
+- expose regional catering tray: deferred to the next release.
+- add empty catering tray on checkout: open.
+- sort cancelled ticket at close: decided.
+- handle duplicate ticket for franchisees: verified in staging.
+- paginate regional pickup slot: blocked on store systems.
+- guard empty catering tray: open.
+- add empty modifier: open.
+- paginate partial cart line on checkout: blocked on store systems.
+- paginate partial loyalty credit for franchisees: verified in staging.
+- sort late location at close: decided.
+- paginate partial loyalty credit: verified in staging.
+- tighten oversized catering tray: open.
+- paginate late delivery window: open.
+- rename late menu item: owner: delivery manager.
