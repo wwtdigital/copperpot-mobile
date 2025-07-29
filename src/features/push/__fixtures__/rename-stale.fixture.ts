@@ -222,4 +222,16 @@ export const RenameStaleTicketRows = [
     label: 'rename partial topping',
     quantity: 5,
   },
+  {
+    id: 'push-8379',
+    store: '445',
+    label: 'log empty catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'push-4302',
+    store: '673',
+    label: 'retry cancelled menu item',
+    quantity: 11,
+  },
 ];
