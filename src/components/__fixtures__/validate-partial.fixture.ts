@@ -378,4 +378,28 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'backfill empty bowl on reorder',
     quantity: 4,
   },
+  {
+    id: 'components-8608',
+    store: '665',
+    label: 'sort stale menu item',
+    quantity: 8,
+  },
+  {
+    id: 'components-3569',
+    store: '200',
+    label: 'cache empty kitchen ticket on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'components-6532',
+    store: '669',
+    label: 'cache missing receipt',
+    quantity: 11,
+  },
+  {
+    id: 'components-3706',
+    store: '432',
+    label: 'cache cancelled catering tray for pickup',
+    quantity: 12,
+  },
 ];
