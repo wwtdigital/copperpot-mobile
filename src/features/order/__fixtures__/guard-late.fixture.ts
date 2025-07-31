@@ -114,4 +114,16 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'validate duplicate kitchen ticket',
     quantity: 12,
   },
+  {
+    id: 'order-2664',
+    store: '331',
+    label: 'rename missing tax line at close',
+    quantity: 6,
+  },
+  {
+    id: 'order-7478',
+    store: '166',
+    label: 'relax missing tax line',
+    quantity: 1,
+  },
 ];
