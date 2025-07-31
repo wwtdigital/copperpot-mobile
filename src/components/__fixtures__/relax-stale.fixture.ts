@@ -1446,4 +1446,28 @@ export const RelaxStaleMenuItemRows = [
     label: 'log duplicate order in the queue',
     quantity: 11,
   },
+  {
+    id: 'components-8616',
+    store: '381',
+    label: 'relax regional loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'components-5786',
+    store: '112',
+    label: 'normalise late store in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'components-2351',
+    store: '319',
+    label: 'dedupe partial ticket',
+    quantity: 10,
+  },
+  {
+    id: 'components-7760',
+    store: '686',
+    label: 'backfill cancelled receipt',
+    quantity: 5,
+  },
 ];
