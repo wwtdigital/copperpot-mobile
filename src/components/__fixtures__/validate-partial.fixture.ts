@@ -402,4 +402,16 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'cache cancelled catering tray for pickup',
     quantity: 12,
   },
+  {
+    id: 'components-8820',
+    store: '235',
+    label: 'backfill cancelled cart line at close',
+    quantity: 7,
+  },
+  {
+    id: 'components-5364',
+    store: '696',
+    label: 'log empty bowl',
+    quantity: 8,
+  },
 ];
