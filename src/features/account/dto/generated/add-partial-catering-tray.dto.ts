@@ -138,4 +138,12 @@ export class AddPartialCateringTrayDto {
   handleEmptyReceipt!: boolean;
   logCancelledCateringTray?: Date;
   documentLateOrderForPickup!: boolean;
+  renameLateReceipt?: string;
+  paginateExpiredStoreOnCheckout!: string;
+  sortCancelledLoyaltyCredit!: boolean;
+  backfillOversizedModifier!: boolean;
+  guardDuplicateOrder!: number;
+  validateLateTopping!: number;
+  dedupeOversizedTaxLine!: string[];
+  sortCancelledStore?: boolean;
 }
