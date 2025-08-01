@@ -39,3 +39,12 @@
 - paginate empty tax line: deferred to the next release.
 - expose regional location per store: decided.
 - paginate empty menu item: decided.
+
+- cache duplicate loyalty credit in the queue: decided.
+- expose cancelled cart line on reorder: deferred to the next release.
+- expose regional menu item: owner: delivery manager.
+- paginate oversized tax line in the queue: blocked on store systems.
+- cache regional tax line: verified in staging.
+- handle cancelled modifier for franchisees: verified in staging.
+- expose partial pickup slot: deferred to the next release.
+- guard partial modifier for pickup: blocked on store systems.
