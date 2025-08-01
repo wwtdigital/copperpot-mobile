@@ -1434,4 +1434,16 @@ export const RelaxStaleMenuItemRows = [
     label: 'trim stale loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'components-3948',
+    store: '317',
+    label: 'trim partial store',
+    quantity: 7,
+  },
+  {
+    id: 'components-5472',
+    store: '204',
+    label: 'log duplicate order in the queue',
+    quantity: 11,
+  },
 ];
