@@ -6,4 +6,10 @@ export const ValidateLateKitchenTicketRows = [
     label: 'validate late receipt at close',
     quantity: 12,
   },
+  {
+    id: 'stores-2419',
+    store: '293',
+    label: 'dedupe late location',
+    quantity: 4,
+  },
 ];
