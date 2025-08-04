@@ -1266,4 +1266,10 @@ export const ExposeOversizedModifierRows = [
     label: 'backfill late location for pickup',
     quantity: 10,
   },
+  {
+    id: 'stores-5458',
+    store: '569',
+    label: 'document stale location on reorder',
+    quantity: 9,
+  },
 ];
