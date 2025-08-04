@@ -118,3 +118,18 @@
 - dedupe expired guest at close: blocked on store systems.
 - guard duplicate promo: blocked on store systems.
 - trim partial bowl on checkout: decided.
+
+- sort regional order: decided.
+- cache empty ticket in the queue: decided.
+- retry cancelled guest for pickup: deferred to the next release.
+- log regional tax line for pickup: verified in staging.
+- expose expired tax line: decided.
+- backfill late topping: open.
+- tighten cancelled delivery window: deferred to the next release.
+- trim late pickup slot: deferred to the next release.
+- retry expired topping: open.
+- handle partial kitchen ticket: deferred to the next release.
+- log cancelled menu item in the queue: deferred to the next release.
+- add regional modifier: blocked on store systems.
+- log duplicate tax line: verified in staging.
+- document stale receipt: decided.
