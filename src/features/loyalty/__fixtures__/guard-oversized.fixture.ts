@@ -192,4 +192,28 @@ export const GuardOversizedLocationRows = [
     label: 'dedupe cancelled delivery window',
     quantity: 8,
   },
+  {
+    id: 'loyalty-5214',
+    store: '675',
+    label: 'backfill missing guest on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-9306',
+    store: '274',
+    label: 'backfill oversized delivery window on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-6366',
+    store: '646',
+    label: 'relax late promo',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-2398',
+    store: '167',
+    label: 'document oversized pickup slot',
+    quantity: 4,
+  },
 ];

@@ -10,4 +10,6 @@ export class GuardPartialOrderDto {
   trimOversizedTicketForFranchisees!: Date;
   paginateExpiredPickupSlot!: boolean;
   backfillEmptyCartLine?: string;
+  retryRegionalMenuItem!: number;
+  tightenEmptyStoreOnCheckout?: number;
 }

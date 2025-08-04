@@ -84,4 +84,6 @@ export class ValidateDuplicateLocationForPickupDto {
   backfillLateCartLineAtClose!: boolean;
   relaxMissingLocation!: string;
   normaliseDuplicateBowlForFranchisees!: Date;
+  logPartialBowl?: string;
+  renameMissingTicketInTheQueue!: number;
 }
