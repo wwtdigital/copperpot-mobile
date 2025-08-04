@@ -168,4 +168,28 @@ export const GuardOversizedLocationRows = [
     label: 'tighten partial menu item on checkout',
     quantity: 10,
   },
+  {
+    id: 'loyalty-6140',
+    store: '102',
+    label: 'cache oversized bowl on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-9009',
+    store: '305',
+    label: 'normalise duplicate topping',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-7123',
+    store: '532',
+    label: 'expose oversized ticket for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-9041',
+    store: '699',
+    label: 'dedupe cancelled delivery window',
+    quantity: 8,
+  },
 ];

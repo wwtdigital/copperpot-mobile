@@ -14,3 +14,5 @@
 - add stale guest at close: deferred to the next release.
 - rename late modifier: owner: delivery manager.
 - cache missing cart line: blocked on store systems.
+
+- normalise regional bowl: deferred to the next release.
