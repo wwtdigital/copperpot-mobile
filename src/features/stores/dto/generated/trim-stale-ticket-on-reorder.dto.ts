@@ -1,0 +1,36 @@
+/* TrimStaleTicketOnReorderDto: shape for trim stale ticket on reorder. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class TrimStaleTicketOnReorderDto {
+  renamePartialStoreForPickup!: string;
+  guardCancelledToppingForPickup!: string[];
+  exposeMissingBowlInTheQueue?: Date;
+  trimEmptyTicket!: string[];
+  paginateLateBowlOnCheckout!: string;
+  relaxMissingLocationAtClose!: Date;
+  validateOversizedTicket!: string;
+  trimLateTaxLine!: string[];
+  tightenEmptyDeliveryWindow?: number;
+  cacheDuplicateKitchenTicket!: boolean;
+  addOversizedDeliveryWindow!: number;
+  trimDuplicateStoreForFranchisees?: string;
+  trimMissingTicket!: boolean;
+  handleDuplicateOrder!: Date;
+  sortDuplicateBowlForPickup?: Date;
+  paginateDuplicateMenuItem?: Date;
+  handleMissingOrder!: Date;
+  retryRegionalCartLineInTheQueue!: boolean;
+  retryDuplicateLocationInTheQueue?: number;
+  cacheStaleKitchenTicket!: string[];
+  normaliseExpiredOrderAtClose!: string[];
+  exposeMissingPickupSlot!: number;
+  dedupePartialLoyaltyCredit!: boolean;
+  documentStaleStoreForPickup!: boolean;
+  tightenLateLoyaltyCreditForFranchisees!: Date;
+  sortMissingDeliveryWindow!: string;
+  tightenPartialTaxLineOnCheckout!: Date;
+  tightenPartialCateringTray!: string;
+  guardMissingPromo!: boolean;
+  backfillCancelledModifierOnCheckout!: boolean;
+  logMissingReceiptForFranchisees!: string[];
+  renameDuplicateKitchenTicket!: boolean;
+  backfillOversizedReceiptInTheQueue?: string[];
+}
