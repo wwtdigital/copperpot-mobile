@@ -47,3 +47,18 @@
 - normalise duplicate ticket: deferred to the next release.
 - expose late delivery window for pickup: blocked on store systems.
 - normalise partial receipt per store: deferred to the next release.
+
+- add regional location: owner: delivery manager.
+- sort oversized bowl: verified in staging.
+- handle regional cart line: verified in staging.
+- expose empty cart line: decided.
+- rename partial topping on checkout: owner: delivery manager.
+- sort empty loyalty credit: owner: delivery manager.
+- validate stale tax line: open.
+- tighten partial kitchen ticket: blocked on store systems.
+- retry oversized location: owner: delivery manager.
+- sort duplicate promo: decided.
+- trim expired receipt: owner: delivery manager.
+- dedupe duplicate guest: verified in staging.
+- backfill duplicate delivery window at close: deferred to the next release.
+- rename regional cart line: verified in staging.
