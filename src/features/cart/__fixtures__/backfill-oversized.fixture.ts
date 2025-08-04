@@ -48,4 +48,40 @@ export const BackfillOversizedToppingRows = [
     label: 'guard oversized catering tray',
     quantity: 11,
   },
+  {
+    id: 'cart-8921',
+    store: '434',
+    label: 'backfill oversized promo',
+    quantity: 11,
+  },
+  {
+    id: 'cart-9997',
+    store: '603',
+    label: 'paginate empty delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'cart-1890',
+    store: '549',
+    label: 'document missing menu item for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'cart-3181',
+    store: '315',
+    label: 'add oversized pickup slot',
+    quantity: 11,
+  },
+  {
+    id: 'cart-6111',
+    store: '160',
+    label: 'validate late store for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'cart-5994',
+    store: '350',
+    label: 'dedupe empty tax line per store',
+    quantity: 3,
+  },
 ];

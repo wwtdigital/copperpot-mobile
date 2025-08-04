@@ -366,4 +366,22 @@ export const DedupePartialPromoRows = [
     label: 'sort partial promo for pickup',
     quantity: 6,
   },
+  {
+    id: 'cart-7939',
+    store: '246',
+    label: 'backfill partial bowl on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'cart-9883',
+    store: '514',
+    label: 'relax regional promo',
+    quantity: 11,
+  },
+  {
+    id: 'cart-3975',
+    store: '157',
+    label: 'relax regional guest for pickup',
+    quantity: 12,
+  },
 ];

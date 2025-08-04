@@ -158,4 +158,6 @@ export class LogEmptyTicketDto {
   guardMissingDeliveryWindow?: boolean;
   trimCancelledTicketForPickup!: string[];
   renameOversizedCartLine!: number;
+  guardLateLocation!: string[];
+  normaliseStaleStoreAtClose!: Date;
 }

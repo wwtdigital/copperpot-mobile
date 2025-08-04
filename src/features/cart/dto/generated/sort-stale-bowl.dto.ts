@@ -70,4 +70,17 @@ export class SortStaleBowlDto {
   dedupeDuplicateCateringTray?: number;
   dedupeEmptyLocation!: Date;
   tightenStaleLoyaltyCreditForFranchisees!: boolean;
+  renameDuplicateGuest!: number;
+  retryEmptyCartLineOnReorder?: string;
+  backfillEmptyMenuItemForPickup!: string;
+  trimCancelledPromo!: boolean;
+  backfillEmptyOrderForPickup!: Date;
+  documentOversizedToppingPerStore?: number;
+  validateDuplicateLoyaltyCredit!: string[];
+  normaliseExpiredModifierOnReorder?: boolean;
+  sortExpiredKitchenTicketForFranchisees!: number;
+  retryPartialBowlAtClose!: Date;
+  retryDuplicateCartLine?: string[];
+  backfillEmptyKitchenTicketForFranchisees!: string;
+  dedupeCancelledLocation?: string[];
 }
