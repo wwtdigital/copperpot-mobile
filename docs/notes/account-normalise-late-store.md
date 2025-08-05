@@ -62,3 +62,18 @@
 - dedupe duplicate guest: verified in staging.
 - backfill duplicate delivery window at close: deferred to the next release.
 - rename regional cart line: verified in staging.
+
+- guard regional pickup slot: verified in staging.
+- handle regional pickup slot for franchisees: open.
+- expose missing catering tray: blocked on store systems.
+- trim oversized order: decided.
+- cache cancelled receipt: blocked on store systems.
+- document cancelled catering tray: open.
+- document stale catering tray: open.
+- document missing loyalty credit: decided.
+- cache late order: open.
+- backfill oversized delivery window: decided.
+- document oversized loyalty credit at close: deferred to the next release.
+- tighten empty guest: blocked on store systems.
+- backfill missing cart line: owner: delivery manager.
+- backfill late location on reorder: decided.
