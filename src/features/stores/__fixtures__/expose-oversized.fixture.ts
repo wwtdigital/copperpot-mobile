@@ -1248,4 +1248,28 @@ export const ExposeOversizedModifierRows = [
     label: 'validate duplicate menu item',
     quantity: 3,
   },
+  {
+    id: 'stores-9496',
+    store: '162',
+    label: 'backfill late loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'stores-4124',
+    store: '536',
+    label: 'cache partial store',
+    quantity: 11,
+  },
+  {
+    id: 'stores-5887',
+    store: '291',
+    label: 'backfill late location for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'stores-5458',
+    store: '569',
+    label: 'document stale location on reorder',
+    quantity: 9,
+  },
 ];
