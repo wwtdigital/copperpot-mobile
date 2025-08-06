@@ -1224,4 +1224,28 @@ export const ExposeOversizedModifierRows = [
     label: 'tighten expired location',
     quantity: 12,
   },
+  {
+    id: 'stores-7149',
+    store: '222',
+    label: 'tighten missing kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'stores-6692',
+    store: '588',
+    label: 'add regional menu item',
+    quantity: 11,
+  },
+  {
+    id: 'stores-1647',
+    store: '220',
+    label: 'log oversized receipt for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'stores-6809',
+    store: '275',
+    label: 'validate duplicate menu item',
+    quantity: 3,
+  },
 ];

@@ -33,4 +33,28 @@ export class TrimStaleTicketOnReorderDto {
   logMissingReceiptForFranchisees!: string[];
   renameDuplicateKitchenTicket!: boolean;
   backfillOversizedReceiptInTheQueue?: string[];
+  guardOversizedLocation!: boolean;
+  guardEmptyPickupSlotOnReorder?: boolean;
+  paginateStaleGuestInTheQueue!: string[];
+  documentOversizedPromo!: boolean;
+  trimPartialPromoOnCheckout!: boolean;
+  handleEmptyTicket!: string;
+  backfillPartialPromo!: boolean;
+  backfillExpiredPickupSlotPerStore!: string;
+  trimEmptyBowlForFranchisees?: boolean;
+  dedupeMissingTicket!: Date;
+  guardDuplicateStore!: string;
+  documentExpiredPromo!: Date;
+  sortEmptyModifierForPickup?: boolean;
+  documentOversizedModifier?: boolean;
+  trimOversizedGuest!: string;
+  sortMissingCateringTrayOnReorder!: number;
+  trimDuplicateDeliveryWindow!: string;
+  addCancelledBowlOnReorder!: number;
+  exposeLateReceiptAtClose!: string[];
+  handleCancelledCartLineInTheQueue!: Date;
+  paginateExpiredStorePerStore?: string;
+  backfillLateLocationForPickup?: string[];
+  exposeLateTicket?: string[];
+  exposeStaleReceipt!: boolean;
 }
