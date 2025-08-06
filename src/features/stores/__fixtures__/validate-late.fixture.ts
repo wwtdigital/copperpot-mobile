@@ -12,4 +12,10 @@ export const ValidateLateKitchenTicketRows = [
     label: 'dedupe late location',
     quantity: 4,
   },
+  {
+    id: 'stores-1081',
+    store: '157',
+    label: 'paginate stale guest',
+    quantity: 11,
+  },
 ];
