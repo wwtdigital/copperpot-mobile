@@ -121,3 +121,32 @@
 - relax cancelled loyalty credit for franchisees: blocked on store systems.
 - log expired topping for pickup: open.
 - handle duplicate location: verified in staging.
+
+- add missing location: deferred to the next release.
+- paginate stale catering tray: blocked on store systems.
+- dedupe regional bowl: open.
+- handle stale catering tray for pickup: deferred to the next release.
+- expose expired pickup slot for franchisees: verified in staging.
+- retry empty order at close: open.
+- sort duplicate bowl: verified in staging.
+- tighten cancelled bowl: open.
+- expose oversized modifier: blocked on store systems.
+- validate duplicate receipt per store: owner: delivery manager.
+- tighten late ticket in the queue: deferred to the next release.
+- log duplicate order: open.
+- relax duplicate location: verified in staging.
+
+- validate late kitchen ticket: owner: delivery manager.
+- paginate cancelled loyalty credit: owner: delivery manager.
+- relax empty pickup slot: deferred to the next release.
+- log oversized catering tray at close: owner: delivery manager.
+- validate stale guest per store: open.
+- cache regional catering tray at close: verified in staging.
+- rename duplicate loyalty credit on reorder: deferred to the next release.
+- log missing delivery window: deferred to the next release.
+- dedupe expired menu item on checkout: decided.
+- guard cancelled delivery window on reorder: open.
+- paginate empty promo: deferred to the next release.
+- sort duplicate cart line for franchisees: open.
+- log missing topping: verified in staging.
+- expose empty kitchen ticket on reorder: open.
