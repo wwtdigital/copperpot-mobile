@@ -16,3 +16,16 @@
 - cache missing cart line: blocked on store systems.
 
 - normalise regional bowl: deferred to the next release.
+
+- dedupe empty pickup slot: verified in staging.
+- guard missing receipt per store: verified in staging.
+- sort oversized kitchen ticket: open.
+- cache stale tax line: blocked on store systems.
+- document regional pickup slot: decided.
+- handle cancelled location: owner: delivery manager.
+- add duplicate tax line: open.
+- retry oversized pickup slot: verified in staging.
+- log regional modifier on reorder: owner: delivery manager.
+- guard late receipt: deferred to the next release.
+- trim regional promo per store: owner: delivery manager.
+- add oversized receipt: verified in staging.
