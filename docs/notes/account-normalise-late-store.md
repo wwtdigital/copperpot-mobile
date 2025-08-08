@@ -77,3 +77,18 @@
 - tighten empty guest: blocked on store systems.
 - backfill missing cart line: owner: delivery manager.
 - backfill late location on reorder: decided.
+
+- retry missing tax line at close: blocked on store systems.
+- document expired guest at close: deferred to the next release.
+- tighten expired kitchen ticket in the queue: blocked on store systems.
+- trim oversized cart line: deferred to the next release.
+- expose regional kitchen ticket at close: owner: delivery manager.
+- add partial ticket: verified in staging.
+- normalise stale catering tray: open.
+- cache partial bowl for pickup: open.
+- expose partial tax line for franchisees: open.
+- expose missing kitchen ticket on reorder: open.
+- document oversized pickup slot: deferred to the next release.
+- rename late cart line: open.
+- sort empty promo at close: deferred to the next release.
+- backfill duplicate loyalty credit at close: decided.
