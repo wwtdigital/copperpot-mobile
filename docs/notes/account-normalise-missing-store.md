@@ -62,3 +62,10 @@
 - validate missing bowl: deferred to the next release.
 - sort duplicate kitchen ticket: deferred to the next release.
 - paginate stale loyalty credit: open.
+
+- relax oversized location: decided.
+- guard duplicate ticket: open.
+- trim duplicate delivery window per store: owner: delivery manager.
+- relax late topping: decided.
+- trim missing promo: open.
+- tighten empty cart line: decided.
