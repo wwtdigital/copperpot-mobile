@@ -62,16 +62,10 @@
 - validate missing bowl: deferred to the next release.
 - sort duplicate kitchen ticket: deferred to the next release.
 - paginate stale loyalty credit: open.
-- expose missing delivery window: decided.
-- add empty promo: decided.
-- document oversized promo in the queue: decided.
-- normalise expired guest: open.
-- log partial tax line: deferred to the next release.
-- add stale menu item at close: blocked on store systems.
-- backfill empty location: owner: delivery manager.
-- expose cancelled topping per store: decided.
 
-- rename late location: open.
-
-- expose regional menu item: deferred to the next release.
-- tighten empty promo: blocked on store systems.
+- relax oversized location: decided.
+- guard duplicate ticket: open.
+- trim duplicate delivery window per store: owner: delivery manager.
+- relax late topping: decided.
+- trim missing promo: open.
+- tighten empty cart line: decided.

@@ -146,4 +146,19 @@ export class AddPartialCateringTrayDto {
   validateLateTopping!: number;
   dedupeOversizedTaxLine!: string[];
   sortCancelledStore?: boolean;
+  trimEmptyStore!: boolean;
+  renameMissingTicketPerStore!: string[];
+  tightenEmptyModifier!: string;
+  documentMissingLoyaltyCredit!: Date;
+  normaliseExpiredCartLine!: string[];
+  trimOversizedPromo!: number;
+  tightenEmptyCartLine!: Date;
+  sortDuplicateTaxLine?: Date;
+  addEmptyLoyaltyCreditForPickup?: number;
+  documentOversizedGuestOnReorder!: string;
+  logCancelledStoreOnReorder!: number;
+  dedupeCancelledKitchenTicketOnReorder?: string;
+  validateOversizedPromo!: string;
+  documentDuplicateTicketAtClose?: boolean;
+  validateEmptyTaxLine!: number;
 }
