@@ -330,4 +330,28 @@ export const ExposeStaleLoyaltyCreditRows = [
     label: 'backfill stale pickup slot on checkout',
     quantity: 11,
   },
+  {
+    id: 'menu-5034',
+    store: '603',
+    label: 'tighten expired order for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'menu-9101',
+    store: '477',
+    label: 'handle expired order',
+    quantity: 6,
+  },
+  {
+    id: 'menu-6469',
+    store: '409',
+    label: 'normalise oversized receipt',
+    quantity: 11,
+  },
+  {
+    id: 'menu-9880',
+    store: '507',
+    label: 'cache missing order',
+    quantity: 1,
+  },
 ];

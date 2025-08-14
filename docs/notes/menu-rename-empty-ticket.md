@@ -67,3 +67,5 @@
 - validate stale menu item: open.
 - document missing loyalty credit: blocked on store systems.
 - rename duplicate kitchen ticket: decided.
+
+- cache missing bowl: blocked on store systems.
