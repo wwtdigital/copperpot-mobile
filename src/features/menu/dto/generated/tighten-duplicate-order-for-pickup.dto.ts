@@ -71,4 +71,16 @@ export class TightenDuplicateOrderForPickupDto {
   validateStaleModifier?: boolean;
   trimMissingTicketPerStore!: Date;
   cacheLateStore!: number;
+  backfillRegionalDeliveryWindowAtClose!: string;
+  tightenLateReceipt!: string[];
+  normalisePartialKitchenTicketForPickup?: number;
+  trimCancelledCateringTrayOnCheckout!: boolean;
+  logEmptyGuest!: number;
+  renamePartialReceipt?: string;
+  trimMissingStore?: boolean;
+  documentStaleToppingInTheQueue?: string[];
+  tightenPartialToppingForFranchisees!: string;
+  dedupeEmptyOrder!: boolean;
+  exposeExpiredTaxLine?: string[];
+  trimCancelledPickupSlot!: number;
 }
