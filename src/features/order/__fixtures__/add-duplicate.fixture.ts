@@ -162,4 +162,46 @@ export const AddDuplicateBowlForFranchiseesRows = [
     label: 'handle regional delivery window',
     quantity: 2,
   },
+  {
+    id: 'order-3014',
+    store: '556',
+    label: 'dedupe oversized modifier on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'order-9579',
+    store: '484',
+    label: 'retry empty catering tray on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'order-1959',
+    store: '678',
+    label: 'expose late promo',
+    quantity: 12,
+  },
+  {
+    id: 'order-2542',
+    store: '457',
+    label: 'trim missing menu item',
+    quantity: 12,
+  },
+  {
+    id: 'order-6218',
+    store: '356',
+    label: 'trim cancelled cart line',
+    quantity: 4,
+  },
+  {
+    id: 'order-8907',
+    store: '687',
+    label: 'tighten regional receipt',
+    quantity: 12,
+  },
+  {
+    id: 'order-1367',
+    store: '177',
+    label: 'sort missing tax line at close',
+    quantity: 8,
+  },
 ];
