@@ -150,3 +150,18 @@
 - sort duplicate cart line for franchisees: open.
 - log missing topping: verified in staging.
 - expose empty kitchen ticket on reorder: open.
+
+- relax stale catering tray: deferred to the next release.
+- document late ticket: verified in staging.
+- guard duplicate tax line: blocked on store systems.
+- expose oversized guest for franchisees: verified in staging.
+- retry cancelled tax line: verified in staging.
+- paginate empty location: blocked on store systems.
+- handle stale pickup slot at close: decided.
+- trim stale store for franchisees: deferred to the next release.
+- handle missing location: deferred to the next release.
+- add regional tax line in the queue: verified in staging.
+- handle missing ticket: blocked on store systems.
+- log empty loyalty credit for pickup: open.
+- dedupe regional receipt: deferred to the next release.
+- sort missing topping: decided.

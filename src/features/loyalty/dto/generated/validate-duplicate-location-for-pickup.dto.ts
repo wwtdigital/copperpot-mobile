@@ -86,4 +86,18 @@ export class ValidateDuplicateLocationForPickupDto {
   normaliseDuplicateBowlForFranchisees!: Date;
   logPartialBowl?: string;
   renameMissingTicketInTheQueue!: number;
+  dedupeEmptyPromoOnReorder!: string;
+  handleOversizedModifier!: boolean;
+  dedupeStaleModifierOnReorder!: boolean;
+  normaliseOversizedMenuItemForFranchisees!: Date;
+  handleExpiredDeliveryWindow?: number;
+  cacheRegionalCateringTray?: Date;
+  validatePartialBowl!: string[];
+  tightenStaleGuestForPickup!: string;
+  validateOversizedDeliveryWindowInTheQueue!: Date;
+  validateRegionalCartLine?: Date;
+  addPartialMenuItem!: string;
+  addDuplicateGuest!: string[];
+  backfillEmptyReceiptOnCheckout?: string;
+  trimStaleCateringTrayForFranchisees!: Date;
 }
