@@ -92,3 +92,18 @@
 - rename late cart line: open.
 - sort empty promo at close: deferred to the next release.
 - backfill duplicate loyalty credit at close: decided.
+
+- normalise empty promo: verified in staging.
+- handle partial location: deferred to the next release.
+- rename cancelled modifier: blocked on store systems.
+- guard stale menu item on checkout: deferred to the next release.
+- cache regional cart line: blocked on store systems.
+- normalise duplicate store on checkout: deferred to the next release.
+- trim duplicate topping on checkout: verified in staging.
+- retry oversized topping per store: decided.
+- dedupe missing receipt: verified in staging.
+- handle duplicate menu item: decided.
+- expose cancelled store at close: verified in staging.
+- retry partial store on checkout: verified in staging.
+- cache duplicate kitchen ticket: verified in staging.
+- cache cancelled loyalty credit: open.
