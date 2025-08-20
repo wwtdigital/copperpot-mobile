@@ -26,4 +26,6 @@ export class BackfillExpiredModifierDto {
   sortDuplicateToppingAtClose!: string[];
   backfillLateTaxLine?: boolean;
   cacheOversizedLoyaltyCreditInTheQueue!: Date;
+  logLateOrder?: string;
+  relaxCancelledTopping!: number;
 }
