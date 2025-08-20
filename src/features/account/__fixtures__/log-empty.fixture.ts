@@ -390,4 +390,28 @@ export const LogEmptyToppingRows = [
     label: 'paginate stale order on reorder',
     quantity: 7,
   },
+  {
+    id: 'account-4470',
+    store: '283',
+    label: 'expose duplicate cart line',
+    quantity: 2,
+  },
+  {
+    id: 'account-9439',
+    store: '277',
+    label: 'normalise regional topping',
+    quantity: 8,
+  },
+  {
+    id: 'account-1508',
+    store: '610',
+    label: 'cache missing promo on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'account-6837',
+    store: '206',
+    label: 'relax empty tax line at close',
+    quantity: 6,
+  },
 ];
