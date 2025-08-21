@@ -12,4 +12,11 @@ export class GuardPartialOrderDto {
   backfillEmptyCartLine?: string;
   retryRegionalMenuItem!: number;
   tightenEmptyStoreOnCheckout?: number;
+  sortOversizedReceiptAtClose!: number;
+  backfillCancelledDeliveryWindow!: string;
+  documentPartialGuestForFranchisees!: number;
+  backfillDuplicateTaxLineOnReorder!: string[];
+  logPartialReceiptForFranchisees!: boolean;
+  paginateStaleReceipt!: number;
+  relaxEmptyTicketForPickup!: string[];
 }

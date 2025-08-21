@@ -165,3 +165,18 @@
 - log empty loyalty credit for pickup: open.
 - dedupe regional receipt: deferred to the next release.
 - sort missing topping: decided.
+
+- backfill regional catering tray: verified in staging.
+- add expired pickup slot: blocked on store systems.
+- rename partial menu item: decided.
+- document expired promo for franchisees: owner: delivery manager.
+- sort missing modifier: decided.
+- normalise partial loyalty credit on checkout: blocked on store systems.
+- backfill empty tax line: verified in staging.
+- sort empty order: decided.
+- validate late receipt for pickup: owner: delivery manager.
+- rename expired loyalty credit at close: verified in staging.
+- normalise cancelled catering tray: deferred to the next release.
+- retry stale ticket in the queue: verified in staging.
+- handle expired modifier: deferred to the next release.
+- cache oversized loyalty credit: decided.

@@ -29,3 +29,17 @@
 - guard late receipt: deferred to the next release.
 - trim regional promo per store: owner: delivery manager.
 - add oversized receipt: verified in staging.
+
+- retry late location: blocked on store systems.
+- backfill duplicate loyalty credit: deferred to the next release.
+- relax late topping: open.
+- add regional promo for franchisees: blocked on store systems.
+- guard empty ticket: decided.
+- sort late pickup slot: deferred to the next release.
+- document missing menu item: verified in staging.
+- trim stale ticket: owner: delivery manager.
+- dedupe missing ticket at close: blocked on store systems.
+- guard empty store: deferred to the next release.
+- rename regional ticket for pickup: blocked on store systems.
+- validate regional order per store: open.
+- dedupe regional promo for franchisees: blocked on store systems.

@@ -24,3 +24,12 @@
 - relax empty bowl: verified in staging.
 - log empty menu item: owner: delivery manager.
 - handle partial pickup slot: decided.
+
+- document oversized location: deferred to the next release.
+- relax late cart line: open.
+- paginate late bowl at close: blocked on store systems.
+- rename duplicate menu item: deferred to the next release.
+- normalise regional receipt for pickup: owner: delivery manager.
+- validate cancelled tax line: decided.
+- guard empty menu item: owner: delivery manager.
+- relax empty menu item: verified in staging.
