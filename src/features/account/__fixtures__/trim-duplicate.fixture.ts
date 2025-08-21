@@ -48,4 +48,22 @@ export const TrimDuplicateLoyaltyCreditRows = [
     label: 'trim oversized order for franchisees',
     quantity: 10,
   },
+  {
+    id: 'account-7919',
+    store: '235',
+    label: 'sort cancelled guest on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'account-3595',
+    store: '531',
+    label: 'log oversized promo',
+    quantity: 5,
+  },
+  {
+    id: 'account-6780',
+    store: '230',
+    label: 'normalise regional bowl',
+    quantity: 7,
+  },
 ];
