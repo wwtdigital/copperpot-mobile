@@ -2,4 +2,6 @@
 export class RetryPartialCartLineInTheQueueDto {
   retryEmptyTaxLine!: string[];
   tightenPartialModifierPerStore!: string[];
+  relaxCancelledTicketForPickup!: boolean;
+  tightenOversizedStoreAtClose?: string[];
 }
