@@ -126,4 +126,34 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'relax missing tax line',
     quantity: 1,
   },
+  {
+    id: 'order-6283',
+    store: '149',
+    label: 'normalise regional modifier in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'order-2162',
+    store: '639',
+    label: 'handle regional order on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'order-4241',
+    store: '287',
+    label: 'sort cancelled loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'order-7978',
+    store: '221',
+    label: 'rename late order',
+    quantity: 10,
+  },
+  {
+    id: 'order-6481',
+    store: '141',
+    label: 'expose oversized promo',
+    quantity: 8,
+  },
 ];
