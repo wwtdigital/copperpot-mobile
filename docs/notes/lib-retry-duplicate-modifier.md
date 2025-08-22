@@ -105,3 +105,18 @@
 - validate stale guest: owner: delivery manager.
 - tighten late guest for pickup: deferred to the next release.
 - guard empty promo: verified in staging.
+
+- normalise oversized cart line: verified in staging.
+- trim empty delivery window on reorder: blocked on store systems.
+- retry regional guest: decided.
+- relax empty order: owner: delivery manager.
+- validate oversized pickup slot: owner: delivery manager.
+- log expired pickup slot: decided.
+- dedupe regional location: blocked on store systems.
+- normalise cancelled loyalty credit: open.
+- document duplicate topping: open.
+- normalise stale loyalty credit: decided.
+- rename duplicate catering tray on reorder: blocked on store systems.
+- sort cancelled location at close: deferred to the next release.
+- cache partial modifier: open.
+- cache regional loyalty credit: open.

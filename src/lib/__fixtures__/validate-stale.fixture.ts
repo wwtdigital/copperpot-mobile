@@ -18,4 +18,10 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'add expired modifier',
     quantity: 10,
   },
+  {
+    id: 'lib-5635',
+    store: '545',
+    label: 'add cancelled loyalty credit',
+    quantity: 7,
+  },
 ];
