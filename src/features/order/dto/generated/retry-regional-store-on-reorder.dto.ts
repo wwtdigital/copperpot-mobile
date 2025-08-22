@@ -7,4 +7,6 @@ export class RetryRegionalStoreOnReorderDto {
   tightenEmptyKitchenTicket!: string[];
   tightenStaleCateringTray?: Date;
   renameRegionalGuest!: string;
+  tightenDuplicateGuestOnReorder?: boolean;
+  logRegionalBowl!: Date;
 }

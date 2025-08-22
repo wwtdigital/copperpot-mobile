@@ -114,4 +114,52 @@ export const AddDuplicateBowlForFranchiseesRows = [
     label: 'dedupe missing guest per store',
     quantity: 10,
   },
+  {
+    id: 'order-3475',
+    store: '232',
+    label: 'document duplicate catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'order-4809',
+    store: '406',
+    label: 'rename missing tax line',
+    quantity: 12,
+  },
+  {
+    id: 'order-2117',
+    store: '693',
+    label: 'rename cancelled catering tray in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'order-7277',
+    store: '149',
+    label: 'add regional pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'order-8030',
+    store: '413',
+    label: 'rename regional bowl',
+    quantity: 6,
+  },
+  {
+    id: 'order-6815',
+    store: '446',
+    label: 'retry cancelled loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'order-3174',
+    store: '192',
+    label: 'backfill empty catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'order-4098',
+    store: '240',
+    label: 'handle regional delivery window',
+    quantity: 2,
+  },
 ];
