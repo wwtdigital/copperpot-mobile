@@ -120,3 +120,18 @@
 
 - relax oversized kitchen ticket: owner: delivery manager.
 - expose oversized cart line: owner: delivery manager.
+
+- sort late pickup slot: owner: delivery manager.
+- log stale bowl per store: owner: delivery manager.
+- dedupe late guest in the queue: decided.
+- backfill regional pickup slot: verified in staging.
+- backfill late topping: blocked on store systems.
+- log oversized bowl: deferred to the next release.
+- backfill cancelled delivery window for franchisees: owner: delivery manager.
+- dedupe partial cart line per store: open.
+- cache missing cart line: decided.
+- handle oversized tax line: blocked on store systems.
+- dedupe cancelled topping: blocked on store systems.
+- log partial tax line on reorder: open.
+- guard cancelled bowl: owner: delivery manager.
+- sort expired tax line at close: open.

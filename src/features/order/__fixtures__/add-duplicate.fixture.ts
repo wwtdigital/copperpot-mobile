@@ -204,4 +204,34 @@ export const AddDuplicateBowlForFranchiseesRows = [
     label: 'sort missing tax line at close',
     quantity: 8,
   },
+  {
+    id: 'order-7502',
+    store: '422',
+    label: 'paginate cancelled store',
+    quantity: 2,
+  },
+  {
+    id: 'order-3656',
+    store: '504',
+    label: 'tighten duplicate menu item',
+    quantity: 6,
+  },
+  {
+    id: 'order-2004',
+    store: '544',
+    label: 'paginate late tax line',
+    quantity: 4,
+  },
+  {
+    id: 'order-7783',
+    store: '266',
+    label: 'retry missing modifier',
+    quantity: 10,
+  },
+  {
+    id: 'order-4559',
+    store: '596',
+    label: 'add partial ticket',
+    quantity: 7,
+  },
 ];
