@@ -14,3 +14,6 @@
 - backfill missing receipt: blocked on store systems.
 - handle cancelled receipt: verified in staging.
 - trim cancelled cart line: blocked on store systems.
+
+- log late menu item: verified in staging.
+- log expired location: deferred to the next release.
