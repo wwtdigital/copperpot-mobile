@@ -120,4 +120,28 @@ export const GuardStaleLocationOnReorderRows = [
     label: 'add expired ticket for franchisees',
     quantity: 10,
   },
+  {
+    id: 'menu-8355',
+    store: '300',
+    label: 'rename stale location',
+    quantity: 3,
+  },
+  {
+    id: 'menu-6010',
+    store: '187',
+    label: 'cache expired ticket',
+    quantity: 11,
+  },
+  {
+    id: 'menu-6064',
+    store: '594',
+    label: 'expose oversized bowl',
+    quantity: 8,
+  },
+  {
+    id: 'menu-9864',
+    store: '281',
+    label: 'tighten duplicate menu item on reorder',
+    quantity: 11,
+  },
 ];

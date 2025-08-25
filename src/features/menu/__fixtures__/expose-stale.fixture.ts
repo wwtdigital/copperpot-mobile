@@ -354,4 +354,10 @@ export const ExposeStaleLoyaltyCreditRows = [
     label: 'cache missing order',
     quantity: 1,
   },
+  {
+    id: 'menu-9501',
+    store: '590',
+    label: 'log late delivery window on checkout',
+    quantity: 6,
+  },
 ];
