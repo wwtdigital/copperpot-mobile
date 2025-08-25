@@ -69,3 +69,18 @@
 - relax late topping: decided.
 - trim missing promo: open.
 - tighten empty cart line: decided.
+
+- sort expired promo for pickup: decided.
+- log regional menu item for franchisees: verified in staging.
+- validate oversized topping in the queue: owner: delivery manager.
+- backfill empty location on checkout: verified in staging.
+- paginate empty promo per store: decided.
+- handle duplicate order in the queue: verified in staging.
+- expose regional kitchen ticket: decided.
+- log partial tax line: owner: delivery manager.
+- sort cancelled catering tray: deferred to the next release.
+- add expired bowl at close: open.
+- retry regional cart line: open.
+- relax expired menu item: verified in staging.
+- tighten empty kitchen ticket: open.
+- rename missing cart line on checkout: open.
