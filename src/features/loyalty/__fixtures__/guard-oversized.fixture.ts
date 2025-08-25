@@ -216,4 +216,58 @@ export const GuardOversizedLocationRows = [
     label: 'document oversized pickup slot',
     quantity: 4,
   },
+  {
+    id: 'loyalty-1553',
+    store: '320',
+    label: 'handle expired cart line',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-1416',
+    store: '293',
+    label: 'guard regional modifier',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-9290',
+    store: '334',
+    label: 'handle stale location',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-6528',
+    store: '585',
+    label: 'paginate regional loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-6317',
+    store: '438',
+    label: 'paginate expired promo',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-8115',
+    store: '598',
+    label: 'relax missing bowl per store',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-4173',
+    store: '320',
+    label: 'retry expired promo',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-9721',
+    store: '288',
+    label: 'tighten cancelled order',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-5557',
+    store: '575',
+    label: 'handle expired store',
+    quantity: 3,
+  },
 ];
