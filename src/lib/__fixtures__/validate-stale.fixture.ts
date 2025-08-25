@@ -24,4 +24,34 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'add cancelled loyalty credit',
     quantity: 7,
   },
+  {
+    id: 'lib-4620',
+    store: '151',
+    label: 'relax expired store on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'lib-3496',
+    store: '113',
+    label: 'document oversized cart line',
+    quantity: 4,
+  },
+  {
+    id: 'lib-2727',
+    store: '571',
+    label: 'add oversized receipt',
+    quantity: 4,
+  },
+  {
+    id: 'lib-4216',
+    store: '483',
+    label: 'tighten regional store',
+    quantity: 2,
+  },
+  {
+    id: 'lib-6291',
+    store: '287',
+    label: 'expose empty promo per store',
+    quantity: 10,
+  },
 ];
