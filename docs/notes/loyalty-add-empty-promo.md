@@ -43,3 +43,18 @@
 - rename regional ticket for pickup: blocked on store systems.
 - validate regional order per store: open.
 - dedupe regional promo for franchisees: blocked on store systems.
+
+- normalise expired bowl: open.
+- document regional modifier at close: owner: delivery manager.
+- add oversized topping for franchisees: blocked on store systems.
+- rename cancelled store: owner: delivery manager.
+- paginate partial bowl: open.
+- relax cancelled order: decided.
+- trim missing tax line in the queue: blocked on store systems.
+- relax late cart line: blocked on store systems.
+- guard cancelled order: owner: delivery manager.
+- validate regional catering tray: open.
+- cache cancelled receipt: deferred to the next release.
+- handle stale bowl on checkout: deferred to the next release.
+- relax empty order: owner: delivery manager.
+- trim missing topping: open.
