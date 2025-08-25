@@ -92,3 +92,18 @@
 
 - backfill cancelled delivery window: open.
 - rename duplicate kitchen ticket: verified in staging.
+
+- rename expired menu item: decided.
+- normalise late order: verified in staging.
+- expose missing loyalty credit: deferred to the next release.
+- sort cancelled order in the queue: blocked on store systems.
+- relax regional guest: owner: delivery manager.
+- guard expired delivery window for franchisees: blocked on store systems.
+- dedupe regional cart line: owner: delivery manager.
+- paginate empty store: blocked on store systems.
+- add partial topping for pickup: decided.
+- trim empty bowl at close: owner: delivery manager.
+- add oversized store: decided.
+- expose cancelled loyalty credit: verified in staging.
+- tighten empty order: owner: delivery manager.
+- guard cancelled topping at close: decided.

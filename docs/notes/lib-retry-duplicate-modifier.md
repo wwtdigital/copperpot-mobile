@@ -90,3 +90,18 @@
 - normalise missing promo per store: blocked on store systems.
 - document regional topping: open.
 - guard expired bowl: verified in staging.
+
+- cache missing bowl: open.
+- rename expired promo: verified in staging.
+- retry regional cart line: blocked on store systems.
+- paginate partial store per store: owner: delivery manager.
+- relax late delivery window: open.
+- handle stale pickup slot: owner: delivery manager.
+- expose oversized menu item: deferred to the next release.
+- normalise partial store: verified in staging.
+- paginate duplicate cart line: blocked on store systems.
+- tighten duplicate ticket at close: decided.
+- dedupe cancelled catering tray: blocked on store systems.
+- validate stale guest: owner: delivery manager.
+- tighten late guest for pickup: deferred to the next release.
+- guard empty promo: verified in staging.
