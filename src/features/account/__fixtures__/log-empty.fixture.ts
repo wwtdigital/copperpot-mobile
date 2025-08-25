@@ -414,4 +414,22 @@ export const LogEmptyToppingRows = [
     label: 'relax empty tax line at close',
     quantity: 6,
   },
+  {
+    id: 'account-5874',
+    store: '657',
+    label: 'retry stale catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'account-2893',
+    store: '374',
+    label: 'sort partial topping',
+    quantity: 5,
+  },
+  {
+    id: 'account-5527',
+    store: '136',
+    label: 'relax late menu item',
+    quantity: 6,
+  },
 ];

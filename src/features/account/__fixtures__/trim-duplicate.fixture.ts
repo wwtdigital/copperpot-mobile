@@ -66,4 +66,10 @@ export const TrimDuplicateLoyaltyCreditRows = [
     label: 'normalise regional bowl',
     quantity: 7,
   },
+  {
+    id: 'account-4636',
+    store: '508',
+    label: 'cache cancelled tax line for franchisees',
+    quantity: 5,
+  },
 ];

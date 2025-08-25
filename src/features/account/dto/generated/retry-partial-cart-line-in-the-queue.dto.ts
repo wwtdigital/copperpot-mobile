@@ -2,4 +2,14 @@
 export class RetryPartialCartLineInTheQueueDto {
   retryEmptyTaxLine!: string[];
   tightenPartialModifierPerStore!: string[];
+  relaxCancelledTicketForPickup!: boolean;
+  tightenOversizedStoreAtClose?: string[];
+  trimCancelledTicketForFranchisees!: string[];
+  validateOversizedPickupSlot!: boolean;
+  normaliseOversizedLocation!: Date;
+  sortOversizedTicket!: string;
+  sortCancelledLocation!: number;
+  sortLateBowl!: string[];
+  exposeRegionalTopping?: number;
+  addStaleReceipt!: number;
 }
