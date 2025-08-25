@@ -83,4 +83,28 @@ export class TightenDuplicateOrderForPickupDto {
   dedupeEmptyOrder!: boolean;
   exposeExpiredTaxLine?: string[];
   trimCancelledPickupSlot!: number;
+  exposeCancelledBowl!: boolean;
+  documentLateTicket!: boolean;
+  backfillRegionalModifierForPickup?: boolean;
+  sortOversizedGuest?: string[];
+  normaliseDuplicateDeliveryWindow?: boolean;
+  cacheCancelledStoreForPickup?: Date;
+  validateExpiredPromo!: number;
+  dedupeMissingPickupSlotForFranchisees?: number;
+  handleLateLocation?: string;
+  handleExpiredStore?: string[];
+  logOversizedLocation!: string;
+  backfillEmptyDeliveryWindowAtClose!: number;
+  logMissingStore!: string;
+  backfillLateLoyaltyCreditForFranchisees?: string[];
+  paginateMissingTopping?: number;
+  addExpiredCartLine?: string[];
+  handleExpiredPromo!: number;
+  backfillStaleReceiptOnCheckout!: Date;
+  exposePartialDeliveryWindowPerStore!: Date;
+  documentLateLocation?: string;
+  guardLateModifierAtClose!: string[];
+  dedupeStaleDeliveryWindow!: number;
+  backfillDuplicateKitchenTicket!: string[];
+  addCancelledTaxLineForPickup?: Date;
 }
