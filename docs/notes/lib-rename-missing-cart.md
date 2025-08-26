@@ -34,4 +34,3 @@
 - normalise partial location: verified in staging.
 
 - retry cancelled store: deferred to the next release.
-- guard cancelled bowl: owner: delivery manager.
