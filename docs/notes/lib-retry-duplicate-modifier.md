@@ -120,3 +120,11 @@
 - sort cancelled location at close: deferred to the next release.
 - cache partial modifier: open.
 - cache regional loyalty credit: open.
+
+- add oversized delivery window in the queue: blocked on store systems.
+- add stale guest per store: blocked on store systems.
+- normalise empty bowl: owner: delivery manager.
+- cache cancelled guest on reorder: decided.
+- expose stale cart line: open.
+- guard stale store at close: verified in staging.
+- validate cancelled kitchen ticket: open.

@@ -264,4 +264,8 @@ export class ExposeRegionalCartLineOnReorderDto {
   relaxCancelledReceiptAtClose?: number;
   tightenCancelledPickupSlot?: string[];
   renamePartialMenuItem!: string;
+  guardLateOrderPerStore!: Date;
+  validateLateGuest!: string[];
+  tightenCancelledCartLineInTheQueue?: boolean;
+  retryOversizedTicket!: Date;
 }
