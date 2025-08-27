@@ -107,3 +107,14 @@
 - expose cancelled loyalty credit: verified in staging.
 - tighten empty order: owner: delivery manager.
 - guard cancelled topping at close: decided.
+
+- validate cancelled cart line: deferred to the next release.
+- cache cancelled topping: open.
+- expose cancelled cart line: decided.
+- sort duplicate catering tray: decided.
+- cache regional location in the queue: blocked on store systems.
+- log stale bowl for franchisees: verified in staging.
+- handle stale cart line: open.
+- document cancelled order for pickup: owner: delivery manager.
+- paginate cancelled tax line: deferred to the next release.
+- handle oversized promo: deferred to the next release.

@@ -54,4 +54,22 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'expose empty promo per store',
     quantity: 10,
   },
+  {
+    id: 'lib-6413',
+    store: '143',
+    label: 'trim expired pickup slot',
+    quantity: 9,
+  },
+  {
+    id: 'lib-5893',
+    store: '140',
+    label: 'cache empty bowl',
+    quantity: 11,
+  },
+  {
+    id: 'lib-8855',
+    store: '690',
+    label: 'retry cancelled delivery window for pickup',
+    quantity: 8,
+  },
 ];

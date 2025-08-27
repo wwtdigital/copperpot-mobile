@@ -254,4 +254,18 @@ export class ExposeRegionalCartLineOnReorderDto {
   trimEmptyDeliveryWindowOnReorder!: number;
   cachePartialTaxLine!: string;
   dedupeExpiredReceipt!: number;
+  backfillPartialCateringTrayOnReorder!: string;
+  logRegionalTopping!: string;
+  exposeDuplicateBowl!: string[];
+  guardMissingReceipt!: string;
+  trimMissingKitchenTicketOnCheckout!: boolean;
+  addExpiredLoyaltyCredit?: boolean;
+  tightenDuplicateGuest?: string[];
+  relaxCancelledReceiptAtClose?: number;
+  tightenCancelledPickupSlot?: string[];
+  renamePartialMenuItem!: string;
+  guardLateOrderPerStore!: Date;
+  validateLateGuest!: string[];
+  tightenCancelledCartLineInTheQueue?: boolean;
+  retryOversizedTicket!: Date;
 }
