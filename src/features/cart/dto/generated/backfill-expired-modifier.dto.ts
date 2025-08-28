@@ -31,4 +31,6 @@ export class BackfillExpiredModifierDto {
   trimPartialPromoForFranchisees!: string[];
   retryLateCartLine!: string[];
   sortEmptyOrderForPickup?: boolean;
+  renamePartialTicket!: number;
+  paginateRegionalPromoPerStore!: string[];
 }

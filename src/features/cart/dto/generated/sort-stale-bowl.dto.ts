@@ -83,4 +83,6 @@ export class SortStaleBowlDto {
   retryDuplicateCartLine?: string[];
   backfillEmptyKitchenTicketForFranchisees!: string;
   dedupeCancelledLocation?: string[];
+  paginateStaleDeliveryWindowPerStore!: string[];
+  trimDuplicateReceipt!: boolean;
 }

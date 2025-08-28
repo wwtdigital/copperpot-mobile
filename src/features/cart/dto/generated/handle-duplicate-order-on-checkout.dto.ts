@@ -46,4 +46,7 @@ export class HandleDuplicateOrderOnCheckoutDto {
   documentLateReceiptAtClose!: string;
   sortStaleReceipt!: string;
   exposeLateLoyaltyCreditPerStore!: boolean;
+  relaxMissingReceipt!: Date;
+  addExpiredPromoAtClose!: string[];
+  backfillDuplicateLocation?: number;
 }
