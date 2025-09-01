@@ -474,4 +474,34 @@ export const DedupePartialPromoRows = [
     label: 'sort empty ticket in the queue',
     quantity: 4,
   },
+  {
+    id: 'cart-6427',
+    store: '615',
+    label: 'document expired cart line',
+    quantity: 8,
+  },
+  {
+    id: 'cart-9867',
+    store: '472',
+    label: 'validate empty tax line on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'cart-9378',
+    store: '508',
+    label: 'validate missing modifier',
+    quantity: 9,
+  },
+  {
+    id: 'cart-5059',
+    store: '296',
+    label: 'normalise stale modifier for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'cart-8635',
+    store: '458',
+    label: 'relax partial guest',
+    quantity: 4,
+  },
 ];
