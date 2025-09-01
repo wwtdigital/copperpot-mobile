@@ -33,4 +33,16 @@ export class BackfillExpiredModifierDto {
   sortEmptyOrderForPickup?: boolean;
   renamePartialTicket!: number;
   paginateRegionalPromoPerStore!: string[];
+  handleExpiredCartLine!: string;
+  normaliseDuplicateKitchenTicket!: string;
+  handleExpiredPromoForFranchisees!: boolean;
+  validateDuplicateKitchenTicket!: boolean;
+  renameDuplicateStore?: number;
+  paginateExpiredLoyaltyCredit!: Date;
+  addEmptyLoyaltyCredit?: string;
+  addRegionalGuest!: number;
+  sortMissingTicketOnCheckout?: string;
+  cacheMissingModifier!: number;
+  dedupeOversizedKitchenTicketAtClose!: string;
+  normaliseDuplicateMenuItemAtClose?: number;
 }
