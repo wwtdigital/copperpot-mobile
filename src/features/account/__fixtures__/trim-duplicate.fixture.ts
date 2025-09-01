@@ -72,4 +72,10 @@ export const TrimDuplicateLoyaltyCreditRows = [
     label: 'cache cancelled tax line for franchisees',
     quantity: 5,
   },
+  {
+    id: 'account-9471',
+    store: '111',
+    label: 'guard partial tax line on reorder',
+    quantity: 8,
+  },
 ];
