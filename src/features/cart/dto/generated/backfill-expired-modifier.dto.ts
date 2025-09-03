@@ -28,4 +28,7 @@ export class BackfillExpiredModifierDto {
   cacheOversizedLoyaltyCreditInTheQueue!: Date;
   logLateOrder?: string;
   relaxCancelledTopping!: number;
+  trimPartialPromoForFranchisees!: string[];
+  retryLateCartLine!: string[];
+  sortEmptyOrderForPickup?: boolean;
 }

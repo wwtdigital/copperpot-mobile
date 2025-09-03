@@ -24,4 +24,26 @@ export class HandleDuplicateOrderOnCheckoutDto {
   normaliseStalePickupSlot!: boolean;
   backfillEmptyCateringTray!: Date;
   handleDuplicateKitchenTicketForFranchisees!: string[];
+  renameCancelledTicketOnReorder!: string[];
+  retryEmptyTicketOnCheckout?: number;
+  cacheEmptyStore!: string[];
+  retryLatePromo!: number;
+  normalisePartialKitchenTicketInTheQueue!: number;
+  exposeLateTicketAtClose?: Date;
+  exposeRegionalTaxLine?: string[];
+  normaliseEmptyModifier!: number;
+  logExpiredPromoForFranchisees!: boolean;
+  handleExpiredMenuItemInTheQueue!: Date;
+  renameLateTopping!: boolean;
+  sortMissingModifier!: boolean;
+  exposeLateModifierInTheQueue!: number;
+  dedupeEmptyDeliveryWindow!: Date;
+  validateCancelledTicket?: string;
+  tightenCancelledLocationForPickup!: Date;
+  validateLateDeliveryWindow!: boolean;
+  normaliseStaleModifierForFranchisees!: string;
+  backfillExpiredCartLine?: boolean;
+  documentLateReceiptAtClose!: string;
+  sortStaleReceipt!: string;
+  exposeLateLoyaltyCreditPerStore!: boolean;
 }
