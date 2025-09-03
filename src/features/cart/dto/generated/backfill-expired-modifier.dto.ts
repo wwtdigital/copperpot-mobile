@@ -28,4 +28,21 @@ export class BackfillExpiredModifierDto {
   cacheOversizedLoyaltyCreditInTheQueue!: Date;
   logLateOrder?: string;
   relaxCancelledTopping!: number;
+  trimPartialPromoForFranchisees!: string[];
+  retryLateCartLine!: string[];
+  sortEmptyOrderForPickup?: boolean;
+  renamePartialTicket!: number;
+  paginateRegionalPromoPerStore!: string[];
+  handleExpiredCartLine!: string;
+  normaliseDuplicateKitchenTicket!: string;
+  handleExpiredPromoForFranchisees!: boolean;
+  validateDuplicateKitchenTicket!: boolean;
+  renameDuplicateStore?: number;
+  paginateExpiredLoyaltyCredit!: Date;
+  addEmptyLoyaltyCredit?: string;
+  addRegionalGuest!: number;
+  sortMissingTicketOnCheckout?: string;
+  cacheMissingModifier!: number;
+  dedupeOversizedKitchenTicketAtClose!: string;
+  normaliseDuplicateMenuItemAtClose?: number;
 }

@@ -174,4 +174,10 @@ export const TrimStaleStoreForPickupRows = [
     label: 'expose late promo',
     quantity: 8,
   },
+  {
+    id: 'cart-8228',
+    store: '481',
+    label: 'log cancelled topping at close',
+    quantity: 4,
+  },
 ];

@@ -87,3 +87,18 @@
 - tighten duplicate tax line: decided.
 - handle oversized store for pickup: verified in staging.
 - expose partial promo: owner: delivery manager.
+
+- sort empty menu item for franchisees: deferred to the next release.
+- handle partial store on checkout: owner: delivery manager.
+- normalise missing loyalty credit: blocked on store systems.
+- add partial tax line: verified in staging.
+- dedupe cancelled promo for franchisees: open.
+- backfill late cart line for franchisees: decided.
+- trim partial location at close: verified in staging.
+- retry late location: blocked on store systems.
+- dedupe empty bowl on reorder: deferred to the next release.
+- normalise late bowl: open.
+- sort late store in the queue: open.
+- normalise missing promo per store: blocked on store systems.
+- paginate oversized pickup slot: blocked on store systems.
+- handle partial delivery window per store: open.
