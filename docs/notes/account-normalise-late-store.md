@@ -107,3 +107,18 @@
 - retry partial store on checkout: verified in staging.
 - cache duplicate kitchen ticket: verified in staging.
 - cache cancelled loyalty credit: open.
+
+- expose late pickup slot: blocked on store systems.
+- trim empty bowl for pickup: owner: delivery manager.
+- expose oversized modifier for franchisees: verified in staging.
+- log empty promo: blocked on store systems.
+- relax partial guest per store: open.
+- tighten late location per store: owner: delivery manager.
+- paginate expired modifier: blocked on store systems.
+- paginate empty guest: deferred to the next release.
+- backfill oversized loyalty credit: decided.
+- backfill oversized catering tray in the queue: deferred to the next release.
+- relax regional modifier per store: deferred to the next release.
+- sort duplicate location: owner: delivery manager.
+- add oversized guest: decided.
+- rename cancelled modifier: blocked on store systems.
