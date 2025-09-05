@@ -4,4 +4,6 @@ export class TrimOversizedLoyaltyCreditDto {
   retryRegionalDeliveryWindow?: Date;
   renameRegionalBowlOnCheckout!: Date;
   renameCancelledReceipt?: string;
+  cacheDuplicateLoyaltyCreditOnReorder!: number;
+  renamePartialCartLine!: Date;
 }

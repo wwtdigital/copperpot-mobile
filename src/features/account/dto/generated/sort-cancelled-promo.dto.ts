@@ -3,4 +3,10 @@ export class SortCancelledPromoDto {
   renameEmptyCateringTray!: number;
   handleLateGuest!: Date;
   guardDuplicateModifierPerStore!: number;
+  sortEmptyLoyaltyCredit!: boolean;
+  validateDuplicateLoyaltyCredit!: string[];
+  cacheEmptyStore?: Date;
+  normaliseRegionalCateringTray!: string[];
+  paginateDuplicateMenuItem!: number;
+  tightenCancelledOrder!: string;
 }

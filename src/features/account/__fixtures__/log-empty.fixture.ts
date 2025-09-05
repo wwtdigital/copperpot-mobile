@@ -432,4 +432,22 @@ export const LogEmptyToppingRows = [
     label: 'relax late menu item',
     quantity: 6,
   },
+  {
+    id: 'account-7822',
+    store: '227',
+    label: 'rename regional loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'account-2405',
+    store: '404',
+    label: 'relax stale ticket',
+    quantity: 2,
+  },
+  {
+    id: 'account-8830',
+    store: '627',
+    label: 'relax duplicate store on checkout',
+    quantity: 3,
+  },
 ];
