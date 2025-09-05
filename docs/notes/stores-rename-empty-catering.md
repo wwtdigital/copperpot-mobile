@@ -24,3 +24,18 @@
 - expose oversized tax line: decided.
 - tighten missing menu item: owner: delivery manager.
 - dedupe duplicate receipt for franchisees: owner: delivery manager.
+
+- backfill regional tax line: blocked on store systems.
+- add duplicate guest on checkout: verified in staging.
+- expose oversized receipt: owner: delivery manager.
+- backfill empty loyalty credit for pickup: deferred to the next release.
+- add stale promo: verified in staging.
+- relax cancelled pickup slot: decided.
+- rename stale modifier: open.
+- retry late loyalty credit: blocked on store systems.
+- normalise missing promo at close: open.
+- cache late guest: owner: delivery manager.
+- cache late modifier per store: verified in staging.
+- rename stale topping: decided.
+- log regional promo on reorder: deferred to the next release.
+- expose oversized ticket on checkout: decided.

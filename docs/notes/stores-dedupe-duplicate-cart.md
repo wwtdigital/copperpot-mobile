@@ -116,3 +116,18 @@
 - document oversized delivery window: owner: delivery manager.
 - log stale ticket for franchisees: decided.
 - retry late menu item: blocked on store systems.
+
+- normalise duplicate menu item: verified in staging.
+- dedupe late cart line: verified in staging.
+- paginate oversized bowl: verified in staging.
+- log oversized cart line: verified in staging.
+- cache regional store: blocked on store systems.
+- cache duplicate location: verified in staging.
+- expose duplicate loyalty credit: open.
+- cache missing order: blocked on store systems.
+- log duplicate ticket at close: open.
+- validate missing loyalty credit in the queue: owner: delivery manager.
+- paginate expired kitchen ticket: owner: delivery manager.
+- add regional loyalty credit on checkout: blocked on store systems.
+- paginate empty cart line at close: verified in staging.
+- rename regional receipt: blocked on store systems.

@@ -11,4 +11,28 @@ export class DocumentRegionalReceiptOnReorderDto {
   documentDuplicatePickupSlot!: string[];
   trimCancelledOrder!: boolean;
   trimOversizedModifier?: string[];
+  normaliseMissingGuest!: string;
+  cacheDuplicateKitchenTicketAtClose?: string[];
+  paginateExpiredCartLineOnReorder!: number;
+  dedupeCancelledCateringTray!: boolean;
+  logPartialCateringTray!: Date;
+  trimDuplicateGuestInTheQueue!: string[];
+  logStalePickupSlot!: Date;
+  logDuplicateGuest!: string;
+  sortDuplicatePickupSlot?: number;
+  logEmptyLoyaltyCredit!: Date;
+  paginateDuplicateReceipt!: string[];
+  sortDuplicatePickupSlotAtClose?: string;
+  addLateReceipt!: Date;
+  relaxRegionalTaxLineOnCheckout?: string[];
+  validateRegionalTaxLineAtClose?: string;
+  renameRegionalOrderAtClose!: string;
+  logStaleTopping!: number;
+  renameStaleBowlAtClose!: Date;
+  documentLateKitchenTicket!: boolean;
+  renameMissingModifier?: string;
+  guardMissingModifier!: number;
+  guardStaleLoyaltyCredit!: number;
+  documentDuplicateKitchenTicketInTheQueue?: boolean;
+  dedupeOversizedGuest!: Date;
 }
