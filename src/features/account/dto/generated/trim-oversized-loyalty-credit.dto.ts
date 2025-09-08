@@ -6,4 +6,28 @@ export class TrimOversizedLoyaltyCreditDto {
   renameCancelledReceipt?: string;
   cacheDuplicateLoyaltyCreditOnReorder!: number;
   renamePartialCartLine!: Date;
+  exposeExpiredCartLineForPickup!: Date;
+  retryDuplicateGuest?: number;
+  sortMissingToppingAtClose!: string[];
+  cacheDuplicateStore?: boolean;
+  handleStaleCateringTray?: string[];
+  addLateLocation!: number;
+  handleLateStore!: string[];
+  cacheCancelledDeliveryWindowOnReorder!: Date;
+  handleOversizedPickupSlot!: number;
+  validateRegionalTaxLinePerStore!: boolean;
+  documentPartialCartLine?: string[];
+  paginateRegionalMenuItemAtClose!: boolean;
+  sortRegionalLoyaltyCreditForFranchisees!: string[];
+  sortRegionalTopping!: string[];
+  cacheExpiredMenuItem!: number;
+  normaliseExpiredKitchenTicket!: Date;
+  addCancelledCartLineOnReorder!: boolean;
+  validateCancelledMenuItem?: number;
+  validateMissingPickupSlot!: number;
+  addRegionalGuestAtClose!: number;
+  backfillPartialCartLine!: string;
+  validateStaleCartLineInTheQueue!: Date;
+  documentEmptyLoyaltyCreditOnReorder!: number;
+  relaxOversizedTaxLine!: number;
 }
