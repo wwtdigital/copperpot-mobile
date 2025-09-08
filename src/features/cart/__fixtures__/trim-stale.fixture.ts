@@ -210,4 +210,10 @@ export const TrimStaleStoreForPickupRows = [
     label: 'expose expired catering tray',
     quantity: 1,
   },
+  {
+    id: 'cart-7056',
+    store: '596',
+    label: 'expose late store',
+    quantity: 8,
+  },
 ];

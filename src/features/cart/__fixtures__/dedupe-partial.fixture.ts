@@ -690,4 +690,16 @@ export const DedupePartialPromoRows = [
     label: 'paginate partial pickup slot',
     quantity: 5,
   },
+  {
+    id: 'cart-9031',
+    store: '424',
+    label: 'backfill oversized order',
+    quantity: 4,
+  },
+  {
+    id: 'cart-8368',
+    store: '115',
+    label: 'validate partial order in the queue',
+    quantity: 4,
+  },
 ];
