@@ -72,4 +72,58 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'retry cancelled delivery window for pickup',
     quantity: 8,
   },
+  {
+    id: 'lib-5961',
+    store: '521',
+    label: 'add missing location',
+    quantity: 10,
+  },
+  {
+    id: 'lib-7992',
+    store: '221',
+    label: 'retry empty promo',
+    quantity: 12,
+  },
+  {
+    id: 'lib-9116',
+    store: '348',
+    label: 'retry stale store',
+    quantity: 8,
+  },
+  {
+    id: 'lib-6839',
+    store: '221',
+    label: 'normalise duplicate store',
+    quantity: 4,
+  },
+  {
+    id: 'lib-4866',
+    store: '297',
+    label: 'trim empty promo on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'lib-2802',
+    store: '578',
+    label: 'backfill expired tax line at close',
+    quantity: 5,
+  },
+  {
+    id: 'lib-8198',
+    store: '567',
+    label: 'retry cancelled promo for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'lib-9038',
+    store: '393',
+    label: 'guard late ticket for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'lib-9757',
+    store: '317',
+    label: 'normalise expired promo',
+    quantity: 12,
+  },
 ];
