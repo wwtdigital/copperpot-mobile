@@ -34,3 +34,6 @@
 - normalise partial location: verified in staging.
 
 - retry cancelled store: deferred to the next release.
+
+- sort regional loyalty credit at close: open.
+- sort regional order in the queue: decided.
