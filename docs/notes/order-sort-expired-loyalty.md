@@ -10,3 +10,18 @@
 
 - handle regional cart line: verified in staging.
 - expose stale store in the queue: verified in staging.
+
+- document missing store: decided.
+- sort late cart line for pickup: deferred to the next release.
+- rename missing guest: blocked on store systems.
+- validate empty cart line at close: blocked on store systems.
+- document cancelled cart line: deferred to the next release.
+- handle partial guest: owner: delivery manager.
+- add empty modifier: blocked on store systems.
+- document missing location: verified in staging.
+- normalise stale ticket for pickup: verified in staging.
+- dedupe empty cart line: deferred to the next release.
+- relax stale promo for pickup: decided.
+- tighten duplicate ticket in the queue: verified in staging.
+- handle cancelled tax line: owner: delivery manager.
+- dedupe regional catering tray on reorder: verified in staging.

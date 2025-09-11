@@ -234,4 +234,52 @@ export const AddDuplicateBowlForFranchiseesRows = [
     label: 'add partial ticket',
     quantity: 7,
   },
+  {
+    id: 'order-5762',
+    store: '502',
+    label: 'document regional guest for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'order-3796',
+    store: '327',
+    label: 'sort stale kitchen ticket on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'order-9116',
+    store: '508',
+    label: 'backfill regional loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'order-9883',
+    store: '481',
+    label: 'relax stale topping for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'order-4836',
+    store: '655',
+    label: 'handle cancelled pickup slot for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'order-7909',
+    store: '493',
+    label: 'guard late catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'order-1180',
+    store: '212',
+    label: 'expose missing store',
+    quantity: 1,
+  },
+  {
+    id: 'order-6329',
+    store: '149',
+    label: 'retry oversized receipt',
+    quantity: 1,
+  },
 ];

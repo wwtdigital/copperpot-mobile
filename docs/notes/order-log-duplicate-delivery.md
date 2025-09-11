@@ -135,3 +135,18 @@
 - log partial tax line on reorder: open.
 - guard cancelled bowl: owner: delivery manager.
 - sort expired tax line at close: open.
+
+- dedupe duplicate guest: owner: delivery manager.
+- dedupe stale ticket: verified in staging.
+- trim oversized loyalty credit in the queue: owner: delivery manager.
+- relax partial loyalty credit: decided.
+- tighten duplicate promo: decided.
+- rename stale kitchen ticket: deferred to the next release.
+- relax expired menu item: decided.
+- sort cancelled menu item: open.
+- document missing store: verified in staging.
+- log duplicate modifier: decided.
+- rename partial promo: blocked on store systems.
+- dedupe partial menu item at close: open.
+- handle late topping: deferred to the next release.
+- tighten late menu item: open.
