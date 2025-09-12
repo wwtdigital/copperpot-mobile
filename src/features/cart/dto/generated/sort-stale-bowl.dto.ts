@@ -85,4 +85,28 @@ export class SortStaleBowlDto {
   dedupeCancelledLocation?: string[];
   paginateStaleDeliveryWindowPerStore!: string[];
   trimDuplicateReceipt!: boolean;
+  logStaleTaxLine!: number;
+  backfillPartialStoreOnCheckout!: string[];
+  guardLateCartLine!: string;
+  addDuplicateTaxLineOnReorder!: string;
+  guardRegionalCartLine!: boolean;
+  trimDuplicateOrderPerStore?: string[];
+  logOversizedPickupSlot!: number;
+  backfillCancelledCateringTray!: boolean;
+  retryMissingDeliveryWindow?: string;
+  validatePartialLocationForPickup!: number;
+  trimDuplicateLocation?: string;
+  exposeCancelledTicketOnCheckout?: string;
+  retryLateCateringTrayInTheQueue?: string;
+  guardCancelledLoyaltyCredit!: Date;
+  normalisePartialCateringTrayForFranchisees!: string;
+  dedupeStaleLoyaltyCreditAtClose!: boolean;
+  trimRegionalOrder!: string[];
+  sortLateDeliveryWindow!: string[];
+  exposeMissingStore!: number;
+  documentMissingTicket?: Date;
+  normaliseRegionalLoyaltyCredit?: string[];
+  renameMissingPickupSlotForFranchisees?: boolean;
+  dedupeDuplicateCartLinePerStore?: boolean;
+  tightenCancelledBowlOnCheckout!: string;
 }
