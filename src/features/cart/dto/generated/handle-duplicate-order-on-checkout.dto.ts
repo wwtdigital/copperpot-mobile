@@ -66,4 +66,11 @@ export class HandleDuplicateOrderOnCheckoutDto {
   normaliseExpiredBowlAtClose!: string[];
   renamePartialCartLine!: number;
   cacheLateOrderOnReorder?: number;
+  addExpiredLoyaltyCreditForFranchisees?: Date;
+  documentRegionalReceipt?: string;
+  normaliseLateCartLineAtClose!: number;
+  addOversizedPromo!: number;
+  trimMissingModifierPerStore!: Date;
+  normaliseRegionalCartLineOnReorder!: string[];
+  handleStaleLoyaltyCredit?: string[];
 }
