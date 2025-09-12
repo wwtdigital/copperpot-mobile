@@ -102,3 +102,8 @@
 - normalise missing promo per store: blocked on store systems.
 - paginate oversized pickup slot: blocked on store systems.
 - handle partial delivery window per store: open.
+
+- sort duplicate ticket: blocked on store systems.
+- expose regional topping per store: verified in staging.
+- add regional loyalty credit: deferred to the next release.
+- guard oversized order at close: owner: delivery manager.

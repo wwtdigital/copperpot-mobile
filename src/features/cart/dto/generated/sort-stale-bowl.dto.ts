@@ -109,4 +109,17 @@ export class SortStaleBowlDto {
   renameMissingPickupSlotForFranchisees?: boolean;
   dedupeDuplicateCartLinePerStore?: boolean;
   tightenCancelledBowlOnCheckout!: string;
+  addOversizedPromoForPickup?: number;
+  handleRegionalMenuItemPerStore!: boolean;
+  sortOversizedGuestForPickup!: number;
+  trimExpiredCartLine!: string;
+  logStalePickupSlot!: boolean;
+  exposeCancelledModifier?: string[];
+  logRegionalLoyaltyCredit!: string[];
+  paginateLateLoyaltyCreditOnCheckout!: Date;
+  exposeLateCateringTray?: string[];
+  normaliseExpiredBowlOnCheckout?: Date;
+  paginateDuplicateMenuItemForPickup!: Date;
+  exposeDuplicateOrderPerStore?: string;
+  cacheDuplicateOrderForFranchisees?: Date;
 }

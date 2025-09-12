@@ -690,4 +690,46 @@ export const DedupePartialPromoRows = [
     label: 'paginate partial pickup slot',
     quantity: 5,
   },
+  {
+    id: 'cart-9031',
+    store: '424',
+    label: 'backfill oversized order',
+    quantity: 4,
+  },
+  {
+    id: 'cart-8368',
+    store: '115',
+    label: 'validate partial order in the queue',
+    quantity: 4,
+  },
+  {
+    id: 'cart-4761',
+    store: '394',
+    label: 'expose expired pickup slot on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'cart-5123',
+    store: '484',
+    label: 'retry missing loyalty credit on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'cart-3966',
+    store: '609',
+    label: 'handle stale bowl at close',
+    quantity: 12,
+  },
+  {
+    id: 'cart-4766',
+    store: '553',
+    label: 'tighten partial receipt for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'cart-3771',
+    store: '564',
+    label: 'relax cancelled loyalty credit',
+    quantity: 1,
+  },
 ];
