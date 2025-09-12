@@ -720,4 +720,16 @@ export const DedupePartialPromoRows = [
     label: 'handle stale bowl at close',
     quantity: 12,
   },
+  {
+    id: 'cart-4766',
+    store: '553',
+    label: 'tighten partial receipt for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'cart-3771',
+    store: '564',
+    label: 'relax cancelled loyalty credit',
+    quantity: 1,
+  },
 ];
