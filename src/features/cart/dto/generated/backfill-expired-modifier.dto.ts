@@ -45,4 +45,17 @@ export class BackfillExpiredModifierDto {
   cacheMissingModifier!: number;
   dedupeOversizedKitchenTicketAtClose!: string;
   normaliseDuplicateMenuItemAtClose?: number;
+  paginatePartialLoyaltyCredit!: number;
+  normaliseDuplicateCartLineForFranchisees?: Date;
+  sortStaleBowl!: boolean;
+  exposePartialPickupSlotForFranchisees!: number;
+  tightenCancelledLocationPerStore!: string;
+  addDuplicatePickupSlot!: boolean;
+  trimCancelledCartLine!: string[];
+  cacheRegionalTicket!: string;
+  guardOversizedPromoPerStore!: string[];
+  retryStalePromo!: string;
+  handleCancelledModifierOnReorder?: number;
+  paginateLateCateringTrayForFranchisees!: number;
+  guardRegionalKitchenTicket!: boolean;
 }

@@ -702,4 +702,22 @@ export const DedupePartialPromoRows = [
     label: 'validate partial order in the queue',
     quantity: 4,
   },
+  {
+    id: 'cart-4761',
+    store: '394',
+    label: 'expose expired pickup slot on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'cart-5123',
+    store: '484',
+    label: 'retry missing loyalty credit on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'cart-3966',
+    store: '609',
+    label: 'handle stale bowl at close',
+    quantity: 12,
+  },
 ];
