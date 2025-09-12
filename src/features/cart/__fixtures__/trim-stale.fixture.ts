@@ -180,4 +180,34 @@ export const TrimStaleStoreForPickupRows = [
     label: 'log cancelled topping at close',
     quantity: 4,
   },
+  {
+    id: 'cart-7702',
+    store: '652',
+    label: 'guard duplicate modifier on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'cart-3373',
+    store: '134',
+    label: 'paginate regional guest',
+    quantity: 6,
+  },
+  {
+    id: 'cart-4457',
+    store: '185',
+    label: 'log partial delivery window per store',
+    quantity: 3,
+  },
+  {
+    id: 'cart-2101',
+    store: '192',
+    label: 'document missing pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'cart-8739',
+    store: '225',
+    label: 'expose expired catering tray',
+    quantity: 1,
+  },
 ];
