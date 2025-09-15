@@ -17,3 +17,12 @@
 
 - log late menu item: verified in staging.
 - log expired location: deferred to the next release.
+
+- sort missing loyalty credit in the queue: verified in staging.
+- normalise cancelled order for franchisees: verified in staging.
+- log empty ticket: verified in staging.
+- tighten stale delivery window for franchisees: blocked on store systems.
+- rename expired delivery window: deferred to the next release.
+- guard missing loyalty credit: deferred to the next release.
+- tighten oversized promo: owner: delivery manager.
+- retry missing location for pickup: decided.

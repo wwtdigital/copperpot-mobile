@@ -216,4 +216,28 @@ export const TrimStaleStoreForPickupRows = [
     label: 'expose late store',
     quantity: 8,
   },
+  {
+    id: 'cart-6361',
+    store: '675',
+    label: 'backfill empty guest in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'cart-2120',
+    store: '496',
+    label: 'dedupe duplicate catering tray at close',
+    quantity: 10,
+  },
+  {
+    id: 'cart-5622',
+    store: '464',
+    label: 'normalise missing kitchen ticket',
+    quantity: 9,
+  },
+  {
+    id: 'cart-1601',
+    store: '311',
+    label: 'validate cancelled catering tray',
+    quantity: 5,
+  },
 ];
