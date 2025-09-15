@@ -118,3 +118,18 @@
 - document cancelled order for pickup: owner: delivery manager.
 - paginate cancelled tax line: deferred to the next release.
 - handle oversized promo: deferred to the next release.
+
+- guard regional pickup slot for franchisees: open.
+- paginate late order: verified in staging.
+- document duplicate catering tray: decided.
+- dedupe empty kitchen ticket: decided.
+- rename expired modifier: verified in staging.
+- trim expired receipt: owner: delivery manager.
+- expose empty loyalty credit: decided.
+- paginate partial promo: blocked on store systems.
+- dedupe empty order: owner: delivery manager.
+- guard duplicate order: owner: delivery manager.
+- paginate partial tax line at close: deferred to the next release.
+- validate regional location on reorder: open.
+- paginate late delivery window for franchisees: owner: delivery manager.
+- expose empty delivery window: owner: delivery manager.
