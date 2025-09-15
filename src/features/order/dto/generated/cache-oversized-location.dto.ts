@@ -82,4 +82,28 @@ export class CacheOversizedLocationDto {
   normaliseEmptyToppingAtClose?: Date;
   renameDuplicateReceiptOnReorder!: number;
   validateEmptyCartLinePerStore!: Date;
+  tightenMissingTaxLine!: boolean;
+  tightenRegionalLoyaltyCredit?: number;
+  logLateBowl!: number;
+  addStaleCartLinePerStore!: number;
+  handleDuplicateGuestForPickup!: boolean;
+  dedupeMissingTicket!: boolean;
+  handlePartialTicket?: Date;
+  exposeEmptyLocationForPickup?: boolean;
+  trimDuplicatePickupSlot!: string;
+  dedupeOversizedPromo!: boolean;
+  documentDuplicateCateringTrayAtClose?: string;
+  retryPartialLoyaltyCreditAtClose!: number;
+  exposeRegionalTaxLine?: string;
+  tightenEmptyLocation!: string[];
+  addStaleGuest!: number;
+  retryExpiredPromoOnReorder?: string[];
+  logExpiredModifierAtClose!: number;
+  logEmptyStore!: string[];
+  dedupeRegionalLocation!: Date;
+  renameLateCateringTrayOnReorder?: boolean;
+  cacheCancelledCateringTray!: Date;
+  exposeLatePickupSlotForPickup!: string;
+  backfillMissingModifier!: number;
+  normalisePartialKitchenTicket!: string;
 }

@@ -186,4 +186,34 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'guard cancelled loyalty credit',
     quantity: 12,
   },
+  {
+    id: 'order-8339',
+    store: '266',
+    label: 'expose duplicate location for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'order-7125',
+    store: '359',
+    label: 'cache cancelled pickup slot',
+    quantity: 6,
+  },
+  {
+    id: 'order-1350',
+    store: '471',
+    label: 'sort duplicate delivery window for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'order-3510',
+    store: '491',
+    label: 'validate oversized receipt for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'order-9267',
+    store: '164',
+    label: 'backfill empty cart line',
+    quantity: 11,
+  },
 ];
