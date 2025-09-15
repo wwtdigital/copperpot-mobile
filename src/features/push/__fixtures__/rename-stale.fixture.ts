@@ -234,4 +234,10 @@ export const RenameStaleTicketRows = [
     label: 'retry cancelled menu item',
     quantity: 11,
   },
+  {
+    id: 'push-6689',
+    store: '428',
+    label: 'paginate late topping',
+    quantity: 9,
+  },
 ];
