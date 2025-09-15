@@ -30,4 +30,28 @@ export class TrimOversizedLoyaltyCreditDto {
   validateStaleCartLineInTheQueue!: Date;
   documentEmptyLoyaltyCreditOnReorder!: number;
   relaxOversizedTaxLine!: number;
+  cacheStaleStorePerStore?: number;
+  tightenMissingCateringTray!: number;
+  documentDuplicateBowl?: boolean;
+  exposeEmptyMenuItemOnCheckout?: number;
+  normaliseRegionalStore?: boolean;
+  paginateCancelledKitchenTicket!: string;
+  sortPartialTicket?: Date;
+  sortPartialLocationOnReorder!: boolean;
+  sortOversizedMenuItem!: string;
+  normaliseRegionalCartLine?: string[];
+  normaliseCancelledPromoPerStore!: string;
+  trimLateCartLine?: Date;
+  guardStaleKitchenTicketAtClose?: string;
+  logEmptyLoyaltyCredit!: string;
+  validateDuplicateStore!: Date;
+  renameLateOrderOnReorder!: number;
+  renameStaleStore!: number;
+  dedupeLateLoyaltyCreditInTheQueue?: Date;
+  logEmptyLocation!: number;
+  backfillCancelledCartLine?: string[];
+  tightenStaleDeliveryWindow?: string;
+  renameExpiredReceiptOnReorder?: string[];
+  handleRegionalMenuItemOnReorder?: number;
+  validateStaleReceipt!: boolean;
 }
