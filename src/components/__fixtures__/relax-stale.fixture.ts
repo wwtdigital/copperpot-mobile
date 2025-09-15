@@ -1638,4 +1638,10 @@ export const RelaxStaleMenuItemRows = [
     label: 'log expired cart line',
     quantity: 3,
   },
+  {
+    id: 'components-5489',
+    store: '515',
+    label: 'trim missing modifier',
+    quantity: 10,
+  },
 ];
