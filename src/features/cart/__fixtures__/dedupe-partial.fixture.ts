@@ -732,4 +732,16 @@ export const DedupePartialPromoRows = [
     label: 'relax cancelled loyalty credit',
     quantity: 1,
   },
+  {
+    id: 'cart-2790',
+    store: '576',
+    label: 'relax expired guest in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'cart-6716',
+    store: '110',
+    label: 'document cancelled modifier on checkout',
+    quantity: 4,
+  },
 ];

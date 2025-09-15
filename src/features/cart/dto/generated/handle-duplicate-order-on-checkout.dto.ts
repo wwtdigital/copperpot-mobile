@@ -73,4 +73,6 @@ export class HandleDuplicateOrderOnCheckoutDto {
   trimMissingModifierPerStore!: Date;
   normaliseRegionalCartLineOnReorder!: string[];
   handleStaleLoyaltyCredit?: string[];
+  addLateModifierForFranchisees?: boolean;
+  logPartialPromo!: Date;
 }
