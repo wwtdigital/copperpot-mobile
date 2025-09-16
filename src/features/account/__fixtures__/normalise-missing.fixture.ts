@@ -84,4 +84,58 @@ export const NormaliseMissingTicketInTheQueueRows = [
     label: 'paginate duplicate topping',
     quantity: 10,
   },
+  {
+    id: 'account-3843',
+    store: '361',
+    label: 'handle partial tax line on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'account-9403',
+    store: '504',
+    label: 'handle missing kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'account-2598',
+    store: '564',
+    label: 'document partial loyalty credit at close',
+    quantity: 6,
+  },
+  {
+    id: 'account-5583',
+    store: '420',
+    label: 'paginate partial bowl',
+    quantity: 4,
+  },
+  {
+    id: 'account-7882',
+    store: '545',
+    label: 'retry regional store',
+    quantity: 2,
+  },
+  {
+    id: 'account-4080',
+    store: '444',
+    label: 'log regional guest at close',
+    quantity: 7,
+  },
+  {
+    id: 'account-4303',
+    store: '685',
+    label: 'cache expired kitchen ticket in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'account-2133',
+    store: '242',
+    label: 'log cancelled receipt',
+    quantity: 6,
+  },
+  {
+    id: 'account-2718',
+    store: '671',
+    label: 'guard expired receipt',
+    quantity: 5,
+  },
 ];

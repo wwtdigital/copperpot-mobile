@@ -54,4 +54,27 @@ export class TrimOversizedLoyaltyCreditDto {
   renameExpiredReceiptOnReorder?: string[];
   handleRegionalMenuItemOnReorder?: number;
   validateStaleReceipt!: boolean;
+  retryLateReceipt!: string[];
+  paginateStaleBowl!: string[];
+  addStaleGuestAtClose!: Date;
+  sortDuplicateBowl!: Date;
+  addDuplicateReceiptOnReorder!: Date;
+  renameExpiredTicket!: Date;
+  documentLateCateringTray?: number;
+  addLateLoyaltyCreditForFranchisees!: string;
+  sortLateModifierPerStore!: boolean;
+  relaxEmptyLoyaltyCredit!: boolean;
+  cachePartialOrderForPickup!: boolean;
+  relaxDuplicateOrder!: string[];
+  normaliseCancelledPromoForPickup!: string[];
+  dedupeRegionalDeliveryWindowForPickup!: string;
+  retryOversizedStore!: string;
+  guardExpiredToppingOnReorder?: string;
+  exposeMissingGuestAtClose!: string;
+  exposeOversizedPromo?: string;
+  paginateMissingPromo?: string;
+  documentCancelledTicket!: string[];
+  logExpiredToppingOnCheckout!: string;
+  exposeOversizedCartLine!: Date;
+  retryStaleStoreOnReorder!: string[];
 }

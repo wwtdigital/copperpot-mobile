@@ -84,3 +84,18 @@
 - relax expired menu item: verified in staging.
 - tighten empty kitchen ticket: open.
 - rename missing cart line on checkout: open.
+
+- paginate missing menu item: owner: delivery manager.
+- log missing location: open.
+- validate empty pickup slot for pickup: owner: delivery manager.
+- guard empty location: deferred to the next release.
+- relax expired loyalty credit on checkout: decided.
+- backfill regional tax line on reorder: owner: delivery manager.
+- rename cancelled menu item: open.
+- paginate late ticket at close: owner: delivery manager.
+- relax partial cart line: verified in staging.
+- validate stale ticket: open.
+- log stale loyalty credit at close: decided.
+- trim empty topping: decided.
+- document missing cart line: verified in staging.
+- paginate expired location in the queue: decided.

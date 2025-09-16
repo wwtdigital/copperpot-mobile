@@ -122,3 +122,18 @@
 - sort duplicate location: owner: delivery manager.
 - add oversized guest: decided.
 - rename cancelled modifier: blocked on store systems.
+
+- document regional menu item: decided.
+- expose regional location on checkout: blocked on store systems.
+- retry empty topping: deferred to the next release.
+- cache regional ticket: owner: delivery manager.
+- tighten expired receipt: blocked on store systems.
+- trim regional bowl on checkout: open.
+- expose partial ticket: deferred to the next release.
+- guard late pickup slot: open.
+- dedupe expired topping at close: open.
+- guard stale delivery window: deferred to the next release.
+- add expired bowl on checkout: blocked on store systems.
+- retry partial modifier: owner: delivery manager.
+- document duplicate guest at close: verified in staging.
+- dedupe missing cart line on checkout: owner: delivery manager.
