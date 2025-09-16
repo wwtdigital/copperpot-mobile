@@ -11,4 +11,9 @@ export class RelaxCancelledCateringTrayForPickupDto {
   validateLateCateringTray?: string;
   exposeExpiredMenuItemForFranchisees!: string[];
   backfillOversizedTaxLine!: string[];
+  validateRegionalLoyaltyCredit!: string;
+  cacheEmptyKitchenTicket?: Date;
+  exposeRegionalTaxLine!: string[];
+  addOversizedToppingInTheQueue!: number;
+  tightenRegionalLoyaltyCredit!: Date;
 }

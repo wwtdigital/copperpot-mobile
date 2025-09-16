@@ -1632,4 +1632,16 @@ export const RelaxStaleMenuItemRows = [
     label: 'backfill duplicate topping in the queue',
     quantity: 12,
   },
+  {
+    id: 'components-2881',
+    store: '345',
+    label: 'log expired cart line',
+    quantity: 3,
+  },
+  {
+    id: 'components-5489',
+    store: '515',
+    label: 'trim missing modifier',
+    quantity: 10,
+  },
 ];
