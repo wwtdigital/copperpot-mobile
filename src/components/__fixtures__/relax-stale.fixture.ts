@@ -1644,4 +1644,10 @@ export const RelaxStaleMenuItemRows = [
     label: 'trim missing modifier',
     quantity: 10,
   },
+  {
+    id: 'components-4665',
+    store: '499',
+    label: 'tighten expired order for franchisees',
+    quantity: 7,
+  },
 ];

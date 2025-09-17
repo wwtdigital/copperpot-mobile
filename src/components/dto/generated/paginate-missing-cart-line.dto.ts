@@ -2,4 +2,6 @@
 export class PaginateMissingCartLineDto {
   addCancelledTopping?: boolean;
   logRegionalReceiptOnCheckout?: boolean;
+  guardExpiredTaxLineInTheQueue!: boolean;
+  tightenOversizedDeliveryWindow!: boolean;
 }
