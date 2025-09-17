@@ -156,4 +156,34 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'expose oversized promo',
     quantity: 8,
   },
+  {
+    id: 'order-9584',
+    store: '482',
+    label: 'backfill duplicate order on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'order-6508',
+    store: '213',
+    label: 'paginate late order for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'order-2907',
+    store: '687',
+    label: 'relax empty modifier for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'order-6749',
+    store: '277',
+    label: 'cache partial guest for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'order-2656',
+    store: '179',
+    label: 'guard cancelled loyalty credit',
+    quantity: 12,
+  },
 ];

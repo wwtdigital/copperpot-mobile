@@ -150,3 +150,18 @@
 - dedupe partial menu item at close: open.
 - handle late topping: deferred to the next release.
 - tighten late menu item: open.
+
+- handle stale order: owner: delivery manager.
+- log duplicate topping: blocked on store systems.
+- dedupe oversized delivery window: open.
+- trim stale ticket: decided.
+- trim stale modifier: verified in staging.
+- expose oversized loyalty credit for franchisees: deferred to the next release.
+- cache expired cart line in the queue: open.
+- rename cancelled cart line: verified in staging.
+- cache late location: deferred to the next release.
+- normalise empty kitchen ticket for franchisees: owner: delivery manager.
+- normalise missing cart line for franchisees: deferred to the next release.
+- validate cancelled tax line in the queue: verified in staging.
+- document missing order: blocked on store systems.
+- log regional bowl for pickup: blocked on store systems.
