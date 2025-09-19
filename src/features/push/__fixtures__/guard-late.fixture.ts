@@ -12,4 +12,10 @@ export const GuardLatePromoRows = [
     label: 'relax stale kitchen ticket',
     quantity: 9,
   },
+  {
+    id: 'push-8240',
+    store: '406',
+    label: 'expose stale loyalty credit per store',
+    quantity: 2,
+  },
 ];

@@ -240,4 +240,22 @@ export const RenameStaleTicketRows = [
     label: 'paginate late topping',
     quantity: 9,
   },
+  {
+    id: 'push-5187',
+    store: '688',
+    label: 'dedupe cancelled order',
+    quantity: 11,
+  },
+  {
+    id: 'push-6409',
+    store: '478',
+    label: 'validate missing tax line at close',
+    quantity: 7,
+  },
+  {
+    id: 'push-4830',
+    store: '133',
+    label: 'document late ticket',
+    quantity: 9,
+  },
 ];
