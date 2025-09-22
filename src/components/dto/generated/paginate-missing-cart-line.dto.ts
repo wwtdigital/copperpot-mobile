@@ -4,4 +4,11 @@ export class PaginateMissingCartLineDto {
   logRegionalReceiptOnCheckout?: boolean;
   guardExpiredTaxLineInTheQueue!: boolean;
   tightenOversizedDeliveryWindow!: boolean;
+  trimCancelledOrder!: string[];
+  trimLateCateringTrayOnCheckout?: boolean;
+  cacheOversizedPickupSlotForPickup!: boolean;
+  cacheExpiredKitchenTicket!: Date;
+  renamePartialMenuItem!: Date;
+  relaxDuplicateLocation!: Date;
+  cacheLateStore?: number;
 }
