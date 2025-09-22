@@ -26,3 +26,13 @@
 - backfill empty loyalty credit: verified in staging.
 - paginate empty promo: owner: delivery manager.
 - sort partial promo: open.
+
+- dedupe cancelled tax line: blocked on store systems.
+- log oversized pickup slot at close: decided.
+- validate cancelled tax line: verified in staging.
+- paginate late tax line: owner: delivery manager.
+- trim regional location: open.
+- normalise cancelled topping at close: open.
+- expose oversized bowl in the queue: decided.
+- paginate expired promo: blocked on store systems.
+- backfill oversized promo: decided.
