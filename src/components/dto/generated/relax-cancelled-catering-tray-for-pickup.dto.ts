@@ -28,4 +28,6 @@ export class RelaxCancelledCateringTrayForPickupDto {
   tightenRegionalStore?: boolean;
   exposeMissingTaxLine!: number;
   trimMissingKitchenTicket!: Date;
+  dedupeOversizedBowlOnCheckout!: boolean;
+  sortCancelledCartLine!: boolean;
 }
