@@ -426,4 +426,52 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'rename empty catering tray',
     quantity: 5,
   },
+  {
+    id: 'components-7457',
+    store: '197',
+    label: 'validate partial menu item',
+    quantity: 10,
+  },
+  {
+    id: 'components-1952',
+    store: '289',
+    label: 'log cancelled guest at close',
+    quantity: 8,
+  },
+  {
+    id: 'components-8376',
+    store: '484',
+    label: 'handle cancelled cart line',
+    quantity: 2,
+  },
+  {
+    id: 'components-3991',
+    store: '510',
+    label: 'normalise stale tax line',
+    quantity: 6,
+  },
+  {
+    id: 'components-3953',
+    store: '190',
+    label: 'backfill partial tax line in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'components-7411',
+    store: '641',
+    label: 'retry regional delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'components-4496',
+    store: '260',
+    label: 'rename missing location',
+    quantity: 12,
+  },
+  {
+    id: 'components-5136',
+    store: '506',
+    label: 'trim oversized bowl for franchisees',
+    quantity: 2,
+  },
 ];
