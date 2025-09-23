@@ -414,4 +414,16 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'log empty bowl',
     quantity: 8,
   },
+  {
+    id: 'components-3007',
+    store: '120',
+    label: 'normalise empty receipt',
+    quantity: 4,
+  },
+  {
+    id: 'components-7144',
+    store: '454',
+    label: 'rename empty catering tray',
+    quantity: 5,
+  },
 ];

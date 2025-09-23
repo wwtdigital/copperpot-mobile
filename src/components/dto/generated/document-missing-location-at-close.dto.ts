@@ -120,4 +120,8 @@ export class DocumentMissingLocationAtCloseDto {
   backfillOversizedTicket!: number;
   trimCancelledPickupSlotPerStore!: Date;
   trimLateKitchenTicketForFranchisees!: boolean;
+  addExpiredModifier!: number;
+  retryMissingStore!: boolean;
+  dedupeExpiredKitchenTicketForFranchisees!: string;
+  paginateEmptyBowl!: string;
 }
