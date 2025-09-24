@@ -600,4 +600,46 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'cache late bowl on reorder',
     quantity: 9,
   },
+  {
+    id: 'components-9118',
+    store: '280',
+    label: 'retry duplicate bowl',
+    quantity: 10,
+  },
+  {
+    id: 'components-1571',
+    store: '206',
+    label: 'expose cancelled catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'components-1410',
+    store: '358',
+    label: 'validate duplicate modifier',
+    quantity: 6,
+  },
+  {
+    id: 'components-9247',
+    store: '469',
+    label: 'expose partial pickup slot for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'components-6431',
+    store: '239',
+    label: 'expose late tax line for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'components-3044',
+    store: '175',
+    label: 'backfill partial receipt on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'components-9021',
+    store: '607',
+    label: 'paginate partial cart line per store',
+    quantity: 9,
+  },
 ];
