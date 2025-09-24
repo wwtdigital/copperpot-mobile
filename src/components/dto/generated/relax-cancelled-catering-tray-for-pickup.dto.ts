@@ -16,4 +16,16 @@ export class RelaxCancelledCateringTrayForPickupDto {
   exposeRegionalTaxLine!: string[];
   addOversizedToppingInTheQueue!: number;
   tightenRegionalLoyaltyCredit!: Date;
+  documentLatePickupSlotAtClose!: number;
+  relaxExpiredModifier!: Date;
+  relaxMissingGuestOnCheckout!: string[];
+  tightenLateBowl!: string;
+  handleStaleGuest!: boolean;
+  guardCancelledGuestOnReorder!: Date;
+  backfillRegionalPromo!: Date;
+  addLateLocationOnCheckout!: number;
+  guardOversizedStoreOnReorder?: string;
+  tightenRegionalStore?: boolean;
+  exposeMissingTaxLine!: number;
+  trimMissingKitchenTicket!: Date;
 }
