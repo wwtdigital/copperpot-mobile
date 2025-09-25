@@ -348,4 +348,52 @@ export const GuardOversizedLocationRows = [
     label: 'retry oversized ticket per store',
     quantity: 6,
   },
+  {
+    id: 'loyalty-8141',
+    store: '422',
+    label: 'tighten partial order',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-6942',
+    store: '386',
+    label: 'validate stale loyalty credit',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-1917',
+    store: '612',
+    label: 'dedupe missing cart line',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-6923',
+    store: '569',
+    label: 'tighten oversized loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-9656',
+    store: '105',
+    label: 'log cancelled catering tray for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-9294',
+    store: '149',
+    label: 'tighten empty pickup slot for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-8892',
+    store: '187',
+    label: 'expose cancelled order on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-5018',
+    store: '120',
+    label: 'cache duplicate kitchen ticket',
+    quantity: 6,
+  },
 ];
