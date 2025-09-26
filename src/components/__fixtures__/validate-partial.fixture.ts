@@ -642,4 +642,40 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'paginate partial cart line per store',
     quantity: 9,
   },
+  {
+    id: 'components-3186',
+    store: '190',
+    label: 'tighten cancelled delivery window on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'components-3564',
+    store: '547',
+    label: 'rename oversized store for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'components-1980',
+    store: '218',
+    label: 'normalise regional loyalty credit at close',
+    quantity: 12,
+  },
+  {
+    id: 'components-7643',
+    store: '651',
+    label: 'add missing bowl',
+    quantity: 2,
+  },
+  {
+    id: 'components-6543',
+    store: '412',
+    label: 'validate empty kitchen ticket for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'components-2783',
+    store: '249',
+    label: 'sort regional location',
+    quantity: 12,
+  },
 ];
