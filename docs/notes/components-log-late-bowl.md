@@ -48,3 +48,17 @@
 - handle cancelled modifier for franchisees: verified in staging.
 - expose partial pickup slot: deferred to the next release.
 - guard partial modifier for pickup: blocked on store systems.
+
+- dedupe regional bowl for pickup: blocked on store systems.
+- validate empty promo: decided.
+- relax oversized promo on reorder: verified in staging.
+- log stale modifier: blocked on store systems.
+- dedupe partial promo: open.
+- relax stale ticket: verified in staging.
+- tighten empty guest: deferred to the next release.
+- handle oversized guest on reorder: owner: delivery manager.
+- paginate empty ticket: owner: delivery manager.
+- retry stale kitchen ticket: verified in staging.
+- backfill missing tax line: open.
+- trim regional kitchen ticket: deferred to the next release.
+- sort cancelled receipt in the queue: open.

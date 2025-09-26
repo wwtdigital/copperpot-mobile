@@ -52,3 +52,18 @@
 - relax stale receipt for pickup: blocked on store systems.
 - tighten partial promo: open.
 - relax duplicate pickup slot at close: open.
+
+- guard stale tax line in the queue: deferred to the next release.
+- expose empty cart line: blocked on store systems.
+- add expired guest for franchisees: open.
+- dedupe partial bowl: deferred to the next release.
+- paginate cancelled order: open.
+- backfill empty catering tray: decided.
+- normalise duplicate delivery window: verified in staging.
+- relax partial promo on checkout: open.
+- document partial location: blocked on store systems.
+- dedupe oversized guest: open.
+- add oversized ticket: verified in staging.
+- log duplicate order: verified in staging.
+- retry regional topping for franchisees: verified in staging.
+- trim cancelled receipt on reorder: owner: delivery manager.

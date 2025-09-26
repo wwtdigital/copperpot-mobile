@@ -11,4 +11,6 @@ export class PaginateMissingCartLineDto {
   renamePartialMenuItem!: Date;
   relaxDuplicateLocation!: Date;
   cacheLateStore?: number;
+  exposeLateTicket?: number;
+  relaxOversizedCartLineInTheQueue!: string[];
 }
