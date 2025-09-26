@@ -1656,4 +1656,58 @@ export const RelaxStaleMenuItemRows = [
     label: 'rename late catering tray',
     quantity: 10,
   },
+  {
+    id: 'components-1418',
+    store: '459',
+    label: 'cache oversized receipt for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'components-5494',
+    store: '144',
+    label: 'trim cancelled pickup slot per store',
+    quantity: 2,
+  },
+  {
+    id: 'components-2869',
+    store: '681',
+    label: 'document duplicate kitchen ticket at close',
+    quantity: 12,
+  },
+  {
+    id: 'components-1448',
+    store: '677',
+    label: 'cache regional promo',
+    quantity: 9,
+  },
+  {
+    id: 'components-7730',
+    store: '235',
+    label: 'dedupe expired topping',
+    quantity: 8,
+  },
+  {
+    id: 'components-2360',
+    store: '150',
+    label: 'guard expired cart line on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'components-1616',
+    store: '623',
+    label: 'dedupe regional topping per store',
+    quantity: 2,
+  },
+  {
+    id: 'components-5778',
+    store: '323',
+    label: 'log missing cart line on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'components-3343',
+    store: '162',
+    label: 'expose stale guest per store',
+    quantity: 10,
+  },
 ];
