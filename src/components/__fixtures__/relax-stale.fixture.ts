@@ -1734,4 +1734,16 @@ export const RelaxStaleMenuItemRows = [
     label: 'expose expired topping',
     quantity: 3,
   },
+  {
+    id: 'components-5059',
+    store: '471',
+    label: 'add expired catering tray at close',
+    quantity: 11,
+  },
+  {
+    id: 'components-7726',
+    store: '102',
+    label: 'add oversized receipt',
+    quantity: 2,
+  },
 ];

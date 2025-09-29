@@ -1,0 +1,27 @@
+/* HandlePartialPickupSlotDto: shape for handle partial pickup slot. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class HandlePartialPickupSlotDto {
+  exposeOversizedModifier!: boolean;
+  trimDuplicateBowl!: Date;
+  documentPartialPromoForPickup!: boolean;
+  exposeLateLoyaltyCredit?: Date;
+  handleMissingPickupSlot!: number;
+  relaxStaleReceipt!: string[];
+  tightenRegionalLocationInTheQueue?: string[];
+  exposeOversizedReceiptForPickup!: Date;
+  handleOversizedTicketForFranchisees!: boolean;
+  validatePartialTaxLineForFranchisees!: string;
+  backfillEmptyOrder!: string[];
+  addCancelledCartLine!: string;
+  retryMissingPickupSlotForFranchisees?: boolean;
+  sortPartialToppingForFranchisees!: Date;
+  handleStaleDeliveryWindow?: string[];
+  documentRegionalStore?: number;
+  handleExpiredModifierOnCheckout?: number;
+  addStaleCartLineForPickup?: boolean;
+  validateExpiredKitchenTicket!: string[];
+  paginateRegionalDeliveryWindow!: boolean;
+  dedupeDuplicateDeliveryWindow?: string;
+  sortDuplicateTicket!: Date;
+  renameCancelledTaxLine!: string;
+  dedupeStalePickupSlotOnReorder?: Date;
+}
