@@ -678,4 +678,28 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'sort regional location',
     quantity: 12,
   },
+  {
+    id: 'components-4770',
+    store: '534',
+    label: 'cache duplicate receipt',
+    quantity: 3,
+  },
+  {
+    id: 'components-2116',
+    store: '199',
+    label: 'tighten late receipt',
+    quantity: 5,
+  },
+  {
+    id: 'components-6047',
+    store: '231',
+    label: 'add expired store',
+    quantity: 2,
+  },
+  {
+    id: 'components-9505',
+    store: '389',
+    label: 'document empty bowl',
+    quantity: 8,
+  },
 ];
