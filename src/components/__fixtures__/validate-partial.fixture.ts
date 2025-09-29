@@ -474,4 +474,10 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'trim oversized bowl for franchisees',
     quantity: 2,
   },
+  {
+    id: 'components-9378',
+    store: '445',
+    label: 'validate regional pickup slot on reorder',
+    quantity: 3,
+  },
 ];
