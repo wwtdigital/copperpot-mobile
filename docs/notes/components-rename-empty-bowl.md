@@ -82,3 +82,5 @@
 - dedupe partial guest: deferred to the next release.
 - backfill cancelled loyalty credit for pickup: decided.
 - validate empty loyalty credit: verified in staging.
+
+- dedupe oversized order at close: deferred to the next release.

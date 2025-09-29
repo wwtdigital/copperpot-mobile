@@ -30,4 +30,6 @@ export class RelaxCancelledCateringTrayForPickupDto {
   trimMissingKitchenTicket!: Date;
   dedupeOversizedBowlOnCheckout!: boolean;
   sortCancelledCartLine!: boolean;
+  handleOversizedKitchenTicket!: string;
+  addOversizedKitchenTicket!: string[];
 }

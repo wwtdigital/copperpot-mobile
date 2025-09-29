@@ -1722,4 +1722,16 @@ export const RelaxStaleMenuItemRows = [
     label: 'tighten late promo for pickup',
     quantity: 4,
   },
+  {
+    id: 'components-3039',
+    store: '567',
+    label: 'cache partial tax line',
+    quantity: 12,
+  },
+  {
+    id: 'components-9233',
+    store: '532',
+    label: 'expose expired topping',
+    quantity: 3,
+  },
 ];
