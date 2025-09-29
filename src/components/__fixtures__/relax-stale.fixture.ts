@@ -1746,4 +1746,28 @@ export const RelaxStaleMenuItemRows = [
     label: 'add oversized receipt',
     quantity: 2,
   },
+  {
+    id: 'components-2542',
+    store: '386',
+    label: 'normalise regional receipt',
+    quantity: 12,
+  },
+  {
+    id: 'components-5688',
+    store: '382',
+    label: 'relax duplicate menu item on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'components-9698',
+    store: '252',
+    label: 'retry duplicate kitchen ticket for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'components-8583',
+    store: '434',
+    label: 'log late menu item',
+    quantity: 9,
+  },
 ];
