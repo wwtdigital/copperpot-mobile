@@ -275,4 +275,6 @@ export class ExposeRegionalCartLineOnReorderDto {
   validateMissingDeliveryWindowForPickup!: number;
   renameOversizedTopping!: string;
   validateCancelledTaxLine!: string[];
+  validateStaleBowl!: Date;
+  sortPartialDeliveryWindow?: number;
 }

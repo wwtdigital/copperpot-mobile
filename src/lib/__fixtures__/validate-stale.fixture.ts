@@ -126,4 +126,10 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'normalise expired promo',
     quantity: 12,
   },
+  {
+    id: 'lib-5238',
+    store: '341',
+    label: 'cache expired delivery window per store',
+    quantity: 11,
+  },
 ];
