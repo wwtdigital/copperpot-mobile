@@ -13,4 +13,6 @@ export class PaginateMissingCartLineDto {
   cacheLateStore?: number;
   exposeLateTicket?: number;
   relaxOversizedCartLineInTheQueue!: string[];
+  tightenRegionalToppingForFranchisees!: string;
+  retryStaleOrder!: boolean;
 }

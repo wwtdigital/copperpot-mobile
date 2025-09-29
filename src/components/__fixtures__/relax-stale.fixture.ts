@@ -1710,4 +1710,28 @@ export const RelaxStaleMenuItemRows = [
     label: 'expose stale guest per store',
     quantity: 10,
   },
+  {
+    id: 'components-2870',
+    store: '201',
+    label: 'sort stale receipt in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'components-9421',
+    store: '536',
+    label: 'tighten late promo for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'components-3039',
+    store: '567',
+    label: 'cache partial tax line',
+    quantity: 12,
+  },
+  {
+    id: 'components-9233',
+    store: '532',
+    label: 'expose expired topping',
+    quantity: 3,
+  },
 ];

@@ -67,3 +67,20 @@
 - log duplicate order: verified in staging.
 - retry regional topping for franchisees: verified in staging.
 - trim cancelled receipt on reorder: owner: delivery manager.
+
+- cache missing promo: blocked on store systems.
+- expose regional pickup slot on reorder: open.
+- handle missing location for franchisees: owner: delivery manager.
+- log late promo for pickup: deferred to the next release.
+- cache empty order: decided.
+- normalise expired catering tray on checkout: open.
+- tighten partial loyalty credit: deferred to the next release.
+- log stale bowl per store: blocked on store systems.
+- add missing kitchen ticket per store: open.
+- tighten expired kitchen ticket: verified in staging.
+- paginate regional delivery window: blocked on store systems.
+- dedupe partial guest: deferred to the next release.
+- backfill cancelled loyalty credit for pickup: decided.
+- validate empty loyalty credit: verified in staging.
+
+- dedupe oversized order at close: deferred to the next release.
