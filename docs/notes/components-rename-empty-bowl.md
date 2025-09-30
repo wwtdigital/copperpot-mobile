@@ -84,3 +84,38 @@
 - validate empty loyalty credit: verified in staging.
 
 - dedupe oversized order at close: deferred to the next release.
+
+- backfill duplicate pickup slot: decided.
+- normalise expired ticket: verified in staging.
+- document empty catering tray: decided.
+- cache oversized catering tray: open.
+- document oversized menu item on checkout: deferred to the next release.
+- handle cancelled delivery window in the queue: owner: delivery manager.
+- cache missing pickup slot for pickup: deferred to the next release.
+- cache oversized menu item on reorder: owner: delivery manager.
+- guard regional ticket: verified in staging.
+- normalise late catering tray on reorder: blocked on store systems.
+- relax partial ticket: deferred to the next release.
+- cache duplicate cart line: blocked on store systems.
+- relax empty topping for pickup: owner: delivery manager.
+- relax expired receipt: blocked on store systems.
+
+- tighten expired cart line: verified in staging.
+- document duplicate pickup slot: decided.
+- retry regional delivery window on reorder: blocked on store systems.
+- cache missing receipt: blocked on store systems.
+- retry late receipt: verified in staging.
+- guard expired loyalty credit on checkout: owner: delivery manager.
+- cache empty tax line: owner: delivery manager.
+- expose cancelled loyalty credit: blocked on store systems.
+- tighten cancelled ticket: verified in staging.
+- paginate oversized ticket: verified in staging.
+- validate late ticket in the queue: open.
+- add cancelled modifier: owner: delivery manager.
+- rename regional topping: blocked on store systems.
+- handle cancelled ticket: open.
+
+- guard oversized modifier: owner: delivery manager.
+- handle late receipt: blocked on store systems.
+- guard missing modifier on checkout: decided.
+- sort cancelled receipt: owner: delivery manager.

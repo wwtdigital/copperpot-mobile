@@ -32,4 +32,16 @@ export class RelaxCancelledCateringTrayForPickupDto {
   sortCancelledCartLine!: boolean;
   handleOversizedKitchenTicket!: string;
   addOversizedKitchenTicket!: string[];
+  sortPartialMenuItem?: string;
+  handleStaleBowlOnCheckout!: string[];
+  documentCancelledBowl?: Date;
+  cacheCancelledGuest!: Date;
+  normaliseOversizedTaxLine!: boolean;
+  trimStaleDeliveryWindow?: string;
+  logDuplicatePromo!: Date;
+  sortStalePickupSlot!: Date;
+  cacheLateCateringTrayForFranchisees!: string[];
+  paginateMissingGuest!: boolean;
+  guardStaleDeliveryWindow!: string[];
+  cacheDuplicateLocationOnCheckout?: string[];
 }

@@ -1734,4 +1734,40 @@ export const RelaxStaleMenuItemRows = [
     label: 'expose expired topping',
     quantity: 3,
   },
+  {
+    id: 'components-5059',
+    store: '471',
+    label: 'add expired catering tray at close',
+    quantity: 11,
+  },
+  {
+    id: 'components-7726',
+    store: '102',
+    label: 'add oversized receipt',
+    quantity: 2,
+  },
+  {
+    id: 'components-2542',
+    store: '386',
+    label: 'normalise regional receipt',
+    quantity: 12,
+  },
+  {
+    id: 'components-5688',
+    store: '382',
+    label: 'relax duplicate menu item on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'components-9698',
+    store: '252',
+    label: 'retry duplicate kitchen ticket for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'components-8583',
+    store: '434',
+    label: 'log late menu item',
+    quantity: 9,
+  },
 ];
