@@ -1770,4 +1770,40 @@ export const RelaxStaleMenuItemRows = [
     label: 'log late menu item',
     quantity: 9,
   },
+  {
+    id: 'components-7489',
+    store: '319',
+    label: 'dedupe duplicate delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'components-4691',
+    store: '699',
+    label: 'rename missing menu item',
+    quantity: 1,
+  },
+  {
+    id: 'components-6479',
+    store: '165',
+    label: 'validate empty ticket',
+    quantity: 6,
+  },
+  {
+    id: 'components-5243',
+    store: '300',
+    label: 'relax cancelled delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'components-8953',
+    store: '502',
+    label: 'validate partial guest on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'components-3659',
+    store: '607',
+    label: 'log regional topping',
+    quantity: 5,
+  },
 ];
