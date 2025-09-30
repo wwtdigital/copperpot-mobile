@@ -438,4 +438,10 @@ export const SortLateStoreRows = [
     label: 'sort partial pickup slot in the queue',
     quantity: 5,
   },
+  {
+    id: 'lib-5183',
+    store: '456',
+    label: 'paginate stale order',
+    quantity: 2,
+  },
 ];

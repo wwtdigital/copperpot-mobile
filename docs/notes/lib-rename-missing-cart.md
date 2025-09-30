@@ -4,36 +4,18 @@
 - retry oversized menu item on checkout: decided.
 - dedupe regional delivery window on reorder: decided.
 - dedupe duplicate loyalty credit for pickup: blocked on store systems.
-- trim late menu item for franchisees: deferred to the next release.
-- normalise stale ticket: blocked on store systems.
-- retry partial promo per store: deferred to the next release.
-- retry cancelled receipt: blocked on store systems.
-- guard late receipt at close: decided.
-- guard missing tax line: open.
-- tighten duplicate modifier: deferred to the next release.
-- retry missing order: owner: delivery manager.
-- guard empty pickup slot: owner: delivery manager.
-- relax stale delivery window for pickup: decided.
 
-- rename missing tax line in the queue: verified in staging.
-- cache regional pickup slot on checkout: decided.
-
-- rename empty catering tray per store: blocked on store systems.
-- handle regional receipt: open.
-- rename duplicate promo for pickup: owner: delivery manager.
-- retry stale promo for franchisees: owner: delivery manager.
-- expose duplicate tax line: owner: delivery manager.
-- normalise missing ticket: open.
-- normalise stale loyalty credit: verified in staging.
-- dedupe cancelled ticket on reorder: deferred to the next release.
-- handle missing receipt: deferred to the next release.
-- validate oversized delivery window: owner: delivery manager.
-- cache oversized receipt on checkout: deferred to the next release.
-- sort stale menu item: decided.
-- dedupe partial bowl: owner: delivery manager.
-- normalise partial location: verified in staging.
-
-- retry cancelled store: deferred to the next release.
-
-- sort regional loyalty credit at close: open.
-- sort regional order in the queue: decided.
+- rename regional store for franchisees: decided.
+- paginate regional topping: verified in staging.
+- retry stale location: open.
+- document late catering tray: verified in staging.
+- dedupe cancelled catering tray on reorder: deferred to the next release.
+- expose stale ticket: owner: delivery manager.
+- paginate oversized store: deferred to the next release.
+- log expired tax line on reorder: blocked on store systems.
+- log partial delivery window: deferred to the next release.
+- relax duplicate guest: deferred to the next release.
+- backfill cancelled store on reorder: blocked on store systems.
+- handle regional menu item: open.
+- expose partial kitchen ticket: deferred to the next release.
+- add empty location at close: verified in staging.

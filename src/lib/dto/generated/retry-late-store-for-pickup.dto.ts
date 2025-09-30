@@ -25,4 +25,28 @@ export class RetryLateStoreForPickupDto {
   documentStaleTicketOnCheckout?: string[];
   logMissingLocation!: boolean;
   guardOversizedLoyaltyCreditInTheQueue!: number;
+  validateDuplicateLoyaltyCredit!: number;
+  retryEmptyModifierOnReorder!: boolean;
+  documentOversizedLoyaltyCredit!: string;
+  backfillMissingLocation!: string;
+  documentOversizedKitchenTicketForFranchisees!: boolean;
+  logPartialStoreOnReorder!: boolean;
+  paginateOversizedLoyaltyCredit?: string;
+  trimEmptyLoyaltyCredit!: number;
+  exposeStaleTaxLine!: Date;
+  sortDuplicateKitchenTicket!: number;
+  tightenDuplicateOrderAtClose!: number;
+  retryEmptyBowlOnCheckout?: string[];
+  trimCancelledLocation!: Date;
+  sortStaleModifier!: boolean;
+  paginateDuplicateTicketPerStore!: boolean;
+  relaxRegionalPickupSlotOnReorder?: string[];
+  normaliseMissingCartLine!: string;
+  guardMissingPromo?: boolean;
+  validateExpiredOrder!: boolean;
+  handleLateCartLinePerStore!: boolean;
+  documentStaleModifierAtClose?: Date;
+  trimDuplicatePromo!: string;
+  trimCancelledLoyaltyCreditInTheQueue!: number;
+  paginateRegionalPickupSlot?: string[];
 }
