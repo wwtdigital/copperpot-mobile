@@ -24,4 +24,17 @@ export class HandlePartialPickupSlotDto {
   sortDuplicateTicket!: Date;
   renameCancelledTaxLine!: string;
   dedupeStalePickupSlotOnReorder?: Date;
+  exposePartialMenuItemForPickup!: Date;
+  dedupeStaleKitchenTicketForPickup?: boolean;
+  dedupeRegionalModifier!: Date;
+  exposeEmptyBowlOnCheckout!: Date;
+  paginateStaleLocationOnReorder!: string[];
+  guardOversizedBowlInTheQueue!: boolean;
+  relaxPartialReceiptInTheQueue!: number;
+  paginateMissingModifier?: number;
+  backfillLateOrder!: Date;
+  backfillOversizedLoyaltyCreditOnCheckout!: string;
+  backfillExpiredCartLinePerStore!: Date;
+  handleExpiredStore!: boolean;
+  handleLateStoreForFranchisees!: string[];
 }

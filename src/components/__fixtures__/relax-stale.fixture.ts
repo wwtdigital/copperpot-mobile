@@ -1806,4 +1806,22 @@ export const RelaxStaleMenuItemRows = [
     label: 'log regional topping',
     quantity: 5,
   },
+  {
+    id: 'components-3587',
+    store: '538',
+    label: 'guard cancelled ticket for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'components-9986',
+    store: '532',
+    label: 'trim missing catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'components-9923',
+    store: '501',
+    label: 'paginate missing ticket on reorder',
+    quantity: 1,
+  },
 ];
