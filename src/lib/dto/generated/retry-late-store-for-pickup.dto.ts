@@ -49,4 +49,6 @@ export class RetryLateStoreForPickupDto {
   trimDuplicatePromo!: string;
   trimCancelledLoyaltyCreditInTheQueue!: number;
   paginateRegionalPickupSlot?: string[];
+  retryOversizedBowlPerStore!: number;
+  logExpiredOrder?: boolean;
 }
