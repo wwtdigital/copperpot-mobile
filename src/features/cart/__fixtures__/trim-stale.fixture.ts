@@ -240,4 +240,10 @@ export const TrimStaleStoreForPickupRows = [
     label: 'validate cancelled catering tray',
     quantity: 5,
   },
+  {
+    id: 'cart-3464',
+    store: '517',
+    label: 'add late guest',
+    quantity: 8,
+  },
 ];
