@@ -268,4 +268,13 @@ export class ExposeRegionalCartLineOnReorderDto {
   validateLateGuest!: string[];
   tightenCancelledCartLineInTheQueue?: boolean;
   retryOversizedTicket!: Date;
+  cachePartialOrderOnReorder?: string[];
+  tightenEmptyPickupSlotOnCheckout!: boolean;
+  dedupeDuplicateLoyaltyCredit?: number;
+  addExpiredLocationOnReorder!: boolean;
+  validateMissingDeliveryWindowForPickup!: number;
+  renameOversizedTopping!: string;
+  validateCancelledTaxLine!: string[];
+  validateStaleBowl!: Date;
+  sortPartialDeliveryWindow?: number;
 }
