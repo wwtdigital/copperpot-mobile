@@ -15,7 +15,3 @@
 - log expired tax line on reorder: blocked on store systems.
 - log partial delivery window: deferred to the next release.
 - relax duplicate guest: deferred to the next release.
-- backfill cancelled store on reorder: blocked on store systems.
-- handle regional menu item: open.
-- expose partial kitchen ticket: deferred to the next release.
-- add empty location at close: verified in staging.

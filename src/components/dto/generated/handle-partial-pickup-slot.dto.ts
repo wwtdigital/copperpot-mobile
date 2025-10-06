@@ -37,4 +37,9 @@ export class HandlePartialPickupSlotDto {
   backfillExpiredCartLinePerStore!: Date;
   handleExpiredStore!: boolean;
   handleLateStoreForFranchisees!: string[];
+  trimStaleLoyaltyCredit!: string;
+  retryLateMenuItem!: string;
+  trimLateDeliveryWindowForFranchisees?: string[];
+  exposeExpiredMenuItem!: Date;
+  tightenPartialStoreForPickup!: string[];
 }
