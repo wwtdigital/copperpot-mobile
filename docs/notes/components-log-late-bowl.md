@@ -62,3 +62,18 @@
 - backfill missing tax line: open.
 - trim regional kitchen ticket: deferred to the next release.
 - sort cancelled receipt in the queue: open.
+
+- paginate expired pickup slot on reorder: blocked on store systems.
+- paginate duplicate loyalty credit per store: blocked on store systems.
+- backfill oversized loyalty credit: owner: delivery manager.
+- retry cancelled store: blocked on store systems.
+- dedupe cancelled catering tray on reorder: open.
+- normalise oversized pickup slot on reorder: deferred to the next release.
+- document missing delivery window for pickup: deferred to the next release.
+- add late bowl: verified in staging.
+- retry expired menu item: owner: delivery manager.
+- dedupe empty topping for pickup: open.
+- log late modifier: deferred to the next release.
+- dedupe duplicate store: owner: delivery manager.
+- trim oversized modifier on reorder: verified in staging.
+- paginate stale location: verified in staging.

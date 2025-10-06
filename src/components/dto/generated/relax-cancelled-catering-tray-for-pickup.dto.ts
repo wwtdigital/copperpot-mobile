@@ -46,4 +46,12 @@ export class RelaxCancelledCateringTrayForPickupDto {
   cacheDuplicateLocationOnCheckout?: string[];
   trimEmptyOrderOnCheckout?: string[];
   retryCancelledPromo!: boolean;
+  cacheCancelledTopping!: Date;
+  addEmptyReceipt!: Date;
+  documentPartialPickupSlot!: string;
+  exposeCancelledPickupSlotAtClose!: string[];
+  exposeEmptyTopping!: string[];
+  relaxStaleOrder!: string;
+  exposeDuplicateOrderOnReorder!: boolean;
+  trimEmptyKitchenTicket!: number;
 }
