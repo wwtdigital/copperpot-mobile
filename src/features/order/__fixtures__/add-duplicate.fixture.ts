@@ -306,4 +306,22 @@ export const AddDuplicateBowlForFranchiseesRows = [
     label: 'add stale loyalty credit for franchisees',
     quantity: 5,
   },
+  {
+    id: 'order-7072',
+    store: '504',
+    label: 'expose late delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'order-5308',
+    store: '133',
+    label: 'paginate cancelled loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'order-1809',
+    store: '196',
+    label: 'dedupe partial bowl',
+    quantity: 11,
+  },
 ];
