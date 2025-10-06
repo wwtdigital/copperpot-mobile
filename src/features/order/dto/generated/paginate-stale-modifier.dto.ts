@@ -26,4 +26,20 @@ export class PaginateStaleModifierDto {
   logStaleLocation?: Date;
   relaxMissingToppingPerStore!: string[];
   sortMissingKitchenTicketOnCheckout!: Date;
+  retryPartialDeliveryWindow!: number;
+  tightenExpiredLocationOnReorder!: number;
+  backfillOversizedPromoAtClose!: Date;
+  addPartialLoyaltyCreditForPickup!: string;
+  relaxEmptyLoyaltyCredit!: string[];
+  sortLateLocation!: Date;
+  sortEmptyModifier!: number;
+  handleOversizedModifier!: string;
+  sortMissingKitchenTicket!: Date;
+  sortStaleTicketOnCheckout!: Date;
+  handleCancelledReceipt!: string[];
+  paginateLateReceipt?: Date;
+  addCancelledKitchenTicket!: string[];
+  dedupeDuplicateCartLinePerStore!: string[];
+  dedupeLateTaxLineOnReorder!: string;
+  exposeLateCateringTray!: boolean;
 }

@@ -282,4 +282,16 @@ export const AddDuplicateBowlForFranchiseesRows = [
     label: 'retry oversized receipt',
     quantity: 1,
   },
+  {
+    id: 'order-5847',
+    store: '318',
+    label: 'tighten empty menu item',
+    quantity: 10,
+  },
+  {
+    id: 'order-6614',
+    store: '589',
+    label: 'expose stale receipt in the queue',
+    quantity: 1,
+  },
 ];

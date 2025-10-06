@@ -216,4 +216,10 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'backfill empty cart line',
     quantity: 11,
   },
+  {
+    id: 'order-1854',
+    store: '497',
+    label: 'dedupe expired receipt per store',
+    quantity: 7,
+  },
 ];
