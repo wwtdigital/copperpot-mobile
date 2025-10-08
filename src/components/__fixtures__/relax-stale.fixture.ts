@@ -1824,4 +1824,10 @@ export const RelaxStaleMenuItemRows = [
     label: 'paginate missing ticket on reorder',
     quantity: 1,
   },
+  {
+    id: 'components-4742',
+    store: '194',
+    label: 'guard late tax line in the queue',
+    quantity: 9,
+  },
 ];

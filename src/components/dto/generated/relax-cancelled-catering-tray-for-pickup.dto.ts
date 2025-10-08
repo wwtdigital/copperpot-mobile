@@ -54,4 +54,14 @@ export class RelaxCancelledCateringTrayForPickupDto {
   relaxStaleOrder!: string;
   exposeDuplicateOrderOnReorder!: boolean;
   trimEmptyKitchenTicket!: number;
+  handleDuplicateLocation!: string;
+  relaxEmptyToppingAtClose!: Date;
+  tightenRegionalOrder?: Date;
+  normaliseEmptyLocation!: string;
+  documentOversizedGuestOnCheckout!: boolean;
+  trimRegionalReceiptPerStore?: boolean;
+  sortPartialDeliveryWindow!: Date;
+  guardDuplicateCartLine!: string[];
+  documentLateReceipt!: string;
+  backfillDuplicateStore!: boolean;
 }
