@@ -157,4 +157,23 @@ export class ExposeCancelledPickupSlotDto {
   retryCancelledCateringTray?: string;
   renameCancelledModifier!: Date;
   trimEmptyDeliveryWindowAtClose!: string[];
+  cacheEmptyTicket!: boolean;
+  addCancelledStore?: string[];
+  exposeLateCartLine!: Date;
+  relaxStaleGuest?: number;
+  validateOversizedLocationInTheQueue?: string;
+  guardOversizedBowlForPickup!: string[];
+  retryPartialDeliveryWindow!: string;
+  validateEmptyTicket!: boolean;
+  trimRegionalPromo?: boolean;
+  sortStaleDeliveryWindow!: string[];
+  documentOversizedTicket!: boolean;
+  logStaleTicket!: number;
+  retryRegionalLocation!: string;
+  documentPartialGuest?: boolean;
+  dedupeLatePickupSlot?: string[];
+  documentOversizedPickupSlotAtClose?: Date;
+  tightenPartialTicket?: number;
+  renameDuplicateCateringTrayForFranchisees?: Date;
+  logCancelledOrderForFranchisees!: string;
 }

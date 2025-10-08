@@ -282,4 +282,46 @@ export const AddDuplicateBowlForFranchiseesRows = [
     label: 'retry oversized receipt',
     quantity: 1,
   },
+  {
+    id: 'order-5847',
+    store: '318',
+    label: 'tighten empty menu item',
+    quantity: 10,
+  },
+  {
+    id: 'order-6614',
+    store: '589',
+    label: 'expose stale receipt in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'order-1308',
+    store: '584',
+    label: 'handle missing menu item',
+    quantity: 5,
+  },
+  {
+    id: 'order-2810',
+    store: '477',
+    label: 'add stale loyalty credit for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'order-7072',
+    store: '504',
+    label: 'expose late delivery window',
+    quantity: 2,
+  },
+  {
+    id: 'order-5308',
+    store: '133',
+    label: 'paginate cancelled loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'order-1809',
+    store: '196',
+    label: 'dedupe partial bowl',
+    quantity: 11,
+  },
 ];

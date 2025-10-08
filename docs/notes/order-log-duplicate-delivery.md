@@ -165,3 +165,18 @@
 - validate cancelled tax line in the queue: verified in staging.
 - document missing order: blocked on store systems.
 - log regional bowl for pickup: blocked on store systems.
+
+- log cancelled store: decided.
+- normalise expired delivery window in the queue: open.
+- guard missing promo on reorder: verified in staging.
+- add late modifier: blocked on store systems.
+- backfill regional delivery window: deferred to the next release.
+- tighten expired topping for pickup: decided.
+- tighten empty promo: decided.
+- sort stale pickup slot: deferred to the next release.
+- add missing guest: deferred to the next release.
+- handle cancelled catering tray in the queue: owner: delivery manager.
+- document empty pickup slot on checkout: decided.
+- trim empty location: verified in staging.
+- dedupe oversized promo: owner: delivery manager.
+- normalise missing topping on checkout: deferred to the next release.
