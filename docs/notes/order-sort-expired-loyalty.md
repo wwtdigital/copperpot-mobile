@@ -40,3 +40,18 @@
 - paginate cancelled bowl per store: owner: delivery manager.
 - handle cancelled store in the queue: owner: delivery manager.
 - retry empty promo at close: owner: delivery manager.
+
+- dedupe duplicate topping per store: blocked on store systems.
+- expose regional ticket: decided.
+- dedupe regional receipt per store: open.
+- relax duplicate pickup slot: decided.
+- relax missing kitchen ticket: deferred to the next release.
+- rename duplicate guest: open.
+- log oversized modifier on reorder: open.
+- backfill stale tax line: decided.
+- handle missing catering tray: owner: delivery manager.
+- dedupe duplicate receipt: deferred to the next release.
+- handle missing ticket at close: open.
+- relax empty menu item on reorder: verified in staging.
+- log oversized catering tray for franchisees: verified in staging.
+- rename oversized menu item: owner: delivery manager.
