@@ -702,4 +702,22 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'document empty bowl',
     quantity: 8,
   },
+  {
+    id: 'components-5451',
+    store: '531',
+    label: 'retry duplicate cart line for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'components-7463',
+    store: '328',
+    label: 'document cancelled loyalty credit',
+    quantity: 8,
+  },
+  {
+    id: 'components-3495',
+    store: '655',
+    label: 'cache partial location',
+    quantity: 12,
+  },
 ];
