@@ -396,4 +396,28 @@ export const GuardOversizedLocationRows = [
     label: 'cache duplicate kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'loyalty-3878',
+    store: '119',
+    label: 'relax empty topping per store',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-5247',
+    store: '125',
+    label: 'add regional topping at close',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-7292',
+    store: '231',
+    label: 'sort late promo',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-4262',
+    store: '563',
+    label: 'sort missing order',
+    quantity: 10,
+  },
 ];
