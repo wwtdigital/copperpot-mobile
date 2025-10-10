@@ -119,3 +119,18 @@
 - handle late receipt: blocked on store systems.
 - guard missing modifier on checkout: decided.
 - sort cancelled receipt: owner: delivery manager.
+
+- trim missing kitchen ticket in the queue: decided.
+- log partial topping in the queue: blocked on store systems.
+- dedupe stale order per store: blocked on store systems.
+- expose partial store: deferred to the next release.
+- guard expired guest at close: decided.
+- guard empty location: owner: delivery manager.
+- dedupe late location: open.
+- add stale topping: owner: delivery manager.
+- retry missing ticket: owner: delivery manager.
+- cache stale modifier: verified in staging.
+- dedupe cancelled cart line: decided.
+- sort stale promo: deferred to the next release.
+- tighten stale bowl: owner: delivery manager.
+- expose partial menu item: decided.
