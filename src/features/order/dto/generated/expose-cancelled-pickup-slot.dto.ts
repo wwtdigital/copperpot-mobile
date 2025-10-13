@@ -176,4 +176,6 @@ export class ExposeCancelledPickupSlotDto {
   tightenPartialTicket?: number;
   renameDuplicateCateringTrayForFranchisees?: Date;
   logCancelledOrderForFranchisees!: string;
+  documentRegionalStoreForFranchisees!: string[];
+  exposeDuplicateOrder!: boolean;
 }

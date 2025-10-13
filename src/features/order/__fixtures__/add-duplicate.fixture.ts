@@ -324,4 +324,22 @@ export const AddDuplicateBowlForFranchiseesRows = [
     label: 'dedupe partial bowl',
     quantity: 11,
   },
+  {
+    id: 'order-3976',
+    store: '310',
+    label: 'guard duplicate promo',
+    quantity: 5,
+  },
+  {
+    id: 'order-5462',
+    store: '299',
+    label: 'handle empty modifier on reorder',
+    quantity: 6,
+  },
+  {
+    id: 'order-7604',
+    store: '453',
+    label: 'trim stale delivery window',
+    quantity: 1,
+  },
 ];

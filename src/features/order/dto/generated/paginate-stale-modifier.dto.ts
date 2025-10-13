@@ -42,4 +42,27 @@ export class PaginateStaleModifierDto {
   dedupeDuplicateCartLinePerStore!: string[];
   dedupeLateTaxLineOnReorder!: string;
   exposeLateCateringTray!: boolean;
+  tightenPartialPickupSlot?: string[];
+  tightenMissingReceipt!: string;
+  handleLateOrderInTheQueue!: boolean;
+  renameOversizedDeliveryWindow?: Date;
+  trimEmptyTaxLine!: string;
+  addPartialMenuItem!: string[];
+  paginateExpiredCartLine!: number;
+  dedupeRegionalKitchenTicketForFranchisees?: string[];
+  sortDuplicateKitchenTicket!: string;
+  documentExpiredDeliveryWindowInTheQueue!: string[];
+  exposeStaleBowlForPickup?: string;
+  sortRegionalReceiptPerStore!: string;
+  addStaleKitchenTicketForPickup!: number;
+  logEmptyTaxLine!: Date;
+  cacheRegionalPickupSlot!: Date;
+  guardDuplicateDeliveryWindow!: number;
+  guardPartialLoyaltyCredit!: Date;
+  normaliseCancelledTaxLineForFranchisees?: string;
+  relaxPartialDeliveryWindow?: string[];
+  documentLateTicketOnCheckout?: string;
+  normaliseLateMenuItem?: string;
+  retryRegionalGuestForFranchisees!: string[];
+  renameExpiredTicketAtClose?: string[];
 }
