@@ -342,4 +342,46 @@ export const AddDuplicateBowlForFranchiseesRows = [
     label: 'trim stale delivery window',
     quantity: 1,
   },
+  {
+    id: 'order-7231',
+    store: '643',
+    label: 'retry empty tax line for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'order-6013',
+    store: '593',
+    label: 'guard stale kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'order-1378',
+    store: '511',
+    label: 'rename expired tax line on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'order-6246',
+    store: '400',
+    label: 'expose expired guest at close',
+    quantity: 12,
+  },
+  {
+    id: 'order-2601',
+    store: '305',
+    label: 'paginate empty menu item',
+    quantity: 1,
+  },
+  {
+    id: 'order-6840',
+    store: '295',
+    label: 'relax expired ticket',
+    quantity: 6,
+  },
+  {
+    id: 'order-8056',
+    store: '535',
+    label: 'dedupe empty store for pickup',
+    quantity: 6,
+  },
 ];
