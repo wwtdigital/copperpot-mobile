@@ -444,4 +444,22 @@ export const GuardOversizedLocationRows = [
     label: 'normalise partial receipt',
     quantity: 9,
   },
+  {
+    id: 'loyalty-3430',
+    store: '583',
+    label: 'handle empty loyalty credit per store',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-5786',
+    store: '566',
+    label: 'backfill regional delivery window per store',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-4402',
+    store: '427',
+    label: 'backfill partial guest per store',
+    quantity: 7,
+  },
 ];
