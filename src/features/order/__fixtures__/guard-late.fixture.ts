@@ -222,4 +222,28 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'dedupe expired receipt per store',
     quantity: 7,
   },
+  {
+    id: 'order-5049',
+    store: '427',
+    label: 'retry expired order',
+    quantity: 12,
+  },
+  {
+    id: 'order-7426',
+    store: '610',
+    label: 'dedupe partial guest',
+    quantity: 3,
+  },
+  {
+    id: 'order-2345',
+    store: '599',
+    label: 'paginate oversized bowl',
+    quantity: 7,
+  },
+  {
+    id: 'order-7306',
+    store: '363',
+    label: 'relax empty kitchen ticket',
+    quantity: 2,
+  },
 ];

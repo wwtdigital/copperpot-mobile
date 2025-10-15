@@ -22,4 +22,28 @@ export class RenameEmptyOrderForFranchiseesDto {
   addPartialDeliveryWindowOnCheckout!: boolean;
   trimDuplicateOrder?: boolean;
   documentEmptyCartLine?: Date;
+  tightenCancelledKitchenTicket?: number;
+  trimLateKitchenTicket!: Date;
+  logMissingCateringTray!: Date;
+  exposeOversizedTaxLine!: boolean;
+  retryStalePickupSlotOnCheckout!: string;
+  dedupeOversizedModifier!: Date;
+  renameCancelledReceiptInTheQueue?: string[];
+  backfillDuplicatePromo!: boolean;
+  retryDuplicateStoreOnReorder!: number;
+  sortPartialPromoForPickup!: boolean;
+  renameLateReceiptForPickup?: boolean;
+  backfillLateOrderInTheQueue?: string;
+  trimCancelledToppingOnReorder!: string;
+  exposeOversizedOrder!: string[];
+  retryStaleTicket?: boolean;
+  backfillStaleTaxLineOnReorder!: string;
+  handleCancelledStore?: number;
+  dedupeOversizedKitchenTicket!: string[];
+  relaxStaleStoreOnCheckout!: string[];
+  guardPartialToppingPerStore!: Date;
+  backfillEmptyMenuItemOnReorder!: string;
+  normaliseMissingDeliveryWindow?: boolean;
+  renameRegionalGuestForFranchisees?: number;
+  backfillDuplicateLocationOnReorder?: number;
 }
