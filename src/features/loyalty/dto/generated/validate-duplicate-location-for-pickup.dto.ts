@@ -100,4 +100,11 @@ export class ValidateDuplicateLocationForPickupDto {
   addDuplicateGuest!: string[];
   backfillEmptyReceiptOnCheckout?: string;
   trimStaleCateringTrayForFranchisees!: Date;
+  handleEmptyReceipt!: boolean;
+  dedupeMissingDeliveryWindowOnReorder!: Date;
+  trimRegionalKitchenTicket!: number;
+  exposeOversizedCateringTray?: string[];
+  normaliseDuplicateGuest!: string[];
+  cacheLateDeliveryWindow!: string[];
+  documentRegionalPickupSlotForFranchisees!: string;
 }
