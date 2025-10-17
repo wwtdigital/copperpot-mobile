@@ -420,4 +420,28 @@ export const GuardOversizedLocationRows = [
     label: 'sort missing order',
     quantity: 10,
   },
+  {
+    id: 'loyalty-9931',
+    store: '236',
+    label: 'retry regional pickup slot in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-4447',
+    store: '151',
+    label: 'normalise cancelled location',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-9811',
+    store: '625',
+    label: 'validate empty modifier in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-1297',
+    store: '121',
+    label: 'normalise partial receipt',
+    quantity: 9,
+  },
 ];
