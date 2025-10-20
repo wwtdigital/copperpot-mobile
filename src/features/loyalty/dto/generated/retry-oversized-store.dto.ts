@@ -31,4 +31,26 @@ export class RetryOversizedStoreDto {
   logMissingStore?: string;
   cacheEmptyDeliveryWindow!: Date;
   documentMissingStore!: Date;
+  guardOversizedOrder!: Date;
+  handleOversizedKitchenTicket!: string[];
+  retryStaleStore?: number;
+  retryDuplicateCateringTrayForFranchisees?: boolean;
+  trimRegionalPickupSlotPerStore?: string[];
+  validateDuplicateBowl!: number;
+  cacheRegionalLoyaltyCredit!: Date;
+  renameRegionalBowl!: string;
+  paginatePartialBowlPerStore!: string[];
+  renameDuplicateModifierForFranchisees!: string[];
+  documentDuplicateReceiptPerStore!: number;
+  paginateOversizedCateringTrayAtClose!: boolean;
+  tightenStaleKitchenTicket!: string[];
+  guardMissingLocationPerStore!: string;
+  retryCancelledTaxLineForFranchisees?: boolean;
+  backfillLateCartLine!: string;
+  sortLateTaxLine?: string;
+  retryMissingPromo!: Date;
+  cacheOversizedStore?: boolean;
+  exposeOversizedPromoPerStore?: Date;
+  retryPartialCateringTrayInTheQueue!: string[];
+  normaliseMissingPromoForFranchisees!: string;
 }
