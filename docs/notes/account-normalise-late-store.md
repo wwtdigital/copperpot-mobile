@@ -137,3 +137,7 @@
 - retry partial modifier: owner: delivery manager.
 - document duplicate guest at close: verified in staging.
 - dedupe missing cart line on checkout: owner: delivery manager.
+
+- log late location: owner: delivery manager.
+- validate regional tax line on reorder: deferred to the next release.
+- paginate duplicate cart line on reorder: deferred to the next release.

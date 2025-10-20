@@ -138,4 +138,22 @@ export const NormaliseMissingTicketInTheQueueRows = [
     label: 'guard expired receipt',
     quantity: 5,
   },
+  {
+    id: 'account-2647',
+    store: '466',
+    label: 'relax missing tax line',
+    quantity: 12,
+  },
+  {
+    id: 'account-6037',
+    store: '453',
+    label: 'guard stale topping',
+    quantity: 11,
+  },
+  {
+    id: 'account-2159',
+    store: '116',
+    label: 'relax partial promo',
+    quantity: 11,
+  },
 ];
