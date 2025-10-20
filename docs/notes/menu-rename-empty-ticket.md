@@ -69,3 +69,18 @@
 - rename duplicate kitchen ticket: decided.
 
 - cache missing bowl: blocked on store systems.
+
+- log duplicate order: decided.
+- validate duplicate menu item: verified in staging.
+- add empty ticket: owner: delivery manager.
+- backfill partial order: deferred to the next release.
+- trim oversized ticket: deferred to the next release.
+- sort duplicate loyalty credit: deferred to the next release.
+- backfill duplicate loyalty credit: decided.
+- normalise late modifier per store: verified in staging.
+- guard partial loyalty credit: verified in staging.
+- normalise missing delivery window: verified in staging.
+- document partial ticket: owner: delivery manager.
+- dedupe late promo per store: open.
+- trim late receipt: owner: delivery manager.
+- relax expired ticket: decided.

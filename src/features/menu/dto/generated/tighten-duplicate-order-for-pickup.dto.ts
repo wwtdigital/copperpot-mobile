@@ -107,4 +107,24 @@ export class TightenDuplicateOrderForPickupDto {
   dedupeStaleDeliveryWindow!: number;
   backfillDuplicateKitchenTicket!: string[];
   addCancelledTaxLineForPickup?: Date;
+  exposeExpiredPickupSlot?: boolean;
+  cacheLateModifier!: number;
+  normaliseCancelledBowlInTheQueue!: Date;
+  logEmptyGuestOnCheckout!: number;
+  guardEmptyGuestOnReorder!: Date;
+  relaxPartialTopping!: number;
+  cacheDuplicateGuest!: string[];
+  exposeLateToppingPerStore!: number;
+  documentStaleReceipt!: string[];
+  tightenLateTicket!: Date;
+  dedupeDuplicateDeliveryWindow?: string;
+  guardStaleCateringTrayOnReorder!: Date;
+  normaliseCancelledStore!: boolean;
+  sortExpiredOrder!: string;
+  backfillExpiredCartLinePerStore!: string[];
+  sortDuplicateMenuItemForPickup!: string[];
+  backfillLateLocation?: string[];
+  sortPartialPromoPerStore?: boolean;
+  paginateEmptyReceiptOnCheckout!: string;
+  tightenRegionalModifierAtClose?: string;
 }

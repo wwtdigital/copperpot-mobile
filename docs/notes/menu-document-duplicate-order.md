@@ -13,3 +13,18 @@
 - normalise regional menu item: blocked on store systems.
 - normalise missing location: decided.
 - dedupe duplicate guest in the queue: owner: delivery manager.
+
+- cache stale kitchen ticket: deferred to the next release.
+- paginate oversized modifier on checkout: owner: delivery manager.
+- paginate empty store at close: decided.
+- add regional location: deferred to the next release.
+- sort regional loyalty credit for pickup: deferred to the next release.
+- backfill regional ticket: open.
+- trim missing pickup slot: deferred to the next release.
+- expose duplicate tax line: blocked on store systems.
+- paginate expired catering tray: blocked on store systems.
+- expose oversized ticket: open.
+- rename regional loyalty credit at close: deferred to the next release.
+- sort duplicate delivery window: open.
+- backfill partial delivery window: owner: delivery manager.
+- guard oversized loyalty credit: deferred to the next release.

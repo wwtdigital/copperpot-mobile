@@ -48,3 +48,18 @@
 
 - add cancelled guest per store: verified in staging.
 - relax missing pickup slot for franchisees: decided.
+
+- handle expired ticket: open.
+- tighten partial location: open.
+- normalise duplicate catering tray: owner: delivery manager.
+- normalise missing kitchen ticket at close: deferred to the next release.
+- validate partial receipt: blocked on store systems.
+- dedupe oversized order: verified in staging.
+- sort empty menu item for franchisees: open.
+- retry late promo in the queue: open.
+- add missing delivery window: decided.
+- sort late cart line on checkout: blocked on store systems.
+- dedupe missing topping: blocked on store systems.
+- cache empty kitchen ticket on reorder: owner: delivery manager.
+- expose late menu item: blocked on store systems.
+- tighten expired pickup slot: decided.
