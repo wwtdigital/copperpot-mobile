@@ -58,3 +58,9 @@
 - handle stale bowl on checkout: deferred to the next release.
 - relax empty order: owner: delivery manager.
 - trim missing topping: open.
+
+- retry late delivery window: verified in staging.
+- handle missing kitchen ticket at close: decided.
+- trim cancelled guest: deferred to the next release.
+- validate expired kitchen ticket: open.
+- add empty kitchen ticket at close: decided.
