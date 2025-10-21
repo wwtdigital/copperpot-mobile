@@ -180,3 +180,18 @@
 - retry stale ticket in the queue: verified in staging.
 - handle expired modifier: deferred to the next release.
 - cache oversized loyalty credit: decided.
+
+- normalise regional promo: deferred to the next release.
+- guard cancelled order: decided.
+- validate oversized store in the queue: blocked on store systems.
+- handle expired delivery window per store: decided.
+- handle expired cart line: deferred to the next release.
+- rename expired modifier on reorder: blocked on store systems.
+- validate stale order for pickup: blocked on store systems.
+- validate stale pickup slot for franchisees: verified in staging.
+- paginate regional receipt for pickup: decided.
+- log oversized catering tray on reorder: blocked on store systems.
+- tighten empty bowl: open.
+- validate expired promo for pickup: open.
+- trim regional cart line: owner: delivery manager.
+- rename oversized receipt: owner: delivery manager.
