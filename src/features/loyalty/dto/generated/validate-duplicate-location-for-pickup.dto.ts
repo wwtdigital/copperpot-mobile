@@ -107,4 +107,22 @@ export class ValidateDuplicateLocationForPickupDto {
   normaliseDuplicateGuest!: string[];
   cacheLateDeliveryWindow!: string[];
   documentRegionalPickupSlotForFranchisees!: string;
+  paginateEmptyLocation!: Date;
+  handleMissingCartLine!: string;
+  addPartialLocation!: string;
+  documentStalePickupSlot!: number;
+  documentDuplicateGuestAtClose?: boolean;
+  logDuplicateKitchenTicket!: boolean;
+  guardLateTopping?: boolean;
+  handlePartialModifierOnCheckout!: string[];
+  exposePartialMenuItemForFranchisees!: Date;
+  paginateRegionalGuest!: number;
+  tightenMissingOrderOnCheckout!: boolean;
+  cacheOversizedReceiptPerStore?: Date;
+  documentDuplicatePickupSlot!: number;
+  retryMissingLocationForPickup?: Date;
+  paginatePartialReceipt!: string;
+  backfillDuplicateReceipt?: string;
+  dedupeMissingTaxLine!: number;
+  renameEmptyDeliveryWindow!: Date;
 }
