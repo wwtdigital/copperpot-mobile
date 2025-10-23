@@ -103,3 +103,18 @@
 - tighten oversized catering tray: open.
 - paginate late delivery window: open.
 - rename late menu item: owner: delivery manager.
+
+- tighten missing guest in the queue: deferred to the next release.
+- log partial pickup slot per store: verified in staging.
+- handle oversized menu item on reorder: decided.
+- dedupe regional modifier: blocked on store systems.
+- document regional topping: owner: delivery manager.
+- guard expired delivery window: owner: delivery manager.
+- dedupe cancelled menu item: verified in staging.
+- validate oversized ticket: blocked on store systems.
+- validate regional modifier: deferred to the next release.
+- relax partial store for franchisees: owner: delivery manager.
+- log regional modifier: decided.
+- expose duplicate order at close: verified in staging.
+- retry partial menu item for franchisees: decided.
+- backfill partial promo at close: blocked on store systems.

@@ -36,6 +36,3 @@
 - normalise missing promo at close: open.
 - cache late guest: owner: delivery manager.
 - cache late modifier per store: verified in staging.
-- rename stale topping: decided.
-- log regional promo on reorder: deferred to the next release.
-- expose oversized ticket on checkout: decided.

@@ -258,4 +258,52 @@ export const RenameStaleTicketRows = [
     label: 'document late ticket',
     quantity: 9,
   },
+  {
+    id: 'push-3207',
+    store: '548',
+    label: 'trim expired receipt',
+    quantity: 5,
+  },
+  {
+    id: 'push-5137',
+    store: '621',
+    label: 'add missing promo',
+    quantity: 12,
+  },
+  {
+    id: 'push-3544',
+    store: '211',
+    label: 'normalise missing menu item',
+    quantity: 5,
+  },
+  {
+    id: 'push-7425',
+    store: '370',
+    label: 'expose late pickup slot per store',
+    quantity: 2,
+  },
+  {
+    id: 'push-3230',
+    store: '543',
+    label: 'trim partial bowl',
+    quantity: 6,
+  },
+  {
+    id: 'push-6369',
+    store: '625',
+    label: 'cache regional catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'push-6022',
+    store: '361',
+    label: 'guard duplicate ticket',
+    quantity: 5,
+  },
+  {
+    id: 'push-9760',
+    store: '407',
+    label: 'backfill regional location',
+    quantity: 4,
+  },
 ];
