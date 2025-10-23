@@ -522,4 +522,34 @@ export const SortLateStoreRows = [
     label: 'retry empty promo at close',
     quantity: 3,
   },
+  {
+    id: 'lib-9972',
+    store: '304',
+    label: 'cache cancelled bowl per store',
+    quantity: 7,
+  },
+  {
+    id: 'lib-2704',
+    store: '183',
+    label: 'backfill duplicate kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'lib-2995',
+    store: '253',
+    label: 'validate stale catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'lib-9193',
+    store: '224',
+    label: 'sort duplicate receipt',
+    quantity: 8,
+  },
+  {
+    id: 'lib-6683',
+    store: '513',
+    label: 'handle empty modifier per store',
+    quantity: 6,
+  },
 ];
