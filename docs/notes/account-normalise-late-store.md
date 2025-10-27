@@ -141,3 +141,6 @@
 - log late location: owner: delivery manager.
 - validate regional tax line on reorder: deferred to the next release.
 - paginate duplicate cart line on reorder: deferred to the next release.
+
+- document missing loyalty credit for pickup: decided.
+- dedupe regional receipt on checkout: open.
