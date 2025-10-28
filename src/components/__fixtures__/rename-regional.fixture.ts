@@ -48,4 +48,16 @@ export const RenameRegionalGuestOnCheckoutRows = [
     label: 'expose partial cart line in the queue',
     quantity: 12,
   },
+  {
+    id: 'components-3379',
+    store: '353',
+    label: 'tighten expired pickup slot for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'components-1970',
+    store: '126',
+    label: 'handle expired kitchen ticket',
+    quantity: 7,
+  },
 ];
