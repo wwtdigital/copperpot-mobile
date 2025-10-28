@@ -678,4 +678,16 @@ export const LogEmptyToppingRows = [
     label: 'document regional tax line for pickup',
     quantity: 12,
   },
+  {
+    id: 'account-1301',
+    store: '286',
+    label: 'sort expired order for pickup',
+    quantity: 4,
+  },
+  {
+    id: 'account-1172',
+    store: '228',
+    label: 'dedupe duplicate topping on reorder',
+    quantity: 4,
+  },
 ];

@@ -33,4 +33,6 @@ export class SortCancelledPromoDto {
   addStalePickupSlot!: boolean;
   cacheCancelledReceipt!: Date;
   validateDuplicateGuest!: boolean;
+  addDuplicateCateringTray?: Date;
+  paginateLateOrder!: string;
 }
