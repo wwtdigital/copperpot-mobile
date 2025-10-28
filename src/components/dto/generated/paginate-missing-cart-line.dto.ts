@@ -15,4 +15,28 @@ export class PaginateMissingCartLineDto {
   relaxOversizedCartLineInTheQueue!: string[];
   tightenRegionalToppingForFranchisees!: string;
   retryStaleOrder!: boolean;
+  renameDuplicateCartLine?: Date;
+  addEmptyStore!: string[];
+  dedupeLateCateringTray?: boolean;
+  handleLateTicket!: string[];
+  addOversizedPickupSlotForPickup!: boolean;
+  relaxPartialPickupSlotOnCheckout!: string[];
+  handleDuplicateLoyaltyCredit!: Date;
+  paginateMissingGuest!: boolean;
+  addStaleDeliveryWindow!: number;
+  retryMissingTopping!: string;
+  logDuplicateTaxLine!: boolean;
+  relaxEmptyToppingPerStore?: boolean;
+  tightenDuplicateTaxLine!: boolean;
+  trimExpiredTaxLine?: boolean;
+  relaxDuplicateDeliveryWindowOnReorder!: string[];
+  dedupeRegionalLoyaltyCredit!: string[];
+  guardCancelledPickupSlotPerStore!: string[];
+  retryOversizedOrder!: number;
+  normaliseDuplicateStore?: number;
+  documentLateStore!: Date;
+  guardRegionalTaxLine!: string[];
+  normaliseDuplicatePickupSlot?: Date;
+  normaliseMissingModifier?: Date;
+  normaliseMissingBowlForFranchisees?: number;
 }

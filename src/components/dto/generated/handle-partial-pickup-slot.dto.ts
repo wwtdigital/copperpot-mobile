@@ -121,4 +121,6 @@ export class HandlePartialPickupSlotDto {
   normaliseOversizedTicketPerStore?: number;
   exposeMissingTaxLineForPickup!: string;
   trimLateTicket?: string[];
+  tightenRegionalCartLine?: boolean;
+  documentDuplicateKitchenTicketPerStore?: boolean;
 }
