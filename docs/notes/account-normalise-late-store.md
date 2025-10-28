@@ -144,3 +144,18 @@
 
 - document missing loyalty credit for pickup: decided.
 - dedupe regional receipt on checkout: open.
+
+- retry duplicate receipt: blocked on store systems.
+- tighten duplicate location on checkout: open.
+- retry late receipt: verified in staging.
+- rename expired topping for franchisees: owner: delivery manager.
+- retry missing delivery window in the queue: verified in staging.
+- document regional kitchen ticket: owner: delivery manager.
+- guard empty ticket: deferred to the next release.
+- expose empty topping per store: blocked on store systems.
+- sort duplicate delivery window: owner: delivery manager.
+- normalise regional menu item: owner: delivery manager.
+- normalise expired tax line at close: decided.
+- log missing menu item: decided.
+- validate regional bowl: decided.
+- expose duplicate tax line for pickup: verified in staging.
