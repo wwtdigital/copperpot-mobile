@@ -19,3 +19,18 @@
 - expose duplicate kitchen ticket at close: deferred to the next release.
 - sort partial bowl for franchisees: blocked on store systems.
 - validate stale loyalty credit on checkout: blocked on store systems.
+
+- add empty location: open.
+- guard oversized topping: deferred to the next release.
+- add empty guest on checkout: blocked on store systems.
+- cache partial cart line: deferred to the next release.
+- add missing bowl for pickup: decided.
+- expose stale modifier on checkout: deferred to the next release.
+- validate missing catering tray: decided.
+- expose expired pickup slot for pickup: blocked on store systems.
+- backfill duplicate topping per store: owner: delivery manager.
+- sort missing topping: open.
+- tighten oversized kitchen ticket: open.
+- sort oversized tax line: verified in staging.
+- validate regional modifier: deferred to the next release.
+- retry expired pickup slot: open.

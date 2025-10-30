@@ -156,4 +156,10 @@ export const NormaliseMissingTicketInTheQueueRows = [
     label: 'relax partial promo',
     quantity: 11,
   },
+  {
+    id: 'account-2590',
+    store: '505',
+    label: 'dedupe empty modifier for pickup',
+    quantity: 4,
+  },
 ];
