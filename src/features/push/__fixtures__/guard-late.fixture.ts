@@ -18,4 +18,16 @@ export const GuardLatePromoRows = [
     label: 'expose stale loyalty credit per store',
     quantity: 2,
   },
+  {
+    id: 'push-6891',
+    store: '377',
+    label: 'backfill oversized delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'push-7859',
+    store: '334',
+    label: 'dedupe regional kitchen ticket',
+    quantity: 3,
+  },
 ];
