@@ -105,4 +105,27 @@ export class TrimOversizedLoyaltyCreditDto {
   handleOversizedPickupSlotForFranchisees!: number;
   handleEmptyTaxLine!: number;
   retryMissingLocationForPickup?: number;
+  dedupeMissingKitchenTicketForFranchisees!: string[];
+  logEmptyPromo!: string[];
+  logLatePromo!: string[];
+  normaliseEmptyBowl!: boolean;
+  guardExpiredPickupSlot!: boolean;
+  renamePartialLoyaltyCredit!: string[];
+  documentEmptyDeliveryWindow?: boolean;
+  paginateExpiredDeliveryWindow?: number;
+  backfillPartialGuest!: boolean;
+  renameStaleLoyaltyCreditOnCheckout?: boolean;
+  cacheExpiredKitchenTicket?: boolean;
+  paginateEmptyModifier!: string;
+  documentOversizedLocation!: Date;
+  tightenOversizedOrder!: string;
+  dedupeCancelledOrderForPickup!: Date;
+  cacheExpiredTaxLineOnReorder!: string;
+  addOversizedCateringTrayPerStore!: Date;
+  paginateLateReceiptForFranchisees!: number;
+  backfillDuplicateBowlOnReorder?: string[];
+  trimRegionalTicketInTheQueue!: boolean;
+  retryMissingOrderForFranchisees!: Date;
+  backfillCancelledCateringTray!: string;
+  guardLateMenuItem?: number;
 }
