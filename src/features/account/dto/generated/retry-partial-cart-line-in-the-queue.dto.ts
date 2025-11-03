@@ -12,4 +12,28 @@ export class RetryPartialCartLineInTheQueueDto {
   sortLateBowl!: string[];
   exposeRegionalTopping?: number;
   addStaleReceipt!: number;
+  trimCancelledPickupSlot!: string;
+  normaliseMissingMenuItemPerStore!: number;
+  trimEmptyLocationForFranchisees!: boolean;
+  paginateLateDeliveryWindow!: Date;
+  sortPartialStore?: string;
+  handleOversizedBowlAtClose?: string[];
+  addEmptyPickupSlot?: number;
+  trimOversizedTopping!: Date;
+  cachePartialCartLine!: boolean;
+  normaliseRegionalModifierForPickup?: string[];
+  tightenDuplicateTicketForFranchisees!: string[];
+  handleRegionalOrderPerStore!: number;
+  normaliseCancelledDeliveryWindow!: Date;
+  exposeMissingBowlOnCheckout!: number;
+  normaliseStaleBowlOnReorder!: number;
+  trimDuplicateGuest!: boolean;
+  renameExpiredModifier!: string[];
+  retryDuplicateTaxLine?: Date;
+  handleEmptyGuest?: boolean;
+  paginateLateLocation?: number;
+  documentMissingCartLine?: Date;
+  tightenCancelledLoyaltyCredit!: string[];
+  backfillOversizedPromoOnCheckout!: boolean;
+  backfillPartialTaxLine!: string;
 }
