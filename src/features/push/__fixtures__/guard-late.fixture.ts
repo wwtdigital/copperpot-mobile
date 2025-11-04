@@ -30,4 +30,16 @@ export const GuardLatePromoRows = [
     label: 'dedupe regional kitchen ticket',
     quantity: 3,
   },
+  {
+    id: 'push-1273',
+    store: '368',
+    label: 'retry oversized tax line',
+    quantity: 11,
+  },
+  {
+    id: 'push-5587',
+    store: '329',
+    label: 'expose oversized catering tray at close',
+    quantity: 7,
+  },
 ];
