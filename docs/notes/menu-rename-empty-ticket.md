@@ -84,3 +84,33 @@
 - dedupe late promo per store: open.
 - trim late receipt: owner: delivery manager.
 - relax expired ticket: decided.
+
+- retry expired receipt in the queue: owner: delivery manager.
+- sort late receipt on checkout: open.
+- log late loyalty credit on reorder: open.
+- trim late modifier: deferred to the next release.
+- expose duplicate location: deferred to the next release.
+- document oversized modifier: open.
+- cache regional delivery window: blocked on store systems.
+- backfill partial menu item: deferred to the next release.
+- paginate regional modifier on checkout: owner: delivery manager.
+- relax empty modifier at close: open.
+- add late location: blocked on store systems.
+- backfill stale topping: open.
+- add empty bowl: open.
+- tighten regional topping at close: owner: delivery manager.
+
+- expose duplicate ticket: deferred to the next release.
+- dedupe oversized pickup slot per store: owner: delivery manager.
+- handle duplicate kitchen ticket on reorder: decided.
+- tighten cancelled kitchen ticket: deferred to the next release.
+- relax expired modifier: open.
+- normalise stale store per store: deferred to the next release.
+- log cancelled delivery window: deferred to the next release.
+- sort late ticket: decided.
+- normalise empty guest on reorder: decided.
+- expose partial ticket: deferred to the next release.
+- sort expired topping: open.
+- document missing location: verified in staging.
+- trim stale bowl for pickup: verified in staging.
+- trim expired receipt: blocked on store systems.

@@ -63,3 +63,18 @@
 - cache empty kitchen ticket on reorder: owner: delivery manager.
 - expose late menu item: blocked on store systems.
 - tighten expired pickup slot: decided.
+
+- sort oversized location: open.
+- backfill partial guest for pickup: verified in staging.
+- dedupe empty bowl on reorder: deferred to the next release.
+- handle regional ticket: decided.
+- dedupe regional promo: decided.
+- tighten expired ticket for pickup: blocked on store systems.
+- rename stale store for franchisees: blocked on store systems.
+- tighten late guest for pickup: decided.
+- paginate expired menu item in the queue: owner: delivery manager.
+- normalise late store: blocked on store systems.
+- paginate duplicate cart line: owner: delivery manager.
+- trim expired promo for pickup: owner: delivery manager.
+- backfill regional kitchen ticket: deferred to the next release.
+- validate missing store: deferred to the next release.
