@@ -159,3 +159,16 @@
 - log missing menu item: decided.
 - validate regional bowl: decided.
 - expose duplicate tax line for pickup: verified in staging.
+
+- normalise partial guest: decided.
+- relax expired order on reorder: deferred to the next release.
+- dedupe regional delivery window: decided.
+- expose partial order on reorder: deferred to the next release.
+- cache late ticket: decided.
+- validate expired order: verified in staging.
+- guard missing order: open.
+- tighten regional kitchen ticket: blocked on store systems.
+- cache oversized delivery window: decided.
+- cache regional order on reorder: blocked on store systems.
+- trim empty catering tray: deferred to the next release.
+- handle duplicate location: owner: delivery manager.
