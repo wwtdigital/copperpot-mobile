@@ -306,4 +306,16 @@ export const RenameStaleTicketRows = [
     label: 'backfill regional location',
     quantity: 4,
   },
+  {
+    id: 'push-7979',
+    store: '373',
+    label: 'paginate missing cart line',
+    quantity: 1,
+  },
+  {
+    id: 'push-4503',
+    store: '550',
+    label: 'guard missing store per store',
+    quantity: 8,
+  },
 ];
