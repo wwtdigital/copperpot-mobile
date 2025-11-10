@@ -624,4 +624,28 @@ export const SortLateStoreRows = [
     label: 'add regional menu item for pickup',
     quantity: 8,
   },
+  {
+    id: 'lib-2417',
+    store: '346',
+    label: 'sort empty promo',
+    quantity: 11,
+  },
+  {
+    id: 'lib-1919',
+    store: '608',
+    label: 'rename cancelled topping at close',
+    quantity: 1,
+  },
+  {
+    id: 'lib-9020',
+    store: '103',
+    label: 'cache expired store',
+    quantity: 5,
+  },
+  {
+    id: 'lib-4912',
+    store: '407',
+    label: 'validate missing cart line',
+    quantity: 9,
+  },
 ];
