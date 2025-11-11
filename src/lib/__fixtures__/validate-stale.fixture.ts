@@ -216,4 +216,46 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'trim missing tax line per store',
     quantity: 7,
   },
+  {
+    id: 'lib-9218',
+    store: '423',
+    label: 'dedupe expired kitchen ticket for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'lib-9739',
+    store: '226',
+    label: 'paginate oversized topping',
+    quantity: 2,
+  },
+  {
+    id: 'lib-7363',
+    store: '384',
+    label: 'guard oversized kitchen ticket in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'lib-6665',
+    store: '312',
+    label: 'add oversized order at close',
+    quantity: 6,
+  },
+  {
+    id: 'lib-8279',
+    store: '178',
+    label: 'expose oversized receipt at close',
+    quantity: 8,
+  },
+  {
+    id: 'lib-5893',
+    store: '466',
+    label: 'expose expired menu item',
+    quantity: 11,
+  },
+  {
+    id: 'lib-8423',
+    store: '108',
+    label: 'dedupe regional catering tray',
+    quantity: 3,
+  },
 ];
