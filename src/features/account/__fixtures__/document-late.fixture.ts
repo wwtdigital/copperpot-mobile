@@ -6,4 +6,10 @@ export const DocumentLateTicketRows = [
     label: 'document partial kitchen ticket',
     quantity: 11,
   },
+  {
+    id: 'account-9269',
+    store: '346',
+    label: 'cache stale kitchen ticket',
+    quantity: 4,
+  },
 ];
