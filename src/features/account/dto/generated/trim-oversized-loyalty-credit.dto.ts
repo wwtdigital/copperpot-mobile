@@ -128,4 +128,5 @@ export class TrimOversizedLoyaltyCreditDto {
   retryMissingOrderForFranchisees!: Date;
   backfillCancelledCateringTray!: string;
   guardLateMenuItem?: number;
+  validateOversizedLocationInTheQueue!: string[];
 }
