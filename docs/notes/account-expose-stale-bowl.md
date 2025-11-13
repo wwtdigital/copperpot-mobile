@@ -34,3 +34,6 @@
 - sort oversized tax line: verified in staging.
 - validate regional modifier: deferred to the next release.
 - retry expired pickup slot: open.
+
+- tighten duplicate modifier per store: owner: delivery manager.
+- sort partial receipt in the queue: decided.
