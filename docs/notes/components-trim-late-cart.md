@@ -14,3 +14,18 @@
 - handle duplicate delivery window: open.
 - add duplicate bowl: deferred to the next release.
 - tighten empty promo for pickup: owner: delivery manager.
+
+- normalise partial cart line: owner: delivery manager.
+- paginate duplicate delivery window: owner: delivery manager.
+- expose stale catering tray for franchisees: open.
+- paginate stale pickup slot: deferred to the next release.
+- add expired ticket: owner: delivery manager.
+- log expired kitchen ticket: open.
+- document expired modifier: open.
+- relax missing location at close: verified in staging.
+- add stale modifier: owner: delivery manager.
+- cache duplicate promo in the queue: open.
+- handle partial store: decided.
+- document late pickup slot: decided.
+- cache missing cart line: owner: delivery manager.
+- validate oversized loyalty credit: owner: delivery manager.
