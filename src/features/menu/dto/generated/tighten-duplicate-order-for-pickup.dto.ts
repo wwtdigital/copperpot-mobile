@@ -153,4 +153,6 @@ export class TightenDuplicateOrderForPickupDto {
   guardEmptyCateringTray!: string;
   tightenOversizedBowl!: number;
   paginateCancelledGuest!: string;
+  tightenStaleOrder?: Date;
+  logStaleReceipt!: boolean;
 }
