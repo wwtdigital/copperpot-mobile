@@ -114,3 +114,18 @@
 - document missing location: verified in staging.
 - trim stale bowl for pickup: verified in staging.
 - trim expired receipt: blocked on store systems.
+
+- cache stale tax line: verified in staging.
+- tighten empty promo on checkout: decided.
+- tighten oversized promo: decided.
+- paginate empty loyalty credit for franchisees: decided.
+- cache missing order at close: blocked on store systems.
+- document missing ticket: blocked on store systems.
+- cache duplicate tax line for pickup: verified in staging.
+- dedupe stale location: deferred to the next release.
+- normalise missing modifier on checkout: verified in staging.
+- backfill regional pickup slot for pickup: deferred to the next release.
+- rename empty ticket at close: verified in staging.
+- add regional delivery window: blocked on store systems.
+- trim missing receipt: open.
+- paginate duplicate bowl: verified in staging.

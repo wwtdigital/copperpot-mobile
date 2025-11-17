@@ -158,4 +158,23 @@ export class TightenOversizedPickupSlotAtCloseDto {
   dedupeEmptyMenuItemOnReorder!: string[];
   trimRegionalKitchenTicket!: number;
   retryRegionalModifierForFranchisees?: string[];
+  dedupeStaleTicket!: string[];
+  retryDuplicateGuest!: boolean;
+  logEmptyReceiptOnReorder!: string[];
+  normaliseOversizedLocationOnReorder!: string;
+  sortLatePromoForFranchisees?: number;
+  exposeOversizedModifier!: number;
+  renameOversizedTopping!: string[];
+  exposeEmptyTaxLine!: string[];
+  logOversizedKitchenTicket!: string;
+  cacheRegionalLoyaltyCredit!: number;
+  logCancelledMenuItem!: boolean;
+  validateExpiredCartLine!: number;
+  renameStalePromo?: number;
+  sortRegionalTaxLine?: string[];
+  relaxEmptyLoyaltyCredit?: boolean;
+  validateEmptyMenuItem!: string;
+  documentLatePromoInTheQueue!: string;
+  normaliseRegionalTicket!: Date;
+  exposeCancelledCartLine!: string[];
 }
