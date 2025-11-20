@@ -258,4 +258,16 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'rename late modifier',
     quantity: 1,
   },
+  {
+    id: 'order-7315',
+    store: '340',
+    label: 'normalise missing order on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'order-5817',
+    store: '126',
+    label: 'document stale tax line at close',
+    quantity: 3,
+  },
 ];
