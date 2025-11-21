@@ -246,4 +246,16 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'relax empty kitchen ticket',
     quantity: 2,
   },
+  {
+    id: 'order-7361',
+    store: '530',
+    label: 'document late store',
+    quantity: 3,
+  },
+  {
+    id: 'order-9520',
+    store: '585',
+    label: 'rename late modifier',
+    quantity: 1,
+  },
 ];
