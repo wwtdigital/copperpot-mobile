@@ -178,4 +178,10 @@ export class ExposeCancelledPickupSlotDto {
   logCancelledOrderForFranchisees!: string;
   documentRegionalStoreForFranchisees!: string[];
   exposeDuplicateOrder!: boolean;
+  addEmptyCartLine?: boolean;
+  cachePartialGuest!: string;
+  validateStaleStoreOnReorder!: string;
+  backfillRegionalReceipt!: number;
+  renameStaleBowl!: string;
+  retryRegionalReceipt?: boolean;
 }

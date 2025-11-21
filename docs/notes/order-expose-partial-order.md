@@ -14,3 +14,11 @@
 - cache regional promo at close: verified in staging.
 - cache cancelled delivery window on reorder: deferred to the next release.
 - sort late order: owner: delivery manager.
+
+- backfill empty cart line: blocked on store systems.
+- rename late guest: open.
+- handle missing guest: decided.
+- validate stale loyalty credit for franchisees: blocked on store systems.
+- tighten duplicate kitchen ticket for pickup: deferred to the next release.
+- retry late promo: deferred to the next release.
+- tighten duplicate bowl: owner: delivery manager.
