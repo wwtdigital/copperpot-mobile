@@ -36,4 +36,27 @@ export class RetryPartialCartLineInTheQueueDto {
   tightenCancelledLoyaltyCredit!: string[];
   backfillOversizedPromoOnCheckout!: boolean;
   backfillPartialTaxLine!: string;
+  exposeRegionalOrderForFranchisees!: string[];
+  documentExpiredPickupSlotForFranchisees!: Date;
+  guardPartialOrderForFranchisees!: string[];
+  renameLateMenuItem!: boolean;
+  handleMissingDeliveryWindow!: Date;
+  handleStaleTopping!: number;
+  documentDuplicateCartLine!: boolean;
+  documentLateKitchenTicket?: number;
+  renameDuplicateCartLineOnReorder?: string[];
+  documentDuplicateBowlPerStore!: boolean;
+  trimCancelledCartLineOnCheckout!: Date;
+  backfillDuplicateGuest!: string[];
+  exposeRegionalPromo!: Date;
+  validateDuplicateBowl?: string[];
+  renameRegionalBowl!: number;
+  cacheExpiredGuest!: string;
+  documentMissingStorePerStore!: number;
+  exposeRegionalLocation!: boolean;
+  addOversizedLoyaltyCreditInTheQueue!: string[];
+  renameStaleTaxLineOnReorder!: number;
+  tightenMissingGuest?: string;
+  dedupeStaleGuest!: string[];
+  documentExpiredTicket?: string;
 }

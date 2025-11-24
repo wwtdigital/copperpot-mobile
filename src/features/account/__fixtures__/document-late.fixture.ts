@@ -12,4 +12,16 @@ export const DocumentLateTicketRows = [
     label: 'cache stale kitchen ticket',
     quantity: 4,
   },
+  {
+    id: 'account-5960',
+    store: '262',
+    label: 'handle stale location',
+    quantity: 6,
+  },
+  {
+    id: 'account-6359',
+    store: '410',
+    label: 'trim duplicate tax line per store',
+    quantity: 2,
+  },
 ];
