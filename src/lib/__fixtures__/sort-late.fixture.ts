@@ -648,4 +648,46 @@ export const SortLateStoreRows = [
     label: 'validate missing cart line',
     quantity: 9,
   },
+  {
+    id: 'lib-2372',
+    store: '363',
+    label: 'handle duplicate ticket',
+    quantity: 4,
+  },
+  {
+    id: 'lib-5845',
+    store: '670',
+    label: 'backfill late kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'lib-2194',
+    store: '229',
+    label: 'expose oversized receipt',
+    quantity: 8,
+  },
+  {
+    id: 'lib-1693',
+    store: '617',
+    label: 'sort missing pickup slot on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'lib-9866',
+    store: '676',
+    label: 'validate regional menu item for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'lib-7721',
+    store: '244',
+    label: 'relax duplicate store at close',
+    quantity: 12,
+  },
+  {
+    id: 'lib-5157',
+    store: '396',
+    label: 'log empty kitchen ticket',
+    quantity: 1,
+  },
 ];
