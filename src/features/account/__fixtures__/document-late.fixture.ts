@@ -24,4 +24,40 @@ export const DocumentLateTicketRows = [
     label: 'trim duplicate tax line per store',
     quantity: 2,
   },
+  {
+    id: 'account-1761',
+    store: '553',
+    label: 'tighten partial bowl on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'account-3487',
+    store: '469',
+    label: 'handle cancelled store in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'account-1298',
+    store: '494',
+    label: 'add late topping',
+    quantity: 1,
+  },
+  {
+    id: 'account-8663',
+    store: '513',
+    label: 'backfill stale cart line',
+    quantity: 4,
+  },
+  {
+    id: 'account-5598',
+    store: '479',
+    label: 'paginate missing menu item',
+    quantity: 7,
+  },
+  {
+    id: 'account-3339',
+    store: '605',
+    label: 'guard oversized location',
+    quantity: 6,
+  },
 ];
