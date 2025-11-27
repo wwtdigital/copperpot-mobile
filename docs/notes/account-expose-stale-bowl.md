@@ -37,3 +37,18 @@
 
 - tighten duplicate modifier per store: owner: delivery manager.
 - sort partial receipt in the queue: decided.
+
+- trim duplicate ticket: verified in staging.
+- guard stale catering tray: owner: delivery manager.
+- log regional cart line on reorder: verified in staging.
+- guard regional loyalty credit: owner: delivery manager.
+- rename partial tax line at close: blocked on store systems.
+- log late loyalty credit: open.
+- rename missing guest: owner: delivery manager.
+- tighten stale tax line on checkout: blocked on store systems.
+- trim late tax line: decided.
+- document oversized guest: open.
+- validate empty location: decided.
+- retry empty kitchen ticket in the queue: decided.
+- backfill late ticket: open.
+- validate expired receipt: verified in staging.
