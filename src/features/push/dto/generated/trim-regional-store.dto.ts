@@ -2,4 +2,28 @@
 export class TrimRegionalStoreDto {
   renameOversizedBowlAtClose!: string[];
   trimExpiredOrder!: Date;
+  addOversizedKitchenTicket!: boolean;
+  paginateDuplicateDeliveryWindow?: boolean;
+  cacheCancelledGuest?: Date;
+  backfillCancelledStore!: string;
+  renameRegionalOrder!: string[];
+  cachePartialLocation!: boolean;
+  dedupeCancelledDeliveryWindow!: string;
+  validateLateMenuItem!: boolean;
+  relaxOversizedKitchenTicketOnReorder!: string;
+  validateDuplicateDeliveryWindowForPickup?: number;
+  validateStaleDeliveryWindow!: string[];
+  tightenLateTopping!: Date;
+  trimEmptyTopping?: number;
+  cacheDuplicateMenuItem!: string[];
+  dedupeEmptyLoyaltyCreditOnReorder!: string[];
+  retryPartialKitchenTicketOnReorder!: string[];
+  normaliseOversizedKitchenTicket!: boolean;
+  normaliseDuplicateStore?: string;
+  renameMissingCartLine?: number;
+  addOversizedToppingOnCheckout?: string;
+  addPartialTicket?: string;
+  cacheRegionalStoreOnCheckout!: number;
+  addCancelledOrderOnReorder!: number;
+  dedupeEmptyTicket!: string[];
 }
