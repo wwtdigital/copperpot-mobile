@@ -960,4 +960,22 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'paginate duplicate catering tray at close',
     quantity: 2,
   },
+  {
+    id: 'components-1717',
+    store: '646',
+    label: 'document stale modifier for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'components-1007',
+    store: '303',
+    label: 'add stale receipt for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'components-7806',
+    store: '581',
+    label: 'trim cancelled loyalty credit for pickup',
+    quantity: 12,
+  },
 ];
