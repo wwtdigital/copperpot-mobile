@@ -122,4 +122,13 @@ export class SortStaleBowlDto {
   paginateDuplicateMenuItemForPickup!: Date;
   exposeDuplicateOrderPerStore?: string;
   cacheDuplicateOrderForFranchisees?: Date;
+  trimOversizedLoyaltyCredit!: boolean;
+  backfillRegionalCateringTray?: string;
+  trimEmptyStoreOnReorder!: boolean;
+  renameRegionalMenuItem!: Date;
+  cacheCancelledLocationOnReorder?: Date;
+  sortRegionalReceiptAtClose!: boolean;
+  addMissingMenuItemForFranchisees?: string[];
+  documentCancelledTaxLineForFranchisees?: number;
+  documentOversizedReceiptOnCheckout!: string;
 }

@@ -246,4 +246,16 @@ export const TrimStaleStoreForPickupRows = [
     label: 'add late guest',
     quantity: 8,
   },
+  {
+    id: 'cart-8384',
+    store: '242',
+    label: 'add expired cart line at close',
+    quantity: 11,
+  },
+  {
+    id: 'cart-4604',
+    store: '365',
+    label: 'add partial modifier',
+    quantity: 9,
+  },
 ];
