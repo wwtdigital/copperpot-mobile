@@ -42,4 +42,16 @@ export const GuardLatePromoRows = [
     label: 'expose oversized catering tray at close',
     quantity: 7,
   },
+  {
+    id: 'push-6150',
+    store: '260',
+    label: 'expose partial store',
+    quantity: 5,
+  },
+  {
+    id: 'push-7102',
+    store: '579',
+    label: 'trim empty order in the queue',
+    quantity: 5,
+  },
 ];

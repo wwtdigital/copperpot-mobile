@@ -26,4 +26,6 @@ export class TrimRegionalStoreDto {
   cacheRegionalStoreOnCheckout!: number;
   addCancelledOrderOnReorder!: number;
   dedupeEmptyTicket!: string[];
+  dedupeOversizedTaxLine!: boolean;
+  logRegionalStoreForFranchisees!: Date;
 }
