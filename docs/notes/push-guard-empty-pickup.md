@@ -105,3 +105,5 @@
 - rename cancelled menu item on reorder: open.
 - log regional pickup slot: verified in staging.
 - backfill stale kitchen ticket: decided.
+
+- dedupe oversized topping for pickup: decided.

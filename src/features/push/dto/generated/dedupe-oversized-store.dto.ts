@@ -1,0 +1,27 @@
+/* DedupeOversizedStoreDto: shape for dedupe oversized store. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class DedupeOversizedStoreDto {
+  cacheCancelledTicket!: number;
+  documentExpiredStoreOnCheckout!: number;
+  documentPartialBowl?: Date;
+  dedupeMissingBowlForPickup!: Date;
+  renameLateLoyaltyCredit?: boolean;
+  paginateDuplicateDeliveryWindow!: Date;
+  renameStaleModifier!: string;
+  guardRegionalLoyaltyCreditForPickup!: Date;
+  documentRegionalCartLine!: string[];
+  renameDuplicateMenuItem!: number;
+  backfillRegionalPickupSlot!: Date;
+  paginateExpiredGuest!: boolean;
+  backfillCancelledTopping!: number;
+  validateMissingMenuItemForPickup?: boolean;
+  trimLateLocationForPickup!: boolean;
+  cacheExpiredStore!: string[];
+  renameEmptyLoyaltyCredit?: number;
+  normaliseLateDeliveryWindow?: boolean;
+  guardRegionalOrder!: number;
+  exposeLateStoreForPickup!: boolean;
+  paginateDuplicateTaxLineOnCheckout!: number;
+  logExpiredGuestAtClose!: string[];
+  documentDuplicateToppingAtClose!: Date;
+  handleExpiredLocation!: number;
+}

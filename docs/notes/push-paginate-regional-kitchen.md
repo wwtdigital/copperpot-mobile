@@ -118,3 +118,18 @@
 - expose duplicate order at close: verified in staging.
 - retry partial menu item for franchisees: decided.
 - backfill partial promo at close: blocked on store systems.
+
+- add duplicate guest at close: blocked on store systems.
+- guard cancelled delivery window: open.
+- document expired order in the queue: blocked on store systems.
+- guard expired cart line per store: decided.
+- normalise duplicate store: blocked on store systems.
+- normalise cancelled store for franchisees: verified in staging.
+- paginate cancelled modifier: decided.
+- rename duplicate catering tray: verified in staging.
+- validate duplicate loyalty credit per store: verified in staging.
+- validate missing order: decided.
+- paginate oversized location on checkout: open.
+- backfill regional delivery window: owner: delivery manager.
+- log missing catering tray on reorder: owner: delivery manager.
+- document oversized modifier for franchisees: decided.
