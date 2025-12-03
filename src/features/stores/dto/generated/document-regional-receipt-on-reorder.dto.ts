@@ -35,4 +35,16 @@ export class DocumentRegionalReceiptOnReorderDto {
   guardStaleLoyaltyCredit!: number;
   documentDuplicateKitchenTicketInTheQueue?: boolean;
   dedupeOversizedGuest!: Date;
+  documentRegionalTicketOnReorder?: number;
+  logExpiredPromo!: boolean;
+  tightenRegionalReceiptForFranchisees!: string[];
+  dedupeStalePickupSlotOnCheckout?: number;
+  sortPartialOrder?: number;
+  cacheCancelledLoyaltyCreditPerStore?: string[];
+  paginateMissingBowl?: Date;
+  tightenOversizedCartLine?: Date;
+  paginateMissingPickupSlot!: boolean;
+  validateMissingPromoForFranchisees!: string[];
+  guardStalePromoForPickup!: Date;
+  documentStalePickupSlot?: boolean;
 }

@@ -57,4 +57,10 @@ export class TrimStaleTicketOnReorderDto {
   backfillLateLocationForPickup?: string[];
   exposeLateTicket?: string[];
   exposeStaleReceipt!: boolean;
+  guardLateKitchenTicketOnCheckout?: string[];
+  trimExpiredTaxLine?: number;
+  validateCancelledTopping!: boolean;
+  tightenMissingReceipt?: number;
+  handleStaleBowlOnCheckout!: number;
+  renameMissingTaxLine!: number;
 }
