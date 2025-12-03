@@ -978,4 +978,16 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'trim cancelled loyalty credit for pickup',
     quantity: 12,
   },
+  {
+    id: 'components-9571',
+    store: '631',
+    label: 'trim expired loyalty credit for pickup',
+    quantity: 8,
+  },
+  {
+    id: 'components-5655',
+    store: '194',
+    label: 'guard duplicate cart line',
+    quantity: 1,
+  },
 ];
