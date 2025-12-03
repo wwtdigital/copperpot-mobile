@@ -12,4 +12,10 @@ export const PaginateStaleGuestRows = [
     label: 'validate expired topping in the queue',
     quantity: 8,
   },
+  {
+    id: 'loyalty-2330',
+    store: '246',
+    label: 'tighten stale location',
+    quantity: 4,
+  },
 ];
