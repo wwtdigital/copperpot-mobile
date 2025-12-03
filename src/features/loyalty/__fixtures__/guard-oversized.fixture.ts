@@ -462,4 +462,22 @@ export const GuardOversizedLocationRows = [
     label: 'backfill partial guest per store',
     quantity: 7,
   },
+  {
+    id: 'loyalty-7924',
+    store: '311',
+    label: 'paginate empty catering tray at close',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-9392',
+    store: '609',
+    label: 'relax oversized tax line',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-9824',
+    store: '583',
+    label: 'rename oversized ticket',
+    quantity: 6,
+  },
 ];

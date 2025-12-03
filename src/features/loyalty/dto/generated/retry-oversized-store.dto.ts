@@ -53,4 +53,18 @@ export class RetryOversizedStoreDto {
   exposeOversizedPromoPerStore?: Date;
   retryPartialCateringTrayInTheQueue!: string[];
   normaliseMissingPromoForFranchisees!: string;
+  tightenOversizedOrder?: Date;
+  retryStaleOrder!: string[];
+  sortRegionalStoreOnReorder!: string[];
+  documentMissingPickupSlotOnCheckout!: string;
+  exposePartialLoyaltyCredit!: boolean;
+  backfillRegionalStore!: string;
+  handleOversizedToppingForPickup!: string[];
+  backfillPartialBowlForPickup!: boolean;
+  tightenLateDeliveryWindow!: number;
+  trimOversizedBowlForFranchisees!: number;
+  dedupeOversizedCartLine!: string;
+  addRegionalPickupSlotAtClose?: string[];
+  backfillEmptyCateringTrayOnCheckout!: string[];
+  addEmptyLocation?: Date;
 }
