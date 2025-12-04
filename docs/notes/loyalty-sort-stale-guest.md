@@ -23,3 +23,9 @@
 - expose partial promo: verified in staging.
 
 - log regional receipt on checkout: deferred to the next release.
+
+- tighten cancelled cart line in the queue: blocked on store systems.
+- guard late menu item: decided.
+- add oversized delivery window: blocked on store systems.
+- handle partial pickup slot at close: open.
+- log late tax line: blocked on store systems.

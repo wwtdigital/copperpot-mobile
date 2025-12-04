@@ -24,4 +24,14 @@ export class PaginateOversizedReceiptAtCloseDto {
   retryMissingPromo?: string[];
   handleExpiredTaxLineOnCheckout!: Date;
   guardStaleTicket!: Date;
+  paginateRegionalModifierOnReorder!: boolean;
+  paginateStaleTaxLine!: boolean;
+  normalisePartialBowl!: boolean;
+  paginateLateLoyaltyCreditOnCheckout?: Date;
+  relaxExpiredStoreForPickup?: Date;
+  documentPartialCartLine!: string;
+  retryEmptyPickupSlot!: number;
+  guardMissingPromo?: string[];
+  paginateLatePromoPerStore!: Date;
+  dedupeRegionalCartLineAtClose?: number;
 }
