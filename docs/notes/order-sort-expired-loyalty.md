@@ -55,3 +55,10 @@
 - relax empty menu item on reorder: verified in staging.
 - log oversized catering tray for franchisees: verified in staging.
 - rename oversized menu item: owner: delivery manager.
+
+- rename duplicate delivery window per store: verified in staging.
+- rename duplicate modifier: verified in staging.
+- sort stale menu item: decided.
+- rename stale pickup slot for pickup: open.
+- document duplicate kitchen ticket: deferred to the next release.
+- cache duplicate topping: blocked on store systems.
