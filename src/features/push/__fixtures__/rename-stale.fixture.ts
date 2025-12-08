@@ -318,4 +318,28 @@ export const RenameStaleTicketRows = [
     label: 'guard missing store per store',
     quantity: 8,
   },
+  {
+    id: 'push-4573',
+    store: '460',
+    label: 'dedupe cancelled ticket',
+    quantity: 6,
+  },
+  {
+    id: 'push-3791',
+    store: '393',
+    label: 'handle empty tax line',
+    quantity: 3,
+  },
+  {
+    id: 'push-1130',
+    store: '394',
+    label: 'normalise duplicate cart line',
+    quantity: 9,
+  },
+  {
+    id: 'push-7888',
+    store: '650',
+    label: 'expose expired topping',
+    quantity: 7,
+  },
 ];
