@@ -270,4 +270,16 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'document stale tax line at close',
     quantity: 3,
   },
+  {
+    id: 'order-3012',
+    store: '225',
+    label: 'paginate regional ticket',
+    quantity: 12,
+  },
+  {
+    id: 'order-9394',
+    store: '164',
+    label: 'guard partial receipt',
+    quantity: 3,
+  },
 ];
