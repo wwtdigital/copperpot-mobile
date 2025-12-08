@@ -77,3 +77,16 @@
 - dedupe duplicate store: owner: delivery manager.
 - trim oversized modifier on reorder: verified in staging.
 - paginate stale location: verified in staging.
+
+- expose expired promo at close: verified in staging.
+- tighten empty location for pickup: blocked on store systems.
+- cache partial bowl: open.
+- normalise cancelled bowl on checkout: blocked on store systems.
+- validate oversized modifier for franchisees: deferred to the next release.
+- document missing guest: open.
+- log duplicate kitchen ticket at close: deferred to the next release.
+- cache empty location in the queue: deferred to the next release.
+- cache empty topping: deferred to the next release.
+- backfill stale order: open.
+- normalise empty location: owner: delivery manager.
+- normalise empty receipt for franchisees: deferred to the next release.
