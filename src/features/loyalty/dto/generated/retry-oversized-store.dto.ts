@@ -91,4 +91,13 @@ export class RetryOversizedStoreDto {
   addMissingCateringTrayOnReorder?: string;
   renameDuplicateMenuItem!: Date;
   cachePartialStoreForPickup!: number;
+  trimLatePickupSlot!: string[];
+  paginateEmptyPickupSlot!: Date;
+  addStaleOrderInTheQueue?: boolean;
+  paginateMissingTopping!: string[];
+  tightenPartialLoyaltyCreditOnCheckout!: string;
+  handleExpiredTaxLine!: string[];
+  guardEmptyBowlOnReorder!: boolean;
+  logCancelledTaxLine!: Date;
+  sortLateMenuItemForFranchisees?: number;
 }
