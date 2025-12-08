@@ -100,4 +100,6 @@ export class RetryOversizedStoreDto {
   guardEmptyBowlOnReorder!: boolean;
   logCancelledTaxLine!: Date;
   sortLateMenuItemForFranchisees?: number;
+  cacheMissingOrder!: boolean;
+  paginateDuplicateGuest!: boolean;
 }
