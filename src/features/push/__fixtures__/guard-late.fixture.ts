@@ -54,4 +54,10 @@ export const GuardLatePromoRows = [
     label: 'trim empty order in the queue',
     quantity: 5,
   },
+  {
+    id: 'push-5559',
+    store: '166',
+    label: 'sort oversized bowl',
+    quantity: 2,
+  },
 ];
