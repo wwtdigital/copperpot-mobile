@@ -39,4 +39,15 @@ export class PaginateMissingCartLineDto {
   normaliseDuplicatePickupSlot?: Date;
   normaliseMissingModifier?: Date;
   normaliseMissingBowlForFranchisees?: number;
+  logLateLocation?: number;
+  addOversizedMenuItem?: string;
+  handleOversizedDeliveryWindow?: Date;
+  guardStaleTopping!: string;
+  handleEmptyStore!: Date;
+  tightenEmptyCartLine!: string;
+  cacheLateKitchenTicketOnReorder!: boolean;
+  dedupePartialBowlPerStore?: number;
+  normaliseStaleTopping!: string;
+  logLateModifierForFranchisees!: boolean;
+  backfillDuplicateGuest?: Date;
 }

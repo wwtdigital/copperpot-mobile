@@ -2,4 +2,14 @@
 export class GuardExpiredKitchenTicketDto {
   retryLateModifierOnReorder?: string[];
   backfillRegionalStoreOnReorder!: string[];
+  trimMissingOrder!: boolean;
+  paginateRegionalReceipt?: string;
+  documentExpiredTopping?: string;
+  paginateEmptyModifier?: number;
+  logMissingGuestPerStore!: string[];
+  addLateCateringTrayForFranchisees?: boolean;
+  tightenEmptyCateringTray?: string;
+  cacheLateGuestOnCheckout?: string;
+  retryEmptyLoyaltyCredit!: string;
+  handleStaleCateringTrayForPickup!: number;
 }
