@@ -492,4 +492,34 @@ export const GuardOversizedLocationRows = [
     label: 'normalise late receipt in the queue',
     quantity: 7,
   },
+  {
+    id: 'loyalty-8836',
+    store: '112',
+    label: 'cache cancelled modifier',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-6599',
+    store: '644',
+    label: 'validate cancelled kitchen ticket at close',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-7670',
+    store: '538',
+    label: 'log regional store',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-7772',
+    store: '298',
+    label: 'normalise missing receipt on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-2492',
+    store: '222',
+    label: 'cache cancelled menu item',
+    quantity: 8,
+  },
 ];

@@ -79,3 +79,18 @@
 - dedupe duplicate store in the queue: owner: delivery manager.
 - trim stale order for pickup: decided.
 - handle late bowl: verified in staging.
+
+- log duplicate guest on checkout: deferred to the next release.
+- retry stale modifier per store: decided.
+- trim regional delivery window: open.
+- document regional tax line: deferred to the next release.
+- sort empty kitchen ticket on checkout: decided.
+- rename expired catering tray in the queue: decided.
+- sort stale topping for pickup: owner: delivery manager.
+- rename partial cart line at close: blocked on store systems.
+- handle partial guest: owner: delivery manager.
+- document duplicate loyalty credit on reorder: blocked on store systems.
+- expose partial pickup slot: deferred to the next release.
+- retry empty location: blocked on store systems.
+- dedupe stale topping: owner: delivery manager.
+- expose stale order in the queue: decided.
