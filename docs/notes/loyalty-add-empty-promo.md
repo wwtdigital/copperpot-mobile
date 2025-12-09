@@ -124,3 +124,6 @@
 - guard duplicate catering tray: deferred to the next release.
 - rename regional tax line: open.
 - retry expired bowl: blocked on store systems.
+
+- rename late promo in the queue: owner: delivery manager.
+- handle duplicate cart line at close: decided.

@@ -582,4 +582,22 @@ export const GuardOversizedLocationRows = [
     label: 'tighten late pickup slot for pickup',
     quantity: 11,
   },
+  {
+    id: 'loyalty-5656',
+    store: '319',
+    label: 'paginate oversized guest',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-5918',
+    store: '195',
+    label: 'relax late catering tray on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-2260',
+    store: '209',
+    label: 'expose missing tax line',
+    quantity: 3,
+  },
 ];
