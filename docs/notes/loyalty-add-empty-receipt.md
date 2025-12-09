@@ -195,3 +195,18 @@
 - validate expired promo for pickup: open.
 - trim regional cart line: owner: delivery manager.
 - rename oversized receipt: owner: delivery manager.
+
+- guard cancelled pickup slot: verified in staging.
+- document missing menu item for pickup: blocked on store systems.
+- normalise expired topping in the queue: verified in staging.
+- retry duplicate promo per store: open.
+- log expired pickup slot for franchisees: deferred to the next release.
+- log empty pickup slot: decided.
+- dedupe stale store: owner: delivery manager.
+- relax duplicate guest: deferred to the next release.
+- add late bowl: owner: delivery manager.
+- expose empty topping at close: verified in staging.
+- add oversized location for pickup: owner: delivery manager.
+- add partial catering tray on reorder: open.
+- handle duplicate menu item: verified in staging.
+- expose expired loyalty credit: blocked on store systems.
