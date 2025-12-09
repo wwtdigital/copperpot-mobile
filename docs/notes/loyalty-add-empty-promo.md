@@ -64,3 +64,18 @@
 - trim cancelled guest: deferred to the next release.
 - validate expired kitchen ticket: open.
 - add empty kitchen ticket at close: decided.
+
+- dedupe regional location for franchisees: deferred to the next release.
+- relax late receipt: blocked on store systems.
+- tighten oversized receipt: blocked on store systems.
+- expose expired tax line: decided.
+- relax cancelled catering tray in the queue: verified in staging.
+- sort cancelled loyalty credit in the queue: blocked on store systems.
+- paginate empty delivery window at close: owner: delivery manager.
+- document stale guest: blocked on store systems.
+- log late topping: verified in staging.
+- dedupe oversized menu item: deferred to the next release.
+- paginate missing bowl: verified in staging.
+- dedupe duplicate store in the queue: owner: delivery manager.
+- trim stale order for pickup: decided.
+- handle late bowl: verified in staging.

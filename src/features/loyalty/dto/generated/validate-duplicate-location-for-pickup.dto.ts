@@ -125,4 +125,28 @@ export class ValidateDuplicateLocationForPickupDto {
   backfillDuplicateReceipt?: string;
   dedupeMissingTaxLine!: number;
   renameEmptyDeliveryWindow!: Date;
+  exposeLateReceipt?: string;
+  exposeStaleBowlOnReorder?: string[];
+  exposeStaleCartLineOnReorder?: Date;
+  logStaleCartLinePerStore!: number;
+  documentPartialGuest!: string;
+  normaliseMissingKitchenTicket?: Date;
+  exposeDuplicateKitchenTicket!: boolean;
+  renameStaleOrderOnCheckout!: Date;
+  relaxCancelledReceipt?: boolean;
+  validateDuplicatePromo?: string;
+  renameLatePromo?: boolean;
+  exposeStalePickupSlotOnCheckout?: number;
+  validateExpiredReceipt!: string;
+  cacheExpiredKitchenTicketPerStore?: boolean;
+  renameDuplicateLocation?: string;
+  renameRegionalOrder!: string;
+  relaxEmptyGuestOnCheckout!: boolean;
+  normaliseStaleGuest?: string[];
+  addMissingPickupSlot!: string;
+  addEmptyBowl!: number;
+  guardDuplicateOrder!: string;
+  renameStaleLoyaltyCredit?: string[];
+  backfillLateMenuItemOnCheckout!: string[];
+  tightenRegionalPickupSlotForPickup!: Date;
 }

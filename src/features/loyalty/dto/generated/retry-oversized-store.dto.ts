@@ -67,4 +67,28 @@ export class RetryOversizedStoreDto {
   addRegionalPickupSlotAtClose?: string[];
   backfillEmptyCateringTrayOnCheckout!: string[];
   addEmptyLocation?: Date;
+  guardRegionalGuestOnCheckout!: string;
+  normaliseOversizedBowl!: string[];
+  normaliseEmptyGuestPerStore!: Date;
+  backfillPartialTopping!: string[];
+  relaxRegionalPromo!: number;
+  relaxStaleCateringTrayAtClose!: string;
+  logLateMenuItemForPickup?: number;
+  relaxExpiredLocationForPickup!: boolean;
+  handleEmptyTicketPerStore?: string;
+  backfillRegionalTaxLine!: Date;
+  cacheOversizedTaxLinePerStore!: string[];
+  cacheMissingMenuItemInTheQueue!: string;
+  sortDuplicateMenuItem!: string;
+  validateCancelledModifierInTheQueue!: Date;
+  paginateMissingKitchenTicket!: Date;
+  dedupeDuplicateReceipt!: string;
+  guardCancelledOrder!: Date;
+  paginateStalePromo!: string[];
+  exposeExpiredLoyaltyCredit?: number;
+  cacheCancelledBowlForPickup!: string;
+  addStaleTicketForPickup!: Date;
+  addMissingCateringTrayOnReorder?: string;
+  renameDuplicateMenuItem!: Date;
+  cachePartialStoreForPickup!: number;
 }

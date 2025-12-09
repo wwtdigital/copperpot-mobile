@@ -480,4 +480,16 @@ export const GuardOversizedLocationRows = [
     label: 'rename oversized ticket',
     quantity: 6,
   },
+  {
+    id: 'loyalty-6968',
+    store: '597',
+    label: 'relax missing location on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-7536',
+    store: '616',
+    label: 'normalise late receipt in the queue',
+    quantity: 7,
+  },
 ];
