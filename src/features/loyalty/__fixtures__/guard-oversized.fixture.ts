@@ -546,4 +546,40 @@ export const GuardOversizedLocationRows = [
     label: 'sort empty promo',
     quantity: 1,
   },
+  {
+    id: 'loyalty-1695',
+    store: '243',
+    label: 'sort missing guest',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-2376',
+    store: '481',
+    label: 'handle oversized loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-8373',
+    store: '142',
+    label: 'expose empty tax line',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-3581',
+    store: '584',
+    label: 'handle late kitchen ticket for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-6855',
+    store: '266',
+    label: 'tighten cancelled menu item',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-9374',
+    store: '511',
+    label: 'tighten late pickup slot for pickup',
+    quantity: 11,
+  },
 ];

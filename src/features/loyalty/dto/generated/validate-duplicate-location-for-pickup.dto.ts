@@ -174,4 +174,6 @@ export class ValidateDuplicateLocationForPickupDto {
   backfillDuplicateBowl!: Date;
   logMissingModifierAtClose!: string[];
   validateEmptyLoyaltyCredit!: string;
+  relaxPartialMenuItem!: number;
+  relaxDuplicateTopping?: Date;
 }

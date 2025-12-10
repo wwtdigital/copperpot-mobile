@@ -109,3 +109,18 @@
 - dedupe oversized catering tray: open.
 - relax duplicate modifier: verified in staging.
 - dedupe regional loyalty credit: blocked on store systems.
+
+- rename late cart line: blocked on store systems.
+- rename stale topping on checkout: blocked on store systems.
+- handle late cart line: decided.
+- normalise expired promo for franchisees: owner: delivery manager.
+- backfill partial store: verified in staging.
+- relax stale pickup slot: open.
+- dedupe regional menu item: verified in staging.
+- handle missing order: owner: delivery manager.
+- expose oversized order for pickup: open.
+- handle late modifier at close: verified in staging.
+- expose oversized delivery window: deferred to the next release.
+- guard duplicate catering tray: deferred to the next release.
+- rename regional tax line: open.
+- retry expired bowl: blocked on store systems.
