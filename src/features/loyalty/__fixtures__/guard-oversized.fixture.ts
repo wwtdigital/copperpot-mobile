@@ -564,4 +564,22 @@ export const GuardOversizedLocationRows = [
     label: 'expose empty tax line',
     quantity: 9,
   },
+  {
+    id: 'loyalty-3581',
+    store: '584',
+    label: 'handle late kitchen ticket for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-6855',
+    store: '266',
+    label: 'tighten cancelled menu item',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-9374',
+    store: '511',
+    label: 'tighten late pickup slot for pickup',
+    quantity: 11,
+  },
 ];
