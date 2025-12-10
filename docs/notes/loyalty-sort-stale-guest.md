@@ -23,3 +23,19 @@
 - expose partial promo: verified in staging.
 
 - log regional receipt on checkout: deferred to the next release.
+
+- tighten cancelled cart line in the queue: blocked on store systems.
+- guard late menu item: decided.
+- add oversized delivery window: blocked on store systems.
+- handle partial pickup slot at close: open.
+- log late tax line: blocked on store systems.
+
+- rename cancelled pickup slot: decided.
+- document oversized kitchen ticket for franchisees: verified in staging.
+- trim duplicate bowl per store: owner: delivery manager.
+- retry cancelled menu item on reorder: open.
+- document stale store: verified in staging.
+- expose regional receipt: deferred to the next release.
+- retry empty store on reorder: deferred to the next release.
+- guard stale tax line: owner: delivery manager.
+- validate late loyalty credit per store: verified in staging.
