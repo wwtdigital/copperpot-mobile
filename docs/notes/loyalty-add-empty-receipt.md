@@ -210,3 +210,7 @@
 - add partial catering tray on reorder: open.
 - handle duplicate menu item: verified in staging.
 - expose expired loyalty credit: blocked on store systems.
+
+- trim empty menu item for pickup: owner: delivery manager.
+- validate stale store at close: open.
+- tighten late menu item: owner: delivery manager.

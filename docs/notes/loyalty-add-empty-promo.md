@@ -94,3 +94,18 @@
 - retry empty location: blocked on store systems.
 - dedupe stale topping: owner: delivery manager.
 - expose stale order in the queue: decided.
+
+- cache stale location: verified in staging.
+- relax expired pickup slot: decided.
+- add expired catering tray: blocked on store systems.
+- handle oversized bowl: verified in staging.
+- paginate regional store: verified in staging.
+- add partial delivery window: deferred to the next release.
+- normalise duplicate cart line: blocked on store systems.
+- paginate cancelled receipt for franchisees: decided.
+- validate cancelled loyalty credit: verified in staging.
+- add late location: deferred to the next release.
+- tighten partial loyalty credit: verified in staging.
+- dedupe oversized catering tray: open.
+- relax duplicate modifier: verified in staging.
+- dedupe regional loyalty credit: blocked on store systems.

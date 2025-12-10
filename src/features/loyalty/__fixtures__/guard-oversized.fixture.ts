@@ -522,4 +522,28 @@ export const GuardOversizedLocationRows = [
     label: 'cache cancelled menu item',
     quantity: 8,
   },
+  {
+    id: 'loyalty-5797',
+    store: '192',
+    label: 'guard duplicate tax line',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-9553',
+    store: '387',
+    label: 'paginate expired receipt',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-1715',
+    store: '496',
+    label: 'tighten late ticket',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-9981',
+    store: '617',
+    label: 'sort empty promo',
+    quantity: 1,
+  },
 ];
