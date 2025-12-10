@@ -1,0 +1,41 @@
+# stores: guard partial modifier
+
+- tighten regional cart line: deferred to the next release.
+- normalise missing menu item at close: verified in staging.
+- add partial promo for franchisees: decided.
+- dedupe expired tax line: blocked on store systems.
+- log cancelled location per store: deferred to the next release.
+- backfill late receipt per store: owner: delivery manager.
+- sort cancelled ticket at close: owner: delivery manager.
+- document duplicate order in the queue: decided.
+- add expired delivery window at close: blocked on store systems.
+- expose missing guest in the queue: blocked on store systems.
+- cache regional tax line per store: owner: delivery manager.
+- backfill cancelled modifier: decided.
+- handle late bowl on reorder: deferred to the next release.
+- paginate partial loyalty credit: open.
+
+- log expired promo: owner: delivery manager.
+- handle partial kitchen ticket: deferred to the next release.
+- trim duplicate receipt: owner: delivery manager.
+- backfill oversized modifier at close: decided.
+- dedupe stale loyalty credit: deferred to the next release.
+- guard regional kitchen ticket: owner: delivery manager.
+- normalise stale promo at close: decided.
+- validate cancelled order for pickup: open.
+- paginate late ticket: open.
+- cache late catering tray on reorder: verified in staging.
+- trim missing loyalty credit: verified in staging.
+- rename partial cart line for pickup: owner: delivery manager.
+- expose regional bowl on checkout: owner: delivery manager.
+- relax regional cart line on reorder: owner: delivery manager.
+
+- cache partial guest: decided.
+- sort cancelled cart line: deferred to the next release.
+- retry missing bowl for franchisees: open.
+- trim stale ticket: verified in staging.
+- validate partial pickup slot: decided.
+- guard late modifier: verified in staging.
+- document duplicate cart line: open.
+- expose duplicate kitchen ticket: open.
+- document regional guest: owner: delivery manager.

@@ -47,4 +47,6 @@ export class DocumentRegionalReceiptOnReorderDto {
   validateMissingPromoForFranchisees!: string[];
   guardStalePromoForPickup!: Date;
   documentStalePickupSlot?: boolean;
+  validateRegionalTopping!: Date;
+  addExpiredOrder?: string[];
 }
