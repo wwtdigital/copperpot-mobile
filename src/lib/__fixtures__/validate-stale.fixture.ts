@@ -258,4 +258,46 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'dedupe regional catering tray',
     quantity: 3,
   },
+  {
+    id: 'lib-2275',
+    store: '535',
+    label: 'paginate regional receipt',
+    quantity: 6,
+  },
+  {
+    id: 'lib-1984',
+    store: '467',
+    label: 'handle oversized topping for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'lib-2329',
+    store: '148',
+    label: 'cache empty loyalty credit per store',
+    quantity: 5,
+  },
+  {
+    id: 'lib-9979',
+    store: '544',
+    label: 'expose stale ticket for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'lib-7207',
+    store: '616',
+    label: 'paginate oversized location',
+    quantity: 10,
+  },
+  {
+    id: 'lib-5742',
+    store: '531',
+    label: 'paginate cancelled receipt',
+    quantity: 9,
+  },
+  {
+    id: 'lib-3535',
+    store: '246',
+    label: 'tighten stale order',
+    quantity: 9,
+  },
 ];
