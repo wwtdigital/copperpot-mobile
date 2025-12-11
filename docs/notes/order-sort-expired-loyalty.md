@@ -62,3 +62,8 @@
 - rename stale pickup slot for pickup: open.
 - document duplicate kitchen ticket: deferred to the next release.
 - cache duplicate topping: blocked on store systems.
+
+- normalise late promo: owner: delivery manager.
+- paginate expired guest on checkout: verified in staging.
+- handle cancelled cart line in the queue: open.
+- sort oversized kitchen ticket at close: deferred to the next release.
