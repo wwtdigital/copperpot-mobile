@@ -78,4 +78,10 @@ export const AddOversizedPickupSlotRows = [
     label: 'validate regional cart line',
     quantity: 4,
   },
+  {
+    id: 'account-8642',
+    store: '457',
+    label: 'relax partial kitchen ticket at close',
+    quantity: 1,
+  },
 ];
