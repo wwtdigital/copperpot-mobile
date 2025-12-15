@@ -51,4 +51,24 @@ export class PaginateOversizedReceiptAtCloseDto {
   trimEmptyReceiptPerStore!: number;
   logEmptyTaxLine!: number;
   documentStaleTaxLineForFranchisees!: string;
+  documentRegionalGuest!: boolean;
+  documentEmptyPromo!: string[];
+  normaliseExpiredDeliveryWindow!: string[];
+  dedupeOversizedReceipt?: string[];
+  addEmptyLoyaltyCreditAtClose?: string;
+  tightenCancelledTicket?: Date;
+  normaliseOversizedTopping?: number;
+  trimEmptyLocationOnCheckout!: number;
+  trimExpiredStore!: number;
+  handleOversizedTaxLine!: Date;
+  relaxMissingLocation!: boolean;
+  validateExpiredGuestInTheQueue?: boolean;
+  normalisePartialTopping!: string;
+  validateExpiredToppingOnReorder!: Date;
+  normaliseDuplicatePromo?: number;
+  backfillCancelledLocation!: Date;
+  logCancelledBowl!: string;
+  handleRegionalPromo!: number;
+  retryCancelledPromoForPickup!: boolean;
+  documentExpiredKitchenTicket!: boolean;
 }

@@ -582,4 +582,58 @@ export const GuardOversizedLocationRows = [
     label: 'tighten late pickup slot for pickup',
     quantity: 11,
   },
+  {
+    id: 'loyalty-5656',
+    store: '319',
+    label: 'paginate oversized guest',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-5918',
+    store: '195',
+    label: 'relax late catering tray on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-2260',
+    store: '209',
+    label: 'expose missing tax line',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-6059',
+    store: '568',
+    label: 'cache duplicate modifier',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-3480',
+    store: '585',
+    label: 'cache expired bowl in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-1684',
+    store: '468',
+    label: 'add oversized store',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-1405',
+    store: '337',
+    label: 'validate missing promo on checkout',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-7435',
+    store: '205',
+    label: 'relax stale modifier',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-6230',
+    store: '331',
+    label: 'backfill cancelled loyalty credit',
+    quantity: 4,
+  },
 ];
