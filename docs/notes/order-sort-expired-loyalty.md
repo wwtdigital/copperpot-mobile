@@ -67,3 +67,18 @@
 - paginate expired guest on checkout: verified in staging.
 - handle cancelled cart line in the queue: open.
 - sort oversized kitchen ticket at close: deferred to the next release.
+
+- relax expired ticket: open.
+- sort oversized bowl: open.
+- rename partial topping: decided.
+- normalise regional order for pickup: blocked on store systems.
+- handle expired location for franchisees: decided.
+- normalise empty modifier: owner: delivery manager.
+- add regional modifier for franchisees: decided.
+- document expired store at close: owner: delivery manager.
+- normalise oversized delivery window: deferred to the next release.
+- handle empty ticket: open.
+- document late topping: decided.
+- tighten regional pickup slot for franchisees: open.
+- cache empty tax line per store: owner: delivery manager.
+- document empty order for pickup: owner: delivery manager.
