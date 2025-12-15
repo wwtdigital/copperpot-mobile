@@ -1,0 +1,105 @@
+/* Fixture rows for cart tests: paginate late menu item. Generated data, not production data. */
+export const PaginateLateMenuItemRows = [
+  {
+    id: 'cart-7639',
+    store: '195',
+    label: 'expose stale modifier',
+    quantity: 6,
+  },
+  {
+    id: 'cart-6335',
+    store: '477',
+    label: 'add partial menu item at close',
+    quantity: 7,
+  },
+  {
+    id: 'cart-4823',
+    store: '501',
+    label: 'trim oversized menu item per store',
+    quantity: 2,
+  },
+  {
+    id: 'cart-9086',
+    store: '606',
+    label: 'document empty modifier on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'cart-3491',
+    store: '394',
+    label: 'trim missing modifier on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'cart-9335',
+    store: '505',
+    label: 'expose empty topping',
+    quantity: 1,
+  },
+  {
+    id: 'cart-4928',
+    store: '358',
+    label: 'rename missing delivery window',
+    quantity: 4,
+  },
+  {
+    id: 'cart-5320',
+    store: '399',
+    label: 'paginate late pickup slot in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'cart-3778',
+    store: '645',
+    label: 'normalise oversized guest',
+    quantity: 8,
+  },
+  {
+    id: 'cart-4025',
+    store: '330',
+    label: 'handle cancelled ticket',
+    quantity: 6,
+  },
+  {
+    id: 'cart-7815',
+    store: '177',
+    label: 'retry empty topping',
+    quantity: 6,
+  },
+  {
+    id: 'cart-9417',
+    store: '238',
+    label: 'rename oversized loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'cart-6674',
+    store: '523',
+    label: 'retry regional delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'cart-8579',
+    store: '323',
+    label: 'backfill cancelled tax line on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'cart-5448',
+    store: '167',
+    label: 'document cancelled cart line',
+    quantity: 2,
+  },
+  {
+    id: 'cart-6393',
+    store: '675',
+    label: 'guard oversized bowl in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'cart-9003',
+    store: '423',
+    label: 'document regional guest in the queue',
+    quantity: 11,
+  },
+];
