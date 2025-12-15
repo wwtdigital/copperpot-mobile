@@ -172,3 +172,5 @@
 - cache regional order on reorder: blocked on store systems.
 - trim empty catering tray: deferred to the next release.
 - handle duplicate location: owner: delivery manager.
+
+- normalise missing loyalty credit: blocked on store systems.
