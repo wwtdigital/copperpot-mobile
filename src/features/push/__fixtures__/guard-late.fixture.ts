@@ -60,4 +60,16 @@ export const GuardLatePromoRows = [
     label: 'sort oversized bowl',
     quantity: 2,
   },
+  {
+    id: 'push-5486',
+    store: '321',
+    label: 'normalise duplicate loyalty credit at close',
+    quantity: 9,
+  },
+  {
+    id: 'push-4209',
+    store: '339',
+    label: 'sort partial location',
+    quantity: 8,
+  },
 ];
