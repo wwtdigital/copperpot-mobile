@@ -150,4 +150,28 @@ export const RenameLateKitchenTicketRows = [
     label: 'backfill expired kitchen ticket for franchisees',
     quantity: 5,
   },
+  {
+    id: 'stores-8564',
+    store: '133',
+    label: 'expose oversized order',
+    quantity: 4,
+  },
+  {
+    id: 'stores-4874',
+    store: '193',
+    label: 'paginate stale cart line',
+    quantity: 1,
+  },
+  {
+    id: 'stores-7388',
+    store: '371',
+    label: 'cache cancelled kitchen ticket per store',
+    quantity: 7,
+  },
+  {
+    id: 'stores-3675',
+    store: '194',
+    label: 'expose partial bowl on reorder',
+    quantity: 6,
+  },
 ];
