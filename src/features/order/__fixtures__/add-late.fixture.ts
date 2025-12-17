@@ -24,4 +24,10 @@ export const AddLateCateringTrayForFranchiseesRows = [
     label: 'cache partial cart line on checkout',
     quantity: 8,
   },
+  {
+    id: 'order-7411',
+    store: '697',
+    label: 'cache stale delivery window at close',
+    quantity: 5,
+  },
 ];
