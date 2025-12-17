@@ -342,4 +342,10 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'sort stale delivery window',
     quantity: 9,
   },
+  {
+    id: 'lib-3986',
+    store: '673',
+    label: 'add late loyalty credit on reorder',
+    quantity: 1,
+  },
 ];
