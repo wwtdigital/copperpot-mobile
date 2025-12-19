@@ -300,4 +300,46 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'tighten stale order',
     quantity: 9,
   },
+  {
+    id: 'lib-2009',
+    store: '488',
+    label: 'trim cancelled modifier for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'lib-4512',
+    store: '168',
+    label: 'cache cancelled receipt',
+    quantity: 6,
+  },
+  {
+    id: 'lib-9986',
+    store: '389',
+    label: 'guard partial store for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'lib-4849',
+    store: '577',
+    label: 'document duplicate loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'lib-7223',
+    store: '214',
+    label: 'retry partial ticket',
+    quantity: 5,
+  },
+  {
+    id: 'lib-8610',
+    store: '566',
+    label: 'tighten late ticket for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'lib-7391',
+    store: '450',
+    label: 'sort stale delivery window',
+    quantity: 9,
+  },
 ];
