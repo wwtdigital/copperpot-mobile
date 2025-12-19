@@ -282,4 +282,16 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'guard partial receipt',
     quantity: 3,
   },
+  {
+    id: 'order-9441',
+    store: '467',
+    label: 'document regional topping at close',
+    quantity: 3,
+  },
+  {
+    id: 'order-5450',
+    store: '366',
+    label: 'add late kitchen ticket in the queue',
+    quantity: 12,
+  },
 ];
