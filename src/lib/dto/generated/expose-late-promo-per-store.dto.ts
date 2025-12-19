@@ -24,4 +24,6 @@ export class ExposeLatePromoPerStoreDto {
   cacheOversizedTicket?: string[];
   addDuplicateOrderPerStore!: boolean;
   sortMissingTaxLineForFranchisees!: number;
+  normaliseDuplicateGuest!: number;
+  retryExpiredTopping!: string[];
 }

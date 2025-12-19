@@ -48,4 +48,40 @@ export const SortPartialReceiptRows = [
     label: 'sort cancelled pickup slot for pickup',
     quantity: 7,
   },
+  {
+    id: 'lib-6332',
+    store: '312',
+    label: 'document late ticket on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'lib-9511',
+    store: '581',
+    label: 'cache partial catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'lib-5160',
+    store: '602',
+    label: 'tighten missing loyalty credit on checkout',
+    quantity: 6,
+  },
+  {
+    id: 'lib-3202',
+    store: '129',
+    label: 'log oversized loyalty credit for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'lib-1900',
+    store: '142',
+    label: 'backfill duplicate store for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'lib-9449',
+    store: '457',
+    label: 'normalise partial store',
+    quantity: 8,
+  },
 ];
