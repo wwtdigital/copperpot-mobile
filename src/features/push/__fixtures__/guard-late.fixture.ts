@@ -72,4 +72,34 @@ export const GuardLatePromoRows = [
     label: 'sort partial location',
     quantity: 8,
   },
+  {
+    id: 'push-1872',
+    store: '218',
+    label: 'dedupe oversized topping in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'push-5135',
+    store: '360',
+    label: 'paginate late receipt',
+    quantity: 10,
+  },
+  {
+    id: 'push-2225',
+    store: '364',
+    label: 'backfill oversized location at close',
+    quantity: 10,
+  },
+  {
+    id: 'push-1503',
+    store: '442',
+    label: 'document missing pickup slot for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'push-2923',
+    store: '371',
+    label: 'paginate missing guest in the queue',
+    quantity: 5,
+  },
 ];
