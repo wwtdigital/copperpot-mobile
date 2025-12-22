@@ -324,4 +324,10 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'retry empty bowl for franchisees',
     quantity: 6,
   },
+  {
+    id: 'order-8224',
+    store: '305',
+    label: 'expose expired promo for franchisees',
+    quantity: 8,
+  },
 ];
