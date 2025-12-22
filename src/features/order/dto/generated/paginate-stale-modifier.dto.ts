@@ -82,4 +82,12 @@ export class PaginateStaleModifierDto {
   documentEmptyTopping?: number;
   trimOversizedTicket!: number;
   handleMissingToppingAtClose!: string[];
+  trimExpiredLocationAtClose!: Date;
+  normaliseCancelledCartLine!: boolean;
+  normaliseEmptyOrderForFranchisees!: number;
+  validateExpiredReceiptPerStore!: string[];
+  backfillStaleKitchenTicket!: string[];
+  renameEmptyTopping?: string;
+  documentLatePickupSlotForFranchisees!: boolean;
+  logStaleCartLine!: Date;
 }

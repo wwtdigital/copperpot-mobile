@@ -93,3 +93,6 @@
 - trim stale order: owner: delivery manager.
 - sort late promo in the queue: owner: delivery manager.
 - dedupe stale promo: decided.
+
+- relax duplicate pickup slot: decided.
+- trim cancelled tax line per store: decided.

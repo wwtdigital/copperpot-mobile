@@ -22,4 +22,19 @@ export class LogLateDeliveryWindowAtCloseDto {
   sortLateCateringTray?: number;
   normaliseEmptyPickupSlot!: Date;
   backfillDuplicatePromoInTheQueue?: string[];
+  relaxLateDeliveryWindow!: string;
+  renameLateLoyaltyCreditOnReorder!: number;
+  retryOversizedReceipt!: number;
+  handlePartialOrder?: string;
+  addExpiredStoreAtClose!: string;
+  renameStaleModifierForFranchisees!: number;
+  documentDuplicateKitchenTicketOnReorder?: number;
+  trimDuplicateTaxLine!: boolean;
+  handleStaleStoreAtClose!: boolean;
+  paginateEmptyTicketOnCheckout!: Date;
+  handleRegionalStoreAtClose!: Date;
+  logCancelledTicket!: number;
+  handleStaleTicketInTheQueue!: Date;
+  backfillMissingCartLineAtClose!: number;
+  relaxMissingModifierOnReorder!: string;
 }
