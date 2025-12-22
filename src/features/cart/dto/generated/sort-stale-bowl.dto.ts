@@ -131,4 +131,28 @@ export class SortStaleBowlDto {
   addMissingMenuItemForFranchisees?: string[];
   documentCancelledTaxLineForFranchisees?: number;
   documentOversizedReceiptOnCheckout!: string;
+  tightenPartialKitchenTicket?: string[];
+  exposeEmptyPromoPerStore?: number;
+  validateStaleTicketPerStore!: string[];
+  relaxOversizedBowlForFranchisees?: string;
+  documentCancelledLoyaltyCredit!: number;
+  relaxDuplicateCateringTrayPerStore?: Date;
+  normaliseOversizedCateringTray?: boolean;
+  dedupeCancelledModifier!: Date;
+  backfillExpiredTicket!: Date;
+  sortLateTopping?: string;
+  backfillExpiredCateringTray?: number;
+  retryExpiredCartLineInTheQueue?: boolean;
+  cacheOversizedPromo!: Date;
+  trimStaleGuest!: Date;
+  documentDuplicateLoyaltyCreditForPickup?: Date;
+  relaxOversizedOrder!: string[];
+  dedupeOversizedCartLineOnReorder?: string[];
+  validateOversizedCartLinePerStore?: string[];
+  tightenRegionalBowl!: Date;
+  backfillDuplicateModifier!: string[];
+  retryOversizedDeliveryWindowOnCheckout?: Date;
+  logCancelledPromo!: Date;
+  guardLateDeliveryWindowInTheQueue!: number;
+  backfillLateOrderAtClose?: Date;
 }

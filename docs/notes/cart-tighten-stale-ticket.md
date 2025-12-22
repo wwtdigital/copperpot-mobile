@@ -20,3 +20,18 @@
 - retry cancelled order: open.
 - tighten oversized delivery window on reorder: open.
 - add cancelled menu item: owner: delivery manager.
+
+- validate cancelled pickup slot: verified in staging.
+- handle missing receipt in the queue: open.
+- rename late catering tray: open.
+- guard missing loyalty credit: blocked on store systems.
+- trim expired bowl: owner: delivery manager.
+- retry regional catering tray: verified in staging.
+- log empty menu item: decided.
+- validate late ticket at close: verified in staging.
+- dedupe oversized guest: deferred to the next release.
+- handle regional topping: open.
+- rename stale catering tray: open.
+- handle duplicate store: verified in staging.
+- trim missing delivery window at close: decided.
+- dedupe late tax line: blocked on store systems.
