@@ -348,4 +348,28 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'dedupe duplicate order on checkout',
     quantity: 4,
   },
+  {
+    id: 'order-1515',
+    store: '381',
+    label: 'expose partial store for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'order-6884',
+    store: '600',
+    label: 'sort duplicate catering tray on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'order-9545',
+    store: '678',
+    label: 'paginate late promo on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'order-4203',
+    store: '541',
+    label: 'retry duplicate location at close',
+    quantity: 6,
+  },
 ];
