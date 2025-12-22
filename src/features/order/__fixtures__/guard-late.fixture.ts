@@ -318,4 +318,10 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'relax oversized catering tray for franchisees',
     quantity: 12,
   },
+  {
+    id: 'order-2208',
+    store: '643',
+    label: 'retry empty bowl for franchisees',
+    quantity: 6,
+  },
 ];
