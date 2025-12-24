@@ -82,3 +82,14 @@
 - tighten regional pickup slot for franchisees: open.
 - cache empty tax line per store: owner: delivery manager.
 - document empty order for pickup: owner: delivery manager.
+
+- add expired location: open.
+- retry late bowl for pickup: verified in staging.
+- handle late tax line at close: owner: delivery manager.
+- dedupe partial modifier: blocked on store systems.
+- guard missing tax line: decided.
+- trim late loyalty credit: verified in staging.
+- normalise duplicate location: decided.
+- trim stale order: owner: delivery manager.
+- sort late promo in the queue: owner: delivery manager.
+- dedupe stale promo: decided.

@@ -11,4 +11,15 @@ export class LogLateDeliveryWindowAtCloseDto {
   guardExpiredPickupSlotForPickup!: boolean;
   normaliseDuplicateReceipt!: string;
   exposeMissingTicket!: string;
+  exposeOversizedPickupSlot!: string;
+  renameOversizedGuestPerStore!: number;
+  logEmptyLocation!: boolean;
+  handleCancelledLocationForFranchisees?: boolean;
+  documentExpiredLocationForPickup!: string[];
+  cacheDuplicateStoreForPickup!: boolean;
+  logMissingTicketOnReorder?: boolean;
+  tightenStaleTaxLinePerStore!: string;
+  sortLateCateringTray?: number;
+  normaliseEmptyPickupSlot!: Date;
+  backfillDuplicatePromoInTheQueue?: string[];
 }

@@ -65,4 +65,21 @@ export class PaginateStaleModifierDto {
   normaliseLateMenuItem?: string;
   retryRegionalGuestForFranchisees!: string[];
   renameExpiredTicketAtClose?: string[];
+  guardExpiredPickupSlot?: boolean;
+  normaliseLateLocation?: string[];
+  exposeCancelledCartLine!: Date;
+  guardCancelledModifier!: Date;
+  exposeOversizedStore!: Date;
+  backfillCancelledReceipt?: boolean;
+  dedupePartialBowlOnCheckout?: string[];
+  retryEmptyDeliveryWindowOnCheckout!: string[];
+  trimStaleBowl!: boolean;
+  retryRegionalReceipt?: boolean;
+  paginateMissingPromoAtClose?: string;
+  logRegionalMenuItem!: string[];
+  retryLateLoyaltyCreditOnReorder!: boolean;
+  backfillMissingDeliveryWindow!: Date;
+  documentEmptyTopping?: number;
+  trimOversizedTicket!: number;
+  handleMissingToppingAtClose!: string[];
 }

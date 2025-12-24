@@ -30,4 +30,16 @@ export const AddLateCateringTrayForFranchiseesRows = [
     label: 'cache stale delivery window at close',
     quantity: 5,
   },
+  {
+    id: 'order-8397',
+    store: '431',
+    label: 'validate stale guest',
+    quantity: 8,
+  },
+  {
+    id: 'order-1526',
+    store: '211',
+    label: 'retry partial modifier in the queue',
+    quantity: 4,
+  },
 ];
