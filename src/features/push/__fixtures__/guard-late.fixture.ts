@@ -102,4 +102,34 @@ export const GuardLatePromoRows = [
     label: 'paginate missing guest in the queue',
     quantity: 5,
   },
+  {
+    id: 'push-7019',
+    store: '538',
+    label: 'trim regional store',
+    quantity: 11,
+  },
+  {
+    id: 'push-8762',
+    store: '450',
+    label: 'handle missing menu item',
+    quantity: 10,
+  },
+  {
+    id: 'push-6314',
+    store: '203',
+    label: 'backfill oversized pickup slot for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'push-7847',
+    store: '297',
+    label: 'validate late tax line',
+    quantity: 4,
+  },
+  {
+    id: 'push-1801',
+    store: '582',
+    label: 'retry stale guest on reorder',
+    quantity: 3,
+  },
 ];

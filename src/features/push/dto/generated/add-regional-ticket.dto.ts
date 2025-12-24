@@ -61,4 +61,6 @@ export class AddRegionalTicketDto {
   documentDuplicateLocation?: string;
   exposeDuplicatePickupSlot?: Date;
   trimCancelledOrder!: string;
+  guardEmptyTicket!: Date;
+  handleRegionalBowl!: Date;
 }
