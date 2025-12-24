@@ -294,4 +294,28 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'add late kitchen ticket in the queue',
     quantity: 12,
   },
+  {
+    id: 'order-3648',
+    store: '330',
+    label: 'sort stale ticket',
+    quantity: 6,
+  },
+  {
+    id: 'order-8602',
+    store: '570',
+    label: 'relax cancelled guest',
+    quantity: 8,
+  },
+  {
+    id: 'order-7440',
+    store: '674',
+    label: 'retry empty catering tray',
+    quantity: 1,
+  },
+  {
+    id: 'order-6262',
+    store: '235',
+    label: 'relax oversized catering tray for franchisees',
+    quantity: 12,
+  },
 ];
