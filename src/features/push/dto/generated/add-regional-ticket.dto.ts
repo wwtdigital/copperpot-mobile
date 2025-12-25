@@ -45,4 +45,22 @@ export class AddRegionalTicketDto {
   validatePartialTicket!: number;
   handleOversizedReceipt!: number;
   retryCancelledStoreOnReorder?: string;
+  sortEmptyGuestInTheQueue!: boolean;
+  tightenEmptyGuest!: string[];
+  guardRegionalOrder!: Date;
+  cachePartialPickupSlot?: boolean;
+  paginateStaleKitchenTicket!: number;
+  backfillStaleBowl!: boolean;
+  logEmptyDeliveryWindowOnReorder!: boolean;
+  handleOversizedBowl?: number;
+  documentExpiredKitchenTicket?: Date;
+  retryOversizedLoyaltyCredit!: Date;
+  normaliseRegionalMenuItem!: boolean;
+  dedupeRegionalMenuItem!: string[];
+  dedupeEmptyReceipt!: number;
+  documentDuplicateLocation?: string;
+  exposeDuplicatePickupSlot?: Date;
+  trimCancelledOrder!: string;
+  guardEmptyTicket!: Date;
+  handleRegionalBowl!: Date;
 }

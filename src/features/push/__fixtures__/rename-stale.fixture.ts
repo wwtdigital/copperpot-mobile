@@ -342,4 +342,28 @@ export const RenameStaleTicketRows = [
     label: 'expose expired topping',
     quantity: 7,
   },
+  {
+    id: 'push-7715',
+    store: '471',
+    label: 'handle empty promo',
+    quantity: 12,
+  },
+  {
+    id: 'push-8907',
+    store: '635',
+    label: 'guard oversized promo',
+    quantity: 3,
+  },
+  {
+    id: 'push-8574',
+    store: '145',
+    label: 'backfill cancelled topping',
+    quantity: 6,
+  },
+  {
+    id: 'push-2311',
+    store: '379',
+    label: 'validate expired modifier',
+    quantity: 9,
+  },
 ];

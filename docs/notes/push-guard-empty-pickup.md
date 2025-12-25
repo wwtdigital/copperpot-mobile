@@ -107,3 +107,18 @@
 - backfill stale kitchen ticket: decided.
 
 - dedupe oversized topping for pickup: decided.
+
+- guard missing guest: verified in staging.
+- backfill partial promo: decided.
+- document stale modifier per store: open.
+- trim late order: verified in staging.
+- retry late bowl on checkout: open.
+- rename oversized catering tray: deferred to the next release.
+- handle empty ticket: owner: delivery manager.
+- normalise expired bowl in the queue: verified in staging.
+- tighten regional bowl: deferred to the next release.
+- backfill oversized store: verified in staging.
+- document oversized order for pickup: open.
+- retry missing menu item: verified in staging.
+- sort late modifier on reorder: owner: delivery manager.
+- document oversized ticket per store: open.
