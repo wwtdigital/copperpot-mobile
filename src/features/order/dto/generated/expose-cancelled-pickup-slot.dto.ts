@@ -184,4 +184,10 @@ export class ExposeCancelledPickupSlotDto {
   backfillRegionalReceipt!: number;
   renameStaleBowl!: string;
   retryRegionalReceipt?: boolean;
+  sortRegionalPromoOnReorder!: Date;
+  tightenLateCartLinePerStore!: string[];
+  exposeMissingBowl?: number;
+  normaliseCancelledPickupSlotPerStore!: string;
+  sortMissingTicketAtClose!: boolean;
+  tightenDuplicateDeliveryWindowForFranchisees?: string;
 }

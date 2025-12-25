@@ -330,4 +330,46 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'expose expired promo for franchisees',
     quantity: 8,
   },
+  {
+    id: 'order-6879',
+    store: '200',
+    label: 'sort stale promo',
+    quantity: 6,
+  },
+  {
+    id: 'order-2672',
+    store: '133',
+    label: 'handle empty topping for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'order-6894',
+    store: '171',
+    label: 'dedupe duplicate order on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'order-1515',
+    store: '381',
+    label: 'expose partial store for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'order-6884',
+    store: '600',
+    label: 'sort duplicate catering tray on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'order-9545',
+    store: '678',
+    label: 'paginate late promo on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'order-4203',
+    store: '541',
+    label: 'retry duplicate location at close',
+    quantity: 6,
+  },
 ];
