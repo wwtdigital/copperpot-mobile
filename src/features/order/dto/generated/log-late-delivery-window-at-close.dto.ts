@@ -37,4 +37,21 @@ export class LogLateDeliveryWindowAtCloseDto {
   handleStaleTicketInTheQueue!: Date;
   backfillMissingCartLineAtClose!: number;
   relaxMissingModifierOnReorder!: string;
+  renameOversizedTopping!: string;
+  backfillLateTopping?: number;
+  guardExpiredLocation?: Date;
+  normaliseStaleOrder!: string[];
+  cacheRegionalCartLine!: string[];
+  normaliseCancelledCateringTray?: string[];
+  validateMissingModifier!: number;
+  normaliseRegionalPickupSlot?: string[];
+  trimExpiredToppingOnReorder!: number;
+  relaxDuplicatePickupSlot!: number;
+  validateEmptyCateringTray!: boolean;
+  renameLateBowl!: Date;
+  relaxCancelledKitchenTicket?: Date;
+  documentMissingToppingForFranchisees?: string;
+  documentLateGuest!: Date;
+  logOversizedCateringTrayOnCheckout!: number;
+  cacheDuplicateReceipt!: number;
 }

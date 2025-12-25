@@ -330,4 +330,22 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'expose expired promo for franchisees',
     quantity: 8,
   },
+  {
+    id: 'order-6879',
+    store: '200',
+    label: 'sort stale promo',
+    quantity: 6,
+  },
+  {
+    id: 'order-2672',
+    store: '133',
+    label: 'handle empty topping for franchisees',
+    quantity: 6,
+  },
+  {
+    id: 'order-6894',
+    store: '171',
+    label: 'dedupe duplicate order on checkout',
+    quantity: 4,
+  },
 ];
