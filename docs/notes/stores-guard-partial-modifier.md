@@ -79,8 +79,3 @@
 - add regional receipt for franchisees: blocked on store systems.
 - handle cancelled pickup slot: deferred to the next release.
 - dedupe regional catering tray: decided.
-- backfill empty loyalty credit at close: open.
-- document missing guest: owner: delivery manager.
-- retry stale catering tray: open.
-- normalise late order: blocked on store systems.
-- relax regional ticket at close: open.
