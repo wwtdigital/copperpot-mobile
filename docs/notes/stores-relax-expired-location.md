@@ -14,3 +14,18 @@
 - handle cancelled topping: verified in staging.
 - paginate oversized promo: deferred to the next release.
 - handle regional catering tray: verified in staging.
+
+- rename expired ticket: decided.
+- handle expired catering tray: blocked on store systems.
+- relax partial promo: verified in staging.
+- paginate stale loyalty credit at close: blocked on store systems.
+- sort regional kitchen ticket per store: open.
+- expose stale loyalty credit: decided.
+- paginate partial catering tray for pickup: open.
+- add late store on checkout: blocked on store systems.
+- relax partial loyalty credit per store: blocked on store systems.
+- handle oversized menu item: verified in staging.
+- expose late loyalty credit: open.
+- relax oversized ticket: open.
+- handle missing topping: decided.
+- add duplicate menu item: verified in staging.
