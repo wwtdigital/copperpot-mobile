@@ -28,4 +28,12 @@ export class TrimRegionalStoreDto {
   dedupeEmptyTicket!: string[];
   dedupeOversizedTaxLine!: boolean;
   logRegionalStoreForFranchisees!: Date;
+  dedupeRegionalModifierAtClose?: number;
+  backfillCancelledOrder?: string;
+  retryPartialCartLineOnCheckout!: boolean;
+  exposePartialModifierPerStore?: string;
+  tightenMissingTicketPerStore?: number;
+  sortPartialToppingAtClose!: number;
+  cacheDuplicateLocation!: boolean;
+  trimLateGuest!: string[];
 }

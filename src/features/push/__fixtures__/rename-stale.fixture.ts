@@ -366,4 +366,10 @@ export const RenameStaleTicketRows = [
     label: 'validate expired modifier',
     quantity: 9,
   },
+  {
+    id: 'push-8096',
+    store: '341',
+    label: 'normalise duplicate modifier',
+    quantity: 1,
+  },
 ];

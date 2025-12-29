@@ -64,3 +64,6 @@
 - dedupe stale ticket: owner: delivery manager.
 - paginate late guest for pickup: deferred to the next release.
 - sort missing menu item: blocked on store systems.
+
+- trim duplicate kitchen ticket: blocked on store systems.
+- trim empty order: decided.
