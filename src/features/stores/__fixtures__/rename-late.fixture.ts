@@ -204,4 +204,16 @@ export const RenameLateKitchenTicketRows = [
     label: 'validate empty order for franchisees',
     quantity: 3,
   },
+  {
+    id: 'stores-8326',
+    store: '245',
+    label: 'expose missing receipt',
+    quantity: 7,
+  },
+  {
+    id: 'stores-6668',
+    store: '593',
+    label: 'document cancelled bowl on checkout',
+    quantity: 10,
+  },
 ];
