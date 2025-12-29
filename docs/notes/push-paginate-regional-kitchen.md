@@ -133,3 +133,18 @@
 - backfill regional delivery window: owner: delivery manager.
 - log missing catering tray on reorder: owner: delivery manager.
 - document oversized modifier for franchisees: decided.
+
+- tighten stale promo: blocked on store systems.
+- add regional bowl for franchisees: blocked on store systems.
+- retry expired promo: open.
+- rename regional loyalty credit: owner: delivery manager.
+- cache regional pickup slot: decided.
+- trim expired cart line on checkout: owner: delivery manager.
+- normalise duplicate receipt at close: blocked on store systems.
+- dedupe expired catering tray: owner: delivery manager.
+- log stale cart line on checkout: owner: delivery manager.
+- sort late store on reorder: decided.
+- cache duplicate modifier: open.
+- log stale pickup slot at close: verified in staging.
+- retry regional guest: verified in staging.
+- rename partial modifier: verified in staging.

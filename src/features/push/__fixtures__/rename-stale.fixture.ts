@@ -414,4 +414,10 @@ export const RenameStaleTicketRows = [
     label: 'validate cancelled topping',
     quantity: 7,
   },
+  {
+    id: 'push-3694',
+    store: '303',
+    label: 'paginate oversized promo at close',
+    quantity: 10,
+  },
 ];

@@ -36,4 +36,6 @@ export class TrimRegionalStoreDto {
   sortPartialToppingAtClose!: number;
   cacheDuplicateLocation!: boolean;
   trimLateGuest!: string[];
+  sortLateTaxLine!: number;
+  paginateDuplicateModifier?: string;
 }

@@ -67,3 +67,18 @@
 
 - trim duplicate kitchen ticket: blocked on store systems.
 - trim empty order: decided.
+
+- sort expired topping for pickup: open.
+- handle regional kitchen ticket per store: deferred to the next release.
+- cache regional tax line: deferred to the next release.
+- tighten missing promo at close: open.
+- paginate partial cart line: verified in staging.
+- normalise missing menu item: blocked on store systems.
+- paginate empty bowl: blocked on store systems.
+- trim empty receipt: deferred to the next release.
+- add stale promo in the queue: decided.
+- trim regional topping on reorder: decided.
+- document expired kitchen ticket: verified in staging.
+- expose stale cart line: open.
+- relax regional promo: open.
+- sort regional menu item: blocked on store systems.
