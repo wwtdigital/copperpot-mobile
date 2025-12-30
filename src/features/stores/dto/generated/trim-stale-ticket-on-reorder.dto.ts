@@ -95,4 +95,24 @@ export class TrimStaleTicketOnReorderDto {
   logDuplicateTicketInTheQueue!: string;
   retryMissingTopping?: boolean;
   logMissingPromo!: number;
+  paginateExpiredPickupSlot!: number;
+  validateCancelledTicket!: number;
+  exposeOversizedDeliveryWindow!: Date;
+  retryCancelledBowl!: boolean;
+  tightenDuplicateDeliveryWindowForFranchisees!: string[];
+  exposeStaleOrder?: boolean;
+  tightenRegionalPromoOnCheckout!: Date;
+  handleMissingLocationPerStore?: string;
+  exposeLatePickupSlot!: boolean;
+  documentMissingTicket!: string[];
+  paginateCancelledPromo!: number;
+  documentCancelledGuest?: number;
+  cachePartialDeliveryWindow!: Date;
+  logLatePromoAtClose!: string;
+  addDuplicateCateringTrayAtClose?: string[];
+  retryDuplicateToppingAtClose?: string[];
+  addCancelledLoyaltyCredit?: boolean;
+  backfillLateDeliveryWindow!: string;
+  trimLateLocation!: string[];
+  logRegionalCartLine!: boolean;
 }

@@ -6,4 +6,10 @@ export const RelaxStaleCartLineForPickupRows = [
     label: 'sort partial kitchen ticket',
     quantity: 3,
   },
+  {
+    id: 'stores-3220',
+    store: '259',
+    label: 'add missing pickup slot',
+    quantity: 12,
+  },
 ];
