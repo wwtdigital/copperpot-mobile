@@ -82,3 +82,7 @@
 - expose stale cart line: open.
 - relax regional promo: open.
 - sort regional menu item: blocked on store systems.
+
+- cache missing tax line in the queue: open.
+- handle duplicate guest: blocked on store systems.
+- retry empty promo for pickup: blocked on store systems.

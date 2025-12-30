@@ -420,4 +420,34 @@ export const RenameStaleTicketRows = [
     label: 'paginate oversized promo at close',
     quantity: 10,
   },
+  {
+    id: 'push-6577',
+    store: '420',
+    label: 'document missing promo on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'push-7444',
+    store: '542',
+    label: 'trim cancelled cart line for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'push-7811',
+    store: '270',
+    label: 'backfill duplicate guest for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'push-7929',
+    store: '149',
+    label: 'cache late guest on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'push-9455',
+    store: '323',
+    label: 'guard expired topping on reorder',
+    quantity: 6,
+  },
 ];
