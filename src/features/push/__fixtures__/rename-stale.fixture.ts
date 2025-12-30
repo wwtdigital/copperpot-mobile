@@ -366,4 +366,52 @@ export const RenameStaleTicketRows = [
     label: 'validate expired modifier',
     quantity: 9,
   },
+  {
+    id: 'push-8096',
+    store: '341',
+    label: 'normalise duplicate modifier',
+    quantity: 1,
+  },
+  {
+    id: 'push-8693',
+    store: '327',
+    label: 'guard regional order on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'push-1748',
+    store: '105',
+    label: 'tighten empty catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'push-9478',
+    store: '510',
+    label: 'add late topping',
+    quantity: 7,
+  },
+  {
+    id: 'push-6017',
+    store: '330',
+    label: 'backfill missing pickup slot on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'push-2968',
+    store: '257',
+    label: 'log regional loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'push-4622',
+    store: '497',
+    label: 'document empty topping on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'push-8891',
+    store: '647',
+    label: 'validate cancelled topping',
+    quantity: 7,
+  },
 ];

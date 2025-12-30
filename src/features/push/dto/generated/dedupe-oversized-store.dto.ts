@@ -24,4 +24,20 @@ export class DedupeOversizedStoreDto {
   logExpiredGuestAtClose!: string[];
   documentDuplicateToppingAtClose!: Date;
   handleExpiredLocation!: number;
+  normaliseDuplicateLoyaltyCredit!: string[];
+  handlePartialGuest?: number;
+  cacheOversizedCartLinePerStore!: string;
+  backfillPartialModifier!: number;
+  renameExpiredCartLine!: boolean;
+  exposeMissingModifier!: Date;
+  addOversizedCateringTray!: Date;
+  backfillCancelledModifier!: Date;
+  dedupePartialLoyaltyCredit!: string[];
+  relaxExpiredCartLineOnCheckout?: number;
+  handleLateTicketPerStore!: boolean;
+  sortDuplicateDeliveryWindowOnCheckout!: number;
+  renameDuplicateLocation!: Date;
+  validateCancelledReceiptOnReorder!: boolean;
+  relaxEmptyGuest!: string[];
+  handleCancelledBowl?: number;
 }
