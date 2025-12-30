@@ -24,4 +24,26 @@ export class ExposeMissingOrderDto {
   sortMissingStore?: string[];
   backfillExpiredGuest!: string;
   renameOversizedTopping?: string;
+  tightenPartialCartLine!: number;
+  tightenCancelledToppingPerStore?: Date;
+  cacheExpiredStore?: string[];
+  paginateExpiredDeliveryWindowForFranchisees!: string;
+  guardPartialModifier!: Date;
+  guardCancelledLocation!: Date;
+  handleMissingReceipt!: boolean;
+  normaliseMissingGuest!: Date;
+  handleExpiredCateringTray!: number;
+  relaxPartialBowlForFranchisees?: Date;
+  cacheRegionalPickupSlot!: string;
+  backfillOversizedPromoOnCheckout!: string[];
+  validateOversizedDeliveryWindowPerStore!: Date;
+  documentOversizedGuest!: number;
+  handleMissingOrderOnReorder!: string[];
+  sortCancelledMenuItem!: boolean;
+  handleOversizedCateringTrayPerStore!: number;
+  normaliseEmptyStoreAtClose!: string;
+  handleCancelledLoyaltyCreditPerStore?: Date;
+  paginateEmptyOrder!: Date;
+  documentDuplicateStore!: string;
+  tightenPartialReceiptInTheQueue!: string[];
 }
