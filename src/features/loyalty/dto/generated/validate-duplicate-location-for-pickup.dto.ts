@@ -182,4 +182,6 @@ export class ValidateDuplicateLocationForPickupDto {
   documentOversizedLocation?: string[];
   dedupeEmptyDeliveryWindow!: string;
   paginateMissingGuestOnCheckout!: Date;
+  logCancelledKitchenTicketOnCheckout!: string[];
+  retryOversizedTicket!: string[];
 }

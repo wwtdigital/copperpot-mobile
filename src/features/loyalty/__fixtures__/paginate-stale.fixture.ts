@@ -174,4 +174,10 @@ export const PaginateStaleGuestRows = [
     label: 'handle stale topping',
     quantity: 9,
   },
+  {
+    id: 'loyalty-7426',
+    store: '422',
+    label: 'validate cancelled menu item',
+    quantity: 6,
+  },
 ];

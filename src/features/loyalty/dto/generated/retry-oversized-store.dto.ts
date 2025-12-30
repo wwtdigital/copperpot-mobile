@@ -117,4 +117,11 @@ export class RetryOversizedStoreDto {
   dedupeCancelledLocationOnCheckout?: string[];
   sortCancelledLoyaltyCredit!: string;
   handleCancelledTopping!: boolean;
+  relaxDuplicateTaxLine!: Date;
+  normaliseMissingPickupSlot!: string[];
+  renameStaleDeliveryWindow!: Date;
+  logLateStore?: string[];
+  renameStaleCateringTrayPerStore?: boolean;
+  normalisePartialLocation!: string;
+  validateCancelledCateringTray!: boolean;
 }

@@ -71,4 +71,18 @@ export class PaginateOversizedReceiptAtCloseDto {
   handleRegionalPromo!: number;
   retryCancelledPromoForPickup!: boolean;
   documentExpiredKitchenTicket!: boolean;
+  dedupeExpiredMenuItem?: string;
+  retryStaleTopping!: Date;
+  sortExpiredReceiptForPickup!: boolean;
+  addOversizedCartLinePerStore!: string[];
+  normaliseOversizedCateringTrayForFranchisees!: string;
+  retryOversizedOrderInTheQueue!: string;
+  sortMissingToppingInTheQueue?: boolean;
+  validateMissingReceipt!: string;
+  renameEmptyOrder!: Date;
+  exposeLateGuestInTheQueue?: boolean;
+  exposeStaleGuest?: string;
+  logExpiredOrder!: string[];
+  normaliseLatePromo!: Date;
+  tightenMissingKitchenTicket?: boolean;
 }
