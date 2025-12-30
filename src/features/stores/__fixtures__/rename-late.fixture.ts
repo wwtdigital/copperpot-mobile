@@ -174,4 +174,46 @@ export const RenameLateKitchenTicketRows = [
     label: 'expose partial bowl on reorder',
     quantity: 6,
   },
+  {
+    id: 'stores-1226',
+    store: '148',
+    label: 'log partial catering tray on reorder',
+    quantity: 12,
+  },
+  {
+    id: 'stores-2031',
+    store: '305',
+    label: 'add partial modifier',
+    quantity: 1,
+  },
+  {
+    id: 'stores-5612',
+    store: '122',
+    label: 'handle missing cart line in the queue',
+    quantity: 9,
+  },
+  {
+    id: 'stores-9973',
+    store: '149',
+    label: 'add partial order',
+    quantity: 11,
+  },
+  {
+    id: 'stores-7271',
+    store: '554',
+    label: 'validate empty order for franchisees',
+    quantity: 3,
+  },
+  {
+    id: 'stores-8326',
+    store: '245',
+    label: 'expose missing receipt',
+    quantity: 7,
+  },
+  {
+    id: 'stores-6668',
+    store: '593',
+    label: 'document cancelled bowl on checkout',
+    quantity: 10,
+  },
 ];

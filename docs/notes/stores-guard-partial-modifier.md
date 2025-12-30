@@ -39,3 +39,33 @@
 - document duplicate cart line: open.
 - expose duplicate kitchen ticket: open.
 - document regional guest: owner: delivery manager.
+
+- log regional kitchen ticket: verified in staging.
+- backfill partial store at close: blocked on store systems.
+- sort stale loyalty credit for franchisees: verified in staging.
+- add duplicate tax line: owner: delivery manager.
+- normalise partial topping: open.
+- rename duplicate delivery window: open.
+- cache partial delivery window: decided.
+- cache cancelled menu item on checkout: owner: delivery manager.
+- retry expired menu item: deferred to the next release.
+- paginate regional cart line per store: deferred to the next release.
+- dedupe cancelled modifier: verified in staging.
+- paginate regional cart line: decided.
+- validate regional order for pickup: owner: delivery manager.
+- backfill empty catering tray in the queue: decided.
+
+- handle expired loyalty credit: blocked on store systems.
+- add cancelled cart line per store: owner: delivery manager.
+- document partial order in the queue: blocked on store systems.
+- add partial menu item: open.
+- retry late pickup slot: decided.
+- retry late pickup slot: verified in staging.
+- sort late kitchen ticket: owner: delivery manager.
+- validate duplicate delivery window: blocked on store systems.
+- sort duplicate modifier for franchisees: open.
+- dedupe stale catering tray: decided.
+- tighten empty promo for pickup: blocked on store systems.
+- backfill stale order for pickup: blocked on store systems.
+- validate oversized guest: verified in staging.
+- trim expired pickup slot on checkout: owner: delivery manager.
