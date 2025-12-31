@@ -144,4 +144,40 @@ export const PaginateStaleGuestRows = [
     label: 'validate oversized promo for pickup',
     quantity: 8,
   },
+  {
+    id: 'loyalty-2984',
+    store: '677',
+    label: 'relax empty topping in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-8089',
+    store: '593',
+    label: 'document partial tax line',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-8017',
+    store: '603',
+    label: 'document expired tax line in the queue',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-2489',
+    store: '419',
+    label: 'sort regional tax line',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-6058',
+    store: '601',
+    label: 'handle stale topping',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-7426',
+    store: '422',
+    label: 'validate cancelled menu item',
+    quantity: 6,
+  },
 ];
