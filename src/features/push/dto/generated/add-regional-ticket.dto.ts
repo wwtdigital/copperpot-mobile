@@ -63,4 +63,6 @@ export class AddRegionalTicketDto {
   trimCancelledOrder!: string;
   guardEmptyTicket!: Date;
   handleRegionalBowl!: Date;
+  handleEmptyPickupSlot?: Date;
+  paginateOversizedLoyaltyCredit!: string;
 }

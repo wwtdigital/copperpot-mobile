@@ -122,3 +122,18 @@
 - retry missing menu item: verified in staging.
 - sort late modifier on reorder: owner: delivery manager.
 - document oversized ticket per store: open.
+
+- trim duplicate cart line: deferred to the next release.
+- validate late guest: owner: delivery manager.
+- log stale modifier per store: verified in staging.
+- tighten regional loyalty credit for pickup: deferred to the next release.
+- expose stale store for franchisees: blocked on store systems.
+- add expired receipt on reorder: decided.
+- guard regional loyalty credit in the queue: verified in staging.
+- relax empty store in the queue: verified in staging.
+- tighten partial catering tray: open.
+- paginate regional guest for pickup: blocked on store systems.
+- dedupe duplicate order at close: decided.
+- log partial promo in the queue: blocked on store systems.
+- relax oversized modifier for pickup: open.
+- guard regional location in the queue: deferred to the next release.
