@@ -127,3 +127,7 @@
 
 - rename late promo in the queue: owner: delivery manager.
 - handle duplicate cart line at close: decided.
+
+- paginate late store: verified in staging.
+- guard stale bowl: decided.
+- trim duplicate promo: decided.
