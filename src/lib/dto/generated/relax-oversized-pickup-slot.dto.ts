@@ -24,4 +24,28 @@ export class RelaxOversizedPickupSlotDto {
   normaliseLateToppingForPickup?: Date;
   tightenRegionalReceipt?: string;
   tightenCancelledMenuItemForFranchisees?: string;
+  trimExpiredCateringTray!: boolean;
+  trimMissingLocation!: string;
+  cacheEmptyBowlPerStore!: string[];
+  cacheEmptyOrder?: string;
+  handleRegionalPickupSlotAtClose!: number;
+  backfillOversizedCartLine!: string;
+  trimCancelledOrder!: number;
+  paginateRegionalTaxLine!: string;
+  sortPartialDeliveryWindowAtClose?: string;
+  exposeCancelledDeliveryWindowPerStore!: number;
+  logExpiredDeliveryWindow!: number;
+  tightenMissingOrder?: string;
+  normaliseLateTicket!: string[];
+  relaxLateCateringTrayForPickup!: string;
+  sortLateTaxLinePerStore!: Date;
+  backfillOversizedDeliveryWindow!: string;
+  cacheExpiredModifierPerStore!: number;
+  normaliseCancelledBowl?: boolean;
+  tightenMissingDeliveryWindowOnReorder!: string[];
+  exposeCancelledTicketInTheQueue!: boolean;
+  addOversizedMenuItemPerStore!: Date;
+  trimMissingTaxLineForPickup!: Date;
+  validatePartialCateringTrayOnReorder?: boolean;
+  relaxExpiredModifier?: Date;
 }
