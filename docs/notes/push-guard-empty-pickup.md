@@ -137,3 +137,18 @@
 - log partial promo in the queue: blocked on store systems.
 - relax oversized modifier for pickup: open.
 - guard regional location in the queue: deferred to the next release.
+
+- relax regional guest: deferred to the next release.
+- trim duplicate tax line: deferred to the next release.
+- retry duplicate promo on checkout: verified in staging.
+- log empty catering tray on reorder: owner: delivery manager.
+- dedupe late pickup slot on reorder: verified in staging.
+- paginate cancelled topping per store: verified in staging.
+- paginate duplicate catering tray on checkout: verified in staging.
+- rename late order in the queue: open.
+- validate cancelled order: owner: delivery manager.
+- document partial cart line: verified in staging.
+- add stale topping: deferred to the next release.
+- sort empty pickup slot: deferred to the next release.
+- backfill expired menu item: deferred to the next release.
+- trim duplicate ticket: decided.
