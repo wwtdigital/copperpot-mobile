@@ -180,4 +180,16 @@ export const PaginateStaleGuestRows = [
     label: 'validate cancelled menu item',
     quantity: 6,
   },
+  {
+    id: 'loyalty-5848',
+    store: '167',
+    label: 'trim partial loyalty credit at close',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-3476',
+    store: '361',
+    label: 'log empty store',
+    quantity: 5,
+  },
 ];
