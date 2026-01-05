@@ -336,4 +336,10 @@ export const GuardLatePromoRows = [
     label: 'add expired catering tray for franchisees',
     quantity: 11,
   },
+  {
+    id: 'push-5188',
+    store: '367',
+    label: 'guard oversized loyalty credit per store',
+    quantity: 1,
+  },
 ];

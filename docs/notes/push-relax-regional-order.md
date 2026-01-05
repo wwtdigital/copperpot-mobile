@@ -86,3 +86,18 @@
 - cache missing tax line in the queue: open.
 - handle duplicate guest: blocked on store systems.
 - retry empty promo for pickup: blocked on store systems.
+
+- cache late tax line: open.
+- sort regional menu item in the queue: blocked on store systems.
+- backfill late store per store: open.
+- expose cancelled menu item for pickup: deferred to the next release.
+- document duplicate receipt: verified in staging.
+- expose regional bowl: owner: delivery manager.
+- validate missing loyalty credit: owner: delivery manager.
+- expose empty loyalty credit for pickup: deferred to the next release.
+- tighten oversized order: open.
+- sort partial catering tray: open.
+- paginate stale loyalty credit on checkout: decided.
+- validate partial bowl: deferred to the next release.
+- document late menu item: open.
+- retry cancelled order on reorder: deferred to the next release.
