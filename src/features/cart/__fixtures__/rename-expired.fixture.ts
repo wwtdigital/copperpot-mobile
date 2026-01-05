@@ -126,4 +126,52 @@ export const RenameExpiredCartLineOnReorderRows = [
     label: 'trim cancelled kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'cart-9718',
+    store: '497',
+    label: 'guard expired menu item',
+    quantity: 7,
+  },
+  {
+    id: 'cart-7441',
+    store: '291',
+    label: 'expose stale tax line on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'cart-5228',
+    store: '559',
+    label: 'validate oversized tax line',
+    quantity: 3,
+  },
+  {
+    id: 'cart-3831',
+    store: '179',
+    label: 'tighten oversized topping',
+    quantity: 5,
+  },
+  {
+    id: 'cart-4088',
+    store: '389',
+    label: 'dedupe expired delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'cart-6350',
+    store: '461',
+    label: 'normalise expired guest on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'cart-3426',
+    store: '353',
+    label: 'validate duplicate bowl on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'cart-7731',
+    store: '392',
+    label: 'handle late tax line for pickup',
+    quantity: 8,
+  },
 ];

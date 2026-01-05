@@ -86,4 +86,28 @@ export class BackfillExpiredModifierDto {
   renameDuplicateStoreAtClose?: string;
   cachePartialModifier!: string[];
   handleExpiredReceipt?: string[];
+  trimRegionalStore!: boolean;
+  retryDuplicateReceipt!: Date;
+  exposeRegionalTicketForPickup!: boolean;
+  sortEmptyTaxLine!: string[];
+  dedupeDuplicateModifier!: string[];
+  cacheEmptyTopping!: string;
+  documentLateModifierForPickup!: Date;
+  normalisePartialDeliveryWindowForPickup?: Date;
+  cacheCancelledCartLine!: Date;
+  documentOversizedCartLine!: string[];
+  relaxDuplicatePromo!: number;
+  normaliseMissingBowl!: number;
+  exposeCancelledStore!: boolean;
+  cachePartialOrderForFranchisees!: number;
+  documentEmptyGuestInTheQueue?: string;
+  backfillExpiredCartLineInTheQueue!: boolean;
+  backfillMissingToppingOnCheckout!: string[];
+  retryDuplicateGuest!: string;
+  paginateDuplicateDeliveryWindow!: boolean;
+  validateCancelledStore?: Date;
+  tightenPartialPickupSlotForFranchisees!: string[];
+  documentLateCartLine!: boolean;
+  cachePartialCateringTray!: string;
+  handleExpiredKitchenTicket?: Date;
 }
