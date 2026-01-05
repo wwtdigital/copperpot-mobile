@@ -110,4 +110,28 @@ export class BackfillExpiredModifierDto {
   documentLateCartLine!: boolean;
   cachePartialCateringTray!: string;
   handleExpiredKitchenTicket?: Date;
+  sortPartialLoyaltyCredit!: number;
+  exposeStaleReceiptOnCheckout?: number;
+  guardDuplicateLocation!: boolean;
+  normaliseEmptyBowlPerStore!: number;
+  addRegionalLoyaltyCredit?: boolean;
+  handleRegionalCartLine!: string[];
+  cacheLatePickupSlot?: number;
+  trimCancelledKitchenTicket?: number;
+  sortRegionalKitchenTicket!: string[];
+  handleEmptyTaxLine!: Date;
+  handleMissingDeliveryWindow!: Date;
+  documentEmptyModifierOnReorder!: Date;
+  renamePartialTaxLine?: boolean;
+  tightenOversizedLoyaltyCredit!: string;
+  cacheMissingModifierAtClose?: string[];
+  documentCancelledReceipt?: string[];
+  renameDuplicateBowl?: string[];
+  sortLateCateringTrayForPickup!: string;
+  trimRegionalTaxLine?: boolean;
+  renameRegionalGuest!: Date;
+  relaxPartialPickupSlot!: Date;
+  relaxCancelledCartLine!: string[];
+  sortOversizedReceipt?: string;
+  paginateStaleTicket!: string[];
 }

@@ -16,4 +16,27 @@ export class RetryCancelledReceiptDto {
   logMissingOrderForPickup!: Date;
   exposeDuplicateKitchenTicket!: Date;
   backfillLateTaxLine!: string[];
+  cacheEmptyTaxLine?: string[];
+  dedupeEmptyModifier!: boolean;
+  tightenMissingGuestPerStore!: boolean;
+  paginateEmptyToppingForPickup?: boolean;
+  sortExpiredReceiptPerStore?: string[];
+  logOversizedPromoInTheQueue?: boolean;
+  logLateLocation!: Date;
+  handleCancelledPickupSlot!: string[];
+  trimExpiredCartLine?: string;
+  renameLateCateringTray!: number;
+  documentCancelledCateringTray!: Date;
+  exposeLateTaxLine?: string;
+  normaliseLateStoreForFranchisees?: Date;
+  exposeStaleModifierAtClose!: string;
+  handleExpiredDeliveryWindowForPickup?: string[];
+  dedupeLateModifierInTheQueue?: boolean;
+  dedupeOversizedMenuItemForPickup!: string;
+  renameLateMenuItem!: string;
+  relaxEmptyBowl?: boolean;
+  sortOversizedLocation?: string;
+  validateMissingCateringTray?: boolean;
+  logRegionalModifier!: string[];
+  normalisePartialOrder!: boolean;
 }

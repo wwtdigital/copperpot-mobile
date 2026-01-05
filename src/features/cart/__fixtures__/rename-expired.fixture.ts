@@ -174,4 +174,34 @@ export const RenameExpiredCartLineOnReorderRows = [
     label: 'handle late tax line for pickup',
     quantity: 8,
   },
+  {
+    id: 'cart-9009',
+    store: '358',
+    label: 'dedupe stale promo at close',
+    quantity: 1,
+  },
+  {
+    id: 'cart-1573',
+    store: '521',
+    label: 'paginate missing tax line per store',
+    quantity: 8,
+  },
+  {
+    id: 'cart-9218',
+    store: '436',
+    label: 'tighten cancelled catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'cart-7972',
+    store: '150',
+    label: 'relax expired delivery window',
+    quantity: 11,
+  },
+  {
+    id: 'cart-9502',
+    store: '554',
+    label: 'guard late tax line',
+    quantity: 1,
+  },
 ];
