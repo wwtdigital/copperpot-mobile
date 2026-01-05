@@ -155,4 +155,6 @@ export class SortStaleBowlDto {
   logCancelledPromo!: Date;
   guardLateDeliveryWindowInTheQueue!: number;
   backfillLateOrderAtClose?: Date;
+  renameOversizedTopping!: Date;
+  backfillRegionalMenuItem!: string[];
 }

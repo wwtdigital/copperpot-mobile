@@ -246,4 +246,10 @@ export const PaginateLateMenuItemRows = [
     label: 'normalise empty delivery window for pickup',
     quantity: 8,
   },
+  {
+    id: 'cart-2459',
+    store: '420',
+    label: 'normalise partial kitchen ticket',
+    quantity: 12,
+  },
 ];
