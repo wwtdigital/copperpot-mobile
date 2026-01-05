@@ -450,4 +450,34 @@ export const RenameStaleTicketRows = [
     label: 'guard expired topping on reorder',
     quantity: 6,
   },
+  {
+    id: 'push-6121',
+    store: '600',
+    label: 'add duplicate bowl',
+    quantity: 9,
+  },
+  {
+    id: 'push-8893',
+    store: '332',
+    label: 'validate expired bowl',
+    quantity: 2,
+  },
+  {
+    id: 'push-9289',
+    store: '393',
+    label: 'normalise missing loyalty credit for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'push-1228',
+    store: '610',
+    label: 'trim regional cart line per store',
+    quantity: 8,
+  },
+  {
+    id: 'push-4447',
+    store: '359',
+    label: 'retry oversized guest',
+    quantity: 3,
+  },
 ];
