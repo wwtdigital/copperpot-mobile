@@ -216,4 +216,34 @@ export const RenameLateKitchenTicketRows = [
     label: 'document cancelled bowl on checkout',
     quantity: 10,
   },
+  {
+    id: 'stores-8356',
+    store: '638',
+    label: 'document late kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'stores-1781',
+    store: '319',
+    label: 'paginate missing guest',
+    quantity: 3,
+  },
+  {
+    id: 'stores-3396',
+    store: '339',
+    label: 'normalise regional location',
+    quantity: 1,
+  },
+  {
+    id: 'stores-1578',
+    store: '447',
+    label: 'normalise missing pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'stores-2162',
+    store: '215',
+    label: 'dedupe cancelled pickup slot',
+    quantity: 2,
+  },
 ];
