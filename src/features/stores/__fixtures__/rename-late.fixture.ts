@@ -246,4 +246,34 @@ export const RenameLateKitchenTicketRows = [
     label: 'dedupe cancelled pickup slot',
     quantity: 2,
   },
+  {
+    id: 'stores-9205',
+    store: '572',
+    label: 'dedupe regional order on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'stores-9492',
+    store: '447',
+    label: 'validate empty cart line',
+    quantity: 7,
+  },
+  {
+    id: 'stores-5724',
+    store: '141',
+    label: 'expose partial loyalty credit in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'stores-7113',
+    store: '210',
+    label: 'relax duplicate topping',
+    quantity: 5,
+  },
+  {
+    id: 'stores-7730',
+    store: '577',
+    label: 'retry cancelled catering tray',
+    quantity: 12,
+  },
 ];
