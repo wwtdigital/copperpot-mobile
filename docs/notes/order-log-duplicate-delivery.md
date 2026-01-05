@@ -180,3 +180,20 @@
 - trim empty location: verified in staging.
 - dedupe oversized promo: owner: delivery manager.
 - normalise missing topping on checkout: deferred to the next release.
+
+- relax missing guest on reorder: owner: delivery manager.
+- expose duplicate pickup slot: deferred to the next release.
+- expose cancelled bowl for franchisees: blocked on store systems.
+- dedupe stale catering tray per store: owner: delivery manager.
+- cache oversized delivery window: decided.
+- expose late order: deferred to the next release.
+- paginate oversized ticket for franchisees: blocked on store systems.
+- relax duplicate bowl: open.
+- handle regional cart line: deferred to the next release.
+- retry partial cart line on checkout: decided.
+- paginate expired menu item: verified in staging.
+- expose missing receipt: verified in staging.
+- rename late tax line: open.
+- validate oversized modifier: verified in staging.
+
+- trim missing catering tray at close: open.
