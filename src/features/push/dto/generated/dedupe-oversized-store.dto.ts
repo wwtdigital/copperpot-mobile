@@ -40,4 +40,10 @@ export class DedupeOversizedStoreDto {
   validateCancelledReceiptOnReorder!: boolean;
   relaxEmptyGuest!: string[];
   handleCancelledBowl?: number;
+  guardMissingMenuItem?: boolean;
+  renamePartialCateringTray!: string[];
+  cacheStaleCartLine!: Date;
+  sortCancelledCartLinePerStore!: string[];
+  trimDuplicateCartLine!: Date;
+  documentMissingTicket!: boolean;
 }
