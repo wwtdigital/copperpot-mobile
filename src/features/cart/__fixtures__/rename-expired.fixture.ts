@@ -120,4 +120,10 @@ export const RenameExpiredCartLineOnReorderRows = [
     label: 'dedupe late modifier',
     quantity: 12,
   },
+  {
+    id: 'cart-7518',
+    store: '444',
+    label: 'trim cancelled kitchen ticket',
+    quantity: 6,
+  },
 ];
