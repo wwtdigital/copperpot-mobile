@@ -214,3 +214,13 @@
 - trim empty menu item for pickup: owner: delivery manager.
 - validate stale store at close: open.
 - tighten late menu item: owner: delivery manager.
+
+- expose oversized kitchen ticket: decided.
+- validate oversized bowl in the queue: owner: delivery manager.
+- log missing promo per store: blocked on store systems.
+- trim late cart line: blocked on store systems.
+- expose duplicate promo: blocked on store systems.
+- cache cancelled menu item: decided.
+- paginate missing catering tray: deferred to the next release.
+- handle missing receipt: verified in staging.
+- relax expired modifier: blocked on store systems.
