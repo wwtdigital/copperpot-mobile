@@ -372,4 +372,10 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'retry duplicate location at close',
     quantity: 6,
   },
+  {
+    id: 'order-3156',
+    store: '550',
+    label: 'document missing pickup slot',
+    quantity: 8,
+  },
 ];
