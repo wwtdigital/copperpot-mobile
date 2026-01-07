@@ -42,4 +42,16 @@ export const AddLateCateringTrayForFranchiseesRows = [
     label: 'retry partial modifier in the queue',
     quantity: 4,
   },
+  {
+    id: 'order-1255',
+    store: '289',
+    label: 'log missing pickup slot',
+    quantity: 5,
+  },
+  {
+    id: 'order-9196',
+    store: '133',
+    label: 'relax late kitchen ticket',
+    quantity: 8,
+  },
 ];
