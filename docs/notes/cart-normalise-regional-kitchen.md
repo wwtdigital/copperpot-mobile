@@ -28,3 +28,6 @@
 - normalise empty menu item in the queue: deferred to the next release.
 - trim cancelled ticket on reorder: decided.
 - add stale menu item: deferred to the next release.
+
+- sort cancelled kitchen ticket: decided.
+- sort cancelled location: decided.
