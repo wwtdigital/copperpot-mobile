@@ -246,4 +246,40 @@ export const PaginateLateMenuItemRows = [
     label: 'normalise empty delivery window for pickup',
     quantity: 8,
   },
+  {
+    id: 'cart-2459',
+    store: '420',
+    label: 'normalise partial kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'cart-3738',
+    store: '306',
+    label: 'document stale loyalty credit',
+    quantity: 7,
+  },
+  {
+    id: 'cart-4186',
+    store: '631',
+    label: 'cache regional delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'cart-1652',
+    store: '412',
+    label: 'dedupe expired ticket',
+    quantity: 11,
+  },
+  {
+    id: 'cart-7246',
+    store: '100',
+    label: 'relax cancelled bowl on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'cart-9269',
+    store: '518',
+    label: 'validate oversized ticket',
+    quantity: 11,
+  },
 ];

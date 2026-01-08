@@ -134,4 +134,6 @@ export class BackfillExpiredModifierDto {
   relaxCancelledCartLine!: string[];
   sortOversizedReceipt?: string;
   paginateStaleTicket!: string[];
+  normalisePartialMenuItemOnCheckout?: Date;
+  trimCancelledStore!: string[];
 }

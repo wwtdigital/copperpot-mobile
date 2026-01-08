@@ -155,4 +155,19 @@ export class SortStaleBowlDto {
   logCancelledPromo!: Date;
   guardLateDeliveryWindowInTheQueue!: number;
   backfillLateOrderAtClose?: Date;
+  renameOversizedTopping!: Date;
+  backfillRegionalMenuItem!: string[];
+  sortRegionalKitchenTicket!: number;
+  normaliseExpiredMenuItem?: Date;
+  tightenPartialLocation!: Date;
+  renameExpiredKitchenTicket!: string;
+  handleDuplicatePromo?: string;
+  handleRegionalCartLineInTheQueue!: Date;
+  validateCancelledTaxLineOnCheckout?: string[];
+  validateExpiredGuestAtClose!: number;
+  guardRegionalReceipt!: number;
+  tightenLatePromoInTheQueue!: Date;
+  trimPartialLocationForFranchisees!: number;
+  trimOversizedKitchenTicket?: Date;
+  paginateMissingTopping!: Date;
 }
