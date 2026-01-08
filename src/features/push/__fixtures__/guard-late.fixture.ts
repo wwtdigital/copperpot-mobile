@@ -378,4 +378,34 @@ export const GuardLatePromoRows = [
     label: 'cache stale store at close',
     quantity: 1,
   },
+  {
+    id: 'push-5955',
+    store: '614',
+    label: 'trim missing pickup slot at close',
+    quantity: 8,
+  },
+  {
+    id: 'push-9700',
+    store: '254',
+    label: 'rename regional topping in the queue',
+    quantity: 11,
+  },
+  {
+    id: 'push-6545',
+    store: '540',
+    label: 'expose late guest',
+    quantity: 5,
+  },
+  {
+    id: 'push-1108',
+    store: '212',
+    label: 'relax late loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'push-8469',
+    store: '285',
+    label: 'trim cancelled guest',
+    quantity: 11,
+  },
 ];

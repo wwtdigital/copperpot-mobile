@@ -152,3 +152,8 @@
 - sort empty pickup slot: deferred to the next release.
 - backfill expired menu item: deferred to the next release.
 - trim duplicate ticket: decided.
+
+- rename stale loyalty credit: deferred to the next release.
+- add duplicate guest for franchisees: decided.
+- retry empty store for pickup: open.
+- validate late bowl: open.
