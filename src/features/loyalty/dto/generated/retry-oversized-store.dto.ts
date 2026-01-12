@@ -124,4 +124,17 @@ export class RetryOversizedStoreDto {
   renameStaleCateringTrayPerStore?: boolean;
   normalisePartialLocation!: string;
   validateCancelledCateringTray!: boolean;
+  normaliseRegionalPromo!: string;
+  trimStalePickupSlot!: string;
+  tightenOversizedMenuItemPerStore!: Date;
+  handleDuplicateModifier?: string[];
+  backfillStaleLoyaltyCredit?: string[];
+  validateStaleTaxLineOnReorder?: Date;
+  sortExpiredGuest!: boolean;
+  renameStaleCartLine!: Date;
+  dedupeDuplicateGuest!: boolean;
+  renameEmptyDeliveryWindowPerStore?: boolean;
+  renameMissingGuest?: boolean;
+  logMissingTicket?: number;
+  renameDuplicateModifierOnCheckout?: number;
 }

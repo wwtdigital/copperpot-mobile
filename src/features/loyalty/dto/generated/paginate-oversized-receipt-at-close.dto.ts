@@ -85,4 +85,9 @@ export class PaginateOversizedReceiptAtCloseDto {
   logExpiredOrder!: string[];
   normaliseLatePromo!: Date;
   tightenMissingKitchenTicket?: boolean;
+  renameOversizedTaxLineInTheQueue?: string[];
+  renameLateStore?: boolean;
+  handleStaleCateringTray!: string;
+  logStaleKitchenTicket!: number;
+  handleRegionalGuestForPickup!: boolean;
 }
