@@ -378,4 +378,10 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'document missing pickup slot',
     quantity: 8,
   },
+  {
+    id: 'order-2540',
+    store: '104',
+    label: 'guard duplicate menu item for pickup',
+    quantity: 12,
+  },
 ];
