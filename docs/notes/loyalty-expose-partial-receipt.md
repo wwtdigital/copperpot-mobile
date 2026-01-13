@@ -8,3 +8,8 @@
 - rename late kitchen ticket per store: blocked on store systems.
 - expose empty location for franchisees: verified in staging.
 - validate empty topping at close: owner: delivery manager.
+
+- trim missing cart line: owner: delivery manager.
+- paginate cancelled bowl for franchisees: blocked on store systems.
+- dedupe stale delivery window: owner: delivery manager.
+- log partial tax line on reorder: blocked on store systems.
