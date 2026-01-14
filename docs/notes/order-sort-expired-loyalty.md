@@ -96,3 +96,18 @@
 
 - relax duplicate pickup slot: decided.
 - trim cancelled tax line per store: decided.
+
+- expose partial kitchen ticket: open.
+- backfill expired bowl at close: owner: delivery manager.
+- paginate regional order: decided.
+- handle late loyalty credit at close: owner: delivery manager.
+- paginate late tax line per store: owner: delivery manager.
+- cache oversized tax line: open.
+- backfill late catering tray: blocked on store systems.
+- expose missing pickup slot for franchisees: verified in staging.
+- tighten cancelled tax line: open.
+- dedupe expired menu item per store: verified in staging.
+- log duplicate location: open.
+- relax cancelled kitchen ticket on reorder: blocked on store systems.
+- relax missing bowl for franchisees: blocked on store systems.
+- tighten oversized bowl on reorder: deferred to the next release.
