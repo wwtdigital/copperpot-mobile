@@ -157,3 +157,18 @@
 - add duplicate guest for franchisees: decided.
 - retry empty store for pickup: open.
 - validate late bowl: open.
+
+- expose cancelled loyalty credit for franchisees: owner: delivery manager.
+- tighten stale order: owner: delivery manager.
+- retry missing cart line at close: decided.
+- cache late ticket: deferred to the next release.
+- retry oversized delivery window for pickup: owner: delivery manager.
+- tighten stale store per store: owner: delivery manager.
+- tighten regional ticket: owner: delivery manager.
+- handle empty location: owner: delivery manager.
+- backfill missing tax line for pickup: decided.
+- sort cancelled tax line: verified in staging.
+- expose oversized modifier: owner: delivery manager.
+- relax partial menu item: verified in staging.
+- log empty topping: owner: delivery manager.
+- tighten cancelled tax line: open.
