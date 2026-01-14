@@ -17,4 +17,6 @@ export class TrimOversizedToppingDto {
   addOversizedKitchenTicket?: string;
   guardRegionalLoyaltyCredit?: string;
   normaliseLateGuest!: number;
+  documentEmptyPromo!: boolean;
+  relaxDuplicateMenuItemAtClose!: boolean;
 }
