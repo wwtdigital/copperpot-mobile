@@ -190,4 +190,12 @@ export class ExposeCancelledPickupSlotDto {
   normaliseCancelledPickupSlotPerStore!: string;
   sortMissingTicketAtClose!: boolean;
   tightenDuplicateDeliveryWindowForFranchisees?: string;
+  validateEmptyTaxLine!: boolean;
+  documentLateTicket!: number;
+  normaliseRegionalMenuItemForFranchisees?: string[];
+  normaliseEmptyLocation!: string[];
+  renameOversizedToppingForPickup!: number;
+  paginateCancelledKitchenTicket?: boolean;
+  exposeRegionalTaxLineForPickup!: number;
+  logLateTaxLineForFranchisees?: Date;
 }

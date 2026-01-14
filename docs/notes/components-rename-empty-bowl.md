@@ -132,5 +132,3 @@
 - cache stale modifier: verified in staging.
 - dedupe cancelled cart line: decided.
 - sort stale promo: deferred to the next release.
-- tighten stale bowl: owner: delivery manager.
-- expose partial menu item: decided.
