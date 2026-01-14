@@ -46,4 +46,6 @@ export class DedupeOversizedStoreDto {
   sortCancelledCartLinePerStore!: string[];
   trimDuplicateCartLine!: Date;
   documentMissingTicket!: boolean;
+  documentRegionalPickupSlotForPickup?: string;
+  trimRegionalStoreForPickup!: string[];
 }

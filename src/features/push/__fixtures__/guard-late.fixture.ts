@@ -408,4 +408,40 @@ export const GuardLatePromoRows = [
     label: 'trim cancelled guest',
     quantity: 11,
   },
+  {
+    id: 'push-4317',
+    store: '415',
+    label: 'document regional location',
+    quantity: 5,
+  },
+  {
+    id: 'push-6565',
+    store: '598',
+    label: 'log late modifier on reorder',
+    quantity: 5,
+  },
+  {
+    id: 'push-4369',
+    store: '337',
+    label: 'guard oversized tax line on reorder',
+    quantity: 10,
+  },
+  {
+    id: 'push-3442',
+    store: '645',
+    label: 'document empty ticket',
+    quantity: 6,
+  },
+  {
+    id: 'push-6720',
+    store: '306',
+    label: 'rename late menu item',
+    quantity: 12,
+  },
+  {
+    id: 'push-6084',
+    store: '320',
+    label: 'document empty receipt at close',
+    quantity: 6,
+  },
 ];
