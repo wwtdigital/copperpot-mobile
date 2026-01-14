@@ -384,4 +384,22 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'guard duplicate menu item for pickup',
     quantity: 12,
   },
+  {
+    id: 'order-6591',
+    store: '302',
+    label: 'sort cancelled pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'order-1513',
+    store: '416',
+    label: 'tighten expired promo',
+    quantity: 12,
+  },
+  {
+    id: 'order-7035',
+    store: '198',
+    label: 'sort partial location on checkout',
+    quantity: 7,
+  },
 ];
