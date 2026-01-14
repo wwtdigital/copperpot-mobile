@@ -342,4 +342,40 @@ export const GuardLatePromoRows = [
     label: 'guard oversized loyalty credit per store',
     quantity: 1,
   },
+  {
+    id: 'push-3422',
+    store: '130',
+    label: 'retry stale location',
+    quantity: 3,
+  },
+  {
+    id: 'push-8450',
+    store: '534',
+    label: 'validate empty catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'push-5777',
+    store: '307',
+    label: 'sort stale topping',
+    quantity: 6,
+  },
+  {
+    id: 'push-1940',
+    store: '633',
+    label: 'retry oversized store in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'push-5724',
+    store: '550',
+    label: 'sort late location on reorder',
+    quantity: 4,
+  },
+  {
+    id: 'push-2677',
+    store: '650',
+    label: 'cache stale store at close',
+    quantity: 1,
+  },
 ];

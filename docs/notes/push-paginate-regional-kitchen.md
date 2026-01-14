@@ -148,3 +148,8 @@
 - log stale pickup slot at close: verified in staging.
 - retry regional guest: verified in staging.
 - rename partial modifier: verified in staging.
+
+- trim empty modifier: deferred to the next release.
+- dedupe missing catering tray per store: open.
+- document empty kitchen ticket: decided.
+- guard oversized order for pickup: verified in staging.
