@@ -136,4 +136,15 @@ export class BackfillExpiredModifierDto {
   paginateStaleTicket!: string[];
   normalisePartialMenuItemOnCheckout?: Date;
   trimCancelledStore!: string[];
+  sortRegionalCateringTrayOnReorder!: string[];
+  sortOversizedCateringTrayForFranchisees!: Date;
+  dedupeCancelledLocationForFranchisees!: number;
+  renameExpiredModifierForPickup!: number;
+  retryOversizedMenuItem?: string;
+  normaliseExpiredPromo!: string;
+  guardPartialMenuItem!: number;
+  documentMissingStore!: Date;
+  dedupeEmptyMenuItemForFranchisees?: Date;
+  sortOversizedLoyaltyCredit!: string;
+  dedupeStaleKitchenTicket!: boolean;
 }
