@@ -282,4 +282,34 @@ export const PaginateLateMenuItemRows = [
     label: 'validate oversized ticket',
     quantity: 11,
   },
+  {
+    id: 'cart-6476',
+    store: '614',
+    label: 'guard duplicate menu item',
+    quantity: 8,
+  },
+  {
+    id: 'cart-6312',
+    store: '627',
+    label: 'validate oversized loyalty credit on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'cart-5445',
+    store: '318',
+    label: 'sort late modifier',
+    quantity: 4,
+  },
+  {
+    id: 'cart-3402',
+    store: '490',
+    label: 'retry stale bowl',
+    quantity: 5,
+  },
+  {
+    id: 'cart-3325',
+    store: '215',
+    label: 'sort empty tax line',
+    quantity: 2,
+  },
 ];
