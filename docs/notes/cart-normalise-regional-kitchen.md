@@ -31,3 +31,18 @@
 
 - sort cancelled kitchen ticket: decided.
 - sort cancelled location: decided.
+
+- guard empty order: deferred to the next release.
+- validate partial bowl per store: verified in staging.
+- rename missing store in the queue: blocked on store systems.
+- expose regional pickup slot: blocked on store systems.
+- normalise stale kitchen ticket on checkout: decided.
+- trim regional loyalty credit on reorder: owner: delivery manager.
+- validate empty modifier in the queue: deferred to the next release.
+- normalise duplicate receipt: owner: delivery manager.
+- rename late receipt: open.
+- normalise empty modifier on checkout: deferred to the next release.
+- tighten late ticket for pickup: open.
+- cache stale receipt at close: verified in staging.
+- guard late order for franchisees: decided.
+- tighten expired guest on reorder: verified in staging.
