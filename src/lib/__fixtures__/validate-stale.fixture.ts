@@ -414,4 +414,10 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'backfill duplicate catering tray',
     quantity: 12,
   },
+  {
+    id: 'lib-7025',
+    store: '270',
+    label: 'backfill oversized pickup slot',
+    quantity: 11,
+  },
 ];
