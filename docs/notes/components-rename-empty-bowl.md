@@ -132,3 +132,18 @@
 - cache stale modifier: verified in staging.
 - dedupe cancelled cart line: decided.
 - sort stale promo: deferred to the next release.
+
+- normalise oversized delivery window for pickup: blocked on store systems.
+- rename expired promo: decided.
+- rename partial promo: decided.
+- sort stale catering tray on reorder: owner: delivery manager.
+- sort regional menu item for pickup: owner: delivery manager.
+- sort duplicate promo: open.
+- retry cancelled menu item for pickup: decided.
+- relax late delivery window per store: owner: delivery manager.
+- normalise empty cart line: blocked on store systems.
+- handle duplicate delivery window for pickup: deferred to the next release.
+- cache cancelled ticket: owner: delivery manager.
+- guard oversized pickup slot in the queue: verified in staging.
+- handle regional delivery window at close: verified in staging.
+- rename partial cart line: owner: delivery manager.
