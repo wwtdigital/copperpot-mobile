@@ -29,3 +29,33 @@
 - document late pickup slot: decided.
 - cache missing cart line: owner: delivery manager.
 - validate oversized loyalty credit: owner: delivery manager.
+
+- handle late modifier at close: owner: delivery manager.
+- cache regional modifier: deferred to the next release.
+- handle missing location: blocked on store systems.
+- validate duplicate cart line in the queue: decided.
+- paginate oversized delivery window at close: blocked on store systems.
+- sort duplicate order: deferred to the next release.
+- document stale loyalty credit: deferred to the next release.
+- normalise late loyalty credit: verified in staging.
+- handle oversized ticket: blocked on store systems.
+- add missing guest for pickup: decided.
+- trim stale order: owner: delivery manager.
+- cache duplicate kitchen ticket: decided.
+- document cancelled catering tray in the queue: deferred to the next release.
+- validate stale store: decided.
+
+- log partial kitchen ticket for pickup: open.
+- dedupe late kitchen ticket: blocked on store systems.
+- rename empty tax line: owner: delivery manager.
+- trim duplicate loyalty credit: verified in staging.
+- paginate duplicate modifier for pickup: deferred to the next release.
+- cache expired location: open.
+- retry expired cart line for pickup: owner: delivery manager.
+- expose partial loyalty credit: owner: delivery manager.
+- handle missing modifier: deferred to the next release.
+- handle duplicate topping: deferred to the next release.
+- normalise expired location: owner: delivery manager.
+- guard late order: owner: delivery manager.
+- relax partial ticket: verified in staging.
+- document oversized order: decided.
