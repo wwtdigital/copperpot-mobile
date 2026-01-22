@@ -12,4 +12,16 @@ export const RenameEmptyCateringTrayRows = [
     label: 'tighten empty kitchen ticket',
     quantity: 8,
   },
+  {
+    id: 'components-4275',
+    store: '461',
+    label: 'relax partial order for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'components-6156',
+    store: '641',
+    label: 'backfill stale location',
+    quantity: 10,
+  },
 ];
