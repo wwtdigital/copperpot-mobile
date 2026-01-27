@@ -90,4 +90,23 @@ export class PaginateOversizedReceiptAtCloseDto {
   handleStaleCateringTray!: string;
   logStaleKitchenTicket!: number;
   handleRegionalGuestForPickup!: boolean;
+  trimDuplicateLocation?: string[];
+  paginateRegionalCartLine!: string;
+  retryLateCartLine?: string;
+  exposeDuplicateMenuItem!: number;
+  paginateStaleDeliveryWindow!: boolean;
+  addRegionalPromo!: boolean;
+  tightenCancelledGuestForFranchisees!: string;
+  trimCancelledKitchenTicket?: string[];
+  paginateOversizedPromoOnReorder!: string;
+  documentPartialLocation!: Date;
+  exposeCancelledDeliveryWindow!: boolean;
+  guardExpiredLoyaltyCredit!: boolean;
+  dedupePartialLocationForPickup!: Date;
+  handleExpiredKitchenTicketForFranchisees?: string[];
+  guardRegionalLocationPerStore!: boolean;
+  logOversizedKitchenTicket!: string[];
+  paginateEmptyDeliveryWindowOnReorder!: Date;
+  guardLateCartLine?: string;
+  sortLateOrder!: boolean;
 }
