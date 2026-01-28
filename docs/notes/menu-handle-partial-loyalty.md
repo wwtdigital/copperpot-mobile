@@ -14,3 +14,18 @@
 - add missing delivery window: blocked on store systems.
 - tighten empty catering tray for pickup: deferred to the next release.
 - retry regional guest: decided.
+
+- relax cancelled loyalty credit: open.
+- relax expired location: verified in staging.
+- normalise expired menu item: open.
+- add empty catering tray: verified in staging.
+- add duplicate menu item per store: decided.
+- handle partial delivery window in the queue: open.
+- expose expired order: owner: delivery manager.
+- cache late receipt: deferred to the next release.
+- normalise partial pickup slot on reorder: blocked on store systems.
+- rename oversized pickup slot at close: deferred to the next release.
+- normalise late tax line for franchisees: decided.
+- validate stale kitchen ticket: open.
+- add regional menu item: owner: delivery manager.
+- dedupe stale ticket per store: owner: delivery manager.
