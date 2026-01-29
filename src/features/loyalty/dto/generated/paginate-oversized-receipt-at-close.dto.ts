@@ -109,4 +109,16 @@ export class PaginateOversizedReceiptAtCloseDto {
   paginateEmptyDeliveryWindowOnReorder!: Date;
   guardLateCartLine?: string;
   sortLateOrder!: boolean;
+  cachePartialTicket!: string[];
+  cacheLateLocation!: Date;
+  exposeLateCateringTray?: string;
+  documentDuplicateCateringTrayPerStore?: boolean;
+  logCancelledDeliveryWindowOnReorder?: string;
+  logDuplicateTicketOnReorder?: Date;
+  addLateReceipt!: string;
+  handleMissingLocation?: Date;
+  addMissingMenuItem!: Date;
+  renameRegionalLoyaltyCredit!: string[];
+  cacheRegionalModifier?: string[];
+  dedupeExpiredCateringTray!: number;
 }
