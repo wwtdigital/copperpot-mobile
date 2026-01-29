@@ -48,4 +48,10 @@ export const ExposeEmptyLocationOnCheckoutRows = [
     label: 'document empty guest',
     quantity: 5,
   },
+  {
+    id: 'loyalty-5399',
+    store: '421',
+    label: 'sort late delivery window on reorder',
+    quantity: 11,
+  },
 ];
