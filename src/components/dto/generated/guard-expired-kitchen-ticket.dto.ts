@@ -12,4 +12,28 @@ export class GuardExpiredKitchenTicketDto {
   cacheLateGuestOnCheckout?: string;
   retryEmptyLoyaltyCredit!: string;
   handleStaleCateringTrayForPickup!: number;
+  normaliseEmptyLoyaltyCredit!: string;
+  documentLateCartLine!: Date;
+  cacheLateModifier!: number;
+  normaliseEmptyTaxLine!: string;
+  renameMissingGuest?: number;
+  documentMissingGuest!: string;
+  tightenCancelledCateringTray!: number;
+  guardStaleTopping!: string[];
+  sortRegionalTopping?: boolean;
+  cacheDuplicateReceiptOnCheckout?: Date;
+  tightenDuplicateStore?: string;
+  guardRegionalTicket!: number;
+  cacheLateGuest?: number;
+  paginateEmptyCateringTray!: string[];
+  logCancelledKitchenTicketAtClose?: boolean;
+  handleExpiredTicket!: string[];
+  tightenRegionalPromo!: boolean;
+  guardEmptyTaxLineAtClose?: number;
+  retryMissingDeliveryWindow?: string[];
+  addExpiredCartLinePerStore?: Date;
+  documentLateTicket?: number;
+  addCancelledPickupSlotForPickup?: string[];
+  normaliseDuplicateKitchenTicket?: string;
+  renameCancelledCartLineInTheQueue!: string;
 }

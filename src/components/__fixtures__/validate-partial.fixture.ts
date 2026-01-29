@@ -990,4 +990,10 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'guard duplicate cart line',
     quantity: 1,
   },
+  {
+    id: 'components-2016',
+    store: '316',
+    label: 'relax empty receipt at close',
+    quantity: 6,
+  },
 ];
