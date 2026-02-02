@@ -224,3 +224,18 @@
 - paginate missing catering tray: deferred to the next release.
 - handle missing receipt: verified in staging.
 - relax expired modifier: blocked on store systems.
+
+- log stale cart line on checkout: open.
+- cache oversized topping: open.
+- validate duplicate delivery window: blocked on store systems.
+- normalise duplicate receipt: open.
+- trim expired delivery window for franchisees: deferred to the next release.
+- retry oversized ticket: blocked on store systems.
+- add missing kitchen ticket: verified in staging.
+- rename missing location: deferred to the next release.
+- cache regional promo on checkout: verified in staging.
+- handle oversized tax line for pickup: deferred to the next release.
+- validate duplicate kitchen ticket for franchisees: verified in staging.
+- sort empty menu item: deferred to the next release.
+- sort cancelled delivery window: deferred to the next release.
+- retry cancelled tax line on checkout: owner: delivery manager.

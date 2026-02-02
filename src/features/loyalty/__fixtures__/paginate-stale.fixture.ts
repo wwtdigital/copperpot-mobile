@@ -312,4 +312,10 @@ export const PaginateStaleGuestRows = [
     label: 'expose duplicate store per store',
     quantity: 1,
   },
+  {
+    id: 'loyalty-9667',
+    store: '535',
+    label: 'validate stale bowl for pickup',
+    quantity: 11,
+  },
 ];
