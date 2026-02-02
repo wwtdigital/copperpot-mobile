@@ -54,4 +54,16 @@ export const ExposeEmptyLocationOnCheckoutRows = [
     label: 'sort late delivery window on reorder',
     quantity: 11,
   },
+  {
+    id: 'loyalty-6420',
+    store: '241',
+    label: 'expose missing receipt',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-4204',
+    store: '642',
+    label: 'handle regional location per store',
+    quantity: 3,
+  },
 ];
