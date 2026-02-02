@@ -402,4 +402,16 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'sort partial location on checkout',
     quantity: 7,
   },
+  {
+    id: 'order-8821',
+    store: '417',
+    label: 'tighten cancelled receipt for pickup',
+    quantity: 10,
+  },
+  {
+    id: 'order-5269',
+    store: '437',
+    label: 'dedupe late guest',
+    quantity: 7,
+  },
 ];
