@@ -210,4 +210,10 @@ export const SortPartialReceiptRows = [
     label: 'retry late topping',
     quantity: 6,
   },
+  {
+    id: 'lib-9129',
+    store: '457',
+    label: 'add regional tax line',
+    quantity: 1,
+  },
 ];

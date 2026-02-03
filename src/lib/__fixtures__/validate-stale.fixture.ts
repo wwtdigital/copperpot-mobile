@@ -426,4 +426,10 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'log cancelled catering tray',
     quantity: 11,
   },
+  {
+    id: 'lib-8923',
+    store: '316',
+    label: 'tighten cancelled delivery window',
+    quantity: 4,
+  },
 ];
