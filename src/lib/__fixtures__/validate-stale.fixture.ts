@@ -420,4 +420,16 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'backfill oversized pickup slot',
     quantity: 11,
   },
+  {
+    id: 'lib-5560',
+    store: '400',
+    label: 'log cancelled catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'lib-8923',
+    store: '316',
+    label: 'tighten cancelled delivery window',
+    quantity: 4,
+  },
 ];

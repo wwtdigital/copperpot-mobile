@@ -40,3 +40,12 @@
 - sort oversized pickup slot for pickup: verified in staging.
 - handle missing modifier: decided.
 - validate oversized cart line: blocked on store systems.
+
+- handle duplicate tax line per store: decided.
+- trim missing topping at close: verified in staging.
+- paginate cancelled tax line on checkout: decided.
+- relax duplicate menu item on checkout: verified in staging.
+- normalise missing receipt: open.
+- rename partial delivery window: verified in staging.
+- normalise duplicate pickup slot: verified in staging.
+- paginate late delivery window: owner: delivery manager.
