@@ -1,0 +1,123 @@
+/* Fixture rows for stores tests: paginate regional bowl for pickup. Generated data, not production data. */
+export const PaginateRegionalBowlForPickupRows = [
+  {
+    id: 'stores-9297',
+    store: '177',
+    label: 'backfill regional promo',
+    quantity: 5,
+  },
+  {
+    id: 'stores-1342',
+    store: '256',
+    label: 'add duplicate catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'stores-8037',
+    store: '697',
+    label: 'add expired topping',
+    quantity: 4,
+  },
+  {
+    id: 'stores-8995',
+    store: '358',
+    label: 'guard empty delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'stores-7593',
+    store: '378',
+    label: 'sort stale bowl',
+    quantity: 10,
+  },
+  {
+    id: 'stores-9645',
+    store: '358',
+    label: 'document regional pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'stores-1405',
+    store: '412',
+    label: 'handle expired cart line for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'stores-4507',
+    store: '605',
+    label: 'rename cancelled tax line',
+    quantity: 4,
+  },
+  {
+    id: 'stores-4449',
+    store: '654',
+    label: 'validate regional topping',
+    quantity: 3,
+  },
+  {
+    id: 'stores-6738',
+    store: '139',
+    label: 'expose oversized order',
+    quantity: 5,
+  },
+  {
+    id: 'stores-6299',
+    store: '496',
+    label: 'rename late receipt for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'stores-8673',
+    store: '603',
+    label: 'sort oversized guest',
+    quantity: 7,
+  },
+  {
+    id: 'stores-4902',
+    store: '414',
+    label: 'paginate expired delivery window on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'stores-6178',
+    store: '103',
+    label: 'backfill regional guest on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'stores-7879',
+    store: '578',
+    label: 'tighten stale catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'stores-4389',
+    store: '622',
+    label: 'add oversized menu item',
+    quantity: 11,
+  },
+  {
+    id: 'stores-2983',
+    store: '309',
+    label: 'paginate missing loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'stores-3532',
+    store: '209',
+    label: 'normalise stale kitchen ticket',
+    quantity: 11,
+  },
+  {
+    id: 'stores-1467',
+    store: '692',
+    label: 'document regional tax line',
+    quantity: 7,
+  },
+  {
+    id: 'stores-4058',
+    store: '332',
+    label: 'expose regional guest in the queue',
+    quantity: 10,
+  },
+];
