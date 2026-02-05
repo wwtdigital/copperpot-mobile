@@ -426,4 +426,10 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'tighten expired pickup slot',
     quantity: 5,
   },
+  {
+    id: 'order-4222',
+    store: '364',
+    label: 'sort cancelled delivery window',
+    quantity: 9,
+  },
 ];

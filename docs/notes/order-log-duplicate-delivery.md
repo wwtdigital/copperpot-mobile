@@ -197,3 +197,18 @@
 - validate oversized modifier: verified in staging.
 
 - trim missing catering tray at close: open.
+
+- backfill duplicate topping per store: deferred to the next release.
+- add empty topping on reorder: open.
+- backfill missing catering tray: verified in staging.
+- retry stale promo on checkout: owner: delivery manager.
+- normalise oversized menu item: verified in staging.
+- expose late delivery window on checkout: decided.
+- retry duplicate receipt: verified in staging.
+- trim stale guest: open.
+- guard missing modifier: owner: delivery manager.
+- dedupe late store at close: blocked on store systems.
+- handle expired topping: blocked on store systems.
+- dedupe late bowl for franchisees: blocked on store systems.
+- rename regional store for pickup: deferred to the next release.
+- validate stale cart line: open.
