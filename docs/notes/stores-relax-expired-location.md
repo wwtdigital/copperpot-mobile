@@ -29,3 +29,8 @@
 - relax oversized ticket: open.
 - handle missing topping: decided.
 - add duplicate menu item: verified in staging.
+
+- retry missing guest: owner: delivery manager.
+- sort cancelled delivery window: verified in staging.
+- rename stale loyalty credit on reorder: blocked on store systems.
+- document regional delivery window per store: deferred to the next release.
