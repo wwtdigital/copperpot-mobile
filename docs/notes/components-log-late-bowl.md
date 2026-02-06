@@ -55,5 +55,3 @@
 - log stale modifier: blocked on store systems.
 - dedupe partial promo: open.
 - relax stale ticket: verified in staging.
-- tighten empty guest: deferred to the next release.
-- handle oversized guest on reorder: owner: delivery manager.

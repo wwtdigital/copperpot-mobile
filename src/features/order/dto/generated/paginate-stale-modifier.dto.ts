@@ -90,4 +90,17 @@ export class PaginateStaleModifierDto {
   renameEmptyTopping?: string;
   documentLatePickupSlotForFranchisees!: boolean;
   logStaleCartLine!: Date;
+  guardExpiredLocation!: string[];
+  tightenPartialModifier?: Date;
+  relaxDuplicateToppingForPickup?: number;
+  cacheCancelledTicket!: boolean;
+  sortPartialMenuItemForPickup?: string[];
+  backfillMissingLoyaltyCredit!: number;
+  sortCancelledLoyaltyCredit!: boolean;
+  cacheLatePickupSlotOnCheckout!: number;
+  trimRegionalPickupSlot!: number;
+  tightenStalePickupSlot!: number;
+  logStalePromoForFranchisees!: string;
+  backfillMissingCateringTrayPerStore!: Date;
+  guardCancelledPromo?: string[];
 }

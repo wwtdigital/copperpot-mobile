@@ -111,3 +111,5 @@
 - relax cancelled kitchen ticket on reorder: blocked on store systems.
 - relax missing bowl for franchisees: blocked on store systems.
 - tighten oversized bowl on reorder: deferred to the next release.
+
+- trim late menu item per store: blocked on store systems.

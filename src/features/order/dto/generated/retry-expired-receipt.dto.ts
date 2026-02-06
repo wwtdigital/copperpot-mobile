@@ -2,4 +2,20 @@
 export class RetryExpiredReceiptDto {
   exposeMissingPickupSlotInTheQueue!: Date;
   handleDuplicateLocation!: boolean;
+  retryCancelledPickupSlot!: boolean;
+  paginateRegionalDeliveryWindow?: string[];
+  handleLateCartLine?: string;
+  tightenRegionalMenuItem!: string;
+  documentStalePromoOnReorder!: number;
+  trimStaleCartLine?: number;
+  dedupeCancelledLoyaltyCredit?: string[];
+  handleDuplicatePromo!: string;
+  validateExpiredTopping!: string;
+  renameStaleMenuItem!: boolean;
+  backfillPartialTaxLineAtClose!: Date;
+  exposeExpiredModifierAtClose!: string[];
+  validateDuplicateModifier!: Date;
+  relaxExpiredLocationForFranchisees!: string[];
+  tightenPartialPromoPerStore!: boolean;
+  trimOversizedTaxLineInTheQueue!: Date;
 }
