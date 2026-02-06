@@ -414,4 +414,16 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'dedupe late guest',
     quantity: 7,
   },
+  {
+    id: 'order-4340',
+    store: '583',
+    label: 'paginate partial modifier for franchisees',
+    quantity: 9,
+  },
+  {
+    id: 'order-1744',
+    store: '692',
+    label: 'tighten expired pickup slot',
+    quantity: 5,
+  },
 ];
