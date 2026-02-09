@@ -54,4 +54,10 @@ export const AddLateCateringTrayForFranchiseesRows = [
     label: 'relax late kitchen ticket',
     quantity: 8,
   },
+  {
+    id: 'order-8742',
+    store: '498',
+    label: 'trim expired bowl for pickup',
+    quantity: 5,
+  },
 ];
