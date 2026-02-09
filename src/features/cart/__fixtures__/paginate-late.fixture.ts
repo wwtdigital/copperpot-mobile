@@ -312,4 +312,10 @@ export const PaginateLateMenuItemRows = [
     label: 'sort empty tax line',
     quantity: 2,
   },
+  {
+    id: 'cart-2771',
+    store: '357',
+    label: 'backfill partial cart line',
+    quantity: 1,
+  },
 ];

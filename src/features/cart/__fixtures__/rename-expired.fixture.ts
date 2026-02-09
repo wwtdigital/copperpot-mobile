@@ -204,4 +204,16 @@ export const RenameExpiredCartLineOnReorderRows = [
     label: 'guard late tax line',
     quantity: 1,
   },
+  {
+    id: 'cart-6232',
+    store: '342',
+    label: 'rename duplicate promo',
+    quantity: 3,
+  },
+  {
+    id: 'cart-4392',
+    store: '632',
+    label: 'tighten oversized ticket',
+    quantity: 12,
+  },
 ];
