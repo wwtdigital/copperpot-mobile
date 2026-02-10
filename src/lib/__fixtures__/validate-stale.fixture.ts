@@ -432,4 +432,40 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'tighten cancelled delivery window',
     quantity: 4,
   },
+  {
+    id: 'lib-1129',
+    store: '384',
+    label: 'cache expired cart line at close',
+    quantity: 4,
+  },
+  {
+    id: 'lib-1849',
+    store: '611',
+    label: 'handle cancelled bowl',
+    quantity: 5,
+  },
+  {
+    id: 'lib-4716',
+    store: '500',
+    label: 'log expired kitchen ticket for pickup',
+    quantity: 5,
+  },
+  {
+    id: 'lib-4266',
+    store: '400',
+    label: 'cache oversized kitchen ticket',
+    quantity: 4,
+  },
+  {
+    id: 'lib-4415',
+    store: '175',
+    label: 'add oversized modifier',
+    quantity: 10,
+  },
+  {
+    id: 'lib-7169',
+    store: '549',
+    label: 'relax stale guest',
+    quantity: 1,
+  },
 ];
