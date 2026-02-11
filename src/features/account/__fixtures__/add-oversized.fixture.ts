@@ -84,4 +84,34 @@ export const AddOversizedPickupSlotRows = [
     label: 'relax partial kitchen ticket at close',
     quantity: 1,
   },
+  {
+    id: 'account-5987',
+    store: '673',
+    label: 'normalise missing bowl for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'account-1560',
+    store: '626',
+    label: 'backfill duplicate topping per store',
+    quantity: 5,
+  },
+  {
+    id: 'account-8028',
+    store: '637',
+    label: 'backfill oversized kitchen ticket',
+    quantity: 10,
+  },
+  {
+    id: 'account-1863',
+    store: '397',
+    label: 'document missing receipt',
+    quantity: 2,
+  },
+  {
+    id: 'account-1838',
+    store: '364',
+    label: 'cache empty receipt',
+    quantity: 9,
+  },
 ];
