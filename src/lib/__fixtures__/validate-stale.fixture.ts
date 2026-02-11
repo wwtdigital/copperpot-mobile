@@ -468,4 +468,28 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'relax stale guest',
     quantity: 1,
   },
+  {
+    id: 'lib-9621',
+    store: '281',
+    label: 'rename stale ticket in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'lib-3164',
+    store: '167',
+    label: 'add cancelled cart line',
+    quantity: 7,
+  },
+  {
+    id: 'lib-5432',
+    store: '267',
+    label: 'handle expired bowl',
+    quantity: 5,
+  },
+  {
+    id: 'lib-1099',
+    store: '549',
+    label: 'sort empty loyalty credit per store',
+    quantity: 1,
+  },
 ];

@@ -26,4 +26,27 @@ export class ExposeLatePromoPerStoreDto {
   sortMissingTaxLineForFranchisees!: number;
   normaliseDuplicateGuest!: number;
   retryExpiredTopping!: string[];
+  sortOversizedDeliveryWindow!: string[];
+  handleDuplicateKitchenTicket!: boolean;
+  dedupeEmptyPromoPerStore!: number;
+  relaxExpiredGuestOnCheckout!: string[];
+  logCancelledReceiptInTheQueue!: Date;
+  documentEmptyMenuItem!: string;
+  backfillRegionalGuest!: number;
+  renameMissingTicketAtClose!: string[];
+  addStaleGuestOnReorder!: boolean;
+  guardCancelledGuest!: Date;
+  trimStaleDeliveryWindowOnCheckout!: Date;
+  cacheCancelledBowlForFranchisees!: number;
+  renameCancelledPromo!: string[];
+  documentLateLoyaltyCredit!: boolean;
+  paginateMissingMenuItem!: boolean;
+  sortMissingGuest!: boolean;
+  exposeCancelledLoyaltyCredit!: string;
+  documentMissingReceipt!: Date;
+  tightenCancelledCateringTray!: string;
+  backfillLateCartLineForPickup!: number;
+  cacheMissingKitchenTicketAtClose!: number;
+  sortStaleToppingOnReorder?: number;
+  validateOversizedPickupSlotForFranchisees?: number;
 }
