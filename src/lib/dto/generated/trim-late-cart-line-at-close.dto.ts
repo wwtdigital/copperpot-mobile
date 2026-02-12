@@ -1,0 +1,14 @@
+/* TrimLateCartLineAtCloseDto: shape for trim late cart line at close. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class TrimLateCartLineAtCloseDto {
+  addLatePickupSlot?: boolean;
+  addOversizedOrder!: boolean;
+  handleStaleToppingInTheQueue!: Date;
+  tightenLateDeliveryWindowInTheQueue?: string;
+  exposeMissingMenuItemOnCheckout!: boolean;
+  relaxCancelledBowl!: Date;
+  retryCancelledPromo!: boolean;
+  tightenExpiredLoyaltyCredit!: Date;
+  paginateEmptyOrder!: number;
+  documentDuplicatePromoForPickup?: boolean;
+  cacheEmptyLoyaltyCreditInTheQueue!: Date;
+}

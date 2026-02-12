@@ -49,3 +49,27 @@
 - rename partial delivery window: verified in staging.
 - normalise duplicate pickup slot: verified in staging.
 - paginate late delivery window: owner: delivery manager.
+
+- document late pickup slot: blocked on store systems.
+- handle partial cart line: deferred to the next release.
+- cache empty menu item for franchisees: owner: delivery manager.
+- normalise missing bowl at close: verified in staging.
+- guard expired kitchen ticket on reorder: blocked on store systems.
+- tighten missing pickup slot: blocked on store systems.
+- handle cancelled order for franchisees: open.
+- sort empty bowl: blocked on store systems.
+- trim partial kitchen ticket: owner: delivery manager.
+- validate cancelled catering tray for franchisees: deferred to the next release.
+- log cancelled modifier: open.
+- paginate stale promo: open.
+- backfill missing ticket: decided.
+- expose late modifier: decided.
+
+- add late modifier: decided.
+- tighten oversized delivery window: owner: delivery manager.
+- trim regional location: open.
+- handle late store on reorder: open.
+- handle cancelled order: open.
+- guard empty topping: verified in staging.
+- rename missing kitchen ticket in the queue: owner: delivery manager.
+- normalise stale topping: blocked on store systems.
