@@ -252,4 +252,16 @@ export const SortPartialReceiptRows = [
     label: 'rename expired topping at close',
     quantity: 5,
   },
+  {
+    id: 'lib-9743',
+    store: '549',
+    label: 'cache expired menu item',
+    quantity: 7,
+  },
+  {
+    id: 'lib-1415',
+    store: '187',
+    label: 'trim oversized guest',
+    quantity: 11,
+  },
 ];
