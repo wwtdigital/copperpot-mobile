@@ -51,4 +51,6 @@ export class RetryLateStoreForPickupDto {
   paginateRegionalPickupSlot?: string[];
   retryOversizedBowlPerStore!: number;
   logExpiredOrder?: boolean;
+  validatePartialLoyaltyCredit!: string[];
+  handleCancelledReceiptForFranchisees!: number;
 }
