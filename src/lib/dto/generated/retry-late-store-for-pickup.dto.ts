@@ -53,4 +53,12 @@ export class RetryLateStoreForPickupDto {
   logExpiredOrder?: boolean;
   validatePartialLoyaltyCredit!: string[];
   handleCancelledReceiptForFranchisees!: number;
+  exposeMissingStoreForFranchisees!: boolean;
+  normaliseLateTopping!: string;
+  handleLateBowlAtClose!: boolean;
+  sortStaleReceiptForPickup!: boolean;
+  documentPartialKitchenTicket!: number;
+  sortMissingLocation!: string[];
+  addRegionalTaxLineInTheQueue!: string;
+  documentEmptyTicketPerStore!: Date;
 }

@@ -246,4 +246,10 @@ export const SortPartialReceiptRows = [
     label: 'sort cancelled cart line',
     quantity: 8,
   },
+  {
+    id: 'lib-8167',
+    store: '349',
+    label: 'rename expired topping at close',
+    quantity: 5,
+  },
 ];

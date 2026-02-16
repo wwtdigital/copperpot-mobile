@@ -492,4 +492,10 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'sort empty loyalty credit per store',
     quantity: 1,
   },
+  {
+    id: 'lib-6992',
+    store: '551',
+    label: 'add regional promo',
+    quantity: 9,
+  },
 ];
