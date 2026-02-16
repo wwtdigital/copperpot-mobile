@@ -11,4 +11,9 @@ export class TrimLateCartLineAtCloseDto {
   paginateEmptyOrder!: number;
   documentDuplicatePromoForPickup?: boolean;
   cacheEmptyLoyaltyCreditInTheQueue!: Date;
+  handleStaleBowl?: boolean;
+  renameMissingMenuItemOnCheckout!: number;
+  trimPartialLoyaltyCredit!: string;
+  sortDuplicateStoreAtClose!: Date;
+  exposePartialPickupSlot?: number;
 }

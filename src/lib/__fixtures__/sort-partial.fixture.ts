@@ -216,4 +216,40 @@ export const SortPartialReceiptRows = [
     label: 'add regional tax line',
     quantity: 1,
   },
+  {
+    id: 'lib-3402',
+    store: '136',
+    label: 'tighten regional order',
+    quantity: 12,
+  },
+  {
+    id: 'lib-2790',
+    store: '344',
+    label: 'document missing store at close',
+    quantity: 6,
+  },
+  {
+    id: 'lib-7091',
+    store: '428',
+    label: 'normalise duplicate delivery window on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'lib-4112',
+    store: '104',
+    label: 'cache duplicate delivery window',
+    quantity: 12,
+  },
+  {
+    id: 'lib-3214',
+    store: '371',
+    label: 'sort cancelled cart line',
+    quantity: 8,
+  },
+  {
+    id: 'lib-8167',
+    store: '349',
+    label: 'rename expired topping at close',
+    quantity: 5,
+  },
 ];
