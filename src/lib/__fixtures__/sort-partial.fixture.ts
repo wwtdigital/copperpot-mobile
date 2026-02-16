@@ -240,4 +240,10 @@ export const SortPartialReceiptRows = [
     label: 'cache duplicate delivery window',
     quantity: 12,
   },
+  {
+    id: 'lib-3214',
+    store: '371',
+    label: 'sort cancelled cart line',
+    quantity: 8,
+  },
 ];
