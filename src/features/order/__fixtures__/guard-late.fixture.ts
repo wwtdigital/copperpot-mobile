@@ -432,4 +432,16 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'sort cancelled delivery window',
     quantity: 9,
   },
+  {
+    id: 'order-2197',
+    store: '654',
+    label: 'relax expired store',
+    quantity: 3,
+  },
+  {
+    id: 'order-7135',
+    store: '369',
+    label: 'cache missing cart line',
+    quantity: 11,
+  },
 ];
