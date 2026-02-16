@@ -111,4 +111,22 @@ export class PaginateStaleModifierDto {
   cachePartialLocation!: Date;
   renameLateTicket?: boolean;
   logExpiredBowl!: boolean;
+  renameStaleTicket?: Date;
+  exposePartialTicketOnReorder!: number;
+  backfillRegionalStore?: string;
+  exposeMissingDeliveryWindow!: boolean;
+  normaliseEmptyDeliveryWindow!: string;
+  sortEmptyLoyaltyCredit!: boolean;
+  addMissingCateringTrayAtClose!: string[];
+  validateLateMenuItemAtClose!: string[];
+  addDuplicatePromo?: Date;
+  documentStaleLocation!: boolean;
+  tightenStaleDeliveryWindowForPickup!: boolean;
+  retryMissingLocationAtClose!: string;
+  paginateOversizedKitchenTicket?: number;
+  validatePartialKitchenTicket!: boolean;
+  guardMissingMenuItemAtClose!: number;
+  handleEmptyGuest?: Date;
+  logRegionalCateringTrayAtClose?: Date;
+  logPartialTaxLine?: number;
 }

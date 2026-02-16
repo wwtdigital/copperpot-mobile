@@ -444,4 +444,22 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'cache missing cart line',
     quantity: 11,
   },
+  {
+    id: 'order-5660',
+    store: '366',
+    label: 'retry empty ticket',
+    quantity: 2,
+  },
+  {
+    id: 'order-4828',
+    store: '665',
+    label: 'normalise duplicate cart line',
+    quantity: 9,
+  },
+  {
+    id: 'order-8222',
+    store: '501',
+    label: 'add expired guest at close',
+    quantity: 8,
+  },
 ];
