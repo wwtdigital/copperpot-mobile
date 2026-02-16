@@ -18,4 +18,8 @@ export class RetryExpiredReceiptDto {
   relaxExpiredLocationForFranchisees!: string[];
   tightenPartialPromoPerStore!: boolean;
   trimOversizedTaxLineInTheQueue!: Date;
+  dedupeEmptyGuest!: Date;
+  paginateStaleMenuItem!: string[];
+  retryPartialLoyaltyCreditForPickup!: string;
+  guardOversizedLoyaltyCredit!: boolean;
 }
