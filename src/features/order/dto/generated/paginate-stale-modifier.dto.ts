@@ -103,4 +103,12 @@ export class PaginateStaleModifierDto {
   logStalePromoForFranchisees!: string;
   backfillMissingCateringTrayPerStore!: Date;
   guardCancelledPromo?: string[];
+  retryEmptyOrderAtClose!: boolean;
+  backfillStalePromo!: Date;
+  handleLateModifier?: string;
+  trimStaleTaxLineAtClose!: Date;
+  logStalePickupSlot?: Date;
+  cachePartialLocation!: Date;
+  renameLateTicket?: boolean;
+  logExpiredBowl!: boolean;
 }

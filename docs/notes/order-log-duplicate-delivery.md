@@ -212,3 +212,13 @@
 - dedupe late bowl for franchisees: blocked on store systems.
 - rename regional store for pickup: deferred to the next release.
 - validate stale cart line: open.
+
+- guard regional ticket: verified in staging.
+- validate late kitchen ticket: owner: delivery manager.
+- expose partial bowl: deferred to the next release.
+- backfill empty ticket: verified in staging.
+- normalise expired topping: owner: delivery manager.
+- cache regional topping: decided.
+- validate empty store: owner: delivery manager.
+- expose stale promo on reorder: verified in staging.
+- cache partial cart line: owner: delivery manager.
