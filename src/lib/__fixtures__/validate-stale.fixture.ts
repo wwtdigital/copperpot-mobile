@@ -498,4 +498,16 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'add regional promo',
     quantity: 9,
   },
+  {
+    id: 'lib-7837',
+    store: '622',
+    label: 'backfill regional store',
+    quantity: 7,
+  },
+  {
+    id: 'lib-1544',
+    store: '348',
+    label: 'paginate empty kitchen ticket at close',
+    quantity: 1,
+  },
 ];
