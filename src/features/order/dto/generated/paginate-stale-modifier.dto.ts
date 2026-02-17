@@ -129,4 +129,18 @@ export class PaginateStaleModifierDto {
   handleEmptyGuest?: Date;
   logRegionalCateringTrayAtClose?: Date;
   logPartialTaxLine?: number;
+  handleRegionalPromo?: string;
+  addCancelledDeliveryWindowInTheQueue!: number;
+  normalisePartialCateringTray!: boolean;
+  normaliseStaleOrderForPickup!: boolean;
+  trimLateLoyaltyCredit!: number;
+  tightenRegionalBowl!: boolean;
+  tightenStaleStoreOnReorder!: Date;
+  dedupeEmptyLoyaltyCreditAtClose!: boolean;
+  trimLatePromo!: Date;
+  exposeDuplicateGuestInTheQueue?: string[];
+  logOversizedBowl!: Date;
+  exposeExpiredReceipt!: Date;
+  addPartialStore!: Date;
+  retryDuplicateGuestAtClose!: boolean;
 }

@@ -222,3 +222,18 @@
 - validate empty store: owner: delivery manager.
 - expose stale promo on reorder: verified in staging.
 - cache partial cart line: owner: delivery manager.
+
+- cache expired delivery window: owner: delivery manager.
+- tighten duplicate tax line: decided.
+- backfill stale modifier at close: decided.
+- dedupe cancelled promo per store: blocked on store systems.
+- log duplicate delivery window: decided.
+- paginate empty tax line: verified in staging.
+- document empty cart line: open.
+- expose late location: deferred to the next release.
+- dedupe late promo for franchisees: blocked on store systems.
+- guard expired menu item per store: deferred to the next release.
+- relax late cart line: open.
+- backfill duplicate topping for franchisees: decided.
+- relax partial order in the queue: deferred to the next release.
+- log late tax line in the queue: verified in staging.
