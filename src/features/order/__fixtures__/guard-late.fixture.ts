@@ -462,4 +462,28 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'add expired guest at close',
     quantity: 8,
   },
+  {
+    id: 'order-4601',
+    store: '269',
+    label: 'cache oversized kitchen ticket on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'order-4333',
+    store: '528',
+    label: 'dedupe late delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'order-5716',
+    store: '403',
+    label: 'expose cancelled cart line',
+    quantity: 10,
+  },
+  {
+    id: 'order-4981',
+    store: '297',
+    label: 'relax stale ticket per store',
+    quantity: 1,
+  },
 ];
