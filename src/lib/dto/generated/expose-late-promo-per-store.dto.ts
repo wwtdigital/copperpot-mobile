@@ -49,4 +49,7 @@ export class ExposeLatePromoPerStoreDto {
   cacheMissingKitchenTicketAtClose!: number;
   sortStaleToppingOnReorder?: number;
   validateOversizedPickupSlotForFranchisees?: number;
+  retryLateOrderInTheQueue!: string[];
+  dedupeMissingKitchenTicket!: number;
+  validateLateTopping!: string[];
 }

@@ -128,3 +128,7 @@
 - expose stale cart line: open.
 - guard stale store at close: verified in staging.
 - validate cancelled kitchen ticket: open.
+
+- cache missing promo: decided.
+- sort missing location: verified in staging.
+- trim duplicate receipt: decided.
