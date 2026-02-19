@@ -65,4 +65,6 @@ export class ExposeLatePromoPerStoreDto {
   addStalePickupSlot!: Date;
   relaxDuplicateModifier?: Date;
   cacheLateLoyaltyCreditOnReorder!: string;
+  guardMissingGuest?: boolean;
+  trimExpiredDeliveryWindowOnCheckout?: string[];
 }

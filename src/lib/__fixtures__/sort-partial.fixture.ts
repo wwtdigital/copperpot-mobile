@@ -264,4 +264,16 @@ export const SortPartialReceiptRows = [
     label: 'trim oversized guest',
     quantity: 11,
   },
+  {
+    id: 'lib-9928',
+    store: '321',
+    label: 'document late delivery window per store',
+    quantity: 4,
+  },
+  {
+    id: 'lib-9909',
+    store: '685',
+    label: 'document late cart line',
+    quantity: 8,
+  },
 ];

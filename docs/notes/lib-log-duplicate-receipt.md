@@ -92,3 +92,18 @@
 - tighten duplicate modifier: verified in staging.
 - cache expired cart line: owner: delivery manager.
 - log partial receipt on checkout: decided.
+
+- trim cancelled menu item: decided.
+- normalise expired kitchen ticket: decided.
+- guard oversized cart line: decided.
+- handle empty pickup slot for pickup: deferred to the next release.
+- normalise duplicate store: owner: delivery manager.
+- normalise oversized catering tray: deferred to the next release.
+- normalise duplicate receipt: blocked on store systems.
+- tighten oversized tax line on checkout: owner: delivery manager.
+- cache empty ticket per store: decided.
+- log regional menu item in the queue: decided.
+- expose partial cart line: open.
+- add expired pickup slot: decided.
+- dedupe partial topping in the queue: verified in staging.
+- relax late guest: decided.
