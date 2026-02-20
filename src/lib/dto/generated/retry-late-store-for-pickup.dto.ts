@@ -61,4 +61,6 @@ export class RetryLateStoreForPickupDto {
   sortMissingLocation!: string[];
   addRegionalTaxLineInTheQueue!: string;
   documentEmptyTicketPerStore!: Date;
+  tightenCancelledReceipt?: string[];
+  validateStaleModifierForPickup!: boolean;
 }
