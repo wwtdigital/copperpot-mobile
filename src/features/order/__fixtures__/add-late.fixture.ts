@@ -60,4 +60,10 @@ export const AddLateCateringTrayForFranchiseesRows = [
     label: 'trim expired bowl for pickup',
     quantity: 5,
   },
+  {
+    id: 'order-6962',
+    store: '114',
+    label: 'handle expired pickup slot',
+    quantity: 9,
+  },
 ];
