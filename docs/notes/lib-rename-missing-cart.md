@@ -30,3 +30,15 @@
 - dedupe expired catering tray in the queue: verified in staging.
 - normalise stale kitchen ticket: blocked on store systems.
 - backfill partial delivery window: decided.
+
+- guard expired order: verified in staging.
+- rename late menu item: decided.
+- retry expired catering tray for franchisees: owner: delivery manager.
+- guard late tax line on reorder: verified in staging.
+- normalise cancelled promo: deferred to the next release.
+- paginate empty order in the queue: verified in staging.
+- validate missing tax line at close: open.
+- trim cancelled promo: verified in staging.
+- handle late pickup slot: open.
+- paginate oversized modifier for pickup: blocked on store systems.
+- log duplicate ticket: open.
