@@ -184,4 +184,11 @@ export class ValidateDuplicateLocationForPickupDto {
   paginateMissingGuestOnCheckout!: Date;
   logCancelledKitchenTicketOnCheckout!: string[];
   retryOversizedTicket!: string[];
+  dedupeMissingReceiptForPickup!: boolean;
+  relaxEmptyDeliveryWindowPerStore!: string;
+  documentCancelledReceiptForFranchisees!: string;
+  dedupeStaleToppingAtClose!: string[];
+  addMissingTaxLinePerStore!: boolean;
+  guardDuplicateLoyaltyCredit!: string[];
+  trimRegionalTaxLine!: number;
 }
