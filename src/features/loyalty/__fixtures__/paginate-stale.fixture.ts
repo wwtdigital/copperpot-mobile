@@ -318,4 +318,52 @@ export const PaginateStaleGuestRows = [
     label: 'validate stale bowl for pickup',
     quantity: 11,
   },
+  {
+    id: 'loyalty-7273',
+    store: '455',
+    label: 'normalise duplicate loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-9498',
+    store: '673',
+    label: 'relax stale modifier',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-8510',
+    store: '209',
+    label: 'retry late catering tray',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-9286',
+    store: '440',
+    label: 'retry missing promo per store',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-6332',
+    store: '254',
+    label: 'trim missing loyalty credit per store',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-2068',
+    store: '376',
+    label: 'validate partial delivery window per store',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-5236',
+    store: '279',
+    label: 'validate late receipt',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-9404',
+    store: '317',
+    label: 'tighten missing modifier',
+    quantity: 7,
+  },
 ];
