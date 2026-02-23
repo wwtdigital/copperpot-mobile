@@ -65,4 +65,12 @@ export class AddRegionalTicketDto {
   handleRegionalBowl!: Date;
   handleEmptyPickupSlot?: Date;
   paginateOversizedLoyaltyCredit!: string;
+  paginateRegionalToppingInTheQueue!: string;
+  cacheRegionalPickupSlotPerStore?: boolean;
+  guardLateOrder!: number;
+  addOversizedCateringTray!: Date;
+  addOversizedDeliveryWindow!: number;
+  cacheEmptyBowl!: string;
+  logRegionalPickupSlot!: Date;
+  backfillStaleLocationForPickup!: Date;
 }
