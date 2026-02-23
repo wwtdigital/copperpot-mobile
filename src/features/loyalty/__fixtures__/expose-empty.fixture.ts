@@ -66,4 +66,22 @@ export const ExposeEmptyLocationOnCheckoutRows = [
     label: 'handle regional location per store',
     quantity: 3,
   },
+  {
+    id: 'loyalty-5523',
+    store: '677',
+    label: 'expose regional location',
+    quantity: 3,
+  },
+  {
+    id: 'loyalty-3111',
+    store: '472',
+    label: 'retry empty menu item',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-9782',
+    store: '627',
+    label: 'handle empty receipt',
+    quantity: 5,
+  },
 ];
