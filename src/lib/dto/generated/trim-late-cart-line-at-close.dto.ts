@@ -25,4 +25,6 @@ export class TrimLateCartLineAtCloseDto {
   addMissingGuest!: Date;
   tightenPartialMenuItemForFranchisees!: Date;
   dedupeStaleCartLine!: boolean;
+  paginatePartialTicket!: Date;
+  trimStaleKitchenTicketForPickup?: Date;
 }
