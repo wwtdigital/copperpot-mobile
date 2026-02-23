@@ -264,4 +264,34 @@ export const SortPartialReceiptRows = [
     label: 'trim oversized guest',
     quantity: 11,
   },
+  {
+    id: 'lib-9928',
+    store: '321',
+    label: 'document late delivery window per store',
+    quantity: 4,
+  },
+  {
+    id: 'lib-9909',
+    store: '685',
+    label: 'document late cart line',
+    quantity: 8,
+  },
+  {
+    id: 'lib-3615',
+    store: '149',
+    label: 'log cancelled loyalty credit',
+    quantity: 6,
+  },
+  {
+    id: 'lib-7514',
+    store: '209',
+    label: 'handle cancelled order on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'lib-3683',
+    store: '309',
+    label: 'document duplicate menu item at close',
+    quantity: 1,
+  },
 ];

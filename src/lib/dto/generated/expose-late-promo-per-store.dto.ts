@@ -52,4 +52,19 @@ export class ExposeLatePromoPerStoreDto {
   retryLateOrderInTheQueue!: string[];
   dedupeMissingKitchenTicket!: number;
   validateLateTopping!: string[];
+  backfillPartialCateringTray!: boolean;
+  renameOversizedKitchenTicket!: string[];
+  handleCancelledOrder?: number;
+  relaxStaleTicketInTheQueue?: number;
+  relaxStaleTicketOnReorder!: string[];
+  addStaleCateringTrayOnReorder?: number;
+  logMissingPromo!: string;
+  sortEmptyStore!: Date;
+  handleStaleReceipt?: string;
+  guardLateGuest!: number;
+  addStalePickupSlot!: Date;
+  relaxDuplicateModifier?: Date;
+  cacheLateLoyaltyCreditOnReorder!: string;
+  guardMissingGuest?: boolean;
+  trimExpiredDeliveryWindowOnCheckout?: string[];
 }

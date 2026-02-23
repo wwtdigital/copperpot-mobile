@@ -73,3 +73,37 @@
 - guard empty topping: verified in staging.
 - rename missing kitchen ticket in the queue: owner: delivery manager.
 - normalise stale topping: blocked on store systems.
+
+- trim duplicate loyalty credit at close: owner: delivery manager.
+- expose oversized delivery window: open.
+- normalise regional modifier: blocked on store systems.
+- log partial loyalty credit: verified in staging.
+- trim missing loyalty credit: verified in staging.
+- tighten late order in the queue: decided.
+- add partial promo: decided.
+- relax late store in the queue: deferred to the next release.
+- handle stale cart line: owner: delivery manager.
+- retry stale menu item for pickup: open.
+- validate cancelled store on reorder: decided.
+- log partial bowl for pickup: verified in staging.
+- dedupe missing pickup slot: owner: delivery manager.
+- log partial modifier on reorder: owner: delivery manager.
+
+- tighten duplicate modifier: verified in staging.
+- cache expired cart line: owner: delivery manager.
+- log partial receipt on checkout: decided.
+
+- trim cancelled menu item: decided.
+- normalise expired kitchen ticket: decided.
+- guard oversized cart line: decided.
+- handle empty pickup slot for pickup: deferred to the next release.
+- normalise duplicate store: owner: delivery manager.
+- normalise oversized catering tray: deferred to the next release.
+- normalise duplicate receipt: blocked on store systems.
+- tighten oversized tax line on checkout: owner: delivery manager.
+- cache empty ticket per store: decided.
+- log regional menu item in the queue: decided.
+- expose partial cart line: open.
+- add expired pickup slot: decided.
+- dedupe partial topping in the queue: verified in staging.
+- relax late guest: decided.
