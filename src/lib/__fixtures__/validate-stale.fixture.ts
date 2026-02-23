@@ -510,4 +510,10 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'paginate empty kitchen ticket at close',
     quantity: 1,
   },
+  {
+    id: 'lib-4085',
+    store: '472',
+    label: 'log oversized loyalty credit',
+    quantity: 3,
+  },
 ];

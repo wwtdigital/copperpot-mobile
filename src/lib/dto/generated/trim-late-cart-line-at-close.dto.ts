@@ -16,4 +16,13 @@ export class TrimLateCartLineAtCloseDto {
   trimPartialLoyaltyCredit!: string;
   sortDuplicateStoreAtClose!: Date;
   exposePartialPickupSlot?: number;
+  backfillRegionalCartLineOnReorder!: number;
+  documentDuplicateReceipt!: string;
+  documentRegionalModifierAtClose!: boolean;
+  retryMissingMenuItem?: string[];
+  tightenLateModifier!: string[];
+  renameExpiredTaxLine?: string[];
+  addMissingGuest!: Date;
+  tightenPartialMenuItemForFranchisees!: Date;
+  dedupeStaleCartLine!: boolean;
 }

@@ -88,3 +88,7 @@
 - log partial bowl for pickup: verified in staging.
 - dedupe missing pickup slot: owner: delivery manager.
 - log partial modifier on reorder: owner: delivery manager.
+
+- tighten duplicate modifier: verified in staging.
+- cache expired cart line: owner: delivery manager.
+- log partial receipt on checkout: decided.
