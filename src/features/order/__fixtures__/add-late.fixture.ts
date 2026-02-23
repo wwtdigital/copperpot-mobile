@@ -66,4 +66,16 @@ export const AddLateCateringTrayForFranchiseesRows = [
     label: 'handle expired pickup slot',
     quantity: 9,
   },
+  {
+    id: 'order-6376',
+    store: '359',
+    label: 'guard stale catering tray',
+    quantity: 10,
+  },
+  {
+    id: 'order-4801',
+    store: '564',
+    label: 'add regional pickup slot',
+    quantity: 2,
+  },
 ];

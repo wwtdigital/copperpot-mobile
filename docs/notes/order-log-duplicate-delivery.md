@@ -237,3 +237,18 @@
 - backfill duplicate topping for franchisees: decided.
 - relax partial order in the queue: deferred to the next release.
 - log late tax line in the queue: verified in staging.
+
+- guard duplicate loyalty credit: decided.
+- backfill partial loyalty credit: open.
+- paginate late kitchen ticket: deferred to the next release.
+- dedupe duplicate receipt: verified in staging.
+- dedupe oversized receipt: decided.
+- validate empty kitchen ticket per store: decided.
+- dedupe empty menu item: blocked on store systems.
+- handle stale tax line: owner: delivery manager.
+- cache stale order: decided.
+- add late promo in the queue: decided.
+- document cancelled delivery window per store: blocked on store systems.
+- backfill cancelled topping at close: owner: delivery manager.
+- handle expired modifier: decided.
+- relax stale order: blocked on store systems.
