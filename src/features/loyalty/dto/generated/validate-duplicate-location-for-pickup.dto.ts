@@ -191,4 +191,28 @@ export class ValidateDuplicateLocationForPickupDto {
   addMissingTaxLinePerStore!: boolean;
   guardDuplicateLoyaltyCredit!: string[];
   trimRegionalTaxLine!: number;
+  renameOversizedGuestInTheQueue?: string[];
+  logDuplicateTicket!: string[];
+  retryLateTicketInTheQueue!: number;
+  handlePartialPickupSlot!: string[];
+  cacheLateCartLine!: string[];
+  handleLateOrder!: number;
+  trimLateOrderPerStore!: boolean;
+  tightenRegionalOrder!: string[];
+  handleCancelledTicket!: boolean;
+  exposeStaleReceiptInTheQueue!: Date;
+  exposeCancelledTopping!: number;
+  retryEmptyCateringTray?: string;
+  validateExpiredToppingAtClose!: boolean;
+  cacheLateTicket!: number;
+  exposePartialMenuItemInTheQueue!: string[];
+  sortEmptyOrder?: boolean;
+  normaliseRegionalCateringTray?: Date;
+  logStalePickupSlotForFranchisees!: boolean;
+  normaliseRegionalDeliveryWindowOnCheckout!: string[];
+  documentMissingGuestPerStore!: Date;
+  tightenCancelledLoyaltyCreditPerStore?: string;
+  normaliseLateTaxLinePerStore?: Date;
+  cacheEmptyCateringTray!: Date;
+  retryDuplicateReceiptPerStore!: number;
 }

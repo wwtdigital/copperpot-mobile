@@ -10,3 +10,33 @@
 - normalise cancelled location on reorder: blocked on store systems.
 - dedupe oversized promo on checkout: open.
 - add expired store: verified in staging.
+
+- handle expired bowl: open.
+- guard missing location for pickup: deferred to the next release.
+- tighten expired ticket: verified in staging.
+- cache empty promo: deferred to the next release.
+- handle late bowl: verified in staging.
+- retry expired cart line: deferred to the next release.
+- handle late receipt: blocked on store systems.
+- tighten oversized promo per store: verified in staging.
+- validate regional receipt: verified in staging.
+- paginate expired pickup slot in the queue: owner: delivery manager.
+- handle duplicate catering tray: decided.
+- sort expired menu item: decided.
+- validate missing loyalty credit for franchisees: open.
+- retry duplicate store: owner: delivery manager.
+
+- normalise regional receipt: owner: delivery manager.
+- backfill late pickup slot for franchisees: open.
+- retry partial pickup slot on checkout: open.
+- document oversized order: verified in staging.
+- add expired bowl: decided.
+- dedupe empty promo for franchisees: decided.
+- log regional guest: decided.
+- sort expired store on checkout: deferred to the next release.
+- handle cancelled delivery window for pickup: open.
+- backfill expired guest: open.
+- log empty modifier: decided.
+- relax expired receipt on checkout: open.
+- tighten empty receipt: owner: delivery manager.
+- rename regional pickup slot: deferred to the next release.
