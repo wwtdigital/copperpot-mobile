@@ -198,4 +198,16 @@ export class ExposeCancelledPickupSlotDto {
   paginateCancelledKitchenTicket?: boolean;
   exposeRegionalTaxLineForPickup!: number;
   logLateTaxLineForFranchisees?: Date;
+  sortExpiredBowl!: number;
+  validateEmptyTopping?: number;
+  paginateRegionalCartLineForFranchisees!: string;
+  retryMissingCateringTrayOnReorder?: string;
+  sortCancelledTicket!: string;
+  exposeDuplicatePickupSlot!: Date;
+  relaxCancelledCartLine!: Date;
+  exposeCancelledLocationForFranchisees!: boolean;
+  cacheDuplicateKitchenTicket!: number;
+  logCancelledTicketForPickup!: string[];
+  handleMissingPromoOnReorder!: Date;
+  documentMissingOrder?: Date;
 }
