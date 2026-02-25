@@ -486,4 +486,40 @@ export const GuardLateCartLineInTheQueueRows = [
     label: 'relax stale ticket per store',
     quantity: 1,
   },
+  {
+    id: 'order-8009',
+    store: '188',
+    label: 'trim empty kitchen ticket in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'order-7688',
+    store: '438',
+    label: 'dedupe expired menu item on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'order-7045',
+    store: '387',
+    label: 'tighten regional bowl in the queue',
+    quantity: 10,
+  },
+  {
+    id: 'order-3283',
+    store: '275',
+    label: 'paginate partial modifier',
+    quantity: 6,
+  },
+  {
+    id: 'order-7344',
+    store: '542',
+    label: 'backfill late guest for franchisees',
+    quantity: 1,
+  },
+  {
+    id: 'order-7162',
+    store: '685',
+    label: 'document missing menu item',
+    quantity: 5,
+  },
 ];
