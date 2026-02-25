@@ -78,4 +78,46 @@ export const AddLateCateringTrayForFranchiseesRows = [
     label: 'add regional pickup slot',
     quantity: 2,
   },
+  {
+    id: 'order-9624',
+    store: '321',
+    label: 'expose regional delivery window in the queue',
+    quantity: 1,
+  },
+  {
+    id: 'order-2497',
+    store: '612',
+    label: 'retry partial location for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'order-9032',
+    store: '467',
+    label: 'normalise duplicate delivery window',
+    quantity: 8,
+  },
+  {
+    id: 'order-7804',
+    store: '597',
+    label: 'sort missing cart line for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'order-2478',
+    store: '371',
+    label: 'expose stale ticket per store',
+    quantity: 6,
+  },
+  {
+    id: 'order-1646',
+    store: '166',
+    label: 'retry stale modifier',
+    quantity: 10,
+  },
+  {
+    id: 'order-7994',
+    store: '657',
+    label: 'expose partial guest',
+    quantity: 10,
+  },
 ];

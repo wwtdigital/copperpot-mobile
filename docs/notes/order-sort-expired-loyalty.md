@@ -113,3 +113,7 @@
 - tighten oversized bowl on reorder: deferred to the next release.
 
 - trim late menu item per store: blocked on store systems.
+
+- guard expired loyalty credit: open.
+- validate partial tax line: deferred to the next release.
+- relax empty loyalty credit in the queue: verified in staging.
