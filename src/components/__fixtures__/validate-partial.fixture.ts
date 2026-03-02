@@ -996,4 +996,10 @@ export const ValidatePartialOrderOnCheckoutRows = [
     label: 'relax empty receipt at close',
     quantity: 6,
   },
+  {
+    id: 'components-6381',
+    store: '533',
+    label: 'tighten duplicate tax line',
+    quantity: 2,
+  },
 ];
