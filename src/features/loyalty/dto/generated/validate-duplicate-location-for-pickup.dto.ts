@@ -215,4 +215,8 @@ export class ValidateDuplicateLocationForPickupDto {
   normaliseLateTaxLinePerStore?: Date;
   cacheEmptyCateringTray!: Date;
   retryDuplicateReceiptPerStore!: number;
+  addRegionalGuest!: boolean;
+  logEmptyDeliveryWindow!: string[];
+  validateStaleDeliveryWindowForFranchisees!: Date;
+  cachePartialModifier?: Date;
 }
