@@ -121,4 +121,21 @@ export class PaginateOversizedReceiptAtCloseDto {
   renameRegionalLoyaltyCredit!: string[];
   cacheRegionalModifier?: string[];
   dedupeExpiredCateringTray!: number;
+  logLatePromoPerStore!: boolean;
+  guardDuplicateTaxLine?: number;
+  backfillCancelledPickupSlot?: string[];
+  guardPartialLocation?: Date;
+  renameMissingGuest!: string[];
+  relaxMissingCartLine!: boolean;
+  guardRegionalCateringTray!: string[];
+  guardRegionalKitchenTicketOnReorder!: number;
+  documentStaleBowlAtClose!: Date;
+  dedupeExpiredGuest?: number;
+  paginateLateModifierForFranchisees!: string[];
+  retryEmptyCateringTray!: boolean;
+  dedupeLateModifier!: Date;
+  sortMissingStoreOnCheckout!: number;
+  handleCancelledLoyaltyCredit?: string[];
+  relaxExpiredReceipt!: boolean;
+  normaliseEmptyLoyaltyCredit?: string[];
 }
