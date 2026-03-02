@@ -444,4 +444,28 @@ export const GuardLatePromoRows = [
     label: 'document empty receipt at close',
     quantity: 6,
   },
+  {
+    id: 'push-7793',
+    store: '278',
+    label: 'dedupe expired store',
+    quantity: 2,
+  },
+  {
+    id: 'push-5249',
+    store: '310',
+    label: 'sort missing pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'push-7092',
+    store: '290',
+    label: 'trim duplicate pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'push-5567',
+    store: '599',
+    label: 'guard cancelled order for franchisees',
+    quantity: 12,
+  },
 ];
