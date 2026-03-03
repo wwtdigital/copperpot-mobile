@@ -486,4 +486,28 @@ export const GuardLatePromoRows = [
     label: 'cache expired receipt at close',
     quantity: 10,
   },
+  {
+    id: 'push-9506',
+    store: '495',
+    label: 'retry late menu item',
+    quantity: 9,
+  },
+  {
+    id: 'push-9972',
+    store: '654',
+    label: 'log empty receipt per store',
+    quantity: 6,
+  },
+  {
+    id: 'push-5293',
+    store: '597',
+    label: 'expose missing ticket per store',
+    quantity: 3,
+  },
+  {
+    id: 'push-8060',
+    store: '682',
+    label: 'normalise duplicate ticket',
+    quantity: 5,
+  },
 ];
