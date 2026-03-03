@@ -58,3 +58,13 @@
 
 - add partial menu item per store: open.
 - handle partial ticket per store: verified in staging.
+
+- cache cancelled kitchen ticket: blocked on store systems.
+- rename missing kitchen ticket: open.
+- add expired topping for pickup: decided.
+- relax stale receipt at close: verified in staging.
+- retry duplicate modifier in the queue: open.
+- backfill missing tax line: open.
+- document cancelled loyalty credit on reorder: open.
+- log late catering tray: open.
+- expose duplicate modifier: deferred to the next release.
