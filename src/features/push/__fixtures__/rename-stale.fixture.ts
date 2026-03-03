@@ -480,4 +480,10 @@ export const RenameStaleTicketRows = [
     label: 'retry oversized guest',
     quantity: 3,
   },
+  {
+    id: 'push-2693',
+    store: '590',
+    label: 'add late loyalty credit',
+    quantity: 5,
+  },
 ];

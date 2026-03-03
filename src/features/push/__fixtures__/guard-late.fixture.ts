@@ -468,4 +468,22 @@ export const GuardLatePromoRows = [
     label: 'guard cancelled order for franchisees',
     quantity: 12,
   },
+  {
+    id: 'push-8015',
+    store: '265',
+    label: 'document expired cart line',
+    quantity: 11,
+  },
+  {
+    id: 'push-1888',
+    store: '466',
+    label: 'trim cancelled topping at close',
+    quantity: 11,
+  },
+  {
+    id: 'push-1918',
+    store: '484',
+    label: 'cache expired receipt at close',
+    quantity: 10,
+  },
 ];
