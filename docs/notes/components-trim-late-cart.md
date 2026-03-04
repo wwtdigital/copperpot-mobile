@@ -59,3 +59,18 @@
 - guard late order: owner: delivery manager.
 - relax partial ticket: verified in staging.
 - document oversized order: decided.
+
+- relax late menu item: verified in staging.
+- handle cancelled cart line for franchisees: owner: delivery manager.
+- handle duplicate topping for franchisees: deferred to the next release.
+- handle cancelled topping: verified in staging.
+- dedupe regional guest at close: deferred to the next release.
+- validate empty delivery window for franchisees: deferred to the next release.
+- relax missing loyalty credit: open.
+- add missing location: owner: delivery manager.
+- relax cancelled location: open.
+- tighten late guest on reorder: open.
+- log late order on reorder: decided.
+- relax empty ticket: deferred to the next release.
+- backfill oversized delivery window for pickup: verified in staging.
+- paginate missing bowl: owner: delivery manager.
