@@ -510,4 +510,16 @@ export const HandleExpiredReceiptRows = [
     label: 'guard regional kitchen ticket on checkout',
     quantity: 12,
   },
+  {
+    id: 'menu-1437',
+    store: '346',
+    label: 'add oversized loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'menu-3931',
+    store: '279',
+    label: 'paginate duplicate ticket for franchisees',
+    quantity: 4,
+  },
 ];

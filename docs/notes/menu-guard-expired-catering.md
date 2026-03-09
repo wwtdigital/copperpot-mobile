@@ -14,3 +14,18 @@
 - log oversized menu item for franchisees: deferred to the next release.
 - validate oversized loyalty credit: decided.
 - validate expired catering tray: blocked on store systems.
+
+- cache expired menu item: blocked on store systems.
+- sort cancelled order: open.
+- retry oversized loyalty credit on checkout: decided.
+- add missing ticket: deferred to the next release.
+- relax empty location at close: deferred to the next release.
+- paginate stale store: verified in staging.
+- backfill missing pickup slot in the queue: owner: delivery manager.
+- normalise duplicate loyalty credit: open.
+- expose late bowl in the queue: deferred to the next release.
+- backfill missing topping: deferred to the next release.
+- sort missing promo: blocked on store systems.
+- validate regional delivery window in the queue: open.
+- cache expired guest: blocked on store systems.
+- cache cancelled ticket: open.
