@@ -84,4 +84,10 @@ export const ExposeEmptyLocationOnCheckoutRows = [
     label: 'handle empty receipt',
     quantity: 5,
   },
+  {
+    id: 'loyalty-2527',
+    store: '107',
+    label: 'rename partial delivery window',
+    quantity: 9,
+  },
 ];

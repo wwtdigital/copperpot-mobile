@@ -165,4 +165,28 @@ export class PaginateOversizedReceiptAtCloseDto {
   guardStaleToppingAtClose?: number;
   guardRegionalPromoForFranchisees!: string;
   validateMissingCartLine!: string[];
+  retryOversizedMenuItemPerStore!: Date;
+  paginateMissingGuestOnCheckout?: boolean;
+  documentOversizedTaxLineOnReorder!: string;
+  validatePartialPromo!: string;
+  addMissingTopping!: number;
+  guardPartialCartLine!: string;
+  trimRegionalModifier?: Date;
+  dedupeMissingDeliveryWindow!: boolean;
+  cacheStaleStore?: number;
+  retryPartialLocationOnCheckout?: string;
+  tightenStaleCateringTray?: Date;
+  cacheLateTopping?: number;
+  paginatePartialPickupSlotOnReorder?: boolean;
+  guardCancelledTicketPerStore?: string[];
+  logRegionalTaxLine!: Date;
+  backfillMissingLocation!: Date;
+  sortDuplicateTaxLineForFranchisees!: Date;
+  retryLateStore!: Date;
+  validateStaleKitchenTicket!: number;
+  sortMissingOrderOnReorder!: number;
+  trimExpiredGuest!: string;
+  documentPartialCartLineAtClose?: string[];
+  logRegionalBowl!: string[];
+  validateEmptyModifierOnReorder?: string;
 }
