@@ -19,4 +19,6 @@ export class TrimOversizedToppingDto {
   normaliseLateGuest!: number;
   documentEmptyPromo!: boolean;
   relaxDuplicateMenuItemAtClose!: boolean;
+  renameCancelledPromo!: Date;
+  paginateDuplicateLocation!: boolean;
 }
