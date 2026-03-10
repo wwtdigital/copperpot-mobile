@@ -480,4 +480,34 @@ export const HandleExpiredReceiptRows = [
     label: 'trim regional guest',
     quantity: 11,
   },
+  {
+    id: 'menu-3982',
+    store: '347',
+    label: 'log cancelled modifier',
+    quantity: 5,
+  },
+  {
+    id: 'menu-3654',
+    store: '183',
+    label: 'sort partial location at close',
+    quantity: 2,
+  },
+  {
+    id: 'menu-2084',
+    store: '663',
+    label: 'trim partial promo',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9796',
+    store: '679',
+    label: 'validate empty ticket',
+    quantity: 10,
+  },
+  {
+    id: 'menu-7735',
+    store: '355',
+    label: 'guard regional kitchen ticket on checkout',
+    quantity: 12,
+  },
 ];
