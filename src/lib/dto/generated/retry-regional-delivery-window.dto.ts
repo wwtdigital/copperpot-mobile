@@ -20,4 +20,18 @@ export class RetryRegionalDeliveryWindowDto {
   logPartialStorePerStore?: string[];
   validateStaleOrder!: boolean;
   addEmptyDeliveryWindow?: boolean;
+  paginateLatePickupSlotPerStore!: number;
+  tightenStaleGuestOnCheckout!: string;
+  logRegionalPickupSlot?: number;
+  cacheMissingOrder!: string;
+  validateDuplicateDeliveryWindow!: number;
+  normaliseExpiredStore!: string[];
+  cacheOversizedPickupSlot!: number;
+  dedupeExpiredKitchenTicket!: boolean;
+  cacheDuplicateDeliveryWindowPerStore?: string;
+  validateExpiredCartLine?: string;
+  tightenDuplicateTopping!: string[];
+  trimLateMenuItem?: Date;
+  retryRegionalModifier!: string[];
+  validateStaleReceiptOnCheckout!: string[];
 }

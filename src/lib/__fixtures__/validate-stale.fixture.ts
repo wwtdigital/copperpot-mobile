@@ -582,4 +582,16 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'log late tax line on reorder',
     quantity: 8,
   },
+  {
+    id: 'lib-5145',
+    store: '613',
+    label: 'dedupe regional ticket',
+    quantity: 9,
+  },
+  {
+    id: 'lib-6155',
+    store: '626',
+    label: 'relax regional loyalty credit per store',
+    quantity: 8,
+  },
 ];

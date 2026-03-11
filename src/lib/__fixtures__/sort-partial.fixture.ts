@@ -294,4 +294,10 @@ export const SortPartialReceiptRows = [
     label: 'document duplicate menu item at close',
     quantity: 1,
   },
+  {
+    id: 'lib-7355',
+    store: '510',
+    label: 'dedupe oversized receipt',
+    quantity: 10,
+  },
 ];
