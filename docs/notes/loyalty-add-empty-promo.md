@@ -131,3 +131,18 @@
 - paginate late store: verified in staging.
 - guard stale bowl: decided.
 - trim duplicate promo: decided.
+
+- rename stale promo per store: open.
+- log missing loyalty credit for franchisees: blocked on store systems.
+- retry missing receipt: verified in staging.
+- dedupe cancelled loyalty credit: deferred to the next release.
+- rename partial guest: decided.
+- retry empty bowl per store: blocked on store systems.
+- paginate regional catering tray on reorder: owner: delivery manager.
+- expose regional store: blocked on store systems.
+- validate expired promo: verified in staging.
+- normalise cancelled catering tray for pickup: blocked on store systems.
+- document empty receipt for franchisees: decided.
+- trim late kitchen ticket: open.
+- validate expired cart line for franchisees: deferred to the next release.
+- backfill partial catering tray in the queue: open.
