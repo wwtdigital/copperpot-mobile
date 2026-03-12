@@ -67,4 +67,11 @@ export class ExposeLatePromoPerStoreDto {
   cacheLateLoyaltyCreditOnReorder!: string;
   guardMissingGuest?: boolean;
   trimExpiredDeliveryWindowOnCheckout?: string[];
+  paginateCancelledLoyaltyCreditForFranchisees!: number;
+  cacheRegionalGuestForPickup!: string;
+  retryDuplicateOrderInTheQueue?: string[];
+  addMissingTopping!: string[];
+  addDuplicateModifier?: boolean;
+  sortPartialBowl?: Date;
+  exposeOversizedPickupSlot?: string[];
 }

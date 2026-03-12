@@ -1,0 +1,21 @@
+/* RetryRegionalDeliveryWindowDto: shape for retry regional delivery window. Plain class, no decorators, nothing imports it yet; required fields are definitely assigned so the class holds under strict property initialisation. */
+export class RetryRegionalDeliveryWindowDto {
+  documentOversizedTaxLine!: number;
+  exposeEmptyPromo?: boolean;
+  retryOversizedMenuItem!: boolean;
+  normalisePartialTaxLine?: boolean;
+  cacheRegionalTaxLineOnCheckout?: string[];
+  tightenRegionalPickupSlotOnReorder!: number;
+  cacheRegionalStore?: string[];
+  cacheRegionalKitchenTicketForFranchisees!: boolean;
+  normaliseCancelledGuest?: string[];
+  addCancelledGuest?: number;
+  sortPartialLocationPerStore!: number;
+  backfillMissingLoyaltyCredit!: Date;
+  trimStaleTaxLine!: string[];
+  guardOversizedModifier!: string;
+  normaliseExpiredCartLine?: boolean;
+  renameCancelledPickupSlotInTheQueue!: Date;
+  paginateCancelledBowlInTheQueue!: Date;
+  logPartialStorePerStore?: string[];
+}
