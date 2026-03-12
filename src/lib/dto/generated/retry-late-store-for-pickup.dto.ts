@@ -63,4 +63,6 @@ export class RetryLateStoreForPickupDto {
   documentEmptyTicketPerStore!: Date;
   tightenCancelledReceipt?: string[];
   validateStaleModifierForPickup!: boolean;
+  backfillMissingTopping!: number;
+  retryLateGuest!: number;
 }
