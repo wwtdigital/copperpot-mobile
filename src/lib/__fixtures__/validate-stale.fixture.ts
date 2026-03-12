@@ -516,4 +516,34 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'log oversized loyalty credit',
     quantity: 3,
   },
+  {
+    id: 'lib-3452',
+    store: '139',
+    label: 'tighten missing loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'lib-2647',
+    store: '244',
+    label: 'guard empty order at close',
+    quantity: 6,
+  },
+  {
+    id: 'lib-9122',
+    store: '546',
+    label: 'backfill expired receipt on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'lib-2972',
+    store: '684',
+    label: 'relax cancelled modifier on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'lib-3763',
+    store: '109',
+    label: 'log cancelled receipt',
+    quantity: 11,
+  },
 ];
