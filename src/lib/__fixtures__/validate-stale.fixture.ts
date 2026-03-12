@@ -546,4 +546,40 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'log cancelled receipt',
     quantity: 11,
   },
+  {
+    id: 'lib-6728',
+    store: '662',
+    label: 'rename missing modifier on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'lib-8040',
+    store: '307',
+    label: 'guard oversized menu item per store',
+    quantity: 5,
+  },
+  {
+    id: 'lib-6751',
+    store: '346',
+    label: 'guard duplicate tax line',
+    quantity: 10,
+  },
+  {
+    id: 'lib-1894',
+    store: '189',
+    label: 'backfill empty promo',
+    quantity: 11,
+  },
+  {
+    id: 'lib-5862',
+    store: '382',
+    label: 'cache expired modifier',
+    quantity: 2,
+  },
+  {
+    id: 'lib-1067',
+    store: '383',
+    label: 'log late tax line on reorder',
+    quantity: 8,
+  },
 ];

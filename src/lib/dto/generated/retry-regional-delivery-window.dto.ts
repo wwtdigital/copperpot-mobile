@@ -18,4 +18,6 @@ export class RetryRegionalDeliveryWindowDto {
   renameCancelledPickupSlotInTheQueue!: Date;
   paginateCancelledBowlInTheQueue!: Date;
   logPartialStorePerStore?: string[];
+  validateStaleOrder!: boolean;
+  addEmptyDeliveryWindow?: boolean;
 }
