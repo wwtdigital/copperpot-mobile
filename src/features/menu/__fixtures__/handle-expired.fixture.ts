@@ -510,4 +510,46 @@ export const HandleExpiredReceiptRows = [
     label: 'guard regional kitchen ticket on checkout',
     quantity: 12,
   },
+  {
+    id: 'menu-1437',
+    store: '346',
+    label: 'add oversized loyalty credit',
+    quantity: 11,
+  },
+  {
+    id: 'menu-3931',
+    store: '279',
+    label: 'paginate duplicate ticket for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'menu-5968',
+    store: '158',
+    label: 'document late modifier',
+    quantity: 5,
+  },
+  {
+    id: 'menu-6874',
+    store: '281',
+    label: 'log partial order',
+    quantity: 6,
+  },
+  {
+    id: 'menu-1331',
+    store: '190',
+    label: 'cache regional order per store',
+    quantity: 9,
+  },
+  {
+    id: 'menu-8496',
+    store: '618',
+    label: 'expose expired topping',
+    quantity: 6,
+  },
+  {
+    id: 'menu-3205',
+    store: '528',
+    label: 'guard empty modifier',
+    quantity: 4,
+  },
 ];
