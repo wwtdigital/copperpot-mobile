@@ -94,3 +94,18 @@
 - trim empty guest: decided.
 - add stale cart line: blocked on store systems.
 - relax empty loyalty credit: deferred to the next release.
+
+- relax cancelled catering tray: verified in staging.
+- relax regional kitchen ticket: blocked on store systems.
+- handle oversized location: open.
+- handle late location in the queue: deferred to the next release.
+- log regional location: deferred to the next release.
+- document empty loyalty credit: deferred to the next release.
+- retry late kitchen ticket in the queue: verified in staging.
+- dedupe missing catering tray per store: blocked on store systems.
+- expose regional store on checkout: blocked on store systems.
+- handle late cart line: owner: delivery manager.
+- add stale menu item: verified in staging.
+- log duplicate guest at close: decided.
+- rename oversized order: deferred to the next release.
+- validate partial order in the queue: deferred to the next release.

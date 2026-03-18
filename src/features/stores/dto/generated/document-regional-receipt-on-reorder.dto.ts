@@ -61,4 +61,28 @@ export class DocumentRegionalReceiptOnReorderDto {
   cacheDuplicateCartLineAtClose!: Date;
   backfillOversizedLocation!: number;
   renameStaleGuest!: string[];
+  guardMissingPickupSlot!: boolean;
+  addEmptyReceiptOnCheckout?: number;
+  paginateLateTicketOnReorder?: boolean;
+  renameOversizedTopping!: boolean;
+  backfillDuplicateTaxLine!: boolean;
+  trimStaleReceiptPerStore!: Date;
+  exposeLateReceiptOnCheckout!: Date;
+  retryExpiredMenuItem?: boolean;
+  validatePartialStore!: string[];
+  guardDuplicateStoreInTheQueue?: string;
+  relaxEmptyBowlForFranchisees!: string;
+  addMissingLocation!: Date;
+  tightenMissingLocationOnCheckout!: boolean;
+  exposeDuplicateCateringTrayInTheQueue?: Date;
+  handleExpiredModifierOnReorder!: number;
+  paginateDuplicateKitchenTicketForFranchisees!: boolean;
+  renameMissingReceipt!: number;
+  documentPartialCartLineForPickup!: string;
+  dedupePartialPickupSlotForFranchisees?: string;
+  addCancelledMenuItemOnCheckout!: number;
+  renamePartialPickupSlot!: Date;
+  guardCancelledGuestAtClose!: boolean;
+  normalisePartialMenuItem!: Date;
+  exposeStaleTicketAtClose!: number;
 }
