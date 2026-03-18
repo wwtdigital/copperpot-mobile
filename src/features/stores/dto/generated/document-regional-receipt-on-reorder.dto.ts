@@ -49,4 +49,16 @@ export class DocumentRegionalReceiptOnReorderDto {
   documentStalePickupSlot?: boolean;
   validateRegionalTopping!: Date;
   addExpiredOrder?: string[];
+  renameExpiredLoyaltyCredit?: number;
+  relaxCancelledModifier?: number;
+  validateRegionalPickupSlotInTheQueue!: string[];
+  handleRegionalPickupSlot!: string[];
+  dedupeDuplicateCartLineAtClose!: number;
+  trimCancelledPickupSlot?: number;
+  guardStaleBowlInTheQueue!: Date;
+  normaliseEmptyOrder!: Date;
+  exposeStaleStore!: boolean;
+  cacheDuplicateCartLineAtClose!: Date;
+  backfillOversizedLocation!: number;
+  renameStaleGuest!: string[];
 }

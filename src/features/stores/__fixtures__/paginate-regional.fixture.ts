@@ -120,4 +120,10 @@ export const PaginateRegionalBowlForPickupRows = [
     label: 'expose regional guest in the queue',
     quantity: 10,
   },
+  {
+    id: 'stores-6133',
+    store: '216',
+    label: 'handle expired catering tray at close',
+    quantity: 12,
+  },
 ];

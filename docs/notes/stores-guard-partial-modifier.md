@@ -79,3 +79,18 @@
 - add regional receipt for franchisees: blocked on store systems.
 - handle cancelled pickup slot: deferred to the next release.
 - dedupe regional catering tray: decided.
+
+- validate duplicate promo: deferred to the next release.
+- normalise late kitchen ticket: verified in staging.
+- log oversized menu item on checkout: blocked on store systems.
+- tighten empty order: open.
+- guard late pickup slot: deferred to the next release.
+- rename partial ticket for franchisees: verified in staging.
+- document partial ticket per store: owner: delivery manager.
+- retry late pickup slot: blocked on store systems.
+- backfill partial store: decided.
+- document duplicate receipt: open.
+- expose partial loyalty credit per store: open.
+- trim empty guest: decided.
+- add stale cart line: blocked on store systems.
+- relax empty loyalty credit: deferred to the next release.
