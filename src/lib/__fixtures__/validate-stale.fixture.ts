@@ -594,4 +594,52 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'relax regional loyalty credit per store',
     quantity: 8,
   },
+  {
+    id: 'lib-5769',
+    store: '650',
+    label: 'document cancelled promo',
+    quantity: 1,
+  },
+  {
+    id: 'lib-2937',
+    store: '593',
+    label: 'rename partial pickup slot for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'lib-7622',
+    store: '164',
+    label: 'relax late location',
+    quantity: 1,
+  },
+  {
+    id: 'lib-6775',
+    store: '259',
+    label: 'dedupe oversized bowl per store',
+    quantity: 1,
+  },
+  {
+    id: 'lib-5221',
+    store: '614',
+    label: 'handle regional topping',
+    quantity: 6,
+  },
+  {
+    id: 'lib-5432',
+    store: '361',
+    label: 'trim partial delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'lib-6498',
+    store: '525',
+    label: 'backfill oversized tax line',
+    quantity: 11,
+  },
+  {
+    id: 'lib-2210',
+    store: '602',
+    label: 'normalise late menu item',
+    quantity: 4,
+  },
 ];
