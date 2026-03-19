@@ -624,4 +624,22 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'handle regional topping',
     quantity: 6,
   },
+  {
+    id: 'lib-5432',
+    store: '361',
+    label: 'trim partial delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'lib-6498',
+    store: '525',
+    label: 'backfill oversized tax line',
+    quantity: 11,
+  },
+  {
+    id: 'lib-2210',
+    store: '602',
+    label: 'normalise late menu item',
+    quantity: 4,
+  },
 ];

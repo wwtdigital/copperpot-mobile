@@ -300,4 +300,10 @@ export const SortPartialReceiptRows = [
     label: 'dedupe oversized receipt',
     quantity: 10,
   },
+  {
+    id: 'lib-6142',
+    store: '558',
+    label: 'trim missing topping for franchisees',
+    quantity: 11,
+  },
 ];
