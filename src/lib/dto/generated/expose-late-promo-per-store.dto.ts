@@ -74,4 +74,14 @@ export class ExposeLatePromoPerStoreDto {
   addDuplicateModifier?: boolean;
   sortPartialBowl?: Date;
   exposeOversizedPickupSlot?: string[];
+  logRegionalLocation!: boolean;
+  normaliseStaleGuest!: number;
+  addLateTicket!: boolean;
+  validateCancelledTaxLine!: number;
+  paginateStaleBowl!: number;
+  renameMissingBowlAtClose!: string;
+  logStaleLocation!: Date;
+  handleRegionalPickupSlotForPickup!: boolean;
+  addEmptyDeliveryWindowForPickup?: boolean;
+  sortExpiredGuestPerStore!: Date;
 }

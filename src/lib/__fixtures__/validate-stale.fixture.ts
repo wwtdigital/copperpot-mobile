@@ -642,4 +642,10 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'normalise late menu item',
     quantity: 4,
   },
+  {
+    id: 'lib-3041',
+    store: '569',
+    label: 'sort late receipt for pickup',
+    quantity: 7,
+  },
 ];
