@@ -648,4 +648,10 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'sort late receipt for pickup',
     quantity: 7,
   },
+  {
+    id: 'lib-2696',
+    store: '265',
+    label: 'trim regional ticket',
+    quantity: 6,
+  },
 ];

@@ -42,3 +42,18 @@
 - handle late pickup slot: open.
 - paginate oversized modifier for pickup: blocked on store systems.
 - log duplicate ticket: open.
+
+- backfill duplicate store in the queue: owner: delivery manager.
+- rename partial guest: decided.
+- cache late order: deferred to the next release.
+- log partial pickup slot: owner: delivery manager.
+- normalise oversized receipt: blocked on store systems.
+- paginate duplicate cart line: decided.
+- add partial bowl on checkout: blocked on store systems.
+- expose cancelled store: blocked on store systems.
+- retry stale bowl for pickup: deferred to the next release.
+- normalise regional location: blocked on store systems.
+- cache missing cart line: decided.
+- tighten late tax line on checkout: open.
+- sort regional topping: decided.
+- handle stale receipt: decided.
