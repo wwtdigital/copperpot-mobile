@@ -114,4 +114,16 @@ export const AddOversizedPickupSlotRows = [
     label: 'cache empty receipt',
     quantity: 9,
   },
+  {
+    id: 'account-5787',
+    store: '447',
+    label: 'normalise expired menu item for pickup',
+    quantity: 3,
+  },
+  {
+    id: 'account-4662',
+    store: '676',
+    label: 'dedupe missing promo for pickup',
+    quantity: 7,
+  },
 ];
