@@ -26,5 +26,3 @@
 - cache late guest: verified in staging.
 - guard oversized pickup slot: blocked on store systems.
 - expose empty modifier: verified in staging.
-- paginate expired store in the queue: open.
-- log oversized order: verified in staging.
