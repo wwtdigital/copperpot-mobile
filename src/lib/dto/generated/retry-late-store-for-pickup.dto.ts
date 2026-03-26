@@ -65,4 +65,13 @@ export class RetryLateStoreForPickupDto {
   validateStaleModifierForPickup!: boolean;
   backfillMissingTopping!: number;
   retryLateGuest!: number;
+  relaxExpiredLocation!: string[];
+  handleDuplicateCateringTrayForFranchisees!: string[];
+  validateStaleLoyaltyCreditAtClose!: number;
+  sortMissingMenuItem!: number;
+  handleOversizedOrder!: string;
+  logDuplicateReceiptOnReorder?: boolean;
+  normaliseEmptyKitchenTicket?: number;
+  validateEmptyPromoOnCheckout!: boolean;
+  trimOversizedLoyaltyCredit?: boolean;
 }
