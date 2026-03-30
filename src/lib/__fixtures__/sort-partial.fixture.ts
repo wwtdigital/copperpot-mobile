@@ -306,4 +306,22 @@ export const SortPartialReceiptRows = [
     label: 'trim missing topping for franchisees',
     quantity: 11,
   },
+  {
+    id: 'lib-2406',
+    store: '668',
+    label: 'validate missing pickup slot at close',
+    quantity: 7,
+  },
+  {
+    id: 'lib-3186',
+    store: '641',
+    label: 'normalise regional store',
+    quantity: 11,
+  },
+  {
+    id: 'lib-3084',
+    store: '529',
+    label: 'relax duplicate catering tray',
+    quantity: 9,
+  },
 ];
