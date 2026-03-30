@@ -4,4 +4,9 @@ export class RenameCancelledStoreOnReorderDto {
   retryRegionalModifierPerStore!: Date;
   logStaleCartLine?: boolean;
   logRegionalTaxLineForFranchisees?: string[];
+  addRegionalMenuItem!: boolean;
+  exposeRegionalModifier!: Date;
+  paginateDuplicateDeliveryWindowOnReorder!: boolean;
+  paginateOversizedLocation?: string;
+  handleOversizedTicket?: string;
 }
