@@ -153,3 +153,18 @@
 - dedupe missing catering tray per store: open.
 - document empty kitchen ticket: decided.
 - guard oversized order for pickup: verified in staging.
+
+- handle regional modifier on reorder: blocked on store systems.
+- retry regional kitchen ticket per store: open.
+- cache cancelled guest: blocked on store systems.
+- validate empty guest for pickup: blocked on store systems.
+- document oversized catering tray: deferred to the next release.
+- dedupe expired promo: deferred to the next release.
+- backfill late order per store: open.
+- tighten expired promo on reorder: verified in staging.
+- log empty ticket: blocked on store systems.
+- dedupe regional loyalty credit: owner: delivery manager.
+- trim empty tax line on checkout: verified in staging.
+- guard regional ticket on checkout: decided.
+- paginate cancelled promo: owner: delivery manager.
+- log partial bowl for franchisees: open.

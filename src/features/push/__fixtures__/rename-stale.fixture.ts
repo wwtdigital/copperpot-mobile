@@ -582,4 +582,34 @@ export const RenameStaleTicketRows = [
     label: 'document duplicate menu item',
     quantity: 11,
   },
+  {
+    id: 'push-7751',
+    store: '103',
+    label: 'normalise duplicate loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'push-7357',
+    store: '444',
+    label: 'log empty delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'push-3541',
+    store: '170',
+    label: 'paginate empty tax line',
+    quantity: 2,
+  },
+  {
+    id: 'push-3114',
+    store: '478',
+    label: 'log oversized order on checkout',
+    quantity: 10,
+  },
+  {
+    id: 'push-6270',
+    store: '258',
+    label: 'dedupe stale topping',
+    quantity: 2,
+  },
 ];
