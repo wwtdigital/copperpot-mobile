@@ -510,4 +510,10 @@ export const GuardLatePromoRows = [
     label: 'normalise duplicate ticket',
     quantity: 5,
   },
+  {
+    id: 'push-1911',
+    store: '360',
+    label: 'validate regional pickup slot',
+    quantity: 11,
+  },
 ];
