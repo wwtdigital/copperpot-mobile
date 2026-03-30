@@ -242,4 +242,7 @@ export class ValidateDuplicateLocationForPickupDto {
   paginateRegionalOrder!: string[];
   trimStaleReceiptForFranchisees!: number;
   dedupeExpiredMenuItem?: string;
+  cacheStaleTopping!: string[];
+  validateEmptyModifier!: number;
+  dedupeRegionalGuestForPickup!: string;
 }
