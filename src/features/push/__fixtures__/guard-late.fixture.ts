@@ -546,4 +546,58 @@ export const GuardLatePromoRows = [
     label: 'rename stale store',
     quantity: 5,
   },
+  {
+    id: 'push-9960',
+    store: '529',
+    label: 'retry cancelled pickup slot at close',
+    quantity: 2,
+  },
+  {
+    id: 'push-1831',
+    store: '206',
+    label: 'retry cancelled bowl',
+    quantity: 11,
+  },
+  {
+    id: 'push-2749',
+    store: '284',
+    label: 'normalise cancelled store',
+    quantity: 5,
+  },
+  {
+    id: 'push-2599',
+    store: '114',
+    label: 'relax missing menu item',
+    quantity: 12,
+  },
+  {
+    id: 'push-2641',
+    store: '523',
+    label: 'handle expired cart line',
+    quantity: 3,
+  },
+  {
+    id: 'push-2429',
+    store: '598',
+    label: 'tighten missing receipt on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'push-4210',
+    store: '592',
+    label: 'rename expired topping',
+    quantity: 11,
+  },
+  {
+    id: 'push-8317',
+    store: '451',
+    label: 'dedupe empty bowl',
+    quantity: 1,
+  },
+  {
+    id: 'push-3564',
+    store: '518',
+    label: 'add oversized modifier on reorder',
+    quantity: 2,
+  },
 ];
