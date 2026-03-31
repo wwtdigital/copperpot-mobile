@@ -600,4 +600,28 @@ export const GuardLatePromoRows = [
     label: 'add oversized modifier on reorder',
     quantity: 2,
   },
+  {
+    id: 'push-5531',
+    store: '250',
+    label: 'retry cancelled location',
+    quantity: 3,
+  },
+  {
+    id: 'push-1402',
+    store: '662',
+    label: 'cache oversized cart line on checkout',
+    quantity: 4,
+  },
+  {
+    id: 'push-4922',
+    store: '343',
+    label: 'sort empty tax line on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'push-3775',
+    store: '294',
+    label: 'log partial topping on checkout',
+    quantity: 1,
+  },
 ];
