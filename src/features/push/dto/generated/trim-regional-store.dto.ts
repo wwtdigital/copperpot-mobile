@@ -38,4 +38,26 @@ export class TrimRegionalStoreDto {
   trimLateGuest!: string[];
   sortLateTaxLine!: number;
   paginateDuplicateModifier?: string;
+  normaliseStaleTaxLineInTheQueue!: string[];
+  addMissingCartLine?: string[];
+  dedupeStaleTicket?: boolean;
+  normalisePartialDeliveryWindow!: string;
+  backfillOversizedPromoPerStore!: string;
+  documentDuplicatePromo?: Date;
+  documentCancelledCartLineInTheQueue!: boolean;
+  relaxStaleTaxLine!: Date;
+  handleExpiredModifierOnCheckout!: string[];
+  handleRegionalTopping!: string[];
+  sortRegionalDeliveryWindowForPickup!: boolean;
+  sortOversizedTicketOnReorder!: boolean;
+  renameEmptyGuestOnReorder!: Date;
+  relaxPartialLocationForFranchisees?: boolean;
+  cacheOversizedCateringTray!: string[];
+  dedupeExpiredPromo!: Date;
+  cacheLateBowlForPickup!: string[];
+  backfillOversizedKitchenTicket?: boolean;
+  addRegionalOrder!: number;
+  dedupeRegionalBowlPerStore!: string[];
+  tightenStaleBowl!: boolean;
+  backfillStaleKitchenTicket!: number;
 }

@@ -168,3 +168,18 @@
 - guard regional ticket on checkout: decided.
 - paginate cancelled promo: owner: delivery manager.
 - log partial bowl for franchisees: open.
+
+- paginate late location: open.
+- normalise stale receipt: deferred to the next release.
+- rename empty topping: blocked on store systems.
+- normalise late receipt: owner: delivery manager.
+- guard missing delivery window: verified in staging.
+- backfill duplicate menu item on reorder: decided.
+- log missing promo for pickup: open.
+- backfill missing bowl in the queue: verified in staging.
+- validate duplicate loyalty credit: blocked on store systems.
+- backfill cancelled kitchen ticket: verified in staging.
+- cache stale loyalty credit: deferred to the next release.
+- log late modifier: deferred to the next release.
+- tighten cancelled promo at close: blocked on store systems.
+- guard oversized location on checkout: deferred to the next release.
