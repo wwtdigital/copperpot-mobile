@@ -73,4 +73,15 @@ export class AddRegionalTicketDto {
   cacheEmptyBowl!: string;
   logRegionalPickupSlot!: Date;
   backfillStaleLocationForPickup!: Date;
+  cacheOversizedTaxLineOnCheckout?: string[];
+  dedupeDuplicateMenuItem!: number;
+  guardLateTaxLine!: string[];
+  normaliseRegionalTaxLinePerStore!: boolean;
+  exposeCancelledDeliveryWindow?: string[];
+  validateLateMenuItem!: number;
+  validateCancelledGuestAtClose?: number;
+  sortMissingMenuItem?: string;
+  dedupeLateGuest!: string[];
+  retryStaleCateringTrayOnCheckout?: boolean;
+  handleStaleReceipt?: Date;
 }
