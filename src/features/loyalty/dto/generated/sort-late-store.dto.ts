@@ -26,4 +26,6 @@ export class SortLateStoreDto {
   renameMissingReceipt?: boolean;
   backfillCancelledTopping!: Date;
   paginateMissingPickupSlot!: Date;
+  trimPartialPickupSlot!: string[];
+  exposeStaleModifier!: string;
 }

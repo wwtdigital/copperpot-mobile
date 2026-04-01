@@ -26,3 +26,18 @@
 - cache late guest: verified in staging.
 - guard oversized pickup slot: blocked on store systems.
 - expose empty modifier: verified in staging.
+
+- log stale menu item: deferred to the next release.
+- sort expired delivery window per store: blocked on store systems.
+- cache regional delivery window: verified in staging.
+- paginate missing modifier: deferred to the next release.
+- rename oversized bowl: owner: delivery manager.
+- normalise duplicate modifier: blocked on store systems.
+- cache cancelled ticket: owner: delivery manager.
+- normalise regional modifier: open.
+- relax expired catering tray: verified in staging.
+- normalise empty receipt on reorder: open.
+- paginate late order on reorder: decided.
+- handle expired pickup slot for franchisees: blocked on store systems.
+- document duplicate menu item on checkout: deferred to the next release.
+- dedupe missing loyalty credit: decided.
