@@ -84,4 +84,28 @@ export class AddRegionalTicketDto {
   dedupeLateGuest!: string[];
   retryStaleCateringTrayOnCheckout?: boolean;
   handleStaleReceipt?: Date;
+  logCancelledKitchenTicketOnReorder!: number;
+  handleDuplicateLocation!: string[];
+  trimStaleLocationForFranchisees!: Date;
+  relaxDuplicateTicketInTheQueue!: string;
+  backfillCancelledModifierPerStore?: boolean;
+  cacheMissingCartLine!: Date;
+  paginateCancelledCartLinePerStore!: string[];
+  sortEmptyMenuItem!: string;
+  renameOversizedDeliveryWindowAtClose!: Date;
+  backfillRegionalCateringTray!: Date;
+  sortMissingPickupSlot!: number;
+  validateMissingReceipt!: boolean;
+  validateMissingMenuItem!: number;
+  sortExpiredDeliveryWindow!: Date;
+  relaxOversizedGuestPerStore!: Date;
+  backfillEmptyStore!: string;
+  renameEmptyReceipt!: number;
+  retryStaleLoyaltyCredit!: number;
+  documentOversizedLoyaltyCredit!: Date;
+  normaliseCancelledOrder!: number;
+  tightenDuplicateKitchenTicketOnCheckout!: number;
+  addDuplicateReceipt!: string;
+  dedupeEmptyKitchenTicket!: string;
+  cacheMissingToppingOnReorder!: number;
 }
