@@ -516,4 +516,34 @@ export const GuardLatePromoRows = [
     label: 'validate regional pickup slot',
     quantity: 11,
   },
+  {
+    id: 'push-9143',
+    store: '666',
+    label: 'handle empty bowl',
+    quantity: 10,
+  },
+  {
+    id: 'push-4461',
+    store: '390',
+    label: 'add missing guest at close',
+    quantity: 2,
+  },
+  {
+    id: 'push-4364',
+    store: '215',
+    label: 'relax expired topping per store',
+    quantity: 6,
+  },
+  {
+    id: 'push-2352',
+    store: '553',
+    label: 'log late receipt',
+    quantity: 8,
+  },
+  {
+    id: 'push-3716',
+    store: '580',
+    label: 'rename stale store',
+    quantity: 5,
+  },
 ];
