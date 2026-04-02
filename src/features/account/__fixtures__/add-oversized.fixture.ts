@@ -126,4 +126,10 @@ export const AddOversizedPickupSlotRows = [
     label: 'dedupe missing promo for pickup',
     quantity: 7,
   },
+  {
+    id: 'account-4948',
+    store: '554',
+    label: 'normalise partial store',
+    quantity: 2,
+  },
 ];

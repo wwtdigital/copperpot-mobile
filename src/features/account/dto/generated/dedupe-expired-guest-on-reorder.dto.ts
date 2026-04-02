@@ -2,4 +2,9 @@
 export class DedupeExpiredGuestOnReorderDto {
   cacheLateTaxLine?: boolean;
   guardStaleStore?: string;
+  normalisePartialLocation?: boolean;
+  relaxExpiredLocationForFranchisees?: boolean;
+  trimRegionalDeliveryWindow!: Date;
+  paginateOversizedTaxLine!: number;
+  documentPartialOrderForFranchisees!: Date;
 }
