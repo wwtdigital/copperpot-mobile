@@ -60,4 +60,7 @@ export class TrimRegionalStoreDto {
   dedupeRegionalBowlPerStore!: string[];
   tightenStaleBowl!: boolean;
   backfillStaleKitchenTicket!: number;
+  addDuplicateCartLineForPickup?: boolean;
+  renameLateCateringTray?: string[];
+  renamePartialBowlForPickup!: boolean;
 }

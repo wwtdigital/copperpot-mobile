@@ -12,4 +12,28 @@ export const LogCancelledCateringTrayPerStoreRows = [
     label: 'normalise expired order on reorder',
     quantity: 11,
   },
+  {
+    id: 'push-4759',
+    store: '357',
+    label: 'tighten late loyalty credit on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'push-8319',
+    store: '143',
+    label: 'cache stale pickup slot for franchisees',
+    quantity: 5,
+  },
+  {
+    id: 'push-3196',
+    store: '676',
+    label: 'expose missing kitchen ticket in the queue',
+    quantity: 8,
+  },
+  {
+    id: 'push-7902',
+    store: '494',
+    label: 'cache stale topping',
+    quantity: 1,
+  },
 ];

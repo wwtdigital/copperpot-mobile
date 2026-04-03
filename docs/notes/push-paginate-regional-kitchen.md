@@ -183,3 +183,18 @@
 - log late modifier: deferred to the next release.
 - tighten cancelled promo at close: blocked on store systems.
 - guard oversized location on checkout: deferred to the next release.
+
+- sort empty promo: open.
+- expose partial bowl: owner: delivery manager.
+- cache expired delivery window: deferred to the next release.
+- tighten expired cart line: verified in staging.
+- cache empty order on reorder: deferred to the next release.
+- rename duplicate catering tray: decided.
+- rename expired delivery window per store: decided.
+- validate expired promo on reorder: decided.
+- cache empty menu item on reorder: blocked on store systems.
+- backfill expired promo: owner: delivery manager.
+- handle oversized loyalty credit: verified in staging.
+- add oversized location: decided.
+- validate missing cart line in the queue: open.
+- retry regional receipt: blocked on store systems.
