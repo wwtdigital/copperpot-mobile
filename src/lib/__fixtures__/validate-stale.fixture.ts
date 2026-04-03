@@ -654,4 +654,10 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'trim regional ticket',
     quantity: 6,
   },
+  {
+    id: 'lib-9422',
+    store: '228',
+    label: 'backfill stale loyalty credit',
+    quantity: 2,
+  },
 ];

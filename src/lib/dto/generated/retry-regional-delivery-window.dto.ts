@@ -34,4 +34,8 @@ export class RetryRegionalDeliveryWindowDto {
   trimLateMenuItem?: Date;
   retryRegionalModifier!: string[];
   validateStaleReceiptOnCheckout!: string[];
+  retryRegionalPickupSlot!: string[];
+  guardMissingReceipt!: string[];
+  trimExpiredReceipt!: string[];
+  paginateDuplicateBowlPerStore!: number;
 }
