@@ -660,4 +660,10 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'backfill stale loyalty credit',
     quantity: 2,
   },
+  {
+    id: 'lib-6959',
+    store: '386',
+    label: 'validate oversized receipt',
+    quantity: 11,
+  },
 ];
