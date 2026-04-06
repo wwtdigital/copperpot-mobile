@@ -41,3 +41,8 @@
 - handle expired pickup slot for franchisees: blocked on store systems.
 - document duplicate menu item on checkout: deferred to the next release.
 - dedupe missing loyalty credit: decided.
+
+- rename missing tax line per store: owner: delivery manager.
+- normalise duplicate tax line: blocked on store systems.
+- backfill stale kitchen ticket in the queue: open.
+- paginate stale bowl per store: open.
