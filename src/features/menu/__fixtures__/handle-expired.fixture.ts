@@ -576,4 +576,16 @@ export const HandleExpiredReceiptRows = [
     label: 'add cancelled guest',
     quantity: 11,
   },
+  {
+    id: 'menu-2619',
+    store: '595',
+    label: 'validate empty promo',
+    quantity: 11,
+  },
+  {
+    id: 'menu-1239',
+    store: '117',
+    label: 'relax empty bowl',
+    quantity: 3,
+  },
 ];

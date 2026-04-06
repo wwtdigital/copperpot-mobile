@@ -4,4 +4,15 @@ export class SortOversizedLoyaltyCreditDto {
   exposeStaleLoyaltyCredit!: boolean;
   trimRegionalCartLinePerStore!: Date;
   documentRegionalCartLine!: boolean;
+  dedupeRegionalPickupSlotInTheQueue!: Date;
+  renameStaleStore!: string[];
+  paginateLateTicket!: number;
+  paginatePartialCartLine!: Date;
+  handleRegionalOrder!: string[];
+  retryStaleStore!: string;
+  backfillCancelledOrder!: number;
+  renameMissingBowlInTheQueue?: string;
+  logOversizedStore?: string;
+  handleDuplicateKitchenTicketOnReorder?: boolean;
+  logLatePickupSlot!: string[];
 }
