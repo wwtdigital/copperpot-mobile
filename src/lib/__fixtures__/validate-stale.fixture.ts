@@ -666,4 +666,10 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'validate oversized receipt',
     quantity: 11,
   },
+  {
+    id: 'lib-3287',
+    store: '198',
+    label: 'backfill empty pickup slot in the queue',
+    quantity: 5,
+  },
 ];
