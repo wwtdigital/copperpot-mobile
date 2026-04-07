@@ -28,4 +28,14 @@ export class SortLateStoreDto {
   paginateMissingPickupSlot!: Date;
   trimPartialPickupSlot!: string[];
   exposeStaleModifier!: string;
+  addStaleTaxLinePerStore?: boolean;
+  logCancelledTaxLine!: string[];
+  exposePartialModifier?: number;
+  addEmptyLoyaltyCredit!: number;
+  addStaleReceipt!: number;
+  retryStalePickupSlot!: Date;
+  relaxLatePickupSlot!: boolean;
+  sortRegionalMenuItemInTheQueue?: string;
+  handleCancelledLoyaltyCredit!: number;
+  paginateRegionalStoreForFranchisees?: number;
 }
