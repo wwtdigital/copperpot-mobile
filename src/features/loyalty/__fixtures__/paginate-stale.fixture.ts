@@ -366,4 +366,22 @@ export const PaginateStaleGuestRows = [
     label: 'tighten missing modifier',
     quantity: 7,
   },
+  {
+    id: 'loyalty-1900',
+    store: '515',
+    label: 'validate cancelled cart line',
+    quantity: 7,
+  },
+  {
+    id: 'loyalty-4435',
+    store: '663',
+    label: 'cache partial modifier',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-5960',
+    store: '599',
+    label: 'document stale cart line on checkout',
+    quantity: 11,
+  },
 ];

@@ -26,4 +26,16 @@ export class SortLateStoreDto {
   renameMissingReceipt?: boolean;
   backfillCancelledTopping!: Date;
   paginateMissingPickupSlot!: Date;
+  trimPartialPickupSlot!: string[];
+  exposeStaleModifier!: string;
+  addStaleTaxLinePerStore?: boolean;
+  logCancelledTaxLine!: string[];
+  exposePartialModifier?: number;
+  addEmptyLoyaltyCredit!: number;
+  addStaleReceipt!: number;
+  retryStalePickupSlot!: Date;
+  relaxLatePickupSlot!: boolean;
+  sortRegionalMenuItemInTheQueue?: string;
+  handleCancelledLoyaltyCredit!: number;
+  paginateRegionalStoreForFranchisees?: number;
 }

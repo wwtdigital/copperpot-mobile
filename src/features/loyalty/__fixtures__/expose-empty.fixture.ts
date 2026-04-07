@@ -90,4 +90,10 @@ export const ExposeEmptyLocationOnCheckoutRows = [
     label: 'rename partial delivery window',
     quantity: 9,
   },
+  {
+    id: 'loyalty-9010',
+    store: '698',
+    label: 'dedupe expired promo',
+    quantity: 3,
+  },
 ];
