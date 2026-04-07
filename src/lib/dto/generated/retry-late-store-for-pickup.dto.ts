@@ -74,4 +74,6 @@ export class RetryLateStoreForPickupDto {
   normaliseEmptyKitchenTicket?: number;
   validateEmptyPromoOnCheckout!: boolean;
   trimOversizedLoyaltyCredit?: boolean;
+  validateDuplicateBowl?: Date;
+  normaliseExpiredTopping!: string[];
 }

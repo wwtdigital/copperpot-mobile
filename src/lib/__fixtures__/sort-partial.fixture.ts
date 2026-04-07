@@ -324,4 +324,10 @@ export const SortPartialReceiptRows = [
     label: 'relax duplicate catering tray',
     quantity: 9,
   },
+  {
+    id: 'lib-2964',
+    store: '295',
+    label: 'trim partial promo',
+    quantity: 6,
+  },
 ];

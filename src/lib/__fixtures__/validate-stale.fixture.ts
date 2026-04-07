@@ -654,4 +654,22 @@ export const ValidateStaleMenuItemInTheQueueRows = [
     label: 'trim regional ticket',
     quantity: 6,
   },
+  {
+    id: 'lib-9422',
+    store: '228',
+    label: 'backfill stale loyalty credit',
+    quantity: 2,
+  },
+  {
+    id: 'lib-6959',
+    store: '386',
+    label: 'validate oversized receipt',
+    quantity: 11,
+  },
+  {
+    id: 'lib-3287',
+    store: '198',
+    label: 'backfill empty pickup slot in the queue',
+    quantity: 5,
+  },
 ];
