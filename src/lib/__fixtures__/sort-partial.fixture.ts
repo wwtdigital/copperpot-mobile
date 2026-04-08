@@ -330,4 +330,34 @@ export const SortPartialReceiptRows = [
     label: 'trim partial promo',
     quantity: 6,
   },
+  {
+    id: 'lib-4392',
+    store: '548',
+    label: 'paginate duplicate cart line',
+    quantity: 3,
+  },
+  {
+    id: 'lib-8957',
+    store: '623',
+    label: 'relax duplicate promo',
+    quantity: 2,
+  },
+  {
+    id: 'lib-7919',
+    store: '343',
+    label: 'handle stale delivery window on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'lib-5308',
+    store: '338',
+    label: 'dedupe cancelled promo for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'lib-2193',
+    store: '229',
+    label: 'paginate cancelled menu item',
+    quantity: 12,
+  },
 ];
