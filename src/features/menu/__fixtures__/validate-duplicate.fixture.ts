@@ -24,4 +24,34 @@ export const ValidateDuplicateOrderRows = [
     label: 'sort duplicate cart line',
     quantity: 7,
   },
+  {
+    id: 'menu-1173',
+    store: '629',
+    label: 'normalise duplicate catering tray',
+    quantity: 12,
+  },
+  {
+    id: 'menu-9462',
+    store: '125',
+    label: 'document partial catering tray',
+    quantity: 6,
+  },
+  {
+    id: 'menu-1097',
+    store: '188',
+    label: 'document late bowl',
+    quantity: 3,
+  },
+  {
+    id: 'menu-6785',
+    store: '374',
+    label: 'sort empty guest for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'menu-6317',
+    store: '601',
+    label: 'dedupe empty loyalty credit at close',
+    quantity: 11,
+  },
 ];
