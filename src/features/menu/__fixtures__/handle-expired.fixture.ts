@@ -552,4 +552,40 @@ export const HandleExpiredReceiptRows = [
     label: 'guard empty modifier',
     quantity: 4,
   },
+  {
+    id: 'menu-3957',
+    store: '232',
+    label: 'trim regional catering tray in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'menu-1827',
+    store: '495',
+    label: 'handle cancelled ticket',
+    quantity: 7,
+  },
+  {
+    id: 'menu-4594',
+    store: '613',
+    label: 'cache duplicate catering tray for pickup',
+    quantity: 11,
+  },
+  {
+    id: 'menu-5112',
+    store: '584',
+    label: 'add cancelled guest',
+    quantity: 11,
+  },
+  {
+    id: 'menu-2619',
+    store: '595',
+    label: 'validate empty promo',
+    quantity: 11,
+  },
+  {
+    id: 'menu-1239',
+    store: '117',
+    label: 'relax empty bowl',
+    quantity: 3,
+  },
 ];
