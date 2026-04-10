@@ -2,4 +2,6 @@
 export class SortOversizedLoyaltyCreditDto {
   trimEmptyTaxLine!: Date;
   exposeStaleLoyaltyCredit!: boolean;
+  trimRegionalCartLinePerStore!: Date;
+  documentRegionalCartLine!: boolean;
 }
