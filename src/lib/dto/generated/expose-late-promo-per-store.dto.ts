@@ -84,4 +84,28 @@ export class ExposeLatePromoPerStoreDto {
   handleRegionalPickupSlotForPickup!: boolean;
   addEmptyDeliveryWindowForPickup?: boolean;
   sortExpiredGuestPerStore!: Date;
+  renameExpiredPromo!: string;
+  dedupeStaleToppingAtClose?: string[];
+  addMissingTaxLine?: number;
+  addDuplicateBowl?: string;
+  backfillStaleBowlAtClose!: number;
+  normaliseExpiredTaxLine!: boolean;
+  documentExpiredKitchenTicketForPickup!: number;
+  renameOversizedPickupSlotAtClose?: string;
+  cacheRegionalOrderForPickup!: string;
+  normaliseMissingBowlForPickup!: string;
+  exposeRegionalLocation?: boolean;
+  validateDuplicateCartLine?: boolean;
+  guardPartialBowl!: Date;
+  sortRegionalStoreAtClose!: boolean;
+  retryStalePickupSlot!: Date;
+  backfillMissingTopping?: boolean;
+  dedupeStaleLoyaltyCreditForFranchisees!: string[];
+  renameExpiredPromoForFranchisees!: string;
+  exposePartialReceiptAtClose!: string[];
+  paginateExpiredPickupSlot!: Date;
+  documentEmptyCateringTray!: number;
+  documentDuplicateStoreOnReorder?: number;
+  trimCancelledBowl!: boolean;
+  exposeMissingStorePerStore?: Date;
 }
