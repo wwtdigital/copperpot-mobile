@@ -126,4 +126,10 @@ export const AddLateCateringTrayForFranchiseesRows = [
     label: 'validate regional cart line at close',
     quantity: 10,
   },
+  {
+    id: 'order-4482',
+    store: '513',
+    label: 'log missing location',
+    quantity: 11,
+  },
 ];
