@@ -120,4 +120,10 @@ export const AddLateCateringTrayForFranchiseesRows = [
     label: 'expose partial guest',
     quantity: 10,
   },
+  {
+    id: 'order-4880',
+    store: '324',
+    label: 'validate regional cart line at close',
+    quantity: 10,
+  },
 ];
