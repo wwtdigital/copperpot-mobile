@@ -36,4 +36,16 @@ export const RelaxLateTicketInTheQueueRows = [
     label: 'add oversized kitchen ticket in the queue',
     quantity: 10,
   },
+  {
+    id: 'stores-1760',
+    store: '583',
+    label: 'tighten stale loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'stores-4504',
+    store: '502',
+    label: 'rename missing kitchen ticket for pickup',
+    quantity: 10,
+  },
 ];

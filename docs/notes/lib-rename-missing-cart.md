@@ -55,5 +55,3 @@
 - normalise regional location: blocked on store systems.
 - cache missing cart line: decided.
 - tighten late tax line on checkout: open.
-- sort regional topping: decided.
-- handle stale receipt: decided.
