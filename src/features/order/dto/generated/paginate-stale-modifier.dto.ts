@@ -143,10 +143,4 @@ export class PaginateStaleModifierDto {
   exposeExpiredReceipt!: Date;
   addPartialStore!: Date;
   retryDuplicateGuestAtClose!: boolean;
-  handleStaleTicketOnCheckout?: Date;
-  validateMissingStoreForPickup!: number;
-  normaliseMissingDeliveryWindowOnReorder!: string[];
-  cacheOversizedPromo!: string;
-  dedupeEmptyCartLinePerStore!: Date;
-  sortMissingGuest!: Date;
 }
