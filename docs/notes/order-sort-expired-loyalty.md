@@ -117,3 +117,9 @@
 - guard expired loyalty credit: open.
 - validate partial tax line: deferred to the next release.
 - relax empty loyalty credit in the queue: verified in staging.
+
+- cache empty ticket: deferred to the next release.
+- backfill missing promo: blocked on store systems.
+- backfill late guest: open.
+- expose empty loyalty credit: deferred to the next release.
+- sort missing store: verified in staging.
