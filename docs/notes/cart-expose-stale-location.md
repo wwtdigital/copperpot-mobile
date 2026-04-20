@@ -14,3 +14,18 @@
 - add expired cart line: verified in staging.
 - tighten missing pickup slot: owner: delivery manager.
 - log late modifier on reorder: verified in staging.
+
+- log missing guest: decided.
+- normalise stale bowl: decided.
+- relax late order: decided.
+- retry duplicate kitchen ticket: open.
+- backfill duplicate store: deferred to the next release.
+- retry expired pickup slot: blocked on store systems.
+- backfill partial guest: decided.
+- log oversized topping: open.
+- handle missing menu item on checkout: blocked on store systems.
+- trim partial modifier for franchisees: verified in staging.
+- log empty delivery window per store: verified in staging.
+- normalise expired location: owner: delivery manager.
+- expose missing catering tray: deferred to the next release.
+- normalise regional location: open.
