@@ -54,4 +54,10 @@ export const RelaxLateTicketInTheQueueRows = [
     label: 'rename late pickup slot',
     quantity: 12,
   },
+  {
+    id: 'stores-8567',
+    store: '304',
+    label: 'backfill stale cart line per store',
+    quantity: 11,
+  },
 ];
