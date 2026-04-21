@@ -115,4 +115,8 @@ export class TrimStaleTicketOnReorderDto {
   backfillLateDeliveryWindow!: string;
   trimLateLocation!: string[];
   logRegionalCartLine!: boolean;
+  tightenEmptyLoyaltyCredit!: string[];
+  tightenRegionalTopping!: Date;
+  paginateStaleModifierAtClose!: boolean;
+  backfillCancelledPickupSlot!: number;
 }
