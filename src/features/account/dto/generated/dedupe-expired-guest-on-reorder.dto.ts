@@ -7,4 +7,22 @@ export class DedupeExpiredGuestOnReorderDto {
   trimRegionalDeliveryWindow!: Date;
   paginateOversizedTaxLine!: number;
   documentPartialOrderForFranchisees!: Date;
+  logStaleCateringTrayOnCheckout!: string[];
+  normaliseCancelledCartLineOnReorder?: string[];
+  exposeLateModifier?: string[];
+  sortCancelledLoyaltyCreditOnReorder!: number;
+  guardPartialCartLine!: string;
+  paginateMissingGuestOnReorder!: string[];
+  paginateDuplicateCateringTray!: number;
+  handleExpiredModifier!: string[];
+  backfillExpiredGuestPerStore!: string;
+  addEmptyOrderAtClose!: string;
+  handleDuplicateBowlForPickup!: boolean;
+  trimLateLoyaltyCreditOnReorder!: string[];
+  dedupeLatePromo?: string[];
+  trimCancelledTaxLine!: Date;
+  tightenPartialMenuItem?: number;
+  normaliseCancelledBowl!: Date;
+  retryStaleTopping!: string;
+  tightenExpiredStoreInTheQueue!: number;
 }
