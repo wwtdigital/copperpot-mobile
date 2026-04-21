@@ -46,3 +46,18 @@
 - cache stale receipt at close: verified in staging.
 - guard late order for franchisees: decided.
 - tighten expired guest on reorder: verified in staging.
+
+- paginate oversized location for franchisees: decided.
+- guard regional modifier on reorder: decided.
+- rename partial bowl: decided.
+- backfill duplicate cart line at close: decided.
+- dedupe duplicate modifier at close: decided.
+- guard oversized tax line for franchisees: verified in staging.
+- sort late catering tray: decided.
+- document late receipt: open.
+- dedupe late menu item: owner: delivery manager.
+- trim duplicate modifier: blocked on store systems.
+- expose late pickup slot: open.
+- paginate stale delivery window: blocked on store systems.
+- rename empty receipt: deferred to the next release.
+- expose stale store on checkout: deferred to the next release.
