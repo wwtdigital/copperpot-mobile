@@ -192,4 +192,46 @@ export const AddOversizedPickupSlotRows = [
     label: 'handle partial catering tray per store',
     quantity: 10,
   },
+  {
+    id: 'account-8444',
+    store: '295',
+    label: 'validate late pickup slot',
+    quantity: 1,
+  },
+  {
+    id: 'account-9427',
+    store: '529',
+    label: 'log duplicate location',
+    quantity: 9,
+  },
+  {
+    id: 'account-3418',
+    store: '636',
+    label: 'guard cancelled ticket',
+    quantity: 6,
+  },
+  {
+    id: 'account-5366',
+    store: '632',
+    label: 'trim cancelled delivery window on reorder',
+    quantity: 8,
+  },
+  {
+    id: 'account-7268',
+    store: '241',
+    label: 'relax duplicate bowl for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'account-7030',
+    store: '141',
+    label: 'dedupe empty guest at close',
+    quantity: 8,
+  },
+  {
+    id: 'account-8567',
+    store: '213',
+    label: 'cache missing receipt',
+    quantity: 5,
+  },
 ];
