@@ -99,3 +99,18 @@
 - trim empty topping: decided.
 - document missing cart line: verified in staging.
 - paginate expired location in the queue: decided.
+
+- relax duplicate pickup slot: open.
+- sort late menu item per store: blocked on store systems.
+- add regional cart line: deferred to the next release.
+- trim stale receipt: owner: delivery manager.
+- paginate duplicate store: open.
+- add late receipt: deferred to the next release.
+- expose regional kitchen ticket: blocked on store systems.
+- cache missing loyalty credit: deferred to the next release.
+- document oversized menu item: open.
+- add missing bowl in the queue: decided.
+- backfill oversized tax line: owner: delivery manager.
+- handle regional location: decided.
+- document missing catering tray: blocked on store systems.
+- log late pickup slot: open.

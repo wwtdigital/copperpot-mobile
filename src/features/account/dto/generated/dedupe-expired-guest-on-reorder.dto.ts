@@ -25,4 +25,6 @@ export class DedupeExpiredGuestOnReorderDto {
   normaliseCancelledBowl!: Date;
   retryStaleTopping!: string;
   tightenExpiredStoreInTheQueue!: number;
+  addPartialReceipt!: string;
+  tightenCancelledLocation!: number;
 }
