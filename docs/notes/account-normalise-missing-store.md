@@ -129,3 +129,18 @@
 - backfill expired cart line: owner: delivery manager.
 - expose duplicate modifier: owner: delivery manager.
 - retry empty delivery window: blocked on store systems.
+
+- validate oversized pickup slot on reorder: open.
+- paginate empty promo: blocked on store systems.
+- handle duplicate cart line: deferred to the next release.
+- normalise expired modifier: open.
+- tighten late pickup slot: open.
+- retry empty location: owner: delivery manager.
+- add oversized pickup slot: verified in staging.
+- sort expired tax line for pickup: owner: delivery manager.
+- log duplicate loyalty credit: deferred to the next release.
+- tighten duplicate catering tray: open.
+- expose partial receipt: deferred to the next release.
+- rename partial menu item: owner: delivery manager.
+- trim stale receipt in the queue: open.
+- rename missing loyalty credit: verified in staging.

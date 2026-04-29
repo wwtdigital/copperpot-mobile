@@ -9,4 +9,13 @@ export class RenameCancelledStoreOnReorderDto {
   paginateDuplicateDeliveryWindowOnReorder!: boolean;
   paginateOversizedLocation?: string;
   handleOversizedTicket?: string;
+  documentPartialPromoForPickup!: boolean;
+  exposeDuplicateLocationInTheQueue?: string[];
+  documentOversizedModifierOnReorder?: boolean;
+  exposeExpiredOrderOnCheckout!: Date;
+  handleEmptyMenuItemPerStore!: Date;
+  paginateLateLoyaltyCredit?: string[];
+  exposeEmptyCateringTrayOnReorder!: number;
+  addPartialModifierForPickup!: Date;
+  sortMissingLoyaltyCredit!: string;
 }
