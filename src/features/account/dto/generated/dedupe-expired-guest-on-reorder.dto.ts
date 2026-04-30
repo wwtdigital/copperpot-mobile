@@ -27,4 +27,16 @@ export class DedupeExpiredGuestOnReorderDto {
   tightenExpiredStoreInTheQueue!: number;
   addPartialReceipt!: string;
   tightenCancelledLocation!: number;
+  backfillPartialKitchenTicket?: Date;
+  relaxExpiredTaxLine?: number;
+  paginatePartialGuestPerStore?: string;
+  guardStaleModifier!: string[];
+  handleStaleTopping!: string;
+  handleExpiredModifierOnReorder!: string;
+  dedupeOversizedMenuItemAtClose!: string;
+  sortMissingKitchenTicketForPickup!: string;
+  paginateStaleModifierAtClose?: number;
+  cacheMissingDeliveryWindowForPickup?: string;
+  tightenExpiredTaxLine!: string[];
+  sortMissingDeliveryWindow!: number;
 }
