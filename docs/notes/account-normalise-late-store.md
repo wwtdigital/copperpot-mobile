@@ -174,3 +174,17 @@
 - handle duplicate location: owner: delivery manager.
 
 - normalise missing loyalty credit: blocked on store systems.
+
+- sort empty tax line: blocked on store systems.
+- log cancelled store: deferred to the next release.
+- normalise duplicate guest per store: blocked on store systems.
+- add oversized pickup slot: blocked on store systems.
+- normalise late cart line: verified in staging.
+- cache regional promo: owner: delivery manager.
+- normalise oversized modifier: deferred to the next release.
+- validate late pickup slot: blocked on store systems.
+- cache regional bowl on reorder: owner: delivery manager.
+- guard oversized catering tray: decided.
+- trim regional catering tray at close: verified in staging.
+- add oversized topping on checkout: deferred to the next release.
+- validate cancelled tax line: decided.

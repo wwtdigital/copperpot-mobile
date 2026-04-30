@@ -114,3 +114,18 @@
 - handle regional location: decided.
 - document missing catering tray: blocked on store systems.
 - log late pickup slot: open.
+
+- expose regional guest on checkout: deferred to the next release.
+- document late pickup slot: open.
+- normalise late receipt on checkout: open.
+- retry cancelled delivery window: deferred to the next release.
+- backfill stale topping: deferred to the next release.
+- dedupe stale tax line on checkout: decided.
+- validate duplicate order: verified in staging.
+- document late tax line: open.
+- document late topping: owner: delivery manager.
+- handle partial pickup slot: decided.
+- document stale topping: open.
+- backfill expired cart line: owner: delivery manager.
+- expose duplicate modifier: owner: delivery manager.
+- retry empty delivery window: blocked on store systems.
