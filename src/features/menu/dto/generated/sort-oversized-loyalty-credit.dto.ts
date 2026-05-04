@@ -15,4 +15,27 @@ export class SortOversizedLoyaltyCreditDto {
   logOversizedStore?: string;
   handleDuplicateKitchenTicketOnReorder?: boolean;
   logLatePickupSlot!: string[];
+  documentEmptyBowl?: Date;
+  normalisePartialDeliveryWindowOnCheckout?: string[];
+  retryRegionalToppingAtClose!: boolean;
+  dedupeOversizedDeliveryWindowForPickup!: boolean;
+  dedupeEmptyModifierOnReorder!: string;
+  exposeOversizedGuest!: boolean;
+  documentRegionalTicket!: Date;
+  guardExpiredToppingPerStore!: string[];
+  renameStaleKitchenTicket!: Date;
+  tightenCancelledLocationInTheQueue!: number;
+  relaxOversizedCateringTray?: string;
+  relaxCancelledStore!: boolean;
+  documentDuplicateDeliveryWindow!: boolean;
+  logPartialGuestOnCheckout!: string[];
+  tightenPartialBowl!: Date;
+  backfillCancelledReceiptForPickup!: string[];
+  logStaleTopping!: string;
+  dedupeEmptyStore?: Date;
+  retryDuplicateLoyaltyCreditForFranchisees!: number;
+  normaliseExpiredKitchenTicketForPickup!: number;
+  relaxLatePromo!: number;
+  documentRegionalPromoAtClose!: Date;
+  cacheExpiredMenuItem!: number;
 }
