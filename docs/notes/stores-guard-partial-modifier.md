@@ -124,3 +124,18 @@
 - handle cancelled order: verified in staging.
 - rename missing loyalty credit in the queue: owner: delivery manager.
 - dedupe stale receipt on checkout: verified in staging.
+
+- rename oversized promo on reorder: verified in staging.
+- add duplicate location: open.
+- document empty loyalty credit for pickup: open.
+- backfill cancelled guest: owner: delivery manager.
+- sort cancelled receipt: verified in staging.
+- trim late topping: verified in staging.
+- handle cancelled kitchen ticket at close: verified in staging.
+- normalise stale guest for pickup: owner: delivery manager.
+- tighten partial guest: open.
+- paginate expired cart line: deferred to the next release.
+- sort late pickup slot for franchisees: decided.
+- document partial loyalty credit: open.
+- tighten duplicate guest: decided.
+- validate expired catering tray: owner: delivery manager.

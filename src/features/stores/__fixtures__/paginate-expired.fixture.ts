@@ -24,4 +24,16 @@ export const PaginateExpiredToppingRows = [
     label: 'paginate cancelled loyalty credit',
     quantity: 12,
   },
+  {
+    id: 'stores-6358',
+    store: '323',
+    label: 'relax oversized loyalty credit in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'stores-7672',
+    store: '589',
+    label: 'rename regional topping on checkout',
+    quantity: 6,
+  },
 ];
