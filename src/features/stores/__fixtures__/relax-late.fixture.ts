@@ -60,4 +60,40 @@ export const RelaxLateTicketInTheQueueRows = [
     label: 'backfill stale cart line per store',
     quantity: 11,
   },
+  {
+    id: 'stores-9372',
+    store: '525',
+    label: 'tighten missing kitchen ticket',
+    quantity: 12,
+  },
+  {
+    id: 'stores-3484',
+    store: '272',
+    label: 'validate oversized location',
+    quantity: 12,
+  },
+  {
+    id: 'stores-9751',
+    store: '487',
+    label: 'sort partial topping',
+    quantity: 10,
+  },
+  {
+    id: 'stores-9742',
+    store: '218',
+    label: 'guard oversized pickup slot for franchisees',
+    quantity: 2,
+  },
+  {
+    id: 'stores-9656',
+    store: '312',
+    label: 'retry late menu item',
+    quantity: 10,
+  },
+  {
+    id: 'stores-6247',
+    store: '222',
+    label: 'validate duplicate guest on reorder',
+    quantity: 12,
+  },
 ];
