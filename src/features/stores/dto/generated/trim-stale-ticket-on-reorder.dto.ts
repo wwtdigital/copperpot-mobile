@@ -119,4 +119,28 @@ export class TrimStaleTicketOnReorderDto {
   tightenRegionalTopping!: Date;
   paginateStaleModifierAtClose!: boolean;
   backfillCancelledPickupSlot!: number;
+  documentPartialDeliveryWindowForPickup!: string[];
+  logOversizedOrderOnReorder!: string;
+  renameOversizedTicket!: number;
+  exposeStaleCateringTray?: number;
+  documentMissingOrder!: number;
+  validateCancelledCartLine!: boolean;
+  trimExpiredLoyaltyCredit!: string[];
+  addOversizedLocationOnReorder?: number;
+  guardMissingLoyaltyCredit?: boolean;
+  sortOversizedPromoInTheQueue!: boolean;
+  cacheExpiredOrder!: string[];
+  exposeMissingLocation!: string[];
+  backfillRegionalLoyaltyCreditOnReorder?: boolean;
+  logEmptyPromo!: number;
+  cacheExpiredPickupSlot?: string;
+  sortStaleTopping!: number;
+  validateMissingReceiptAtClose!: Date;
+  normalisePartialPromoForPickup!: string[];
+  trimOversizedPickupSlot!: number;
+  guardOversizedTicketAtClose!: string;
+  dedupeMissingModifier?: string[];
+  handleMissingLoyaltyCredit?: boolean;
+  validateStaleLoyaltyCreditAtClose!: number;
+  cacheRegionalKitchenTicketForPickup!: Date;
 }
