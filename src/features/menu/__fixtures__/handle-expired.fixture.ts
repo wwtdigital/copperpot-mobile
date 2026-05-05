@@ -594,4 +594,34 @@ export const HandleExpiredReceiptRows = [
     label: 'rename regional delivery window',
     quantity: 4,
   },
+  {
+    id: 'menu-8221',
+    store: '163',
+    label: 'document stale guest',
+    quantity: 7,
+  },
+  {
+    id: 'menu-4175',
+    store: '622',
+    label: 'add missing guest per store',
+    quantity: 4,
+  },
+  {
+    id: 'menu-4704',
+    store: '686',
+    label: 'cache expired promo on reorder',
+    quantity: 3,
+  },
+  {
+    id: 'menu-3311',
+    store: '643',
+    label: 'cache empty bowl',
+    quantity: 3,
+  },
+  {
+    id: 'menu-2669',
+    store: '111',
+    label: 'rename empty tax line',
+    quantity: 4,
+  },
 ];
