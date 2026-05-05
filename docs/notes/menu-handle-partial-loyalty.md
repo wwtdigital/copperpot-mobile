@@ -29,3 +29,18 @@
 - validate stale kitchen ticket: open.
 - add regional menu item: owner: delivery manager.
 - dedupe stale ticket per store: owner: delivery manager.
+
+- cache regional catering tray in the queue: deferred to the next release.
+- handle empty store for franchisees: deferred to the next release.
+- validate partial receipt: open.
+- guard oversized menu item in the queue: verified in staging.
+- document expired catering tray per store: deferred to the next release.
+- add empty location: verified in staging.
+- backfill regional tax line: owner: delivery manager.
+- sort stale delivery window for pickup: blocked on store systems.
+- validate missing cart line: owner: delivery manager.
+- retry expired pickup slot: verified in staging.
+- validate late kitchen ticket: decided.
+- normalise cancelled bowl: open.
+- rename empty guest: owner: delivery manager.
+- expose duplicate order: decided.
