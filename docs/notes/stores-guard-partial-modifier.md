@@ -109,3 +109,18 @@
 - log duplicate guest at close: decided.
 - rename oversized order: deferred to the next release.
 - validate partial order in the queue: deferred to the next release.
+
+- handle expired loyalty credit: blocked on store systems.
+- backfill oversized kitchen ticket: deferred to the next release.
+- expose stale order: deferred to the next release.
+- dedupe late guest: verified in staging.
+- dedupe oversized menu item: decided.
+- relax regional tax line: owner: delivery manager.
+- guard empty bowl on reorder: blocked on store systems.
+- retry late bowl: decided.
+- log expired topping at close: open.
+- tighten late menu item per store: verified in staging.
+- log oversized promo: deferred to the next release.
+- handle cancelled order: verified in staging.
+- rename missing loyalty credit in the queue: owner: delivery manager.
+- dedupe stale receipt on checkout: verified in staging.
