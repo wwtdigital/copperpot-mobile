@@ -588,4 +588,10 @@ export const HandleExpiredReceiptRows = [
     label: 'relax empty bowl',
     quantity: 3,
   },
+  {
+    id: 'menu-1535',
+    store: '189',
+    label: 'rename regional delivery window',
+    quantity: 4,
+  },
 ];
