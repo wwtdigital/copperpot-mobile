@@ -172,3 +172,17 @@
 - relax partial menu item: verified in staging.
 - log empty topping: owner: delivery manager.
 - tighten cancelled tax line: open.
+
+- rename stale location: deferred to the next release.
+- add partial topping on reorder: verified in staging.
+- dedupe expired modifier: open.
+- relax regional cart line: open.
+- retry stale topping on reorder: deferred to the next release.
+- expose partial delivery window: blocked on store systems.
+- sort missing modifier: verified in staging.
+- validate oversized location for franchisees: verified in staging.
+- guard partial catering tray: decided.
+- normalise oversized kitchen ticket for pickup: open.
+- handle late bowl per store: owner: delivery manager.
+- trim regional modifier at close: deferred to the next release.
+- expose stale order for pickup: blocked on store systems.
