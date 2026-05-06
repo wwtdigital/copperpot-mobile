@@ -21,4 +21,28 @@ export class TrimOversizedToppingDto {
   relaxDuplicateMenuItemAtClose!: boolean;
   renameCancelledPromo!: Date;
   paginateDuplicateLocation!: boolean;
+  documentDuplicatePromo!: string;
+  validatePartialBowlOnReorder!: Date;
+  paginateStalePickupSlot!: string;
+  exposeExpiredBowlOnCheckout!: string[];
+  renameLateLocationForPickup?: number;
+  cacheRegionalMenuItem?: number;
+  logCancelledTaxLineAtClose?: boolean;
+  documentStaleStore!: string;
+  normaliseEmptyTaxLineOnCheckout!: boolean;
+  retryDuplicateStoreOnReorder!: number;
+  retryExpiredCateringTray!: number;
+  sortStaleDeliveryWindowForPickup?: Date;
+  retryLateDeliveryWindow!: string[];
+  addDuplicateMenuItem!: Date;
+  guardStaleReceiptOnReorder!: Date;
+  paginateCancelledGuestOnReorder!: string[];
+  backfillEmptyModifier!: Date;
+  addMissingGuestAtClose?: number;
+  trimCancelledModifier!: boolean;
+  dedupeOversizedCateringTray!: string[];
+  addStaleTicket?: string[];
+  addOversizedPickupSlot!: number;
+  relaxDuplicateCateringTray?: string;
+  normaliseOversizedTopping!: string[];
 }
