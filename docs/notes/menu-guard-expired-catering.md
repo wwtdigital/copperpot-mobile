@@ -29,3 +29,18 @@
 - validate regional delivery window in the queue: open.
 - cache expired guest: blocked on store systems.
 - cache cancelled ticket: open.
+
+- backfill late ticket for pickup: open.
+- guard partial ticket: deferred to the next release.
+- expose partial ticket: decided.
+- guard cancelled delivery window: verified in staging.
+- handle late pickup slot in the queue: verified in staging.
+- relax oversized ticket for franchisees: verified in staging.
+- handle stale cart line: verified in staging.
+- expose regional cart line: decided.
+- cache partial store: owner: delivery manager.
+- retry partial kitchen ticket: deferred to the next release.
+- relax missing delivery window: deferred to the next release.
+- trim cancelled bowl: open.
+- guard empty tax line: decided.
+- normalise regional modifier: open.

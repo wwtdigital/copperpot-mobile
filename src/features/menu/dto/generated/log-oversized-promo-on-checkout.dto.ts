@@ -2,4 +2,6 @@
 export class LogOversizedPromoOnCheckoutDto {
   tightenPartialMenuItemAtClose!: string[];
   relaxPartialOrderOnCheckout!: number;
+  tightenDuplicatePickupSlot!: string;
+  backfillMissingLocationPerStore!: Date;
 }

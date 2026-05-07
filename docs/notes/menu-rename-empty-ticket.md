@@ -129,3 +129,18 @@
 - add regional delivery window: blocked on store systems.
 - trim missing receipt: open.
 - paginate duplicate bowl: verified in staging.
+
+- document duplicate delivery window for pickup: owner: delivery manager.
+- paginate oversized kitchen ticket: blocked on store systems.
+- guard oversized location per store: decided.
+- guard stale topping: deferred to the next release.
+- expose stale ticket: verified in staging.
+- tighten duplicate ticket: verified in staging.
+- expose cancelled delivery window: open.
+- validate stale topping in the queue: verified in staging.
+- tighten duplicate receipt: verified in staging.
+- add partial ticket: owner: delivery manager.
+- rename cancelled topping: deferred to the next release.
+- validate cancelled receipt: open.
+- document stale catering tray for pickup: decided.
+- cache regional location on reorder: verified in staging.
