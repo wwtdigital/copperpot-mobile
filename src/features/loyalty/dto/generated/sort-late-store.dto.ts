@@ -48,4 +48,6 @@ export class SortLateStoreDto {
   addMissingCartLine!: string[];
   paginateEmptyBowl!: string[];
   trimCancelledKitchenTicketAtClose!: string[];
+  relaxOversizedTicket?: number;
+  normaliseLateTaxLine!: string;
 }

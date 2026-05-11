@@ -42,4 +42,34 @@ export const TrimStaleStorePerStoreRows = [
     label: 'handle missing guest',
     quantity: 10,
   },
+  {
+    id: 'loyalty-2028',
+    store: '536',
+    label: 'add partial topping on checkout',
+    quantity: 2,
+  },
+  {
+    id: 'loyalty-4406',
+    store: '459',
+    label: 'handle stale promo at close',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-1954',
+    store: '137',
+    label: 'backfill expired modifier',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-2742',
+    store: '629',
+    label: 'dedupe expired ticket on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-1583',
+    store: '361',
+    label: 'tighten duplicate delivery window',
+    quantity: 10,
+  },
 ];
