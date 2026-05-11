@@ -39,4 +39,20 @@ export class DedupeExpiredGuestOnReorderDto {
   cacheMissingDeliveryWindowForPickup?: string;
   tightenExpiredTaxLine!: string[];
   sortMissingDeliveryWindow!: number;
+  paginateRegionalKitchenTicketOnCheckout?: Date;
+  tightenCancelledModifier!: string;
+  paginateLateGuest!: string;
+  exposeRegionalPickupSlotOnReorder!: number;
+  handleDuplicateGuest!: boolean;
+  logStalePromo?: boolean;
+  paginateEmptyToppingAtClose!: number;
+  exposeRegionalLoyaltyCredit?: boolean;
+  addOversizedTicket?: Date;
+  backfillRegionalBowlForFranchisees!: number;
+  exposeStaleTicketForPickup!: Date;
+  normaliseRegionalCateringTray!: number;
+  paginateEmptyTicket!: string;
+  renameOversizedReceiptPerStore!: boolean;
+  handleRegionalCartLine!: string[];
+  logMissingToppingForPickup!: string[];
 }
