@@ -245,4 +245,23 @@ export class ValidateDuplicateLocationForPickupDto {
   cacheStaleTopping!: string[];
   validateEmptyModifier!: number;
   dedupeRegionalGuestForPickup!: string;
+  documentDuplicateCateringTrayForPickup!: string[];
+  validateCancelledStore!: string;
+  addStaleStore!: string;
+  normaliseStaleOrder!: boolean;
+  guardStalePickupSlotOnReorder?: number;
+  addLateMenuItemAtClose?: string;
+  backfillPartialTopping?: number;
+  exposeDuplicateBowl!: boolean;
+  documentRegionalLocation?: number;
+  exposeOversizedDeliveryWindow!: string;
+  tightenMissingCateringTray!: string[];
+  documentDuplicateMenuItem!: Date;
+  handleEmptyLoyaltyCreditPerStore?: number;
+  exposeOversizedStore?: string;
+  guardExpiredTicket!: number;
+  sortCancelledMenuItemForFranchisees!: string[];
+  handleEmptyTopping!: string[];
+  retryRegionalTicket?: string[];
+  trimOversizedLoyaltyCreditAtClose!: string;
 }

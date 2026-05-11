@@ -38,4 +38,14 @@ export class SortLateStoreDto {
   sortRegionalMenuItemInTheQueue?: string;
   handleCancelledLoyaltyCredit!: number;
   paginateRegionalStoreForFranchisees?: number;
+  renameOversizedOrderInTheQueue?: boolean;
+  tightenExpiredTaxLine!: boolean;
+  exposeLateKitchenTicketInTheQueue!: Date;
+  tightenDuplicateMenuItem!: Date;
+  guardDuplicateReceiptInTheQueue!: number;
+  documentEmptyDeliveryWindow!: string[];
+  addDuplicateTaxLine!: Date;
+  addMissingCartLine!: string[];
+  paginateEmptyBowl!: string[];
+  trimCancelledKitchenTicketAtClose!: string[];
 }
