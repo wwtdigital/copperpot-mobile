@@ -46,3 +46,14 @@
 - normalise duplicate tax line: blocked on store systems.
 - backfill stale kitchen ticket in the queue: open.
 - paginate stale bowl per store: open.
+
+- relax missing receipt: blocked on store systems.
+- tighten duplicate menu item: owner: delivery manager.
+- sort expired cart line for franchisees: verified in staging.
+- retry regional kitchen ticket: open.
+- retry expired bowl: blocked on store systems.
+- dedupe expired kitchen ticket for pickup: owner: delivery manager.
+- retry oversized kitchen ticket: owner: delivery manager.
+- tighten stale pickup slot: owner: delivery manager.
+- paginate oversized receipt for pickup: deferred to the next release.
+- relax expired tax line: deferred to the next release.
