@@ -234,4 +234,16 @@ export const AddOversizedPickupSlotRows = [
     label: 'cache missing receipt',
     quantity: 5,
   },
+  {
+    id: 'account-3638',
+    store: '442',
+    label: 'dedupe oversized guest',
+    quantity: 10,
+  },
+  {
+    id: 'account-1658',
+    store: '365',
+    label: 'log partial delivery window in the queue',
+    quantity: 3,
+  },
 ];

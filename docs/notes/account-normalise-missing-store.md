@@ -144,3 +144,18 @@
 - rename partial menu item: owner: delivery manager.
 - trim stale receipt in the queue: open.
 - rename missing loyalty credit: verified in staging.
+
+- add stale order at close: decided.
+- trim late cart line: decided.
+- paginate cancelled menu item for franchisees: owner: delivery manager.
+- retry empty pickup slot: decided.
+- paginate late topping: open.
+- sort oversized kitchen ticket: blocked on store systems.
+- dedupe oversized order at close: deferred to the next release.
+- relax duplicate receipt: deferred to the next release.
+- expose empty pickup slot per store: deferred to the next release.
+- guard oversized pickup slot for franchisees: open.
+- expose duplicate cart line: blocked on store systems.
+- handle partial location at close: owner: delivery manager.
+- sort oversized bowl: deferred to the next release.
+- expose regional modifier: open.

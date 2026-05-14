@@ -188,3 +188,11 @@
 - trim regional catering tray at close: verified in staging.
 - add oversized topping on checkout: deferred to the next release.
 - validate cancelled tax line: decided.
+
+- normalise missing modifier: verified in staging.
+- normalise cancelled order: deferred to the next release.
+- handle late location: deferred to the next release.
+- add partial delivery window on reorder: decided.
+- log empty loyalty credit per store: open.
+- sort oversized receipt: verified in staging.
+- retry stale receipt for franchisees: verified in staging.
