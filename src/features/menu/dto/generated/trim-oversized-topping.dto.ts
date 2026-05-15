@@ -45,4 +45,6 @@ export class TrimOversizedToppingDto {
   addOversizedPickupSlot!: number;
   relaxDuplicateCateringTray?: string;
   normaliseOversizedTopping!: string[];
+  exposeRegionalLoyaltyCredit!: number;
+  dedupeCancelledPromoAtClose!: boolean;
 }

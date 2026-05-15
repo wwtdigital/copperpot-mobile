@@ -44,3 +44,18 @@
 - trim cancelled bowl: open.
 - guard empty tax line: decided.
 - normalise regional modifier: open.
+
+- cache cancelled bowl: verified in staging.
+- retry regional order on reorder: open.
+- expose duplicate catering tray: blocked on store systems.
+- cache empty bowl in the queue: owner: delivery manager.
+- backfill oversized pickup slot at close: owner: delivery manager.
+- backfill duplicate menu item: verified in staging.
+- retry missing ticket: verified in staging.
+- retry stale order: decided.
+- validate expired store on reorder: blocked on store systems.
+- document oversized guest: decided.
+- add duplicate receipt: verified in staging.
+- retry stale promo: open.
+- handle late location: decided.
+- sort duplicate pickup slot for pickup: deferred to the next release.
