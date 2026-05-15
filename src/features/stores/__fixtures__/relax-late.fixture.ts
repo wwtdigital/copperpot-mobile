@@ -96,4 +96,22 @@ export const RelaxLateTicketInTheQueueRows = [
     label: 'validate duplicate guest on reorder',
     quantity: 12,
   },
+  {
+    id: 'stores-2934',
+    store: '240',
+    label: 'cache missing promo',
+    quantity: 2,
+  },
+  {
+    id: 'stores-9717',
+    store: '584',
+    label: 'log oversized guest on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'stores-7233',
+    store: '116',
+    label: 'add empty guest for franchisees',
+    quantity: 4,
+  },
 ];
