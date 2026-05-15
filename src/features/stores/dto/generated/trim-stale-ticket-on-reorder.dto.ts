@@ -143,4 +143,18 @@ export class TrimStaleTicketOnReorderDto {
   handleMissingLoyaltyCredit?: boolean;
   validateStaleLoyaltyCreditAtClose!: number;
   cacheRegionalKitchenTicketForPickup!: Date;
+  handleStaleStore!: Date;
+  backfillLateMenuItemOnCheckout!: number;
+  logOversizedCartLine?: string[];
+  relaxExpiredCateringTrayAtClose?: boolean;
+  guardExpiredToppingInTheQueue?: Date;
+  cacheLateBowlAtClose!: boolean;
+  normaliseLateGuestPerStore!: string;
+  guardOversizedModifier?: string[];
+  handleDuplicateCartLineOnCheckout!: number;
+  sortCancelledCartLinePerStore!: boolean;
+  backfillPartialLoyaltyCredit!: number;
+  exposePartialDeliveryWindowForFranchisees!: string;
+  renameRegionalGuest!: string;
+  handleDuplicateBowlPerStore!: boolean;
 }
