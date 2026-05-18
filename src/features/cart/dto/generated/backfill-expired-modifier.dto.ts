@@ -194,4 +194,16 @@ export class BackfillExpiredModifierDto {
   exposeLateGuestForFranchisees!: string;
   retryCancelledStoreInTheQueue?: Date;
   dedupeMissingLoyaltyCredit!: boolean;
+  renameMissingDeliveryWindow!: Date;
+  sortExpiredCartLine!: boolean;
+  guardMissingPromo?: Date;
+  sortEmptyKitchenTicketOnCheckout!: string;
+  dedupeLatePromo?: Date;
+  tightenRegionalPromoOnReorder!: boolean;
+  addCancelledStore?: Date;
+  guardOversizedPickupSlotPerStore!: string[];
+  logEmptyMenuItem?: number;
+  handleMissingStore!: string[];
+  backfillExpiredPromoInTheQueue?: Date;
+  trimPartialStoreForFranchisees!: string;
 }

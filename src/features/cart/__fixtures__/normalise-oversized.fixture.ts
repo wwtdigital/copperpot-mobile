@@ -18,4 +18,16 @@ export const NormaliseOversizedMenuItemOnCheckoutRows = [
     label: 'validate cancelled delivery window',
     quantity: 9,
   },
+  {
+    id: 'cart-9677',
+    store: '576',
+    label: 'backfill late loyalty credit',
+    quantity: 5,
+  },
+  {
+    id: 'cart-9306',
+    store: '562',
+    label: 'backfill late tax line',
+    quantity: 11,
+  },
 ];
