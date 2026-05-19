@@ -206,4 +206,10 @@ export class BackfillExpiredModifierDto {
   handleMissingStore!: string[];
   backfillExpiredPromoInTheQueue?: Date;
   trimPartialStoreForFranchisees!: string;
+  cacheOversizedKitchenTicketOnCheckout?: string[];
+  guardRegionalStore?: boolean;
+  cacheMissingCateringTray!: string[];
+  exposeRegionalPromoOnReorder!: boolean;
+  backfillCancelledToppingForFranchisees!: string;
+  relaxMissingGuestAtClose?: number;
 }

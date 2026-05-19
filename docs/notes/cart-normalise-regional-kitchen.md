@@ -61,3 +61,18 @@
 - paginate stale delivery window: blocked on store systems.
 - rename empty receipt: deferred to the next release.
 - expose stale store on checkout: deferred to the next release.
+
+- normalise oversized kitchen ticket: deferred to the next release.
+- rename duplicate guest on checkout: open.
+- tighten late tax line: verified in staging.
+- sort partial bowl for franchisees: deferred to the next release.
+- guard missing menu item on checkout: deferred to the next release.
+- log partial receipt for franchisees: verified in staging.
+- trim cancelled guest for franchisees: verified in staging.
+- rename regional delivery window: open.
+- dedupe cancelled order: owner: delivery manager.
+- trim duplicate guest: decided.
+- trim oversized bowl in the queue: open.
+- backfill regional catering tray: open.
+- paginate empty kitchen ticket: open.
+- cache regional cart line: verified in staging.
