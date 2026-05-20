@@ -642,4 +642,16 @@ export const HandleExpiredReceiptRows = [
     label: 'retry late modifier',
     quantity: 1,
   },
+  {
+    id: 'menu-7573',
+    store: '228',
+    label: 'guard missing modifier',
+    quantity: 5,
+  },
+  {
+    id: 'menu-1212',
+    store: '171',
+    label: 'dedupe late receipt in the queue',
+    quantity: 7,
+  },
 ];

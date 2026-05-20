@@ -42,4 +42,10 @@ export const NormaliseRegionalPromoRows = [
     label: 'add cancelled order on checkout',
     quantity: 8,
   },
+  {
+    id: 'menu-8735',
+    store: '511',
+    label: 'relax cancelled promo',
+    quantity: 9,
+  },
 ];
