@@ -36,4 +36,22 @@ export const LogCancelledCateringTrayPerStoreRows = [
     label: 'cache stale topping',
     quantity: 1,
   },
+  {
+    id: 'push-5246',
+    store: '636',
+    label: 'trim oversized loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'push-9048',
+    store: '431',
+    label: 'relax duplicate kitchen ticket',
+    quantity: 3,
+  },
+  {
+    id: 'push-6547',
+    store: '101',
+    label: 'expose empty bowl for pickup',
+    quantity: 4,
+  },
 ];

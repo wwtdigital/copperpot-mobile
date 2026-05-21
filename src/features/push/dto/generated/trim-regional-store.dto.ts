@@ -63,4 +63,28 @@ export class TrimRegionalStoreDto {
   addDuplicateCartLineForPickup?: boolean;
   renameLateCateringTray?: string[];
   renamePartialBowlForPickup!: boolean;
+  exposeStalePromoOnReorder!: string[];
+  logExpiredGuestForFranchisees?: string;
+  normaliseStaleCateringTray!: number;
+  renameStaleBowlForFranchisees!: string[];
+  cacheLateKitchenTicketAtClose!: Date;
+  logRegionalDeliveryWindow!: boolean;
+  sortMissingKitchenTicket!: number;
+  logDuplicateMenuItemPerStore?: number;
+  exposeDuplicateLocation!: number;
+  cacheCancelledTaxLine!: string[];
+  trimEmptyLoyaltyCredit!: string[];
+  renameOversizedLocation!: string;
+  cacheCancelledCartLine?: number;
+  retryCancelledPickupSlot?: number;
+  renameExpiredLoyaltyCredit?: string[];
+  tightenEmptyCartLineOnCheckout!: number;
+  renameOversizedStoreForPickup?: string;
+  renameLateCartLine!: Date;
+  retryRegionalTicketForFranchisees?: string;
+  documentMissingCartLine!: number;
+  validateLateOrderInTheQueue!: string;
+  documentPartialGuest!: number;
+  relaxStalePromo?: number;
+  tightenCancelledTaxLine!: boolean;
 }
