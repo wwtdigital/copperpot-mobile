@@ -624,4 +624,22 @@ export const HandleExpiredReceiptRows = [
     label: 'rename empty tax line',
     quantity: 4,
   },
+  {
+    id: 'menu-4739',
+    store: '313',
+    label: 'validate cancelled modifier on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'menu-2261',
+    store: '680',
+    label: 'backfill expired catering tray for pickup',
+    quantity: 12,
+  },
+  {
+    id: 'menu-3196',
+    store: '137',
+    label: 'retry late modifier',
+    quantity: 1,
+  },
 ];
