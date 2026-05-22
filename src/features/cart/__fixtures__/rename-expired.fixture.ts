@@ -312,4 +312,22 @@ export const RenameExpiredCartLineOnReorderRows = [
     label: 'document regional loyalty credit on reorder',
     quantity: 7,
   },
+  {
+    id: 'cart-7712',
+    store: '485',
+    label: 'paginate missing order',
+    quantity: 3,
+  },
+  {
+    id: 'cart-8511',
+    store: '632',
+    label: 'rename empty location',
+    quantity: 4,
+  },
+  {
+    id: 'cart-6601',
+    store: '145',
+    label: 'log missing delivery window',
+    quantity: 11,
+  },
 ];
