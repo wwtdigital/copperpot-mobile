@@ -144,3 +144,17 @@
 - validate cancelled receipt: open.
 - document stale catering tray for pickup: decided.
 - cache regional location on reorder: verified in staging.
+
+- cache empty bowl on checkout: decided.
+- dedupe missing delivery window in the queue: verified in staging.
+- add regional store: blocked on store systems.
+- log duplicate guest per store: owner: delivery manager.
+- trim late topping on checkout: open.
+- sort duplicate modifier on checkout: open.
+- tighten empty ticket: verified in staging.
+- guard expired order: verified in staging.
+- log partial pickup slot on reorder: deferred to the next release.
+- relax duplicate modifier: deferred to the next release.
+- paginate missing location on checkout: deferred to the next release.
+- paginate late catering tray: owner: delivery manager.
+- add empty menu item: verified in staging.

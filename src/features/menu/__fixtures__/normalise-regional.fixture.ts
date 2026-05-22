@@ -36,4 +36,16 @@ export const NormaliseRegionalPromoRows = [
     label: 'relax stale pickup slot on checkout',
     quantity: 4,
   },
+  {
+    id: 'menu-5560',
+    store: '655',
+    label: 'add cancelled order on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'menu-8735',
+    store: '511',
+    label: 'relax cancelled promo',
+    quantity: 9,
+  },
 ];
