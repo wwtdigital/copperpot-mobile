@@ -318,4 +318,16 @@ export const RenameExpiredCartLineOnReorderRows = [
     label: 'paginate missing order',
     quantity: 3,
   },
+  {
+    id: 'cart-8511',
+    store: '632',
+    label: 'rename empty location',
+    quantity: 4,
+  },
+  {
+    id: 'cart-6601',
+    store: '145',
+    label: 'log missing delivery window',
+    quantity: 11,
+  },
 ];
