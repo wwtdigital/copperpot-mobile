@@ -30,4 +30,10 @@ export const NormaliseOversizedMenuItemOnCheckoutRows = [
     label: 'backfill late tax line',
     quantity: 11,
   },
+  {
+    id: 'cart-3891',
+    store: '445',
+    label: 'log stale promo',
+    quantity: 6,
+  },
 ];
