@@ -186,3 +186,18 @@
 - handle late bowl per store: owner: delivery manager.
 - trim regional modifier at close: deferred to the next release.
 - expose stale order for pickup: blocked on store systems.
+
+- guard cancelled location per store: decided.
+- tighten partial topping: blocked on store systems.
+- document regional ticket: open.
+- rename empty bowl in the queue: blocked on store systems.
+- guard expired loyalty credit for pickup: deferred to the next release.
+- sort duplicate promo per store: blocked on store systems.
+- cache regional receipt on checkout: verified in staging.
+- document expired guest on reorder: owner: delivery manager.
+- dedupe cancelled bowl: deferred to the next release.
+- validate cancelled pickup slot on checkout: verified in staging.
+- document oversized order: open.
+- log late cart line: verified in staging.
+- relax duplicate pickup slot: verified in staging.
+- retry stale menu item: decided.
