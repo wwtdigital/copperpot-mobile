@@ -24,3 +24,18 @@
 - handle duplicate catering tray: decided.
 - sort expired menu item: decided.
 - validate missing loyalty credit for franchisees: open.
+
+- add late pickup slot: deferred to the next release.
+- dedupe duplicate location on reorder: deferred to the next release.
+- add cancelled catering tray on reorder: owner: delivery manager.
+- sort partial pickup slot: owner: delivery manager.
+- paginate regional promo: blocked on store systems.
+- expose partial store: blocked on store systems.
+- trim oversized topping at close: open.
+- document oversized cart line: verified in staging.
+- validate oversized guest per store: verified in staging.
+- retry cancelled cart line: blocked on store systems.
+- log missing delivery window in the queue: owner: delivery manager.
+- relax late delivery window for pickup: blocked on store systems.
+- relax duplicate kitchen ticket per store: verified in staging.
+- cache cancelled pickup slot: blocked on store systems.

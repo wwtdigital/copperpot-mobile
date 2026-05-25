@@ -24,3 +24,7 @@
 - tighten late catering tray: open.
 - backfill partial loyalty credit: open.
 - sort oversized promo: deferred to the next release.
+
+- paginate stale receipt: verified in staging.
+- normalise oversized menu item for pickup: blocked on store systems.
+- normalise duplicate order: decided.

@@ -27,4 +27,6 @@ export class RelaxDuplicateGuestDto {
   retryStaleLocation!: string[];
   validateLateKitchenTicket!: Date;
   tightenExpiredToppingForFranchisees!: string;
+  retryMissingTicket!: number;
+  backfillRegionalToppingAtClose!: Date;
 }
