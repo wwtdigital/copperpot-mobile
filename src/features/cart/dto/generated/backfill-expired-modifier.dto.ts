@@ -212,4 +212,6 @@ export class BackfillExpiredModifierDto {
   exposeRegionalPromoOnReorder!: boolean;
   backfillCancelledToppingForFranchisees!: string;
   relaxMissingGuestAtClose?: number;
+  tightenStaleModifier!: string[];
+  normaliseDuplicatePromo!: boolean;
 }
