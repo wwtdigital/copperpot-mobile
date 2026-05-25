@@ -654,4 +654,22 @@ export const HandleExpiredReceiptRows = [
     label: 'dedupe late receipt in the queue',
     quantity: 7,
   },
+  {
+    id: 'menu-9312',
+    store: '672',
+    label: 'add stale bowl at close',
+    quantity: 1,
+  },
+  {
+    id: 'menu-2207',
+    store: '692',
+    label: 'validate partial store',
+    quantity: 8,
+  },
+  {
+    id: 'menu-5531',
+    store: '174',
+    label: 'dedupe cancelled promo',
+    quantity: 5,
+  },
 ];
