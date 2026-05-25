@@ -114,4 +114,16 @@ export const RelaxLateTicketInTheQueueRows = [
     label: 'add empty guest for franchisees',
     quantity: 4,
   },
+  {
+    id: 'stores-8309',
+    store: '441',
+    label: 'cache stale store',
+    quantity: 2,
+  },
+  {
+    id: 'stores-3157',
+    store: '156',
+    label: 'trim stale kitchen ticket',
+    quantity: 6,
+  },
 ];
