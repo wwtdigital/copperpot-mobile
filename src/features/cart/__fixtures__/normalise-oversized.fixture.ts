@@ -36,4 +36,34 @@ export const NormaliseOversizedMenuItemOnCheckoutRows = [
     label: 'log stale promo',
     quantity: 6,
   },
+  {
+    id: 'cart-5841',
+    store: '366',
+    label: 'paginate expired delivery window in the queue',
+    quantity: 3,
+  },
+  {
+    id: 'cart-4998',
+    store: '116',
+    label: 'document expired catering tray on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'cart-8694',
+    store: '519',
+    label: 'rename cancelled loyalty credit',
+    quantity: 3,
+  },
+  {
+    id: 'cart-1245',
+    store: '471',
+    label: 'validate cancelled promo',
+    quantity: 4,
+  },
+  {
+    id: 'cart-4980',
+    store: '586',
+    label: 'backfill regional cart line for pickup',
+    quantity: 4,
+  },
 ];

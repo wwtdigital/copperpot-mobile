@@ -29,3 +29,21 @@
 - normalise expired location: owner: delivery manager.
 - expose missing catering tray: deferred to the next release.
 - normalise regional location: open.
+
+- normalise empty ticket: owner: delivery manager.
+- tighten cancelled guest: verified in staging.
+- trim duplicate tax line: open.
+- backfill duplicate kitchen ticket for franchisees: deferred to the next release.
+- trim duplicate pickup slot: open.
+- rename stale cart line at close: owner: delivery manager.
+- paginate regional modifier: blocked on store systems.
+- backfill cancelled bowl for franchisees: verified in staging.
+- log duplicate tax line for franchisees: open.
+- trim oversized menu item: deferred to the next release.
+- handle empty ticket: blocked on store systems.
+- trim oversized loyalty credit: blocked on store systems.
+- trim duplicate order: decided.
+- retry empty catering tray: deferred to the next release.
+
+- guard cancelled menu item: verified in staging.
+- paginate cancelled loyalty credit: owner: delivery manager.
