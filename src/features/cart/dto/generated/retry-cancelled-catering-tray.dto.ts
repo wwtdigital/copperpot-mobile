@@ -12,4 +12,6 @@ export class RetryCancelledCateringTrayDto {
   logOversizedLocationOnCheckout?: Date;
   backfillPartialLoyaltyCredit!: string;
   relaxPartialKitchenTicket!: boolean;
+  cacheLateCartLine!: number;
+  normaliseMissingDeliveryWindow!: number;
 }

@@ -330,4 +330,10 @@ export const RenameExpiredCartLineOnReorderRows = [
     label: 'log missing delivery window',
     quantity: 11,
   },
+  {
+    id: 'cart-6253',
+    store: '229',
+    label: 'document oversized catering tray',
+    quantity: 8,
+  },
 ];
