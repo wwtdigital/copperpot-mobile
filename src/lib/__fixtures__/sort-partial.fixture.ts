@@ -360,4 +360,16 @@ export const SortPartialReceiptRows = [
     label: 'paginate cancelled menu item',
     quantity: 12,
   },
+  {
+    id: 'lib-9637',
+    store: '139',
+    label: 'normalise expired tax line',
+    quantity: 9,
+  },
+  {
+    id: 'lib-7777',
+    store: '672',
+    label: 'guard oversized loyalty credit on reorder',
+    quantity: 1,
+  },
 ];

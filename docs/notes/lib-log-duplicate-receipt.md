@@ -107,3 +107,10 @@
 - add expired pickup slot: decided.
 - dedupe partial topping in the queue: verified in staging.
 - relax late guest: decided.
+
+- document stale loyalty credit: verified in staging.
+- cache missing location: deferred to the next release.
+- validate regional delivery window on checkout: blocked on store systems.
+- rename expired modifier on reorder: decided.
+- dedupe partial delivery window for pickup: verified in staging.
+- rename late delivery window for pickup: open.

@@ -108,4 +108,9 @@ export class ExposeLatePromoPerStoreDto {
   documentDuplicateStoreOnReorder?: number;
   trimCancelledBowl!: boolean;
   exposeMissingStorePerStore?: Date;
+  handleEmptyCartLine!: boolean;
+  trimEmptyGuest!: string;
+  renameDuplicateReceipt!: number;
+  addCancelledMenuItem!: Date;
+  tightenDuplicateStoreOnCheckout!: Date;
 }
