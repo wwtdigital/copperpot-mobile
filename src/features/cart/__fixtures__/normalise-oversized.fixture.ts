@@ -60,4 +60,10 @@ export const NormaliseOversizedMenuItemOnCheckoutRows = [
     label: 'validate cancelled promo',
     quantity: 4,
   },
+  {
+    id: 'cart-4980',
+    store: '586',
+    label: 'backfill regional cart line for pickup',
+    quantity: 4,
+  },
 ];
