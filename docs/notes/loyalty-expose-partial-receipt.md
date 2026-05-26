@@ -46,3 +46,18 @@
 - normalise duplicate tax line: blocked on store systems.
 - backfill stale kitchen ticket in the queue: open.
 - paginate stale bowl per store: open.
+
+- guard oversized cart line on reorder: decided.
+- tighten late menu item: decided.
+- rename late tax line: blocked on store systems.
+- trim expired pickup slot: deferred to the next release.
+- paginate stale kitchen ticket: blocked on store systems.
+- document oversized order: owner: delivery manager.
+- document regional location: verified in staging.
+- validate partial pickup slot at close: blocked on store systems.
+- guard cancelled tax line: decided.
+- sort cancelled cart line per store: verified in staging.
+- backfill regional catering tray: decided.
+- guard missing ticket on reorder: blocked on store systems.
+- tighten oversized modifier: verified in staging.
+- relax oversized loyalty credit: open.

@@ -245,4 +245,9 @@ export class ValidateDuplicateLocationForPickupDto {
   cacheStaleTopping!: string[];
   validateEmptyModifier!: number;
   dedupeRegionalGuestForPickup!: string;
+  retryLateCartLineOnCheckout!: number;
+  normaliseEmptyBowl?: number;
+  paginateLateMenuItem?: string;
+  exposeStaleGuestOnReorder?: string;
+  handleStalePickupSlot?: number;
 }

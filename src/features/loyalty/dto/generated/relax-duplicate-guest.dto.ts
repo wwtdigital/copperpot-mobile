@@ -24,4 +24,9 @@ export class RelaxDuplicateGuestDto {
   paginatePartialPickupSlot!: string;
   logMissingTaxLineOnReorder?: string[];
   paginateExpiredBowl?: string;
+  retryStaleLocation!: string[];
+  validateLateKitchenTicket!: Date;
+  tightenExpiredToppingForFranchisees!: string;
+  retryMissingTicket!: number;
+  backfillRegionalToppingAtClose!: Date;
 }
