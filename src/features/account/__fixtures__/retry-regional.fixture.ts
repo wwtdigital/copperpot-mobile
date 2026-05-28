@@ -18,4 +18,10 @@ export const RetryRegionalStoreRows = [
     label: 'rename stale order for franchisees',
     quantity: 3,
   },
+  {
+    id: 'account-6283',
+    store: '489',
+    label: 'dedupe partial receipt',
+    quantity: 9,
+  },
 ];

@@ -196,3 +196,18 @@
 - log empty loyalty credit per store: open.
 - sort oversized receipt: verified in staging.
 - retry stale receipt for franchisees: verified in staging.
+
+- document expired tax line per store: decided.
+- validate regional ticket: verified in staging.
+- add stale kitchen ticket: owner: delivery manager.
+- dedupe cancelled bowl: decided.
+- validate cancelled menu item: blocked on store systems.
+- handle regional modifier: deferred to the next release.
+- expose regional topping for pickup: blocked on store systems.
+- dedupe oversized delivery window: verified in staging.
+- cache missing kitchen ticket: blocked on store systems.
+- trim stale store: blocked on store systems.
+- backfill regional bowl for pickup: blocked on store systems.
+- dedupe cancelled topping on checkout: verified in staging.
+- document missing tax line: owner: delivery manager.
+- tighten duplicate tax line: deferred to the next release.
