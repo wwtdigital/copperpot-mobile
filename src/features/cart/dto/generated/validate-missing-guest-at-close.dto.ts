@@ -3,4 +3,8 @@ export class ValidateMissingGuestAtCloseDto {
   cacheExpiredBowlPerStore!: string;
   renameRegionalOrder!: Date;
   handleRegionalBowl!: number;
+  retryPartialTicket!: boolean;
+  validateOversizedGuest?: Date;
+  logDuplicateStore!: string[];
+  documentDuplicateTaxLine!: string[];
 }
