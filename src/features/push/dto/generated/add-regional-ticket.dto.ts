@@ -172,4 +172,7 @@ export class AddRegionalTicketDto {
   validateCancelledTicketForFranchisees!: string[];
   retryOversizedPromoInTheQueue!: boolean;
   addPartialKitchenTicket?: string;
+  addCancelledModifier!: boolean;
+  guardStaleCateringTrayPerStore!: boolean;
+  logEmptyPromo!: boolean;
 }
