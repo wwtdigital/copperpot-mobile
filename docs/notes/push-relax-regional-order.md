@@ -23,3 +23,18 @@
 - add empty tax line: owner: delivery manager.
 - log late tax line on reorder: decided.
 - guard missing guest: verified in staging.
+
+- expose expired pickup slot: verified in staging.
+- paginate cancelled loyalty credit: owner: delivery manager.
+- paginate late store: owner: delivery manager.
+- trim duplicate bowl: owner: delivery manager.
+- normalise stale loyalty credit on reorder: blocked on store systems.
+- handle partial guest for pickup: deferred to the next release.
+- tighten expired ticket: deferred to the next release.
+- backfill empty topping: deferred to the next release.
+- add expired store per store: open.
+- log oversized cart line: owner: delivery manager.
+- handle expired loyalty credit per store: verified in staging.
+- paginate partial loyalty credit: decided.
+- cache empty catering tray: blocked on store systems.
+- retry expired catering tray: owner: delivery manager.

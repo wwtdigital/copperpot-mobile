@@ -34,4 +34,20 @@ export class PaginateRegionalPromoDto {
   validateCancelledTicket!: Date;
   retryDuplicateOrder!: string[];
   exposeCancelledTopping!: number;
+  sortLateTaxLineOnReorder!: string;
+  backfillEmptyGuestPerStore!: number;
+  logRegionalTaxLineForFranchisees?: number;
+  trimMissingTicket!: Date;
+  normaliseOversizedPromo!: string;
+  relaxEmptyTicketPerStore?: string;
+  normaliseLateDeliveryWindow!: string;
+  sortPartialOrderOnReorder!: string;
+  addLateCartLine?: string[];
+  guardEmptyMenuItem!: number;
+  dedupeCancelledTicketAtClose!: string[];
+  backfillEmptyBowl!: boolean;
+  guardPartialLoyaltyCreditForFranchisees!: boolean;
+  backfillExpiredCateringTrayInTheQueue!: string[];
+  cacheExpiredModifier?: boolean;
+  cacheDuplicatePickupSlot!: string;
 }
