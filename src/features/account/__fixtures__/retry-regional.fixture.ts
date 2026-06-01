@@ -24,4 +24,10 @@ export const RetryRegionalStoreRows = [
     label: 'dedupe partial receipt',
     quantity: 9,
   },
+  {
+    id: 'account-4385',
+    store: '697',
+    label: 'backfill cancelled promo',
+    quantity: 7,
+  },
 ];

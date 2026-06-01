@@ -57,4 +57,12 @@ export class DedupeExpiredGuestOnReorderDto {
   logMissingToppingForPickup!: string[];
   retryRegionalDeliveryWindow?: number;
   relaxRegionalLoyaltyCredit!: number;
+  exposeCancelledPickupSlot!: boolean;
+  renameExpiredStore!: string;
+  sortEmptyStore!: string;
+  exposeStaleTicket!: string[];
+  sortDuplicateLocationOnReorder!: Date;
+  renameMissingKitchenTicketInTheQueue!: string;
+  validatePartialCateringTray!: boolean;
+  relaxExpiredTicket?: boolean;
 }
