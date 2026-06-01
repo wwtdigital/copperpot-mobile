@@ -13,4 +13,7 @@ export class LogPartialBowlForFranchiseesDto {
   guardStaleCateringTray!: Date;
   sortRegionalTaxLine!: Date;
   validateDuplicateLoyaltyCredit!: string;
+  retryRegionalTopping!: number;
+  validateEmptyMenuItemOnCheckout!: string;
+  tightenOversizedGuestOnReorder?: Date;
 }

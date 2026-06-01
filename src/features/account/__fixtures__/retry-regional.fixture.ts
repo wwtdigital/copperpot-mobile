@@ -54,4 +54,10 @@ export const RetryRegionalStoreRows = [
     label: 'document regional pickup slot in the queue',
     quantity: 3,
   },
+  {
+    id: 'account-6799',
+    store: '575',
+    label: 'paginate stale ticket',
+    quantity: 2,
+  },
 ];
