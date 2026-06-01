@@ -66,4 +66,16 @@ export const NormaliseOversizedMenuItemOnCheckoutRows = [
     label: 'backfill regional cart line for pickup',
     quantity: 4,
   },
+  {
+    id: 'cart-3483',
+    store: '558',
+    label: 'log expired delivery window',
+    quantity: 1,
+  },
+  {
+    id: 'cart-9149',
+    store: '377',
+    label: 'guard duplicate location at close',
+    quantity: 2,
+  },
 ];
