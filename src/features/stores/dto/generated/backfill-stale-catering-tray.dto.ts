@@ -6,4 +6,6 @@ export class BackfillStaleCateringTrayDto {
   validateCancelledStoreOnReorder?: string[];
   normaliseOversizedPickupSlotOnReorder?: Date;
   trimCancelledPromo!: Date;
+  sortRegionalGuestAtClose!: Date;
+  handleExpiredBowlInTheQueue!: string[];
 }
