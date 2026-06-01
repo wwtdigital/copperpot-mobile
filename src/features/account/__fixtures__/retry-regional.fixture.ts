@@ -36,4 +36,22 @@ export const RetryRegionalStoreRows = [
     label: 'rename cancelled order',
     quantity: 3,
   },
+  {
+    id: 'account-5945',
+    store: '450',
+    label: 'retry duplicate ticket',
+    quantity: 6,
+  },
+  {
+    id: 'account-7516',
+    store: '149',
+    label: 'expose oversized receipt per store',
+    quantity: 5,
+  },
+  {
+    id: 'account-3240',
+    store: '695',
+    label: 'document regional pickup slot in the queue',
+    quantity: 3,
+  },
 ];
