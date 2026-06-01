@@ -55,4 +55,6 @@ export class DedupeExpiredGuestOnReorderDto {
   renameOversizedReceiptPerStore!: boolean;
   handleRegionalCartLine!: string[];
   logMissingToppingForPickup!: string[];
+  retryRegionalDeliveryWindow?: number;
+  relaxRegionalLoyaltyCredit!: number;
 }
