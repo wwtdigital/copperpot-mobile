@@ -198,6 +198,3 @@
 - dedupe cancelled bowl: deferred to the next release.
 - validate cancelled pickup slot on checkout: verified in staging.
 - document oversized order: open.
-- log late cart line: verified in staging.
-- relax duplicate pickup slot: verified in staging.
-- retry stale menu item: decided.

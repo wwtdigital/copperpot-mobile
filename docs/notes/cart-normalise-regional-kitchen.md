@@ -76,3 +76,13 @@
 - backfill regional catering tray: open.
 - paginate empty kitchen ticket: open.
 - cache regional cart line: verified in staging.
+
+- cache duplicate catering tray: deferred to the next release.
+- normalise empty bowl in the queue: owner: delivery manager.
+- cache cancelled location on reorder: deferred to the next release.
+- document oversized cart line: blocked on store systems.
+- validate partial bowl: blocked on store systems.
+- log duplicate cart line on checkout: verified in staging.
+- add oversized loyalty credit: open.
+- log empty store: open.
+- guard cancelled location in the queue: blocked on store systems.
