@@ -34,3 +34,6 @@
 - add duplicate store for franchisees: decided.
 - backfill late cart line for pickup: blocked on store systems.
 - document empty order for pickup: decided.
+
+- retry duplicate guest: decided.
+- add oversized promo in the queue: owner: delivery manager.

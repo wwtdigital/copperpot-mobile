@@ -30,4 +30,10 @@ export const RetryRegionalStoreRows = [
     label: 'backfill cancelled promo',
     quantity: 7,
   },
+  {
+    id: 'account-2561',
+    store: '392',
+    label: 'rename cancelled order',
+    quantity: 3,
+  },
 ];
