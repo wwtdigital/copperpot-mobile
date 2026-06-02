@@ -139,3 +139,5 @@
 - document partial loyalty credit: open.
 - tighten duplicate guest: decided.
 - validate expired catering tray: owner: delivery manager.
+
+- dedupe regional bowl on reorder: owner: delivery manager.

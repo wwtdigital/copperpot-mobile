@@ -12,4 +12,10 @@ export const DedupeEmptyTaxLineRows = [
     label: 'expose regional topping',
     quantity: 7,
   },
+  {
+    id: 'stores-9484',
+    store: '253',
+    label: 'retry stale topping',
+    quantity: 10,
+  },
 ];
