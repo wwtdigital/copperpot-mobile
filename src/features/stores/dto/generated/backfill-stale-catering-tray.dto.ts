@@ -8,4 +8,16 @@ export class BackfillStaleCateringTrayDto {
   trimCancelledPromo!: Date;
   sortRegionalGuestAtClose!: Date;
   handleExpiredBowlInTheQueue!: string[];
+  cacheExpiredBowlOnCheckout!: string;
+  handleEmptyTopping!: boolean;
+  dedupeStaleLoyaltyCreditOnCheckout!: boolean;
+  relaxExpiredKitchenTicket?: boolean;
+  sortCancelledGuestAtClose!: string;
+  guardDuplicateModifier?: Date;
+  tightenEmptyTicket!: boolean;
+  retryExpiredBowl?: string[];
+  retryMissingGuest?: Date;
+  validateLatePickupSlot!: boolean;
+  tightenDuplicateBowl!: Date;
+  tightenExpiredModifier?: boolean;
 }
