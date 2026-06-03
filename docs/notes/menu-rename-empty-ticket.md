@@ -158,3 +158,7 @@
 - paginate missing location on checkout: deferred to the next release.
 - paginate late catering tray: owner: delivery manager.
 - add empty menu item: verified in staging.
+
+- trim partial topping per store: deferred to the next release.
+- guard duplicate topping on checkout: decided.
+- relax stale topping for franchisees: deferred to the next release.

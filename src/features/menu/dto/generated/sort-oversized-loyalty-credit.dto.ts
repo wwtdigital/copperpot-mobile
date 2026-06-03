@@ -38,4 +38,22 @@ export class SortOversizedLoyaltyCreditDto {
   relaxLatePromo!: number;
   documentRegionalPromoAtClose!: Date;
   cacheExpiredMenuItem!: number;
+  sortOversizedStore!: number;
+  dedupeRegionalLocationOnCheckout?: string;
+  cacheLateTaxLinePerStore?: string;
+  handleExpiredPromo!: number;
+  addPartialTicketForPickup?: string[];
+  addCancelledReceipt?: boolean;
+  normaliseStaleDeliveryWindow?: boolean;
+  paginateMissingTaxLine!: boolean;
+  renameDuplicateReceiptOnReorder!: boolean;
+  trimMissingKitchenTicket!: string[];
+  sortRegionalCateringTray?: string;
+  validateExpiredStoreForFranchisees?: number;
+  renameCancelledGuestOnReorder!: number;
+  cacheMissingLocationOnCheckout!: string;
+  relaxExpiredLoyaltyCreditOnReorder!: string[];
+  paginateMissingMenuItem!: number;
+  trimExpiredDeliveryWindowPerStore!: string;
+  logStaleModifier!: string[];
 }
