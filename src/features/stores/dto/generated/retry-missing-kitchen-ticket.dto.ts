@@ -6,4 +6,22 @@ export class RetryMissingKitchenTicketDto {
   renameCancelledBowl?: Date;
   logRegionalTopping!: Date;
   documentStaleStore?: Date;
+  normaliseDuplicateTaxLineAtClose!: string;
+  documentEmptyReceipt?: string;
+  validateCancelledCartLine!: string;
+  exposePartialKitchenTicket!: Date;
+  trimPartialGuest?: boolean;
+  logLateModifierOnCheckout!: boolean;
+  handleMissingLoyaltyCreditForPickup!: number;
+  trimPartialTaxLineInTheQueue!: Date;
+  validatePartialMenuItem!: string[];
+  dedupeOversizedCartLine?: number;
+  handleDuplicateMenuItem?: Date;
+  trimMissingTicketAtClose!: string;
+  trimLateTaxLine!: string[];
+  exposeStaleTopping?: string;
+  validateStalePromo!: number;
+  retryLateStoreForPickup!: Date;
+  backfillMissingToppingOnReorder?: Date;
+  trimPartialKitchenTicket!: number;
 }
