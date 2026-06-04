@@ -211,3 +211,15 @@
 - dedupe cancelled topping on checkout: verified in staging.
 - document missing tax line: owner: delivery manager.
 - tighten duplicate tax line: deferred to the next release.
+
+- paginate partial receipt on checkout: deferred to the next release.
+- guard stale tax line: open.
+- sort late delivery window: blocked on store systems.
+- backfill empty order: decided.
+- normalise stale topping for pickup: owner: delivery manager.
+- expose missing location: verified in staging.
+- trim oversized pickup slot: decided.
+- retry expired kitchen ticket: owner: delivery manager.
+- cache expired pickup slot: open.
+- dedupe empty topping: blocked on store systems.
+- trim late cart line on reorder: blocked on store systems.
