@@ -86,3 +86,16 @@
 - add oversized loyalty credit: open.
 - log empty store: open.
 - guard cancelled location in the queue: blocked on store systems.
+
+- add regional delivery window: blocked on store systems.
+- trim missing loyalty credit: blocked on store systems.
+- handle oversized catering tray on checkout: deferred to the next release.
+- sort late loyalty credit: open.
+- paginate cancelled location per store: verified in staging.
+- add late delivery window on checkout: verified in staging.
+- log late location: blocked on store systems.
+- add oversized order: verified in staging.
+- sort oversized receipt: decided.
+- expose cancelled promo: decided.
+- relax regional tax line in the queue: decided.
+- cache stale bowl: deferred to the next release.
