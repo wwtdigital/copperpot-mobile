@@ -59,3 +59,13 @@
 - retry stale promo: open.
 - handle late location: decided.
 - sort duplicate pickup slot for pickup: deferred to the next release.
+
+- backfill expired pickup slot: decided.
+- normalise empty kitchen ticket: decided.
+- paginate regional store: open.
+- sort partial modifier in the queue: open.
+- add oversized promo: owner: delivery manager.
+- rename regional kitchen ticket: open.
+- document cancelled guest: decided.
+- rename stale promo: open.
+- normalise late order: decided.
