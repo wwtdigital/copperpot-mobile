@@ -672,4 +672,58 @@ export const HandleExpiredReceiptRows = [
     label: 'dedupe cancelled promo',
     quantity: 5,
   },
+  {
+    id: 'menu-1105',
+    store: '310',
+    label: 'rename late promo for franchisees',
+    quantity: 11,
+  },
+  {
+    id: 'menu-7848',
+    store: '597',
+    label: 'normalise stale topping on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'menu-9388',
+    store: '593',
+    label: 'log cancelled modifier on checkout',
+    quantity: 9,
+  },
+  {
+    id: 'menu-4674',
+    store: '407',
+    label: 'relax late kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'menu-7476',
+    store: '600',
+    label: 'sort cancelled catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'menu-1937',
+    store: '117',
+    label: 'document regional delivery window',
+    quantity: 10,
+  },
+  {
+    id: 'menu-7910',
+    store: '125',
+    label: 'retry empty bowl on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'menu-1055',
+    store: '195',
+    label: 'dedupe regional store per store',
+    quantity: 8,
+  },
+  {
+    id: 'menu-1422',
+    store: '283',
+    label: 'add missing pickup slot per store',
+    quantity: 7,
+  },
 ];
