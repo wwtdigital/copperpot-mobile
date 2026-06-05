@@ -4,4 +4,6 @@ export class AddEmptyReceiptInTheQueueDto {
   sortPartialTicket!: number;
   renameExpiredPromoInTheQueue!: string[];
   addPartialToppingForPickup?: number;
+  retryEmptyKitchenTicketPerStore?: string[];
+  tightenOversizedPromo!: string;
 }

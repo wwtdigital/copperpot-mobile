@@ -60,4 +60,28 @@ export const RetryRegionalStoreRows = [
     label: 'paginate stale ticket',
     quantity: 2,
   },
+  {
+    id: 'account-4779',
+    store: '307',
+    label: 'normalise duplicate kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'account-6902',
+    store: '343',
+    label: 'log cancelled tax line for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'account-2277',
+    store: '249',
+    label: 'backfill duplicate kitchen ticket',
+    quantity: 6,
+  },
+  {
+    id: 'account-3470',
+    store: '135',
+    label: 'add missing promo',
+    quantity: 2,
+  },
 ];
