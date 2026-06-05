@@ -19,4 +19,13 @@ export class DedupeCancelledLoyaltyCreditOnReorderDto {
   renameDuplicateTicketForPickup!: string;
   relaxCancelledLoyaltyCreditPerStore!: Date;
   retryLateStoreInTheQueue?: string[];
+  retryCancelledModifierAtClose?: string;
+  addDuplicateGuest!: number;
+  renameCancelledDeliveryWindow!: boolean;
+  cacheCancelledPromoPerStore!: number;
+  normaliseOversizedOrder!: boolean;
+  logMissingTopping!: number;
+  documentEmptyOrderPerStore?: string[];
+  addDuplicateStoreAtClose!: number;
+  handleDuplicateTicketForPickup!: string[];
 }
