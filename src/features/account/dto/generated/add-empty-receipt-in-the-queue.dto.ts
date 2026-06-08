@@ -4,4 +4,25 @@ export class AddEmptyReceiptInTheQueueDto {
   sortPartialTicket!: number;
   renameExpiredPromoInTheQueue!: string[];
   addPartialToppingForPickup?: number;
+  retryEmptyKitchenTicketPerStore?: string[];
+  tightenOversizedPromo!: string;
+  cachePartialLocationForFranchisees!: boolean;
+  documentExpiredTicketInTheQueue?: number;
+  exposeStaleTicketOnCheckout!: boolean;
+  normaliseDuplicateStoreOnCheckout!: string[];
+  renameStaleMenuItem!: boolean;
+  renameMissingPromoAtClose!: number;
+  renameOversizedCartLine!: string[];
+  paginateLateReceipt!: boolean;
+  renameRegionalTicketOnCheckout?: boolean;
+  cacheExpiredReceiptAtClose!: string[];
+  addLateDeliveryWindowForPickup?: string[];
+  paginateMissingPromo?: string[];
+  sortLateDeliveryWindowInTheQueue!: Date;
+  documentOversizedLocation?: string[];
+  tightenRegionalTaxLine?: string[];
+  sortMissingLoyaltyCredit?: Date;
+  trimRegionalLocationOnReorder?: number;
+  paginateRegionalLoyaltyCredit?: string;
+  retryOversizedLoyaltyCredit!: string[];
 }
