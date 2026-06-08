@@ -48,4 +48,14 @@ export class CacheDuplicateTaxLineDto {
   renameRegionalTicket?: Date;
   paginateStaleStore!: string[];
   handleOversizedCartLine?: string[];
+  handleDuplicateStoreOnCheckout!: boolean;
+  cacheOversizedPromo!: string;
+  retryRegionalDeliveryWindowForPickup!: number;
+  retryRegionalKitchenTicket!: boolean;
+  paginatePartialCateringTray!: number;
+  exposeStaleLoyaltyCredit!: string;
+  sortExpiredMenuItemForPickup!: boolean;
+  cacheDuplicateModifierPerStore?: string[];
+  relaxMissingCateringTrayForPickup!: string;
+  retryOversizedLoyaltyCredit!: string[];
 }
