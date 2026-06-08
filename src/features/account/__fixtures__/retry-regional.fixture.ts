@@ -84,4 +84,10 @@ export const RetryRegionalStoreRows = [
     label: 'add missing promo',
     quantity: 2,
   },
+  {
+    id: 'account-1550',
+    store: '559',
+    label: 'paginate cancelled topping',
+    quantity: 7,
+  },
 ];
