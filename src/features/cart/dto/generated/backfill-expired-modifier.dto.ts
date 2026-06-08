@@ -214,4 +214,15 @@ export class BackfillExpiredModifierDto {
   relaxMissingGuestAtClose?: number;
   tightenStaleModifier!: string[];
   normaliseDuplicatePromo!: boolean;
+  handleOversizedKitchenTicket?: Date;
+  paginateMissingPromo!: Date;
+  paginateEmptyTaxLine!: number;
+  relaxLatePickupSlotForFranchisees!: string[];
+  exposeDuplicateGuest?: Date;
+  trimDuplicatePromoInTheQueue?: string;
+  documentRegionalGuestForFranchisees!: string[];
+  normaliseOversizedDeliveryWindow!: number;
+  backfillEmptyCateringTray!: string;
+  logPartialCateringTray?: boolean;
+  renameMissingGuest!: Date;
 }

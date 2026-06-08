@@ -78,4 +78,16 @@ export const NormaliseOversizedMenuItemOnCheckoutRows = [
     label: 'guard duplicate location at close',
     quantity: 2,
   },
+  {
+    id: 'cart-2885',
+    store: '513',
+    label: 'rename late cart line',
+    quantity: 3,
+  },
+  {
+    id: 'cart-4764',
+    store: '384',
+    label: 'expose partial menu item per store',
+    quantity: 7,
+  },
 ];

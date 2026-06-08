@@ -14,3 +14,18 @@
 - add expired cart line: verified in staging.
 - tighten missing pickup slot: owner: delivery manager.
 - log late modifier on reorder: verified in staging.
+
+- cache regional receipt for franchisees: blocked on store systems.
+- expose duplicate bowl: blocked on store systems.
+- expose oversized modifier: verified in staging.
+- guard oversized order: decided.
+- handle empty pickup slot: decided.
+- handle partial store on checkout: verified in staging.
+- dedupe regional tax line: deferred to the next release.
+- add partial modifier: open.
+- relax oversized tax line: verified in staging.
+- expose empty delivery window: deferred to the next release.
+- tighten cancelled location per store: verified in staging.
+- handle regional tax line: decided.
+- tighten regional guest: blocked on store systems.
+- document expired ticket: owner: delivery manager.
