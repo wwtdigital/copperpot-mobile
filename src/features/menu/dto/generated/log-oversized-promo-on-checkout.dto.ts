@@ -11,4 +11,6 @@ export class LogOversizedPromoOnCheckoutDto {
   addDuplicateBowlOnReorder?: string;
   handlePartialStore!: Date;
   exposeLateStore?: string;
+  addPartialKitchenTicket!: string;
+  addRegionalCateringTrayOnReorder?: Date;
 }

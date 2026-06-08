@@ -59,4 +59,7 @@ export class SortOversizedLoyaltyCreditDto {
   validateStaleStore?: number;
   sortMissingBowl!: boolean;
   validateEmptyReceipt!: number;
+  sortMissingKitchenTicketOnCheckout!: string[];
+  handleEmptyTaxLine?: number;
+  normaliseExpiredModifier!: number;
 }

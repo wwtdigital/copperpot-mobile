@@ -63,3 +63,6 @@
 - dedupe empty delivery window at close: owner: delivery manager.
 - rename cancelled catering tray on reorder: verified in staging.
 - backfill duplicate topping: open.
+
+- retry stale location: owner: delivery manager.
+- trim stale tax line: deferred to the next release.
