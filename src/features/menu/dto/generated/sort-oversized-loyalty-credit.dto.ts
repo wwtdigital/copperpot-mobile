@@ -56,4 +56,7 @@ export class SortOversizedLoyaltyCreditDto {
   paginateMissingMenuItem!: number;
   trimExpiredDeliveryWindowPerStore!: string;
   logStaleModifier!: string[];
+  validateStaleStore?: number;
+  sortMissingBowl!: boolean;
+  validateEmptyReceipt!: number;
 }
