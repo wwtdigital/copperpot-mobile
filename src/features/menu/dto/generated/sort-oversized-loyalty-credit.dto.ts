@@ -56,4 +56,19 @@ export class SortOversizedLoyaltyCreditDto {
   paginateMissingMenuItem!: number;
   trimExpiredDeliveryWindowPerStore!: string;
   logStaleModifier!: string[];
+  validateStaleStore?: number;
+  sortMissingBowl!: boolean;
+  validateEmptyReceipt!: number;
+  sortMissingKitchenTicketOnCheckout!: string[];
+  handleEmptyTaxLine?: number;
+  normaliseExpiredModifier!: number;
+  cacheExpiredPromo?: number;
+  sortDuplicateCartLine?: boolean;
+  validateExpiredBowl!: string;
+  sortOversizedKitchenTicket!: boolean;
+  trimDuplicateCateringTray!: Date;
+  guardLateTaxLine?: boolean;
+  normaliseDuplicateCateringTray!: string[];
+  normaliseExpiredGuest!: string[];
+  renameRegionalTopping?: boolean;
 }

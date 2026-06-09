@@ -6,4 +6,11 @@ export class LogOversizedPromoOnCheckoutDto {
   backfillMissingLocationPerStore!: Date;
   logLateTaxLineForFranchisees!: boolean;
   renameDuplicateBowl!: string[];
+  paginateOversizedBowl?: string[];
+  relaxDuplicatePromo!: boolean;
+  addDuplicateBowlOnReorder?: string;
+  handlePartialStore!: Date;
+  exposeLateStore?: string;
+  addPartialKitchenTicket!: string;
+  addRegionalCateringTrayOnReorder?: Date;
 }

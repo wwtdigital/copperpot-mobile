@@ -63,3 +63,16 @@
 - dedupe empty delivery window at close: owner: delivery manager.
 - rename cancelled catering tray on reorder: verified in staging.
 - backfill duplicate topping: open.
+
+- retry stale location: owner: delivery manager.
+- trim stale tax line: deferred to the next release.
+
+- trim regional tax line for pickup: decided.
+- guard partial catering tray for franchisees: owner: delivery manager.
+- normalise partial menu item: verified in staging.
+- handle expired delivery window: verified in staging.
+- validate missing store per store: blocked on store systems.
+- sort expired location: open.
+- guard expired promo: deferred to the next release.
+- paginate partial modifier: blocked on store systems.
+- backfill oversized delivery window: deferred to the next release.
