@@ -38,3 +38,18 @@
 - paginate partial loyalty credit: decided.
 - cache empty catering tray: blocked on store systems.
 - retry expired catering tray: owner: delivery manager.
+
+- backfill empty pickup slot: blocked on store systems.
+- dedupe expired bowl: open.
+- document oversized tax line: open.
+- document empty loyalty credit: verified in staging.
+- trim stale cart line: open.
+- trim late ticket for franchisees: blocked on store systems.
+- handle stale location: blocked on store systems.
+- paginate oversized receipt in the queue: owner: delivery manager.
+- paginate partial modifier: deferred to the next release.
+- log late receipt for pickup: blocked on store systems.
+- add missing pickup slot on reorder: decided.
+- backfill cancelled topping: deferred to the next release.
+- sort missing receipt: verified in staging.
+- add cancelled tax line in the queue: decided.

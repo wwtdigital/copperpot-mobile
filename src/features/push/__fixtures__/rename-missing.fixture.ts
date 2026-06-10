@@ -18,4 +18,34 @@ export const RenameMissingKitchenTicketRows = [
     label: 'tighten expired ticket',
     quantity: 3,
   },
+  {
+    id: 'push-3202',
+    store: '573',
+    label: 'document partial cart line',
+    quantity: 12,
+  },
+  {
+    id: 'push-1684',
+    store: '433',
+    label: 'sort partial loyalty credit at close',
+    quantity: 11,
+  },
+  {
+    id: 'push-5274',
+    store: '691',
+    label: 'retry regional order',
+    quantity: 6,
+  },
+  {
+    id: 'push-8737',
+    store: '192',
+    label: 'retry oversized topping',
+    quantity: 3,
+  },
+  {
+    id: 'push-6432',
+    store: '159',
+    label: 'trim empty menu item',
+    quantity: 5,
+  },
 ];
