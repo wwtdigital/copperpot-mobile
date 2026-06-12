@@ -120,4 +120,16 @@ export class TrimRegionalStoreDto {
   tightenMissingDeliveryWindow?: string;
   sortPartialTicket?: Date;
   backfillMissingPickupSlot!: number;
+  paginateCancelledTopping!: number;
+  validateExpiredReceipt?: number;
+  documentExpiredReceiptForFranchisees!: string[];
+  guardMissingDeliveryWindowPerStore!: string[];
+  retryDuplicateKitchenTicket!: string[];
+  sortOversizedTaxLine!: string;
+  sortCancelledLoyaltyCredit!: boolean;
+  renameCancelledTicket!: number;
+  sortOversizedMenuItemOnReorder?: boolean;
+  paginateRegionalLoyaltyCreditForFranchisees!: boolean;
+  relaxStaleModifier!: string[];
+  documentStaleReceiptPerStore!: boolean;
 }

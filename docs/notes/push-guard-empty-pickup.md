@@ -198,3 +198,18 @@
 - dedupe cancelled bowl: deferred to the next release.
 - validate cancelled pickup slot on checkout: verified in staging.
 - document oversized order: open.
+
+- backfill oversized store: blocked on store systems.
+- relax expired guest: owner: delivery manager.
+- sort missing kitchen ticket for pickup: decided.
+- dedupe empty receipt: blocked on store systems.
+- expose stale guest at close: owner: delivery manager.
+- expose stale catering tray: deferred to the next release.
+- log cancelled bowl on checkout: owner: delivery manager.
+- rename late loyalty credit: blocked on store systems.
+- paginate cancelled kitchen ticket: decided.
+- backfill empty store: owner: delivery manager.
+- rename duplicate modifier: blocked on store systems.
+- normalise late loyalty credit for pickup: deferred to the next release.
+- document partial loyalty credit: decided.
+- relax missing kitchen ticket on reorder: open.

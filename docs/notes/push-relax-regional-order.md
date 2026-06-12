@@ -53,3 +53,17 @@
 - backfill cancelled topping: deferred to the next release.
 - sort missing receipt: verified in staging.
 - add cancelled tax line in the queue: decided.
+
+- backfill regional menu item: verified in staging.
+- dedupe empty store: deferred to the next release.
+- retry cancelled ticket: verified in staging.
+- log stale bowl: open.
+- cache missing topping: open.
+- normalise duplicate menu item for pickup: owner: delivery manager.
+- add expired store: owner: delivery manager.
+- normalise duplicate pickup slot: owner: delivery manager.
+- add cancelled topping in the queue: decided.
+- normalise regional tax line in the queue: deferred to the next release.
+- backfill regional topping at close: verified in staging.
+- cache stale kitchen ticket at close: verified in staging.
+- guard late store: owner: delivery manager.
