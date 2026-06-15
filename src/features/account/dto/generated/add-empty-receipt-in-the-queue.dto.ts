@@ -25,4 +25,13 @@ export class AddEmptyReceiptInTheQueueDto {
   trimRegionalLocationOnReorder?: number;
   paginateRegionalLoyaltyCredit?: string;
   retryOversizedLoyaltyCredit!: string[];
+  addExpiredOrder!: string;
+  normaliseMissingTicket?: boolean;
+  tightenDuplicateMenuItem!: string[];
+  backfillLateLocation!: string;
+  documentStaleOrderForFranchisees?: Date;
+  logLateModifier!: string[];
+  paginatePartialGuest!: string;
+  dedupeCancelledDeliveryWindow!: Date;
+  sortStaleCateringTray!: string[];
 }

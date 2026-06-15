@@ -16,4 +16,25 @@ export class LogPartialBowlForFranchiseesDto {
   retryRegionalTopping!: number;
   validateEmptyMenuItemOnCheckout!: string;
   tightenOversizedGuestOnReorder?: Date;
+  retryEmptyTicket!: Date;
+  validateStaleBowl!: string;
+  guardEmptyStore!: boolean;
+  tightenPartialLoyaltyCreditPerStore!: string;
+  tightenEmptyMenuItemAtClose!: string[];
+  cacheLateCateringTray?: string[];
+  cacheExpiredTopping?: string[];
+  normaliseDuplicateModifierAtClose!: boolean;
+  sortStaleTaxLineOnCheckout?: boolean;
+  logLateLoyaltyCredit?: number;
+  addOversizedCateringTray!: string;
+  guardExpiredCateringTrayOnReorder!: string[];
+  addOversizedTaxLine!: string[];
+  logDuplicateModifier?: string[];
+  addExpiredKitchenTicketOnCheckout!: string;
+  logRegionalStoreOnCheckout?: number;
+  dedupeOversizedPromo!: Date;
+  renameCancelledKitchenTicket!: boolean;
+  cachePartialTicketForFranchisees!: string[];
+  addExpiredReceiptPerStore!: number;
+  relaxOversizedMenuItemForFranchisees!: boolean;
 }
