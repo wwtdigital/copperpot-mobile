@@ -38,3 +38,32 @@
 - paginate partial loyalty credit: decided.
 - cache empty catering tray: blocked on store systems.
 - retry expired catering tray: owner: delivery manager.
+
+- backfill empty pickup slot: blocked on store systems.
+- dedupe expired bowl: open.
+- document oversized tax line: open.
+- document empty loyalty credit: verified in staging.
+- trim stale cart line: open.
+- trim late ticket for franchisees: blocked on store systems.
+- handle stale location: blocked on store systems.
+- paginate oversized receipt in the queue: owner: delivery manager.
+- paginate partial modifier: deferred to the next release.
+- log late receipt for pickup: blocked on store systems.
+- add missing pickup slot on reorder: decided.
+- backfill cancelled topping: deferred to the next release.
+- sort missing receipt: verified in staging.
+- add cancelled tax line in the queue: decided.
+
+- backfill regional menu item: verified in staging.
+- dedupe empty store: deferred to the next release.
+- retry cancelled ticket: verified in staging.
+- log stale bowl: open.
+- cache missing topping: open.
+- normalise duplicate menu item for pickup: owner: delivery manager.
+- add expired store: owner: delivery manager.
+- normalise duplicate pickup slot: owner: delivery manager.
+- add cancelled topping in the queue: decided.
+- normalise regional tax line in the queue: deferred to the next release.
+- backfill regional topping at close: verified in staging.
+- cache stale kitchen ticket at close: verified in staging.
+- guard late store: owner: delivery manager.

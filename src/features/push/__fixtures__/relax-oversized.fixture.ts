@@ -72,4 +72,40 @@ export const RelaxOversizedToppingRows = [
     label: 'rename regional receipt on reorder',
     quantity: 10,
   },
+  {
+    id: 'push-4176',
+    store: '577',
+    label: 'backfill stale delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'push-4803',
+    store: '224',
+    label: 'cache expired ticket for pickup',
+    quantity: 2,
+  },
+  {
+    id: 'push-2826',
+    store: '562',
+    label: 'backfill cancelled menu item for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'push-1801',
+    store: '132',
+    label: 'cache partial delivery window',
+    quantity: 9,
+  },
+  {
+    id: 'push-1242',
+    store: '687',
+    label: 'retry missing topping on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'push-6276',
+    store: '401',
+    label: 'expose duplicate store on checkout',
+    quantity: 1,
+  },
 ];
