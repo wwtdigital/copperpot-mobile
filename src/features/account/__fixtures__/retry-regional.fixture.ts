@@ -90,4 +90,16 @@ export const RetryRegionalStoreRows = [
     label: 'paginate cancelled topping',
     quantity: 7,
   },
+  {
+    id: 'account-1480',
+    store: '497',
+    label: 'relax duplicate ticket on checkout',
+    quantity: 8,
+  },
+  {
+    id: 'account-1193',
+    store: '201',
+    label: 'normalise cancelled topping',
+    quantity: 12,
+  },
 ];
