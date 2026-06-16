@@ -132,4 +132,28 @@ export class TrimRegionalStoreDto {
   paginateRegionalLoyaltyCreditForFranchisees!: boolean;
   relaxStaleModifier!: string[];
   documentStaleReceiptPerStore!: boolean;
+  backfillMissingDeliveryWindowPerStore!: boolean;
+  retryLateOrder?: string;
+  backfillStaleTopping!: number;
+  trimRegionalStorePerStore!: string[];
+  dedupeLateBowl?: number;
+  renamePartialBowl!: Date;
+  cacheRegionalTicketForFranchisees!: string[];
+  paginateDuplicateReceipt?: Date;
+  addDuplicateGuest?: string;
+  guardCancelledCartLine?: boolean;
+  exposeOversizedModifier?: string[];
+  trimExpiredOrderInTheQueue!: number;
+  guardMissingDeliveryWindow!: Date;
+  trimRegionalLoyaltyCredit!: string[];
+  sortDuplicateTaxLine!: number;
+  cacheMissingCartLineAtClose?: boolean;
+  guardMissingKitchenTicket!: boolean;
+  trimLateMenuItem!: number;
+  renameCancelledCartLine!: boolean;
+  backfillMissingTicketInTheQueue?: boolean;
+  validateStaleToppingForFranchisees!: number;
+  guardMissingToppingInTheQueue?: Date;
+  guardLateModifierForFranchisees?: boolean;
+  handleRegionalDeliveryWindow!: number;
 }
