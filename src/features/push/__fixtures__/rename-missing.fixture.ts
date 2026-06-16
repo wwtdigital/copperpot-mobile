@@ -6,4 +6,16 @@ export const RenameMissingKitchenTicketRows = [
     label: 'cache oversized loyalty credit for franchisees',
     quantity: 12,
   },
+  {
+    id: 'push-2161',
+    store: '368',
+    label: 'expose missing loyalty credit',
+    quantity: 10,
+  },
+  {
+    id: 'push-3270',
+    store: '233',
+    label: 'tighten expired ticket',
+    quantity: 3,
+  },
 ];
