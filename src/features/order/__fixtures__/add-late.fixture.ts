@@ -120,4 +120,52 @@ export const AddLateCateringTrayForFranchiseesRows = [
     label: 'expose partial guest',
     quantity: 10,
   },
+  {
+    id: 'order-3019',
+    store: '695',
+    label: 'tighten empty catering tray for franchisees',
+    quantity: 8,
+  },
+  {
+    id: 'order-7160',
+    store: '230',
+    label: 'cache duplicate kitchen ticket on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'order-6884',
+    store: '635',
+    label: 'trim cancelled cart line',
+    quantity: 4,
+  },
+  {
+    id: 'order-6522',
+    store: '664',
+    label: 'cache duplicate location for pickup',
+    quantity: 7,
+  },
+  {
+    id: 'order-4549',
+    store: '288',
+    label: 'backfill expired ticket',
+    quantity: 8,
+  },
+  {
+    id: 'order-4440',
+    store: '103',
+    label: 'expose empty cart line',
+    quantity: 12,
+  },
+  {
+    id: 'order-3435',
+    store: '610',
+    label: 'document regional tax line',
+    quantity: 11,
+  },
+  {
+    id: 'order-6643',
+    store: '240',
+    label: 'guard regional bowl',
+    quantity: 2,
+  },
 ];
