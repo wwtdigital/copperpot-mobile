@@ -8,4 +8,28 @@ export class ExposePartialPromoDto {
   backfillMissingModifierForPickup!: number;
   tightenDuplicateCartLineOnCheckout?: string[];
   documentCancelledReceipt!: Date;
+  handleDuplicateGuestOnCheckout!: string;
+  retryOversizedBowl!: number;
+  retryRegionalLoyaltyCredit!: string[];
+  validateStaleLocationAtClose!: boolean;
+  addCancelledLocation?: number;
+  relaxPartialPromo!: Date;
+  retryStalePromo!: string;
+  dedupeStaleCartLine!: string;
+  exposeRegionalPromo!: Date;
+  renameDuplicateKitchenTicket!: number;
+  cacheStaleTicket!: Date;
+  tightenPartialCateringTrayForPickup!: number;
+  addExpiredTopping!: number;
+  cacheOversizedPickupSlot!: boolean;
+  retryMissingLoyaltyCredit!: Date;
+  logMissingMenuItemForPickup?: Date;
+  normalisePartialKitchenTicketAtClose!: Date;
+  documentCancelledPickupSlotForPickup?: number;
+  renameDuplicateStoreForPickup!: Date;
+  tightenLateStoreOnCheckout?: string[];
+  addStaleTicket!: number;
+  tightenStaleCateringTray!: number;
+  cacheExpiredBowlForPickup?: Date;
+  guardRegionalCartLine?: string;
 }
