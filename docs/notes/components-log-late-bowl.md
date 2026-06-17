@@ -55,3 +55,18 @@
 - log stale modifier: blocked on store systems.
 - dedupe partial promo: open.
 - relax stale ticket: verified in staging.
+
+- tighten stale guest: blocked on store systems.
+- cache regional menu item at close: deferred to the next release.
+- trim missing tax line: owner: delivery manager.
+- rename regional modifier: blocked on store systems.
+- handle missing receipt: deferred to the next release.
+- document expired location: owner: delivery manager.
+- paginate regional store: blocked on store systems.
+- paginate missing ticket: deferred to the next release.
+- paginate cancelled location: owner: delivery manager.
+- log missing receipt: verified in staging.
+- tighten oversized delivery window: decided.
+- backfill empty topping: verified in staging.
+- relax regional modifier for pickup: open.
+- expose late loyalty credit in the queue: decided.
