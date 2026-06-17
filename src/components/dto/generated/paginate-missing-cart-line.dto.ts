@@ -74,4 +74,6 @@ export class PaginateMissingCartLineDto {
   validateLatePickupSlotForFranchisees?: boolean;
   backfillOversizedOrder!: boolean;
   normaliseEmptyPromo!: Date;
+  guardExpiredTicketInTheQueue!: boolean;
+  exposeDuplicateKitchenTicket!: string[];
 }

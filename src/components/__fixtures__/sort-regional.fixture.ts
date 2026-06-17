@@ -138,4 +138,46 @@ export const SortRegionalCartLineRows = [
     label: 'relax expired loyalty credit',
     quantity: 3,
   },
+  {
+    id: 'components-3999',
+    store: '210',
+    label: 'validate oversized receipt',
+    quantity: 12,
+  },
+  {
+    id: 'components-5750',
+    store: '136',
+    label: 'dedupe partial kitchen ticket',
+    quantity: 1,
+  },
+  {
+    id: 'components-4835',
+    store: '266',
+    label: 'add partial order',
+    quantity: 10,
+  },
+  {
+    id: 'components-9655',
+    store: '672',
+    label: 'retry cancelled tax line',
+    quantity: 4,
+  },
+  {
+    id: 'components-5858',
+    store: '368',
+    label: 'paginate stale modifier',
+    quantity: 1,
+  },
+  {
+    id: 'components-5994',
+    store: '135',
+    label: 'trim empty store',
+    quantity: 6,
+  },
+  {
+    id: 'components-1093',
+    store: '424',
+    label: 'sort oversized promo',
+    quantity: 11,
+  },
 ];
