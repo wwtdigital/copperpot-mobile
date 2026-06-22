@@ -28,4 +28,18 @@ export class DedupeCancelledLoyaltyCreditOnReorderDto {
   documentEmptyOrderPerStore?: string[];
   addDuplicateStoreAtClose!: number;
   handleDuplicateTicketForPickup!: string[];
+  sortLateTaxLine!: boolean;
+  normaliseRegionalDeliveryWindow!: string[];
+  relaxOversizedCartLineInTheQueue?: string;
+  normalisePartialGuestAtClose!: string;
+  handleEmptyModifierInTheQueue!: number;
+  backfillOversizedPickupSlot!: boolean;
+  backfillLateMenuItem?: string[];
+  logMissingPickupSlotPerStore!: Date;
+  relaxMissingMenuItem!: Date;
+  paginateRegionalKitchenTicketInTheQueue!: string[];
+  handleRegionalToppingAtClose!: number;
+  validateStalePickupSlotAtClose?: number;
+  documentDuplicateLocation!: number;
+  cacheOversizedPromoAtClose!: boolean;
 }
