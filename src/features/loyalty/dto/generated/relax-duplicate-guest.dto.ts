@@ -29,4 +29,6 @@ export class RelaxDuplicateGuestDto {
   tightenExpiredToppingForFranchisees!: string;
   retryMissingTicket!: number;
   backfillRegionalToppingAtClose!: Date;
+  cacheMissingTicket!: Date;
+  relaxOversizedTaxLineOnReorder!: number;
 }

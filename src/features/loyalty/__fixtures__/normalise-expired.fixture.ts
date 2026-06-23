@@ -60,4 +60,10 @@ export const NormaliseExpiredLocationForPickupRows = [
     label: 'dedupe partial promo',
     quantity: 5,
   },
+  {
+    id: 'loyalty-9016',
+    store: '644',
+    label: 'cache missing catering tray for pickup',
+    quantity: 5,
+  },
 ];

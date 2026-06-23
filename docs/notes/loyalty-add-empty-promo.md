@@ -28,3 +28,10 @@
 - paginate stale receipt: verified in staging.
 - normalise oversized menu item for pickup: blocked on store systems.
 - normalise duplicate order: decided.
+
+- paginate expired guest: blocked on store systems.
+- rename regional promo: verified in staging.
+- backfill missing kitchen ticket: verified in staging.
+- retry oversized loyalty credit: verified in staging.
+- sort missing location: deferred to the next release.
+- document empty store per store: blocked on store systems.
