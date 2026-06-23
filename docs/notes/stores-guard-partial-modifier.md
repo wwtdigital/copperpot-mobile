@@ -141,3 +141,18 @@
 - validate expired catering tray: owner: delivery manager.
 
 - dedupe regional bowl on reorder: owner: delivery manager.
+
+- cache missing location: owner: delivery manager.
+- add empty bowl: deferred to the next release.
+- add late store: owner: delivery manager.
+- rename regional pickup slot: decided.
+- relax duplicate cart line in the queue: blocked on store systems.
+- expose stale tax line: deferred to the next release.
+- backfill cancelled topping: blocked on store systems.
+- dedupe late ticket in the queue: verified in staging.
+- retry late receipt per store: open.
+- normalise cancelled store: decided.
+- sort empty loyalty credit: open.
+- normalise cancelled store at close: owner: delivery manager.
+- paginate duplicate guest: owner: delivery manager.
+- log regional menu item at close: owner: delivery manager.
