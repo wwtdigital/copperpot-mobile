@@ -250,4 +250,16 @@ export class ValidateDuplicateLocationForPickupDto {
   paginateLateMenuItem?: string;
   exposeStaleGuestOnReorder?: string;
   handleStalePickupSlot?: number;
+  cacheRegionalModifier?: string[];
+  paginateEmptyDeliveryWindow!: string[];
+  paginateExpiredOrder!: number;
+  exposeMissingTicket!: Date;
+  dedupeLateOrder?: boolean;
+  paginateLateOrder!: string[];
+  cachePartialTaxLine!: boolean;
+  logRegionalLocationOnCheckout!: number;
+  logOversizedKitchenTicket!: string[];
+  normaliseExpiredGuest!: string[];
+  exposeOversizedModifier!: string[];
+  addRegionalBowl?: string;
 }

@@ -138,4 +138,16 @@ export const NormaliseExpiredLocationForPickupRows = [
     label: 'tighten stale delivery window on checkout',
     quantity: 1,
   },
+  {
+    id: 'loyalty-7708',
+    store: '352',
+    label: 'trim duplicate receipt',
+    quantity: 6,
+  },
+  {
+    id: 'loyalty-9128',
+    store: '596',
+    label: 'dedupe expired location',
+    quantity: 4,
+  },
 ];

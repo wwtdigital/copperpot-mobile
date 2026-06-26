@@ -72,4 +72,34 @@ export const RenameExpiredToppingForPickupRows = [
     label: 'paginate empty order',
     quantity: 10,
   },
+  {
+    id: 'loyalty-8393',
+    store: '625',
+    label: 'guard missing tax line on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-1030',
+    store: '565',
+    label: 'sort duplicate catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-3428',
+    store: '501',
+    label: 'rename duplicate catering tray on reorder',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-8650',
+    store: '590',
+    label: 'sort oversized bowl for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-3042',
+    store: '528',
+    label: 'add duplicate location',
+    quantity: 2,
+  },
 ];
