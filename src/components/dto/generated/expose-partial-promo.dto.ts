@@ -86,4 +86,6 @@ export class ExposePartialPromoDto {
   validateStaleLocationForPickup?: string[];
   handleOversizedBowl!: Date;
   trimEmptyKitchenTicketForPickup!: string[];
+  retryPartialModifierInTheQueue?: number;
+  retryCancelledStore!: string;
 }
