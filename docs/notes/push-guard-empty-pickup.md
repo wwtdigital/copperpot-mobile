@@ -213,3 +213,18 @@
 - normalise late loyalty credit for pickup: deferred to the next release.
 - document partial loyalty credit: decided.
 - relax missing kitchen ticket on reorder: open.
+
+- validate partial order: open.
+- handle expired bowl on checkout: owner: delivery manager.
+- dedupe empty tax line on reorder: open.
+- relax expired ticket in the queue: deferred to the next release.
+- cache duplicate cart line for franchisees: open.
+- backfill partial promo on checkout: deferred to the next release.
+- handle regional menu item: owner: delivery manager.
+- expose late location: decided.
+- trim cancelled tax line: verified in staging.
+- log oversized menu item: deferred to the next release.
+- paginate regional bowl for pickup: owner: delivery manager.
+- cache stale catering tray: deferred to the next release.
+- add empty topping per store: deferred to the next release.
+- relax partial tax line in the queue: open.
