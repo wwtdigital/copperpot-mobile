@@ -18,4 +18,10 @@ export const DocumentLatePromoForFranchiseesRows = [
     label: 'expose late guest per store',
     quantity: 7,
   },
+  {
+    id: 'components-4018',
+    store: '397',
+    label: 'normalise regional store',
+    quantity: 8,
+  },
 ];

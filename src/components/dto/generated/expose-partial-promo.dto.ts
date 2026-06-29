@@ -80,4 +80,10 @@ export class ExposePartialPromoDto {
   renameMissingLoyaltyCredit?: string[];
   logLateLocation!: Date;
   renameOversizedPromoInTheQueue?: string;
+  documentRegionalLoyaltyCreditForPickup!: string[];
+  documentEmptyBowlOnReorder?: string;
+  dedupeExpiredTicket!: Date;
+  validateStaleLocationForPickup?: string[];
+  handleOversizedBowl!: Date;
+  trimEmptyKitchenTicketForPickup!: string[];
 }
