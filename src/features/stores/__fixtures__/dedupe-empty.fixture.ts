@@ -18,4 +18,16 @@ export const DedupeEmptyTaxLineRows = [
     label: 'retry stale topping',
     quantity: 10,
   },
+  {
+    id: 'stores-5494',
+    store: '508',
+    label: 'expose partial guest',
+    quantity: 8,
+  },
+  {
+    id: 'stores-3269',
+    store: '661',
+    label: 'cache duplicate receipt',
+    quantity: 7,
+  },
 ];
