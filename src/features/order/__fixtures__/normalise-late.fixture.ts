@@ -1,0 +1,123 @@
+/* Fixture rows for order tests: normalise late receipt for franchisees. Generated data, not production data. */
+export const NormaliseLateReceiptForFranchiseesRows = [
+  {
+    id: 'order-1049',
+    store: '572',
+    label: 'dedupe missing order',
+    quantity: 3,
+  },
+  {
+    id: 'order-6547',
+    store: '261',
+    label: 'paginate missing modifier',
+    quantity: 12,
+  },
+  {
+    id: 'order-4188',
+    store: '460',
+    label: 'paginate partial tax line',
+    quantity: 7,
+  },
+  {
+    id: 'order-2693',
+    store: '672',
+    label: 'add late location',
+    quantity: 8,
+  },
+  {
+    id: 'order-6554',
+    store: '667',
+    label: 'sort duplicate catering tray',
+    quantity: 2,
+  },
+  {
+    id: 'order-3516',
+    store: '158',
+    label: 'retry regional location for franchisees',
+    quantity: 10,
+  },
+  {
+    id: 'order-5108',
+    store: '350',
+    label: 'cache empty delivery window for pickup',
+    quantity: 1,
+  },
+  {
+    id: 'order-2318',
+    store: '611',
+    label: 'dedupe oversized location',
+    quantity: 6,
+  },
+  {
+    id: 'order-1074',
+    store: '325',
+    label: 'handle duplicate pickup slot',
+    quantity: 7,
+  },
+  {
+    id: 'order-7868',
+    store: '589',
+    label: 'add missing promo per store',
+    quantity: 12,
+  },
+  {
+    id: 'order-3438',
+    store: '155',
+    label: 'validate partial tax line',
+    quantity: 1,
+  },
+  {
+    id: 'order-7266',
+    store: '390',
+    label: 'cache oversized loyalty credit',
+    quantity: 4,
+  },
+  {
+    id: 'order-1451',
+    store: '570',
+    label: 'cache empty loyalty credit',
+    quantity: 12,
+  },
+  {
+    id: 'order-3666',
+    store: '394',
+    label: 'validate duplicate modifier on reorder',
+    quantity: 2,
+  },
+  {
+    id: 'order-8033',
+    store: '509',
+    label: 'retry stale order',
+    quantity: 12,
+  },
+  {
+    id: 'order-5680',
+    store: '139',
+    label: 'expose late delivery window for franchisees',
+    quantity: 7,
+  },
+  {
+    id: 'order-7358',
+    store: '264',
+    label: 'trim expired tax line',
+    quantity: 8,
+  },
+  {
+    id: 'order-2769',
+    store: '197',
+    label: 'guard late loyalty credit',
+    quantity: 1,
+  },
+  {
+    id: 'order-8842',
+    store: '497',
+    label: 'rename expired topping',
+    quantity: 1,
+  },
+  {
+    id: 'order-5701',
+    store: '430',
+    label: 'normalise duplicate receipt per store',
+    quantity: 11,
+  },
+];

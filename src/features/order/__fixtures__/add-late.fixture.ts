@@ -168,4 +168,52 @@ export const AddLateCateringTrayForFranchiseesRows = [
     label: 'guard regional bowl',
     quantity: 2,
   },
+  {
+    id: 'order-5177',
+    store: '663',
+    label: 'cache missing delivery window in the queue',
+    quantity: 12,
+  },
+  {
+    id: 'order-6271',
+    store: '540',
+    label: 'document oversized kitchen ticket in the queue',
+    quantity: 2,
+  },
+  {
+    id: 'order-2623',
+    store: '534',
+    label: 'trim partial pickup slot',
+    quantity: 8,
+  },
+  {
+    id: 'order-2749',
+    store: '196',
+    label: 'expose expired modifier on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'order-9349',
+    store: '694',
+    label: 'normalise duplicate promo for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'order-1705',
+    store: '278',
+    label: 'add stale bowl at close',
+    quantity: 9,
+  },
+  {
+    id: 'order-2190',
+    store: '680',
+    label: 'expose duplicate order',
+    quantity: 10,
+  },
+  {
+    id: 'order-1425',
+    store: '308',
+    label: 'guard oversized menu item',
+    quantity: 8,
+  },
 ];
