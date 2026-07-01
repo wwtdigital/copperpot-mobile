@@ -144,4 +144,28 @@ export const RelaxLateTicketInTheQueueRows = [
     label: 'retry oversized ticket',
     quantity: 8,
   },
+  {
+    id: 'stores-1186',
+    store: '563',
+    label: 'retry oversized guest in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'stores-1171',
+    store: '399',
+    label: 'sort cancelled promo on checkout',
+    quantity: 12,
+  },
+  {
+    id: 'stores-2043',
+    store: '498',
+    label: 'trim oversized catering tray for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'stores-6986',
+    store: '128',
+    label: 'validate expired pickup slot for franchisees',
+    quantity: 5,
+  },
 ];
