@@ -120,4 +120,40 @@ export const NormaliseLateReceiptForFranchiseesRows = [
     label: 'normalise duplicate receipt per store',
     quantity: 11,
   },
+  {
+    id: 'order-2803',
+    store: '619',
+    label: 'rename missing bowl',
+    quantity: 5,
+  },
+  {
+    id: 'order-8404',
+    store: '647',
+    label: 'normalise expired kitchen ticket for pickup',
+    quantity: 6,
+  },
+  {
+    id: 'order-2138',
+    store: '143',
+    label: 'sort stale promo in the queue',
+    quantity: 7,
+  },
+  {
+    id: 'order-6432',
+    store: '280',
+    label: 'sort stale ticket for pickup',
+    quantity: 9,
+  },
+  {
+    id: 'order-3866',
+    store: '432',
+    label: 'log empty catering tray',
+    quantity: 11,
+  },
+  {
+    id: 'order-9333',
+    store: '316',
+    label: 'paginate regional order',
+    quantity: 5,
+  },
 ];
