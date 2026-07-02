@@ -168,4 +168,22 @@ export const RelaxLateTicketInTheQueueRows = [
     label: 'validate expired pickup slot for franchisees',
     quantity: 5,
   },
+  {
+    id: 'stores-2022',
+    store: '339',
+    label: 'retry oversized tax line',
+    quantity: 3,
+  },
+  {
+    id: 'stores-1909',
+    store: '243',
+    label: 'add late promo',
+    quantity: 2,
+  },
+  {
+    id: 'stores-3039',
+    store: '181',
+    label: 'paginate empty loyalty credit',
+    quantity: 10,
+  },
 ];

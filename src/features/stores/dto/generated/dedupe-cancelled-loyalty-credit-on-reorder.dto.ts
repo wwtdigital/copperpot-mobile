@@ -42,4 +42,5 @@ export class DedupeCancelledLoyaltyCreditOnReorderDto {
   validateStalePickupSlotAtClose?: number;
   documentDuplicateLocation!: number;
   cacheOversizedPromoAtClose!: boolean;
+  exposeCancelledReceiptAtClose!: string[];
 }
