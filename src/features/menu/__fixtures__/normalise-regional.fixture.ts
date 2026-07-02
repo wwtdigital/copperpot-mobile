@@ -48,4 +48,58 @@ export const NormaliseRegionalPromoRows = [
     label: 'relax cancelled promo',
     quantity: 9,
   },
+  {
+    id: 'menu-7867',
+    store: '475',
+    label: 'handle stale cart line',
+    quantity: 12,
+  },
+  {
+    id: 'menu-6680',
+    store: '614',
+    label: 'sort expired modifier',
+    quantity: 12,
+  },
+  {
+    id: 'menu-5939',
+    store: '651',
+    label: 'rename duplicate ticket at close',
+    quantity: 9,
+  },
+  {
+    id: 'menu-8664',
+    store: '661',
+    label: 'dedupe oversized ticket',
+    quantity: 10,
+  },
+  {
+    id: 'menu-8420',
+    store: '308',
+    label: 'rename cancelled ticket on reorder',
+    quantity: 11,
+  },
+  {
+    id: 'menu-4965',
+    store: '395',
+    label: 'retry stale modifier',
+    quantity: 12,
+  },
+  {
+    id: 'menu-7702',
+    store: '606',
+    label: 'add stale catering tray',
+    quantity: 7,
+  },
+  {
+    id: 'menu-5491',
+    store: '430',
+    label: 'add partial catering tray',
+    quantity: 3,
+  },
+  {
+    id: 'menu-4503',
+    store: '163',
+    label: 'rename regional store',
+    quantity: 8,
+  },
 ];
