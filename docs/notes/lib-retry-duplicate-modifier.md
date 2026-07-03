@@ -132,5 +132,3 @@
 - cache missing promo: decided.
 - sort missing location: verified in staging.
 - trim duplicate receipt: decided.
-
-- relax missing catering tray: verified in staging.

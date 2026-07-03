@@ -126,4 +126,22 @@ export const RelaxLateTicketInTheQueueRows = [
     label: 'trim stale kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'stores-7553',
+    store: '499',
+    label: 'paginate late menu item per store',
+    quantity: 7,
+  },
+  {
+    id: 'stores-2788',
+    store: '424',
+    label: 'log regional delivery window',
+    quantity: 6,
+  },
+  {
+    id: 'stores-4670',
+    store: '587',
+    label: 'retry oversized ticket',
+    quantity: 8,
+  },
 ];
