@@ -31,4 +31,6 @@ export class RelaxDuplicateGuestDto {
   backfillRegionalToppingAtClose!: Date;
   cacheMissingTicket!: Date;
   relaxOversizedTaxLineOnReorder!: number;
+  backfillStaleStore?: Date;
+  documentDuplicateStore?: string;
 }

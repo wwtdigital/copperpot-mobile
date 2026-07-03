@@ -102,4 +102,16 @@ export const RenameExpiredToppingForPickupRows = [
     label: 'add duplicate location',
     quantity: 2,
   },
+  {
+    id: 'loyalty-2657',
+    store: '311',
+    label: 'retry stale receipt on checkout',
+    quantity: 1,
+  },
+  {
+    id: 'loyalty-1400',
+    store: '475',
+    label: 'handle empty delivery window',
+    quantity: 8,
+  },
 ];
