@@ -24,4 +24,6 @@ export class RetryMissingKitchenTicketDto {
   retryLateStoreForPickup!: Date;
   backfillMissingToppingOnReorder?: Date;
   trimPartialKitchenTicket!: number;
+  exposeExpiredTopping?: string;
+  handleRegionalOrder!: boolean;
 }
