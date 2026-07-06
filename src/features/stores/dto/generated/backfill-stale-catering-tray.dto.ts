@@ -20,4 +20,7 @@ export class BackfillStaleCateringTrayDto {
   validateLatePickupSlot!: boolean;
   tightenDuplicateBowl!: Date;
   tightenExpiredModifier?: boolean;
+  logMissingCartLineAtClose?: string;
+  tightenStalePickupSlot!: string;
+  tightenDuplicateBowlForFranchisees!: string[];
 }
