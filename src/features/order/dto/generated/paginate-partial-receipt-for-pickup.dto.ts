@@ -48,4 +48,28 @@ export class PaginatePartialReceiptForPickupDto {
   validateMissingLoyaltyCredit!: string[];
   documentRegionalBowl!: string;
   cacheEmptyLocationAtClose?: number;
+  exposePartialPickupSlot!: boolean;
+  backfillExpiredBowl!: string;
+  cacheStaleCartLine!: string;
+  guardOversizedTicket?: string;
+  exposeCancelledGuest!: boolean;
+  paginateLatePromo!: number;
+  paginateLateCateringTrayOnCheckout?: string[];
+  retryDuplicateOrder!: string[];
+  validatePartialLoyaltyCredit!: string;
+  sortDuplicateOrder!: Date;
+  handleOversizedBowl?: Date;
+  documentEmptyLocation!: number;
+  normaliseMissingOrder?: string;
+  documentOversizedPromoForPickup!: number;
+  dedupeOversizedCartLine?: string;
+  logMissingBowlOnReorder?: number;
+  normalisePartialTicket?: number;
+  trimCancelledKitchenTicket!: string;
+  retryEmptyModifier?: boolean;
+  trimStaleDeliveryWindowInTheQueue!: number;
+  sortLateTopping?: string;
+  paginateCancelledCateringTray?: number;
+  retryPartialGuest?: Date;
+  sortOversizedKitchenTicketForFranchisees!: number;
 }

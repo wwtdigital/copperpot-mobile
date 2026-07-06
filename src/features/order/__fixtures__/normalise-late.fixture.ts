@@ -156,4 +156,16 @@ export const NormaliseLateReceiptForFranchiseesRows = [
     label: 'paginate regional order',
     quantity: 5,
   },
+  {
+    id: 'order-5991',
+    store: '485',
+    label: 'rename missing guest at close',
+    quantity: 4,
+  },
+  {
+    id: 'order-2338',
+    store: '277',
+    label: 'cache stale menu item on checkout',
+    quantity: 1,
+  },
 ];
