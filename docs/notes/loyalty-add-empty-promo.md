@@ -35,3 +35,6 @@
 - retry oversized loyalty credit: verified in staging.
 - sort missing location: deferred to the next release.
 - document empty store per store: blocked on store systems.
+
+- sort regional ticket: blocked on store systems.
+- validate empty bowl: verified in staging.

@@ -262,4 +262,11 @@ export class ValidateDuplicateLocationForPickupDto {
   normaliseExpiredGuest!: string[];
   exposeOversizedModifier!: string[];
   addRegionalBowl?: string;
+  documentEmptyMenuItemForFranchisees!: string;
+  handleDuplicateBowlAtClose!: string[];
+  sortExpiredTicket!: Date;
+  sortPartialBowl?: string;
+  dedupeDuplicatePickupSlotInTheQueue!: string[];
+  backfillExpiredTaxLineOnCheckout!: string;
+  dedupeDuplicateTaxLineAtClose!: boolean;
 }

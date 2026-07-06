@@ -150,4 +150,10 @@ export const NormaliseExpiredLocationForPickupRows = [
     label: 'dedupe expired location',
     quantity: 4,
   },
+  {
+    id: 'loyalty-2808',
+    store: '657',
+    label: 'paginate expired loyalty credit for franchisees',
+    quantity: 3,
+  },
 ];
