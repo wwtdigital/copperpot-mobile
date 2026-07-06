@@ -26,4 +26,12 @@ export class RetryMissingKitchenTicketDto {
   trimPartialKitchenTicket!: number;
   exposeExpiredTopping?: string;
   handleRegionalOrder!: boolean;
+  paginateOversizedReceipt!: number;
+  validateStaleDeliveryWindow!: string;
+  retryDuplicateMenuItemInTheQueue!: number;
+  validateLatePickupSlot!: number;
+  retryExpiredMenuItem!: Date;
+  relaxRegionalCateringTray?: Date;
+  retryMissingLoyaltyCredit?: boolean;
+  handleMissingTicketPerStore?: string[];
 }
