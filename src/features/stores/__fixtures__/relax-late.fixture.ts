@@ -186,4 +186,10 @@ export const RelaxLateTicketInTheQueueRows = [
     label: 'paginate empty loyalty credit',
     quantity: 10,
   },
+  {
+    id: 'stores-4568',
+    store: '638',
+    label: 'retry partial bowl on reorder',
+    quantity: 3,
+  },
 ];
