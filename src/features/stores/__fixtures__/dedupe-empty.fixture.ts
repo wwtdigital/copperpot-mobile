@@ -30,4 +30,10 @@ export const DedupeEmptyTaxLineRows = [
     label: 'cache duplicate receipt',
     quantity: 7,
   },
+  {
+    id: 'stores-3310',
+    store: '507',
+    label: 'document partial topping',
+    quantity: 7,
+  },
 ];
