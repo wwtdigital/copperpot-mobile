@@ -29,3 +29,7 @@
 - dedupe expired menu item: open.
 - handle duplicate order on reorder: decided.
 - handle missing order: open.
+
+- dedupe empty catering tray: owner: delivery manager.
+- sort partial promo: open.
+- paginate partial delivery window at close: decided.

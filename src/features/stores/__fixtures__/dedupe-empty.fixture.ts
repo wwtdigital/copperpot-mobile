@@ -36,4 +36,22 @@ export const DedupeEmptyTaxLineRows = [
     label: 'document partial topping',
     quantity: 7,
   },
+  {
+    id: 'stores-3598',
+    store: '267',
+    label: 'add missing receipt',
+    quantity: 7,
+  },
+  {
+    id: 'stores-7169',
+    store: '481',
+    label: 'expose duplicate receipt on checkout',
+    quantity: 3,
+  },
+  {
+    id: 'stores-3508',
+    store: '654',
+    label: 'add late menu item',
+    quantity: 2,
+  },
 ];
