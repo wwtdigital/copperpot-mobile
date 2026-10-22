@@ -159,3 +159,43 @@
 - handle partial location at close: owner: delivery manager.
 - sort oversized bowl: deferred to the next release.
 - expose regional modifier: open.
+
+- retry empty location: deferred to the next release.
+- relax oversized guest: blocked on store systems.
+- cache partial pickup slot for pickup: decided.
+- sort missing loyalty credit: blocked on store systems.
+- cache oversized loyalty credit for franchisees: blocked on store systems.
+- trim cancelled store: blocked on store systems.
+- trim missing ticket in the queue: blocked on store systems.
+- add oversized location on reorder: blocked on store systems.
+- retry stale modifier per store: verified in staging.
+- retry expired kitchen ticket: deferred to the next release.
+- handle cancelled tax line at close: deferred to the next release.
+- document regional location: blocked on store systems.
+- retry partial promo for pickup: owner: delivery manager.
+- document cancelled catering tray: decided.
+
+- dedupe partial menu item on reorder: deferred to the next release.
+- handle expired tax line: open.
+- backfill partial kitchen ticket: decided.
+- add regional menu item per store: decided.
+- tighten partial store on checkout: open.
+- expose late bowl on reorder: verified in staging.
+- retry empty location in the queue: blocked on store systems.
+- sort stale cart line on checkout: owner: delivery manager.
+- tighten late catering tray per store: open.
+- add missing cart line per store: blocked on store systems.
+- sort cancelled location on checkout: owner: delivery manager.
+- sort missing bowl at close: verified in staging.
+- relax cancelled topping for pickup: verified in staging.
+- backfill cancelled promo for pickup: open.
+
+- trim oversized pickup slot: deferred to the next release.
+- normalise duplicate modifier: deferred to the next release.
+- guard duplicate bowl: open.
+- validate duplicate menu item in the queue: verified in staging.
+- expose duplicate store on checkout: decided.
+- rename duplicate bowl: decided.
+- guard duplicate menu item for franchisees: decided.
+- tighten regional loyalty credit: blocked on store systems.
+- add empty topping: verified in staging.

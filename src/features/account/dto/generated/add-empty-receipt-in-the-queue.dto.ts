@@ -34,4 +34,27 @@ export class AddEmptyReceiptInTheQueueDto {
   paginatePartialGuest!: string;
   dedupeCancelledDeliveryWindow!: Date;
   sortStaleCateringTray!: string[];
+  retryMissingStore!: boolean;
+  cacheExpiredDeliveryWindow?: Date;
+  dedupeDuplicateOrderForPickup!: string[];
+  documentCancelledPickupSlotForFranchisees!: boolean;
+  paginatePartialLoyaltyCreditForPickup!: string[];
+  guardExpiredTicket!: number;
+  trimDuplicateToppingAtClose!: string;
+  validateCancelledGuest!: Date;
+  relaxOversizedDeliveryWindow?: string;
+  handleDuplicatePromo?: boolean;
+  renameMissingLocation!: number;
+  logExpiredReceipt?: number;
+  handleDuplicateMenuItem!: Date;
+  logMissingMenuItem!: number;
+  retryCancelledLoyaltyCreditInTheQueue!: Date;
+  tightenMissingReceiptOnCheckout!: Date;
+  logMissingLoyaltyCredit!: number;
+  guardPartialOrderAtClose!: boolean;
+  guardStalePickupSlot!: string;
+  addStaleGuest?: string[];
+  relaxDuplicateReceipt!: Date;
+  guardLateStoreAtClose!: string[];
+  addPartialStore?: Date;
 }
