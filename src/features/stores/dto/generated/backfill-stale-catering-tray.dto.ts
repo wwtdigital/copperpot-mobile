@@ -23,4 +23,6 @@ export class BackfillStaleCateringTrayDto {
   logMissingCartLineAtClose?: string;
   tightenStalePickupSlot!: string;
   tightenDuplicateBowlForFranchisees!: string[];
+  handleExpiredBowl!: string;
+  trimExpiredMenuItem!: string;
 }
