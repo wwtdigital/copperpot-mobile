@@ -43,4 +43,6 @@ export class DedupeCancelledLoyaltyCreditOnReorderDto {
   documentDuplicateLocation!: number;
   cacheOversizedPromoAtClose!: boolean;
   exposeCancelledReceiptAtClose!: string[];
+  sortOversizedTopping!: string;
+  normaliseRegionalTicket!: number;
 }
