@@ -204,4 +204,10 @@ export const RelaxLateTicketInTheQueueRows = [
     label: 'normalise expired bowl at close',
     quantity: 1,
   },
+  {
+    id: 'stores-6673',
+    store: '552',
+    label: 'sort stale delivery window on reorder',
+    quantity: 5,
+  },
 ];
