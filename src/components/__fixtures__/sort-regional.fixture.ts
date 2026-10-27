@@ -180,4 +180,52 @@ export const SortRegionalCartLineRows = [
     label: 'sort oversized promo',
     quantity: 11,
   },
+  {
+    id: 'components-3244',
+    store: '524',
+    label: 'relax duplicate cart line for franchisees',
+    quantity: 4,
+  },
+  {
+    id: 'components-1056',
+    store: '177',
+    label: 'dedupe duplicate kitchen ticket at close',
+    quantity: 7,
+  },
+  {
+    id: 'components-1063',
+    store: '395',
+    label: 'document duplicate ticket per store',
+    quantity: 1,
+  },
+  {
+    id: 'components-7862',
+    store: '594',
+    label: 'backfill missing location',
+    quantity: 5,
+  },
+  {
+    id: 'components-6837',
+    store: '460',
+    label: 'backfill late topping',
+    quantity: 7,
+  },
+  {
+    id: 'components-9430',
+    store: '652',
+    label: 'normalise duplicate ticket',
+    quantity: 4,
+  },
+  {
+    id: 'components-8846',
+    store: '288',
+    label: 'trim partial receipt on reorder',
+    quantity: 9,
+  },
+  {
+    id: 'components-4563',
+    store: '191',
+    label: 'cache cancelled receipt for pickup',
+    quantity: 2,
+  },
 ];
