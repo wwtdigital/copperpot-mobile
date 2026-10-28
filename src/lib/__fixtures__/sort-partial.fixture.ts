@@ -372,4 +372,10 @@ export const SortPartialReceiptRows = [
     label: 'guard oversized loyalty credit on reorder',
     quantity: 1,
   },
+  {
+    id: 'lib-8070',
+    store: '387',
+    label: 'backfill empty bowl',
+    quantity: 12,
+  },
 ];

@@ -113,4 +113,27 @@ export class ExposeLatePromoPerStoreDto {
   renameDuplicateReceipt!: number;
   addCancelledMenuItem!: Date;
   tightenDuplicateStoreOnCheckout!: Date;
+  paginateEmptyCartLineForPickup!: string[];
+  exposeExpiredModifier!: boolean;
+  relaxRegionalTaxLine?: string[];
+  renameExpiredReceiptForPickup?: number;
+  tightenExpiredMenuItemInTheQueue!: number;
+  addOversizedTopping!: string;
+  normaliseOversizedTopping!: boolean;
+  cachePartialCartLineForPickup!: number;
+  dedupeCancelledMenuItemInTheQueue?: boolean;
+  relaxDuplicateGuest?: Date;
+  handlePartialCartLineInTheQueue!: number;
+  validateOversizedMenuItemForFranchisees!: string[];
+  relaxCancelledGuestForFranchisees!: boolean;
+  addCancelledLocationAtClose!: string[];
+  dedupeCancelledBowl!: boolean;
+  cacheExpiredPromo!: boolean;
+  addExpiredCartLine!: boolean;
+  backfillCancelledLoyaltyCreditInTheQueue!: string[];
+  guardCancelledMenuItem!: boolean;
+  logOversizedReceiptInTheQueue?: number;
+  dedupeMissingReceiptPerStore!: string[];
+  documentLateGuestForFranchisees?: string[];
+  renameStaleTopping?: Date;
 }
