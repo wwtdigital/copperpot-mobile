@@ -61,4 +61,7 @@ export class RetryRegionalDeliveryWindowDto {
   documentRegionalBowl!: string;
   sortExpiredModifierForFranchisees!: number;
   backfillCancelledBowlAtClose!: boolean;
+  trimStaleLoyaltyCreditOnReorder!: number;
+  addDuplicateKitchenTicketForPickup!: Date;
+  trimRegionalModifierInTheQueue?: Date;
 }

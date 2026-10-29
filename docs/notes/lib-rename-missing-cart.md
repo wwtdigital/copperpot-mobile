@@ -55,3 +55,18 @@
 - normalise regional location: blocked on store systems.
 - cache missing cart line: decided.
 - tighten late tax line on checkout: open.
+
+- retry stale location for franchisees: deferred to the next release.
+- cache oversized loyalty credit on checkout: decided.
+- trim partial promo for pickup: blocked on store systems.
+- rename duplicate location: verified in staging.
+- rename empty catering tray for pickup: owner: delivery manager.
+- paginate stale order: decided.
+- add expired order: verified in staging.
+- retry expired ticket: verified in staging.
+- sort stale tax line: deferred to the next release.
+- rename empty location: blocked on store systems.
+- relax empty topping: blocked on store systems.
+- sort missing topping: deferred to the next release.
+- tighten stale store: blocked on store systems.
+- handle late guest: open.
