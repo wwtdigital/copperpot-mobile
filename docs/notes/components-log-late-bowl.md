@@ -70,3 +70,18 @@
 - backfill empty topping: verified in staging.
 - relax regional modifier for pickup: open.
 - expose late loyalty credit in the queue: decided.
+
+- cache partial loyalty credit: blocked on store systems.
+- dedupe regional modifier: blocked on store systems.
+- trim expired promo: owner: delivery manager.
+- backfill oversized location on reorder: blocked on store systems.
+- guard regional ticket per store: decided.
+- cache expired delivery window: decided.
+- expose stale promo: decided.
+- tighten regional promo on checkout: deferred to the next release.
+- expose regional modifier: blocked on store systems.
+- retry late kitchen ticket: owner: delivery manager.
+- add late store: decided.
+- tighten partial guest: blocked on store systems.
+- backfill regional order for franchisees: verified in staging.
+- validate stale promo: decided.
