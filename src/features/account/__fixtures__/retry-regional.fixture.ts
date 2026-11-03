@@ -102,4 +102,10 @@ export const RetryRegionalStoreRows = [
     label: 'normalise cancelled topping',
     quantity: 12,
   },
+  {
+    id: 'account-3408',
+    store: '697',
+    label: 'guard partial guest at close',
+    quantity: 10,
+  },
 ];

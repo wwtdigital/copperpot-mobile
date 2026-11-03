@@ -37,4 +37,16 @@ export class LogPartialBowlForFranchiseesDto {
   cachePartialTicketForFranchisees!: string[];
   addExpiredReceiptPerStore!: number;
   relaxOversizedMenuItemForFranchisees!: boolean;
+  cacheExpiredDeliveryWindow!: string[];
+  normalisePartialPickupSlot?: string[];
+  exposeOversizedTaxLine?: string;
+  retryEmptyPickupSlotPerStore!: Date;
+  logOversizedStore!: number;
+  dedupeDuplicateKitchenTicket!: string;
+  addEmptyModifier!: string[];
+  renameEmptyPromo?: string;
+  addEmptyDeliveryWindowInTheQueue!: string[];
+  dedupePartialCateringTray?: string[];
+  logEmptyReceiptForPickup?: string;
+  exposeCancelledCateringTray?: number;
 }
