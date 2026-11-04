@@ -162,3 +162,16 @@
 - trim partial topping per store: deferred to the next release.
 - guard duplicate topping on checkout: decided.
 - relax stale topping for franchisees: deferred to the next release.
+
+- rename oversized guest in the queue: deferred to the next release.
+- validate duplicate pickup slot at close: owner: delivery manager.
+- log stale loyalty credit: decided.
+- log regional receipt for pickup: blocked on store systems.
+- backfill stale delivery window: deferred to the next release.
+- validate missing order: decided.
+- guard duplicate delivery window: decided.
+- relax stale tax line in the queue: open.
+- guard stale receipt per store: deferred to the next release.
+- retry late bowl: decided.
+- paginate expired ticket at close: deferred to the next release.
+- backfill missing guest: verified in staging.
