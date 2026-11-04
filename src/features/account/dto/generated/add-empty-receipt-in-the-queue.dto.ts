@@ -57,4 +57,10 @@ export class AddEmptyReceiptInTheQueueDto {
   relaxDuplicateReceipt!: Date;
   guardLateStoreAtClose!: string[];
   addPartialStore?: Date;
+  cacheOversizedLoyaltyCredit!: string;
+  documentExpiredGuest!: number;
+  dedupeMissingReceipt!: boolean;
+  renameRegionalTicket!: string[];
+  exposeDuplicateOrder!: number;
+  relaxOversizedTaxLine!: string;
 }
