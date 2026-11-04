@@ -186,4 +186,28 @@ export const NormaliseRegionalPromoRows = [
     label: 'expose partial receipt at close',
     quantity: 5,
   },
+  {
+    id: 'menu-3320',
+    store: '127',
+    label: 'expose oversized menu item',
+    quantity: 11,
+  },
+  {
+    id: 'menu-5072',
+    store: '509',
+    label: 'paginate oversized topping',
+    quantity: 1,
+  },
+  {
+    id: 'menu-7103',
+    store: '133',
+    label: 'normalise oversized menu item',
+    quantity: 6,
+  },
+  {
+    id: 'menu-9462',
+    store: '325',
+    label: 'add empty pickup slot',
+    quantity: 3,
+  },
 ];
