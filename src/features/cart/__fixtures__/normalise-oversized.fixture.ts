@@ -90,4 +90,34 @@ export const NormaliseOversizedMenuItemOnCheckoutRows = [
     label: 'expose partial menu item per store',
     quantity: 7,
   },
+  {
+    id: 'cart-5115',
+    store: '581',
+    label: 'cache empty ticket',
+    quantity: 7,
+  },
+  {
+    id: 'cart-4941',
+    store: '545',
+    label: 'add empty store on checkout',
+    quantity: 5,
+  },
+  {
+    id: 'cart-9652',
+    store: '172',
+    label: 'handle missing guest at close',
+    quantity: 4,
+  },
+  {
+    id: 'cart-1942',
+    store: '110',
+    label: 'expose expired topping',
+    quantity: 3,
+  },
+  {
+    id: 'cart-4464',
+    store: '380',
+    label: 'add partial guest',
+    quantity: 11,
+  },
 ];
