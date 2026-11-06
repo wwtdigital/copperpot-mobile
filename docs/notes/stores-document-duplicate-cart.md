@@ -33,3 +33,18 @@
 - dedupe empty catering tray: owner: delivery manager.
 - sort partial promo: open.
 - paginate partial delivery window at close: decided.
+
+- handle partial bowl: decided.
+- document cancelled ticket at close: decided.
+- normalise duplicate guest: open.
+- tighten late receipt: decided.
+- cache missing menu item: blocked on store systems.
+- cache empty catering tray: deferred to the next release.
+- cache oversized bowl: open.
+- retry expired cart line: open.
+- cache empty cart line: blocked on store systems.
+- guard oversized pickup slot: deferred to the next release.
+- validate expired bowl on reorder: verified in staging.
+- dedupe expired ticket: deferred to the next release.
+- sort oversized guest for franchisees: open.
+- rename duplicate loyalty credit at close: open.
