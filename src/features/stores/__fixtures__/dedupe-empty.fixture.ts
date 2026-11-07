@@ -414,4 +414,10 @@ export const DedupeEmptyTaxLineRows = [
     label: 'cache expired bowl in the queue',
     quantity: 10,
   },
+  {
+    id: 'stores-7675',
+    store: '524',
+    label: 'cache oversized catering tray on checkout',
+    quantity: 3,
+  },
 ];
