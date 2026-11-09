@@ -48,4 +48,10 @@ export const RenameMissingKitchenTicketRows = [
     label: 'trim empty menu item',
     quantity: 5,
   },
+  {
+    id: 'push-1525',
+    store: '412',
+    label: 'document oversized pickup slot for pickup',
+    quantity: 7,
+  },
 ];

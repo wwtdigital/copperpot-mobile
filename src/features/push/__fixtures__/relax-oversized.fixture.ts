@@ -108,4 +108,58 @@ export const RelaxOversizedToppingRows = [
     label: 'expose duplicate store on checkout',
     quantity: 1,
   },
+  {
+    id: 'push-8205',
+    store: '180',
+    label: 'dedupe expired tax line',
+    quantity: 9,
+  },
+  {
+    id: 'push-1183',
+    store: '210',
+    label: 'cache stale topping',
+    quantity: 7,
+  },
+  {
+    id: 'push-1253',
+    store: '170',
+    label: 'trim partial catering tray per store',
+    quantity: 3,
+  },
+  {
+    id: 'push-7427',
+    store: '308',
+    label: 'document cancelled order',
+    quantity: 3,
+  },
+  {
+    id: 'push-3553',
+    store: '370',
+    label: 'handle empty bowl on checkout',
+    quantity: 11,
+  },
+  {
+    id: 'push-9026',
+    store: '231',
+    label: 'expose expired guest',
+    quantity: 3,
+  },
+  {
+    id: 'push-1926',
+    store: '658',
+    label: 'expose cancelled menu item per store',
+    quantity: 1,
+  },
+  {
+    id: 'push-1076',
+    store: '370',
+    label: 'paginate stale cart line',
+    quantity: 10,
+  },
+  {
+    id: 'push-2638',
+    store: '249',
+    label: 'document missing kitchen ticket for pickup',
+    quantity: 12,
+  },
 ];
