@@ -59,3 +59,33 @@
 - expose expired order: verified in staging.
 - backfill duplicate guest: verified in staging.
 - retry oversized order for franchisees: owner: delivery manager.
+
+- guard late kitchen ticket: decided.
+- retry stale receipt: deferred to the next release.
+- handle stale cart line: decided.
+- validate regional guest: deferred to the next release.
+- expose duplicate order: blocked on store systems.
+- tighten duplicate promo in the queue: blocked on store systems.
+- tighten regional order at close: owner: delivery manager.
+- document late topping: decided.
+- paginate cancelled order: owner: delivery manager.
+- trim duplicate pickup slot in the queue: verified in staging.
+- guard empty loyalty credit: decided.
+- document empty topping: deferred to the next release.
+- relax cancelled store for franchisees: open.
+- tighten duplicate receipt on checkout: deferred to the next release.
+
+- retry empty receipt: owner: delivery manager.
+- cache regional guest on checkout: owner: delivery manager.
+- tighten empty promo: owner: delivery manager.
+- paginate expired topping: blocked on store systems.
+- retry missing tax line: deferred to the next release.
+- trim late receipt for pickup: open.
+- tighten duplicate promo on checkout: deferred to the next release.
+- relax duplicate bowl: decided.
+- log regional tax line on checkout: owner: delivery manager.
+- normalise late catering tray per store: decided.
+- guard empty loyalty credit: verified in staging.
+- retry oversized store on reorder: verified in staging.
+- tighten late guest on reorder: owner: delivery manager.
+- guard oversized location: decided.
