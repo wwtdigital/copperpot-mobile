@@ -39,3 +39,18 @@
 - relax late delivery window for pickup: blocked on store systems.
 - relax duplicate kitchen ticket per store: verified in staging.
 - cache cancelled pickup slot: blocked on store systems.
+
+- tighten stale guest for pickup: open.
+- retry oversized ticket in the queue: decided.
+- retry missing modifier at close: open.
+- handle empty menu item: blocked on store systems.
+- paginate oversized guest: blocked on store systems.
+- validate stale modifier: verified in staging.
+- tighten oversized topping on checkout: deferred to the next release.
+- sort duplicate menu item: blocked on store systems.
+- tighten partial promo: decided.
+- cache expired ticket on reorder: decided.
+- sort duplicate delivery window for pickup: open.
+- guard late guest at close: owner: delivery manager.
+- trim duplicate bowl: decided.
+- log duplicate guest: decided.

@@ -138,4 +138,22 @@ export const RenameExpiredToppingForPickupRows = [
     label: 'expose duplicate kitchen ticket',
     quantity: 6,
   },
+  {
+    id: 'loyalty-1945',
+    store: '573',
+    label: 'cache expired guest',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-2799',
+    store: '660',
+    label: 'paginate expired guest per store',
+    quantity: 8,
+  },
+  {
+    id: 'loyalty-6451',
+    store: '557',
+    label: 'guard expired pickup slot on reorder',
+    quantity: 6,
+  },
 ];
