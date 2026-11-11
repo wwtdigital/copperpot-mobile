@@ -70,3 +70,18 @@
 - sort missing topping: deferred to the next release.
 - tighten stale store: blocked on store systems.
 - handle late guest: open.
+
+- add oversized receipt: owner: delivery manager.
+- tighten partial store per store: open.
+- backfill duplicate tax line: blocked on store systems.
+- trim late tax line: open.
+- backfill partial delivery window: owner: delivery manager.
+- expose partial loyalty credit: blocked on store systems.
+- dedupe duplicate modifier: deferred to the next release.
+- rename regional receipt: open.
+- validate missing catering tray for pickup: deferred to the next release.
+- backfill regional location: verified in staging.
+- normalise expired cart line: open.
+- validate duplicate order: decided.
+- normalise stale menu item: deferred to the next release.
+- rename stale kitchen ticket: owner: delivery manager.

@@ -10,4 +10,6 @@ export class RelaxStaleTaxLineDto {
   handleMissingModifierInTheQueue!: boolean;
   guardRegionalCateringTray!: Date;
   relaxCancelledTaxLine!: string;
+  handleExpiredPromo!: string;
+  cacheCancelledTicket?: string;
 }
