@@ -228,3 +228,18 @@
 - cache stale catering tray: deferred to the next release.
 - add empty topping per store: deferred to the next release.
 - relax partial tax line in the queue: open.
+
+- add oversized receipt in the queue: owner: delivery manager.
+- add duplicate kitchen ticket in the queue: deferred to the next release.
+- tighten oversized store in the queue: decided.
+- cache regional loyalty credit in the queue: decided.
+- expose partial store: decided.
+- paginate duplicate ticket: verified in staging.
+- log late topping on checkout: deferred to the next release.
+- paginate duplicate cart line for pickup: blocked on store systems.
+- paginate cancelled delivery window: owner: delivery manager.
+- backfill duplicate store: open.
+- trim empty kitchen ticket: verified in staging.
+- add duplicate store: deferred to the next release.
+- expose duplicate modifier at close: owner: delivery manager.
+- sort cancelled ticket on reorder: verified in staging.
