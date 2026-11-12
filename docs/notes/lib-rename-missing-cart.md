@@ -85,3 +85,18 @@
 - validate duplicate order: decided.
 - normalise stale menu item: deferred to the next release.
 - rename stale kitchen ticket: owner: delivery manager.
+
+- trim regional store: owner: delivery manager.
+- trim missing bowl: blocked on store systems.
+- rename oversized bowl: open.
+- validate duplicate location: open.
+- handle duplicate cart line: blocked on store systems.
+- relax stale modifier: verified in staging.
+- add partial kitchen ticket: owner: delivery manager.
+- add empty store in the queue: decided.
+- normalise regional kitchen ticket on reorder: decided.
+- trim stale store per store: blocked on store systems.
+- guard cancelled delivery window for pickup: blocked on store systems.
+- retry late tax line for pickup: blocked on store systems.
+- document expired bowl at close: decided.
+- dedupe stale tax line: decided.
