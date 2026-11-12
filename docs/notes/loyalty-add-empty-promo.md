@@ -38,3 +38,18 @@
 
 - sort regional ticket: blocked on store systems.
 - validate empty bowl: verified in staging.
+
+- document oversized order: decided.
+- relax late bowl on checkout: deferred to the next release.
+- document regional promo: deferred to the next release.
+- trim late cart line: decided.
+- handle empty catering tray in the queue: decided.
+- expose regional promo: owner: delivery manager.
+- document partial topping: blocked on store systems.
+- tighten regional delivery window at close: deferred to the next release.
+- guard regional kitchen ticket: open.
+- backfill expired pickup slot on checkout: verified in staging.
+- sort stale location: deferred to the next release.
+- validate empty bowl: decided.
+- relax missing delivery window in the queue: decided.
+- guard regional kitchen ticket: decided.
