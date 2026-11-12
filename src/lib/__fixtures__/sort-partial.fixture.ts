@@ -378,4 +378,40 @@ export const SortPartialReceiptRows = [
     label: 'backfill empty bowl',
     quantity: 12,
   },
+  {
+    id: 'lib-3907',
+    store: '324',
+    label: 'dedupe duplicate location',
+    quantity: 2,
+  },
+  {
+    id: 'lib-8952',
+    store: '484',
+    label: 'normalise duplicate promo',
+    quantity: 1,
+  },
+  {
+    id: 'lib-3785',
+    store: '536',
+    label: 'cache partial order',
+    quantity: 3,
+  },
+  {
+    id: 'lib-7051',
+    store: '104',
+    label: 'expose expired catering tray',
+    quantity: 8,
+  },
+  {
+    id: 'lib-4528',
+    store: '195',
+    label: 'tighten late tax line on reorder',
+    quantity: 7,
+  },
+  {
+    id: 'lib-8916',
+    store: '378',
+    label: 'guard duplicate loyalty credit',
+    quantity: 5,
+  },
 ];
