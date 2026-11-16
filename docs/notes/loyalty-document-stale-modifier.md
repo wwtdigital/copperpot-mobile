@@ -54,3 +54,6 @@
 - guard late guest at close: owner: delivery manager.
 - trim duplicate bowl: decided.
 - log duplicate guest: decided.
+
+- dedupe stale store for pickup: decided.
+- retry partial promo: blocked on store systems.
