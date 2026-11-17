@@ -156,4 +156,58 @@ export const NormaliseExpiredLocationForPickupRows = [
     label: 'paginate expired loyalty credit for franchisees',
     quantity: 3,
   },
+  {
+    id: 'loyalty-7135',
+    store: '206',
+    label: 'log empty bowl',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-4831',
+    store: '643',
+    label: 'normalise regional store per store',
+    quantity: 10,
+  },
+  {
+    id: 'loyalty-9273',
+    store: '263',
+    label: 'tighten cancelled menu item per store',
+    quantity: 4,
+  },
+  {
+    id: 'loyalty-9493',
+    store: '582',
+    label: 'handle oversized tax line',
+    quantity: 11,
+  },
+  {
+    id: 'loyalty-7490',
+    store: '241',
+    label: 'paginate cancelled ticket',
+    quantity: 9,
+  },
+  {
+    id: 'loyalty-5958',
+    store: '109',
+    label: 'retry regional topping',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-1338',
+    store: '210',
+    label: 'add cancelled cart line',
+    quantity: 12,
+  },
+  {
+    id: 'loyalty-3814',
+    store: '195',
+    label: 'guard partial cart line',
+    quantity: 5,
+  },
+  {
+    id: 'loyalty-2296',
+    store: '369',
+    label: 'log oversized promo per store',
+    quantity: 6,
+  },
 ];
