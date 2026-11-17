@@ -175,3 +175,5 @@
 - retry late bowl: decided.
 - paginate expired ticket at close: deferred to the next release.
 - backfill missing guest: verified in staging.
+
+- validate stale guest: decided.
