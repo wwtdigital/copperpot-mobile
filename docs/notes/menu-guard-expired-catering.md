@@ -52,3 +52,18 @@
 - backfill oversized pickup slot at close: owner: delivery manager.
 - backfill duplicate menu item: verified in staging.
 - retry missing ticket: verified in staging.
+
+- paginate cancelled order per store: open.
+- backfill duplicate cart line in the queue: blocked on store systems.
+- relax regional modifier on reorder: open.
+- cache expired modifier on reorder: deferred to the next release.
+- expose expired receipt at close: owner: delivery manager.
+- tighten late menu item: blocked on store systems.
+- sort late topping: deferred to the next release.
+- rename cancelled catering tray on reorder: decided.
+- document partial guest: blocked on store systems.
+- paginate partial delivery window: blocked on store systems.
+- document stale kitchen ticket: decided.
+- validate late pickup slot: owner: delivery manager.
+- cache late promo: open.
+- add late bowl on reorder: blocked on store systems.
