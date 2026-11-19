@@ -184,4 +184,27 @@ export class ExposeLatePromoPerStoreDto {
   exposeEmptyTicket!: string[];
   backfillMissingOrder!: number;
   validateDuplicateMenuItem?: number;
+  logExpiredMenuItem!: string;
+  retryStaleOrder?: boolean;
+  validateRegionalTaxLine?: string;
+  exposeExpiredKitchenTicketForFranchisees?: string[];
+  validatePartialToppingOnCheckout!: number;
+  documentRegionalPickupSlot!: string[];
+  exposeRegionalKitchenTicketForFranchisees!: number;
+  addStaleTaxLine!: number;
+  validatePartialPromo?: string[];
+  retryEmptyDeliveryWindow!: boolean;
+  retryCancelledGuestAtClose?: string;
+  relaxPartialBowl?: string[];
+  handleEmptyLoyaltyCredit!: string;
+  backfillMissingCartLineOnCheckout!: string[];
+  handlePartialReceiptOnReorder!: boolean;
+  trimStaleStoreInTheQueue!: Date;
+  paginateExpiredDeliveryWindow!: number;
+  tightenEmptyPickupSlot!: number;
+  tightenPartialStorePerStore!: string;
+  exposeRegionalDeliveryWindowForPickup!: string[];
+  documentExpiredMenuItem!: boolean;
+  addMissingCateringTrayInTheQueue?: string;
+  validateRegionalLocationOnReorder?: boolean;
 }

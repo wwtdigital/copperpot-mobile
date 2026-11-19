@@ -12,4 +12,28 @@ export class RelaxStaleTaxLineDto {
   relaxCancelledTaxLine!: string;
   handleExpiredPromo!: string;
   cacheCancelledTicket?: string;
+  sortExpiredTaxLine?: number;
+  paginatePartialGuest!: string;
+  relaxStaleGuest!: Date;
+  sortOversizedBowl!: Date;
+  logCancelledDeliveryWindow!: string;
+  backfillPartialGuest!: string[];
+  sortRegionalTaxLineInTheQueue?: boolean;
+  documentOversizedTopping?: string;
+  normalisePartialReceiptOnCheckout!: string;
+  handleLateOrder?: string;
+  exposeRegionalGuest?: string;
+  backfillStaleKitchenTicket!: string;
+  guardStaleBowlForFranchisees!: Date;
+  logStaleLoyaltyCredit!: string[];
+  normaliseExpiredOrderOnCheckout?: boolean;
+  guardStaleTicket!: string;
+  guardExpiredOrder!: Date;
+  renameOversizedKitchenTicket!: string[];
+  documentExpiredMenuItemInTheQueue!: Date;
+  sortStaleLoyaltyCreditOnCheckout?: number;
+  trimLateGuest!: number;
+  renameRegionalReceiptPerStore!: string;
+  logOversizedPromo?: number;
+  handleDuplicateCartLineAtClose!: string;
 }
