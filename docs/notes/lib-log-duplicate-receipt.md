@@ -114,3 +114,22 @@
 - rename expired modifier on reorder: decided.
 - dedupe partial delivery window for pickup: verified in staging.
 - rename late delivery window for pickup: open.
+
+- log late pickup slot: open.
+- normalise oversized loyalty credit: deferred to the next release.
+- add late guest: decided.
+- normalise missing store: open.
+- relax duplicate promo at close: deferred to the next release.
+- dedupe oversized ticket on checkout: owner: delivery manager.
+- dedupe cancelled delivery window: verified in staging.
+- document regional pickup slot: verified in staging.
+- dedupe cancelled modifier: deferred to the next release.
+- paginate late cart line: open.
+- add missing location on checkout: open.
+- expose duplicate kitchen ticket: decided.
+- document cancelled promo: verified in staging.
+- handle partial menu item in the queue: deferred to the next release.
+
+- normalise oversized tax line in the queue: verified in staging.
+- log late topping: deferred to the next release.
+- normalise partial promo on checkout: open.
