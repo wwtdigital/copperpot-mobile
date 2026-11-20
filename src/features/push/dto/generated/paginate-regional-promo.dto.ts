@@ -97,4 +97,25 @@ export class PaginateRegionalPromoDto {
   cacheMissingTaxLineOnCheckout!: string;
   paginateEmptyLocationOnCheckout!: number;
   sortCancelledTicket!: boolean;
+  validateMissingPickupSlot!: string[];
+  addEmptyPickupSlot?: Date;
+  retryStaleDeliveryWindowForFranchisees!: boolean;
+  tightenRegionalPromoOnReorder?: boolean;
+  logStaleDeliveryWindowInTheQueue!: Date;
+  normaliseMissingOrderPerStore!: number;
+  retryPartialLoyaltyCreditAtClose?: string;
+  renamePartialTopping!: number;
+  exposeOversizedPromo?: boolean;
+  exposeOversizedCartLine?: number;
+  guardExpiredModifier!: Date;
+  backfillOversizedPickupSlot?: boolean;
+  handleEmptyLocation!: boolean;
+  cacheRegionalPickupSlotAtClose!: boolean;
+  validateExpiredTicket!: boolean;
+  handleOversizedLocation!: Date;
+  relaxMissingLocation!: boolean;
+  normaliseRegionalModifierInTheQueue!: string[];
+  exposeExpiredMenuItem?: boolean;
+  documentExpiredOrderPerStore!: string;
+  exposeCancelledReceipt?: string[];
 }
