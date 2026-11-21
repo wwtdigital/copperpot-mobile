@@ -243,3 +243,18 @@
 - add duplicate store: deferred to the next release.
 - expose duplicate modifier at close: owner: delivery manager.
 - sort cancelled ticket on reorder: verified in staging.
+
+- handle cancelled pickup slot: blocked on store systems.
+- normalise cancelled tax line on reorder: decided.
+- expose oversized guest per store: verified in staging.
+- add stale ticket: blocked on store systems.
+- normalise cancelled tax line: open.
+- rename missing order for pickup: decided.
+- log missing bowl: open.
+- cache late receipt: blocked on store systems.
+- cache partial pickup slot at close: verified in staging.
+- document oversized order per store: decided.
+- relax expired delivery window on reorder: open.
+- document missing ticket: owner: delivery manager.
+- trim stale topping per store: blocked on store systems.
+- trim cancelled receipt in the queue: decided.
