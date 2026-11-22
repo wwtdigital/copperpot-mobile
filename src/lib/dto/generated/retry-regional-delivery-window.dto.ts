@@ -64,4 +64,28 @@ export class RetryRegionalDeliveryWindowDto {
   trimStaleLoyaltyCreditOnReorder!: number;
   addDuplicateKitchenTicketForPickup!: Date;
   trimRegionalModifierInTheQueue?: Date;
+  logMissingBowlForPickup?: number;
+  renameExpiredDeliveryWindow!: Date;
+  dedupeRegionalMenuItem?: number;
+  validateEmptyGuestOnReorder?: Date;
+  relaxPartialTaxLine!: boolean;
+  documentRegionalCateringTray!: number;
+  sortEmptyKitchenTicket!: Date;
+  exposeRegionalPromoOnCheckout?: string[];
+  normaliseOversizedStore!: string[];
+  sortExpiredLocation?: boolean;
+  dedupePartialPromo!: number;
+  dedupeDuplicateTicket!: string;
+  guardDuplicateTopping!: string;
+  dedupePartialTopping!: string;
+  documentDuplicatePickupSlot!: number;
+  handleExpiredReceipt!: string[];
+  normaliseCancelledModifierPerStore!: Date;
+  documentOversizedGuest!: string[];
+  addMissingBowl!: boolean;
+  guardCancelledDeliveryWindow!: string;
+  cacheEmptyOrder?: Date;
+  backfillExpiredToppingForFranchisees!: string;
+  cacheOversizedModifierForFranchisees?: string;
+  dedupeDuplicateCartLine?: string;
 }

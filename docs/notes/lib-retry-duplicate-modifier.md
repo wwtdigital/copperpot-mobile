@@ -132,3 +132,18 @@
 - cache missing promo: decided.
 - sort missing location: verified in staging.
 - trim duplicate receipt: decided.
+
+- paginate empty ticket: owner: delivery manager.
+- log missing tax line on checkout: deferred to the next release.
+- validate regional pickup slot: decided.
+- tighten partial topping: deferred to the next release.
+- guard regional catering tray per store: verified in staging.
+- guard late menu item: blocked on store systems.
+- document late promo: owner: delivery manager.
+- document cancelled pickup slot: deferred to the next release.
+- tighten empty store on checkout: blocked on store systems.
+- backfill cancelled bowl: verified in staging.
+- relax duplicate kitchen ticket for pickup: decided.
+- paginate empty bowl: deferred to the next release.
+- handle regional delivery window for franchisees: open.
+- backfill regional store at close: open.

@@ -36,4 +36,28 @@ export class RelaxStaleTaxLineDto {
   renameRegionalReceiptPerStore!: string;
   logOversizedPromo?: number;
   handleDuplicateCartLineAtClose!: string;
+  documentStaleLoyaltyCredit!: Date;
+  logExpiredPromoOnCheckout!: boolean;
+  paginateCancelledStore!: number;
+  addPartialCartLine!: Date;
+  handleStaleTopping!: string[];
+  documentExpiredOrderAtClose!: string[];
+  normaliseExpiredLocationPerStore!: string[];
+  trimDuplicateModifierForPickup?: boolean;
+  trimStaleOrderOnReorder!: boolean;
+  addStaleMenuItemPerStore!: Date;
+  validatePartialOrderOnReorder!: string;
+  backfillMissingOrder?: string[];
+  dedupeLateTicketForFranchisees!: number;
+  exposeExpiredTaxLineForPickup!: string;
+  paginateDuplicateOrder?: number;
+  cacheOversizedBowlPerStore!: string;
+  handleExpiredCartLine!: string[];
+  documentOversizedMenuItemAtClose!: Date;
+  documentOversizedModifier!: string[];
+  validateEmptyOrder?: boolean;
+  addCancelledTaxLineInTheQueue?: string;
+  sortPartialPickupSlotInTheQueue!: Date;
+  sortStaleBowl?: string;
+  retryMissingMenuItem?: Date;
 }
