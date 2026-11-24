@@ -20,4 +20,27 @@ export class GuardMissingCateringTrayOnReorderDto {
   retryEmptyModifier!: number;
   renameExpiredBowl!: boolean;
   backfillEmptyModifierForFranchisees!: boolean;
+  dedupeOversizedPickupSlotInTheQueue!: number;
+  cachePartialLocation?: Date;
+  normalisePartialTaxLine!: boolean;
+  logLateStore!: string[];
+  trimMissingGuestOnCheckout!: boolean;
+  backfillEmptyStore!: string[];
+  tightenPartialPromoForPickup?: boolean;
+  relaxStaleTicket?: string;
+  relaxStaleTopping?: Date;
+  retryDuplicateBowl?: string;
+  normaliseStaleOrder?: Date;
+  handleCancelledModifier!: string[];
+  logMissingStore!: string[];
+  guardStaleLoyaltyCredit!: string;
+  retryRegionalGuestPerStore?: string;
+  exposeDuplicateModifierOnReorder!: Date;
+  validateExpiredStoreInTheQueue!: string;
+  trimExpiredBowl!: boolean;
+  renamePartialStore?: number;
+  cachePartialMenuItemForPickup?: string;
+  guardOversizedKitchenTicketAtClose!: string[];
+  dedupeLateTaxLine?: string[];
+  sortPartialLocationPerStore?: boolean;
 }
