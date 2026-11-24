@@ -61,3 +61,18 @@
 - guard missing ticket on reorder: blocked on store systems.
 - tighten oversized modifier: verified in staging.
 - relax oversized loyalty credit: open.
+
+- handle missing order: owner: delivery manager.
+- retry cancelled cart line: owner: delivery manager.
+- relax regional catering tray at close: deferred to the next release.
+- rename late location: decided.
+- log partial kitchen ticket: verified in staging.
+- cache missing bowl: owner: delivery manager.
+- trim cancelled topping: decided.
+- cache partial catering tray: open.
+- validate stale catering tray at close: deferred to the next release.
+- handle missing guest on checkout: deferred to the next release.
+- sort duplicate receipt at close: verified in staging.
+- rename partial menu item in the queue: open.
+- relax expired store for franchisees: verified in staging.
+- cache missing delivery window: owner: delivery manager.
