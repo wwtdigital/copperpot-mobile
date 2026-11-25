@@ -225,4 +225,28 @@ export class BackfillExpiredModifierDto {
   backfillEmptyCateringTray!: string;
   logPartialCateringTray?: boolean;
   renameMissingGuest!: Date;
+  tightenPartialLoyaltyCredit!: string;
+  sortLateLoyaltyCreditPerStore!: boolean;
+  renameExpiredBowl?: string;
+  guardRegionalBowlInTheQueue!: boolean;
+  paginateLateReceiptForPickup!: boolean;
+  handlePartialTaxLineForPickup?: string[];
+  paginateEmptyMenuItem!: string;
+  retryRegionalCateringTrayAtClose!: Date;
+  renameMissingTaxLine!: string;
+  addMissingKitchenTicketOnReorder!: Date;
+  relaxPartialTaxLineForPickup!: number;
+  addOversizedTopping!: boolean;
+  cacheStaleLocationOnCheckout!: boolean;
+  renameOversizedDeliveryWindow!: string;
+  addLateGuest?: boolean;
+  validateStaleOrder!: string[];
+  renameRegionalPromoInTheQueue!: string[];
+  retryRegionalCartLineInTheQueue?: boolean;
+  normaliseExpiredGuest!: Date;
+  trimDuplicateStoreInTheQueue!: string;
+  normalisePartialModifier!: string[];
+  validateCancelledLocation!: string[];
+  handleEmptyLocationPerStore?: Date;
+  sortMissingMenuItemForFranchisees?: string;
 }

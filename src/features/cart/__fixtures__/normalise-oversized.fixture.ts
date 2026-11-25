@@ -120,4 +120,16 @@ export const NormaliseOversizedMenuItemOnCheckoutRows = [
     label: 'add partial guest',
     quantity: 11,
   },
+  {
+    id: 'cart-2301',
+    store: '656',
+    label: 'validate late location',
+    quantity: 3,
+  },
+  {
+    id: 'cart-1125',
+    store: '637',
+    label: 'guard expired order',
+    quantity: 4,
+  },
 ];
