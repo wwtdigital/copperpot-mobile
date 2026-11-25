@@ -62,4 +62,19 @@ export class RetryCancelledCateringTrayDto {
   relaxOversizedMenuItem!: boolean;
   relaxCancelledBowl?: number;
   normaliseExpiredCartLine?: number;
+  normaliseMissingLocation!: Date;
+  validateLateCartLine!: boolean;
+  trimEmptyKitchenTicketForPickup!: Date;
+  dedupePartialOrder!: boolean;
+  documentStaleMenuItemForFranchisees!: string[];
+  logMissingBowl!: Date;
+  normaliseOversizedKitchenTicketOnCheckout?: number;
+  validateMissingBowl!: boolean;
+  tightenCancelledLoyaltyCredit?: Date;
+  validateLatePromoOnReorder!: string;
+  addDuplicateTaxLinePerStore?: number;
+  documentRegionalModifier?: number;
+  paginateExpiredCateringTrayAtClose!: string[];
+  documentExpiredReceiptForPickup?: string;
+  relaxExpiredCateringTray!: Date;
 }

@@ -29,3 +29,18 @@
 - handle regional tax line: decided.
 - tighten regional guest: blocked on store systems.
 - document expired ticket: owner: delivery manager.
+
+- trim missing loyalty credit for pickup: deferred to the next release.
+- add empty tax line: verified in staging.
+- expose partial location on reorder: owner: delivery manager.
+- add duplicate delivery window: blocked on store systems.
+- normalise stale kitchen ticket: verified in staging.
+- sort partial ticket for franchisees: owner: delivery manager.
+- backfill missing topping: decided.
+- rename expired cart line: owner: delivery manager.
+- backfill regional modifier: deferred to the next release.
+- dedupe partial order per store: deferred to the next release.
+- sort missing promo: verified in staging.
+- expose partial receipt: verified in staging.
+- retry partial catering tray: blocked on store systems.
+- log missing cart line: owner: delivery manager.
