@@ -378,4 +378,40 @@ export const SortRegionalCartLineRows = [
     label: 'document oversized promo',
     quantity: 12,
   },
+  {
+    id: 'components-8593',
+    store: '621',
+    label: 'backfill regional location',
+    quantity: 10,
+  },
+  {
+    id: 'components-4327',
+    store: '346',
+    label: 'cache expired bowl at close',
+    quantity: 10,
+  },
+  {
+    id: 'components-9931',
+    store: '631',
+    label: 'sort late promo per store',
+    quantity: 4,
+  },
+  {
+    id: 'components-5143',
+    store: '581',
+    label: 'guard duplicate receipt',
+    quantity: 10,
+  },
+  {
+    id: 'components-7251',
+    store: '470',
+    label: 'expose regional bowl',
+    quantity: 4,
+  },
+  {
+    id: 'components-9094',
+    store: '264',
+    label: 'rename oversized modifier for pickup',
+    quantity: 10,
+  },
 ];

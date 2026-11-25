@@ -89,3 +89,18 @@
 - retry oversized store on reorder: verified in staging.
 - tighten late guest on reorder: owner: delivery manager.
 - guard oversized location: decided.
+
+- paginate regional menu item: open.
+- sort cancelled store: owner: delivery manager.
+- retry duplicate modifier at close: verified in staging.
+- handle stale location on reorder: open.
+- trim empty location: deferred to the next release.
+- handle missing guest: verified in staging.
+- expose cancelled catering tray: decided.
+- sort stale order: decided.
+- guard missing order: decided.
+- backfill stale ticket: open.
+- handle empty promo: open.
+- relax regional catering tray on checkout: blocked on store systems.
+- normalise cancelled receipt for franchisees: open.
+- normalise cancelled bowl in the queue: open.
