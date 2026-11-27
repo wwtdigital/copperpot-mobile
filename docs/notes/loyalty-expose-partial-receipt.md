@@ -76,3 +76,18 @@
 - rename partial menu item in the queue: open.
 - relax expired store for franchisees: verified in staging.
 - cache missing delivery window: owner: delivery manager.
+
+- log cancelled modifier in the queue: deferred to the next release.
+- log duplicate topping: deferred to the next release.
+- relax empty store: owner: delivery manager.
+- paginate late receipt: owner: delivery manager.
+- sort missing cart line: decided.
+- trim expired cart line: owner: delivery manager.
+- sort cancelled guest: owner: delivery manager.
+- retry duplicate topping: deferred to the next release.
+- backfill empty pickup slot: decided.
+- add missing ticket: open.
+- retry expired loyalty credit: open.
+- handle stale order: blocked on store systems.
+- dedupe late catering tray: open.
+- paginate duplicate store at close: verified in staging.
