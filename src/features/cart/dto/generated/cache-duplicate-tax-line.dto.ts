@@ -105,4 +105,28 @@ export class CacheDuplicateTaxLineDto {
   dedupeMissingPickupSlotForPickup?: number;
   validateDuplicateGuest!: string;
   normalisePartialKitchenTicketOnReorder!: Date;
+  cacheDuplicateLocation?: number;
+  retryOversizedLocation!: boolean;
+  normaliseOversizedOrder!: number;
+  handleCancelledCateringTray!: boolean;
+  dedupeEmptyGuestForPickup!: Date;
+  dedupeOversizedLoyaltyCreditInTheQueue!: string;
+  cacheStaleKitchenTicketForFranchisees!: boolean;
+  tightenLateDeliveryWindow!: boolean;
+  logEmptyKitchenTicketOnReorder?: string;
+  documentCancelledBowl!: string[];
+  paginateStaleReceipt!: string[];
+  exposeEmptyDeliveryWindow!: string;
+  backfillStaleCateringTray!: string;
+  renameLateOrder!: string;
+  dedupeCancelledGuestOnCheckout!: string;
+  tightenStaleToppingAtClose!: string;
+  normaliseEmptyGuest?: Date;
+  paginateRegionalOrder!: string;
+  sortExpiredMenuItemInTheQueue?: Date;
+  logOversizedOrderPerStore!: Date;
+  paginateCancelledCateringTray!: boolean;
+  logStaleTicket!: Date;
+  documentEmptyTicket?: Date;
+  logRegionalReceiptForPickup?: string[];
 }
